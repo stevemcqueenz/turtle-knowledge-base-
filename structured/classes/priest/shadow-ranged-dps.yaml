@@ -18,30 +18,67 @@ sources:
   - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272", author: Dragunovi, authority: staff, date: "2026-02-15"}
 agreement: contested
 patch_validity:
-  written_for: "1.17.2/1.18.0 (pre-1.18.1); 1.18.1 staff changes merged"
-  valid_for_1181: unknown
-  notes: "Rotation and stat priority are consensus and unaffected. Talent rows changed in 1.18.1 (Improved Mind Blast row 1, Blackout row 2, Improved Fade reworked row 4, Shadow Reach 2 pts, Shadow Weaving self-buff, Spirit Tap on MB crits); no post-release build posted."
+  written_for: "1.17.2/1.18.0 (pre-1.18.1); 1.18.1 staff changes merged; post-1.18.1 build added from Discord"
+  valid_for_1181: true
+  notes: "Rotation and stat priority are consensus and unaffected. The post-1.18.1 raid shape is 0/20/31 (Spiritual Guidance secondary, Improved Fade 2/2, Shadow Weaving 4/5, Shadow Focus 3/5), documented by Discord screenshots [[d:priest#1465020522923294730]], [[d:priest#1484671489260388393]]. Talent rows changed in 1.18.1 (Improved Mind Blast row 1, Blackout row 2, Improved Fade reworked row 4, Shadow Reach 2 pts, Shadow Weaving self-buff, Spirit Tap on MB crits)."
+discord:
+  channel: priest
+  era_legend: "pre-1.18.1 <2025-10-03 | 1.18.1-announced-pre-release 2025-10-03..2026-03-19 | post-1.18.1 >=2026-03-20 | mixed spans more than one era"
+  sources:
+    - {id: "1465020522923294730", author: Zitronenhaze, date: "2026-01-25", era: 1.18.1-announced-pre-release, agreement: single source, used_for: "'Full Kara40 BiS Talents' spreadsheet 0/20/31 with hit/fade rationale", cite: "[[d:priest#1465020522923294730]]"}
+    - {id: "1484671489260388393", author: Zitronenhaze, date: "2026-03-21", era: post-1.18.1, agreement: single source, used_for: "in-client 0/20/31 screenshot ('talents with scythe'), Shadow Focus 3/5, Imp Fade 2/2, Shadow Weaving 4/5", cite: "[[d:priest#1484671489260388393]]"}
+    - {id: "1430465373366648873", author: Greendam, era: 1.18.1-announced-pre-release, agreement: consensus, used_for: "opener: Shadowform + Inner Fire + PW:S -> VE -> SW:P -> MB -> Mind Flays", cite: "[[d:priest#1430465373366648873]]"}
+    - {id: "1427180667724103781", era: 1.18.1-announced-pre-release, agreement: consensus, used_for: "filler cadence 1 Mind Blast : 2 Mind Flays", cite: "[[d:priest#1427180667724103781]]"}
+    - {id: "1427288804783554610", era: 1.18.1-announced-pre-release, agreement: consensus, used_for: "prioritize Mind Blast; SW:P then 1 MB 2 MF", cite: "[[d:priest#1427288804783554610]]"}
+    - {id: "1362782979625193572", era: pre-1.18.1, agreement: consensus, used_for: "clip Mind Flay at the 2-second mark when a refresh is due", cite: "[[d:priest#1362782979625193572]]"}
+    - {id: "1485255007283581048", author: Zvyrhol, era: post-1.18.1, agreement: consensus, used_for: "Shadow Weaving self-stack rework: stacks live on the priest and apply to every target hit; 5/5 can apply ~6 debuffs at once on a long fight", cite: "[[d:priest#1485255007283581048]]"}
+    - {id: "1484646351974174741", author: irotos, era: post-1.18.1, agreement: consensus, used_for: "Spirit Tap now procs on Mind Blast crits", cite: "[[d:priest#1484646351974174741]]"}
+    - {id: "1370517379498512614", author: DemonBoyJr, era: pre-1.18.1, agreement: consensus, used_for: "SP >> crit >>> cast speed (useless); only Mind Blast/Pain Spike crit; get 6% hit", cite: "[[d:priest#1370517379498512614]]"}
+    - {id: "1325853261898584124", author: limbless, era: pre-1.18.1, agreement: consensus, used_for: "crit is worth ~3 spell power without the T3 6-set Mind Flay proc", cite: "[[d:priest#1325853261898584124]]"}
+    - {id: "1350488074957623348", era: pre-1.18.1, agreement: consensus, used_for: "Mind Flay cannot crit and ignores haste", cite: "[[d:priest#1350488074957623348]]"}
+    - {id: "1361268486277693481", author: (player), era: pre-1.18.1, agreement: consensus, used_for: "T3 6-set Mind Flay proc is logged as Mind Flay crits (why players think Flay crits)", cite: "[[d:priest#1361268486277693481]]"}
+    - {id: "1361325241108004945", author: (player), era: pre-1.18.1, agreement: consensus, used_for: "T3 6-set Mind Flay bonus-proc does benefit and shows as Flay crits", cite: "[[d:priest#1361325241108004945]]"}
+    - {id: "1302758862214008925", era: pre-1.18.1, agreement: consensus, used_for: "at hit cap a level-63 target still has ~6.7% level-based shadow resist on top of the 1% miss", cite: "[[d:priest#1302758862214008925]]"}
+    - {id: "1330315247281508432", author: Fairweather, era: pre-1.18.1, agreement: consensus, used_for: "rough Shadow BiS list (6-set T3, Soulseeker/End of Dreams + offhand, Doomfinger)", cite: "[[d:priest#1330315247281508432]]"}
+    - {id: "1378060113117712454", era: pre-1.18.1, agreement: consensus, used_for: "T3.5 shadow pieces carry shadow power, not general SP, on most slots", cite: "[[d:priest#1378060113117712454]]"}
+    - {id: "1484592947763744908", author: Greendam, era: post-1.18.1, agreement: consensus, used_for: "1.18.1 T3.5 hit problem: enough hit for SW:P or a resist ruins the rotation", cite: "[[d:priest#1484592947763744908]]"}
+    - {id: "1381443790979469312", author: Zitronenhaze, era: pre-1.18.1, agreement: consensus, used_for: "threat math: 3.5k MB crit ~ 7699 threat after Salv", cite: "[[d:priest#1381443790979469312]]"}
+    - {id: "1301815728730804254", era: pre-1.18.1, agreement: single source, used_for: "Patchwerk geared Shadow parse: 851 DPS", cite: "[[d:priest#1301815728730804254]]"}
+    - {id: "1296461377011191870", era: pre-1.18.1, agreement: consensus, used_for: "Loatheb: shadow priests strong, raid shadow damage shines", cite: "[[d:priest#1296461377011191870]]"}
+    - {id: "1302190464266534942", era: pre-1.18.1, agreement: single source, used_for: "Anomalus/Sapphiron/Loatheb damage-type fights", cite: "[[d:priest#1302190464266534942]]"}
+    - {id: "1382588545641746482", era: pre-1.18.1, agreement: single source, used_for: "Shadow priests expected to off-heal on 4HM", cite: "[[d:priest#1382588545641746482]]"}
+    - {id: "1398261511931302059", era: pre-1.18.1, agreement: single source, used_for: "Mind Flay 20-24 yd range forces Shadow off max range on Zeliek/Heigan/KT", cite: "[[d:priest#1398261511931302059]]"}
+  post_1181_build:
+    split: "0/20/31"
+    note: "In full BiS or with Scythe you have enough hit to drop Shadow Focus to 3/5 (or lower), spending the points on Improved Fade 2/2 so you can Fade before every SW:P; with Scythe you can drop another Shadow Focus point for 5/5 Improved Mind Blast."
+    cite: "[[d:priest#1465020522923294730]]"
 talents:
-  build_name: "Raid Shadow 36/15/0 (reconstructed for 1.18.1); variant 31/0/20 for Spiritual Guidance"
+  build_name: "Post-1.18.1 raid Shadow 0/20/31 ('Full Kara40 BiS Talents')"
+  build_source: "[[d:priest#1465020522923294730]], [[d:priest#1484671489260388393]]"
+  era: mixed
+  agreement: "single source (Zitronenhaze spreadsheet + matching in-client screenshot)"
   points:
-    - {tree: Shadow, talent: Improved Mind Blast, rank: 5, spell_id: null}
-    - {tree: Shadow, talent: "Improved Shadow Word: Pain", rank: 2, spell_id: null}
-    - {tree: Shadow, talent: Shadow Focus, rank: 5, spell_id: null}
-    - {tree: Shadow, talent: Mind Flay, rank: 1, spell_id: null}
-    - {tree: Shadow, talent: Improved Fade, rank: 2, spell_id: null}
-    - {tree: Shadow, talent: Shadow Reach, rank: 2, spell_id: null}
-    - {tree: Shadow, talent: Shadow Weaving, rank: 5, spell_id: null}
-    - {tree: Shadow, talent: Vampiric Embrace, rank: 1, spell_id: null}
-    - {tree: Shadow, talent: Vampiric Touch, rank: 2, spell_id: null}
-    - {tree: Shadow, talent: Darkness, rank: 5, spell_id: null}
-    - {tree: Shadow, talent: Shadowform, rank: 1, spell_id: null}
-    - {tree: Discipline, talent: Wand Specialization, rank: 2, spell_id: null}
-    - {tree: Discipline, talent: Silent Resolve, rank: 5, spell_id: null}
-    - {tree: Discipline, talent: "Improved Power Word: Fortitude", rank: 2, spell_id: null}
-    - {tree: Discipline, talent: Improved Inner Fire, rank: 2, spell_id: null}
-    - {tree: Discipline, talent: Meditation, rank: 3, spell_id: null}
-    - {tree: Discipline, talent: Inner Focus, rank: 1, spell_id: null}
-    - {tree: Shadow, talent: "Shadow Affinity (optional 0-3, contested; swap out Improved Fade / Imp. Fortitude)", rank: 0, spell_id: null}
+    - {tree: Shadow, talent: Spirit Tap, rank: 5, spell_id: 15338}
+    - {tree: Shadow, talent: Improved Mind Blast, rank: 5, spell_id: 15316}
+    - {tree: Shadow, talent: "Improved Shadow Word: Pain", rank: 2, spell_id: 15317}
+    - {tree: Shadow, talent: Shadow Focus, rank: 3, spell_id: 15328}
+    - {tree: Shadow, talent: Improved Fade, rank: 2, spell_id: 15311}
+    - {tree: Shadow, talent: Mind Flay, rank: 1, spell_id: 15407}
+    - {tree: Shadow, talent: Shadow Weaving, rank: 4, spell_id: 15333}
+    - {tree: Shadow, talent: Vampiric Embrace, rank: 1, spell_id: 15286}
+    - {tree: Shadow, talent: Vampiric Touch, rank: 2, spell_id: 45558}
+    - {tree: Shadow, talent: Darkness, rank: 5, spell_id: 15310}
+    - {tree: Shadow, talent: Shadowform, rank: 1, spell_id: 15473}
+    - {tree: Holy, talent: Holy Focus, rank: 1, spell_id: 14913}
+    - {tree: Holy, talent: Divinity, rank: 5, spell_id: 15011}
+    - {tree: Holy, talent: Divine Fury, rank: 3, spell_id: 18533}
+    - {tree: Holy, talent: Holy Reach, rank: 2, spell_id: 27790}
+    - {tree: Holy, talent: Blessed Recovery, rank: 3, spell_id: 27816}
+    - {tree: Holy, talent: Holy Nova, rank: 1, spell_id: 15237}
+    - {tree: Holy, talent: Spiritual Guidance, rank: 5, spell_id: 15031}
+  variants:
+    - {name: "Raid Shadow 36/15/0 (reconstructed for 1.18.1); Disc-secondary", status: "superseded for 1.18.1 by 0/20/31; the most-repeated decoded pre-1.18.1 shape was 14/0/37 (Disc secondary) and 16/0/35", cite: "[[d:priest#1389476140011491378]]"}
+    - {name: "Shadow 31 / Holy 20 / Disc 0 with Spiritual Guidance secondary", status: "the post-1.18.1 shape above; Spiritual Guidance is the secondary tree, not Discipline", cite: "[[d:priest#1484671489260388393]]"}
   leveling_order:
     - {level: 10, tree: Discipline, talent: Wand Specialization}
     - {level: 12, tree: Shadow, talent: Spirit Tap}
@@ -61,32 +98,74 @@ stat_weights:
   intellect: 3
   spell_crit: 4
   spirit: 5
+  priority: "spell power >> crit >>> haste/cast speed (useless); spell hit to 16% vs bosses = 6% from gear with Shadow Focus 10%"
+  notes:
+    - "Mind Flay cannot crit and ignores haste; only Mind Blast (and Pain Spike) crit, ~15% of DPS."
+    - "crit is worth ~3 spell power without the T3 6-set Mind Flay proc."
+    - "The T3 6-set Mind Flay bonus-proc CAN crit and is logged as Mind Flay crits (why players think Flay crits)."
+    - "At hit cap a level-63 target still has ~6.7% level-based shadow resist on top of the 1% miss."
+  sources: ["[[d:priest#1370517379498512614]]", "[[d:priest#1325853261898584124]]", "[[d:priest#1350488074957623348]]", "[[d:priest#1361268486277693481]]", "[[d:priest#1361325241108004945]]", "[[d:priest#1302758862214008925]]"]
+  era: pre-1.18.1
+  agreement: consensus
 caps:
   spell_hit_boss_pct: 16
   spell_hit_from_gear_pct: 6
   spell_hit_talent_pct: 10
   max_hit_chance_pct: 99
+  mind_flay_range: "20 yd base, 24 with 2/2 Shadow Reach (post-1.18.1)"
+  haste: "no effect on Mind Flay"
+  level_based_shadow_resist_pct: 6.7
 rotation_single:
-  - {priority: 1, action: "Shadow Word: Pain", condition: "not on target or < 3 s remaining"}
-  - {priority: 2, action: "Vampiric Embrace", condition: "missing and target expected to live > 15 s (bosses); never on Nefarian"}
-  - {priority: 3, action: "Mind Blast", condition: "off cooldown AND threat below tank (hold ~10 s after pull)"}
-  - {priority: 4, action: "Mind Flay", condition: "filler; within 20-24 yd; channel to completion"}
-  - {priority: 5, action: "Pain Spike", condition: "target will die within 5 s (30 s CD)"}
-  - {priority: 6, action: "Devouring Plague (Undead)", condition: "once per boss if mana allows"}
-  - {priority: 7, action: "Shadow Word: Pain + Mind Flay only", condition: "mana low: skip Mind Blast"}
-  - {priority: 8, action: "melee swing between Mind Flays", condition: "optional; in melee range and safe (~3% DPS)"}
+  - {priority: 1, action: "Opener: Shadowform + Inner Fire + PW:S -> Vampiric Embrace -> Shadow Word: Pain -> Mind Blast -> Mind Flays", condition: "boss opener; open with SW:P + VE to give the tank room", source: "[[d:priest#1430465373366648873]]", era: 1.18.1-announced-pre-release, agreement: consensus}
+  - {priority: 2, action: "Shadow Word: Pain", condition: "not on target or < 3 s remaining"}
+  - {priority: 3, action: "Vampiric Embrace", condition: "missing and target expected to live > 15 s (bosses); never on Nefarian"}
+  - {priority: 4, action: "Mind Blast", condition: "off cooldown AND threat below tank (hold ~10 s after pull); filler cadence is 1 Mind Blast : 2 Mind Flays (6 s MB CD = 4 GCDs = 2 Flays)", source: "[[d:priest#1427180667724103781]], [[d:priest#1427288804783554610]]", era: 1.18.1-announced-pre-release, agreement: consensus}
+  - {priority: 5, action: "Mind Flay", condition: "filler; within 20-24 yd; channel to completion; clip at the 2-second mark when an SW:P refresh is due", source: "[[d:priest#1362782979625193572]]", era: pre-1.18.1, agreement: consensus}
+  - {priority: 6, action: "Pain Spike", condition: "target will die within 5 s (30 s CD)"}
+  - {priority: 7, action: "Devouring Plague (Undead)", condition: "once per boss if mana allows"}
+  - {priority: 8, action: "Shadow Word: Pain + Mind Flay only", condition: "mana low: skip Mind Blast"}
+  - {priority: 9, action: "melee swing between Mind Flays", condition: "optional; in melee range and safe (~3% DPS)"}
+shadow_weaving:
+  note: "Post-1.18.1 stacks live on the priest and apply to every target hit; 5/5 applies ~6 debuffs at once on a long fight, and stacks carry between targets (they fall off between open-world packs). Duration 9 s vs 15 s was reported as unresolved."
+  sources: ["[[d:priest#1485255007283581048]]", "[[d:priest#1484726495568986112]]"]
+  era: post-1.18.1
+  agreement: consensus on mechanics; duration contested
 rotation_aoe:
   - {targets_min: 2, priority: 1, action: "Shadow Word: Pain on each target (tab)", condition: "targets live > 12 s; mana ok"}
   - {targets_min: 2, priority: 2, action: "Mind Flay / Mind Blast on kill target", condition: "always"}
   - {targets_min: 4, priority: 1, action: "single-target the skull; Power Word: Shield casters", condition: "no Holy Nova talented"}
   - {targets_min: 4, priority: 2, action: "Holy Nova (self-damage in Shadowform)", condition: "only if 10 Holy points spent and mana to spare"}
 aoe_threshold: 3
+gear:
+  items:
+    - "6-set T3 is the core; weapons Soulseeker or End of Dreams/Midnight Haze + AV/Saph offhand; wand Doomfinger."
+    - "Rough BiS list: T3 head/chest/bracers/gloves/legs/boots, Choker of the Emerald Lord, Rime Covered Mantle, Cloak of the Devoured, Eyestalk Waist Cord, Band of the Inevitable, Ring of the Fallen God, Restrained Essence of Sapphiron, Phylactery/Tear, Soulseeker, Doomfinger."
+    - "T3.5 shadow pieces carry shadow power, not general SP, on most slots; T3.5 3-set re-applies SW:P."
+    - "1.18.1 T3.5 hit concern: enough hit required for SW:P or a resist ruins the rotation."
+  sources: ["[[d:priest#1330315247281508432]]", "[[d:priest#1378060113117712454]]", "[[d:priest#1484592947763744908]]"]
+  era: mixed
+  agreement: consensus
+boss_notes:
+  - {boss: Loatheb, note: "Shadow priests are strong; raid shadow damage shines.", sources: ["[[d:priest#1296461377011191870]]"], era: pre-1.18.1, agreement: consensus}
+  - {boss: Patchwerk, note: "Geared Shadow priest reported 851 DPS.", sources: ["[[d:priest#1301815728730804254]]"], era: pre-1.18.1, agreement: single source}
+  - {boss: "Loatheb / Sapphiron / Anomalus (Kara40)", note: "Fights where shadow damage type shines.", sources: ["[[d:priest#1302190464266534942]]"], era: pre-1.18.1, agreement: single source}
+  - {boss: "Nefarian / Kel'Thuzad (adds)", note: "Spirit Tap is valuable on add fights; VE on Nefarian can kill the group during the priest class call.", sources: ["[[d:priest#1290678653562126479]]"], era: pre-1.18.1, agreement: consensus}
+  - {boss: Viscidus, note: "Good shadow damage-type fight.", sources: ["[[d:priest#1302260101272436899]]"], era: pre-1.18.1, agreement: consensus}
+  - {boss: FourHorsemen, note: "Shadow priests are expected to off-heal.", sources: ["[[d:priest#1382588545641746482]]"], era: pre-1.18.1, agreement: single source}
+  - {boss: "Zeliek / Heigan / Kel'Thuzad", note: "Mind Flay 20-24 yd range forces Shadow off max range.", sources: ["[[d:priest#1398261511931302059]]"], era: pre-1.18.1, agreement: single source}
+threat_notes:
+  items:
+    - "A 3.5k Mind Blast crit is ~7699 threat after Salvation [[d:priest#1381443790979469312]]."
+    - "Run a threat meter; delay Mind Blast on pull; take Silent Resolve / Shadow Affinity and Improved Fade."
+  sources: ["[[d:priest#1381443790979469312]]"]
+  era: pre-1.18.1
+  agreement: consensus
 cooldowns:
   - {name: Vampiric Embrace, use_when: "every boss opener; not on Nefarian; not on short trash"}
   - {name: Inner Focus, use_when: "free Mind Blast on cooldown, or emergency heal out of form"}
-  - {name: Fade, use_when: "threat meter near tank (-15% total threat + Improved Fade retention in 1.18.1)"}
+  - {name: Fade, use_when: "threat meter near tank (-15% total threat + Improved Fade retention in 1.18.1); post-1.18.1 2/2 Improved Fade lets you Fade before every SW:P", source: "[[d:priest#1465020522923294730]]", era: 1.18.1-announced-pre-release, agreement: single source}
   - {name: "Power Word: Shield (self)", use_when: "before AoE/pushback phases (castable in Shadowform)"}
-  - {name: Pain Spike, use_when: "execute / killing-blow fishing for Spirit Tap"}
+  - {name: Pain Spike, use_when: "execute / killing-blow fishing for Spirit Tap (now also procs on Mind Blast crits)", source: "[[d:priest#1484646351974174741]]", era: post-1.18.1, agreement: consensus}
   - {name: Berserking (Troll), use_when: "burst windows"}
 resource_rules:
   - "Demonic Rune at ~1500 mana below max, Major Mana Potion at ~2500 below max, then on cooldown"
@@ -110,7 +189,8 @@ mistakes_to_avoid:
   - "Mind Blast on pull or with fresh tank (170% threat multiplier + VE heal threat)"
   - "Vampiric Embrace on Nefarian or on short-lived trash"
   - "Standing at 30+ yd (Mind Flay 20-24 yd)"
-  - "Clipping Mind Flay to Mind Blast without Improved Mind Blast"
+  - "Clipping Mind Flay to Mind Blast without Improved Mind Blast; clip at the 2-second mark instead"
   - "Skipping hit gear or chasing tier set bonuses (T2 bonuses useless)"
+  - "Stacking crit/haste on Shadow: Mind Flay cannot crit and ignores haste; crit ~3 SP without T3 6-set"
   - "Using Shadow Mend instead of leaving form to heal (pre-1.18.0 advice)"
   - "Forgetting Holy Nova damages you in Shadowform"

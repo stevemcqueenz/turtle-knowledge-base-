@@ -34,27 +34,34 @@ patch_validity:
 talents:
   build_name: "post-CC2 suggestion: Death Wish + Improved Shield Slam (allocation not given)"
   points:
-    - {tree: Fury, talent: Death Wish, rank: 1, spell_id: null}
-    - {tree: Fury, talent: Cruelty, rank: 5, spell_id: null}
-    - {tree: Fury, talent: Enrage, rank: 5, spell_id: null}
-    - {tree: Fury, talent: Flurry, rank: 5, spell_id: null}
-    - {tree: Fury, talent: Improved Execute, rank: 2, spell_id: null}
-    - {tree: Fury, talent: Dual Wield Specialization, rank: 5, spell_id: null, note: "only if actually dual wielding"}
+    - {tree: Fury, talent: Death Wish, rank: 1, spell_id: 12328}
+    - {tree: Fury, talent: Cruelty, rank: 5, spell_id: 12856}
+    - {tree: Fury, talent: Enrage, rank: 5, spell_id: 13048}
+    - {tree: Fury, talent: Flurry, rank: 5, spell_id: 12974}
+    - {tree: Fury, talent: Improved Execute, rank: 2, spell_id: 20503}
+    - {tree: Fury, talent: Dual Wield Specialization, rank: 5, spell_id: 23588, note: "only if actually dual wielding"}
     - {tree: Fury, talent: Improved Cleave, rank: null, spell_id: null, note: "named as a threat talent (Xudo 2023)"}
-    - {tree: Fury, talent: Bloodthirst, rank: 1, spell_id: null, note: "if 31 Fury; Atreidon reports BT tanks failing post-CC2"}
-    - {tree: Protection, talent: Shield Slam, rank: 1, spell_id: null}
-    - {tree: Protection, talent: Improved Shield Slam, rank: 2, spell_id: null}
-    - {tree: Protection, talent: Defiance, rank: 5, spell_id: null, note: "not stated for the hybrid; assumed by no source — gap"}
+    - {tree: Fury, talent: Bloodthirst, rank: 1, spell_id: 23881, note: "if 31 Fury; Atreidon reports BT tanks failing post-CC2"}
+    - {tree: Protection, talent: Shield Slam, rank: 1, spell_id: 23922}
+    - {tree: Protection, talent: Improved Shield Slam, rank: 2, spell_id: 51599}
+    - {tree: Protection, talent: Defiance, rank: 5, spell_id: 12792, note: "not stated for the hybrid; assumed by no source — gap"}
   historical:
     - {name: "31/20 (pre-CC2)", source: "Xronisf79 p=89968", note: "tree order not stated"}
     - {name: "vanilla classicdb LZVVzIMxoVoE00ox", source: "Xudo p=170985", note: "vanilla baseline; Improved Shield Block no longer exists"}
   leveling_order: []
-stat_weights: null
+stat_weights:
+  # No numeric weights from a guide writer; this is the Discord qualitative order.
+  - {stat: hit, verdict: "fury-prot 'basically just want 1h hit cap'; never miss the opener", sources: ["[[d:warrior#1441252441004703905]]", "[[d:warrior#1484717088315670750]]"], agreement: consensus, era: mixed}
+  - {stat: crit/agility, verdict: "threat stat; agi also gives armor/dodge", sources: ["[[d:warrior#1428801642077229220]]", "[[d:warrior#1433037675350200380]]"], agreement: consensus, era: 1.18.1-announced-pre-release}
+  - {stat: strength/attack-power, verdict: "second; more valuable with existing crit", sources: ["[[d:warrior#1428796660321882112]]"], agreement: consensus, era: 1.18.1-announced-pre-release}
+  - {stat: stamina, verdict: "the survival stat for a shieldless build", sources: ["[[d:warrior#1440378255743123558]]"], agreement: consensus, era: 1.18.1-announced-pre-release}
+  - {stat: defense, verdict: "avoided on threat gear; Shield Block imitates the crit cap", sources: ["[[d:warrior#1492251922600558612]]"], agreement: consensus, era: post-1.18.1}
 stat_priority: [hit, weapon-skill, crit, agility, stamina, armor, defense]
 caps:
   hit_boss_pct: 9
   dw_white_miss_before_hit_pct: 24
   defense: null
+  weapon_skill_cap: 315   # [[d:warrior#1485500872829177918]] single source, shared with the DPS specs
 rotation_single:
   - {priority: 0, action: "Charge/Intercept -> Bloodrage -> (Death Wish if healers agree)", condition: "opener"}
   - {priority: 1, action: Sunder Armor, condition: "until 5 stacks"}
@@ -63,6 +70,8 @@ rotation_single:
   - {priority: 4, action: Revenge, condition: "Defensive Stance and available"}
   - {priority: 5, action: Execute, condition: "target <= 20%"}
   - {priority: 6, action: "equip shield + Shield Slam/Shield Block", condition: "once threat lead is safe or boss hits hard"}
+  - {priority: 7, action: "Post-1.18.1 tanks skip Bloodthirst/Flurry to afford Defensive Tactics + Shield Slam", condition: "fury-prot post-1.18.1", sources: ["[[d:warrior#1484586303562579978]]", "[[d:warrior#1487143734452949093]]"], agreement: consensus, era: post-1.18.1}
+  - {priority: 8, action: "Concussion Blow -> Shield Slam as the first GCDs of the opener; Heroic Strike if rage allows", condition: "pull", sources: ["[[d:warrior#1457123304996470917]]"], agreement: consensus, era: 1.18.1-announced-pre-release}
 rotation_aoe:
   - {targets_min: 2, priority: 1, action: Cleave, condition: "with Improved Cleave"}
   - {targets_min: 2, priority: 2, action: Sunder Armor, condition: "tab"}
@@ -75,13 +84,37 @@ cooldowns:
   - {name: Bloodrage, use_when: "on cooldown; activates Enrage"}
   - {name: Berserker Rage, use_when: "fear immunity"}
   - {name: Shield Wall, use_when: "swap shield in first; ends if shield removed"}
+  - {name: "Shield Block + Improved Shield Slam", use_when: "the two block buffs are separate and do not stack; careful ordering needed", sources: ["[[d:warrior#1476093163650416716]]", "[[d:warrior#1486459142867521668]]"], agreement: consensus, era: mixed}
+  - {name: Shield Wall, use_when: "30-min CD; reserved for emergencies and shared with Recklessness/Retaliation", sources: ["[[d:warrior#1489297544843624621]]"], agreement: single source, era: post-1.18.1}
 resource_rules:
   - "Rage generation higher than deep prot (pre-CC2 claims)"
   - "Save rage between pulls"
   - "Stance for post-CC2 fury-prot not settled in sources"
-consumables: []
+consumables:
+  - "Mighty Rage Potion on the pull inside Bloodrage + Berserker Rage [[d:warrior#1425928245374877760]]"
+  - "Stoneshield Potion — repeatedly named as the reason fury-prot (no shield) survives [[d:warrior#1445929336514412584]], [[d:warrior#1463182833848684554]]"
+  - "Diamond Flask on-use; swap to HoJ/Blackhand's Breadth while the buff/CD runs [[d:warrior#1427402284995706991]], [[d:warrior#1440805963803132015]]"
+  - "Limited Invulnerability Potion macro'd into Challenging Shout [[d:warrior#1437846916946857995]]"
+  - "Flask of Titans + stamina enchant as the offset when mixing DPS pieces into a tank set [[d:warrior#1446701925838885036]]"
 mistakes_to_avoid:
   - "Copying a vanilla furyprot build (Improved Shield Block, sit-proc Enrage)"
   - "Main-tanking 40-man raids in a Bloodthirst build after CC2"
   - "Death Wish without telling healers"
   - "Expecting Shield Slam and Shield Block charges to stack"
+  - "Whiffing the opener: missing the first Shield Slam(s) means 'your threat doesn't exist' [[d:warrior#1488266577995370547]], [[d:warrior#1485223080249917522]]"
+  - "Gearing full mitigation; 'if it's not crit/hit then it's useless for tanks' [[d:warrior#1437139082185539894]], [[d:warrior#1492112928109891644]]"
+  - "Relying on Thunder Clap for AoE (4-target cap, no crit, often resisted) [[d:warrior#1476086839499558922]]"
+
+discord:
+  channels: [warrior]
+  agreement: "contested — the pre-CC2 meta is consensus, but whether fury-prot is still worth playing post-1.18.1 is not; post-1.18.1 tanks skip BT/Flurry for Defensive Tactics + Shield Slam"
+  eras: [pre-1.18.1, 1.18.1-announced-pre-release, post-1.18.1]
+  sources:
+    - {cite: "[[d:warrior#1484586303562579978]]", era: post-1.18.1, agreement: consensus, topic: "post-1.18.1 tanks drop BT/Flurry for Dtac + Shield Slam"}
+    - {cite: "[[d:warrior#1487143734452949093]]", era: post-1.18.1, agreement: single source, topic: "four-build prot menu"}
+    - {cite: "[[d:warrior#1484900996613279845]]", era: post-1.18.1, agreement: single source, topic: "1.18.1 closed the furyprot-vs-deep-prot TPS gap"}
+    - {cite: "[[d:warrior#1471915854898663667]]", era: 1.18.1-announced-pre-release, agreement: single source, topic: "Death Wish/Deftac sims ~10% below Furyprot on openers"}
+    - {cite: "[[d:warrior#1442826146063323240]]", era: 1.18.1-announced-pre-release, agreement: consensus, topic: "protection stays bottom-for-threat"}
+    - {cite: "[[d:warrior#1481378107037323354]]", era: 1.18.1-announced-pre-release, agreement: consensus, topic: "1.18.1 prot changes were buffs only"}
+    - {cite: "[[d:warrior#1476093163650416716]]", era: 1.18.1-announced-pre-release, agreement: consensus, topic: "Shield Block / Improved Shield Slam buffs do not stack"}
+    - {cite: "[[d:warrior#1490529592883023903]]", era: post-1.18.1, agreement: consensus, topic: "BWL built around warrior tanks; taunt chain"}

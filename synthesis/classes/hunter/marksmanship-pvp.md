@@ -32,6 +32,18 @@ All dates UTC. Eras: **pre-1.18.1** (before 2025-10-03), **1.18.1-announced-pre-
 
 - The pre-CC2 trapper: 21 MM for Scatter, 30 SV for Deterrence/Counterattack/Trap Mastery/Improved Wing Clip. CC2 removed Counterattack and Wyvern Sting and moved Trap Mastery deep, so "in 1.17.2, [it] will become a stationary DPS turret in deep MM" [Ragetto, 2024-10-19](https://forum.turtlecraft.gg/viewtopic.php?p=103825#p103825); a post-CC2 approximation `...?points=AAAAAAAAAAAAAAFACoQBAoIAAAAAYQYYVBBAbAAgAAA%3D` "though we're still missing Counterattack" [Ragetto, 2024-10-27](https://forum.turtlecraft.gg/viewtopic.php?p=104995#p104995); Xudo's alternative PvP link `...?points=AAAAAAAAAAAAAAFoAoAAAoIAAAAAdAYYVAAADAAAAAA%3D` [Xudo (player), 2024-10-18](https://forum.turtlecraft.gg/viewtopic.php?p=103588#p103588). "Taking Trap Mastery away from PvP spec is unfathomably bad design. Why do we need more trap resists?" [Dokkababecallme (player), 2024-10-18](https://forum.turtlecraft.gg/viewtopic.php?p=103549#p103549).
 
+### Post-1.18.1 MM 0/35/16 (decoded by Discord)
+
+The forum KB said no post-1.18.1 MM PvP talent link existed. Discord decoded one: `-FAAoRDQoJDQgB-YQYYF` = **0/35/16** — MM 35 (Improved Concussive Shot 5, Lethal Shots 5, Hawk Eye 2, Aimed Shot 1, Swiftshot 3, Endless Quiver 2, Mortal Shots 5, Scatter Shot 1, Experimental Ammunition 1, Barrage 3, Improved Marksmanship 2, RWS 4, Lock and Load 1); SV 16 (Improved Slaying 3, Swift Reflexes 2, Entrapment 3, Improved Wing Clip 3, Survivalist 5) [single source, [[d:hunter#1492279311280115932]]]. The author (yaboikeenser) describes it as "MM pvp with survival entrapment talents + carve + deterrence": the decoded code has neither Carve nor Deterrence, so quote and code disagree on the SV points — flagged, code retained [single source, [[d:hunter#1484432155768524800]]].
+
+### Post-1.18.1 Survival 8/5/38 (decoded by Discord)
+
+The forum KB's gap #3 (no Survival PvP build) is closed. Discord has `FAD-F-YQaYDJTAbIQoB` = **8/5/38**: BM 8 (Swift Aspects 5, Improved Primal Aspects 3); MM 5 (Improved Concussive Shot 5); SV 38 (Improved Slaying 3, Swift Reflexes 2, Entrapment 3, Savage Strikes 2, Improved Wing Clip 3, Survivalist 3, Carve 1, Deterrence 1, Stinging Nettle 2, Surefooted 3, Killer Instinct 3, Trap Mastery 3, Lacerate 1, Vicious Strikes 2, Lightning Reflexes 5, Untamed Trapper 1) [single source, [[d:hunter#1489610500349231196]]]. The author was undecided between Improved Concussive 5 vs 5 BM points and between Entrapment / Improved Wing Clip weights [single source, [[d:hunter#1489645781106294905]]].
+
+### Deep-Marksmanship PvP (pre-1.18.1)
+
+Discord adds **0/31/20 (BG) and 0/24/27 (duels)** deep-MM PvP builds the forum KB lacked (only 0/21/30 and 30/21/0 were discussed): "In battle grounds I would go 0/31/20. for dueling 0/24/27 or 0/21/30. The only thing non-negotiable is having scatter shot." [single source, [[d:hunter#1171102722871799931]]]; a #pvp-general plan runs **0/31/20 or 5/31/15** [[d:pvp-general#1120255181372796948]].
+
 ### Deep BM (post-1.18.1)
 
 - "Let's start with the fact that MM has become more difficult in the pvp game. So my advice to you is to go to BM" [Baek (player), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173363#p173363); "BM hunters are very strong in PvP. Pet scaling, enrage mechanic, they hit really hard and cannot be CC ... especially if u got the set bonuses for T1 & T2" [Halfgeek9 (player), 2026-04-16](https://forum.turtlecraft.gg/viewtopic.php?p=175410#p175410). No link posted; use the BM raid build with Intimidation. Pre-1.18.1 counter-view: "You wouldnt go bestial wrath as a serious pvp player, as it locks you out of scatter and your pet didnt scale" [Atreidon, 2025-08-04](https://forum.turtlecraft.gg/viewtopic.php?p=143068#p143068) — superseded by the 1.18.1 pet-scaling/dampening situation. **Contested** (Insanefool: "PvP is also not about waiting for your BM pet to kill stuff").
@@ -86,16 +98,65 @@ All dates UTC. Eras: **pre-1.18.1** (before 2025-10-03), **1.18.1-announced-pre-
 
 ## Survival melee PvP (short)
 
-"melee fights right now is who smoke the other first, but harder for you without a stun ... Ranged: you are as crap as a warrior without charge / intercept" (Laysson, 2025-05-14); "On turtle wow when you play survival hunter the whole play style appears to be suicide dive-bombing into everything" (Insanefool); in-combat Freezing/Frost traps are the main asset ("at least i can spam traps in combat to survive bit longer" [Soulforged23 (player), 2026-01-02](https://forum.turtlecraft.gg/viewtopic.php?p=164296#p164296)); post-1.18.1 "BM + Survival are doing pretty well" (Froghijab420). No Survival PvP build link exists in the sources — **gap**.
+"melee fights right now is who smoke the other first, but harder for you without a stun ... Ranged: you are as crap as a warrior without charge / intercept" (Laysson, 2025-05-14); "On turtle wow when you play survival hunter the whole play style appears to be suicide dive-bombing into everything" (Insanefool); in-combat Freezing/Frost traps are the main asset ("at least i can spam traps in combat to survive bit longer" [Soulforged23 (player), 2026-01-02](https://forum.turtlecraft.gg/viewtopic.php?p=164296#p164296)); post-1.18.1 "BM + Survival are doing pretty well" (Froghijab420).
+
+The forum KB's "no Survival PvP build link" gap is **closed by Discord**: the post-1.18.1 **8/5/38** build (`FAD-F-YQaYDJTAbIQoB`) is decoded above [single source, [[d:hunter#1489610500349231196]]]. Viability stays contested — "Survival is king pvp i think" (Leo) vs "just switched to BM for pvp. Its just...better" (Vaienna) vs "survival doesn't have much going for it in pvp" (Krulltak) [contested, [[d:hunter#1424115627353833502]]].
+
+## Discord additions (post-1.18.1)
+
+Folded from the archived `#hunter` Discord cross-read with `#pvp-general` (`staging/hunter-pvp/`). Era tags: **pre-1.18.1** (<2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 → 2026-03-19), **post-1.18.1** (≥2026-03-20). Every claim carries `[[d:hunter#<id>]]` / `[[d:pvp-general#<id>]]`, an era and an agreement tag.
+
+### The ~2025-04 trinket change — the era's biggest hunter PvP nerf
+
+The universal PvP trinket was redesigned (~2025-04) to remove **all** CC on a 3-min CD, **including Freezing Trap** — "this trinket change that all cc are dispellable really sucks for hunters"; "there is a reason why you couldnt trinket out of freezing trap in vanilla"; "Means it's not just the simple FD>trap>aimed shot rota anymore" [consensus, [[d:pvp-general#1370452815889174538]], [[d:pvp-general#1370726144814616629]], [[d:pvp-general#1370764527867658281]], [[d:pvp-general#1361238363776090212]], [[d:hunter#1476452767802593330]]]. The forum KB noted the trinket dispels Freezing Trap but did not isolate the change as a discrete ~2025-04 all-CC redesign; it should be promoted as **the single biggest hunter PvP nerf of the era**. Counterplay: pre-place the trap and use Scatter to walk them in; expect the trap to be dispelled; save your own trinket for the rogue's Kidney/Blind or a mage's Nova [consensus, [[d:hunter#1470106241157169264]], [[d:hunter#1470112309476200723]]].
+
+### PvP dampening and the deep-BM question
+
+Dampening applies to **all PvP including duels** [single source, [[d:hunter#1485349738449469510]]]. Post-1.18.1 players report **pets receive no dampened damage**, which is the mechanism behind deep BM [single source, [[d:hunter#1490803074963476650]]]; a later undated "stealth dampening change" was felt by MM [single source, [[d:hunter#1487217168977498152]]]. **No staff post confirms the pet exemption**, and smart teams kill the pet (it takes no resilience and "die[s] pretty quickly"), making a pet-rez trinket "mandatory" for arena [contested, [[d:hunter#1492801526450884838]], [[d:hunter#1494186537129218099]]].
+
+### Builds and rotation the forum lacked
+
+- **Survival PvP 8/5/38** and **MM PvP 0/35/16** are decoded above (the forum's gap #3 is closed; single-source player codes).
+- **Pre-1.18.1 deep-MM 0/31/20 / 0/24/27** added above.
+- **Bestial Wrath is a PvP cooldown** — the pet's CC-break/immunity window, not a damage button; "BW is basically pvp, or if you want the dmg buff on pull" [consensus, [[d:hunter#1484198066343907419]], [[d:hunter#1466053583039496212]]]. Killing the pet ends it.
+- **Pet training-point priority for PvP**: BiS DPS skill > needed resist > rank 8/9 Greater Stamina > leftovers into other resists/armor/dash/bite/claw [single source (guide writer), [[d:hunter#1438241842159423529]]]; older advice max stamina + a resist [single source, [[d:hunter#1059889358540386366]], [[d:hunter#1336163259002130442]]].
+- **Post-1.18.1 BM PvP pet must have a sprint** [single source, [[d:hunter#1492651231305273414]]]; the **spider** is the most annoying PvP pet [single source, [[d:hunter#1491084492012654592]]]; for SV the spider is "a must" [consensus, [[d:hunter#1454765734562496595]]].
+- **Engineering is mandatory** for serious hunter PvP: Iron Grenade as a universal CC, thorium grenade to break melee range, sapper charges; "Engineer is a must for any serious PvP" [consensus, [[d:hunter#1045527107918372884]], [[d:hunter#1359785441813069986]], [[d:hunter#1011330049057767544]], [[d:hunter#1362480243134304408]]].
+- **Mana/consumables**: PvP trinket + Limited Invulnerability Potion + Feign Death to reset; Free Action Potion vs rogue/warrior openers; flasks are rare in PvP [single source, [[d:hunter#1491813464706912308]], [[d:hunter#1301973930600435826]]].
+- **Ranged hit cap is 8.0%** at 300 weapon skill (corrected); +3 weapon skill is ~0.6% hit and +5 is the useful threshold [single source, [[d:hunter#1491594913136115732]]] — refining (not contradicting) the forum's "weapon skill has no impact for pvp" if "no glancing/parry effect" is the intended meaning.
+
+### Standing, race and match-ups
+
+- **Standing is gear- and date-dependent**: "hunter kind of loses every 1v1 in pvp" (2025-10, low gear) [single source, [[d:hunter#1425287154505875497]]] vs "the first time in twows history that bm is really viable in pvp" [contested, [[d:hunter#1453645768895234148]]]; post-1.18.1 "mm and bm hunters are good in pvp now" [consensus, [[d:hunter#1489572362868359298]]] but "if u dont have the BW CD you are a bit of a deadweight" [single source, [[d:hunter#1494186537129218099]]].
+- **Racial**: keeps Gnome best Alliance but adds a Night Elf camp ("meld is bis for pvp") and a strong Tauren camp ("warstomp is best hunter racial, being able to stun someone in your deadzone/melee range, and then cheetah away"); undead for fear/Seduce vs locks [contested, [[d:hunter#1453792390098714936]], [[d:hunter#1166672654351212566]], [[d:hunter#1456421765013049395]]].
+- **Match-ups** (Discord, cross-read `#pvp-general`): warrior favourable with cooldowns; rogue the worst melee matchup (the 0/35/16 MM build is the answer, FAP the counter); mage hunter-favoured; warlock/S-priest mostly losing; paladin the "how do I kill it" matchup (Survival is the anti-paladin answer); shaman contested; druid form-dependent and mostly unfavourable; the hunter mirror the one confident pick. Full table in `structured/classes/hunter/marksmanship-pvp.yaml` (`matchups:`).
+- **BG role**: defensive/utility — traps hold positions, Entrapment locks chokepoints, don't try to solo nodes; BM pet tanks AV warmasters with the new Kill Command threat [single source, [[d:pvp-general#1427354322395463682]], [[d:hunter#1489619404449779883]]].
+
+### Discord sources used
+
+| Source | What it adds | Era | Agreement |
+|---|---|---|---|
+| [[d:hunter#1489610500349231196]] | Survival PvP 8/5/38 decoded (forum gap #3) | post-1.18.1 | single source |
+| [[d:hunter#1492279311280115932]] | MM PvP 0/35/16 decoded | post-1.18.1 | single source |
+| [[d:pvp-general#1370452815889174538]] | ~2025-04 all-CC trinket change (isolated) | 1.18.1-announced-pre-release | consensus |
+| [[d:hunter#1490803074963476650]] | pets receive no PvP dampening (player report) | post-1.18.1 | single source |
+| [[d:hunter#1494186537129218099]] | deep-BM counter-argument (BW-CD deadweight) | post-1.18.1 | single source |
+| [[d:hunter#1045527107918372884]] | Engineering mandatory for serious PvP | pre-1.18.1 | consensus |
+| [[d:hunter#1438241842159423529]] | PvP pet training-point priority | 1.18.1-announced-pre-release | single source |
+| [[d:hunter#1453792390098714936]] | Tauren warstomp PvP racial camp | post-1.18.1 | contested |
+| [[d:hunter#1171102722871799931]] | pre-1.18.1 deep-MM 0/31/20 & 0/24/27 | pre-1.18.1 | single source |
 
 ## Sources and validity
 
 | Recommendation | Agreement | Validity |
 |---|---|---|
-| 30/21/0 BM/MM with Intimidation + Scatter | consensus among PvP posters (Ragetto, Skurridizo, Sbingo) | CC2–1.18.1; post-1.18.1 loses Kill Command capstone |
+| 30/21/0 BM/MM with Intimidation + Scatter | consensus among PvP posters (Ragetto, Skurridizo, Sbingo) | CC2–1.18.1; post-1.18.1 loses Kill Command capstone and is a fallback |
+| Survival PvP 8/5/38 / MM PvP 0/35/16 | single source each (decoded codes) | post-1.18.1 |
+| ~2025-04 PvP trinket removes all CC incl. Freezing Trap | consensus | 1.18.1-announced-pre-release |
+| Pets bypass PvP dampening | player observation, no staff confirmation | post-1.18.1 |
 | Scatter → FD → trap; trap first when possible | consensus (Grizb37, Atreidon, Skurridizo, Vliqta) | shared DR since 2024-09-04 (staff) |
 | Gnome best Alliance PvP race; Horde contested | consensus for Gnome; Horde contested (Springboards, Vargthar, Ataika, amanagor) | racial changes (Orc stun resist) dated Apr 2025 |
-| Deep BM strong post-1.18.1 | contested (Halfgeek9, Bazbee, Froghijab420 vs Insanefool) | post-1.18.1 |
+| Deep BM strong post-1.18.1 | contested (Halfgeek9, Bazbee, Froghijab420 vs Insanefool; pet-dampening exemption unconfirmed) | post-1.18.1 |
 | Hunter bottom-tier PvP | contested by gear/skill (Angelafarehart, Insanefool, Tomogwarrior vs Ataika, Skurridizo) | pre-1.18.1 |
 
 Threads used: t24620, t24389, t21595, t11287, t5711, t14775, t15253, t15234, t16046, t4287, t6758, t9073, t13336, t22515, t13505, t12616, t18116, t18381, t10257, t3159, t20025, t23657, t16713, t23737, t24040, t20522, t20667 (`extracted/forum/f45-hunter/`); staff post [Akalix, 2024-09-04](https://forum.turtlecraft.gg/viewtopic.php?p=100665#p100665) in t14775; class-change posts in `extracted/forum/f63-patch-notes-changelog/t15157-*.md`.

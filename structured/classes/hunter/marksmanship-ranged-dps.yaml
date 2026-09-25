@@ -35,71 +35,180 @@ sources:
 agreement: contested
 patch_validity:
   written_for: "CC2/CC3 talent tree (Nov 2024 - Mar 2026), Steady Shot as a talent"
-  valid_for_1181: false
-  notes: "1.18.1 (live 2026-03-20) made Steady Shot and Trueshot Aura baseline, added Aimed Shot as the MM keystone, Experimental Ammunition and Lock and Load, and rebalanced Arcane Shot/Volley/Serpent Sting mana. Staff: 'Ranged variant of Hunter has fallen behind other damage dealers ... in raw DPS and in terms of gameplay' [Jamey, 2026-01-23]. No player posted a validated post-1.18.1 PvE build or DPS numbers before the 2026-05-15 shutdown; the post-1.18.1 rotation below is staff-tooltip-derived plus player fragments only."
+  valid_for_1181: true
+  notes: "1.18.1 (live 2026-03-20) made Steady Shot and Trueshot Aura baseline, added Aimed Shot as the MM keystone, Experimental Ammunition and Lock and Load, and rebalanced Arcane Shot/Volley/Serpent Sting mana. Staff: 'Ranged variant of Hunter has fallen behind other damage dealers ... in raw DPS and in terms of gameplay' [Jamey, 2026-01-23]. The Discord extraction decoded the channel's post-1.18.1 MM build (5/39/7, consensus x3) and captured the working release-day loop; the allocation is now sourced but the priority remains player-fragment-derived. The forum KB's 9%-at-300-skill hit cap is corrected to 8% (see caps)."
 talents:
-  build_name: "Pre-1.18.1 deep MM raid build (union of named picks, no single full 51-point post exists)"
-  build_link: "https://talents.turtlecraft.gg/hunter?points=FQAYBoAoQCQQAAAoCoQBAoACAAAAAAAAAAAAAAAAAAA%3D (SvenS2's endgame link, opaque)"
+  build_name: "Post-1.18.1 MM 5/39/7 — deep MM through Aimed Shot + Experimental Ammunition + Lock and Load (decoded; consensus)"
+  build_link: "https://talents.turtlecraft.gg/hunter?points=F-AoCoRDQoBTQoB-YQAC (decoded: 5 BM / 39 MM / 7 SV); variants 5/41/5, 2/42/7, 13/36/2, 0/33/18"
   points:
-    - {tree: Marksmanship, talent: "Lethal Shots", rank: 5, spell_id: null}
-    - {tree: Marksmanship, talent: Efficiency, rank: 5, spell_id: null}
-    - {tree: Marksmanship, talent: "Improved Stings", rank: "0-5", spell_id: null}
-    - {tree: Marksmanship, talent: "Hawk Eye", rank: 2, spell_id: null}
-    - {tree: Marksmanship, talent: "Steady Shot", rank: 1, spell_id: null}
-    - {tree: Marksmanship, talent: "Mortal Shots", rank: 5, spell_id: null}
-    - {tree: Marksmanship, talent: "Piercing Shots", rank: 2, spell_id: null}
-    - {tree: Marksmanship, talent: "Improved Steady Shot", rank: 2, spell_id: null}
-    - {tree: Marksmanship, talent: "Endless Quiver", rank: 2, spell_id: null}
-    - {tree: Marksmanship, talent: "Ranged Weapon Specialization", rank: 5, spell_id: null}
-    - {tree: Marksmanship, talent: "Trueshot Aura", rank: 1, spell_id: null}
-    - {tree: "Beast Mastery", talent: "Swift Aspects", rank: 5, spell_id: null}
-    - {tree: "Beast Mastery", talent: "Endurance Training / Thick Hide / Improved Revive Pet", rank: "filler to row 3", spell_id: null}
+    - {tree: "Beast Mastery", talent: "Swift Aspects", rank: 5, spell_id: 19556}
+    - {tree: Marksmanship, talent: Efficiency, rank: 5, spell_id: 19420}
+    - {tree: Marksmanship, talent: "Lethal Shots", rank: 5, spell_id: 19431}
+    - {tree: Marksmanship, talent: "Improved Stings", rank: 2, spell_id: 19465}
+    - {tree: Marksmanship, talent: "Hawk Eye", rank: 2, spell_id: 19499}
+    - {tree: Marksmanship, talent: "Aimed Shot", rank: 1, spell_id: 19434}
+    - {tree: Marksmanship, talent: "Swiftshot", rank: 3, spell_id: 19456}
+    - {tree: Marksmanship, talent: "Endless Quiver", rank: 2, spell_id: 51518}
+    - {tree: Marksmanship, talent: "Mortal Shots", rank: 5, spell_id: 19490}
+    - {tree: Marksmanship, talent: "Experimental Ammunition", rank: 1, spell_id: 58108}
+    - {tree: Marksmanship, talent: "Piercing Shots", rank: 2, spell_id: 51513}
+    - {tree: Marksmanship, talent: "Barrage", rank: 3, spell_id: 24691}
+    - {tree: Marksmanship, talent: "Improved Marksmanship", rank: 2, spell_id: 51516}
+    - {tree: Marksmanship, talent: "Ranged Weapon Specialization", rank: 5, spell_id: 19511}
+    - {tree: Marksmanship, talent: "Lock and Load", rank: 1, spell_id: 52920}
+    - {tree: Survival, talent: "Improved Slaying", rank: 3, spell_id: 45979}
+    - {tree: Survival, talent: "Swift Reflexes", rank: 2, spell_id: 19297}
+    - {tree: Survival, talent: "Alone Against the World", rank: 2, spell_id: 52892}
   leveling_order: []
 stat_weights:
-  hit: "9% to cap at 300 weapon skill; ~6% at 305 (racial +5 bow/gun skill); ~5% at 315 (Trueaim Gauntlets + Sash of the Grand Hunt); a BiS-list author treats 7% as the practical minimum on current itemization; '1% hit is always a (slightly more than) 1% damage increase until you reach hit cap' [Juzam]; do not over-cap once T3 + Naxx hit gear is worn"
-  haste: "Turtle-specific stat: '1% haste is around 0.9% damage increase on bosses (single target) and 0.85% overall', no diminishing returns; becomes as good as crit in full Naxx gear [Juzam]; Rapid Fire cuts Steady from 1.5s to 1.1s; 1.18.1 also cuts Aimed Shot cast by 40% under Rapid Fire (staff)"
-  crit: "~0.9% damage per 1% for a raid-buffed Naxx hunter, slight diminishing returns; 53 agi = 1% crit, 1 agi = 2 RAP"
-  attack_power_agility: "measure per-item via unequip-and-read-DPS method; ~34 AP per 1% DPS at 340 base DPS per one measurement [Juzam]; spreadsheet weights: 1 agi = 3 AP-eq, 1% crit = 30 AP-eq [ajax_808]"
+  hit: "8% to cap at 300 ranged weapon skill (CORRECTED from the forum KB's 9%): level-63 hit suppression was removed with the CC2 weapon-skill change [consensus, [[d:hunter#1298063246254932059]]]. Weapon skill is linearized at 1% hit (and 10% glance damage) per 5 points up to 315: 305 -> 7%, 310 -> 6%, 315 -> 5% [consensus, [[d:hunter#1485763124253425858]], [[d:hunter#1463846948200124426]]]. +3 racial skill is only 0.6% hit and effectively worthless; +5 is the useful threshold [single source x2, [[d:hunter#1491594913136115732]]]. '1% hit is always a (slightly more than) 1% damage increase until you reach hit cap' [Juzam]; do not over-cap once T3 + Naxx hit gear is worn"
+  haste: "Turtle-specific stat: '1% haste is around 0.9% damage increase on bosses (single target) and 0.85% overall', no diminishing returns; becomes as good as crit in full Naxx gear [Juzam]. Post-1.18.1 the channel's (unverified) weight is 1% haste = 12-14 eAP for MM [contested, [[d:hunter#1488442215729594449]]]; haste's net value is unresolved because it does not affect the GCD and increases clipping [contested, [[d:hunter#1491111488214007951]]]"
+  crit: "~0.9% damage per 1% for a raid-buffed Naxx hunter, slight diminishing returns; 53 agi = 1% crit, 1 agi = 2 RAP [Juzam]. Post-1.18.1 crit rose to 'like 50 or 60' eAP because of MM's new crit scaling [single source, [[d:hunter#1486693663084904448]]] - the pre-1.18.1 '1% crit = 30 AP-eq' [ajax_808] is SUPERSEDED for 1.18.1"
+  attack_power_agility: "measure per-item via unequip-and-read-DPS method; ~34 AP per 1% DPS at 340 base DPS per one measurement [Juzam]. Post-1.18.1 channel weights: 1 agi = 3 eAP, 1 AP = 1 eAP, 100 ArP = 60 eAP if armor remains [contested (author flags unverifiable), [[d:hunter#1488075516060766330]], [[d:hunter#1488073642024763503]]]"
   armor_penetration: "weak / largely ignored"
-  spell_power: "irrelevant for MM pre-1.18.1 (raising SP loses RAP); T2.5 spell power dead weight"
+  spell_power: "nearly worthless post-1.18.1: full SP consumes (~300 SP) translate to only ~1-2% dps [single source, [[d:hunter#1490854183237324840]]]"
   intellect_spirit_mp5: "matters on long fights but MM rarely goes OOM with Efficiency talented; post-1.18.1 Aspect of the Viper replaces drinking between pulls"
 caps:
-  melee_range_hit: "9% at 300 weapon skill (vanilla-baseline math; Turtle's exact linearized weapon-skill table is not published by staff)"
+  melee_range_hit: "8% at 300 ranged weapon skill (CORRECTED: the forum KB's 9% is vanilla-baseline math; Turtle removed level-63 hit suppression with the CC2 weapon-skill change) [consensus, [[d:hunter#1298063246254932059]]]; 305 -> 7%, 310 -> 6%, 315 -> 5% [consensus, [[d:hunter#1485763124253425858]]]"
+  weapon_skill_note: "above 315 has historically been buggy (316 gave bonus crit, 317/318 did nothing) [single source, [[d:hunter#1486496701177921701]]]"
 rotation_single:
-  - {priority: 1, action: "Opener: pet attack (explicit key), Hunter's Mark, Aimed Shot only if the tank already has threat", condition: "pre-1.18.1 kit; post-1.18.1 Aimed Shot becomes a repeatable cooldown, not an opener-only cast"}
-  - {priority: 2, action: "Serpent Sting once", condition: "fight >= 30 s and mana allows; skip on trash and low mana"}
-  - {priority: 3, action: "Multi-Shot on cooldown (10 s), placed right after a Steady Shot so it does not delay the next Auto Shot", condition: "pre-1.18.1"}
-  - {priority: 4, action: "Steady Shot immediately after every Auto Shot", condition: "never delay the auto; with 3.2 speed and both haste buffs there is only ~29 ms of slack"}
-  - {priority: 5, action: "Arcane Shot", condition: "pre-1.18.1: only while moving or as filler with spare mana; post-1.18.1: on cooldown when mana >= 40%, now scales with weapon damage and is usable while moving"}
-  - {priority: 6, action: "Do not re-cast Aimed Shot mid-fight", condition: "pre-1.18.1 kit only"}
-  - {priority: 7, action: "Aimed Shot on cooldown (2 s cast, 20 s cd with Swiftshot 3/3; 1 s with Lock and Load)", condition: "post-1.18.1 kit; cast right after an auto like Steady"}
-  - {priority: 8, action: "Lock and Load proc: cast Aimed immediately", condition: "post-1.18.1 kit; reset from a Steady/Aimed/Arcane crit"}
-  - {priority: 9, action: "Spend the Experimental Ammunition buff before it cycles (1 min): Arcane -> Arcane Shot; Nature -> Serpent Sting; Fire -> Multi-Shot on 2+ targets", condition: "post-1.18.1 kit; staff describes the order as cycling Fire->Arcane->Nature, some players perceived it as random"}
+  - {priority: 1, action: "Keep Auto Shot running and never clip it", condition: "all kits; post-1.18.1 the Auto -> Aimed -> Ammunition-filler -> Steady loop is the FAQ baseline"}
+  - {priority: 2, action: "Aimed Shot on cooldown (2 s cast, 20 s cd with Swiftshot 3/3; 1 s with Lock and Load)", condition: "post-1.18.1; cast right after an auto like Steady; Rapid Fire cuts its cast 40%. Measured casts: 0.81 s (RF+Imp Aspects+LnL), 1.22 s (Imp Aspects+LnL), 1.94 s (Imp Aspects alone), 2.15 s (no proc), 2.5 s unhasted [single source, [[d:hunter#1489733155719217306]]]"}
+  - {priority: 3, action: "Lock and Load proc: cast Aimed immediately", condition: "post-1.18.1; reset from a Steady/Aimed/Arcane crit; the proc is 100% on crit and a 'proc did not reset Aimed CD' bug was reported day one [single source, [[d:hunter#1484523895498215485]], [[d:hunter#1484641146033668208]]]; its line cleave is a strict line (1 yd behind the primary misses) [single source, [[d:hunter#1484829044494172222]]]"}
+  - {priority: 4, action: "Arcane Shot on cooldown while mana allows; spam it during the Steady cast so it fires immediately after", condition: "post-1.18.1: it is the Lock-and-Load/Experimental-Ammunition trigger, hits hard, and is usable while moving [consensus, [[d:hunter#1489708299913003218]], [[d:hunter#1484284557074235463]]]; drop it when conserving mana"}
+  - {priority: 5, action: "Spend the Experimental Ammunition buff before it cycles (1 min): Fire -> Multi-Shot on 2+; Arcane -> Arcane Shot; Nature -> Serpent Sting", condition: "post-1.18.1 staff tooltip cycles Fire->Arcane->Nature; some players perceived it as random [contested, [[d:hunter#1484528608927027270]], [[d:hunter#1484580912355348591]]]. The ammunition mini-game is widely treated as skippable - forcing all three hurt several players' dps [consensus, [[d:hunter#1485091452701900902]], [[d:hunter#1486285247866998784]]]; the Fire Multi-Shot component is 'a flat 50 dmg every time' [single source, [[d:hunter#1484664003497300118]]]"}
+  - {priority: 6, action: "Multi-Shot on cooldown when it fits between autos", condition: "pre-1.18.1 consensus; Multi vs Arcane for single target is contested [contested, [[d:hunter#1485387517455896597]], [[d:hunter#1486261383761891398]]]"}
+  - {priority: 7, action: "Steady Shot as the filler after every auto", condition: "never delay the auto; 'only shoot Steady when there's nothing else to do' [consensus, [[d:hunter#1486255776367382598]]]"}
+  - {priority: 8, action: "Serpent Sting only for the Nature-ammunition -240 armor raid debuff (and on long fights)", condition: "post-1.18.1 the guide author calls it a personal dps loss and a mana drain [single source (guide writer), [[d:hunter#1485384949455392868]]]; the pre-1.18.1 'long-fight DoT' use is superseded"}
+  - {priority: 9, action: "Do not re-cast Aimed Shot mid-fight (pre-1.18.1 kit); one-button macro casts Steady unless Lock and Load is up, then Aimed", condition: "post-1.18.1 [consensus, [[d:hunter#1485087170451603508]], [[d:hunter#1488624322686746945]]]"}
 rotation_aoe:
-  - {targets_min: 2, priority: 1, action: "Multi-Shot on cooldown, keep the single-target loop otherwise; spread Serpent Sting only with plentiful mana", condition: "2-3 targets"}
-  - {targets_min: 4, priority: 1, action: "pre-1.18.1: skip Volley except vs large trash packs ('less than 8 targets it's actually a loss of dps' on the old channeled version); post-1.18.1: Volley (3 s cast, -2 s with Barrage) plus Fire-ammunition Multi-Shot, unbenchmarked", condition: "4+ targets"}
+  - {targets_min: 2, priority: 1, action: "Multi-Shot on cooldown, keep the single-target loop otherwise; leading with Aimed so its line cleave hits multiple targets can beat Multi-Shot with correct positioning", condition: "2-3 targets; post-1.18.1"}
+  - {targets_min: 4, priority: 1, action: "Volley (3 s cast, -2 s with Barrage) on cooldown plus Fire-ammunition Multi-Shot; the ZG Renataki trinket resets its cooldown", condition: "post-1.18.1; pre-1.18.1 'less than 8 targets it's actually a loss of dps' [Juzam]; no benchmarked post-1.18.1 crossover exists"}
 aoe_threshold: 4
 cooldowns:
-  - {name: "Rapid Fire", use_when: "start of every boss and on cooldown for fights > 15 s; speeds Steady Shot casts and post-1.18.1 Aimed Shot by 40%; do not waste it while moving"}
+  - {name: "Rapid Fire", use_when: "start of every boss and on cooldown for fights > 15 s; cuts Aimed/Steady cast by 40% (1.18.1); do not waste it while moving"}
   - {name: "Aspect of the Viper", use_when: "post-1.18.1 only, mana < 20% with no burst planned or out of combat; swap back to Hawk before pulling (swaps cost mana and a GCD)"}
-  - {name: "Feign Death", use_when: "threat drop every 30 s; pet on follow/passive first"}
+  - {name: "Feign Death", use_when: "threat drop every 30 s; pet on follow/passive first. The new 1.18.1 burst rips threat without cooldowns, so FD is spent on threat instead of trinket swaps [single source, [[d:hunter#1486314061606944911]]]"}
+  - {name: "ZG (Renataki) trinket", use_when: "standard trash/AoE trinket; resets Volley/Multi cooldowns [consensus, [[d:hunter#1485135076483272704]]]"}
 resource_rules:
   - "Five-second rule: bundle spells into bursts, then coast on Auto Shot to regen"
-  - "Raid regen from Blessing of Wisdom, mana totem, mana potions/tea, mana oil"
-  - "Drink out of combat below ~40% mana; hunters run '40-50% less mana' than casters"
+  - "Raid regen from Blessing of Wisdom, mana totem, mana potions/tea, mana oil; Mageblood/Shadow Oil are called insufficient in Naxx [single source, [[d:hunter#1485684679708246016]]]"
+  - "Mana is the post-1.18.1 constraint; one MM never goes OOM in raid, another OOMs in ~40 s on an unbuffed dummy [contested, [[d:hunter#1485957589316669572]], [[d:hunter#1485958275458400326]]]"
 consumables:
   - "Mana flask, Lesser Mana Oil x2, Mongoose, Mageblood, Grilled Squid, Ranged Bananafood, Major Mana Potion, Demonic Rune, Juju Might/Power for the pet, plus defensive consumables (raid list, Likaleo 2024-03-28)"
-  - "Elixir of Demonslaying, sharpening stones and the engineering chicken do NOT affect ranged damage"
-  - "Doomshot/Miniature Cannonballs best ammo, then AV quartermaster, then engineer Thorium; carry both arrow and bullet stacks"
-  - "Slowest ranged weapon available for the Steady/Multi weave (>= 3.2 speed); shoulder enchant Sapphiron AP/crit or 2% haste"
+  - "Post-1.18.1 raid list: Spirit of Zanza, Elixir of the Mongoose, Ground Scorpok Assay, Juju Might, Danonzo's Tel'abim Surprise or Squid Eel Skewer, Consecrated Sharpening Stone (undead); min-max adds Flask of Supreme Power, Mageblood, Greater Arcane Elixir, Dreamshard Elixir, Juju Power (pet), Brilliant Wizard Oil, Dreamtonic, Agility Scroll (pet) [single source x2, [[d:hunter#1486496184280420533]], [[d:hunter#1486562197428764716]]]"
+  - "Ammo overhaul: any ammo stack can be enchanted +3 dps (1 Large Brilliant Shard + 5 Arcane Dust per 200), so Thorium = 20.5 dps, Doomshot = 23 dps; new Bright Wood / Shade Wood / Smooth Ironfeather / Starfeather arrows and Enchanted Thorium Shells; a 19-damage blue arrow recipe drops from the DM West hunter boss [consensus, [[d:hunter#1485358374832046221]], [[d:hunter#1485738412853170369]], [[d:hunter#1486414327211884574]]]"
+  - "Facetted Crystal Scope (+2% ranged crit, Draenei rep) is the BiS scope; initially bugged/not displayed but a 1000-shot test confirmed it works [consensus, [[d:hunter#1485281837176586401]], [[d:hunter#1486672868036317204]]]"
+  - "BM/MM melee stat sticks: Kingsfall + Scythe of the Unseen Path even in full Kara40 BiS (60 Agi with two +15 Agi enchants, +2% crit, ~120 AP) [single source, [[d:hunter#1489311954748178682]]]; T3 4/8 with a pet, 6/8 without [single source, [[d:hunter#1485684117256405168]]]"
+  - "Slowest practical ranged weapon for the weave is now '2.6 speed or slower' post-1.18.1 (Aimed/Arcane fill the gaps) [consensus, [[d:hunter#1489320174745288867]]], superseding the old >= 3.2 rule"
 mistakes_to_avoid:
-  - "Clipping Auto Shot with Steady Shot"
+  - "Clipping Auto Shot with Steady Shot (the dominant MM failure; some accept a controlled 0.25 s clip for a 3k Aimed [consensus, [[d:hunter#1485676134380343307]], [[d:hunter#1488579158274740244]]])"
   - "Casting Aimed Shot mid-fight pre-1.18.1, or standing still through an Aimed cast while a boss cleaves"
+  - "Chasing Experimental Ammunition procs at the cost of positioning and smooth damage [consensus, [[d:hunter#1485091452701900902]], [[d:hunter#1486285247866998784]]]"
+  - "Over-stacking haste and clipping more [contested/unresolved, [[d:hunter#1491111488214007951]]]"
+  - "Running under the ranged hit cap (8%), or using Tranquilizing Shot uncapped - an uncapped tranq on the BWL dogs can wipe the raid [single source, [[d:hunter#1491414293143621824]]]"
+  - "Casting Serpent Sting for personal damage as MM (dps/mana loss) [single source (guide writer), [[d:hunter#1485384949455392868]]]"
   - "Wasting mana on Serpent Sting/Arcane Shot on trash that dies in 3 seconds"
   - "Combined pet-attack + auto-shot macros in dungeons (pet body-pulls)"
   - "Forgetting the pet is out during pulls, or letting it die in cleaves/Shadowflame instead of using Take Position"
   - "Running out of ammo, or carrying only one ammo type"
-  - "Needing on melee weapons/leather"
   - "Feigning with the pet still attacking (keeps you in combat)"
   - "Not feeding the pet before bosses; sitting in Aspect of the Viper during a burst window"
-  - "Swapping aspects fluidly - each swap costs mana and halts regen for 5 s"
+discord:
+  channel: hunter
+  scope: "Marksmanship additions from the archived #hunter Discord. Every claim carries [[d:hunter#<id>]], an era (pre-1.18.1 | 1.18.1-announced-pre-release | post-1.18.1) and agreement (consensus | single source | contested)."
+  builds:
+    - name: "Post-1.18.1 MM 5/39/7 — deep MM through Aimed Shot + Experimental Ammunition + Lock and Load + RWS"
+      split: {Beast Mastery: 5, Marksmanship: 39, Survival: 7}
+      code: "F-AoCoRDQoBTQoB-YQAC"
+      total_points: 51
+      source: "[[d:hunter#1484212683426365450]], [[d:hunter#1484306420932411423]], [[d:hunter#1485189121210056724]]"
+      era: mixed
+      agreement: consensus
+      note: "Recurring shape x3. Replaces the previous 'gap / partially derived' bot default. The sim's 5/39/7 preset matches [[d:hunter#1490682120815775965]]. A variant 5/41/5 takes Improved Stings 5 / Hawk Eye 1; 2/42/7 takes Improved Stings 5 instead of Swift Aspects; 13/36/2 adds Thick Hide + Coordinated Assault + Unleashed Fury; 0/33/18 is the petless variant."
+      allocation:
+        - {tree: Beast Mastery, talent: Swift Aspects, rank: 5, talent_id: 373, spell_id: 19556}
+        - {tree: Marksmanship, talent: Efficiency, rank: 5, talent_id: 413, spell_id: 19420}
+        - {tree: Marksmanship, talent: Improved Stings, rank: 2, talent_id: 414, spell_id: 19465}
+        - {tree: Marksmanship, talent: Lethal Shots, rank: 5, talent_id: 415, spell_id: 19431}
+        - {tree: Marksmanship, talent: Hawk Eye, rank: 2, talent_id: 416, spell_id: 19499}
+        - {tree: Marksmanship, talent: Aimed Shot, rank: 1, talent_id: 417, spell_id: 19434}
+        - {tree: Marksmanship, talent: Swiftshot, rank: 3, talent_id: 418, spell_id: 19456}
+        - {tree: Marksmanship, talent: Endless Quiver, rank: 2, talent_id: 419, spell_id: 51518}
+        - {tree: Marksmanship, talent: Mortal Shots, rank: 5, talent_id: 420, spell_id: 19490}
+        - {tree: Marksmanship, talent: Experimental Ammunition, rank: 1, talent_id: 422, spell_id: 58108}
+        - {tree: Marksmanship, talent: Piercing Shots, rank: 2, talent_id: 423, spell_id: 51513}
+        - {tree: Marksmanship, talent: Barrage, rank: 3, talent_id: 424, spell_id: 24691}
+        - {tree: Marksmanship, talent: Improved Marksmanship, rank: 2, talent_id: 425, spell_id: 51516}
+        - {tree: Marksmanship, talent: Ranged Weapon Specialization, rank: 5, talent_id: 426, spell_id: 19511}
+        - {tree: Marksmanship, talent: Lock and Load, rank: 1, talent_id: 427, spell_id: 52920}
+        - {tree: Survival, talent: Improved Slaying, rank: 3, talent_id: 392, spell_id: 45979}
+        - {tree: Survival, talent: Swift Reflexes, rank: 2, talent_id: 394, spell_id: 19297}
+        - {tree: Survival, talent: Alone Against the World, rank: 2, talent_id: 398, spell_id: 52892}
+    - name: "Pre-1.18.1 recurring deep-MM builds (CC2/CC3 era, slot labels are 1.18.1 names)"
+      variants:
+        - {split: "11/35/5", note: "most-repeated pre-1.18.1 deep-MM build (x6); deliberately mistrust pre-2026-03-20 names"}
+        - {split: "14/35/2", note: "as above with Unleashed Fury 3"}
+        - {split: "29/22/0", note: "BM/MM hybrid reaching Spirit Bond + Improved Steady Shot"}
+        - {split: "31/20/0", note: "the forum KB BM/MM hybrid link, now decoded"}
+      source: "[[d:hunter#1296276364978159639]], [[d:hunter#1409566381254381608]]"
+      era: pre-1.18.1
+      agreement: single source
+      note: "Full table in staging/hunter-core/talents.md §2; validated distinct builds in kb/structured/talents/builds-hunter.yaml."
+  rotation_single:
+    - claim: "FAQ baseline post-1.18.1 loop: Auto -> Aimed -> Ammunition-filler -> Steady -> Aimed -> Ammunition-filler -> Steady, with Auto always in between [single source (guide writer, patch day), [[d:hunter#1484616991951032550]]]."
+      era: post-1.18.1
+      agreement: single source
+    - claim: "Most-cited practical weave: begin casting Steady the instant Auto is loosed; while Steady casts, spam Arcane so it fires immediately after Steady; repeat. Drop Arcane if conserving mana [consensus, [[d:hunter#1489708299913003218]], [[d:hunter#1489709233007235133]], [[d:hunter#1486314699443277854]]]."
+      era: post-1.18.1
+      agreement: consensus
+    - claim: "Arcane Shot is now a high-priority instant filler (it protects the Aimed reset and hits hard); 'only shoot Steady when there's nothing else to do' [consensus, [[d:hunter#1486255776367382598]], [[d:hunter#1485478994525818951]]]."
+      era: post-1.18.1
+      agreement: consensus
+    - claim: "Post-1.18.1 MM is widely called overloaded and clip-prone; several players preferred the pre-patch feel [consensus among MM players, [[d:hunter#1485676134380343307]], [[d:hunter#1486486042822574122]]]."
+      era: post-1.18.1
+      agreement: consensus
+    - claim: "Dresche's post-Kara40 verdict: MM boss fights great / trash fights awful; 'just prioritize steady, aimed, multi' and the ammunition mini-game was a dps loss [single source (guide writer), [[d:hunter#1485384949455392868]]]."
+      era: post-1.18.1
+      agreement: single source
+    - claim: "Measured personal dps rose 'at least 15%' on a bad-rotation MC run, expecting 20-25% with practice [single source, [[d:hunter#1484606051881062511]]]."
+      era: post-1.18.1
+      agreement: single source
+    - claim: "On BWL MM out-dpsed a Survival hunter on every single-target boss but lost overall trash [single source, [[d:hunter#1484692203434414130]]]."
+      era: post-1.18.1
+      agreement: single source
+  rotation_aoe:
+    - claim: "Volley (3 s cast, -2 s with Barrage) is now genuinely useful on trash, especially with the ZG Renataki trinket resetting its cooldown [consensus, [[d:hunter#1485134951522504955]], [[d:hunter#1485135076483272704]]]."
+      era: post-1.18.1
+      agreement: consensus
+    - claim: "Working AoE threshold: 2-3 targets Multi on cooldown; 4+ Volley on cooldown + Fire-ammunition Multi. No post-1.18.1 benchmark exists, so the crossover is derived [derived, [[d:hunter#1485134951522504955]], [[d:hunter#1485384949455392868]]]."
+      era: post-1.18.1
+      agreement: derived
+    - claim: "MM still trails Survival on sustained cleave unless the MM hunter gets perfect Aimed-Shot piercing positioning [consensus, [[d:hunter#1484984092184281168]]]."
+      era: post-1.18.1
+      agreement: consensus
+  stat_weights:
+    community_weights: "explicitly-unverifiable private sheet: 1 Agi = 3 eAP; 1% crit = 50+ eAP; 1% haste = 12-14 eAP for MM; 100 ArP = 60 eAP; 1 AP = 1 eAP [contested, [[d:hunter#1488075516060766330]], [[d:hunter#1488079776479707166]], [[d:hunter#1488442215729594449]]]"
+    crit: "1% crit = 50+ eAP post-1.18.1 (up from 32 in BWL phase); 53 Agility = 1% crit [single source + consensus, [[d:hunter#1486693663084904448]], [[d:hunter#1488074387918688336]]]"
+    hit: "8% at 300 weapon skill; 1% hit per 5 weapon skill to 315; +5 skill is the useful threshold [consensus, [[d:hunter#1298063246254932059]], [[d:hunter#1485763124253425858]], [[d:hunter#1491594913136115732]]]"
+    spell_power: "full SP consumes (~300 SP) = ~1-2% dps [single source, [[d:hunter#1490854183237324840]]]"
+  caps:
+    ranged_hit: "8% at 300 weapon skill (CORRECTED from the forum KB's 9%); 305 -> 7%, 310 -> 6%, 315 -> 5% [consensus, [[d:hunter#1298063246254932059]], [[d:hunter#1485763124253425858]]]"
+    dual_wield_melee: "dual-wielding melee autos have a much higher miss rate (~20%+); yellow melee specials use the normal cap [single source, [[d:hunter#1485760027976400966]]]"
+  encounters:
+    - {zone: "Kara40", advice: "No humanoids/beasts/giants/dragonkin, so Improved Slaying is worthless there; MM trash fights are 'awful'.", sources: ["[[d:hunter#1486333622796550184]]", "[[d:hunter#1485915598004158527]]"], era: post-1.18.1, agreement: consensus}
+    - {zone: "Naxxramas", advice: "4 Horsemen / Sapphiron / Kel'Thuzad are 'not BM fights'; MM/raptor work elsewhere.", sources: ["[[d:hunter#1485920686055886930]]", "[[d:hunter#1486454996177260656]]"], era: post-1.18.1, agreement: consensus}
+    - {zone: "AQ40", advice: "Anubisath shadowflame is avoidable by standing exactly on the deadzone line as MM.", sources: ["[[d:hunter#1491059182638727278]]"], era: post-1.18.1, agreement: single source}
+    - {zone: "BWL", advice: "Noticeably easier without a pet ('like 10x easier'); Tranq Shot must be hit-capped or the dogs can wipe the raid.", sources: ["[[d:hunter#1485963925383155792]]", "[[d:hunter#1491414293143621824]]"], era: post-1.18.1, agreement: single source}
+  mistakes_to_avoid:
+    - "Clipping Auto Shot with the new MM weave."
+    - "Chasing Experimental Ammunition procs at the cost of positioning."
+    - "Over-stacking haste on MM and clipping more."
+    - "Running under the 8% ranged hit cap (and using Tranq Shot uncapped)."
+    - "Casting Serpent Sting for personal damage as MM."
+  sources:
+    - "[[d:hunter#1412681801339764817]] - Dresche pinned Hunter FAQ (1.18.1)"
+    - "[[d:hunter#1487437538531610674]] - Dresche FAQ updated 2026-03-28 in full T3.5 BiS"
+    - "[[d:hunter#1490682120815775965]] - Vellasta TWoW Hunter Simulator (2026-04-06)"
+    - "[[d:hunter#1488624322686746945]] - MetaHunt 1.18.1 one-button rotation"
+    - "[[d:hunter#1485752587289493554]] - MetaHunt 1.4.0 for 1.18.1"

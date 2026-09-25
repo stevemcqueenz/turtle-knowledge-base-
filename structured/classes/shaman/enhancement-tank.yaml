@@ -36,30 +36,30 @@ agreement: contested
 patch_validity:
   written_for: "1.17.2 / 1.18.0 (Class Changes 2 tank talents)"
   valid_for_1181: false
-  notes: "1.18.1 replaced Elemental Weapons' Rockbiter passive -10% damage taken with Earthen Bulwark (an absorb shield); the Enh T2.5 5-set was reworked to boost it; both are reported bugged/not stacking from special attacks through 2026-04-07. No post-1.18.1 guide update was posted (Mimiwarmini's promised explanation never came). Talent point allocations and the threat rotation are unaffected."
+  notes: "1.18.1 replaced Elemental Weapons' Rockbiter passive -10% damage taken with Earthen Bulwark (an absorb shield); the Enh T2.5 5-set was reworked to boost it; both are reported bugged/not stacking from special attacks through 2026-04-07. No post-1.18.1 guide update was posted (Mimiwarmini's promised explanation never came). Talent point allocations and the threat rotation are unaffected. Discord adds the post-1.18.1 AoE-threat priority and the Chromaggus/Nefarian/drakonid notes in `discord:` below."
 talents:
   build_name: "Skegg's dungeon-tank order (24 Enhancement -> 11 Elemental -> 6 Enhancement -> respec 15, consensus with Akos1896)"
   build_link: "https://talents.turtlecraft.gg/shaman?points=FYAYL-FAVYALFQDIAoB-"
   points:
-    - {tree: Enhancement, talent: "Shield Specialization", rank: 5, spell_id: null}
-    - {tree: Enhancement, talent: "Totemic Alignment", rank: 2, spell_id: null}
-    - {tree: Enhancement, talent: "Stable Shields", rank: 3, spell_id: null}
-    - {tree: Enhancement, talent: "Ancestral Guardian", rank: 3, spell_id: null}
-    - {tree: Enhancement, talent: "Lightning Strike", rank: 1, spell_id: null}
-    - {tree: Enhancement, talent: "Thundering Strikes", rank: 5, spell_id: null}
-    - {tree: Enhancement, talent: "Spirit Armor", rank: 2, spell_id: null}
-    - {tree: Enhancement, talent: "Elemental Weapons", rank: 3, spell_id: null}
-    - {tree: Enhancement, talent: "Stormstrike", rank: 1, spell_id: null}
-    - {tree: Elemental, talent: Convection, rank: 5, spell_id: null}
-    - {tree: Elemental, talent: Concussion, rank: 2, spell_id: null}
-    - {tree: Elemental, talent: "Elemental Devastation", rank: 3, spell_id: null}
-    - {tree: Elemental, talent: "Elemental Focus", rank: 1, spell_id: null}
-    - {tree: Enhancement, talent: "Element's Grace", rank: 5, spell_id: null}
-    - {tree: Enhancement, talent: "Ancestral Knowledge", rank: 5, spell_id: null}
-    - {tree: Enhancement, talent: Bloodlust, rank: 1, spell_id: null}
-    - {tree: Enhancement, talent: Reverberation, rank: 3, spell_id: null}
-    - {tree: Enhancement, talent: Flurry, rank: 5, spell_id: null}
-    - {tree: Elemental, talent: Concussion, rank: 3, spell_id: null, note: "or Elemental Warding 3 for anti-magic dungeons"}
+    - {tree: Enhancement, talent: "Shield Specialization", rank: 5, spell_id: 16301}
+    - {tree: Enhancement, talent: "Totemic Alignment", rank: 2, spell_id: 51382}
+    - {tree: Enhancement, talent: "Stable Shields", rank: 3, spell_id: 16291}
+    - {tree: Enhancement, talent: "Ancestral Guardian", rank: 3, spell_id: 45547}
+    - {tree: Enhancement, talent: "Lightning Strike", rank: 1, spell_id: 51387}
+    - {tree: Enhancement, talent: "Thundering Strikes", rank: 5, spell_id: 16305}
+    - {tree: Enhancement, talent: "Spirit Armor", rank: 2, spell_id: 45952}
+    - {tree: Enhancement, talent: "Elemental Weapons", rank: 3, spell_id: 29080}
+    - {tree: Enhancement, talent: "Stormstrike", rank: 1, spell_id: 17364}
+    - {tree: Elemental, talent: Convection, rank: 5, spell_id: 16112}
+    - {tree: Elemental, talent: Concussion, rank: 2, spell_id: 16105}
+    - {tree: Elemental, talent: "Elemental Devastation", rank: 3, spell_id: 29180}
+    - {tree: Elemental, talent: "Elemental Focus", rank: 1, spell_id: 45541}
+    - {tree: Enhancement, talent: "Element's Grace", rank: 5, spell_id: 29088}
+    - {tree: Enhancement, talent: "Ancestral Knowledge", rank: 5, spell_id: 17489}
+    - {tree: Enhancement, talent: Bloodlust, rank: 1, spell_id: 45509}
+    - {tree: Enhancement, talent: Reverberation, rank: 3, spell_id: 16114}
+    - {tree: Enhancement, talent: Flurry, rank: 5, spell_id: 16284}
+    - {tree: Elemental, talent: Concussion, rank: 3, spell_id: 16106, note: "or Elemental Warding 3 for anti-magic dungeons"}
   leveling_order:
     - {level: 10, tree: Enhancement, talent: "Shield Specialization"}
     - {level: 15, tree: Enhancement, talent: "Totemic Alignment"}
@@ -118,3 +118,47 @@ mistakes_to_avoid:
   - "Tanking a fast weapon (Rockbiter no longer gives flat per-hit threat; a slow weapon gives more TPS)"
   - "Using Rockbiter's old -10% damage-taken assumption post-1.18.1 (it is now Earthen Bulwark, which was reported not stacking from special attacks as of 2026-04-07)"
   - "Pulling without checking whether the mob resists Nature (use Frost Shock/Molten Blast instead)"
+
+discord:
+  channel: shaman
+  scope: "Enhancement-tank additions from the archived #shaman Discord (2021-02-15 -> 2026-05). Every claim carries a [[d:shaman#<id>]] citation, an era (pre-1.18.1 | 1.18.1-announced-pre-release | post-1.18.1) and agreement (consensus | single source | contested)."
+  rotation_single:
+    - action: "Rockbiter + shield; Lightning/Water Shield; pull with Lightning Bolt or Chain Lightning; then Stormstrike -> Earth Shock (consume the buff) -> Lightning Strike -> Earth Shock -> refresh shield."
+      condition: "post-1.18.1"
+      sources: ["[[d:shaman#1488136124617724004]]"]
+      era: post-1.18.1
+      agreement: consensus
+  rotation_aoe:
+    - action: "Max-threat AoE order: Chain Lightning > Stoneclaw Totem > Fire Nova > Magma. Totem of the Tides often lets you skip Magma."
+      targets_min: 4
+      sources: ["[[d:shaman#1492243384734060714]]", "[[d:shaman#1491520161885192413]]"]
+      era: post-1.18.1
+      agreement: consensus
+  totems:
+    - "Totem of the Tides (Stormwrought Keep) is the key early AoE/threat relic (Water Shield procs); Totemic Alignment plus Nova/Magma gives strong AoE threat [[d:shaman#1492243384734060714]]."
+  stat_weights:
+    agility_vs_strength: "contested as in the forum KB; the channel adds that the Earthen Bulwark build wants melee crit/stats [[d:shaman#1485708569264521287]]."
+  boss_notes:
+    - {boss: Chromaggus, note: "the bronze affliction runs to the end of the Bulwark buff; the tank cannot sustain Bulwark under the bug (~420 physical DPS needed); without the defense cap it is a rough fight", sources: ["[[d:shaman#1485788704407683103]]", "[[d:shaman#1493253058350547106]]", "[[d:shaman#1493314575897071878]]"], era: post-1.18.1, agreement: consensus}
+    - {boss: Nefarian, note: "tankable in T1-grade gear once Bulwark is fixed; the Bulwark bug currently blocks it", sources: ["[[d:shaman#1488914722706161714]]", "[[d:shaman#1493253058350547106]]"], era: post-1.18.1, agreement: single source}
+    - {boss: "big drakonids (BWL)", note: "attack-speed slows make the Bulwark build ineffective; no absorb during stun/whirlwind", sources: ["[[d:shaman#1486538158861713468]]"], era: post-1.18.1, agreement: single source}
+  gear:
+    - "Ancient Jade Leggings for weapon skill / hybrid [[d:shaman#1491836338562007223]]."
+    - "Totem of the Tides is mandatory early [[d:shaman#1492243384734060714]]."
+  bugs:
+    - id: BUG-BULWARK
+      entity: [Earthen Bulwark, Rockbiter Weapon, Stormstrike, Lightning Strike]
+      summary: "Earthen Bulwark builds only from white auto attacks, not Stormstrike/Lightning Strike, through the 2026-03-25 hotfix and still reported on 2026-04-07; caps at 20% of maximum health with a 100-stack durability debuff, and was not in the patch notes."
+      impact: "Tank shamans call themselves 'crippled ... the least sturdiest tank of all in the current meta'; the old Rockbiter -10% damage-taken assumption is gone."
+      sources: ["[[d:shaman#1484954736342995116]]", "[[d:shaman#1485640385857454291]]", "[[d:shaman#1486164601929338900]]", "[[d:shaman#1488669160585166949]]", "[[d:shaman#1487726640682369034]]"]
+      era: post-1.18.1
+      agreement: consensus
+  mistakes_to_avoid:
+    - "Relying on Earthen Bulwark from strikes (bugged) [[d:shaman#1484954736342995116]]"
+    - "Swapping to Frost Shock as the main DPS shock without rethinking Stormstrike charge consumption -- a design pitfall no channel source recommends [[d:shaman#1486410446872383558]]"
+  sources:
+    - {id: "[[d:shaman#1488136124617724004]]", era: post-1.18.1, agreement: consensus, used_for: "tank rotation"}
+    - {id: "[[d:shaman#1492243384734060714]]", era: post-1.18.1, agreement: consensus, used_for: "AoE threat order / Totem of the Tides"}
+    - {id: "[[d:shaman#1485788704407683103]]", era: post-1.18.1, agreement: consensus, used_for: "Chromaggus"}
+    - {id: "[[d:shaman#1486538158861713468]]", era: post-1.18.1, agreement: single source, used_for: "drakonid attack-speed slow"}
+    - {id: "[[d:shaman#1487726640682369034]]", era: post-1.18.1, agreement: consensus, used_for: "Bulwark cripples tanks"}

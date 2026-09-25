@@ -109,6 +109,61 @@ Same sources as the Fury playbook. 2H-specific: "There is also the added benefit
 - Using Rend at 60 in raids — Rend is "obnoxiously weak and not worth buffing" [Berettadin (player), 2025-05-10](https://forum.turtlecraft.gg/viewtopic.php?p=130489#p130489); it is a leveling/PvP tool (it does scale with 0.15 AP per Ivgas, above).
 - Cleaving/Whirlwinding CC'd mobs; Sweeping Strikes on the wrong pack.
 
+## Discord findings (2025–2026)
+
+Post-1.18.1 the `#warrior` channel (2021-02 .. 2026-05) fills several gaps the forum file names explicitly. All citations are `[[d:warrior#id]]` and resolve in `structured/discord/evidence-warrior.jsonl`. Eras: **pre-1.18.1** (< 2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 .. 2026-03-19), **post-1.18.1** (≥ 2026-03-20).
+
+### Corrections and supersessions
+
+- **"execute-phase results after 1.18.1: none"** (forum, explicit gap) → partially filled, not settled. The practised BWL sequence is **"slam-exe-swing, repeat"** (Slam, then a 20-rage Execute) [[d:warrior#1485576434079629414]], [[d:warrior#1485608350640246854]] (consensus among BWL raiders, post-1.18.1), and the **"deathcute" 30/21 Death Wish + Execute build was "confirmed top parsing spec"** at launch [[d:warrior#1484563441808183316]], [[d:warrior#1484592477724999926]] (single sources, post-1.18.1). No turtlogs-style parse proof is in the extract, so Licata's damage-per-rage question stays open.
+- **"no complete 51-point Arms build written out"** → the post-2025-04 talent-builder format is decoded (`staging/talents/talent_codec.py`). Canonical post-1.18.1 builds: **Arms MS 31/20** `FQRAKYDQpYAAB-FoAAJYCY-` [[d:warrior#1453750351202091162]] with the Imp-Slam variant `NQQAJYDQhAQ-AoAooAAoZ-` [[d:warrior#1484472898067628073]]; the launch **"deathcute" 30/21**; the **"lawnmower"** Sweeping-Strikes cleave [[d:warrior#1486335640856694826]], [[d:warrior#1486339437695598693]].
+- **Arms takes Enrage** (forum flagged the Fury dip as contested): after the 1.18.1 Boundless Anger/Precision Cut swap, players say Arms is pushed to take **Enrage** and/or drop **Master of Arms** [[d:warrior#1484519106064683140]], [[d:warrior#1484521084253507676]], [[d:warrior#1488713744682057889]]. Bloodrage self-crits, so **Enrage is effectively a ~1-minute 20% damage cooldown** ("a 2nd deathwish in uptime") [[d:warrior#1487840381780361246]], [[d:warrior#1485964140072796200]] — this is *why* Arms reaches into Fury for it.
+
+### Numbers the forum defered to the sim
+
+| Item | Discord value | Citation | Agreement / era |
+|---|---|---|---|
+| Post-1.18.1 rage formula (guide writer 30/Khoni) | `hit = (dmg*7.5/230.6)/1.075 + base_swing*3.5/2.25`; crit uses `7.5` for the swing term | [[d:warrior#1494491071366037607]] | single source, post-1.18.1 |
+| Weapon-skill cap | **315** (only 5% yellow hit needed) | [[d:warrior#1485500872829177918]] | single source, post-1.18.1 |
+| Flurry-uptime crit target | **~30-33%** | [[d:warrior#1491395973660807168]] | single source, post-1.18.1 |
+| DW crit cap example | 45% buffed vs **41% cap**; HS is yellow and skips the DW miss penalty | [[d:warrior#1493655987071094914]], [[d:warrior#1492213039611646004]] | single source, post-1.18.1 |
+| Stats order | hit → weapon-skill → crit → strength; haste scales exponentially; **armor pen not worth chasing** (raid debuffs take boss armor to 0) | [[d:warrior#1488167716261990542]], [[d:warrior#1487147648434569246]], [[d:warrior#1485240366453227620]] | consensus, post-1.18.1 |
+
+Numeric stat weights are still a gap: the channel defers to **WarriorSim** (Don't ping me / jrc13245) and Khoni's threat sim `https://30-thirty.github.io/` [[d:warrior#1331868862937042956]], [[d:warrior#1488741258804461732]].
+
+### Rotation and AoE practice
+
+- MS on cooldown, WW on cooldown, Overpower on dodge — and **always press Overpower when Sweeping Strikes is up** [[d:warrior#1484589913172213983]], [[d:warrior#1493216441845940356]].
+- Slam filler immediately after a white swing; ScoobertDoobert's rule of thumb: **"slam when timer far to left, heroic strike or cleave before timer far to right"** [[d:warrior#1486600679303811223]], [[d:warrior#1489011734017736704]].
+- AoE: Sweeping Strikes → Whirlwind/Cleave; **Badge of the Swarmguard** as the burst trinket stacked with Sweeping Strikes [[d:warrior#1485304664197955765]]; **slow weapon is better** (WW/Cleave use top-end damage) [[d:warrior#1488522558948249790]]. The `lawnmower` Arms/Fury cleave build is the recognised AoE answer [[d:warrior#1486335640856694826]].
+- **Contested**: "MS is near superfluous when Slam exists" [[d:warrior#1492945449219395846]] vs "MS slaps so much harder than BT" / MS is 115-130% weapon damage [[d:warrior#1488521089893142660]]. Keep both.
+- Encounter colour the forum lacks: `lawnmower` is "giga" on **Faerlina** [[d:warrior#1486835628468469841]]; Master Strike (sword disarm) is "VERY useful for naxx military or kara40 chess" [[d:warrior#1491357214441607218]]; "half the raid as arms, swap 2h fury for **Medivh**" [[d:warrior#1488745037738152008]].
+
+### Gear, consumables, professions
+
+- **Embedded pre-raid DW Fury gear-planner** with item IDs (Head 18817, Onyxia Tooth Pendant 18404, Devilsaur Gauntlets 19157, Onslaught Girdle 19137, Quick Strike Ring 18821, Blackhand's Breadth 13965 …) [[d:warrior#1494031704220893234]]; shorthand "Valor + Blackhand's Breadth + Hand of Justice, rest falls into place" [[d:warrior#1493604027991326751]]; budget "cheap hateforge set for less than 250g" [[d:warrior#1491184118749331467]].
+- **Diamond Flask = 75 Strength on Turtle**, "use it all the way to Naxx" / a "second Death Wish" [[d:warrior#1485804733242544260]], [[d:warrior#1494797352144343333]]. **Flask of Petrified Gold = +25% chance to trigger equipped-item effects** (TF / Ironfoe / HoJ) [[d:warrior#1485751182386397295]], [[d:warrior#1490463389707800626]]. Molten Emberstone / Earthstrike / Diamond Flask share a **30 s cooldown** [[d:warrior#1489336452205645954]].
+- **Execute pop order**: Perception → Bloodrage → Death Wish → Juju Flurry → Mighty Rage Potion → Recklessness → Flask; MRP + Juju Flurry + Bloodrage can be one no-GCD macro [[d:warrior#1493946168646828064]], [[d:warrior#1494010684982296686]].
+- Elixir stacking: mongoose does not stack with emerald-mongoose concoction / Elixir of Greater Agility; Giants does not stack with Juju Power [[d:warrior#1486113106873679943]]. Cloak **+7 Agi (Timbermaw)** [[d:warrior#1487631739651362908]].
+- **Professions**: Engineering best (dummies + craftable helms) [[d:warrior#1459283546194575496]], [[d:warrior#1433096959123783680]]; Mining→Eng route [[d:warrior#1425089807780151359]]; BS+mining (sharpening stones) [[d:warrior#1459283546194575496]]; Alchemy/Herb money pick [[d:warrior#1442813275652755457]]; First Aid + Cooking essential [[d:warrior#1459283546194575496]] (consensus, 1.18.1-announced-pre-release).
+
+### Unshipped proposal (do not treat as live)
+
+The pinned **Kyrsie 2026-03-26** player suggestion thread proposes a further rework — Improved Disciplines baseline, Tactical Mastery baseline renamed "Deadly Calm", Improved Intervene → "Wrecking Ball", Rend weapon-damage scaling, Heroic Strike 15→10 rage, Unbridled Wrath rework [[d:warrior#1486524065144373248]], teaser [[d:warrior#1478791982360039524]]. It is a **proposal (single source, player), not a shipped patch**; no staff confirmation. Post-1.18.1 build lists are invalidated if this ships.
+
+### Discord sources
+
+| Topic | Citation | Era | Agreement |
+|---|---|---|---|
+| Arms = AoE/cleave pick, mid-pack ST | [[d:warrior#1488521089893142660]] | post-1.18.1 | single source |
+| Only Arms 1.18.1 change is the BA/PC swap | [[d:warrior#1487590647996350464]] | post-1.18.1 | single source |
+| Arms dips Fury for Enrage | [[d:warrior#1488713744682057889]] | post-1.18.1 | consensus |
+| BWL execute: slam-exe-swing | [[d:warrior#1485576434079629414]] | post-1.18.1 | consensus (BWL raiders) |
+| deathcute 30/21 top parsing | [[d:warrior#1484563441808183316]] | post-1.18.1 | single source |
+| Weapon-skill 315 cap | [[d:warrior#1485500872829177918]] | post-1.18.1 | single source |
+| Rage formula (guide writer) | [[d:warrior#1494491071366037607]] | post-1.18.1 | single source |
+| Kyrsie rework proposal | [[d:warrior#1486524065144373248]] | post-1.18.1 | single source / unshipped |
+
 ## Sources
 
 | Thread / post | Author (authority) | Date | Era | Agreement |

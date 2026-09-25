@@ -28,20 +28,20 @@ patch_validity:
 talents:
   build_name: "Required raid talents from sources (no complete 51-point build in text; wiki 'Pepo frost' is an image) + wiki single-target leveling table"
   points:
-    - {tree: Frost, talent: Icicles, rank: 1, spell_id: null}
-    - {tree: Frost, talent: Flash Freeze, rank: 2, spell_id: null}
-    - {tree: Frost, talent: Frostbite, rank: 3, spell_id: null}
-    - {tree: Frost, talent: Ice Barrier, rank: 1, spell_id: null}
-    - {tree: Frost, talent: Winter's Chill, rank: 2, spell_id: null, note: "2-3 per wiki sim; 5 is overkill"}
-    - {tree: Frost, talent: Improved Frostbolt, rank: 5, spell_id: null}
-    - {tree: Frost, talent: Elemental Precision, rank: 3, spell_id: null}
-    - {tree: Frost, talent: Ice Shards, rank: 5, spell_id: null}
-    - {tree: Frost, talent: Frost Channeling, rank: 3, spell_id: null}
-    - {tree: Frost, talent: Shatter, rank: 5, spell_id: null}
-    - {tree: Frost, talent: Piercing Ice, rank: 3, spell_id: null}
-    - {tree: Frost, talent: Ice Block, rank: 1, spell_id: null}
-    - {tree: Frost, talent: Cold Snap, rank: 1, spell_id: null}
-    - {tree: Arcane, talent: Arcane Concentration, rank: 5, spell_id: null}
+    - {tree: Frost, talent: Icicles, rank: 1, spell_id: 52516}
+    - {tree: Frost, talent: Flash Freeze, rank: 2, spell_id: 52501}
+    - {tree: Frost, talent: Frostbite, rank: 3, spell_id: 12497}
+    - {tree: Frost, talent: Ice Barrier, rank: 1, spell_id: 11426}
+    - {tree: Frost, talent: Winter's Chill, rank: 2, spell_id: 28592, note: "2-3 per wiki sim; 5 is overkill"}
+    - {tree: Frost, talent: Improved Frostbolt, rank: 5, spell_id: 16766}
+    - {tree: Frost, talent: Elemental Precision, rank: 3, spell_id: 29440}
+    - {tree: Frost, talent: Ice Shards, rank: 5, spell_id: 15053}
+    - {tree: Frost, talent: Frost Channeling, rank: 3, spell_id: 12519}
+    - {tree: Frost, talent: Shatter, rank: 5, spell_id: 12985}
+    - {tree: Frost, talent: Piercing Ice, rank: 3, spell_id: 12953}
+    - {tree: Frost, talent: Ice Block, rank: 1, spell_id: 11958}
+    - {tree: Frost, talent: Cold Snap, rank: 1, spell_id: 12472}
+    - {tree: Arcane, talent: Arcane Concentration, rank: 5, spell_id: 12577}
     - {tree: "unassigned", talent: "remaining points not specified by any source (leveling table uses Arcane Subtlety 2, Arcane Focus 3, Arctic Reach 2, Permafrost 3, Improved Cone of Cold 3, Improved Frost Nova 2)", rank: 0, spell_id: null}
   leveling_order:
     - {level: 10, tree: Frost, talent: "Improved Frostbolt 1-5 (10-14)"}
@@ -109,3 +109,63 @@ mistakes_to_avoid:
   - "Taking 5/5 Winter's Chill"
   - "Expecting Flash Freeze from Free Action Potion / Blessing of Freedom"
   - "Letting Ice Barrier lapse"
+
+discord:
+  channel: mage
+  scope: "Frost additions from the archived #mage Discord. Every claim carries a [[d:mage#<id>]] citation, an era (pre-1.18.1 | 1.18.1-announced-pre-release | post-1.18.1) and agreement (consensus | single source | contested)."
+  rotation_single:
+    - action: "Ice Barrier on cooldown: 1.18.1 moved the bonus to the cast (+10% Frost for 1 min on cast, +5% while active). A pfUI display bug made players think the buff vanished when the shield broke; it does not."
+      condition: "off cooldown"
+      sources: ["[[d:mage#1484361204200902697]]", "[[d:mage#1484696403149193316]]", "[[d:mage#1484866761202602075]]"]
+      era: post-1.18.1
+      agreement: consensus
+    - action: "Use Frost Nova on freeze-immune bosses to force a Flash Freeze proc; cast Icicles immediately during the proc. Never cast Icicles raw (self-root, 30% base-HP shatter)."
+      condition: "Flash Freeze proc active"
+      sources: ["[[d:mage#1491935288551932055]]", "[[d:mage#1491959578827559113]]"]
+      era: post-1.18.1
+      agreement: consensus
+    - action: "Flash Freeze no longer procs from Free Action Potion / Blessing of Freedom (removed 2025-04-01)."
+      sources: ["[[d:mage#1486095084108779655]]"]
+      era: post-1.18.1
+      agreement: single source
+    - action: "Frostbolt is the filler; keep Winter's Chill up (2-3 points for ~80-90% uptime solo)."
+      sources: ["[[d:mage#1486342319245496382]]"]
+      era: post-1.18.1
+      agreement: consensus
+  rotation_aoe:
+    - action: "Cone of Cold -> Frost Nova -> Flamestrike -> Arcane Explosion; Blizzard is only a cheap Flash-Freeze fisher (40% slow / 1.5 s; 'we don't use Blizzard at all anymore')."
+      targets_min: 2
+      sources: ["[[d:mage#1489762019908260061]]", "[[d:mage#1486165941325660180]]", "[[d:mage#1431797472346247359]]"]
+      era: mixed
+      agreement: consensus
+  caps:
+    spell_hit: "16% (Frost gets 6% from Elemental Precision)"
+    icicles_self_damage: "30% base health if the root is shattered by damage taken"
+    improved_blizzard_slow: "40% and 1.5 s duration (the slow also lost duration: 2.0 s -> 1.5 s) [[d:mage#1430717972997214329]] (1.18.1-announced-pre-release, single source)"
+  stat_weights:
+    priority: "hit to 16% > spell power > haste >= crit"
+    spell_hit_1pct_in_sp: {endgame: "18-19", fresh60: "11-12"}
+    spell_haste_1pct_in_sp: {endgame: "12-13", fresh60: 6}
+    spell_crit_1pct_in_sp: {endgame: "11-12", fresh60: 7}
+    sources: ["[[d:mage#1487588079907770580]]"]
+    era: post-1.18.1
+    agreement: single source
+  gear:
+    - "Frost has no mana-return talent in-tree (only low-tier Arcane); reports it needs pushback protection at Icicles range [[d:mage#1484630072374726736]] (post-1.18.1, single source)."
+    - "Frost PvP gear should prioritise stamina over raw frost damage at low levels [[d:mage#1443285596842758205]] (post-1.18.1, single source)."
+  leveling:
+    - "Frost remains the default leveling spec because of control and elite-quest soloing; use Flamestrike/CoC/Nova AoE, not Blizzard [[d:mage#1484551865285869688]], [[d:mage#1486136677134106724]], [[d:mage#1489762019908260061]] (post-1.18.1, consensus)."
+  mistakes_to_avoid:
+    - "Casting Icicles without a Flash Freeze proc or while standing in AoE [[d:mage#1491959578827559113]]"
+    - "Casting Blizzard for AoE farming (40% slow, worst endgame AoE) [[d:mage#1431797472346247359]]"
+    - "Expecting Flash Freeze from Free Action Potion / Blessing of Freedom [[d:mage#1486095084108779655]]"
+  boss_notes:
+    - {boss: "Sapphiron / Kel'Thuzad", note: "Sapphiron frost-immune, KT highly frost-resistant.", sources: ["[[d:mage#1281848179108876331]]", "[[d:mage#1493951049113800975]]"]}
+    - {boss: Anomalus, note: "Kara40 Anomalus is arcane-immune; arcane gear is pure arcane damage.", sources: ["[[d:mage#1493996129291997244]]", "[[d:mage#1493928300589092874]]"]}
+  sources:
+    - {id: "[[d:mage#1484361204200902697]]", era: post-1.18.1, agreement: consensus, used_for: "Ice Barrier cast bonus"}
+    - {id: "[[d:mage#1484696403149193316]]", era: post-1.18.1, agreement: single source, used_for: "pfUI buff-display caveat"}
+    - {id: "[[d:mage#1491935288551932055]]", era: post-1.18.1, agreement: consensus, used_for: "Icicles only with Flash Freeze"}
+    - {id: "[[d:mage#1486095084108779655]]", era: post-1.18.1, agreement: single source, used_for: "Flash Freeze removed from FAP/BoF"}
+    - {id: "[[d:mage#1484630072374726736]]", era: post-1.18.1, agreement: single source, used_for: "Frost raid weaknesses"}
+    - {id: "[[d:mage#1430717972997214329]]", era: 1.18.1-announced-pre-release, agreement: single source, used_for: "Improved Blizzard slow duration"}

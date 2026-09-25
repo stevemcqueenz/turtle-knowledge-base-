@@ -128,6 +128,47 @@ Kit: Dec-2024 → 1.18.1 (Revenge 6 s CD, Shield Slam 6 s minus 1.5 s talented, 
 - Fighting the healer's mana: pulling below 50% healer mana (Gdawg45).
 - Using Taunt on cooldown "for threat" — Taunt is a fix, not a threat tool; Improved Taunt "for losers" (Xudo) / for new tanks (Xudo 2022).
 
+## Discord findings (2025–2026)
+
+`#warrior` prot slices (2021-02 .. 2026-05). Citations `[[d:warrior#id]]` resolve in `structured/discord/evidence-warrior.jsonl`. Eras as in the Arms file.
+
+### Headline: 1.18.1 does not supersede this file
+
+The in-channel 1.18.1 patch text confirms the only two Protection changes — **Defiance 4/8/12/15/20%** (was 3/6/9/12/15%) and **Shield Slam 15%→20% AP / 50%→75% threat** — matching the forum staff post `p=166071` [[d:warrior#1481378107037323354]]. There is **no Protection threat nerf in 1.18.1 and no new Protection ability**; "Devastate" is a player wishlist [[d:warrior#1437672179188760606]]. Discord **corroborates** the forum KB and adds quantified impact.
+
+### Threat maths (the Discord-only contribution)
+
+- **Multiplier formula**: `((1.3 × Defiance − 1) × 1.8 + 1) × 0.8`. With Defiance 5/5 = 1.15: DefStance+Defiance = **1.56**, Battle/Berserker with 3/3 Defensive Tactics = **1.5128** [[d:warrior#1433435759158886501]], [[d:warrior#1440101384006406224]], [[d:warrior#1331276870418829345]] (consensus). Velanir's pinned version uses Defiance = **1.20** and yields **1.6064** [[d:warrior#1400823950228848670]] — but that post (2025-08-01) predates the 1.18.1 change that made 20% the top rank, so the 1.6064 constant is **contested** and must not be quoted as pre-1.18.1.
+- Defensive Tactics buys the +10% damage / Overpower access: the two options are **near-identical in pure threat (1.51 vs 1.49)** [[d:warrior#1440064316417249331]], [[d:warrior#1443249408622723155]] (consensus).
+- **Shield Slam threat** = `damage × 1.5 ability × ~1.5 stance ≈ 2.25×`; ~**30% of total boss-fight threat** [[d:warrior#1427330726398791723]], [[d:warrior#1451341885632155750]], [[d:warrior#1428800565785395230]]. A competing description is `damage + 270 flat threat` [[d:warrior#1451316778293792799]] — likely a mid-cycle formula change; **contested**.
+- **Quantified 1.18.1 impact**: Defiance +33% on its top rank ≈ **+4.3% constant TPS**; Shield Slam **+31% per-cast threat** (912 → 1,197 on a geared example) [[d:warrior#1464972755840667709]], [[d:warrior#1464954917536927784]].
+- **Revenge has no AP scaling** and only a flat bonus — a fully buffed Revenge crit is ~700-800 threat vs ~9-10k for Shield Slam; talenting it is low value [[d:warrior#1487928770303099021]], [[d:warrior#1457904072920268800]].
+
+### Stat priority and caps
+
+- **agi/crit > str > ap > shield block value > haste**; **crit is the threat stat, BV is a defensive bonus** [[d:warrior#1428801642077229220]], [[d:warrior#1433037675350200380]]. Equivalence: **1% crit = ~18.8 str = ~5.2 BV** of Shield-Slam threat at 1k AP (0 AP: ~12 str / ~3.7 BV; overall ~17.3 BV) [[d:warrior#1428796660321882112]], [[d:warrior#1428800565785395230]]. Haste is bottom of the list and only matters with Thunderfury [[d:warrior#1429464743478820996]].
+- **Crit-immunity formula**: `440 − 315 = 125 × 0.04 = −5% crit` [[d:warrior#1345960627646107719]], [[d:warrior#1396960978301751316]]; but the mainstream rejects gearing 440 — "you dont need 440 defense for any boss", Shield Block substitutes [[d:warrior#1413857703725498479]], [[d:warrior#1492251922600558612]] (**contested**).
+- **Uncrushable recipe**: 102.4% total avoidance with Shield Block up; 5/5 Anticipation (310 def) + 5/5 Shield Spec + 2% block ≈ done; geared example 317-322 def [[d:warrior#1259889236119785482]], [[d:warrior#1266419628544884818]], [[d:warrior#1259883865909104641]].
+- Defense rating "really never matters" on threat gear; the sim shows ~80 defense costs only ~1% TPS but the itemisation is what you lose [[d:warrior#1437139082185539894]], [[d:warrior#1453563618653114418]].
+
+### Rotation and AoE
+
+- Opener is **Concussion Blow → Shield Slam**, then Shield Slam on CD, Revenge on proc, Sunder to 5 then filler, Heroic Strike as the dump — the forum KB is confirmed [[d:warrior#1457123304996470917]], [[d:warrior#1474888315227602984]]. Twospooky's rage-gated variant: Shield Slam → Revenge/Overpower → Concussion Blow → HS only ≥37 rage → Sunder only ≥47 [[d:warrior#1430873262748860497]].
+- **AoE threshold (was null)** confirmed: **Improved Thunder Clap has a 4-target cap**, cannot crit and is often resisted; **Demoralizing Shout is the best real AoE threat button without Thunderfury** [[d:warrior#1468804526411612373]], [[d:warrior#1476086839499558922]], [[d:warrior#1485307725683495074]] (consensus). "Tab cleave" is the other option [[d:warrior#1484622368537186324]].
+- **Failure mode**: whiffing the opener is the whole game — missing 2-3 Shield Slams means "your threat doesn't exist" (~20% of pulls are scuffed) [[d:warrior#1488266577995370547]], [[d:warrior#1485223080249917522]].
+
+### Gear, consumables, resources
+
+- **Consumables (was `[]`)**: Mighty Rage Potion on the pull, Diamond Flask, **Stoneshield Potion** ("fury prot works because of stoneshield potion"), LIP macro'd into Challenging Shout, FAP/Zanza/Juju, Flask of Titans [[d:warrior#1425928245374877760]], [[d:warrior#1445929336514412584]], [[d:warrior#1437846916946857995]], [[d:warrior#1438190579405295790]], [[d:warrior#1446701925838885036]]. Partial, not curated per fight.
+- **Gear**: a deep-prot **Naxx-phase BiS list** (Kyrsie) [[d:warrior#1345405067041181728]]; a **DTactics threat ranking** (TF > THC > RC; Glyph of Deflection + Kiss > MotC; Thunderfall "trash") [[d:warrior#1473343368170836203]]; tier tank pieces are threat-poor, T2.5/T3 DPS pieces are worn [[d:warrior#1430009658642399362]], [[d:warrior#1449464471331279030]]. Pre-raid is still a gap (piece-level pointers only) [[d:warrior#1474795053149847654]], [[d:warrior#1420077250266796198]].
+- **One-Handed Weapon Specialization** was changed from all damage to **swing-based damage only**, which is why the forum's "weak filler" reading is now current [[d:warrior#1480287271830818919]] vs the Jan-2025 claim that it buffed Shield Slam/Concussion Blow [[d:warrior#1331276870418829345]] (resolved: changed between the dates).
+- **Pinned resources** the forum does not index: threat sim `https://30-thirty.github.io/` [[d:warrior#1481016354009125054]]; rentry raiding guide [[d:warrior#1378344793033146542]]; DPR sheet [[d:warrior#1118994362664222830]]; weapon-skill dataset [[d:warrior#1296848917706571779]]; class gear sheet [[d:warrior#1395076762559582380]]; boss armor values [[d:warrior#1397876481450840174]].
+- **Post-1.18.1 standing**: threat is now fine to hold ("no problem holding threat now after 1.18.1, 50/50 miti/threat" [[d:warrior#1485214611887357963]]), the furyprot-vs-deep-prot TPS gap closed [[d:warrior#1484900996613279845]], but Protection is still behind bear for effort [[d:warrior#1491602026298347601]] and slated for a "major facelift" [[d:warrior#1454897386039148606]].
+
+### Contradictions carried (do not resolve here)
+
+Defiance constant 1.15 vs 1.20; Shield Slam `×1.5` vs `+270 flat`; 440 defense required vs never worth it; Defensive Tactics worth 3 points (for/against); 15 agi vs 2% threat gloves. All are reproduced with both sides in `staging/_merge/warrior-contradictions.yaml`.
+
 ## Sources
 
 | Thread / post | Author (authority) | Date | Era | Agreement |

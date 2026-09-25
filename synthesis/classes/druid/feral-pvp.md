@@ -38,6 +38,40 @@ The toolkit described (pre-CC2 source, mechanically still available but power le
 - Sitting in Bear Form expecting to actually kill an opponent, rather than using it purely to survive/hold an objective.
 - Dumping all rage into Frenzied Regeneration when Maul/Bash still need it for pressure or interrupts.
 
+## Discord additions (2025-2026)
+
+### Builds
+
+The 2025 links decode (full lists in `feral-pvp.yaml`): **Zotnar's open-world/BG build = Balance 11 / Feral 33 / Restoration 5** (Brutal Impact 2, Feral Instinct 3, Feral Charge 1) [[d:druid#1397940565500231690]], and **Moreg's 1.18.0 "14/14/23 equivalent" = Balance 15 / Feral 13 / Restoration 23** (Imp Healing Touch 5, Gift of Nature 5, Swiftmend/NS) — self-described as unreviewed [[d:druid#1406003536923332760]]. There is still **no endorsed post-1.18.1 feral PvP point list**.
+
+### Whole-kit consensus (five independent voices)
+
+Feral PvP is not a pure-Cat spec, and Discord is blunt about it: "there is no such thing as 'bear for pvp' if you're not utilising all your forms, cat, Bear, caster"; "pure cat gets obliterated, next to worthless"; "you almost always have to play a mix of abilities… stun and heal, and sometimes root and moonfire" [[d:druid#1336006691992371221]] [[d:druid#1357153915191296031]] [[d:druid#1349843423158341736]] [[d:druid#1402312193797652563]].
+
+### Mechanical changes and quirks
+
+| Fact | Detail | Agreement | Source |
+|---|---|---|---|
+| **Nature's Grasp removed from Bear Form** | Players call it a gutting ("I have to shift out of bear and let the warrior smack me in the face to root him"); staff Jamey defends it for "parity of forms" and concedes it "can be incredibly potent in PvP" | contested (staff vs players) | [[d:druid#1406166500393484289]] [[d:druid#1408273595691565117]] [[d:druid#1380593130079781028]] [[d:druid#1380595895686529095]] |
+| **Grenades/Sappers unusable in Cat/Bear** even after 1.17.2 enabled consumables in forms | Reflectors/nets/Insignia trinkets DO work in form, so shift out (or open caster) to bomb | consensus | [[d:druid#1388277425971921008]] [[d:druid#1388298378588324012]] [[d:druid#1399852314168393790]] |
+| **PvP trinket forced druid out of form** post-CC2 | Reported fixed 2025-03-19 | consensus | [[d:druid#1304850966314618922]] [[d:druid#1351679886565183528]] |
+| **Flash Bomb** | 10 s fear, 1 min CD, does not break on damage — a feral-specific hard counter when the trinket is down | single source | [[d:druid#1402317105650733229]] |
+| **Swift Travel Form cannot carry the WSG flag** | Also gets no PvP-set/mount-speed bonus (3 s cast); carriers must use normal Travel Form | consensus | [[d:druid#1328807349040975996]] [[d:druid#1313448266460954686]] |
+| **Speed stacking** | Contested: "form speed not stacks with anything except the pvp speed bonus" vs the set bonus stacking with everything; practical answer is 3/4-piece PvP set + minor boot speed | contested | [[d:druid#1345072608282017823]] [[d:druid#1316795367366590474]] |
+| **Engineering** | "bis for pvp" / "the meta for pvp"; War Stomp into grenade while creating distance; First Aid for oom | consensus | [[d:druid#1391083161106120946]] [[d:druid#1416799210728067268]] |
+| **1.18.1 PvP set** | Became PvE threat BIS ("only costs 85k honor and 3.5k conquest") — called "unhealthy to have pve bis come from pvp" | contested | [[d:druid#1487935338197291078]] [[d:druid#1487969266769727612]] |
+| **PvP hit cap** | Melee 5% vs spell 3% vs "Natural Weapons covers it" — all three positions exist | contested | [[d:druid#1350792370085564456]] [[d:druid#1482736105634791637]] [[d:druid#1283031488895647767]] |
+| **Tauren** | PvP-minmax race (War Stomp + stamina); War Stomp → Entangling Roots → Travel Form | consensus | [[d:druid#1482116247696183336]] [[d:druid#1382377045362868386]] |
+| **PvP Dampening** | Class/spec-dependent in 1.18.1; exact druid values unpublished | consensus + gap | [[d:druid#1491538510492995816]] [[d:druid#1487907149618348213]] |
+
+### Matchups (Discord)
+
+- **Paladin — losing**: "near impossible to kill"; Holy Strike/SoC burst into HoJ/Repentance lockout kills through Frenzied Regen [[d:druid#1402317105650733229]].
+- **Shaman — losing**: "shamans eat druids for breakfast"; Purge strips HoTs, Earth Shock interrupts, Enhancement/WF burst kills Cat; no working counter-line found [[d:druid#1487165021715697816]].
+- **Mage — caution**: do not open with Pounce (Blink); a flag-carrier feral gets "blinked, trinketed and deleted" [[d:pvp-general#1380875640907235431]] [[d:pvp-general#1376579767540650075]].
+- **Rogue — Bear Form is the answer**: Cat is too squishy for a stun chain; Flash-Bomb awareness decides it [[d:pvp-general#1103744129785135164]] [[d:druid#1402317105650733229]].
+- **Hunter — gap**: no druid-perspective tactic found in `#druid` or `#pvp-general`.
+
 ## Sources
 
 | Post | Author (authority) | Date | Era | Agreement |
@@ -49,4 +83,5 @@ The toolkit described (pre-CC2 source, mechanically still available but power le
 | [p165799](https://forum.turtlecraft.gg/viewtopic.php?p=165799#p165799) | amanagor (player) | 2026-01-21 | 1.18.1-announced-pre-release | single source — post-CC2 objective-play confirmation |
 | [p107713](https://forum.turtlecraft.gg/viewtopic.php?p=107713#p107713) | Xfraz (player) | 2024-11-12 | pre-1.18.1 | single source — Frenzied Regeneration post-nerf healing estimate |
 | [p156428](https://forum.turtlecraft.gg/viewtopic.php?p=156428#p156428) | Frantsel (player) | 2025-10-21 | 1.18.1-announced-pre-release | single source — flag-carrier rage management |
+| `#druid` Discord + `#pvp-general` — builds, whole-kit loop, shapeshift/consumable rules, matchups, gear | Mikodo, Holliday, Jamx, Golgotha, Zotnar, Moreg, Jamey (staff), Valarya, ricardo | 2023-2026 | mixed (pre-1.18.1 / 1.18.1-announced-pre-release / post-1.18.1) | consensus on whole-kit and objective play, contested on power level |
 | `synthesis/1.18.1-master-changelog.md` §Druid | — (compiled from staff posts) | — | — | official — Maul/Savage Bite threat nerf (applies to Bear PvP, see `feral-tank.md`); class-dependent PvP Dampening (1.18.1) |

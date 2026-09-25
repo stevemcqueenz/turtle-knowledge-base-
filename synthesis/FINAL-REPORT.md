@@ -47,7 +47,7 @@ Release timeline (all staff-sourced): preliminary notes 2025-10-03; class change
 
 ## 5. Issues to test first on the local server
 
-From `issues-summary.md` (122 entries: 73 open, 25 unclear, 12 fixed, 8 intended, 4 staff-confirmed). Top of the prioritized list:
+From `issues-summary.md` (tier list for the pre-Discord 122 entries: 73 open, 25 unclear, 12 fixed, 8 intended, 4 staff-confirmed; `structured/issues.yaml` now holds 175 entries after the Discord merge). Top of the prioritized list:
 
 1. ISS-0012 Balor Island teleport into Blackrock lava (staff-confirmed blocker)
 2. ISS-0108 single item/spell that crashed the Nordanaar realm (staff, never named)
@@ -77,7 +77,7 @@ From `issues-summary.md` (122 entries: 73 open, 25 unclear, 12 fixed, 8 intended
 
 ## 7. Contradictions
 
-`contradictions.md` (index) with per-system files under `contradictions/` and `structured/contradictions.yaml`: 104 entries, 94 of them checkable against local game data. By system: classes and specs 19, dungeons and raids 17, project direction (staff vs staff over time) 13, patch history and attribution (wiki vs forum) 9, loot and drop rates 9, spells and mechanics 8, PvP and honor 8, world/quests/factions 6, client/UI/server 5, professions 4, items 3, terminology 3. Status: unresolved 62, superseded 14, reconciled 6, design dispute 3, website stale 2, wiki vs staff 2, and one-off tags.
+`contradictions.md` (index) with per-system files under `contradictions/` and `structured/contradictions.yaml`: the synthesis index documents the pre-Discord 104 entries (94 checkable); the YAML was enriched with 80 Discord-sourced entries (`CON-0105` … `CON-0184`) and now holds 184 entries, 139 checkable. Pre-Discord breakdown by system: classes and specs 19, dungeons and raids 17, project direction (staff vs staff over time) 13, patch history and attribution (wiki vs forum) 9, loot and drop rates 9, spells and mechanics 8, PvP and honor 8, world/quests/factions 6, client/UI/server 5, professions 4, items 3, terminology 3. Pre-Discord status: unresolved 62, superseded 14, reconciled 6, design dispute 3, website stale 2, wiki vs staff 2, and one-off tags.
 
 Findings worth knowing before trusting any single source: staff "fixed" lines are contradicted by later observation in several cases (Master Strike disorient, Baited Shot, server time, Gadgetzan flight route, Enchanted Thorium Shells, Firemaw void zones); the community wiki and the turtlecraft.gg feature pages are the least reliable sources (stale Scarlet Monastery boss names, a Hateforge Quarry location the patch note contradicts, unbacked Emerald Sanctum scaling, disagreeing level ranges). The single highest-value local check is CON-0082, the per-class PvP dampening table that was announced but never published; the tier-1 list also includes the 3% vs 4% spell-hit constant, Sunder Armor proc flags, the rogue T3.5 proc rate and the Araxxna's Husk item id.
 

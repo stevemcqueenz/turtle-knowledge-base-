@@ -18,31 +18,118 @@ agreement: contested
 patch_validity:
   written_for: "1.18.0 (live 2025-08-15)"
   valid_for_1181: true
-  notes: "1.18.1 made no Subtlety talent changes at all (confirmed by the absence of a Subtlety section in Jamey's 2026-01-23 post and both revision blocks)."
+  notes: "1.18.1 made no Subtlety talent changes at all (confirmed by the absence of a Subtlety section in Jamey's 2026-01-23 post and both revision blocks). Discord supplies the decoded support build the forum lacked (11/8/32 and 11/5/35) plus concrete iEA-rogue rotations and weapon rules [[d:rogue#1486005557495070720]], [[d:rogue#1421734520306270310]]."
+  discord_era: post-1.18.1
 talents:
   build_name: "Dungeon support build"
   build_link: "https://talents.turtlecraft.gg/rogue?points=Ao-FAAo-FTCYZJQAJKQoB"
   points:
-    - {tree: Subtlety, talent: Hemorrhage, rank: 1, spell_id: null}
-    - {tree: Subtlety, talent: "Bloody Mess", rank: 2, spell_id: null}
-    - {tree: Subtlety, talent: "Improved Expose Armor", rank: 2, spell_id: null}
-    - {tree: Subtlety, talent: "Tricks of the Trade", rank: 5, spell_id: null}
-    - {tree: Subtlety, talent: "Honor Among Thieves", rank: 2, spell_id: null}
-    - {tree: Subtlety, talent: "Mark for Death", rank: 1, spell_id: null}
-    - {tree: Subtlety, talent: "Shadow of Death", rank: 1, spell_id: null}
-    - {tree: Subtlety, talent: "Cloaked in Shadows", rank: 2, spell_id: null}
-    - {tree: Subtlety, talent: Blackjack, rank: 2, spell_id: null}
-    - {tree: Subtlety, talent: "Serrated Blades", rank: 3, spell_id: null}
-    - {tree: Assassination, talent: Malice, rank: 5, spell_id: null}
-    - {tree: Assassination, talent: Ruthlessness, rank: 3, spell_id: null}
-    - {tree: Assassination, talent: "Relentless Strikes", rank: 1, spell_id: null}
-    - {tree: Combat, talent: Precision, rank: 5, spell_id: null}
-    - {tree: Combat, talent: Opportunity, rank: 5, spell_id: null}
+    - {tree: Subtlety, talent: Hemorrhage, rank: 1, spell_id: 16511}
+    - {tree: Subtlety, talent: "Bloody Mess", rank: 2, spell_id: 51975}
+    - {tree: Subtlety, talent: "Improved Expose Armor", rank: 2, spell_id: 14169}
+    - {tree: Subtlety, talent: "Tricks of the Trade", rank: 5, spell_id: 52545}
+    - {tree: Subtlety, talent: "Honor Among Thieves", rank: 2, spell_id: 52514}
+    - {tree: Subtlety, talent: "Mark for Death", rank: 1, spell_id: 52538}
+    - {tree: Subtlety, talent: "Shadow of Death", rank: 1, spell_id: 52710}
+    - {tree: Subtlety, talent: "Cloaked in Shadows", rank: 2, spell_id: 52709}
+    - {tree: Subtlety, talent: Blackjack, rank: 2, spell_id: 14094}
+    - {tree: Subtlety, talent: "Serrated Blades", rank: 3, spell_id: 14173}
+    - {tree: Assassination, talent: Malice, rank: 5, spell_id: 14142}
+    - {tree: Assassination, talent: Ruthlessness, rank: 3, spell_id: 14161}
+    - {tree: Assassination, talent: "Relentless Strikes", rank: 1, spell_id: 14179}
+    - {tree: Combat, talent: Precision, rank: 5, spell_id: 13845}
+    - {tree: Combat, talent: Opportunity, rank: 5, spell_id: 14075}
   leveling_order: []
+  decoded_builds:
+    # Decoded by staging/talents/talent_codec.py; talent_id/spell_id from kb/structured/talents/rogue.yaml.
+    - build_name: "Subtlety support — post-1.18.1 (11/8/32)"
+      split: {Assassination: 11, Combat: 8, Subtlety: 32}
+      code: "AoYCI-FAD-EQaYbBAABKQgB"
+      sources: ["[[d:rogue#1478313765450551338]]", "[[d:rogue#1485287876210982973]]", "[[d:rogue#1485341242630865048]]"]
+      agreement: consensus
+      era: mixed
+      note: "the cheapest support variant: max Improved Expose Armor + Hemorrhage debuff; no Tricks of the Trade beyond 4"
+      points:
+        - {tree: Assassination, talent: Malice, rank: 5, spell_id: 14142}
+        - {tree: Assassination, talent: Ruthlessness, rank: 3, spell_id: 14161}
+        - {tree: Assassination, talent: "Improved Blade Tactics", rank: 2, spell_id: 14166}
+        - {tree: Assassination, talent: "Relentless Strikes", rank: 1, spell_id: 14179}
+        - {tree: Combat, talent: Opportunity, rank: 5, spell_id: 14075}
+        - {tree: Combat, talent: "Improved Backstab", rank: 3, spell_id: 13866}
+        - {tree: Subtlety, talent: Camouflage, rank: 4, spell_id: 14064}
+        - {tree: Subtlety, talent: "Improved Expose Armor", rank: 2, spell_id: 14169}
+        - {tree: Subtlety, talent: "Improved Ambush", rank: 3, spell_id: 14081}
+        - {tree: Subtlety, talent: Elusiveness, rank: 2, spell_id: 14066}
+        - {tree: Subtlety, talent: "Serrated Blades", rank: 3, spell_id: 14173}
+        - {tree: Subtlety, talent: Initiative, rank: 3, spell_id: 13980}
+        - {tree: Subtlety, talent: "Improved Ghostly Strike", rank: 3, spell_id: 51972}
+        - {tree: Subtlety, talent: Hemorrhage, rank: 1, spell_id: 16511}
+        - {tree: Subtlety, talent: Preparation, rank: 1, spell_id: 14185}
+        - {tree: Subtlety, talent: "Shadow of Death", rank: 1, spell_id: 52710}
+        - {tree: Subtlety, talent: "Bloody Mess", rank: 2, spell_id: 51975}
+        - {tree: Subtlety, talent: "Honor Among Thieves", rank: 2, spell_id: 52514}
+        - {tree: Subtlety, talent: "Tricks of the Trade", rank: 4, spell_id: 52544}
+        - {tree: Subtlety, talent: "Mark for Death", rank: 1, spell_id: 52538}
+    - build_name: "Subtlety support / PvP hemo-prep — deeper Sub (11/5/35)"
+      split: {Assassination: 11, Combat: 5, Subtlety: 35}
+      code: "YgYAIA-FA-FDaYbBSARCQABA"
+      sources: ["[[d:rogue#1484641315361915042]]", "[[d:rogue#1485017443687465140]]"]
+      agreement: single source
+      era: post-1.18.1
+      note: "posted as 'My PvP talents'; also carries WSG flag well"
+      points:
+        - {tree: Assassination, talent: "Improved Eviscerate", rank: 3, spell_id: 14164}
+        - {tree: Assassination, talent: Malice, rank: 4, spell_id: 14141}
+        - {tree: Assassination, talent: Ruthlessness, rank: 3, spell_id: 14161}
+        - {tree: Assassination, talent: "Relentless Strikes", rank: 1, spell_id: 14179}
+        - {tree: Combat, talent: Opportunity, rank: 5, spell_id: 14075}
+        - {tree: Subtlety, talent: Camouflage, rank: 5, spell_id: 14065}
+        - {tree: Subtlety, talent: "Improved Gouge", rank: 3, spell_id: 13792}
+        - {tree: Subtlety, talent: "Improved Ambush", rank: 3, spell_id: 14081}
+        - {tree: Subtlety, talent: Elusiveness, rank: 2, spell_id: 14066}
+        - {tree: Subtlety, talent: "Serrated Blades", rank: 3, spell_id: 14173}
+        - {tree: Subtlety, talent: Initiative, rank: 3, spell_id: 13980}
+        - {tree: Subtlety, talent: "Improved Ghostly Strike", rank: 3, spell_id: 51972}
+        - {tree: Subtlety, talent: Hemorrhage, rank: 1, spell_id: 16511}
+        - {tree: Subtlety, talent: "Cloaked in Shadows", rank: 2, spell_id: 52709}
+        - {tree: Subtlety, talent: Blackjack, rank: 2, spell_id: 14094}
+        - {tree: Subtlety, talent: "Dirty Deeds", rank: 2, spell_id: 14083}
+        - {tree: Subtlety, talent: Preparation, rank: 1, spell_id: 14185}
+        - {tree: Subtlety, talent: "Bloody Mess", rank: 2, spell_id: 51975}
+        - {tree: Subtlety, talent: "Honor Among Thieves", rank: 2, spell_id: 52514}
+        - {tree: Subtlety, talent: "Mark for Death", rank: 1, spell_id: 52538}
+    - build_name: "Subtlety dps — deep sub (17/0/34)"
+      split: {Assassination: 17, Subtlety: 34, Combat: 0}
+      code: "YoYDIAQ--FQCYbBIARKQoBA"
+      sources: ["[[d:rogue#1466401496483758235]]", "[[d:rogue#1493894882543013888]]"]
+      agreement: single source
+      era: mixed
+      points:
+        - {tree: Assassination, talent: "Improved Eviscerate", rank: 3, spell_id: 14164}
+        - {tree: Assassination, talent: Malice, rank: 5, spell_id: 14142}
+        - {tree: Assassination, talent: Ruthlessness, rank: 3, spell_id: 14161}
+        - {tree: Assassination, talent: "Improved Blade Tactics", rank: 3, spell_id: 14167}
+        - {tree: Assassination, talent: "Relentless Strikes", rank: 1, spell_id: 14179}
+        - {tree: Assassination, talent: "Taste for Blood", rank: 2, spell_id: 14175}
+        - {tree: Subtlety, talent: Camouflage, rank: 5, spell_id: 14065}
+        - {tree: Subtlety, talent: "Improved Expose Armor", rank: 2, spell_id: 14169}
+        - {tree: Subtlety, talent: Elusiveness, rank: 2, spell_id: 14066}
+        - {tree: Subtlety, talent: "Serrated Blades", rank: 3, spell_id: 14173}
+        - {tree: Subtlety, talent: Initiative, rank: 3, spell_id: 13980}
+        - {tree: Subtlety, talent: "Improved Ghostly Strike", rank: 3, spell_id: 51972}
+        - {tree: Subtlety, talent: Hemorrhage, rank: 1, spell_id: 16511}
+        - {tree: Subtlety, talent: "Cloaked in Shadows", rank: 1, spell_id: 52707}
+        - {tree: Subtlety, talent: "Dirty Deeds", rank: 2, spell_id: 14083}
+        - {tree: Subtlety, talent: Preparation, rank: 1, spell_id: 14185}
+        - {tree: Subtlety, talent: "Shadow of Death", rank: 1, spell_id: 52710}
+        - {tree: Subtlety, talent: "Bloody Mess", rank: 2, spell_id: 51975}
+        - {tree: Subtlety, talent: "Honor Among Thieves", rank: 2, spell_id: 52514}
+        - {tree: Subtlety, talent: "Tricks of the Trade", rank: 5, spell_id: 52545}
+        - {tree: Subtlety, talent: "Mark for Death", rank: 1, spell_id: 52538}
 stat_weights:
   hit: "top priority (a missed Hemorrhage or finisher drops the Tricks of the Trade stack chain)"
   crit: "feeds Honor Among Thieves energy procs"
-  agility_ap: "\"the best stat for Subtlety rogues\" per one rework-proposal poster; not independently measured"
+  agility_ap: "\"the best stat for Subtlety rogues\" per one rework-proposal poster; not independently measured; Discord's sub rotation requires never letting SnD/Expose drop [[d:rogue#1431660105157443679]]"
 caps: {}
 rotation_single:
   - {priority: 1, action: "Garrote opener (Serrated Blades) or none in raids", condition: "if stealth is available"}
@@ -51,6 +138,8 @@ rotation_single:
   - {priority: 4, action: "Mark for Death", condition: "on cooldown (8s), aligned with the party's burst cooldowns"}
   - {priority: 5, action: "Shadow of Death", condition: "5 combo points, during party burst windows; costs 30 energy and drops the Tricks stack"}
   - {priority: 6, action: "Cloaked in Shadows (Vanish)", condition: "party takes a predictable raid-wide hit; do not expect to restealth"}
+  - {priority: 7, action: "Garrote opener -> Hemo builder -> IEA -> SnD -> Rupture/Shadow of Death/SnD/IEA before TotT drops; Mark + Shadow while TfB is active; Vanish to re-Garrote; Prep to reset party buffs", condition: "Discord's concrete sub flow", sources: ["[[d:rogue#1409664512944115793]]", "[[d:rogue#1431660105157443679]]"], agreement: consensus, era: mixed}
+  - {priority: 8, action: "30-second burst sequence: Garrote/Ambush -> Hemo -> Ghostly Strike -> 5-CP Rupture -> SnD -> Shadow of Death -> Prep -> Vanish -> re-Garrote", condition: "burst windows", sources: ["[[d:rogue#1458612868193714450]]"], agreement: single source, era: 1.18.1-announced-pre-release}
 rotation_aoe:
   - {targets_min: 2, priority: 1, action: "Hemorrhage on each add for the melee group's benefit", condition: "no other AoE tool; Blade Flurry costs energy the spec cannot spare"}
 aoe_threshold: 999
@@ -73,3 +162,23 @@ mistakes_to_avoid:
   - "Wasting Tricks of the Trade stacks on Distract/Smoke Bomb/Gouge without a reason"
   - "Using Smoke Bomb near the raid's own melee (it reduces hit chance for everyone inside, allies included)"
   - "Expecting a second rogue's Mark for Death to stack (it only refreshes)"
+  - "Do not pair Annihilator with a Shart'ateth Axe — same debuff slot, they overwrite each other [[d:rogue#1483262942748086434]]"
+  - "Do not assume Shadow of Death crits — it cannot [[d:rogue#1406940418075004999]]; a post-1.18.1 player also says it makes the rotation clunky [[d:rogue#1490397927598854295]] (contested)"
+  - "Do not go deep Subtlety support without a melee party: the buffs are party-wide and the personal dps loss is large [[d:rogue#1486006448520691852]]"
+
+discord:
+  channels: [rogue]
+  agreement: "mixed — consensus on the support job (IEA + Hemorrhage whole-raid, TotT + Mark party-only); contested on standing"
+  eras: [pre-1.18.1, 1.18.1-announced-pre-release, post-1.18.1]
+  sources:
+    - {cite: "[[d:rogue#1486005557495070720]]", era: post-1.18.1, agreement: consensus, topic: "decoded Subtlety support build with Assassination TWS"}
+    - {cite: "[[d:rogue#1486006448520691852]]", era: post-1.18.1, agreement: consensus, topic: "do not go deep sub without a melee party"}
+    - {cite: "[[d:rogue#1421734520306270310]]", era: pre-1.18.1, agreement: consensus, topic: "maintain IEA on the boss, TotT on the group, spam hemo"}
+    - {cite: "[[d:rogue#1389957217905672305]]", era: pre-1.18.1, agreement: consensus, topic: "hemo + IEA are whole-raid; TotT + Mark are party-only"}
+    - {cite: "[[d:rogue#1366086113277640734]]", era: pre-1.18.1, agreement: single source, topic: "one hemo/IEA rogue ~ three Combat rogues' raid benefit"}
+    - {cite: "[[d:rogue#1409664512944115793]]", era: pre-1.18.1, agreement: consensus, topic: "sub rotation flow"}
+    - {cite: "[[d:rogue#1431660105157443679]]", era: 1.18.1-announced-pre-release, agreement: single source, topic: "1-CP SnD -> 5-CP Expose -> ... -> Mark+Shadow"}
+    - {cite: "[[d:rogue#1483262942748086434]]", era: 1.18.1-announced-pre-release, agreement: single source, topic: "iEA-rogue: The Ripper off-hand BiS; Annihilator/Shart'ateth share a slot"}
+    - {cite: "[[d:rogue#1406940418075004999]]", era: pre-1.18.1, agreement: single source, topic: "Shadow of Death does not crit"}
+    - {cite: "[[d:rogue#1406364787566186527]]", era: pre-1.18.1, agreement: single source, topic: "Bloody Mess/Bloodsplatter was bugged (2% not 4%) in 1.18.0"}
+    - {cite: "[[d:rogue#1490397927598854295]]", era: post-1.18.1, agreement: single source, topic: "post-1.18.1 'Shadow of Death makes the rotation clunky' claim (contested)"}

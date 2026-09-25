@@ -99,6 +99,69 @@ Level-19 bracket specifics (Xudo's matchup list: paladins ignore Hamstring, hunt
 - Fighting enhancement shamans in melee (Springboards).
 - Reading pre-1.18.1 Hamstring advice as current: the 6 s cooldown was the era's central complaint ("it is the 6s cd on hamstring" [Isvya (player), 2024-10-18](https://forum.turtlecraft.gg/viewtopic.php?p=103679#p103679); [Gladius (player), 2025-02-11](https://forum.turtlecraft.gg/viewtopic.php?p=119652#p119652); [Taralej90 (player), 2025-08-11](https://forum.turtlecraft.gg/viewtopic.php?p=144606#p144606); [Eyeburn (player), 2025-08-24](https://forum.turtlecraft.gg/viewtopic.php?p=148022#p148022)) and it is gone since 2026-03-20.
 
+## Discord findings (2025–2026)
+
+`#warrior` PvP slices (2021-02 .. 2026-05) cross-read with `#pvp-general` (ends 2025-11-01, so every cross-channel matchup is pre-1.18.1 gear/kit). Citations `[[d:warrior#id]]` / `[[d:pvp-general#id]]` resolve in `structured/discord/evidence-warrior.jsonl` / `evidence-pvp-general.jsonl`. Eras as in the Arms file.
+
+### The post-CC3 spec flip — the biggest correction to this file
+
+The forum file treats Fury PvP as a niche self-sustain variant. The channel says the **default swung to Fury** after CC3/1.18.1:
+
+- "**2h fury is the best 2h pvp spec for warrior**" [[d:warrior#1486355885612863549]]; "the pvp meta is fury" [[d:warrior#1488507175885082747]]; "it's so odd that turtle devs are trying to force Fury as the PvP spec" [[d:warrior#1484522556613722163]] (**contested** overall).
+- The decisive talent is **Improved Berserker Rage**: a root break every 30 s is "just too good especially vs mages" → "Fury the best pvp spec atm" [[d:warrior#1485893615937916949]]. This supersedes the forum's framing of the Fury variant as only Blood Drinker + Thunderfury procs (the root break, not the heal, is the reason).
+- A controlled test at 1k AP found **Mortal Strike / Bloodthirst / Shield Slam deal exactly the same damage** [[d:warrior#1485862406440882286]] → "Arms is worst spec to pvp atm" [[d:warrior#1485862611550736504]]; another calls DW spellstrike Fury the strongest [[d:warrior#1485875286523383849]]. Thunderfury DW + Blood Drinker is the high-end sustain line [[d:warrior#1488495278087606322]].
+- Arms' remaining niche is organised 3v3/premade: "Arms is also the worse choice outside of 3v3 arena or hard premate" [[d:warrior#1488506997602127883]]. **"Arms is the PvP spec (Mortal Strike)" is now `contested`, not consensus.**
+- **Protection** is "unironically better than arms in PvP rn" [[d:warrior#1485549451367157771]] — stronger than the forum's "meme with two real tools" — but its ceiling is unchanged ("Prot Warrior auto lose to all casters") [[d:warrior#1492606194802626600]].
+
+### Full PvP talent allocations (forum README gap)
+
+Decoded from 1.18.x links/screenshots with `staging/talents/talent_codec.py`:
+
+| Build | Split | Code | Source |
+|---|---|---|---|
+| Arms PvP (1.18.1) | Arms 31 / Fury 20 | `FQLAKYDQpAQABA-FoAAJYCY-` | [[d:warrior#1491008034946682940]] |
+| DW Fury PvP (1.18.0 shape) | Arms 14 / Fury 37 | `NQQAKI-AoFApACoBCVYB-` | [[d:warrior#1437891956914262147]] |
+| Community 1.18.1 Fury PvP | Fury 35 / Prot 11 / Arms 5 | `FA-AoFgBACqBCVABA-TAFAIA` | [[d:warrior#1492063894464761937]] |
+| Level-49 twink Fury | 40 pts | `-AoAoJYCoBCQQ-QYFAIA` | [[d:warrior#1490383799958372482]] |
+| Kyrsie 1.18 Fury screenshot | Arms 17 / Fury 34 | — | [[d:warrior#1401373128533479435]] |
+
+2H Fury takes **Booming Voice over Unbridled Wrath** (Booming Voice is a PvP talent) [[d:warrior#1492881562516324425]], [[d:warrior#1492881927785680998]].
+
+### The post-1.18.1 PvP gear economy (forum had only "stamina gearing")
+
+- New sets carry "huge str, crit, hit, stam, armor stats … and it also reduces dot/crits taken"; T3 PvP "outstams k40 bis by 80~ stamina and has way better threat" [[d:warrior#1492257144588865787]], [[d:warrior#1488606329005146245]] (consensus).
+- Costs (20k honor/week cap): T1 24,000; T2 144,000 + T1; T3 520,000 + T2 plus 21,000 Conquest → **~33 weeks / 8+ months** [[d:warrior#1487427534772764682]], [[d:warrior#1492266218629890271]]. T1 is fresh-60-viable [[d:warrior#1491052658637934704]]. Itemisation mismatch vs T3.5 [[d:warrior#1492274545883746366]].
+- **Armour is the real gate**; proposed fixes: armour cap at 5k, remove crit/DoT reduction, real dampening [[d:warrior#1488858716970160149]], [[d:warrior#1486057650713002115]], [[d:warrior#1488851645558292670]].
+- **Enchant list** (forum: gap): Helm +7 Def/+10 Stam, Neck +6 Stam, Cape +3 Agi, Chest +100 hp or +4 all stats, Wrist +9 Stam, Legs +7 Def/+10 Stam, Feet Minor Speed, rings +Stam, weapon Crusader / **Weapon Chain** [[d:warrior#1384786996848754728]]; Weapon Chain is mandatory vs disarm spam [[d:pvp-general#1290571835859275818]].
+
+### Consumables, professions, race
+
+- FAP is the mandated anti-kite tool [[d:warrior#925097084787511296]], with ~**25% uptime in premades** [[d:warrior#995421141831266325]] and FAPs a must for WSG flag runners [[d:warrior#925098393284522014]]; the full stack is LIP + FAP + trinket potion + flask + stones/oils + grenades + reflectors [[d:warrior#1428707371336732762]], [[d:warrior#1424076848685383701]].
+- Engineering is "still bis for pvp/pve" [[d:warrior#1406209765712855201]]; **dissent**: "no need for engineering in world pvp anymore" [[d:warrior#1400958986735587501]] (contested). Skill expression is "smart usage of combat potions or engineering items/trinkets" [[d:warrior#1409975234857275402]].
+- **Race is settled differently from the forum**: **Gnome / Escape Artist is the consensus warrior PvP race** [[d:warrior#995410602115735654]], [[d:warrior#1494450420385320961]]; Human Perception is a minority pick [[d:warrior#995409805797752903]]; an older ranking puts Orc > Tauren >>>>> Forsaken > Troll [[d:warrior#997249727911436398]].
+
+### Matchup detail
+
+| vs | Advice | Citation | Agreement |
+|---|---|---|---|
+| Mage | Hard counter unless FAP; post-CC3 Improved Berserker Rage root break is the advertised answer | [[d:pvp-general#1387001790829957131]], [[d:warrior#1485893615937916949]] | consensus / single |
+| Paladin | Losing; MS is pointless vs a heal paladin ("-80% dmg") | [[d:pvp-general#1198322883143938078]], [[d:warrior#1474054341106073610]] | consensus |
+| Hunter | Slight hunter favour; entrap/concussive beats imp. Hamstring; deep prot claimed counter | [[d:pvp-general#1126849924491919420]], [[d:warrior#1302028129719816287]] | contested |
+| Rogue | The one matchup not disadvantaged; Defensive Stance, Blood Craze, 2h for Overpower | [[d:warrior#1146692339931291679]], [[d:warrior#1176592574924988547]] | consensus |
+| Warlock | Succubus Seduce → burst is the loss; deny the pet | [[d:pvp-general#1216944373036613633]], [[d:pvp-general#1351160314342936608]] | consensus |
+| Druid | Stop hitting into Frenzied Regen | [[d:warrior#1138784880495427596]] | consensus |
+| Shaman | Losing; prot + stun is the single-source counter | [[d:warrior#1474054341106073610]], [[d:pvp-general#1418626701457625119]] | consensus |
+| Warrior (mirror) | Defensive Stance; Disarm + Weapon Chain immunity; Death Wish for fear | [[d:warrior#1146692339931291679]], [[d:warrior#1047761845559238748]] | single source |
+
+Trinket cannot break sheep/trap/seduce [[d:pvp-general#1216689050057048134]]; kiting + CC is the whole counter [[d:pvp-general#1387001790829957131]].
+
+### Superseded / contested
+
+- **Hamstring-cooldown advice is obsolete**: 1.18.1 removed the CD — "the CD removal on Hamstring is nice" [[d:warrior#1484576999233028277]], "Hamstring unnerf saved warrior pvp" [[d:warrior#1490735375956705470]].
+- **Dampening is contested**: the forum changelog records `pvp-dampening-dynamic` as released in 1.18.1 (class/spec-specific) but a player reports it was **not implemented at launch** [[d:warrior#1485326960132493414]]; numbers are absent from both corpora.
+- The post-1.18.1 shieldrender change visibly affected warrior PvP [[d:warrior#1484735020248727582]]; Shield Wall post-patch is called "useless in pvp" by one source [[d:warrior#1488679442699129005]].
+- No post-1.18.1 measured verdict exists on the Hamstring un-nerf or the new PvP sets — first-impression posts only (2026-03/04).
+
 ## Sources
 
 | Source | Authority | Date | Era / kit | Mark |

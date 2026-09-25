@@ -23,29 +23,51 @@ agreement: contested
 patch_validity:
   written_for: "1.17.2/1.18.0 (pre-1.18.1)"
   valid_for_1181: true
-  notes: "Discipline talents unchanged in 1.18.1 except Searing Light mana 60%. Blackout (Shadow row 2 since 1.18.1) is now 5 points further for hybrids. PvP Dampening per spec introduced (values unknown). Healer variant is weakly sourced."
+  notes: "Discipline talents unchanged in 1.18.1 except Searing Light mana 60%. Blackout (Shadow row 2 since 1.18.1) is now 5 points further for hybrids. PvP Dampening per spec introduced (values unknown). Healer variant is weakly sourced. Discord adds: the strongest BG priest is a healer dipping Shadow for Silence + Inner Focus; Tauren is the post-1.18.1 PvP healer race."
+discord:
+  channel: priest
+  era_legend: "pre-1.18.1 <2025-10-03 | 1.18.1-announced-pre-release 2025-10-03..2026-03-19 | post-1.18.1 >=2026-03-20 | mixed spans more than one era"
+  sources:
+    - {id: "1294337426105569342", author: cryft, era: pre-1.18.1, agreement: consensus, used_for: "strongest BG priest: healer dipping Shadow for Silence + Inner Focus (free Devouring Plague); enough damage to kill rogues/warriors in 1v1", cite: "[[d:priest#1294337426105569342]]"}
+    - {id: "1294312429882310726", era: pre-1.18.1, agreement: consensus, used_for: "Shadowguard can proc Blackout and Shadow Weaving", cite: "[[d:priest#1294312429882310726]]"}
+    - {id: "1294341720233742398", era: pre-1.18.1, agreement: consensus, used_for: "a rogue opening on you stuns itself on Shadowguard", cite: "[[d:priest#1294341720233742398]]"}
+    - {id: "1484362246951010305", era: post-1.18.1, agreement: consensus, used_for: "post-1.18.1 Tauren racials are healing/disc oriented -> Tauren is the PvP healer race", cite: "[[d:priest#1484362246951010305]]"}
+    - {id: "1484570889642180670", era: post-1.18.1, agreement: consensus, used_for: "Tauren priest racials", cite: "[[d:priest#1484570889642180670]]"}
+    - {id: "1484898033597546539", era: post-1.18.1, agreement: consensus, used_for: "Light of An'she is Holy, unusable in Shadowform", cite: "[[d:priest#1484898033597546539]]"}
+    - {id: "1484428895246745670", era: post-1.18.1, agreement: single source, used_for: "Mana Burn moved to row 4 breaks some PvP builds", cite: "[[d:priest#1484428895246745670]]"}
+    - {id: "1291325933202047037", era: pre-1.18.1, agreement: consensus, used_for: "Psychic Scream bug vs mind-controlled targets (bug 8053)", cite: "[[d:priest#1291325933202047037]]"}
+  hybrid_healer:
+    role: "Healer dipping Shadow for Silence + Inner Focus is the strongest priest BG play; can 1v1 rogues/warriors who do not expect damage."
+    cite: "[[d:priest#1294337426105569342]]"
+    era: pre-1.18.1
+    agreement: consensus
+  tauren_pvp:
+    note: "Post-1.18.1 Tauren racials are healing/disc oriented, making Tauren the PvP healer race; Light of An'she is Holy school and unusable in Shadowform."
+    cite: "[[d:priest#1484362246951010305]], [[d:priest#1484898033597546539]]"
+    era: post-1.18.1
+    agreement: consensus
 talents:
   build_name: "Smite PvP 31/20/0 (reconstructed); healer variant Disc/Holy per Tok (image only)"
   points:
-    - {tree: Discipline, talent: Wand Specialization, rank: 2, spell_id: null}
-    - {tree: Discipline, talent: Piercing Light, rank: 3, spell_id: null}
-    - {tree: Discipline, talent: Mental Agility, rank: 3, spell_id: null}
-    - {tree: Discipline, talent: Blessed Concentration, rank: 2, spell_id: null}
-    - {tree: Discipline, talent: "Improved Power Word: Shield", rank: 3, spell_id: null}
-    - {tree: Discipline, talent: Inner Focus, rank: 1, spell_id: null}
-    - {tree: Discipline, talent: Improved Inner Fire, rank: 2, spell_id: null}
-    - {tree: Discipline, talent: Purifying Flames, rank: 2, spell_id: null}
-    - {tree: Discipline, talent: Searing Light, rank: 3, spell_id: null}
-    - {tree: Discipline, talent: Enlighten, rank: 1, spell_id: null}
-    - {tree: Discipline, talent: Mental Strength, rank: 3, spell_id: null}
-    - {tree: Discipline, talent: Force of Will, rank: 5, spell_id: null}
-    - {tree: Discipline, talent: Chastise, rank: 1, spell_id: null}
-    - {tree: Holy, talent: Divinity, rank: 5, spell_id: null}
-    - {tree: Holy, talent: Divine Fury, rank: 5, spell_id: null}
-    - {tree: Holy, talent: Holy Reach, rank: 2, spell_id: null}
-    - {tree: Holy, talent: Holy Nova, rank: 1, spell_id: null}
-    - {tree: Holy, talent: Holy Focus, rank: 2, spell_id: null}
-    - {tree: Holy, talent: Spiritual Guidance, rank: 5, spell_id: null}
+    - {tree: Discipline, talent: Wand Specialization, rank: 2, spell_id: 14525}
+    - {tree: Discipline, talent: Piercing Light, rank: 3, spell_id: 51464}
+    - {tree: Discipline, talent: Mental Agility, rank: 3, spell_id: 14781}
+    - {tree: Discipline, talent: Blessed Concentration, rank: 2, spell_id: 14774}
+    - {tree: Discipline, talent: "Improved Power Word: Shield", rank: 3, spell_id: 14769}
+    - {tree: Discipline, talent: Inner Focus, rank: 1, spell_id: 14751}
+    - {tree: Discipline, talent: Improved Inner Fire, rank: 2, spell_id: 14770}
+    - {tree: Discipline, talent: Purifying Flames, rank: 2, spell_id: 51471}
+    - {tree: Discipline, talent: Searing Light, rank: 3, spell_id: 51468}
+    - {tree: Discipline, talent: Enlighten, rank: 1, spell_id: 51476}
+    - {tree: Discipline, talent: Mental Strength, rank: 3, spell_id: 18553}
+    - {tree: Discipline, talent: Force of Will, rank: 5, spell_id: 18550}
+    - {tree: Discipline, talent: Chastise, rank: 1, spell_id: 51478}
+    - {tree: Holy, talent: Divinity, rank: 5, spell_id: 15011}
+    - {tree: Holy, talent: Divine Fury, rank: 5, spell_id: 18535}
+    - {tree: Holy, talent: Holy Reach, rank: 2, spell_id: 27790}
+    - {tree: Holy, talent: Holy Nova, rank: 1, spell_id: 15237}
+    - {tree: Holy, talent: Holy Focus, rank: 2, spell_id: 15012}
+    - {tree: Holy, talent: Spiritual Guidance, rank: 5, spell_id: 15031}
   leveling_order: []
 stat_weights:
   stamina: 1
@@ -81,7 +103,7 @@ cooldowns:
 resource_rules:
   - "Tea and drinking out of combat; Searing Light -60% Smite mana (1.18.1)"
   - "Mental Agility; Sun's Embrace (High Elf) when low"
-  - "Mana Burn only with Improved Mana Burn (Shadow row 4)"
+  - "Mana Burn only with Improved Mana Burn (Shadow row 4; the row-4 move breaks some PvP builds) [[d:priest#1484428895246745670]]"
 consumables:
   - Nordanaar Herbal Tea (61675)
   - Major Mana Potion
@@ -92,3 +114,5 @@ mistakes_to_avoid:
   - "Forgetting ally-Chastise on Sap/Blind"
   - "Relying on Feedback for Blackout"
   - "Expecting Devouring Plague to stick vs paladins/priests"
+  - "Expecting Light of An'she in Shadowform (Holy spell) [[d:priest#1484898033597546539]]"
+  - "Using Psychic Scream on mind-controlled targets without knowing the bug (bug 8053) [[d:priest#1291325933202047037]]"

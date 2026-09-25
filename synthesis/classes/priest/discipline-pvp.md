@@ -70,6 +70,16 @@ Healer variant priority (Tok/Ataika): Renew/PW:S while moving, Flash Heal, Dispe
 - Using Feedback as a Blackout engine (Ataika).
 - Expecting Devouring Plague to survive a paladin/priest (cleansed) — Halfgeek9.
 
+## Discord (1.18.1 era)
+
+- **The strongest BG priest is a healer dipping Shadow** for `Silence` + `Inner Focus` (free Devouring Plague): "the damage is enough to kill rogues and warriors in 1v1 who don't expect you to fight back so hard" — cryft [[d:priest#1294337426105569342]] (pre-1.18.1, consensus).
+- **`Shadowguard` can proc Blackout** [[d:priest#1294312429882310726]]; a rogue opening on you "instantly stuns themselves on your shadowguard" [[d:priest#1294341720233742398]].
+- **Post-1.18.1 Tauren racials are healing/disc oriented**, making Tauren the PvP healer race [[d:priest#1484362246951010305]], [[d:priest#1484570889642180670]]; Light of An'she is Holy and unusable in Shadowform [[d:priest#1484898033597546539]].
+- **Mana Burn moved to row 4** breaks some PvP builds [[d:priest#1484428895246745670]] (single source).
+- **`Psychic Scream` bug vs mind-controlled targets** (bug 8053) [[d:priest#1291325933202047037]].
+
+Era: pre-1.18.1 + post-1.18.1. Agreement: consensus except Mana Burn (single source).
+
 ## Sources
 
 | Source | Authority | Date | Era | Used for | Agreement |
@@ -82,5 +92,6 @@ Healer variant priority (Tok/Ataika): Renew/PW:S while moving, Flash Heal, Dispe
 | [Ragetto t=15099](https://forum.turtlecraft.gg/viewtopic.php?p=102616#p102616) + Heroclastus | player | 2024-10 | pre-1.18.1 | build shape, hit | consensus on hit |
 | [Tok](https://forum.turtlecraft.gg/viewtopic.php?p=78962#p78962), [Ataika](https://forum.turtlecraft.gg/viewtopic.php?p=131171#p131171) | player | 2023-11 / 2025-05 | pre-1.18.1 | healer variant | weak |
 | [Jamey](https://forum.turtlecraft.gg/viewtopic.php?p=108776#p108776), [Torta](https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504) | staff | 2024-11-20 / 2025-03-30 | pre-1.18.1 | Chastise/Searing Light values | authoritative |
+| Discord `#priest` (cryft, Zvyrhol, Kabooble) | players | 2024-2026 | pre-1.18.1 + post-1.18.1 | hybrid healer + Silence/Inner Focus, Shadowguard/Blackout, Tauren, Mana Burn row 4, Psychic Scream bug | consensus (Mana Burn single source) |
 
 Pre-1.18.1 advice affected by 1.18.1: Blackout as a cheap row-1 pick (Podgnil), Searing Light mana (60%), PvP Dampening per spec (unknown numbers).

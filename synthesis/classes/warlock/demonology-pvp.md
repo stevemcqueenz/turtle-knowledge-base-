@@ -66,6 +66,28 @@ Sources: Deer12w, pillowed, Twospooky, Vrankz, Forumdweller, the SL/NF wiki note
 - Expecting Voidwalker Sacrifice to absorb a burst opener ("it only adds maybe 1 or 2 more hits" — pillowed).
 - Playing SL on Alliance and relying on Fear against Undead.
 
+## Discord findings (2025–2026)
+
+### Build — a decoded Soul Link 5/34/12
+
+Discord supplies the point list the forum file lacked. Aulbath's code `Ao-AoQYBoCDBYFYB-FAV` decodes to **5/34/12**: Affliction Imp. Corruption 5; Demonology Demonic Embrace 5, Soul Funnel 2, Fel Intellect 3, Fel Domination 1, Fel Stamina 5, Master Summoner 2, Unholy Power 3, Power Overwhelming 1, Demonic Precision 3, Master Demonologist 5, Unleashed Potential 3, Soul Link 1; Destruction Shadow Vulnerability 5, Demonic Swiftness 2, Bane 5 [[d:warlock#1409163562169139322]], [[d:warlock#1409192217079316611]] (single source). The author dropped Shadowburn for 2/2 Demonic Swiftness: “1.18 is all about maximizing pet damage, even in pvp.” Other named variants are 20/31/0 and 17/31/3 [[d:warlock#1465082548748288010]], [[d:warlock#1377402804448264343]].
+
+### Post-1.18.1 picture and the arena playbook
+
+- **Greater-demon cooldowns reset every arena match** — pre-summon during ready-up; Inferno/Demon Gate are the win condition at low/mid gear [[d:warlock#1436498300542128168]]. **Felguard is bad on Blades Edge** (pillars/rope) and vs geared teams [[d:warlock#1424134340052520980]]. There is an in-channel request to stop balancing around Blood Ring win-rate [[d:warlock#1464911531757015155]].
+- **Soul Link strength is contested on record**: banned in duelling tournaments [[d:pvp-general#1113087406359449671]] vs “soul link is simply not playable anymore in pvp” post-CC3 [[d:warlock#1423810612437450832]]. Keep both sides.
+- **1.18.1 durability changes**: Soul Link transfer 25%→20%; the healing reduction moved off the Warlock onto the enslaved/greater demon (a net buff to the Warlock's own healing) [[d:warlock#1464380540135276677]], [[d:warlock#1464421332887539876]].
+- **PvP set/bonuses (post-1.18.1)**: proposed Warlock 3-tier set — 2pc 30% avoid interruption / 4pc 35 stam / 6pc instant Howl of Terror (2-min CD); players say the stats/bonuses are Destro-oriented while almost everyone plays Affliction and the set “lost 10% Soul Link” [[d:warlock#1487426760005124097]], [[d:warlock#1487427619803889724]], [[d:warlock#1491319532810272909]], [[d:warlock#1487290804941885572]] (contested).
+- **Race (post-1.18.1)**: Undead for PvP (WotF), Orc for Demo/Destro, Troll for Affliction; Orc Hardiness “nerfed into the ground” makes WotF the better PvP racial [[d:warlock#1488436339962548264]], [[d:warlock#1491111022877216972]], [[d:warlock#1488865404519583745]].
+
+| Discord claim | Sources | Agreement | Era |
+|---|---|---|---|
+| Decoded SL 5/34/12 build | Aulbath code | single source | 1.18.1-announced-pre-release |
+| Arena greater-demon reset | Summonjutsu et al. | consensus | 1.18.1-announced-pre-release |
+| Soul Link strong vs unplayable | tournament ban vs post-CC3 report | contested | pre-1.18.1 vs 1.18.1-announced-pre-release |
+| 1.18.1 set bonuses/Destro-oriented | player reports | contested | post-1.18.1 |
+| PvP race advice | multiple | consensus | post-1.18.1 |
+
 ## Sources
 
 | Recommendation | Sources | Agreement | 1.18.1 note |

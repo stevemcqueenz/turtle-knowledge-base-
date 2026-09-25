@@ -12,7 +12,7 @@ Playbook for the Restoration healing spec. Class Changes 2 (2024-10-12) pushed R
 
 ## Talent build
 
-Two build philosophies, both actively played; **no source decodes a single definitive 60-point list**, only talent-calculator links and named-talent descriptions:
+Two build philosophies, both actively played; **the Discord calculator links decode** (`staging/talents/`). The channel consensus is the **Tree of Life 18/0/33** allocation (4+ independent confirmations 2025-10 → 2026-01) [[d:druid#1430728686411448410]]; the **Moonglow/HT 21/0/30** is the older raiding standard [[d:druid#1421530945730646168]]; Bapi's pinned post-1.18.1 guide is **12/0/39**, full tree [[d:druid#1484966802101502214]]. Full point lists are in `restoration-healer.yaml`. The shape otherwise described by the forum sources:
 
 - **Tree of Life / HoT build**: centers on Rejuvenation/Regrowth spam plus Swiftmend, with **Efflorescence** (level 60, Tree-Form-only passive: any time your Regrowth/Rejuvenation is about to be replaced, it instantly heals for a portion of the remaining duration) as the capstone payoff. Community build link: [https://talents.turtlecraft.gg/druid?points=BgAbAI--FAFABbFFALFQB](https://forum.turtlecraft.gg/viewtopic.php?p=156226#p156226) — [Bayanni (player), 2025-10-19](https://forum.turtlecraft.gg/viewtopic.php?p=156226#p156226), who also suggests swapping 2/2 Improved Tranquility for 2/2 Nature's Reach depending on raid needs (Naxx/AQ40 range utility vs. a stronger emergency cooldown).
 - **Moonglow / Healing Touch build**: keeps Healing Touch as a spam-able direct heal, uses Moonglow for its mana-cost reduction while casting HT, and leans on **Aessina's Bloom** (Healing Touch on a Regrowth-affected target has a 30/60% chance to instantly heal for 6 seconds of Regrowth). Community build links: [https://talents.turtlecraft.gg/druid?points=oACYQKCYAI--FAoABLFDQAF](https://forum.turtlecraft.gg/viewtopic.php?p=147488#p147488) — [Skyfont (player), 2025-08-21](https://forum.turtlecraft.gg/viewtopic.php?p=147488#p147488); another variant [https://talents.turtlecraft.gg/druid?points=BgYbAKAYAI--FAoABbFFQI](https://forum.turtlecraft.gg/viewtopic.php?p=156226#p156226) — [Bayanni (player), 2025-10-19](https://forum.turtlecraft.gg/viewtopic.php?p=156226#p156226).
@@ -66,6 +66,41 @@ Two build philosophies, both actively played; **no source decodes a single defin
 - Forgetting Efflorescence must be trained from a class trainer and requires Tree of Life Form to function.
 - Assuming a second (or third) druid's weaker HoT will stack instead of overwrite.
 
+## Discord additions (post-1.18.1)
+
+Decoded builds, the spirit→MP5 formula, downranking numbers and the post-1.18.1 build from `#druid`.
+
+### Decoded builds
+
+| Build | Split | Notes | Source |
+|---|---|---|---|
+| Tree of Life | **18/0/33** | Post-1.18 consensus; full tree through Tree of Life Form | [[d:druid#1430728686411448410]] |
+| Moonglow / Imp Healing Touch | **21/0/30** | Older raiding standard; Nature's Grace + Imp HT; cannot take Tree | [[d:druid#1421530945730646168]] |
+| Bapi post-1.18.1 | **12/0/39** | Full tree incl. **Nature's Focus 5/5 and Tranquil Spirit 5/5** | [[d:druid#1484966802101502214]] |
+
+The forum's "both builds actively played" framing is superseded: Discord calls the **Healing Touch build not viable in current raids** ("a worse priest or pally with a damn long cast time") [[d:druid#1380604807810646098]] while the Tree build is the post-1.18 consensus. Efflorescence requires Tree of Life Form (designer confirmation) and is a level-60 passive that snap-heals the remaining HoT duration when a Rejuv/Regrowth is replaced [[d:druid#1296230109518237756]] [[d:druid#1296391502087589999]]; Regrowth R9 in Tree + Tranquil Spirit costs ~400 mana [[d:druid#1296399632099704863]].
+
+### Statistics
+
+- **Spirit → MP5, from in-client code**: `Spirit * 0.20 * 0.15` (Reflection). 450 spirit ≈ **15.75 MP2 / 39.375 MP5**; this is why 3/3 Preservation beats 3/3 Reflection [[d:druid#1407633163961892914]].
+- **Preservation > mana-cost reduction**: "+20% HOT is way more than -4% mana, you can just cast a rank 8 and heal more than a rank 9 with -4% mana" [[d:druid#1405962260626804849]].
+- **Tranquil Spirit does nothing for Rejuvenation** — only Healing Touch; a point-donor otherwise [[d:druid#1409495826107203728]] [[d:druid#1416048492580704368]].
+- **Hidden 1.18 change**: the +10% healing talent now scales with healing power and the Tree flat-HP bug was fixed — end-game resto buffed, low-gear resto nerfed [[d:druid#1407247748352442461]]. Spirit-aura bug reports [[d:druid#1402603506656874578]] [[d:druid#1403315055973634068]].
+
+### Downranking, idols and consumes
+
+- **Concrete downranking numbers**: **Regrowth r5** for sustained, max-rank only for emergencies [[d:druid#1315692080185610392]] [[d:druid#1315691191819571210]]. HT build: **rank 3 Healing Touch + Aessina's Bloom** heals ~2000 at 1.5s for almost no mana [[d:druid#1380510114372649045]].
+- **Swiftmend** at the end of a Regrowth/Rejuv for best HPM ("4.5k crits"); a 9k-crit instant NS-Healing-Touch is the real oh-shit button [[d:druid#1380837659353546782]] [[d:druid#1380836896724488214]].
+- **Idols** (all called mediocre): Idol of Health, Idol of Longevity, Idol of the Forgotten Wilds, Idol of Rejuvenation (+50, ~+60 in tree); Idol of Blooming lets you cast HT r4 and lower in Tree [[d:druid#1421550248354123787]] [[d:druid#1384122313192243272]] [[d:druid#1385179156051918880]].
+- **Consumables**: teas, Nightfin Soup, spirit food (**does not stack with Nightfin**), Mageblood + Oil + Nightfin + Blessing for MP5, Flask of Distilled Wisdom for mana [[d:druid#1383743120902066301]] [[d:druid#1383746068830748722]] [[d:druid#1386731522635075656]].
+- **Bapi guide corrections** (Micro Jackson): 8 Healing Power belt buckle over 10 Int; green level-55+ "of Spirit" pieces are the best spirit cloak/wrists/belt; "Of the Lost" trinket BIS spirit at 2200g; Dire Maul alcohol +25 spirit / -5 int [[d:druid#1475237840618258546]] [[d:druid#1475240403237081128]] [[d:druid#1430121439448531025]].
+- **Tier value**: only **2/8 T3** and **5/5 T3.5** are worth a lot; **T2 8/8 costs ~230 healing power**; T3 6/8 is strong [[d:druid#1427389460844380331]]; the T3.5 blend "3/5 T3.5 + 5/8 T2" is a known combination [[d:druid#1381722834925129920]].
+
+### Niche and encounters
+
+- **Tranquility is the reason to bring a resto druid**: "the only answer is tranquility… it makes so much of a difference in some fights" (Anomalus, Kruul P2) [[d:druid#1396785171436408915]] [[d:druid#1405512865674166342]]; but it can be **interrupted by Sapphiron's aura ticks** [[d:druid#1302718473369030768]], and mana is a real issue on sub-1-hour Kara40 clears [[d:druid#1475543475733663815]] [[d:druid#1405945984965677257]].
+- **Raid-slot scarcity is now the dominant Discord complaint**: "2 resto druids is 1.5 resto druids" [[d:druid#1380503533228658708]].
+
 ## Sources
 
 | Post | Author (authority) | Date | Era | Agreement |
@@ -80,4 +115,5 @@ Two build philosophies, both actively played; **no source decodes a single defin
 | [p126322](https://forum.turtlecraft.gg/viewtopic.php?p=126322#p126322)–[p128462](https://forum.turtlecraft.gg/viewtopic.php?p=128462#p128462) | Azcron, Bigsmerf, Zulnam, Pdwow, Noephix (players) | 2025-04-10/25 | pre-1.18.1 | new-player build feedback, addon tips |
 | [p131891](https://forum.turtlecraft.gg/viewtopic.php?p=131891#p131891)–[p131901](https://forum.turtlecraft.gg/viewtopic.php?p=131901#p131901) | Krltbr, Springboards, Halfgeek9 (players) | 2025-05-19 | pre-1.18.1 | single source — starter PvP-as-PvE gear |
 | [p173102](https://forum.turtlecraft.gg/viewtopic.php?p=173102#p173102), [p173300](https://forum.turtlecraft.gg/viewtopic.php?p=173300#p173300) | Noephix, Froizerk (players) | 2026-03-30 | post-1.18.1 | contested — post-1.18.1 standing |
+| `#druid` Discord — decoded builds, spirit→MP5 math, downranking, idols, Tranquility calls | Bapi, Micro Jackson, Fat Pibble (staff), Bayanni, Reploidrocsa, Krokat | 2025-06 → 2026-04 | 1.18.1-announced-pre-release / post-1.18.1 | consensus on Tree > HT, single-source on numeric spirit math |
 | `synthesis/1.18.1-master-changelog.md` §Druid, `synthesis/turtle-vs-vanilla-timeline.md` §Druid | — (compiled from staff posts) | — | — | official changelog compilation |

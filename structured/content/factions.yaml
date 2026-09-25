@@ -12,6 +12,81 @@ caveats:
 - Reward tables come from the community wiki, not from staff; prices may be stale.
 - Six custom factions have no documented reward list anywhere in this extraction.
 - No quartermaster coordinates exist in any source.
+discord_enrichment:
+  channel: turtle-wiki
+  note: >-
+    Faction/reputation findings from the archived #turtle-wiki Discord. Era:
+    pre-1.18.1 | 1.18.1-announced-pre-release | post-1.18.1; agreement: consensus | single source | contested.
+  factions:
+  - name: Kul Tiras
+    claim: >-
+      Quest sources are Davenport (Stormwind Harbor), Anchor's Edge (Barrens) and
+      Caelan's Rest (Lapidis Isle), plus some Theramore Shady Rest Inn continuation
+      quests. Even doing every relevant quest as a human, the measured ceiling was
+      3,027/6,000 (Friendly) with one ~165-rep quest left - i.e. ~3,192/6,000 and no way
+      to reach Honored at the time; Kul Tiras had no rep rewards then.
+    authority: guide writer
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1103023966542635008]]'
+    - '[[d:turtle-wiki#1104867579325071471]]'
+    - '[[d:turtle-wiki#1099794698433986651]]'
+  - name: Revantusk Trolls
+    claim: >-
+      A repeatable Hinterlands quest gives 100 rep and the Amani'Alor cloth turn-in also
+      gives rep; players complained the early grind was roughly 20 days of dailies to
+      Honored, and that Revantusk lacked the non-daily quests its Alliance counterpart
+      (Silvermoon Remnant) had.
+    authority: player
+    agreement: consensus
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1115916549073670195]]'
+    - '[[d:turtle-wiki#1329080095951949824]]'
+    - '[[d:turtle-wiki#1115651377805406378]]'
+  - name: Dalaran
+    claim: >-
+      A 2025-08 player searched for the wiki's advertised Nexus Crystal repeatable (500
+      rep) at Dalaran and found only the three other 'fortification' quests - evidence
+      against the wiki's four-repeatable list, at least that late (CON-0092).
+    authority: player
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1406665734934888518]]'
+  cross_faction_notes:
+  - claim: >-
+      Continuing the Bloodsail questline drops Booty Bay to Hated; recovery is a
+      repeatable silk-and-red-dye turn-in in front of Booty Bay, which in turn lowers
+      Bloodsail again.
+    authority: guide writer
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1391667801760075829]]'
+  - claim: A transmute of Elemental Earth requires Timbermaw Hold at Friendly.
+    authority: player
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1410588729587798076]]'
+  - claim: Shen'dralar's new Alchemy recipe is tied to Shen'dralar reputation, farmed by killing Dire Maul ogres.
+    authority: player
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1406280722112708608]]'
+  - claim: >-
+      Goblins have rocket cars and high elves unicorns; the factions are Durotar Labor
+      Union and Silvermoon Remnant (there were no dedicated mount pages at the time).
+      Confirms the custom mounts exist but does NOT settle whether the rocket cars are
+      race-locked (CON-0091).
+    authority: guide writer
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1321196482417660008]]'
 factions:
 - name: Silvermoon Remnant
   side: Alliance
@@ -299,6 +374,14 @@ factions:
     source_tier: player, single source
     sources:
     - https://forum.turtlecraft.gg/viewtopic.php?p=82964#p82964
+  discord_reported:
+  - claim: 'A repeatable Hinterlands quest gives 100 rep; the Amani''Alor cloth turn-in also gives rep; the early grind was reported as ~20 days of dailies to Honored.'
+    agreement: consensus
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1115916549073670195]]'
+    - '[[d:turtle-wiki#1329080095951949824]]'
+    - '[[d:turtle-wiki#1115651377805406378]]'
   rewards: []
   rewards_note: level-60 gear; a player reports the items have no Stamina and calls the grind not worth it
   rewards_sources:
@@ -346,6 +429,16 @@ factions:
     - https://turtle-wow.fandom.com/wiki/The_Tower_of_Lapidis_X
     - https://turtle-wow.fandom.com/wiki/The_Deeds_of_Sir_Danuvis
     - https://turtle-wow.fandom.com/wiki/Ceaseless_Storms
+  player_reported_ceiling:
+    claim: >-
+      Even doing every relevant quest as a human, 3,027/6,000 (Friendly) with ~165 rep
+      left on the last quest - no way to reach Honored at the time; no rep rewards then.
+    agreement: single source
+    era: pre-1.18.1
+    sources:
+    - '[[d:turtle-wiki#1103023966542635008]]'
+    - '[[d:turtle-wiki#1104867579325071471]]'
+    - '[[d:turtle-wiki#1099794698433986651]]'
   rewards: []
   rewards_note: not found in sources
   sources:

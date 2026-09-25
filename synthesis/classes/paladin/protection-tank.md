@@ -129,17 +129,58 @@ Downranking: "dont forget you can cast low level versions of spells" — [Terryd
 - Stacking Strength gear "because it's plate" instead of Stamina/SP (contested value, see stats).
 - Not marking targets; not using Salvation on DPS.
 
+## Discord additions (post-1.18.1, `#paladin`)
+
+The forum extraction barely overlaps the 2026-03-20 release, so the items below are the live-server re-evaluation. Era and agreement are stated per bullet. The class designer posting in-channel is **Lhian** (Turtle WoW Team).
+
+### Standing: threat is no longer the problem
+
+- Patch-day Patchwerk TPS breakdown, total ~2085 TPS (Holy Strike 599, Auto 212, Seal of Righteousness 367, Judgement of Righteousness 354, Consecration 194, Holy Shield 200, Exorcism 32, Hammer of Wrath 40, Blessing of Sanctuary 22) [[d:paladin#1485399760964817139]] (post-1.18.1, consensus).
+- "Threat is already not a problem for prot paladins" [[d:paladin#1492549184010715346]]; "this patch is amazing for prot ... overall prot eating good this patch" [[d:paladin#1485297028337766544]]; "Ppal threat really got a big boost this patch" [[d:paladin#1485398358750134283]] (post-1.18.1, consensus). **This supersedes the forum's pre-1.18.1 "scaled poorly / threat bottom tier" framing.**
+- The remaining complaint is the mitigation-vs-threat trade-off: "Average prot paladin sacrificing 150 stam and 20% avoidance to do 1% more threat and then getting oneshot by a crush" [[d:paladin#1487042295747575898]] (post-1.18.1, single source).
+- **2H tanking is a real niche**, outright BIS on Incantagos/Medivh (no melee/no physical) and elemental-damage fights (Ragnaros, Geddon, BWL drakes, Vael, Viscidus, Huhuran, Thaddius, Grobbulus) [[d:paladin#1489188911124320256]] [[d:paladin#1489189325987123381]] (post-1.18.1, single source).
+- **Vengeprot 0/26/25** (Reckoning + Holy Shield in Prot, Improved Retribution Aura + Vengeance in Ret) is the recommended off-tank build, but only if the raid keeps Vengeance rolling [[d:paladin#1487321785207754793]] [[d:paladin#1491414001979228363]].
+
+### Rotation deltas from the forum baseline
+
+- **Opener**: pre-cast Holy Shield while running in, Judgement of Wisdom, Holy Strike as soon as in range; Holy Strike is "probably 60% of your opener" [[d:paladin#1485400460897685634]].
+- **Crusader Strike is now a Zealous Defence defensive/pre-hit button, not a Zeal maintainer**; tankswap pattern "pre holy shield, taunt, crusader ... crusader > hit > bulwark > bulwark about to end > crusader" [[d:paladin#1484833025177944206]] (post-1.18.1, consensus). Supersedes the forum's "CS is a Zeal maintainer".
+- **Consecration front-loading starts when the mob ENTERS, not when cast** [[d:paladin#1484776924046692372]]; AoE opener first tick ~600 threat, ~475 on the second [[d:paladin#1485368911712092332]].
+- **Seals post-1.18.1**: Seal of Righteousness single-target, Seal of Wisdom on trash packs - the reverse of the forum default [[d:paladin#1485412710307856414]] (post-1.18.1, single source).
+- **Auras**: Sanctity Aura when available, else Retribution Aura for threat [[d:paladin#1485412710307856414]] [[d:paladin#1485640207486419077]].
+- **Righteous Fury is a holy-only ~2x/+105% threat multiplier**; nothing else scales with it [[d:paladin#1493091174553096313]].
+
+### Stats and caps (supersede the forum's hedge)
+
+- Spell power is the threat stat ("prot pally = sp maxxing") [[d:paladin#1488771634704679073]]; stamina is primary survival [[d:paladin#1494348050561503232]]; intellect is mana and effectively mp5 via Shield Specialization [[d:paladin#1484482699644108901]]; strength/AP is low ("12 str gives less than one shield block value of extra HS damage") [[d:paladin#1487950600573554739]] [[d:paladin#1492667984320270528]].
+- **Avoidance/crit-immunity = 102.4% combined dodge+parry+block+miss with Holy Shield up, not 440 defense** [[d:paladin#1490380415968608357]] [[d:paladin#1491228491344121866]]; 90% combined "is basically the same as 102.4%" [[d:paladin#1488125629583851582]]. Supersedes the forum's single hedged 440/420 post.
+- **Crush cap** is reached from the tier set + Holy Shield, with no separate block chase [[d:paladin#1491339233506492496]] - closes the forum's "exact post-1.18.1 number unknown".
+- **No spell hit is needed for ordinary tanking** [[d:paladin#1488770847803052143]]; Precision + C'Thun ring + ES choker (~5%) is enough for taunt with Improved Hand of Reckoning 2/2 [[d:paladin#1488518962462326855]] [[d:paladin#1488517935323676784]].
+
+### Gear, cooldowns and bosses
+
+- Single-target weapon ranking: **Desecration >= Thunderfury > Lokamir ~ Wraith Blade / Comet Signaller / Blade of Eternal Justice** (TF ~0.5% behind Desecration ST; TF proc better for AoE) [[d:paladin#1485350319859826718]] [[d:paladin#1484518814891901008]]. Pre-raid: **Crimson Spellblade > Mass of McGowan** even on fire-immune mobs (25.8 vs 21.5 tps) [[d:paladin#1485802157461602374]].
+- Pre-raid prot is "largely like gearing a spelladin - get T0.5 and mix it with tank off-pieces"; T1 PvP is "super prebis" [[d:paladin#1490383122943185106]] [[d:paladin#1490253553183363175]]. **Still a gap**: no complete itemised list.
+- New librams: **Libram of the Eternal Tower** (ST threat) and **Libram of the Hallowed Ground** (Consecration, 4% SP per tick) [[d:paladin#1488793803056746558]] [[d:paladin#1489569357725044837]]. Cloak of the Brood Lord becomes the highest-SP cape [[d:paladin#1484303715555872769]].
+- Consumables: **Flask of Petrified Gold** floated as threat-tank BIS [[d:paladin#1486100086944698492]]; **Nordanaar Herbal Tea** ~600 HP / 1100 mana, 2-min CD, separate from potions [[d:paladin#1485441517744029717]].
+- Patch-week **Improved Righteous Fury bug**: RF snapshots the talent state on application; fixed [[d:paladin#1484744707971092660]] [[d:paladin#1485055210605772800]].
+- Boss notes: Incantagos/Medivh 2H BIS and bubble the rain [[d:paladin#1489191325801910273]]; Anomalus run 315 arcane resist [[d:paladin#1484469818869416047]]; Rupturan "hit Holy Strike / move 12 yd" [[d:paladin#1484464353506754630]]; Loatheb 227k threat in 144 s (~1600 TPS) [[d:paladin#1484742645593931967]]; Patchwerk CS for Zealous Defence [[d:paladin#1484824175431520286]]; Firemaw fire resist + snap threat and count wing-buffet seconds [[d:paladin#1487103351844765806]]; Nefarian has a new Paladin class call [[d:paladin#1491880297145434262]].
+
+### Next patch: announced 2026-04-01, NOT shipped
+
+Developer **Lhian** announced for the patch after 1.18.1 [[d:paladin#1488852869212798987]] (post-1.18.1, staff): **Holy Strike becomes a next-attack ability like Heroic Strike** (whole hit + extra holy damage); **Crusader Strike loses its cooldown, damage drastically reduced, and now stacks a holy-damage debuff**; casting Holy Strike in Consecration **cleaves an additional enemy**; the Holy Strike **healing component is removed**; **spellstrikes no longer proc anything**; more stamina on tier gear. This will supersede the CS-as-Zealous-Defence model once it lands. A follow-up theorycrafting post was announced for `#theorycrafting` [[d:paladin#1495467664636772484]].
+
 ## Sources
 
 | Thread / post | Author (authority) | Date | Era | Used for | Agreement |
 |---|---|---|---|---|---|
 | [Paladin dungeon tanking guide p52649](https://forum.turtlecraft.gg/viewtopic.php?p=52649#p52649) | Getplucked (player) | 2023-07-08 | pre-1.18.1 (pre-CC2 talents; play advice still quoted) | pull, priorities, mana, +dmg items | consensus for the rotation logic; **talent build outdated** ([Istavan, 2025-01-08](https://forum.turtlecraft.gg/viewtopic.php?p=115937#p115937)) |
 | [Turtle WoW Paladin Guide 1.17.2 p27457](https://forum.turtlecraft.gg/viewtopic.php?p=27457#p27457) | Unchallenged (player, guide writer) | 2022-10-18, edited 2024-12-04 | pre-1.18.1 | builds, leveling orders, enchants, item list | single source for builds |
-| [How to Tank t23687](https://forum.turtlecraft.gg/viewtopic.php?t=23687) | Atreidon, Reploidrocsa, Akos1896, Captain4k, Terrydavis, SvenS2 (players) | 2026-01-21 → 03-22 | 1.18.1-announced / post | pulls, marks, two gear sets, mana pacing | consensus |
+| [How to Tank t23687](https://forum.turtlecraft.gg/viewtopic.php?t=23687) | Atreidon, Reploidrocsa, Akos1896, Captain4k, Terrydavis, SvenS2 (players) | 2026-01-21 → 03-22 | 1.18.1-announced-pre-release / post | pulls, marks, two gear sets, mana pacing | consensus |
 | [Prot paladin gear progression p143606](https://forum.turtlecraft.gg/viewtopic.php?p=143606#p143606) | Everran (player) | 2025-08-07 | pre-1.18.1 | stat priorities | single source |
 | [What are the stats priority t22170](https://forum.turtlecraft.gg/viewtopic.php?t=22170) | Azcron, Kerenis, Schlaechter, Idontcareatall (players) | 2025-09-30 → 10-01 | pre-1.18.1 | stat scaling, fast weapons | contested on Strength |
 | [Protection Paladin Feels Off t18060](https://forum.turtlecraft.gg/viewtopic.php?t=18060) | Akos1896, Cheruscan, excin, Wolf of Rage (players) | 2025-03 | pre-1.18.1 | standing, tank niches, range-pull options | consensus |
-| [T3 vs T2.5 Prot-Set t23238](https://forum.turtlecraft.gg/viewtopic.php?t=23238) | quetal, Escaton1, Kord2998, Francma6 (players) | 2025-12-10/12 | 1.18.1-announced | late-raid scaling complaints, T2.5 3-set | contested; superseded by 1.18.1 set changes |
+| [T3 vs T2.5 Prot-Set t23238](https://forum.turtlecraft.gg/viewtopic.php?t=23238) | quetal, Escaton1, Kord2998, Francma6 (players) | 2025-12-10/12 | 1.18.1-announced-pre-release | late-raid scaling complaints, T2.5 3-set | contested; superseded by 1.18.1 set changes |
 | [Bulwark of the Righteous t19818](https://forum.turtlecraft.gg/viewtopic.php?t=19818) | Melfrato1, Reploidrocsa, Glaive, Atreidon (players) | 2025-06 | pre-1.18.1 | cooldown use | contested (design) |
 | [prot paladin 1h weapon p138797](https://forum.turtlecraft.gg/viewtopic.php?p=138797#p138797), [p147650](https://forum.turtlecraft.gg/viewtopic.php?p=147650#p147650) | Atreidon, Crake (players) | 2025-07/08 | pre-1.18.1 | weapon speed; HS weapon-agnostic (superseded 1.18.1) | single source each |
 | [defense cap p148436](https://forum.turtlecraft.gg/viewtopic.php?p=148436#p148436) | Jendaille (player) | 2025-08-26 | pre-1.18.1 | 440/420 defense | single source, hedged |
@@ -148,5 +189,6 @@ Downranking: "dont forget you can cast low level versions of spells" — [Terryd
 | Staff class-change posts | Dragunovi, Jamey, Torta (staff) | 2024-10-12 → 2026-03-24 | all eras | mechanics table | staff |
 | [1.18.1 changes p166071](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071) | Jamey (staff) | 2026-01-23 (rev. 2026-03-19) | announced → live 2026-03-20 | Holy Strike, Righteous Strikes, Holy Shield, Consecration, set bonuses | staff |
 | [Hotfixes p171608](https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608), [p172139](https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139) | Torta (staff) | 2026-03-21/24 | post-1.18.1 | strike-on-miss, Mending Light | staff |
+| Discord `#paladin` post-1.18.1 re-evaluation (see "Discord additions") | Grey, Mithreon, Destroses, angels1m, Proph, Lhian (dev, staff) and others | 2026-03-20 → 2026-04-19 | post-1.18.1 | threat/TPS, rotation, caps, gear, bosses, next-patch announcement | consensus on threat/caps; single source on gear/Niche; announced rework staff |
 
-Flags: every rotation and gear recommendation above predates 1.18.1; the 1.18.1 changes that affect them are (a) Holy Strike gains weapon damage and 71% SP scaling (weapon damage now matters a little; SP matters more), (b) Righteous Strikes no longer adds block chance (crush-cap math changes), (c) Holy Shield threat 50% and front-loaded Consecration (snap threat up), (d) tier-set bonuses replaced. No post-1.18.1 forum post re-evaluates Prot; treat the priorities as valid in shape, numbers unknown.
+Flags: every rotation and gear recommendation above predates 1.18.1; the 1.18.1 changes that affect them are (a) Holy Strike gains weapon damage and 71% SP scaling (weapon damage now matters a little; SP matters more), (b) Righteous Strikes no longer adds block chance (crush-cap math changes), (c) Holy Shield threat 50% and front-loaded Consecration (snap threat up), (d) tier-set bonuses replaced. No post-1.18.1 forum post re-evaluates Prot; the Discord section above does, and it supersedes the "threat bottom-tier" and 440-defense claims. Treat the priorities as valid in shape, numbers updated per the Discord section.

@@ -16,17 +16,38 @@ agreement: contested
 patch_validity:
   written_for: "mixed CC2/CC3; 1.18.1 revisions applied"
   valid_for_1181: true
-  notes: "1.18.1 changed Enslave Demon healing, Ritual of Doom (1 summoner), Felguard/Felhunter/Infernal numbers, Sinister Pursuit, Soul Link 20%; no post-1.18.1 raid re-test of the demon-DPS build exists."
+  notes: "1.18.1 changed Enslave Demon healing, Ritual of Doom (1 summoner), Felguard/Felhunter/Infernal numbers, Sinister Pursuit, Soul Link 20%; no post-1.18.1 raid re-test of the demon-DPS build exists. Discord supplies the point-by-point 0/34/17 pinned build and makes Demonology the short-fight raid leader (contested) [[d:warlock#1484228436888391690]], [[d:warlock#1484828741267095563]]."
 talents:
-  build_name: "Imp spec / Unleashed Potential build (no full point list given by any source; only calculator links)"
-  points: []
+  build_name: "Imp spec / Unleashed Potential build (0/34/17) — pinned 1.18.1-announced-pre-release build (codes repeated through 2026-04-13), point-by-point decoded"
+  points:
+    - {tree: Demonology, talent: "Demonic Embrace", rank: 5, spell_id: 18701}
+    - {tree: Demonology, talent: "Soul Funnel", rank: 2, spell_id: 18704}
+    - {tree: Demonology, talent: "Fel Intellect", rank: 3, spell_id: 18744}
+    - {tree: Demonology, talent: "Fel Domination", rank: 1, spell_id: 18708}
+    - {tree: Demonology, talent: "Fel Stamina", rank: 5, spell_id: 18752}
+    - {tree: Demonology, talent: "Master Summoner", rank: 2, spell_id: 18710}
+    - {tree: Demonology, talent: "Unholy Power", rank: 3, spell_id: 18771}
+    - {tree: Demonology, talent: "Power Overwhelming", rank: 1, spell_id: 51714}
+    - {tree: Demonology, talent: "Demonic Precision", rank: 3, spell_id: 51717}
+    - {tree: Demonology, talent: "Master Demonologist", rank: 5, spell_id: 23825}
+    - {tree: Demonology, talent: "Unleashed Potential", rank: 3, spell_id: 51723}
+    - {tree: Demonology, talent: "Soul Link", rank: 1, spell_id: 19028}
+    - {tree: Destruction, talent: "Shadow Vulnerability", rank: 5, spell_id: 17803}
+    - {tree: Destruction, talent: "Demonic Swiftness", rank: 2, spell_id: 57731}
+    - {tree: Destruction, talent: "Bane", rank: 5, spell_id: 17792}
+    - {tree: Destruction, talent: "Shadowburn", rank: 1, spell_id: 17877}
+    - {tree: Destruction, talent: "Devastation", rank: 4, spell_id: 18133}
+  build_note: "No Soul Entrapment and no Demonic Sacrifice — this is a pet-keeping spec. Shadowburn is a flex point; 'I stick to shadow, so if you want to go fire you can switch shadow vuln to cataclysm' [[d:warlock#1493328003537567986]]. Exact allocation repeats 15x in channel codes (2025-08-28 .. 2026-04-13) [[d:warlock#1484228436888391690]], [[d:warlock#1493328003537567986]]."
   leveling_order: []
+leveling_order_source: "Post-1.18.1 Demonology order (sailorVEVO): Demonic Embrace 5 > Fel Intellect 3 > Soul Funnel 1 > Imp Corruption 5 > Imp Drains 2 > Imp Life Tap 2 (or Suppression 3) > Fel Concentration 2 > Soul Funnel 2 > Fel Domination 1 > Fel Stamina 4 > Nether Studies 3 > Master Summoner 2 > Power Overwhelming 1 > Unholy Power 3 (or Demonic Precision 3) > Fel Stamina 5 > Master Demonologist 5 > Soul Link 1 > Unleashed Potential 3 > Imp Agony 3 + a pick of Soul Siphon/Nightfall/Imp Life Tap [[d:warlock#1482503137041584229]]"
 stat_weights:
-  hit: "high; Demonic Precision passes up to 100% of Warlock hit/crit to the demon since CC3, so gear is shared with Destruction"
-  crit: "high, same reasoning"
-  spell_power: "medium (Unleashed Potential converts up to 15%/stack of bonus SP to the demon's AP/SP)"
+  hit: "high; Demonic Precision passes up to 90% of Warlock hit/crit to the demon since CC3 (baseline +1/2/3% in 1.18.1), so gear is shared with Destruction. Discord: 6% gear hit suffices because pet melee uses the special-attack table (8%) [[d:warlock#1428816200212680816]]"
+  crit: "high, same reasoning; Discord adds a ~30% crit diminishing point for Demonology (a point of crit worth ~0.9 to the demon past it) [[d:warlock#1432797623600812093]]"
+  spell_power: "medium (Unleashed Potential converts up to 15%/stack of bonus SP to the demon's AP/SP); demon buffs scale on the Warlock's fire AND shadow spell power [[d:warlock#1432489734239944796]]"
   stamina: "medium-high (Power Overwhelming costs 40% of the demon's base health; feeds Soul Link)"
-caps: {}
+caps:
+  gear_hit: "6% for the pet (Demonic Precision covers the rest, pet melee uses the 8% special-attack table) [[d:warlock#1428816200212680816]]; do not over-sacrifice SP for hit [[d:warlock#1380095582898749451]] (single source)"
+  crit_diminishing: "~30% crit is the Demonology diminishing point; a point of crit past it is worth ~0.9 to the demon [[d:warlock#1432797623600812093]] (single source)"
 rotation_single:
   - {priority: 1, action: "Curse (raid assignment)", condition: "opener"}
   - {priority: 2, action: "Corruption / Immolate", condition: "opener, instant DoTs; Corruption does not proc Unleashed Potential"}
@@ -36,6 +57,8 @@ rotation_single:
   - {priority: 6, action: "Mana Funnel", condition: "Felguard out and below ~1560 mana for Felstorm (contested value)"}
   - {priority: 7, action: "Shadow Bolt or Searing Pain", condition: "default filler"}
   - {priority: 8, action: "Life Tap / Health Funnel", condition: "mana low / demon below ~50% health and no AoE imminent"}
+  - {priority: 9, action: "Refresh Unleashed Potential with a Health/Mana Funnel tick", condition: "a few seconds before the 20-s buff expires; there is no default-UI tracker [[d:warlock#1426840766956703805]]", sources: ["[[d:warlock#1426840766956703805]]"], era: 1.18.1-announced-pre-release, agreement: "single source (guide-writer tier)"}
+  - {priority: 10, action: "Power Overwhelming removes all CC from the demon", condition: "3 UP stacks and safe pet health [[d:warlock#1424161054623137964]]", sources: ["[[d:warlock#1424161054623137964]]"], era: 1.18.1-announced-pre-release, agreement: consensus}
 rotation_aoe:
   - {targets_min: 4, priority: 1, action: "Infernal (Immolation aura) + Power Overwhelming + 3-stack Unleashed Potential + Hellfire", condition: "stacked trash pack"}
   - {targets_min: 4, priority: 2, action: "Rain of Fire", condition: "pack cleaves"}
@@ -48,10 +71,12 @@ resource_rules:
   - "every common-demon summon except Imp costs a Soul Shard; pet death in BGs costs a re-summon shard"
   - "Soul Funnel now costs the Warlock 30% of what is transferred (CC3)"
   - "Imp gives Master Demonologist mana-cost reduction; Life Tap otherwise"
+  - "Demonology's post-1.18.1 ceiling is threat: there is no pet-threat reduction talent or button — 'Our options are: withdraw the demon and just stop attacking. Or let it die.' [[d:warlock#1485689509197774958]], [[d:warlock#1485724425365229831]]"
 consumables:
   - "Infernal Stones / Demonic Figurines (fit in Soul Bags)"
   - "The Black Book trinket for greater demons (buff removed on unequip since 2025-03-30)"
   - "Healthstones for the Warlock (demons cannot use player consumables since CC2)"
+  - "Hourglass Sand removes Brood Affliction: Bronze from your demon since 1.18.1"
 mistakes_to_avoid:
   - "Summoning a greater demon mid-fight or with under 3 minutes of boss remaining; letting it time out and turn hostile"
   - "Using Power Overwhelming on a low-health pet during AoE"
@@ -60,3 +85,19 @@ mistakes_to_avoid:
   - "Relying on Soul Entrapment while controlling a Greater Demon (hotfixed 2026-03-31 to give nothing)"
   - "Walking greater demons through cities (treated as griefing)"
   - "Attempting to use the demon as a tank: Voidwalker threat does not scale and consistently loses aggro even at higher character levels"
+discord:
+  channels: [warlock]
+  agreement: "mixed — consensus on the 0/34/17 pet-keeping allocation, pet scaling and PO/UP mechanics; contested on raid standing (short-fight king vs pet-management liability)"
+  eras: [pre-1.18.1, 1.18.1-announced-pre-release, post-1.18.1]
+  sources:
+    - {cite: "[[d:warlock#1484228436888391690]]", era: 1.18.1-announced-pre-release, agreement: consensus, topic: "pinned Demonology 0/34/17 screenshot (pet-keeping, no sac)"}
+    - {cite: "[[d:warlock#1493328003537567986]]", era: post-1.18.1, agreement: consensus, topic: "exact 0/34/17 code + rationale (15x repeat)"}
+    - {cite: "[[d:warlock#1488156105111633930]]", era: post-1.18.1, agreement: consensus, topic: "pet AP->WD and SP coefficient table"}
+    - {cite: "[[d:warlock#1485689509197774958]]", era: post-1.18.1, agreement: consensus, topic: "pet threat is the new Demonology ceiling"}
+    - {cite: "[[d:warlock#1428816200212680816]]", era: 1.18.1-announced-pre-release, agreement: single source, topic: "6% gear hit suffices; pet melee uses the special-attack table"}
+    - {cite: "[[d:warlock#1432797623600812093]]", era: 1.18.1-announced-pre-release, agreement: single source, topic: "~30% crit diminishing point for the demon"}
+    - {cite: "[[d:warlock#1424161054623137964]]", era: 1.18.1-announced-pre-release, agreement: consensus, topic: "Unleashed Potential snapshot: SP on stack 1, AP on stack 3"}
+    - {cite: "[[d:warlock#1432489734239944796]]", era: 1.18.1-announced-pre-release, agreement: single source, topic: "demon buffs scale on fire and shadow spell power"}
+    - {cite: "[[d:warlock#1483576857428361257]]", era: 1.18.1-announced-pre-release, agreement: consensus, topic: "Demo best on short fights; Affliction as fights lengthen"}
+    - {cite: "[[d:warlock#1405349574465290354]]", era: pre-1.18.1, agreement: consensus, topic: "Demo keeps the pet; never take Demonic Sacrifice in Demonology"}
+    - {cite: "[[d:warlock#1486367004469235773]]", era: post-1.18.1, agreement: consensus, topic: "post-1.18.1 greater-demon pathing/instant-despawn bugs"}

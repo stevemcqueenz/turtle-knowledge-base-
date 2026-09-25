@@ -81,7 +81,7 @@ Drafts `...?points=FQAYAoAoZBCYB-AoAoJDAo-` (BM/MM Mortal Shots), `...?points=FQ
 
 ## Route, professions, farming
 
-- Route: the sources give no zone-by-zone hunter route (**gap**). Turtle custom zones with special pets: Thalassian Highlands (Mana Wyrm level 6–7, Crimson Lynx), Gillijim's/Lapidis Isle (48–53 crabs/cats/gorillas/serpents), Tel'Abim (53–60 cobras/gorillas), Gilneas (39–45 wolves/bats/spiders) — community wiki `https://turtle-wow.fandom.com/wiki/Hunter_Pets`.
+- Route: the forum sources give no zone-by-zone hunter route; **Discord supplies a per-bracket playstyle route (see §Discord additions)** though not a full zone list. Turtle custom zones with special pets: Thalassian Highlands (Mana Wyrm level 6–7, Crimson Lynx), Gillijim's/Lapidis Isle (48–53 crabs/cats/gorillas/serpents), Tel'Abim (53–60 cobras/gorillas), Gilneas (39–45 wolves/bats/spiders) — community wiki `https://turtle-wow.fandom.com/wiki/Hunter_Pets`.
 - Professions: Engineering + Mining for iron grenades as an interrupt/AoE ("at the end of a dungeon iron grenade are 7%-10% of my total damage") and Alchemy + Herbalism for HC healing potions; First Aid mandatory [Therrius4121, 2023-04-17](https://forum.turtlecraft.gg/viewtopic.php?p=41891#p41891); "Alchemy for HC is important because of Swiftness potion" (Xudo); Engineering for Thorium ammo (a non-engineer "has to buy Thorium Shells from the AH" [Maesus, 2023-04-06](https://forum.turtlecraft.gg/viewtopic.php?p=40458#p40458)); Skinning pairs with beast farming (Bigsmerf).
 - Farming at 60: Silithus scorpids/worms near Cenarion Hold (rugged leather, buff-food meat, vendor greys) [Bigsmerf, 2024-04-15](https://forum.turtlecraft.gg/viewtopic.php?p=92700#p92700); Naxx/ZG trash "way better gold" than DM tribute [amanagor, 2025-02-04](https://forum.turtlecraft.gg/viewtopic.php?p=118907#p118907); DM tribute solo works ("jumped down and FD (you need to be out LOS) and if Cho'rush is priest i just resetted" [Mecanno (player), 2023-10-18](https://forum.turtlecraft.gg/viewtopic.php?p=71791#p71791)) but selling the chest loot "is 100% against TOS" [Drubarrymooer (player), 2023-10-05](https://forum.turtlecraft.gg/viewtopic.php?p=68920#p68920) and Cho'rush's priest loadout cannot be drained (bug 8327, FrankFankledank); DME lashers from 54 as Survival (amanagor, 2025-05-14); Devilsaur/solo dungeons as on vanilla [Gelinho (player), 2025-08-15](https://forum.turtlecraft.gg/viewtopic.php?p=145712#p145712).
 
@@ -98,6 +98,53 @@ Troll "single handedly the best PvE choice for hunter overall. Berserking, bow s
 - Do not tame ZG bats/rare pets in HC ("it's just very difficult and risky if you're HC" [Steakhouse, 2023-11-26](https://forum.turtlecraft.gg/viewtopic.php?p=78816#p78816)).
 - Melee-hunter HC: asked in 2022, answered only with a link to the 2020 guide (t4098) — **gap**. Whether a pet tamed at 60 levels with HC or normal XP — asked, unanswered [Myth (player), 2020-04-14](https://forum.turtlecraft.gg/viewtopic.php?p=5691#p5691).
 
+## Discord additions: per-bracket practice, pets and professions
+
+Folded from the archived `#hunter` Discord (`staging/hunter-core/`). Era tags: **pre-1.18.1** (<2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 → 2026-03-19), **post-1.18.1** (≥2026-03-20). Every claim carries `[[d:hunter#<id>]]`, an era and an agreement tag.
+
+### League-by-bracket route
+
+| Bracket | Spec | Play and pet advice (Discord) |
+|---|---|---|
+| 1–10 | BM | Level-10 taming chain; **boar** is the safe early pet (Charge snap-threat, wide diet). Vendor ammo is 200/stack and the ammo pouch costs a bag slot for its bonus. `[[d:hunter#1484584442461818981]]`, `[[d:hunter#1414390378085224508]]`, `[[d:hunter#1422543678517411881]]` — consensus |
+| 10–19 | BM | BM rows 1–2; keep Growl/Bite/Claw current; a **Screech bird** (owl/bat/carrion) is the strongest AoE-threat leveling pet. `[[d:hunter#1485409849180426321]]`, `[[d:hunter#1415476596680425494]]`, `[[d:hunter#1484751722546204763]]` — consensus |
+| 20–29 | BM | BM defensives then Unleashed Fury/Ferocity/Intimidation; "BM feels weak" at 21 is common but the pet carries; **Salt Flats Vulture owl** (~32) gives early Screech rank 2. `[[d:hunter#1484310735457747206]]`, `[[d:hunter#1415478653193818132]]` — consensus |
+| 30–39 | BM | Continue BM; **Hinterlands Eagle (35–40) knows Screech rank 3 innately** despite rank 3 needing 48; unique Hinterlands owls give max Screech from ~42. `[[d:hunter#1428475590486524116]]`, `[[d:hunter#1415479627337568298]]` — single source |
+| 40–49 | BM→SV | **Level 40 is the melee-SV breakpoint**: "for leveling not until 40 or so when you can get lightning reflexes & untamed trapper" [Sisco], and "from 39 to 40, right away when I got untamed trapper, my levelling speed became ridiculously faster" [Sofie]. Common plan: level BM to 40, respec SV, accept tanking; pet aggro starts ripping in the low 40s. `[[d:hunter#1417950297417978098]]`, `[[d:hunter#1455791834709098547]]`, `[[d:hunter#1416403076352442469]]`, `[[d:hunter#1417540728942366750]]` — consensus |
+| 50–60 | chosen | Finish the chosen tree; solo DME lashers from ~54. No distinct post-1.18.1 50–60 report exists. `[[d:hunter#1383780310201794651]]` — single source |
+| general | any | BM is the consensus leveling spec across all three kit eras; **post-1.18.1 baseline Steady Shot at 20 makes MM leveling viable**; "for levelling just stack agility" [Ash]; max the pet's level as well as your own. `[[d:hunter#1484312036170010798]]`, `[[d:hunter#1484311755512610846]]`, `[[d:hunter#1415655104622624879]]`, `[[d:hunter#1484592103756660776]]` — consensus |
+| hardcore | BM | Boar (tanky, eats anything, Charge snap-threat) or a Screech bird for AoE threat; BM defensives first; a dedicated HC BM build request went unanswered. `[[d:hunter#1484749621845561464]]`, `[[d:hunter#1484689711233765478]]` — consensus |
+
+### Pet practice the forum lacks
+
+- **Taming**: a pet tamed at your own level **gains no loyalty (no XP)** until it can earn XP — stock food first; ask a tank/healer to hold threat while taming a hard-hitting beast [consensus, [[d:hunter#1460629863223525600]], [[d:hunter#1459816355095384107]]].
+- **Pet-family value is situational, not "one BiS pet"**: scorpid (sustained/poison), wind serpent & cobra (burst/nuke), raptor (bleed-capable melee), wolf (bad for BM, 0% damage scaling); cat vs raptor is a wash [consensus, [[d:hunter#1416508072712605826]], [[d:hunter#1413458255715242015]], [[d:hunter#1420565170035359877]], [[d:hunter#1432288984200904765]]]. Attack speed is normalised; the differentiators are the **family multiplier and the special ability** [single source, [[d:hunter#1424807661324734545]]].
+
+### Professions and money (Discord)
+
+- **Engineering is the performance profession for every hunter** (scopes/ammo/grenades/jumper cables); "Engi and honestly blacksmithing" for PvE raid; **Engi + LW** is the common baseline [consensus, [[d:hunter#1434959103347658812]], [[d:hunter#1440801959211962450]], [[d:hunter#1481285088317669377]]].
+- **Gathering beats crafting for gold** on a mature server; the one-tracking-spell conflict is the practical catch [consensus, [[d:hunter#1424642676917141555]], [[d:hunter#1424647781594828913]]].
+- **Turtle's custom Survival secondary profession** (STV/Nesingwary) and its tents [consensus, [[d:hunter#1441542342195806278]], [[d:hunter#1441527503704555724]]].
+- **Farm economy**: DME lashers 90–120 gph with herbalism [consensus, [[d:hunter#1383780310201794651]]]; ZG vein farm [[d:hunter#1470409474656178351]]; DMT's solo-mana wall [[d:hunter#1434687463108116591]]; devilsaur [[d:hunter#1427303070064447663]].
+- **Community resources the forum KB never listed**: Dresche pinned FAQ [[d:hunter#1412681801339764817]], Vellasta's simulator [[d:hunter#1490682120815775965]], Destroses' beast spreadsheets [[d:hunter#1299178457112252457]], Ash's gear sheet [[d:hunter#1395076924551856231]], MetaHunt for 1.18.1 [[d:hunter#1485752587289493554]].
+
+### Ammo and scope arithmetic (Discord)
+
+- 17.5 DPS craftable Survival arrows, 25.5 DPS recipe (1 Arcanite + 5 Thorium + 10 Dense Blasting Powder per 5×200), Enchanted Thorium Shells, and the +2% crit **Facetted Crystal Scope** [consensus, [[d:hunter#1484621720001319113]], [[d:hunter#1485357293724762112]], [[d:hunter#1485555500157505657]], [[d:hunter#1484564082014289983]]]; 200/stack and the pouch tax stay [consensus, [[d:hunter#1422543678517411881]], [[d:hunter#1422933084256337951]]].
+
+### Discord sources used
+
+| Source | What it adds | Era | Agreement |
+|---|---|---|---|
+| [[d:hunter#1417950297417978098]] | level-40 melee-SV breakpoint (both sides) | pre-1.18.1 | consensus |
+| [[d:hunter#1484311755512610846]] | post-1.18.1 baseline Steady makes MM leveling viable | post-1.18.1 | consensus |
+| [[d:hunter#1415479627337568298]] | Hinterlands early-Screech owls | pre-1.18.1 | single source |
+| [[d:hunter#1484749621845561464]] | hardcore boar | mixed | consensus |
+| [[d:hunter#1460629863223525600]] | same-level tame gains no loyalty | mixed | consensus |
+| [[d:hunter#1481285088317669377]] | Engi + LW baseline | mixed | consensus |
+| [[d:hunter#1383780310201794651]] | DME lashers 90–120 gph | mixed | single source |
+| [[d:hunter#1412681801339764817]] | Dresche pinned FAQ | post-1.18.1 | guide writer |
+
 ## Sources and validity
 
 | Recommendation | Agreement | Validity |
@@ -107,6 +154,7 @@ Troll "single handedly the best PvE choice for hunter overall. Berserking, bow s
 | Frenzy 2–3, Improved Mend Pet 1 early, Bestial Swiftness/Pathfinding 1–2 | consensus (Bob022, Hctwowfan, SvenS2, Gorlocktheglock) | CC2→1.18.1 (names changed) |
 | Survival weak until Untamed Trapper (40) | consensus (Laysson, Vladis, zer0g3, Upsetlobster, SvenS2) | CC2–1.18.1 |
 | Boar / Screech bird / fast cat for leveling | consensus with family preferences | all eras |
-| Zone route | none | gap |
+| Zone route | none | gap for zone names; Discord gives the per-bracket playstyle route (§Discord additions) |
+| Ranged hit cap 8% at 300 skill | consensus (Discord) | supersedes the 9% used in older posts |
 
 Threads used: t15534, t15871, t16966, t17361, t21499, t18262, t21554, t8556, t6283, t13650, t20714, t10573, t17423, t24356, t24360, t24369, t21353, t20734, t18315, t6648, t4098, t1009, t8971, t20668, t24081, t18582, t4581, t3506, t10257, t3159, t20025, t23722 (`extracted/forum/f45-hunter/`); staff CC2/CC3/1.18.1 posts in `extracted/forum/f63-patch-notes-changelog/t15157-*.md`.

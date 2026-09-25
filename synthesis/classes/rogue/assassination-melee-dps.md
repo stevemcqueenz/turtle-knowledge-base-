@@ -148,6 +148,84 @@ Expose Armor: only if no warrior sunders (Shananagans, 2025-09-09); Bigbosc (pre
 - Spamming at low energy instead of pooling.
 - Expecting AoE parses or top single-target parses in Naxx gear (Crake's 700 vs 2k).
 
+## Discord findings (2025–2026)
+
+The `#rogue` Discord (2021-02 .. 2026-05) supplies the post-1.18.1 material this file names as a gap. Every citation is `[[d:rogue#id]]` and resolves in `structured/discord/evidence-rogue.jsonl`. Eras: **pre-1.18.1** (< 2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 .. 2026-03-19), **post-1.18.1** (≥ 2026-03-20). No staff green-name posts in the channel; authority is player/guide-writer.
+
+### Corrections and supersessions
+
+- **"No post-1.18.1 build or rotation revision exists in the corpus" (this file, and README gap #1) is superseded.** Discord produced a concrete **24/27/0 Combat-envenom hybrid** as the post-patch answer to the nerfed Noxious spec [[d:rogue#1485940082325323889]], [[d:rogue#1487839145287090360]], [[d:rogue#1486883475448397895]] (see `combat-melee-dps.md` for the decoded allocation, which closes forum gap #2). The community also built a working simulator, **Combat Gum** (`combatgum.app`, released 2026-03-19, 1.18.1 itemisation/talents/rotations/trinkets/Vanish swaps/BoED-Spellstrike) [[d:rogue#1484243895675129986]], [[d:rogue#1484725168768286801]].
+- **The Noxious Assault nerf is three stacked nerfs**, not one: AP scaling 35%→30%, the Taste for Blood nerf (~−5% to NA), and the loss of TfB scaling on the poisons NA triggers (~−15%) [[d:rogue#1489503815010095134]], [[d:rogue#1486884013452034148]]; "it really made the ability useless" [[d:rogue#1486733880323997867]]; the proposed fix is nerf Envenom, buff Noxious Assault [[d:rogue#1487032299324309614]].
+- **The post-1.18.1 ranking is contested**: Midfinger's BWL test had 41/10/0 winning [[d:rogue#1486818882516947104]], Drox says AR Combat daggers still wins in Naxx/K40 [[d:rogue#1490363111192924180]], Silkestrupen's sim had NA ahead [[d:rogue#1487852166512377887]].
+- **Poisons can crit — through spell crit**: "Spell crit makes your poisons crit" [[d:rogue#1490790679381672037]], closing the forum's gap #10. **Poison AP scaling was Deadly/Corrosive 8%, Instant 5%** in 1.18.0 (cut by 1.18.1) [[d:rogue#1405589226585853973]]; the 6th Deadly/Corrosive application refreshes rather than adding a stack [[d:rogue#1327004414761766935]].
+- **Post-release quirks**: Deadly scaling hotfix [[d:rogue#1485931775900520538]]; day-one Agitating scaling reverted [[d:rogue#1486086355762286774]]; Dissolvent's nature-resist bypass [[d:rogue#1484500074007367791]].
+
+### Decoded endgame builds (the forum listed only opaque links)
+
+| Split | Allocation | Citation | Era | Agreement |
+|---|---|---|---|---|
+| **41/10/0** | Assa Malice 5, Ruth 3, IBT 3, Relentless 1, Lethality 5, **TfB 3**, Murder 2, Vile 3, Imp Poisons 3, Efficient 3, Envenom 1, Noxious 1, Vigor 2, Seal Fate 5, Imp Evis 1 (or Cold Blood 1); Combat Lightning Reflexes 5, Precision 5 | [[d:rogue#1479786066910117992]], [[d:rogue#1452238955113086997]], [[d:rogue#1456676944459468927]] | 1.18.0 (TfB now 2) | contested |
+| **38/10/0** | as 41/10/0 without Improved Eviscerate | [[d:rogue#1482317479962218547]] | 1.18.0 | single source |
+| **31/20/0** | Assa 31 (Noxious/Envenom poison core) + Combat Deflection 2, DWS 5, Lightning Reflexes 5, Precision 5, Setup 3 | [[d:rogue#1459846399783997451]], [[d:rogue#1459858269764849798]] | 1.18.0 | single source |
+| **31/0/17** | Assa 31 + Sub Camouflage 5, Imp Gouge 3, Initiative 3, Blackjack 2, Elusiveness 2, Serrated Blades 2 | [[d:rogue#1456677515480268964]] | 1.18.0 | single source |
+| **31/0/0** | the level-40 leveling respec (no TfB/Seal Fate/Cold Blood) | [[d:rogue#1475759154089033738]], [[d:rogue#1452327807320592507]] | 1.18.1-announced-pre-release | consensus |
+| **34/0/17** | Noxious Assault PvP burst (see `assassination-pvp.md`) | [[d:rogue#1471530033066807332]] | 1.18.1-announced-pre-release | single source |
+
+Mcx benchmarked 41/10/0 vs 31/20/0: 41/10/0 is more demanding (roll Seal Fate procs into Eviscerate, keep Rupture+Envenom+SnD up) and slightly lower DPS; 31/20/0 is "passive like combat", easier, slightly higher [[d:rogue#1459857751403528254]], [[d:rogue#1459858269764849798]].
+
+### Per-raid poison tables (post-1.18.1 creature-type restriction)
+
+After 1.18.1 Corrosive/Dissolvent only apply to **Elementals, Mechanicals, Giants and Undead**, so rogues swap per pack. This is exactly what the forum file did not have.
+
+| Raid | Poison guidance | Citation | Era |
+|---|---|---|---|
+| **General** | Envenom specs → Dissolvent/Instant; Combat and Sub → DoT poisons (Deadly/Corrosive) on fights > ~40 s and Instant/Dissolvent on shorter ones | [[d:rogue#1484754354433953915]] | post-1.18.1 (consensus) |
+| **Molten Core** | Dissolvent/Corrosive only on Garr, Geddon, the two Golems, Undead Dwarf; Instant/Deadly only on Lucifron's Salamander, Magmadar's Core Hound, Sulfuron, Shazzrah, Majordomo; Golemagg accepts either | [[d:rogue#1484754354433953915]] | post-1.18.1 (single) |
+| **Blackwing Lair** | nobody immune; Chromaggus's resistance/vulnerability makes Deadly swing wildly | [[d:rogue#1484137121903022233]] | 1.18.1-announced-pre-release |
+| **AQ40** | only the Twin Emperors are immune → Corrosive 2 + Corrosive 1 | [[d:rogue#1484137121903022233]], [[d:rogue#1484473855312396318]] | 1.18.1-announced-pre-release (consensus) |
+| **Naxxramas** | mostly Undead (both work) but trash includes Humanoids/Beasts, so **Instant is the safe default**; Faerlina/Maexxna → Deadly 5+4 (combat/sub); Gothik → Dissolvent only | [[d:rogue#1484757612271501332]] | post-1.18.1 (single) |
+| **Kara40** | Anomalus, Rupturan, Chess → Dissolvent/Corrosive 2+1; Medivh → any (Combat uses Mind-numbing); all other bosses → Deadly/Instant (combat/sub Deadly 5+4, Assa Instant) | [[d:rogue#1484759095419474041]] | post-1.18.1 (single) |
+
+The forum's Naxx-undead "Consecrated Sharpening Stone or poisons?" question is still unanswered; "do the per-pack swap or Dissolvent does nothing on the wrong creature type" is the standing advice [[d:rogue#1484754354433953915]].
+
+### Mechanics and rotation plumbing
+
+- **Taste for Blood** is a self-buff from Rupture, refreshed at any combo-point value (a 1-CP Rupture gives the full window), and buffs Dissolvent [[d:rogue#1458132484637065343]], [[d:rogue#1432424536262967338]]; it can be triggered off a bleed-immune target to then Eviscerate [[d:rogue#1461858045247225907]]. The 1.18.0 value was "15% damage plus way more energy" [[d:rogue#1404489673018970132]]; 1.18.1 makes it a 2-point talent (+4/6 s, +1/2%).
+- **The pre-1.18.1 Discord rotation** refines this file's: priority is maintain TfB > Slice and Dice > dump spare CP into Eviscerate/Envenom [[d:rogue#1406754701407551599]]; opener **1-CP SnD → 1-CP Envenom → 5-CP Rupture (TfB) → refresh 1-CP Envenom/SnD → 5-CP Eviscerate** [[d:rogue#1407474034349969448]], [[d:rogue#1407740396452450416]]; once energy regen leaves 5–10 s of buff uptime, drop Rupture entirely [[d:rogue#1456432270717092092]]. Opener is Garrote (no damage/no threat) or just Noxious; skip stun openers on immune bosses [[d:rogue#1424187035299614801]], [[d:rogue#1407819960079745106]].
+- **Noxious Assault** triggers off-hand weapon procs (Crusader, Tempest's Rage) [[d:rogue#1406322984389443594]] but in 1.18.1 **does not proc poisons** and does not use your weapon for effects [[d:rogue#1484557265733419091]], [[d:rogue#1494836426171355327]]. Its proc behaviour is contested [[d:rogue#1418737911167320245]], [[d:rogue#1417770415522316370]].
+- **Envenom weapon-swap setup**: stack with secondary Deadly/Corrosive weapons, then swap to primary Instant weapons (Combat runs MH Deadly / OH Instant; Envenom the reverse) [[d:rogue#1324452398273400996]], [[d:rogue#1334918223589539880]]; swaps cost a GCD [[d:rogue#1485762675714691072]]. 1.18.1 Envenom is a maintenance buff holding the Deadly stack, not a damage finisher; **Deadly sims better than Instant** for combat-dagger Envenom [[d:rogue#1484976580479418600]].
+- **Poisons proc only from weapon hits** (not Sap/Cheap Shot/Kidney) [[d:rogue#872201163557195858]]; glancing blows still proc, misses do not [[d:rogue#1324752410052395121]].
+- **Combo points** persist per target since CC2 but are lost on switch; a builder on an add wipes the boss's points [[d:rogue#1314430049042042911]]; Ruthlessness can drift a CP to a new target [[d:rogue#1260216495535816844]]; 1-CP Eviscerate farms Relentless Strikes [[d:rogue#1405569716176814090]].
+- **Thistle Tea** optimally at exactly 0 energy with a free GCD [[d:rogue#1342009613259903067]]; **haste compounds multiplicatively** across gear/enchants/talents (Epickalen's pinned formula) [[d:rogue#1387271666970787983]].
+
+### Stat numbers and gear
+
+- **Weapon speed**: ~1.3 for poison-proc volume, 1.8 only for the spellstrike exception [[d:rogue#1446546660032385118]]; each +0.1 s costs ~3 dps early and ~12 dps at top rank [[d:rogue#1461866998521921710]], [[d:rogue#1437156474810794097]]; **Fang of Venoxis was buffed to 1.3 speed** [[d:rogue#1486869810053775370]].
+- **Stat cheat-sheet** (Epickalen): 15 agi = 1 haste, 1 haste = 1 crit = 1 hit = 25 AP, agi ≈1.5 AP with energy regen / ≈1.2 AP without [[d:rogue#1449907721582280765]]; 8% yellow hit cap and 5 weapon skill = 1% hit [[d:rogue#1407624625059270699]], [[d:rogue#1407635403632279602]]; aim ~14% hit to avoid crit-capping [[d:rogue#1450373303486124083]]. EP estimates exist only as a community sheet [[d:rogue#1324843454261366877]].
+- **Weapon skill is softened post-1.18**: for Assassination "weapon skill matters very little" [[d:rogue#1407120295483019406]]; Noxious uses AP, so only autos benefit [[d:rogue#1406925028288761956]] (contested).
+- **Gear**: Darkmantle + Stormshroud energy procs remain the pre-raid engine, but Assassination has little progression beyond Darkmantle [[d:rogue#1484549475212202108]]; post-1.18.1 combat-envenom wants 6/8 Darkmantle + 2/8 T2 (then a 3rd T2) [[d:rogue#1488910311829278750]]; Trinkets: Kiss of the Spider / Crest of Retribution for both specs, plus DFT, Whip, Heart of Dreams, Jom Gabbar, Venomous Totem, Slayer's Crest, Mark of the Champion [[d:rogue#1410196128783138877]], [[d:rogue#1488007182871035974]]; the Kara40 thrown "rock" is BiS ranged for all rogues [[d:rogue#1410360888715776252]]. Tempest's Rage off-hand is a ~15% dps loss for Assassination [[d:rogue#1442409907285393500]].
+- **Consumables**: Concoction of the Emerald Mongoose for spell+physical crit [[d:rogue#1410790635442671830]]; Potion of Quickness shares a CD with protection potions, Thistle Tea with Health Stones [[d:rogue#1421159028498759741]]; full multiplicative haste-source list [[d:rogue#1415123962169393345]].
+- **Class weapon**: the 1.18.1 Timbermaw-Hold rogue class weapon is a fast dagger and was not yet obtainable on the fresh realm at release [[d:rogue#1472744220052684952]], [[d:rogue#1472663678384865544]], [[d:rogue#1472732383538188330]]; stats absent from both corpora (gap).
+
+### Leveling route
+
+**Combat/dagger to 40 → respec Assassination (Noxious Assault) at 40 → respec to the endgame spec at 58–60** [[d:rogue#1425614628385325138]], [[d:rogue#1455712360433189117]], [[d:rogue#1458113459639156888]]. The level-40 respec decodes to exactly **31/0/0 with Noxious Assault 1** [[d:rogue#1475759154089033738]], and the pinned leveling build to **20/5/26** [[d:rogue#1431531176333541396]]. Dagger progression: Big Bronze Knife → Deadly Bronze Poniard → Meteor Shard / Broad-Bladed Knife → The Ziggler / Tigerbane → Fiendish Skiv → Gut Ripper → Barman Shanker [[d:rogue#1286056902975029313]], [[d:rogue#1324107314747408587]]; sword milestones Vanquisher's Sword → Sword of Omen/Serenity → Thrash Blade [[d:rogue#1165510276062384150]]; **frontstabbing** is the practical dagger-leveling technique, at the cost of exposure [[d:rogue#1131138509588140062]], [[d:rogue#1310955868933586985]].
+
+### Discord sources
+
+| Topic | Citation | Era | Agreement |
+|---|---|---|---|
+| Noxious triple-nerf | [[d:rogue#1489503815010095134]], [[d:rogue#1486884013452034148]] | post-1.18.1 | single source |
+| Combat Gum simulator | [[d:rogue#1484243895675129986]] | 1.18.1-announced-pre-release | single source |
+| 24/27/0 Combat-envenom | [[d:rogue#1485940082325323889]] | post-1.18.1 | consensus |
+| Per-raid poison tables | [[d:rogue#1484754354433953915]], [[d:rogue#1484757612271501332]], [[d:rogue#1484759095419474041]] | post-1.18.1 | single source |
+| Poisons crit via spell crit | [[d:rogue#1490790679381672037]] | post-1.18.1 | single source |
+| TfB refresh/buffs Dissolvent | [[d:rogue#1458132484637065343]], [[d:rogue#1432424536262967338]] | 1.18.1-announced-pre-release | consensus |
+| Envenom weapon-swap | [[d:rogue#1324452398273400996]] | pre-1.18.1 | consensus |
+| Thistle Tea timing | [[d:rogue#1342009613259903067]] | pre-1.18.1 | consensus |
+| Multiplicative haste | [[d:rogue#1387271666970787983]] | pre-1.18.1 | single source |
+| Leveling route/respec | [[d:rogue#1425614628385325138]], [[d:rogue#1475759154089033738]] | 1.18.1-announced-pre-release | consensus |
+
 ## Sources
 
 | Source | Authority | Date / era | Used for | Agreement |

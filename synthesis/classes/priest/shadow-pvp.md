@@ -102,6 +102,17 @@ Stamina + spell power raid pieces (Springboards list above); Time Frozen Bow for
 - Ignoring stamina in favor of tier sets (Springboards, Kentorianx).
 - Never dispelling / never shielding ("Half of them never even dispelled or shielded" — Snkx 2025-03-30).
 
+## Discord (1.18.1 era)
+
+- **Shadow PvP was a survivability spec; CC2 removed it.** "Spriest in pvp was never about dealing a shitton of damage, it was survivability, putting ur dots up one by one and vamping off of multiple opponents" — Mortifer [[d:priest#1296267877036589056]]; "Shadow Priest changes basically take all the survivability from them and make them a bad glass cannon" — Hellkite [[d:priest#1296272979868647525]]. CC2: Blackout stun 3 s -> 2 s [[d:priest#1296223825146413156]]; VE gained a 2 s cast and Shadowform briefly lost PW:Shield (reverted, not the cast) [[d:priest#1296246500200026164]].
+- **The strongest BG priest is a healer dipping Shadow** for `Silence` + `Inner Focus` (free Devouring Plague): "the damage is enough to kill rogues and warriors in 1v1 who don't expect you to fight back so hard" — cryft [[d:priest#1294337426105569342]].
+- **`Shadowguard` can proc Blackout** [[d:priest#1294312429882310726]]; a rogue opening on you "instantly stuns themselves on your shadowguard" [[d:priest#1294341720233742398]].
+- **Post-1.18.1 Tauren racials are healing/disc oriented**, making Tauren the PvP healer race [[d:priest#1484362246951010305]], [[d:priest#1484570889642180670]]; **Light of An'she is Holy and unusable in Shadowform** [[d:priest#1484898033597546539]].
+- **Mana Burn moved to row 4** breaks some PvP builds [[d:priest#1484428895246745670]] (single source).
+- **`Psychic Scream` bug vs mind-controlled targets** (KT/Skeram, bug 8053) [[d:priest#1291325933202047037]].
+
+Era: pre-1.18.1 + post-1.18.1. Agreement: consensus except Mana Burn (single source).
+
 ## Sources
 
 | Source | Authority | Date | Era | Used for | Agreement |
@@ -114,5 +125,6 @@ Stamina + spell power raid pieces (Springboards list above); Time Frozen Bow for
 | Race threads t=20912, t=20885, t=19545, t=16751 | player | 2024-12 .. 2025-09 | pre-1.18.1 | race choice | contested (Troll vs Undead; Dwarf vs NE) |
 | [Jamey](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071) | staff | 2026-01-23 | announced | 1.18.1 talent moves | authoritative |
 | 1.18.1 reception t=23774 | player | 2026-01 | announced | Blackout move | contested |
+| Discord `#priest` (Mortifer, Hellkite, cryft, Zvyrhol) | players | 2024-2026 | pre-1.18.1 + post-1.18.1 | CC2 survivability loss, hybrid healer, Shadowguard/Blackout, Tauren, Mana Burn row 4 | consensus (Mana Burn single source) |
 
 Pre-1.18.1 advice affected by 1.18.1: Blackout as a 5-point row-1 pick for hybrids (now row 2), Shadow Weaving dispel protection (now a self-buff), Pain Spike 40 s CD (now 30 s).

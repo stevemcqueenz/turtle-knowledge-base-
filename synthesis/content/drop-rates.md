@@ -131,10 +131,34 @@ The 2019–2021 "Online Quest & Item Creator" thread contains many percentages w
 
 ---
 
+## 3a. Discord additions (archived `#turtle-wiki`)
+
+The archived `#turtle-wiki` channel adds the **mechanism behind the database complaints**, one staff drop answer, and several custom-item source confirmations. Era: `pre-1.18.1` (<2025-10-03), `1.18.1-announced-pre-release` (2025-10-03 → 2026-03-19), `post-1.18.1` (≥2026-03-20).
+
+**Database "group" semantics — the fix for most "the rates are wrong" reports (CON-0045).** "Each group can only drop 1 item. If a group equals to 100% then there's 100% that one of them drops. If the mob then has an item in group 2 with 10% drop chance then there's a 10% chance that that item drops additionally" — [Lyrazia (guide writer), 2025-08-05](https://discord.com/channels/466622455805378571/976193120809123881/1402264191645253733). **pre-1.18.1, single source.** The database is therefore a display of grouped rolls, not a per-item independent percentage.
+
+**Staff drop answer (rare in this channel).** Dragunovi on the **Pendant of Myzrael**: "the necklace is only a breadcrumb for the questline, you can go there and start it regardless of the pendant", and "personally I saw it drop the most from scarlet monaster lib/armory" — [Dragunovi (staff), 2023-11-03](https://discord.com/channels/466622455805378571/976193120809123881/1169995453069283508), [Dragunovi (staff), 2023-11-03](https://discord.com/channels/466622455805378571/976193120809123881/1169996605697577020). **pre-1.18.1, single source.** Matches the pattern in §1.4 where a staff answer overrides a database-rate complaint.
+
+**Custom-item source confirmations.**
+
+| Item | Source | Era | Agreement | Cite |
+|---|---|---|---|---|
+| **Supercharged Arcane Resomation** | any arcane elemental in Dire Maul West, incl. the patrolling elementals around Immol'thar and the "Arcane Torrent" mobs | pre-1.18.1 | single source (guide writer) | [[d:turtle-wiki#1163320502446718977]] |
+| **Blackened Defias Mask** (transmog) | only **Mr Smite**, ~**20%**; Ravenholdt/Syndicate masks need level 25 + Friendly | pre-1.18.1 | single source (guide writer) | [[d:turtle-wiki#1396892164222357565]] |
+| **Gemstone of Naraz** (Grim Reaches quest) | **5%** (reward unknown) | 1.18.1-announced-pre-release | single source (player) | [[d:turtle-wiki#1408810752218763284]] |
+| **Ancient Dwarven Gemstone** (recipe) | rarely from the orc **Halgan Redbrand**, Dragonmaw Retreat | 1.18.1-announced-pre-release | single source (guide writer) | [[d:turtle-wiki#1434045944256532651]] |
+| **Black Lotus** alongside ordinary herbs | a Lotus can spawn with high-level herbs (seen from Mountain Silversage); zone-vs-herb dependence never answered | pre-1.18.1 | single source (player) | [[d:turtle-wiki#1113806439027331203]], [[d:turtle-wiki#1149254563736596480]], [[d:turtle-wiki#1446108919826088046]] |
+
+**Contested — bunny-ears event.** The database shows **1.8%** for all colours, but a player reported **0 whites in ~600 eggs** (whites were also the only BoP variant) — [biǎo shū (player), 2025-05-01](https://discord.com/channels/466622455805378571/976193120809123881/1367284362999238779). **pre-1.18.1, single source.** A concrete database-vs-run mismatch of exactly the kind CON-0045 is about.
+
+**Wiki/database gaps.** New level-60 dungeon loot (**Karazhan Crypts, Black Morass, Stormwind Vaults**) was undocumented in both the wiki and the database — [McBe (player), 2025-09-01](https://discord.com/channels/466622455805378571/976193120809123881/1411965494155546705) — and the custom **Scarlet Monastery** bosses were in neither the database nor AtlasLoot — [Dnm (player), 2025-03-19](https://discord.com/channels/466622455805378571/976193120809123881/1351907901970841721). **single source each.**
+
+---
+
 ## 4. Gaps and unclear points
 
 1. **No player-run measurement exists.** Every player figure in §2 is either a database quote or an anecdote of the form "N runs, no drop". Nobody publishes successes over trials for a custom item, so no player-derived rate can be stated with a confidence interval.
-2. **Database rates are the community's real reference and are not in this corpus.** The 11% D1 figure, the 20%/10% UBRS shoulder figures, the 33% Thaddius token figure, the 4% Emerald Sanctum recipe figure and the "1 in 4000" belt buckle all come from `database.turtlecraft.gg`. Players repeatedly asked whether that database is accurate and were never answered.
+2. **Database rates are the community's real reference and are not in this corpus.** The 11% D1 figure, the 20%/10% UBRS shoulder figures, the 33% Thaddius token figure, the 4% Emerald Sanctum recipe figure and the "1 in 4000" belt buckle all come from `database.turtlecraft.gg`. Discord supplies the missing key: the database shows **grouped rolls** (one item per group, a 100% group guaranteeing one, a second group rolling independently), so per-item percentages are not directly comparable to run counts (§3a, **CON-0045**). A staff answer also overrode a database rate for the Pendant of Myzrael. Whether that database is accurate in general still has no staff statement.
 3. **Custom-zone and custom-dungeon loot rates are almost entirely undocumented.** Of the staff figures in §1, only the Dragonmaw/Stormreaver set pieces, Eye of the Abyss, the Scythe of Elune and Ephemeral Pendant are custom items; the rest are vanilla items retuned.
 4. **The Whip Lasher contradiction is unresolved.** Staff raised the rate to 4% on 2024-03-19; three players reported zero drops over 400 kills and 10 dungeon runs the next day; nothing in this extraction closes the loop.
 5. **Several 2026 hotfixes say "increased the drop chance" without a number** (Foulheart Horn, Blackroot Totem, Pridewing Venom Sac, Middle Piece of an Ancient Idol gives only "+10%" relative).

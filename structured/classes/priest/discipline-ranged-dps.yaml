@@ -20,29 +20,56 @@ agreement: contested
 patch_validity:
   written_for: "1.17.2/1.18.0 (pre-1.18.1)"
   valid_for_1181: true
-  notes: "Talent tree unchanged in 1.18.1 except Searing Light mana reduction 50% -> 60%; Discipline alternative tier sets and T2.5 5-set rework added (per-piece stats not in sources). Holy Nova mana reduced again."
+  notes: "Talent tree unchanged in 1.18.1 except Searing Light mana reduction 50% -> 60%; Discipline alternative tier sets and T2.5 5-set rework added (per-piece stats not in sources). Holy Nova mana reduced again. Discord confirms the 31/20/0 Disc-DPS allocation survives 1.18.1 unchanged [[d:priest#1490793158249021610]]."
+discord:
+  channel: priest
+  era_legend: "pre-1.18.1 <2025-10-03 | 1.18.1-announced-pre-release 2025-10-03..2026-03-19 | post-1.18.1 >=2026-03-20 | mixed spans more than one era"
+  sources:
+    - {id: "1389476140011491378", author: wily, date: "2025-07-01", era: pre-1.18.1, agreement: consensus, used_for: "pinned reference 31/20/0 Disc-smite build set (Narghul/HolyScheiss video)", cite: "[[d:priest#1389476140011491378]]"}
+    - {id: "1332034430507815052", author: Iosifa, era: pre-1.18.1, agreement: consensus, used_for: "Purifying Flames <2 s -> Holy Fire; instant Smite on Searing Light macro", cite: "[[d:priest#1332034430507815052]]"}
+    - {id: "1431112150679818281", author: Greendam, era: 1.18.1-announced-pre-release, agreement: consensus, used_for: "'1 HF 4 Smite' simple rotation", cite: "[[d:priest#1431112150679818281]]"}
+    - {id: "1430727888310898830", era: 1.18.1-announced-pre-release, agreement: consensus, used_for: "skip HF and finish with Smite + Chastise when the boss dies in the current cycle", cite: "[[d:priest#1430727888310898830]]"}
+    - {id: "1383364969432875028", era: pre-1.18.1, agreement: single source, used_for: "ally Chastise target priority and >80% HP guideline", cite: "[[d:priest#1383364969432875028]]"}
+    - {id: "1302721522217254962", era: pre-1.18.1, agreement: consensus, used_for: "10% spell hit from gear with Piercing Light 6%", cite: "[[d:priest#1302721522217254962]]"}
+    - {id: "1300993541454954628", era: pre-1.18.1, agreement: consensus, used_for: "Piercing Light is 'fantastic'", cite: "[[d:priest#1300993541454954628]]"}
+    - {id: "1483921829101047889", era: 1.18.1-announced-pre-release, agreement: consensus, used_for: "first dedicated smite T3 bracers", cite: "[[d:priest#1483921829101047889]]"}
+    - {id: "1484515281106899125", era: post-1.18.1, agreement: consensus, used_for: "smite T3/T3.5 sets still complained about", cite: "[[d:priest#1484515281106899125]]"}
+    - {id: "1484579771336888330", era: post-1.18.1, agreement: consensus, used_for: "Discipline sets have no healing capability (holy-damage only)", cite: "[[d:priest#1484579771336888330]]"}
+    - {id: "1484565459503284335", era: post-1.18.1, agreement: consensus, used_for: "no healing on Disc sets hurts off-heal/gear-swap", cite: "[[d:priest#1484565459503284335]]"}
+    - {id: "1490793158249021610", author: Dinousek, date: "2026-04-06", era: post-1.18.1, agreement: single source, used_for: "post-1.18.1 endgame Disc-DPS 31/20/0 confirmed", cite: "[[d:priest#1490793158249021610]]"}
+  post_1181_build:
+    split: "31/20/0"
+    note: "Disc tree allocation unchanged by 1.18.1; Holy 20 = Spiritual Guidance 5/5; only Searing Light mana refund changed."
+    cite: "[[d:priest#1490793158249021610]]"
+  professions:
+    items:
+      - "Engineering is 'the answer' for PvE + PvP; grenades/sappers can proc Blackout/shadow effects; repair bots for DM:E lashers [[d:priest#1293531753104936970]], [[d:priest#1295426609268002948]]"
+      - "Engineer + alchemy is the common pair; tailoring/JC/enchanting for money, enchanting wands for leveling [[d:priest#1293547300479827968]], [[d:priest#1302232664975081512]], [[d:priest#1300314106829602880]]"
+    era: pre-1.18.1
+    agreement: consensus
+  gear_note: "Vanilla pre-raid BiS lists are 'almost completely wrong for Turtle' (Turtle adds +hit to leveling/pre-raid gear) [[d:priest#1324445705611378792]]; pre-raid farming is not worth over-investing on a fully-progressed server [[d:priest#1330954147075199027]], [[d:priest#1335954787279175690]]."
 talents:
   build_name: "Langorn 31/13/7 (only fully enumerated Disc build); raid variant swaps Spirit Tap for Spiritual Guidance"
   points:
-    - {tree: Discipline, talent: Wand Specialization, rank: 2, spell_id: null}
-    - {tree: Discipline, talent: Piercing Light, rank: 3, spell_id: null}
-    - {tree: Discipline, talent: Mental Agility, rank: 3, spell_id: null}
-    - {tree: Discipline, talent: "Improved Power Word: Fortitude", rank: 2, spell_id: null}
-    - {tree: Discipline, talent: Inner Focus, rank: 1, spell_id: null}
-    - {tree: Discipline, talent: Improved Inner Fire, rank: 2, spell_id: null}
-    - {tree: Discipline, talent: Meditation, rank: 3, spell_id: null}
-    - {tree: Discipline, talent: Purifying Flames, rank: 2, spell_id: null}
-    - {tree: Discipline, talent: Searing Light, rank: 3, spell_id: null}
-    - {tree: Discipline, talent: Enlighten, rank: 1, spell_id: null}
-    - {tree: Discipline, talent: Mental Strength, rank: 3, spell_id: null}
-    - {tree: Discipline, talent: Force of Will, rank: 5, spell_id: null}
-    - {tree: Discipline, talent: Chastise, rank: 1, spell_id: null}
-    - {tree: Holy, talent: Divinity, rank: 5, spell_id: null}
-    - {tree: Holy, talent: Divine Fury, rank: 5, spell_id: null}
-    - {tree: Holy, talent: Holy Nova, rank: 1, spell_id: null}
-    - {tree: Holy, talent: Holy Focus, rank: 2, spell_id: null}
-    - {tree: Shadow, talent: Spirit Tap, rank: 5, spell_id: null}
-    - {tree: Shadow, talent: "Improved Shadow Word: Pain", rank: 2, spell_id: null}
+    - {tree: Discipline, talent: Wand Specialization, rank: 2, spell_id: 14525}
+    - {tree: Discipline, talent: Piercing Light, rank: 3, spell_id: 51464}
+    - {tree: Discipline, talent: Mental Agility, rank: 3, spell_id: 14781}
+    - {tree: Discipline, talent: "Improved Power Word: Fortitude", rank: 2, spell_id: 14767}
+    - {tree: Discipline, talent: Inner Focus, rank: 1, spell_id: 14751}
+    - {tree: Discipline, talent: Improved Inner Fire, rank: 2, spell_id: 14770}
+    - {tree: Discipline, talent: Meditation, rank: 3, spell_id: 14777}
+    - {tree: Discipline, talent: Purifying Flames, rank: 2, spell_id: 51471}
+    - {tree: Discipline, talent: Searing Light, rank: 3, spell_id: 51468}
+    - {tree: Discipline, talent: Enlighten, rank: 1, spell_id: 51476}
+    - {tree: Discipline, talent: Mental Strength, rank: 3, spell_id: 18553}
+    - {tree: Discipline, talent: Force of Will, rank: 5, spell_id: 18550}
+    - {tree: Discipline, talent: Chastise, rank: 1, spell_id: 51478}
+    - {tree: Holy, talent: Divinity, rank: 5, spell_id: 15011}
+    - {tree: Holy, talent: Divine Fury, rank: 5, spell_id: 18535}
+    - {tree: Holy, talent: Holy Nova, rank: 1, spell_id: 15237}
+    - {tree: Holy, talent: Holy Focus, rank: 2, spell_id: 15012}
+    - {tree: Shadow, talent: Spirit Tap, rank: 5, spell_id: 15338}
+    - {tree: Shadow, talent: "Improved Shadow Word: Pain", rank: 2, spell_id: 15317}
   leveling_order:
     - {level: 10, tree: Discipline, talent: Wand Specialization}
     - {level: 12, tree: Shadow, talent: Spirit Tap}
@@ -65,30 +92,35 @@ talents:
     - {level: 57, tree: Holy, talent: Holy Focus}
     - {level: 59, tree: Shadow, talent: "Improved Shadow Word: Pain"}
 stat_weights:
-  spell_hit: "to 10% from gear (weight ~19 under cap per Tscosomaz)"
+  priority: "spell hit to 10% from gear (16% total with Piercing Light 6%) > spell power > crit > Int > Spirit/Mp5"
+  spell_hit: "to 10% from gear (weight ~19 under cap per Tscosomaz); Discord confirms Piercing Light gives 6% [[d:priest#1302721522217254962]]"
   spell_power: 1
   holy_power: 1
-  spell_crit: 2
+  spell_crit: "2; Discord: crit is Searing Light *fuel* (more instant Smites), not throughput; Force of Will + Divinity = +10% crit"
   intellect: 3
   spirit: 4
   mp5: 4
+  sources: ["[[d:priest#1302721522217254962]]", "[[d:priest#1300993541454954628]]"]
+  era: pre-1.18.1
+  agreement: consensus
 caps:
   spell_hit_boss_pct: 16
   spell_hit_from_gear_pct: 10
   spell_hit_talent_pct: 6
   holy_resistance: "none on Turtle mobs (level-based Holy resist removed)"
 rotation_single:
-  - {priority: 1, action: "Smite (instant)", condition: "Searing Light proc active (3 s ICD); 60% cheaper in 1.18.1"}
-  - {priority: 2, action: "Holy Fire", condition: "off cooldown (keeps Purifying Flames +12% up)"}
-  - {priority: 3, action: "Shadow Word: Pain", condition: "missing and target lives > 18 s"}
-  - {priority: 4, action: "Chastise (ally)", condition: "off cooldown (40 s): tank at pull, then best DPS; ally above 50% HP"}
-  - {priority: 5, action: "Smite (hard cast)", condition: "filler"}
-  - {priority: 6, action: "Mind Blast", condition: "optional filler when mana is fine"}
-  - {priority: 7, action: "Pain Spike", condition: "target dies within 5 s"}
-  - {priority: 8, action: "Power Word: Shield (low rank, self)", condition: "Resurgent Shield talented and incoming damage will break it"}
-  - {priority: 9, action: "Holy Fire rank 1 / downranked Smite", condition: "mana below ~30%"}
-  - {priority: 10, action: "Searing Shot (Night Elf) / Sun's Embrace, Grace of the Sunwell (High Elf)", condition: "on cooldown"}
-  - {priority: 11, action: "Wand", condition: "mana low, target nearly dead"}
+  - {priority: 1, action: "Smite (instant)", condition: "Searing Light proc active (3 s ICD); 60% cheaper in 1.18.1; macros cast instant Smite while Spell_Holy_SearingLightPriest is up", source: "[[d:priest#1332034430507815052]]", era: pre-1.18.1, agreement: consensus}
+  - {priority: 2, action: "Holy Fire", condition: "off cooldown (keeps Purifying Flames +12% up); if Purifying Flames has <2 s left cast Holy Fire, else Smite", source: "[[d:priest#1332034430507815052]]", era: pre-1.18.1, agreement: consensus}
+  - {priority: 3, action: "Simple form: 1 Holy Fire then 4 Smites", condition: "regardless of Searing Light procs; if the boss will die in the current cycle skip HF and finish Smite + Chastise", source: "[[d:priest#1431112150679818281]], [[d:priest#1430727888310898830]]", era: 1.18.1-announced-pre-release, agreement: consensus}
+  - {priority: 4, action: "Shadow Word: Pain", condition: "missing and target lives > 18 s"}
+  - {priority: 5, action: "Chastise (ally)", condition: "off cooldown (40 s): tank at pull, then Affliction lock / Arcane mage > 2H melee > DW melee; Discord guideline 'only above 80% HP' (hard rule: >50%), heal first if lower", source: "[[d:priest#1383364969432875028]]", era: pre-1.18.1, agreement: single source}
+  - {priority: 6, action: "Smite (hard cast)", condition: "filler"}
+  - {priority: 7, action: "Mind Blast", condition: "optional filler when mana is fine"}
+  - {priority: 8, action: "Pain Spike", condition: "target dies within 5 s"}
+  - {priority: 9, action: "Power Word: Shield (low rank, self)", condition: "Resurgent Shield talented and incoming damage will break it"}
+  - {priority: 10, action: "Holy Fire rank 1 / downranked Smite", condition: "mana below ~30%"}
+  - {priority: 11, action: "Searing Shot (Night Elf) / Sun's Embrace, Grace of the Sunwell (High Elf)", condition: "on cooldown"}
+  - {priority: 12, action: "Wand", condition: "mana low, target nearly dead"}
 rotation_aoe:
   - {targets_min: 2, priority: 1, action: "Holy Fire + SW:P on secondary targets, Smite skull", condition: "targets live > 10 s"}
   - {targets_min: 4, priority: 1, action: "Holy Nova spam (10 yd, self-centred)", condition: "tank has aggro (threat since 1.18.0), mana to spare"}
@@ -112,6 +144,8 @@ consumables:
   - Flask of Supreme Power
   - Greater Arcane Elixir
   - "Robe of Sacrifice / Darkmoon Card: Blue Dragon (mana items)"
+  - "Discord raid SP stack: Greater Arcane Elixir, Elixir of Shadow Power, Dreamshard Elixir, Dreamtonic, Danonzo's Tel'Abim Delight, Spirit of Zanza, Blessed Sunfruit Juice, Medivh's Merlot Blue, Kreeg's Stout Beatdown [[d:priest#1404120758787117236]]"
+  - "Nordanaar Herbal Tea is the best low-budget mana recharge; Nightfin Soup does not stack with Mageblood [[d:priest#1324382262342455417]], [[d:priest#1383050311110885406]]"
 mistakes_to_avoid:
   - "Playing without 10% spell hit from gear"
   - "Letting Searing Light procs expire / clipping Holy Fire"
@@ -119,3 +153,9 @@ mistakes_to_avoid:
   - "Chastising an enemy in PvE (2 s disorient breaks on damage)"
   - "Forgetting to re-apply Enlighten"
   - "Trusting Improved PW:Shield / Force of Will tooltips (flat base only)"
+  - "Expecting healing from Discipline tier sets: they are holy-damage only, no healing [[d:priest#1484579771336888330]], [[d:priest#1484565459503284335]]"
+  - "Following pre-1.18.1 guide builds using Proclaim Champion / Champion's Grace (removed) [[d:priest#1464351944230436874]]"
+leveling_by_bracket:
+  - {bracket: "1-19", advice: "Buy the best wand (enchanting wands are OP); 2/2 Wand Specialization first; shield -> SW:P -> wand. Wanding beats casting before 40.", sources: ["[[d:priest#1300314106829602880]]", "[[d:priest#1296223142905118742]]", "[[d:priest#1296239261280112731]]"], era: pre-1.18.1, agreement: consensus}
+  - {bracket: "20-39", advice: "5/5 Spirit Tap then Holy tree to 5/5 Spiritual Guidance; spirit-stacking + Spirit Tap gives very high spell power for the level range. Fear Ward baseline at 20. Smite starts out-DPSing the wand around 30.", sources: ["[[d:priest#1332161439959613440]]", "[[d:priest#1331388964594126850]]", "[[d:priest#1296219501406453820]]"], era: pre-1.18.1, agreement: consensus}
+  - {bracket: "40-60", advice: "Shadowform comes online; respec Shadow at 42 (40 loses Wand Spec). HC smite works: Spirit Tap chain-pull, frontload 2-5 casts then wand/staff weave. Disc 'comes online' only at 60.", sources: ["[[d:priest#1331378617153753258]]", "[[d:priest#1331388964594126850]]", "[[d:priest#1332161439959613440]]"], era: pre-1.18.1, agreement: consensus}

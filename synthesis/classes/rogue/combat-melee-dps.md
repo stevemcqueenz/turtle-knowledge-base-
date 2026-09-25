@@ -115,6 +115,69 @@ Swords variant: Sinister Strike replaces Backstab; everything else identical (Ya
 - Expecting to top Patchwerk-style meters against warriors pre-1.18.1 (Bigbosc's 18%); bragging about parses that exclude warriors (Gantulga).
 - Using Blade Flurry to level (energy starvation: "1.18 absolutely fucked blade flurry ... only ever gets better very much later on when you got agility based increase in energy reg ticks" [Hctwowfan (player), 2025-09-12](https://forum.turtlecraft.gg/viewtopic.php?p=151505#p151505)).
 
+## Discord findings (2025–2026)
+
+Post-1.18.1 the `#rogue` Discord (2021-02 .. 2026-05) closes several gaps this file names. Every citation is `[[d:rogue#id]]` and resolves in `structured/discord/evidence-rogue.jsonl`. Eras: **pre-1.18.1** (< 2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 .. 2026-03-19), **post-1.18.1** (≥ 2026-03-20). Discord authority is player/guide-writer only — the channel has no staff green-name.
+
+### Corrections and supersessions
+
+- **"No post-1.18.1 build exists" is superseded.** Discord's decoded `talents.turtlecraft.gg` codes give the community's post-patch default: a **24/27/0 Combat-daggers / Envenom hybrid**, repeated 15+ times from 2026-03-20 to 2026-04-15 [[d:rogue#1484598973456187393]], [[d:rogue#1487852486554292355]], [[d:rogue#1485940082325323889]]. It closes the forum's own gap #2 ("the exact split of the last 2–3 points … is unresolved"): the Assassination sub-tree is exactly **Malice 5 / Ruthlessness 3 / Murder 1 / IBT 3 / Relentless 1 / Lethality 5 / Taste for Blood 2 / Efficient Poisons 3 / Envenom 1**, with **no Noxious Assault, Vigor or Seal Fate**; Combat is **Opportunity 5 / Improved Backstab 3 / Precision 5 / Improved Sprint 2 / DWS 5 / Close Quarters Combat 2 / Surprise Attack 1 / Weapon Expertise 2 / Blade Rush 2**. The forum's older "20/31/0" is the same core with **Adrenaline Rush + Aggression** and 3 points moved to Improved Blade Tactics/Vile Poisons [[d:rogue#1453493987561443430]], [[d:rogue#1487577948323188846]].
+- **Post-patch spec standing** (guide writer Rheinwg, 2026-04): Combat daggers is good and its energy-regen problem is solved; Combat **Sinister Strike underperforms**; **Combat Envenom is popular**; full Assassination is nerfed; Subtlety is decent [[d:rogue#1495060694121320558]]. For the Combat-dagger Envenom build, **Deadly sims better than Instant** because Envenom maintains the stacks [[d:rogue#1484976580479418600]] (single source).
+- **Weapon speed**: ~1.3 is wanted for poison-proc volume; there is exactly one BiS exception, the 1.8-speed spellstrike build [[d:rogue#1446546660032385118]].
+- **Blade Flurry** was "trash until ~800 agility" for leveling/under-geared play; 1.18.1's energy-penalty cut (30%→20%) is what made it a real cleave tool [[d:rogue#1465059753037136125]].
+
+### Numbers the forum deferred to the sim
+
+| Item | Discord value | Citation | Agreement / era |
+|---|---|---|---|
+| Blade Rush energy formula | `-0.0012 s` per Agility at 2/2 (0.0006 at 1/2); 600 agi = one tick per 1.28 s instead of 2 s | [[d:rogue#1409388958319644767]], [[d:rogue#1415843605075066951]] | consensus, pre/post-1.18.1 |
+| Sim energy income | Combat 4.71/s, Assassination 3.96/s, Subtlety 3.33/s cap | [[d:rogue#1405878977414959154]] | single source, pre-1.18.1 |
+| Stat cheat-sheet | 15 agi = 1 haste; 1 haste = 1 crit = 1 hit = 25 AP; agi ≈1.5 AP with energy regen, ≈1.2 AP without; Blade Rush makes agi ≈3.4 AP-equivalent (contested) | [[d:rogue#1449907721582280765]], [[d:rogue#1437253577168126013]] | single source, 1.18.1-announced-pre-release |
+| Yellow/special hit cap | 8% post-1.18 (contested vs the 9% vanilla figure); 5 weapon skill = 1% hit; ~14% hit avoids crit-capping | [[d:rogue#1407624625059270699]], [[d:rogue#1407635403632279602]], [[d:rogue#1450373303486124083]] | consensus/single source, pre-1.18.1 |
+| Crit cap | white crit cap rises to ~55% at ~24–25% hit; a Naxx-BiS rogue measured a **50.5% effective boss crit cap** | [[d:rogue#1407624625059270699]], [[d:rogue#1411032364095639644]] | single source, pre-1.18.1 |
+| Weapon skill | ~305–315 for Combat, +5 from gear if possible; Assassination "barely cares" and Noxious uses AP (contested) | [[d:rogue#1408321275277086793]], [[d:rogue#1407120295483019406]], [[d:rogue#1406925028288761956]] | contested, post-1.18.1 |
+| Haste sources | multiplicative: SnD 30%, Kiss 20%, food 2%, Lion's Horn 5%, battle chicken 5%, Potion of Quickness 5%, Juju Flurry 3%, Bloodlust 20%, Troll 10/15%, Druid Atiesh 2%, Chastise 20% | [[d:rogue#1415123962169393345]] | single source, pre-1.18.1 |
+
+The channel defers numeric weights to the community tools (pfUI-turtle energytick, NugEnergy, RogueFocus) [[d:rogue#1406043930268536843]] and, in the PvE slice, to **Combat Gum** (`combatgum.app`), a rogue DPS simulator released 2026-03-19 with 1.18.1 itemisation, rotations, trinkets, Vanish swaps and BoED/Spellstrike support [[d:rogue#1484243895675129986]], [[d:rogue#1484725168768286801]] (single source).
+
+### Rotation and AoE practice
+
+- **24/27/0 Combat-envenom**: the same shape as the old Combat-dagger rotation but **no Adrenaline Rush, and Envenom replaces Rupture** [[d:rogue#1488169766530318456]]; the Backstab form is Backstab for CP, 1-CP Envenom upkeep, 5-CP Eviscerate [[d:rogue#1485641027560673372]]; the Sinister-Strike "evis-spam" form (SS + 1-CP Envenom/SnD, then 1-CP Eviscerate) sims best but is called "the most braindead spec" and not everyone can reproduce the sim [[d:rogue#1486038172336001174]], [[d:rogue#1485960977337024592]] (contested).
+- **Never use Sinister Strike with daggers** — macro a sword/mace/fist weapon swap [[d:rogue#1424148190663278846]].
+- **Blade Flurry** stays the only cleave and a toggle (-20% energy/-20% damage post-1.18.1); turn it off at one target [[d:rogue#1429240041577644186]]. On trash, use fast-kill poisons (double Instant/Dissolvent) and Rupture may be skipped [[d:rogue#1418643088213016756]].
+- **Threat**: Assassination/Combat burst threat is a defining problem — 3 Noxious Assaults from full energy is ~4k threat in 3 s; counterplay is wait 5–7k tank threat, Feint weave, cloak enchant, **Vanish as a second trinket-proc window and a threat reset** [[d:rogue#1409455377640194100]], [[d:rogue#1407474034349969448]].
+- **Encounters**: pre-1.18.1 Naxx plan (AR on Spider wing, Envenom on Abom, AR after Thaddius, Military, Envenom for Plague/Loatheb/Sapphiron, AR for KT) [[d:rogue#1418275819721195584]]; **Ambush openers on Patchwerk get you killed** — open Evasion + Ghostly Strike into SnD [[d:rogue#1409285859248832592]].
+
+### Gear, consumables, professions
+
+- Assassination BiS weapon path is **Alcor's + Distracting Dagger until Naxx** [[d:rogue#1410197464362782761]], [[d:rogue#1409767850373025802]]; pre-raid alts 2× Stormfist, Distracting+Stormfist, Finkle's, Julie's, The Ripper, Bonescraper [[d:rogue#1407120619732209734]]; the ladder Julie → Alcor → MC caster dagger → ZG caster dagger → (BWL) → Timbermaw class weapon → THC [[d:rogue#1472663678384865544]]. **Fang of Venoxis was buffed to 1.3 speed** and is called the best available assassination dagger [[d:rogue#1486869810053775370]] (single source). Each +0.1 s of weapon speed costs ~3 dps early and ~12 dps at top rank from poison procs [[d:rogue#1461866998521921710]], [[d:rogue#1437156474810794097]] (consensus).
+- **Post-1.18.1 combat-envenom set differs from the forum's Darkmantle+Stormshroud consensus**: 6/8 Darkmantle + 2/8 T2 (then a 3rd T2 piece) because the spec wants agility; the T2 set bonus beats Stormshroud [[d:rogue#1488910311829278750]] (single source). Combat swaps no-agi T3 pieces for T2.5/Displacement/agi rings [[d:rogue#1406394320499511378]]. Trinkets: Kiss of the Spider / Crest of Retribution called BiS for both specs; DFT, Whip, Heart of Dreams, Jom Gabbar, Venomous Totem, Slayer's Crest, Mark of the Champion [[d:rogue#1410196128783138877]], [[d:rogue#1488007182871035974]]. Enchant split is contested: 2× Crusader for Assassination (poison AP scaling) vs +15 Agility for Combat (Blade Rush energy) [[d:rogue#1425177124096180327]], [[d:rogue#1409466340078784552]].
+- **Consumables**: Concoction of the Emerald Mongoose gives 2% spell crit (poisons) + 2% physical crit in one item instead of Elixir of Mongoose [[d:rogue#1410790635442671830]]; **Potion of Quickness shares a CD with protection potions**; Thistle Tea shares with Health Stones; sappers share with Holy Water [[d:rogue#1421159028498759741]], [[d:rogue#1439618722607271956]]; **Thistle Tea optimally at exactly 0 energy with a free GCD** [[d:rogue#1342009613259903067]].
+- **Professions** (fills the forum's Leatherworking gap): Engineering for AoE-threat grenades, **target dummies as an area taunt** and spell reflectors, with a raid-meta swap at 60 [[d:rogue#1211963153521446912]], [[d:rogue#1274445464682496132]]; Skinning + Leatherworking as the first-character/leveling pick, **Tribal** for Devilsaur/Batskin [[d:rogue#1272038156367302767]], [[d:rogue#1300415145499037749]]; Alchemy+Herbalism / Mining / Fishing as rogue gold, plus stealth-mining Hateforge Quarry and ZG spellbinders as rogue-specific farms [[d:rogue#1329020698542346291]], [[d:rogue#1332114386772557875]], [[d:rogue#1354008564405899265]].
+
+### Contested / left open
+
+- The **post-1.18.1 spec ranking stays contested**: Midfinger's BWL test had 41/10/0 winning [[d:rogue#1486818882516947104]], Drox says AR Combat daggers still wins in his Naxx/K40 raids [[d:rogue#1490363111192924180]], and Silkestrupen's sim had Noxious ahead [[d:rogue#1487852166512377887]]. No kill-proven logs settle it.
+- **Noxious Assault's weapon-proc behaviour** is contested (one player measured off-hand Crusader/Tempest's Rage; another tested no weapon effects) [[d:rogue#1418737911167320245]], [[d:rogue#1417770415522316370]].
+- **“Murder is a beginner trap”** — most raid bosses are not the covered creature types [[d:rogue#1411665605706252380]]; and **Annihilator shares a debuff slot with a Shart'ateth Axe** [[d:rogue#1483262942748086434]].
+
+### Discord sources
+
+| Topic | Citation | Era | Agreement |
+|---|---|---|---|
+| Decoded 24/27/0 Combat-dagger core | [[d:rogue#1484598973456187393]] | post-1.18.1 | consensus |
+| 24/27/0 repeated post-patch | [[d:rogue#1487852486554292355]] | post-1.18.1 | consensus |
+| Combat-envenom as the nerf answer | [[d:rogue#1485940082325323889]] | post-1.18.1 | consensus |
+| Spec standing after 1.18.1 | [[d:rogue#1495060694121320558]] | post-1.18.1 | consensus |
+| Deadly > Instant for combat-dagger Envenom | [[d:rogue#1484976580479418600]] | post-1.18.1 | single source |
+| Blade Rush 0.0012 s/agi | [[d:rogue#1409388958319644767]] | pre-1.18.1 | consensus |
+| 8% yellow hit cap | [[d:rogue#1407624625059270699]] | pre-1.18.1 | consensus |
+| 50.5% effective boss crit cap | [[d:rogue#1411032364095639644]] | pre-1.18.1 | single source |
+| ~1.3-speed daggers | [[d:rogue#1446546660032385118]] | 1.18.1-announced-pre-release | consensus |
+| combat-envenom set (Darkmantle+T2) | [[d:rogue#1488910311829278750]] | post-1.18.1 | single source |
+| Combat Gum simulator | [[d:rogue#1484243895675129986]] | 1.18.1-announced-pre-release | single source |
+| Professions (Engineering/Leatherworking) | [[d:rogue#1211963153521446912]], [[d:rogue#1272038156367302767]] | pre-1.18.1 | consensus |
+
 ## Sources
 
 | Source | Authority | Date / era | Used for | Agreement |

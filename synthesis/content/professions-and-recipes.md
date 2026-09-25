@@ -70,6 +70,8 @@ Total cost given in 2019: quest 75 s 50 c; quest plus mats to reach tents 1 g 45
 
 **Cap:** before the overhaul, Survival could not go past 150 — [Speedz1337 (guide writer — author of the pinned Gardening guide), 2024-05-09](https://forum.turtlecraft.gg/viewtopic.php?p=94431#p94431).
 
+**Discord corroboration (pre-1.18.1).** The archived `#turtle-wiki` channel independently documents the old progression: **76–150 unlocks automatically at ~75**, and a **Bright Campfire** grants a guaranteed Survival point per cast **all the way to 150** — costs 1 **Simple Wood** (consumed) plus **Flint and Tinder** (not consumed), **5-minute cooldown shared with Basic Campfire**, **+8 Spirit vs the Basic's +4**, and it is usable for cooking (the cheapest but slowest route to 150) — [RETRO (player), 2025-03-27](https://discord.com/channels/466622455805378571/976193120809123881/1354620357222469813). A 2022 player reached Survival 90 with fires and tents and never saw a 75 cap — [Solski (player), 2022-12-10](https://discord.com/channels/466622455805378571/976193120809123881/1050940155705430097). **pre-1.18.1, single source each.** This is the pre-1.18.1 answer to **ISS-0072**.
+
 ### 1.5 The 1.18.1 Survival overhaul
 
 Staff (all [Torta (staff), 2025-10-03](https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168) unless noted):
@@ -91,6 +93,7 @@ Post-release hotfixes: Apprentice Survival available at level 1 again; Survival 
 - New tools require a **woodcutting axe** and a "widdle", plus heavy Mining; the **Survivalist Skinning Knife** was called useless because skinning still needs a skinning knife — [Dexday (player), 2026-03-27](https://forum.turtlecraft.gg/viewtopic.php?p=172785#p172785).
 - Survival recipes showing as "unknown" at the trainer even after clearing the WDB cache — [Deadcrow (player), 2026-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=174264#p174264).
 - A Survival **slingshot** usable for ranged pulling — [Atreidon (player), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172086#p172086).
+- **Discord corroboration (post-1.18.1):** the old Survival trainer no longer sells wood, the new trainer is in **Stormwind/Orgrimmar**, and torches go grey at **skill 15** with the trainer offering nothing further — [sebasneitorss2 (player), 2026-03-21](https://discord.com/channels/466622455805378571/976193120809123881/1484735725424476311), [Ixxi (player), 2026-03-23](https://discord.com/channels/466622455805378571/976193120809123881/1485506514327441489), [wiwit (player), 2026-03-23](https://discord.com/channels/466622455805378571/976193120809123881/1485536549629071372). **post-1.18.1, consensus.** Corroborates the player side of **CON-0087 / ISS-0073**.
 
 ### 1.5a Survival 1–300 after the overhaul (player guide)
 
@@ -195,6 +198,7 @@ Player-found spots from the restricted era, for the record: a hut with crops in 
 
 - Staff: **three new crops** in specific zones grant powerful buffs when fully grown; "unwelcome critters" now infiltrate crops — [Torta (staff), 2025-10-03](https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168).
 - Player report of the new seed names, read off the restored item database: **Wildhammer Yam Roots, Wild Grape Seeds, Ordinary Cabbage Seeds, Sandswept Carrot Seeds** — [Sagabal (player), 2026-04-08](https://forum.turtlecraft.gg/viewtopic.php?p=174505#p174505). That is **four** names against staff's "three new crops"; **contested**, and no staff post reconciles it. Note the 1.18.1 cooking change to **Empowering Herbal Salad** now uses **Lush Cabbage Head** and **Moonwhisper Berry** — [Torta (staff), 2025-10-03](https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168), which is consistent with cabbage being a new crop.
+- **Discord (`striped melons`).** The channel points at the database entry for **striped melons** and at the forum gardening guide, and notes endgame crops are valued as cheap raiding food — [Speedz (guide writer — the gardening-guide author), 2025-10-07](https://discord.com/channels/466622455805378571/976193120809123881/1425126275311206440), [Speedz (guide writer), 2025-10-07](https://discord.com/channels/466622455805378571/976193120809123881/1425126721983742002). **1.18.1-announced-pre-release, single source.** Adds a named crop but does not settle the crop/seed count (**CON-0085**); note the Striped Melon Seeds are already documented in §2.2.
 
 ---
 
@@ -291,6 +295,8 @@ The **Jewelcrafting Guide** — [Speedz1337 (guide writer), 2024-11-04](https://
 **Corrections the thread applied to the guide:** Heavy Gritted Paper uses **Mageweave**, not Wool — [kalimore (player), 2024-11-27](https://forum.turtlecraft.gg/viewtopic.php?p=110218#p110218), accepted by the author who noted it was "either a mess up on my part or turtle devs have been tweaking things" — [Speedz1337, 2024-11-28](https://forum.turtlecraft.gg/viewtopic.php?p=110288#p110288). Heavy Stone was also corrected in — [Planoid (player), 2024-11-05](https://forum.turtlecraft.gg/viewtopic.php?p=106518#p106518). The 175–180 Rough Mithril Ring step was contributed by — [Demmentia (player), 2024-11-20](https://forum.turtlecraft.gg/viewtopic.php?p=108958#p108958). This is a **maintained, peer-corrected** guide, which is why it is treated as the best available source here.
 
 ### 3.6 The Goldsmith specialisation questline (player guide)
+
+**Discord notes (`#turtle-wiki`).** Akalix (staff): enchanted gemstones "are like enchants" — applied to gear, with **no Goldsmith-spec requirement to benefit** — [Akalix (staff), 2025-06-19](https://discord.com/channels/466622455805378571/976193120809123881/1385337387206578301). **1.18.1-announced-pre-release, single source.** Trainer coverage above 150 remains a question in the channel ("where is the Expert/Artisan trainer?") with no authoritative list; Valaen instead points players to the **AtlasLoot Turtle fork** as the practical source — [Dionees (player), 2025-09-05](https://discord.com/channels/466622455805378571/976193120809123881/1413577667210645556), [James (player), 2025-08-02](https://discord.com/channels/466622455805378571/976193120809123881/1401281072318251110), [Valaen (guide writer), 2025-06-19](https://discord.com/channels/466622455805378571/976193120809123881/1385243025638297731). **single source each.** This is the material behind **CON-0086**; the full trainer list is still missing.
 
 Chosen at skill 225 and character level 40 from **Mayva Togview** (Ironforge, Alliance) or **Gulmire Fartower** (Undercity, Horde), then:
 

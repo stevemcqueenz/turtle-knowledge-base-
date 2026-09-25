@@ -57,6 +57,57 @@ As PvE Assassination plus PvP stamina pieces; Brisspvp's PvP BiS list is dagger-
 - Fighting a target with thorns/Retribution Aura/Blessing of Sanctuary with 1.3 daggers (Crake).
 - Staying in melee at 0 energy instead of resetting.
 
+## Discord findings (2025–2026)
+
+`#rogue` (cross-read with `#pvp-general`, which ends 2025-11-01 and is therefore pre-1.18.1) supplies decoded builds, the post-1.18.1 gear economy and fresh matchup verdicts. Citations `[[d:rogue#id]]` / `[[d:pvp-general#id]]` resolve in `structured/discord/evidence-rogue.jsonl` / `evidence-pvp-general.jsonl`. Eras: **pre-1.18.1** (< 2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 .. 2026-03-19), **post-1.18.1** (≥ 2026-03-20).
+
+### Corrections and supersessions
+
+- **Dissolvent/Corrosive no longer hit players at all.** 1.18.1 restricts them to Elementals/Mechanicals/Giants/Undead (players are Humanoids), so **Instant is the only damage poison** and the new PvP sets add ~30 nature resistance — "youre boned except against clothies" [[d:rogue#1488216301460783246]], [[d:rogue#1488217700206641192]], [[d:rogue#1487419470443057284]]. The forum file's "Dissolvent-vs-plate advice is superseded" is confirmed and sharpened.
+- **The channel's post-1.18.1 answer is split three ways** — Noxious (still best for stunlock kills), Sub Hemo/Prep (control/duels) and the fast-weapon Assa/Sub Envenom hybrid — and the verdict is contested: one poster calls Noxious "quite negligible" damage-wise [[d:rogue#1490686616086384782]] while another says rogue "is not really playable in pvp" [[d:rogue#1494436247249354773]].
+- **PvP dampening numbers were never published**: players asked for the formula and never got it [[d:rogue#1491083968676761630]], and list resilience as reducing DoT damage [[d:rogue#1491654819138633758]] (the patch file already records no published numbers).
+
+### Decoded PvP builds
+
+| Split | Allocation | Citation | Era |
+|---|---|---|---|
+| **Hemo/Prep 11/5/35** | Assa Imp Evis 3, Malice 4, Ruth 3, Relentless 1; Combat Opportunity 5; Sub Camouflage 5, Imp Gouge 3, Imp Ambush 3, Elusiveness 2, Serrated Blades 3, Initiative 3, Imp Ghostly Strike 3, Hemo 1, Cloaked in Shadows 2, Blackjack 2, Dirty Deeds 2, Prep 1, Bloody Mess 2, HaT 2, Mark for Death 1 | [[d:rogue#1484641315361915042]], [[d:rogue#1486450619861700729]] | post-1.18.1 |
+| **Hemo/Cold Blood 21/8/22** | Assa Remorseless 2, Malice 5, Ruth 3, Relentless 1, TWS 2, Lethality 5, Imp Poisons 2, Cold Blood 1; Combat Opportunity 5, Imp Backstab 3; Sub the classic 22 | [[d:rogue#1489700090208583730]] | post-1.18.1 |
+| **Assa/Sub fast-weapon poison 23/0/28** | Assa Imp Evis 3, Malice 5, Ruth 3, Relentless 1, TWS 2, Lethality 1, Vile 3, Imp Poisons 3, Envenom 1, Cold Blood 1; Sub 28 incl. Hemo + Prep | [[d:rogue#1493351003238694942]] | post-1.18.1 |
+| **Noxious poison 34/0/17** | Assa 34 (Noxious + Envenom + Seal Fate 5); Sub 17 (Camouflage, Imp Ambush, Blackjack); 1 Efficient Poisons for the PvP spell-hit cap | [[d:rogue#1471530033066807332]] | 1.18.1-announced-pre-release |
+| **Mace PvP 0/20/31** | Combat Concussive Blows 5; Sub 31 — posted as a question, **not endorsed** | [[d:rogue#1485084316349497555]] | post-1.18.1 |
+
+Nelson's **hemo/Prep HaT build** (described, no link): HaT > Vigor because it procs off your own crits, **Serrated Blades is useless in PvP**, Ghostly Strike is a cheaper/stronger Hemo, and Dirty Deeds + faster Vanish/Blind matter; Alcor's Sunrazor off-hand for plate [[d:rogue#1487820844712591674]], [[d:rogue#1487827015338954802]] (single source, contested by a Vigor proponent).
+
+### Post-1.18.1 PvP gear economy and counterplay
+
+- **21% crit reduction** set: AB 3/3 (12%) + 2-piece Arena (3%) + Arena ring (3%) + Belt Buckle (3%), at the cost of 4-piece Darkmantle [[d:rogue#1465337336270426224]]; resilience reduces DoT damage and is cited as why dagger/crit builds underperform [[d:rogue#1491654819138633758]], [[d:rogue#1493332911406055564]].
+- **~30 nature resistance** on the new PvP set — read as a direct counter to Instant-Poison rogues [[d:rogue#1487419470443057284]], [[d:rogue#1487459320093212812]]; **no agility** on the PvP sets (STR+stam only) [[d:rogue#1491338903439937608]]; Greater/elemental Nature Protection potions are the poison answer [[d:rogue#1484489992918139020]], [[d:rogue#1484455098414534787]].
+- **Weapons**: the 1.8-speed PvP sword is claimed sub-BiS for Subtlety [[d:rogue#1487857538194997330]]; the 2.0-speed PvP dagger is called poison-unfriendly [[d:rogue#1487314461302984735]]; new rewards are K40 ilvl and stronger than the old PvP items [[d:rogue#1484635445781598238]].
+- **Consumables/engineering**: FAPs + Crunchwrap Supremes [[d:rogue#1464363487374606487]]; gnomish chicken is the only offensive DPS gadget and the useful goblin gadgets are buyable [[d:rogue#1465020246170669089]], [[d:rogue#1470780105117667512]].
+
+### Race order and matchup verdicts
+
+- **Channel-local race order**: Alliance Dwarf 5/5 (Stoneform clears a rival rogue's Blind, which is a poison) and Gnome 5/5 (Escape Artist clears nova/Concussive/Crippling, matters most on WSG), Night Elf/Human 3/5, High Elf 0/5; Horde Orc 4/5, Undead 4/5 (WotF + underrated Cannibalize), Goblin 4/5, Troll 2/5 [[d:rogue#1360971069737140415]], [[d:rogue#1360971823780462692]], [[d:rogue#1361181395459899634]] (single detailed guide, corroborated [[d:rogue#1376712398202998886]], [[d:rogue#1435632812345524244]]). The forum file only lists races as options.
+- **Warrior** flips to contested/losing at full PvP gear [[d:rogue#1491339462997708932]], [[d:rogue#1491646337018499214]]; **Feral** is the "cannot win without Assassination" matchup [[d:rogue#1417742111683645543]], [[d:rogue#1417181852879290558]]; **Shaman** has a documented full CC chain [[d:rogue#1492634440856375468]] plus the "no defensive cooldown, easier target" claim [[d:rogue#1492644310234038463]]; **Priest** is free food for Undead via WotF [[d:rogue#1417785062346330112]]; mage/priest are "smoke" for dagger rogues [[d:rogue#1404094602876813373]]; **BG role post-1.18.1**: "sap a healer, interrupt another, vanish, cheap shot again and die" with negative KD the norm [[d:rogue#1490678912118948052]].
+- **Vanish/stealth tech**: Vanish = 1 s spell immunity + "+54 real levels of stealth" (theory) [[d:rogue#1479856314137186385]]; Night Elf in full +stealth gear is effectively level-65.5, detectable only by Perception [[d:rogue#1401580440078389329]], [[d:rogue#1413550321296212028]]; Improved Sap is overrated in BGs (65 energy, telegraphs you) [[d:rogue#1443806889287618723]]; Sap → regen-gear swap → Cannibalize reset [[d:rogue#1438212303572172870]].
+
+### Contested / flags
+
+- The **"Ambush 25% PvP nerf"** claim conflicts with the official Opportunity 20%→15% change and another player's correction [[d:rogue#1491289622754623528]], [[d:rogue#1491378008232034364]] — leave open.
+- Crake's "Preparation is a 10-minute CD" still contradicts the 7-minute staff change; post-1.18.1 Discord treats Preparation as the defining utility pick and never re-litigates the CD [[d:rogue#1491270486402011287]].
+
+| Topic | Citation | Era | Agreement |
+|---|---|---|---|
+| Dissolvent removed from PvP; Instant only | [[d:rogue#1488216301460783246]], [[d:rogue#1488217700206641192]] | post-1.18.1 | consensus |
+| 21% crit-reduction PvP set | [[d:rogue#1465337336270426224]] | post-1.18.1 | single source |
+| ~30 nature resistance PvP set | [[d:rogue#1487419470443057284]] | post-1.18.1 | consensus |
+| PvP sets have no agility | [[d:rogue#1491338903439937608]] | post-1.18.1 | single source |
+| Race order | [[d:rogue#1360971069737140415]], [[d:rogue#1360971823780462692]] | pre-1.18.1 | single source |
+| Post-1.18.1 matchup verdicts | [[d:rogue#1491339462997708932]], [[d:rogue#1417742111683645543]], [[d:rogue#1492634440856375468]] | post-1.18.1 | contested |
+| PvP dampening numbers absent | [[d:rogue#1491083968676761630]] | post-1.18.1 | consensus |
+| Contested post-patch standing | [[d:rogue#1490686616086384782]], [[d:rogue#1494436247249354773]] | post-1.18.1 | contested |
+
 ## Sources
 
 | Source | Authority | Date / era | Used for | Agreement |

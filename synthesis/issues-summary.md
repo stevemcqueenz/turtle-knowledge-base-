@@ -1,6 +1,6 @@
 # Turtle WoW bug and issue list — summary and emulator test checklist
 
-Companion to `structured/issues.yaml` (122 entries, `ISS-0001` … `ISS-0122`). Built only from material in
+Companion to `structured/issues.yaml` (175 entries, `ISS-0001` … `ISS-0175`); the tier list below covers the pre-Discord extraction (`ISS-0001` … `ISS-0122`), and the 53 Discord-sourced additions (`ISS-0123` … `ISS-0175`) are in the YAML with their `reports[].cite` citations. Built only from material in
 this repository: the extracted forum (`extracted/forum/**`, `structured/forum/posts/*.jsonl`), the 1.18.1
 patch table (`structured/patches/1.18.1-changes.yaml`) and `synthesis/1.18.1-master-changelog.md`. Every
 citation is an exact post URL copied from those files. Conventions: `synthesis/CONVENTIONS.md`. Dates UTC.
@@ -182,8 +182,8 @@ Holy Strike case working only after a restart).
    ([Pepesmite (staff), 2025-11-29](https://forum.turtlecraft.gg/viewtopic.php?p=161044#p161044)). Players
    quote tracker ids (5638, 8949, 10302, 16592, 17804, 18234, 18395, 18459, 18473, 18568, 19887, 19982,
    21117, 21725, 21743, 21878) whose content is **not found in sources**. The real bug list for this server
-   is therefore larger than 122 entries, and the resolution state of most `open` entries is unknown.
-2. **Status is usually unknowable from the forum alone.** 73 of 122 entries have no staff answer at all.
+   is therefore larger than the 175 catalogued entries, and the resolution state of most `open` entries is unknown.
+2. **Status is usually unknowable from the forum alone.** 73 of the pre-Discord 122 entries have no staff answer at all.
    Absence of a fix line here does not prove the bug is live.
 3. **No numbers for PvP dampening.** Staff never published the class/spec dampening values
    ([Jamey (staff), 2026-03-02](https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701) restates the

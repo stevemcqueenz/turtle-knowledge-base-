@@ -117,6 +117,40 @@ Pre-pull: Rockbiter on a slow one-hander, shield equipped; Lightning Shield (or 
 9. Trying mid-combat 2H swaps for Stormstrike (Atreidon).
 10. Post-1.18.1: relying on Earthen Bulwark from strikes — reported not working through 2026-04-07 (Travoltino).
 
+## Discord additions (post-1.18.1)
+
+The archived `#shaman` Discord supplies the post-release live-server behaviour the forum file could only list as open bug reports, plus the AoE-threat ordering the guides left implicit. Era tags: `pre-1.18.1` < 2025-10-03, `1.18.1-announced-pre-release` 2025-10-03..2026-03-19, `post-1.18.1` >= 2026-03-20.
+
+### Threat rotation and AoE ordering
+
+- Single target: **Rockbiter + shield; Lightning/Water Shield; pull with Lightning Bolt / Chain Lightning; then Stormstrike -> Earth Shock (consume the buff) -> Lightning Strike -> Earth Shock -> refresh shield** — the post-1.18.1 loop [[d:shaman#1488136124617724004]].
+- 4+ targets, max threat: **Chain Lightning > Stoneclaw Totem > Fire Nova > Magma**; **Totem of the Tides** often lets you skip Magma altogether [[d:shaman#1492243384734060714]], [[d:shaman#1491520161885192413]]. This refines the KB's Stoneclaw -> Nova -> Magma ordering by putting Chain Lightning first for the opening threat.
+- The Earthen Bulwark build wants **melee crit/stats**, sharpening the KB's contested Agi-vs-Str question [[d:shaman#1485708569264521287]].
+
+### Boss notes (post-1.18.1)
+
+| Boss | Discord note | Agreement |
+|---|---|---|
+| Chromaggus | the bronze affliction runs to the end of the Bulwark buff and the tank cannot sustain Bulwark under the bug (needs ~420 physical DPS); without the defense cap it is a rough fight [[d:shaman#1485788704407683103]], [[d:shaman#1493253058350547106]], [[d:shaman#1493314575897071878]] | consensus |
+| Nefarian | once Bulwark is fixed, tankable in T1-grade gear; the bug currently blocks it [[d:shaman#1488914722706161714]], [[d:shaman#1493253058350547106]] | single source |
+| large drakonids (BWL) | attack-speed slows make the Bulwark build ineffective; no absorb during stun/whirlwind [[d:shaman#1486538158861713468]] | single source |
+
+### Earthen Bulwark bug — player-measured detail
+
+Earthen Bulwark builds only from **white auto attacks**, not Stormstrike/Lightning Strike, through the 2026-03-25 hotfix and still reported on **2026-04-07**; it caps at **20% of maximum health** with a **100-stack durability debuff**, and **was not in the patch notes** [[d:shaman#1484954736342995116]], [[d:shaman#1485640385857454291]], [[d:shaman#1486164601929338900]], [[d:shaman#1488669160585166949]]. Tanks called the result "a handicap ... the least sturdiest tank of all in the current meta" [[d:shaman#1487726640682369034]]. This confirms and quantifies the KB's ISS-0040 and replaces the old Rockbiter -10% damage-taken assumption.
+
+### Gear
+
+**Ancient Jade Leggings** for weapon skill / hybrid [[d:shaman#1491836338562007223]]; **Totem of the Tides is mandatory early** [[d:shaman#1492243384734060714]].
+
+| Discord source | Era | Agreement | Used for |
+|---|---|---|---|
+| [[d:shaman#1488136124617724004]] | post-1.18.1 | consensus | tank rotation |
+| [[d:shaman#1492243384734060714]] | post-1.18.1 | consensus | AoE threat order / Totem of the Tides |
+| [[d:shaman#1485788704407683103]] | post-1.18.1 | consensus | Chromaggus |
+| [[d:shaman#1486538158861713468]] | post-1.18.1 | single source | drakonid attack-speed slow |
+| [[d:shaman#1487726640682369034]] | post-1.18.1 | consensus | Bulwark cripples tanks |
+
 ## Sources
 
 | Source | Authority | Date | Era | Used for | Agreement |

@@ -19,31 +19,60 @@ agreement: contested
 patch_validity:
   written_for: "1.17.2/1.18.0 (pre-1.18.1)"
   valid_for_1181: unknown
-  notes: "1.18.1 moved Blackout to row 2 and Improved Mind Blast to row 1, made Shadow Weaving a self-buff (players fear DoT dispel exposure), Pain Spike CD 30 s, Improved Fade -3/6 s CD. PvP Dampening now per spec (numbers unknown). Player build links are pre-1.18.1 opaque strings."
+  notes: "1.18.1 moved Blackout to row 2 and Improved Mind Blast to row 1, made Shadow Weaving a self-buff (players fear DoT dispel exposure), Pain Spike CD 30 s, Improved Fade -3/6 s CD. PvP Dampening now per spec (numbers unknown). Player build links are pre-1.18.1 opaque strings. Discord adds: CC2 removed the old survivability spec; the strongest BG priest is a healer dipping Shadow for Silence + Inner Focus; Tauren is the post-1.18.1 PvP healer race."
+discord:
+  channel: priest
+  era_legend: "pre-1.18.1 <2025-10-03 | 1.18.1-announced-pre-release 2025-10-03..2026-03-19 | post-1.18.1 >=2026-03-20 | mixed spans more than one era"
+  sources:
+    - {id: "1296267877036589056", author: Mortifer, era: pre-1.18.1, agreement: consensus, used_for: "Shadow PvP was a survivability spec (dots + VE off multiple opponents), not a damage spec", cite: "[[d:priest#1296267877036589056]]"}
+    - {id: "1296272979868647525", author: Hellkite, era: pre-1.18.1, agreement: consensus, used_for: "CC2 turned Shadow into a 'bad glass cannon'", cite: "[[d:priest#1296272979868647525]]"}
+    - {id: "1296223825146413156", era: pre-1.18.1, agreement: consensus, used_for: "CC2: Blackout stun 3 s -> 2 s", cite: "[[d:priest#1296223825146413156]]"}
+    - {id: "1296246500200026164", era: pre-1.18.1, agreement: consensus, used_for: "CC2: VE gained a 2 s cast; Shadowform briefly lost PW:Shield (reverted)", cite: "[[d:priest#1296246500200026164]]"}
+    - {id: "1294337426105569342", author: cryft, era: pre-1.18.1, agreement: consensus, used_for: "strongest BG priest: healer dipping Shadow for Silence + Inner Focus (free Devouring Plague); can 1v1 rogues/warriors", cite: "[[d:priest#1294337426105569342]]"}
+    - {id: "1294312429882310726", era: pre-1.18.1, agreement: consensus, used_for: "Shadowguard can proc Blackout and Shadow Weaving", cite: "[[d:priest#1294312429882310726]]"}
+    - {id: "1294341720233742398", era: pre-1.18.1, agreement: consensus, used_for: "a rogue opening on you can stun itself on Shadowguard", cite: "[[d:priest#1294341720233742398]]"}
+    - {id: "1484362246951010305", era: post-1.18.1, agreement: consensus, used_for: "post-1.18.1 Tauren racials are healing/disc oriented -> Tauren is the PvP healer race", cite: "[[d:priest#1484362246951010305]]"}
+    - {id: "1484570889642180670", era: post-1.18.1, agreement: consensus, used_for: "Tauren priest racials (Light of An'she etc.)", cite: "[[d:priest#1484570889642180670]]"}
+    - {id: "1484898033597546539", era: post-1.18.1, agreement: consensus, used_for: "Light of An'she is Holy, unusable in Shadowform", cite: "[[d:priest#1484898033597546539]]"}
+    - {id: "1484428895246745670", era: post-1.18.1, agreement: single source, used_for: "Mana Burn moved to row 4 breaks PvP builds", cite: "[[d:priest#1484428895246745670]]"}
+    - {id: "1291325933202047037", era: pre-1.18.1, agreement: consensus, used_for: "Psychic Scream bug vs mind-controlled targets (KT/Skeram; bug 8053)", cite: "[[d:priest#1291325933202047037]]"}
+  hybrid_healer:
+    role: "A healer dipping Shadow for Silence + Inner Focus is the strongest BG priest play; the damage is enough to kill rogues/warriors in 1v1 who do not expect you to fight back."
+    cite: "[[d:priest#1294337426105569342]]"
+    era: pre-1.18.1
+    agreement: consensus
+  tauren_pvp:
+    note: "Post-1.18.1 Tauren racials are healing/disc oriented (Light of An'she), making Tauren the PvP healer race; Light of An'she is Holy school so unusable in Shadowform."
+    cite: "[[d:priest#1484362246951010305]], [[d:priest#1484898033597546539]]"
+    era: post-1.18.1
+    agreement: consensus
+  open_question:
+    - "Mana Burn moved to row 4 makes some PvP builds impossible [[d:priest#1484428895246745670]]."
+    - "Psychic Scream is buggy vs mind-controlled targets (bug 8053) [[d:priest#1291325933202047037]]."
 talents:
   build_name: "Shadow PvP 40/11/0 (reconstructed)"
   points:
-    - {tree: Shadow, talent: "Spirit Tap or Improved Mind Blast", rank: 5, spell_id: null}
-    - {tree: Shadow, talent: Blackout, rank: 5, spell_id: null}
-    - {tree: Shadow, talent: "Improved Shadow Word: Pain", rank: 2, spell_id: null}
-    - {tree: Shadow, talent: Shadow Focus, rank: 2, spell_id: null}
-    - {tree: Shadow, talent: Improved Psychic Scream, rank: 2, spell_id: null}
-    - {tree: Shadow, talent: Mind Flay, rank: 1, spell_id: null}
-    - {tree: Shadow, talent: Shadow Reach, rank: 2, spell_id: null}
-    - {tree: Shadow, talent: Shadow Weaving, rank: 5, spell_id: null}
-    - {tree: Shadow, talent: Silence, rank: 1, spell_id: null}
-    - {tree: Shadow, talent: Vampiric Embrace, rank: 1, spell_id: null}
-    - {tree: Shadow, talent: Vampiric Touch, rank: 2, spell_id: null}
-    - {tree: Shadow, talent: Darkness, rank: 5, spell_id: null}
-    - {tree: Shadow, talent: Shadowform, rank: 1, spell_id: null}
-    - {tree: Shadow, talent: Improved Fade, rank: 2, spell_id: null}
-    - {tree: Shadow, talent: "Shadow Affinity (filler)", rank: 4, spell_id: null}
-    - {tree: Discipline, talent: Wand Specialization, rank: 2, spell_id: null}
-    - {tree: Discipline, talent: Blessed Concentration, rank: 2, spell_id: null}
-    - {tree: Discipline, talent: "Improved Power Word: Shield", rank: 3, spell_id: null}
-    - {tree: Discipline, talent: Inner Focus, rank: 1, spell_id: null}
-    - {tree: Discipline, talent: "Improved Power Word: Fortitude", rank: 2, spell_id: null}
-    - {tree: Discipline, talent: Meditation, rank: 1, spell_id: null}
+    - {tree: Shadow, talent: "Spirit Tap (alternative: Improved Mind Blast 15316)", rank: 5, spell_id: 15338}
+    - {tree: Shadow, talent: Blackout, rank: 5, spell_id: 15326}
+    - {tree: Shadow, talent: "Improved Shadow Word: Pain", rank: 2, spell_id: 15317}
+    - {tree: Shadow, talent: Shadow Focus, rank: 2, spell_id: 15327}
+    - {tree: Shadow, talent: Improved Psychic Scream, rank: 2, spell_id: 15448}
+    - {tree: Shadow, talent: Mind Flay, rank: 1, spell_id: 15407}
+    - {tree: Shadow, talent: Shadow Reach, rank: 2, spell_id: 17323}
+    - {tree: Shadow, talent: Shadow Weaving, rank: 5, spell_id: 15334}
+    - {tree: Shadow, talent: Silence, rank: 1, spell_id: 15487}
+    - {tree: Shadow, talent: Vampiric Embrace, rank: 1, spell_id: 15286}
+    - {tree: Shadow, talent: Vampiric Touch, rank: 2, spell_id: 45558}
+    - {tree: Shadow, talent: Darkness, rank: 5, spell_id: 15310}
+    - {tree: Shadow, talent: Shadowform, rank: 1, spell_id: 15473}
+    - {tree: Shadow, talent: Improved Fade, rank: 2, spell_id: 15311}
+    - {tree: Shadow, talent: "Shadow Affinity (pre-1.18.1 filler; 1.18.1 max is 3, so no rank-4 spell id)", rank: 4, spell_id: null}
+    - {tree: Discipline, talent: Wand Specialization, rank: 2, spell_id: 14525}
+    - {tree: Discipline, talent: Blessed Concentration, rank: 2, spell_id: 14774}
+    - {tree: Discipline, talent: "Improved Power Word: Shield", rank: 3, spell_id: 14769}
+    - {tree: Discipline, talent: Inner Focus, rank: 1, spell_id: 14751}
+    - {tree: Discipline, talent: "Improved Power Word: Fortitude", rank: 2, spell_id: 14767}
+    - {tree: Discipline, talent: Meditation, rank: 1, spell_id: 14521}
   leveling_order: []
 stat_weights:
   stamina: 1
@@ -63,7 +92,7 @@ rotation_single:
   - {priority: 6, action: "Pain Spike", condition: "target low enough to die (30 s CD)"}
   - {priority: 7, action: "Silence", condition: "enemy healer/caster casting"}
   - {priority: 8, action: "Psychic Scream", condition: "melee on you and target not fear-warded/WotF-ready"}
-  - {priority: 9, action: "Shadowguard / Hex of Weakness (Troll), Starshards (Night Elf), Devouring Plague (Undead)", condition: "racial availability"}
+  - {priority: 9, action: "Shadowguard / Hex of Weakness (Troll), Starshards (Night Elf), Devouring Plague (Undead)", condition: "racial availability; Troll Shadowguard can proc Blackout and can stun a rogue that opens on you", source: "[[d:priest#1294312429882310726]], [[d:priest#1294341720233742398]]", era: pre-1.18.1, agreement: consensus}
 rotation_aoe:
   - {targets_min: 2, priority: 1, action: "Shadow Word: Pain on all", condition: "always"}
   - {targets_min: 2, priority: 2, action: "Psychic Scream", condition: "2+ melee in range"}
@@ -89,3 +118,5 @@ mistakes_to_avoid:
   - "Pain Spike early (heals back)"
   - "Tier sets over stamina pieces"
   - "Never dispelling or shielding teammates"
+  - "Expecting post-CC2 Shadow PvP to be a survivability spec: CC2 made it a 'bad glass cannon' (Blackout 3 -> 2 s, VE cast, Shadowform shield scare) [[d:priest#1296267877036589056]], [[d:priest#1296272979868647525]]"
+  - "Expecting Light of An'she in Shadowform (it is a Holy spell) [[d:priest#1484898033597546539]]"

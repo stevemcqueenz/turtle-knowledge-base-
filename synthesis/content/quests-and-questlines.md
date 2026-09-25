@@ -227,6 +227,24 @@ From the changelog stream (timeline B5), with the extracted wiki pages where the
 
 ---
 
+## 6a. Discord additions (archived `#turtle-wiki`)
+
+The archived `#turtle-wiki` channel fills several quest-chain details the wiki and database miss. Era: `pre-1.18.1` (<2025-10-03), `1.18.1-announced-pre-release` (2025-10-03 → 2026-03-19), `post-1.18.1` (≥2026-03-20).
+
+| Quest / chain | Correction or detail | Era | Agreement | Cite |
+|---|---|---|---|---|
+| *Wolves Across the Border* → *Bounty on Garrick Padfoot* | the first is a hidden prerequisite; the wiki did not say so | pre-1.18.1 | single source (player) | [[d:turtle-wiki#1332803393823047852]] |
+| *A Blaze Unending* / *Eternal Flame* (Dragonmaw Retreat) | resolves at an **interactable map object near Flamekeeper Garlok**, undocumented on the wiki | 1.18.1-announced-pre-release | single source (guide writer) | [[d:turtle-wiki#1425566233365057589]], [[d:turtle-wiki#1425673746764791909]], [[d:turtle-wiki#1425673949831762041]] |
+| *Hallowed Cross* | drops from **Tyr's Hand** mobs | post-1.18.1 | single source (player) | [[d:turtle-wiki#1485491783499780116]] |
+| *Suspicious Hoofprints* / *Report From Falgran* | really has **three** prerequisites (badge and shield Shady Rest Inn follow-ups) though the database shows one | pre-1.18.1 | single source (player) | [[d:turtle-wiki#1187564255063576608]] |
+| *Torta's Egg* (Darkmoon Faire) | the faire alternates between Alliance and Horde ground, so the quest may require reaching the opposite faction's faire | 1.18.1-announced-pre-release | single source (player) | [[d:turtle-wiki#1410195137241284720]] |
+| Stormwrought Ruins key (Horde) | chain *Old Friend* (Undead in a cave, Stormbreaker Point) → Orc in a Turtle's Shell → *Lady Who?* → *Storm, Twilight and Hammer* → Key to Stormwrought Castle | 1.18.1-announced-pre-release | single source (player) | [[d:turtle-wiki#1406998363294924942]] |
+| Dalaran fortification turn-ins | the wiki's advertised **Nexus Crystal** repeatable (500 rep) could not be found at Dalaran; only the three other "fortification" quests were present (**CON-0092**) | 1.18.1-announced-pre-release | single source (player) | [[d:turtle-wiki#1406665734934888518]] |
+| Crescent Grove | the channel repeatedly asks for the loot table and Horde quest list and never gets one (documented gap) | pre-1.18.1 | single source (player) | [[d:turtle-wiki#1085588940435771412]] |
+| New level-60 dungeon loot | *Karazhan Crypts, Black Morass, Stormwind Vaults* loot is on neither the wiki nor the database | 1.18.1-announced-pre-release | single source (player) | [[d:turtle-wiki#1411965494155546705]] |
+
+---
+
 ## 7. Gaps and unclear points
 
 1. **Coverage is roughly one in seven.** 208 Turtle quests have a wiki page against a claimed 1,500 added. Whole zones (Gillijim's Isle beyond one quest, most of Tel'Abim, most of Hyjal) have almost no wiki coverage.
@@ -235,6 +253,6 @@ From the changelog stream (timeline B5), with the extracted wiki pages where the
 4. **Chain gaps.** Several wiki pages point to a `next` or `previous` quest that has no page: *To My Father* / *Vol'jin*, *Cutting Ranks*, *The Maul'ogg Crisis II*, *Into the Dream II*, *The Ravenwood Scepter*, *Rommath, the Saviour*, *Hidden Enemies (2)*, *The Battlebeard Legacy*, *Sting of the Scorpid*, *Klaven's Tower*, *Rift Fatigue* (as a merged page), *A Favor Asked*, *The Elder's End*, *Assaulting Freyshear Keep*, *Memories of Dark Iron*, *The Flame of Dagnoth*, *Donning the Red Flag*.
 5. **The wiki itself is internally inconsistent** in at least one place: the page titled *The Tower of Lapidis VIII* carries the name *The Tower of Lapidis V*.
 6. **The 1.18.1 Rogue and Warlock class-weapon questlines have no documented starting point** — staff withheld it on purpose and nobody published it in this extraction.
-7. **Prerequisites are only partly recorded.** Wiki `levelreq` exists on 42 of 274 pages; other prerequisites (reputation, profession skill, prior chain) appear only in prose, e.g. *Gold Is The Goblin's Heart* (41305) needing **Jewelcrafting 200** — [Speedz1337 (guide writer), 2022-11-23](https://forum.turtlecraft.gg/viewtopic.php?p=29746#p29746).
+7. **Prerequisites are only partly recorded.** Wiki `levelreq` exists on 42 of 274 pages; other prerequisites (reputation, profession skill, prior chain) appear only in prose, e.g. *Gold Is The Goblin's Heart* (41305) needing **Jewelcrafting 200** — [Speedz1337 (guide writer), 2022-11-23](https://forum.turtlecraft.gg/viewtopic.php?p=29746#p29746) — or are missing entirely, as with *Wolves Across the Border* gating *Bounty on Garrick Padfoot* (§6a).
 8. **Quest reward item stats are never given** — only item names.
 9. **No source gives per-quest experience for the unlisted quests**, and the wiki's `experience` field is a flat number with no level scaling stated.

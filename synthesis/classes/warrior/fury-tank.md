@@ -95,6 +95,36 @@ Reconstructed from the descriptions above; no source posts a fury-prot priority 
 - Expecting Shield Slam + Shield Block charges to stack for crush immunity — they cancel [Ellifta (player), 2026-02-07](https://forum.turtlecraft.gg/viewtopic.php?p=167684#p167684).
 - Bringing the spec to low-level dungeons instead of Arms/Prot utility (Xudo p=40901; contested).
 
+## Discord findings (2025–2026)
+
+`#warrior` fury-prot slices (2021-02 .. 2026-05). Citations `[[d:warrior#id]]` resolve in `structured/discord/evidence-warrior.jsonl`. Eras as in the Arms file.
+
+### The post-1.18.1 picture (the forum file's missing evaluation)
+
+- **Fury-prot no longer ignores Protection post-1.18.1**: tanks **skip Bloodthirst/Flurry to afford Defensive Tactics + Shield Slam** [[d:warrior#1484586303562579978]], and the channel posts a **four-build Protection menu** (Dtac/Enrage, Dtac/Impale, Revenge/Enrage, Revenge/Impale) [[d:warrior#1487143734452949093]] — this replaces the forum's old "only Death Wish + Imp. Shield Slam" allocation. A banner 17/3/31 Dtac build `dQAACYAQ-AY-VAAoIQAohQAYB` [[d:warrior#1451348860189544530]].
+- **Defensive Tactics needs crit**: "if you're under 20% you should use the deep prot revenge spec or Cruelty instead of Impale" [[d:warrior#1435245982823485441]], [[d:warrior#1443968981391376414]] (consensus).
+- **1.18.1 favours deep Protection**: threats is fine to hold post-patch and the furyprot-vs-deep-prot TPS gap closed [[d:warrior#1484900996613279845]], [[d:warrior#1485214611887357963]]; but Protection is still bottom-for-threat and behind bear for effort [[d:warrior#1442826146063323240]], [[d:warrior#1491602026298347601]], and slated for a "major facelift" [[d:warrior#1454897386039148606]].
+- **Sim context**: Death Wish/Deftac sims ~10% below Furyprot on openers (Tole) [[d:warrior#1471915854898663667]]; the community **threat sim** `https://30-thirty.github.io/` is the standard tool [[d:warrior#1481016354009125054]].
+
+### Mechanics Discord settles
+
+- **Shield Block and Improved Shield Slam are two separate buffs that do not stack** — the forum's player complaint is treated in-channel as settled design ("dumb design"), needing careful ordering [[d:warrior#1486459142867521668]], [[d:warrior#1476095028836175893]].
+- **Stoneshield Potion** is the reason a shieldless fury-prot survives a hard pull [[d:warrior#1445929336514412584]], [[d:warrior#1463182833848684554]]; Diamond Flask and LIP-into-Challenging-Shout are the other staples. The old pre-CC2 31/20 link remains historical only (Improved Shield Block no longer exists; Xudo p=170985, forum).
+- **Encounter colour**: BWL is "built around warrior tanks" with a taunt chain (Taunt → Mocking Blow → Challenging Shout) and backup taunts for the taunt-resistant drakes [[d:warrior#1490529592883023903]]; a Dtac MT is out-threated on Heigan/Thane and some move back to fury-prot for Naxx progress [[d:warrior#1473597787542257795]]; Incantagos is the one Kara40 fight where the warrior tank is preferred [[d:warrior#1480289819648069712]].
+
+### Discord sources
+
+| Topic | Citation | Era | Agreement |
+|---|---|---|---|
+| Post-1.18.1 tanks drop BT/Flurry for Dtac + Shield Slam | [[d:warrior#1484586303562579978]] | post-1.18.1 | consensus |
+| Four-build Protection menu | [[d:warrior#1487143734452949093]] | post-1.18.1 | single source |
+| 1.18.1 closed the furyprot-vs-deep-prot TPS gap | [[d:warrior#1484900996613279845]] | post-1.18.1 | single source |
+| Dtac/Death Wish sims ~10% below Furyprot openers | [[d:warrior#1471915854898663667]] | post-1.18.1 | single source |
+| Protection stays bottom-for-threat | [[d:warrior#1442826146063323240]] | post-1.18.1 | consensus |
+| 1.18.1 prot changes were buffs only | [[d:warrior#1481378107037323354]] | 1.18.1-announced-pre-release | consensus |
+| Shield Block / Imp Shield Slam do not stack | [[d:warrior#1476093163650416716]] | post-1.18.1 | consensus |
+| BWL built around warrior tanks; taunt chain | [[d:warrior#1490529592883023903]] | post-1.18.1 | consensus |
+
 ## Sources
 
 | Source | Authority | Date | Era / kit | Mark |

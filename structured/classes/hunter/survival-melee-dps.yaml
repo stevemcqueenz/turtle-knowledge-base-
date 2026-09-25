@@ -31,36 +31,42 @@ sources:
 agreement: contested
 patch_validity:
   written_for: "CC2 melee rebuild (2024-11-01) through the CC3 kit (2025-08-15, Lacerate added, Rapid Strikes removed, Vicious Strikes damage nerf); 1.18.1 (2026-03-20) touched it lightly"
-  valid_for_1181: unknown
-  notes: "1.18.1 added Alone Against the World (+3/6% damage with no pet), Surefooted dual-wield hit, and restored Vicious Strikes' Raptor/Mongoose damage bonus (revision 2026-03-19) plus a small Lacerate buff (+5% AP, +15% from the side). No player re-posted a talent build or DPS numbers after 2026-03-20; the CC3 build is assumed to still stand with those buffs applied, allocation unknown."
+  valid_for_1181: true
+  notes: "1.18.1 added Alone Against the World (+3/6% damage with no pet), Surefooted dual-wield hit, and restored Vicious Strikes' Raptor/Mongoose damage bonus (revision 2026-03-19) plus a small Lacerate buff (+5% AP, +15% from the side). Discord decoded the recurring PvE Survival allocation (16/0/35) and filled the previously-null spell_ids, and sharpened 2H-vs-DW post-1.18.1: DW parses slightly higher single-target, 2H better multi-target, pick by what you own; server-dependent ('2H king on fully progressed, DW tops Ambershire')."
 talents:
-  build_name: "CC3/1.18.1 standard PvE Survival build (SvenS2, opaque link)"
-  build_link: "https://talents.turtlecraft.gg/hunter?points=FQDABo--YQCYDJTAbIQoB"
+  build_name: "Survival PvE 16/0/35 — SV through Untamed Trapper with BM row-1/2 filler (decoded; the recurring standard shape)"
+  build_link: "https://talents.turtlecraft.gg/hunter?points=FADCBo--dQCABJTAbIQoB (decoded: 16 BM / 35 SV); variants 8/0/43, 17/0/34, 8/5/38"
   points:
-    - {tree: Survival, talent: Resourcefulness, rank: 5, spell_id: null}
-    - {tree: Survival, talent: "Swift Reflexes", rank: 2, spell_id: null}
-    - {tree: Survival, talent: "Savage Strikes", rank: 2, spell_id: null}
-    - {tree: Survival, talent: "Trap Mastery", rank: 3, spell_id: null}
-    - {tree: Survival, talent: Carve, rank: 1, spell_id: null}
-    - {tree: Survival, talent: Deterrence, rank: 1, spell_id: null}
-    - {tree: Survival, talent: "Stinging Nettle Lacing", rank: 2, spell_id: null}
-    - {tree: Survival, talent: "Killer Instinct", rank: 3, spell_id: null}
-    - {tree: Survival, talent: Surefooted, rank: 3, spell_id: null}
-    - {tree: Survival, talent: "Improved Feign Death", rank: 2, spell_id: null}
-    - {tree: Survival, talent: Lacerate, rank: 1, spell_id: null}
-    - {tree: Survival, talent: "Vicious Strikes", rank: 2, spell_id: null}
-    - {tree: Survival, talent: "Lightning Reflexes", rank: 5, spell_id: null}
-    - {tree: Survival, talent: "Untamed Trapper", rank: 1, spell_id: null}
-    - {tree: "Beast Mastery", talent: "Endurance Training / Thick Hide / Improved Mend Pet or Coordinated Assault", rank: "remaining points", spell_id: null}
+    - {tree: "Beast Mastery", talent: "Swift Aspects", rank: 5, spell_id: 19556}
+    - {tree: "Beast Mastery", talent: "Improved Primal Aspects", rank: 3, spell_id: 19551}
+    - {tree: "Beast Mastery", talent: "Improved Revive Pet", rank: 2, spell_id: 19575}
+    - {tree: "Beast Mastery", talent: "Coordinated Assault", rank: 1, spell_id: 49559}
+    - {tree: "Beast Mastery", talent: "Unleashed Fury", rank: 5, spell_id: 19620}
+    - {tree: Survival, talent: "Resourcefulness", rank: 5, spell_id: 51574}
+    - {tree: Survival, talent: "Swift Reflexes", rank: 2, spell_id: 19297}
+    - {tree: Survival, talent: "Savage Strikes", rank: 2, spell_id: 19160}
+    - {tree: Survival, talent: "Trap Mastery", rank: 3, spell_id: 51581}
+    - {tree: Survival, talent: Carve, rank: 1, spell_id: 51575}
+    - {tree: Survival, talent: Deterrence, rank: 1, spell_id: 19263}
+    - {tree: Survival, talent: "Stinging Nettle", rank: 2, spell_id: 51580}
+    - {tree: Survival, talent: "Killer Instinct", rank: 3, spell_id: 19373}
+    - {tree: Survival, talent: Surefooted, rank: 3, spell_id: 24283}
+    - {tree: Survival, talent: Lacerate, rank: 1, spell_id: 48049}
+    - {tree: Survival, talent: "Vicious Strikes", rank: 2, spell_id: 51585}
+    - {tree: Survival, talent: "Lightning Reflexes", rank: 5, spell_id: 24297}
+    - {tree: Survival, talent: "Untamed Trapper", rank: 1, spell_id: 51586}
+    - {tree: Survival, talent: "Improved Slaying", rank: 3, spell_id: 45979}
+    - {tree: Survival, talent: Survivalist, rank: 1, spell_id: 19255}
   leveling_order: []
 stat_weights:
   agility: "top priority - Lightning Reflexes converts 100% of agility to melee AP on top of the 1 AP/agi baseline"
   melee_attack_power: "scales fire traps via Untamed Trapper: Explosive Trap ~1516 damage per target over 6 s for a Naxx-geared hunter [Juzam]; Immolation Trap '300+ fire' per tick deep SV"
-  hit: "melee hit cap matters; tree gives Surefooted 3% (+3% dual-wield since 1.18.1); exact 2H/DW melee hit caps not stated by a Turtle source (only a 2021 vanilla-baseline guide gives 12% DW)"
+  hit: "melee hit cap matters; tree gives Surefooted 3% (+3% dual-wield since 1.18.1) [consensus (matches staff), [[d:hunter#1485682104217112606]]]. The exact 2H/DW melee hit caps on Turtle are not stated by a Turtle source; dual-wielding melee autos miss much more (~20%+) while yellow specials use the normal cap [single source, [[d:hunter#1485760027976400966]]]"
   crit: "Savage Strikes 6% + Killer Instinct crit damage; Lacerate requires a prior crit to be usable"
-  weapon: "2H preferred pre-CC3 ('by far the better choice'); after CC3, Mongoose Bite hits with both weapons and dual-wield is 'almost on par with a 2H-er'; 1.18.1 adds a DW hit bonus - contested which is better now"
+  weapon: "2H preferred pre-CC3 ('by far the better choice'); after CC3, Mongoose Bite hits with both weapons and dual-wield is 'almost on par with a 2H-er'. Post-1.18.1 Discord sharpens it: DW parses slightly higher single-target (double stats + Swift Aspects procs), 2H better multi-target (weapon-damage ceiling for Carve), pick by what you own; server-dependent [single source, [[d:hunter#1493259706570117261]], [[d:hunter#1486498375489556661]]]. For DW, slow main hand + weapon-skill off hand [single source, [[d:hunter#1487660367856537711]]]"
   spell_power: "niche - helps Stinging Nettle-applied stings/chili only, not traps"
-caps: {}
+caps:
+  melee_hit: "2H/DW melee hit caps not published for Turtle; Surefooted 3% (+3% DW, 1.18.1); dual-wield white autos miss ~20%+, yellow specials use the normal cap [single source, [[d:hunter#1485760027976400966]]]"
 rotation_single:
   - {priority: 1, action: "Aspect of the Wolf (rank 7), pet on target first; Serpent Sting applied for free by Mongoose Bite via Stinging Nettle Lacing", condition: "pre-pull; Hunter's Mark does not help melee (ranged-AP only)"}
   - {priority: 2, action: "Immolation Trap under the target (in-combat via Untamed Trapper), refresh on expiry", condition: "skip entirely on fire-immune bosses"}
@@ -85,7 +91,7 @@ consumables:
   - "Best available 2H weapon; The Eye of Nerub (Naxx) is BiS melee for Survival"
   - "Melee-only items open up: Hand of Justice, Wrath of Cenarius, Chronobreaker"
   - "+8 agility head/legs enchant (not the ZG MM enchant); 2H +25 agility; melee oils/enchants proc off Wing Clip"
-  - "Strength potions, Winterfall Firewater, Elixir of Demonslaying (melee-only consumables MM cannot use)"
+  - "Melee-consumable checklist: mongoose, Ground Scorpok Assay, Elixir of Giants, firewater/juju, Sour Mountain Berry, elemental sharpening stone, Str+Agi scrolls [single source, [[d:hunter#1463846948200124426]]]"
   - "T3.5 Ravenstalker 5-set 'made for Melee hunter in mind' (+5% Quick Shots haste, -1 s Carve/Multi-Shot cd)"
 mistakes_to_avoid:
   - "Trapping fire-immune bosses / wasting mana on traps in MC and BWL"
@@ -95,3 +101,72 @@ mistakes_to_avoid:
   - "Rolling need on every melee weapon and leather piece"
   - "Going OOM by spamming Lacerate/traps on trash that dies in seconds; not drinking between packs"
   - "Trying to Tranquilizing Shot from melee and losing the enrage window"
+discord:
+  channel: hunter
+  scope: "Survival additions from the archived #hunter Discord. Every claim carries [[d:hunter#<id>]], an era (pre-1.18.1 | 1.18.1-announced-pre-release | post-1.18.1) and agreement (consensus | single source | contested)."
+  builds:
+    - name: "Survival PvE 16/0/35 — SV through Untamed Trapper with BM row-1/2 filler (recurring shape)"
+      split: {Beast Mastery: 16, Survival: 35}
+      code: "FADCBo--dQCABJTAbIQoB"
+      total_points: 51
+      source: "[[d:hunter#1409566381254381608]], [[d:hunter#1417605463251615804]], [[d:hunter#1420985846861135955]], [[d:hunter#1461555138748481628]]"
+      era: "mixed"
+      agreement: consensus
+      note: "The most-repeated SV allocation in the channel (8+ posts, Aug 2025 - Mar 2026). Variants: 8/0/43 (adds Alone Against the World 2, Improved Feign Death 2, Planning Ahead 2), 17/0/34 (Bestial Discipline/Endurance Training filler), 8/5/38 (the PvP build, see marksmanship-pvp.yaml). The BM-heavy screenshot build claimed as 'the new top dps spec' (37/7/7) was not decoded to a single 51 [[d:hunter#1492405774570360852]]. This decoded build supersedes the forum KB's opaque link `FQDABo--YQCYDJTAbIQoB`."
+      allocation:
+        - {tree: Beast Mastery, talent: Swift Aspects, rank: 5, talent_id: 373, spell_id: 19556}
+        - {tree: Beast Mastery, talent: Improved Primal Aspects, rank: 3, talent_id: 376, spell_id: 19551}
+        - {tree: Beast Mastery, talent: Improved Revive Pet, rank: 2, talent_id: 378, spell_id: 19575}
+        - {tree: Beast Mastery, talent: Coordinated Assault, rank: 1, talent_id: 380, spell_id: 49559}
+        - {tree: Beast Mastery, talent: Unleashed Fury, rank: 5, talent_id: 381, spell_id: 19620}
+        - {tree: Survival, talent: Improved Slaying, rank: 3, talent_id: 392, spell_id: 45979}
+        - {tree: Survival, talent: Resourcefulness, rank: 5, talent_id: 393, spell_id: 51574}
+        - {tree: Survival, talent: Swift Reflexes, rank: 2, talent_id: 394, spell_id: 19297}
+        - {tree: Survival, talent: Savage Strikes, rank: 2, talent_id: 396, spell_id: 19160}
+        - {tree: Survival, talent: Survivalist, rank: 1, talent_id: 400, spell_id: 19255}
+        - {tree: Survival, talent: Carve, rank: 1, talent_id: 401, spell_id: 51575}
+        - {tree: Survival, talent: Deterrence, rank: 1, talent_id: 402, spell_id: 19263}
+        - {tree: Survival, talent: Stinging Nettle, rank: 2, talent_id: 403, spell_id: 51580}
+        - {tree: Survival, talent: Surefooted, rank: 3, talent_id: 404, spell_id: 24283}
+        - {tree: Survival, talent: Killer Instinct, rank: 3, talent_id: 406, spell_id: 19373}
+        - {tree: Survival, talent: Trap Mastery, rank: 3, talent_id: 407, spell_id: 51581}
+        - {tree: Survival, talent: Lacerate, rank: 1, talent_id: 408, spell_id: 48049}
+        - {tree: Survival, talent: Vicious Strikes, rank: 2, talent_id: 409, spell_id: 51585}
+        - {tree: Survival, talent: Lightning Reflexes, rank: 5, talent_id: 410, spell_id: 24297}
+        - {tree: Survival, talent: Untamed Trapper, rank: 1, talent_id: 411, spell_id: 51586}
+    - name: "CC3 forum-KB standard PvE Survival link, now decoded"
+      split: {Beast Mastery: 16, Survival: 35}
+      code: "FQDABo--YQCYDJTAbIQoB"
+      source: "[[d:hunter#1485417701500260444]]"
+      era: post-1.18.1
+      agreement: single source
+      note: "The forum KB's opaque `FQDABo--YQCYDJTAbIQoB` decodes to the same 16/0/35 shape; the Discord codec lives in staging/talents/talent_codec.py and the validated builds in kb/structured/talents/builds-hunter.yaml."
+  rotation_single:
+    - claim: "SV single-target button order (macro): Raptor Strike, Immolation Trap, Mongoose Bite, Lacerate, Carve, Wing Clip; AoE order: Explosive Trap, Carve, Raptor Strike, Mongoose Bite, Lacerate, Wing Clip [single source, [[d:hunter#1485147064102031453]]]."
+      era: post-1.18.1
+      agreement: single source
+    - claim: "No dedicated post-1.18.1 SV guide or DPS parse was posted; the CC3 button order above matches the forum KB shape [gap]."
+      era: post-1.18.1
+      agreement: derived
+  stat_weights:
+    weapon: "DW parses slightly higher single-target (double stats + Swift Aspects procs); 2H better multi-target (higher weapon-damage ceiling for Carve); pick by what you own [single source (guide writer), [[d:hunter#1493259706570117261]]]."
+    dw_weapons: "slow weapon in the main hand, weapon-skill weapon in the off hand [single source, [[d:hunter#1487660367856537711]]]."
+    hit: "1.18.1 gave dual-wield melee +3% hit via Surefooted [consensus, [[d:hunter#1485682104217112606]]]; dual-wield white autos miss ~20%+, yellow specials use the normal cap [single source, [[d:hunter#1485760027976400966]]]."
+    server_dependence: "'2H king on fully progressed, DW tops Ambershire' [contested/server-dependent, [[d:hunter#1486498375489556661]]]."
+  pets:
+    - claim: "For Survival, keep the pet alive as a threat sponge/extra DPS; the pet cannot hold aggro for you [forum KB, corroborated Discord, [[d:hunter#1484476051936510073]]]."
+      era: post-1.18.1
+      agreement: consensus
+    - claim: "Alone Against the World was measured as a net ~10.4% loss where the pet + procs contribute ~15.4%; take it only on pet-hostile bosses [single source, [[d:hunter#1484443857402724372]]]."
+      era: post-1.18.1
+      agreement: single source
+  encounters:
+    - {zone: "Kara40", advice: "No humanoids/beasts/giants/dragonkin, so Improved Slaying is worthless there; pet uptime is the challenge.", sources: ["[[d:hunter#1486333622796550184]]", "[[d:hunter#1485915598004158527]]"], era: post-1.18.1, agreement: consensus}
+    - {zone: "Molten Core", advice: "Wolves can be brought for the party buff because MC mobs are bleed-immune.", sources: ["[[d:hunter#1490428315524272329]]"], era: post-1.18.1, agreement: single source}
+  mistakes_to_avoid:
+    - "Leveling as Survival before 40 - 'for leveling not until 40 or so when you can get lightning reflexes & untamed trapper' [Sisco, [[d:hunter#1417950297417978098]]]."
+    - "Ignoring the DW/2H server and encounter split when itemising."
+  sources:
+    - "[[d:hunter#1412681801339764817]] - Dresche pinned Hunter FAQ (1.18.1)"
+    - "[[d:hunter#1490682120815775965]] - Vellasta TWoW Hunter Simulator"
+    - "[[d:hunter#1488624322686746945]] - MetaHunt 1.18.1 tooling"

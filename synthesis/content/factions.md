@@ -179,13 +179,41 @@ From the staff changelog stream, condensed in `synthesis/turtle-vs-vanilla-timel
 
 ---
 
+## 3a. Discord additions (archived `#turtle-wiki`)
+
+The archived `#turtle-wiki` channel adds the **measured ceiling** of one faction, several grind reports, and a doubt on a wiki table. Era: `pre-1.18.1` (<2025-10-03), `1.18.1-announced-pre-release` (2025-10-03 → 2026-03-19), `post-1.18.1` (≥2026-03-20).
+
+**Kul Tiras — the ceiling measured precisely.** Quest sources are **Davenport** (Stormwind Harbor), **Anchor's Edge** (Barrens) and **Caelan's Rest** (Lapidis Isle), plus some Theramore Shady Rest Inn continuation quests. Doing every relevant quest as a human, Aeliren measured **3,027/6,000 (Friendly)** with one ~165-rep quest left — so roughly **3,192/6,000**, and "there is currently no way to be honored with Kul Tiras even as a human" — [Aeliren (guide writer), 2023-05-02](https://discord.com/channels/466622455805378571/976193120809123881/1103023966542635008), [Aeliren (guide writer), 2023-05-08](https://discord.com/channels/466622455805378571/976193120809123881/1104867579325071471). Kul Tiras had **no rep rewards** at that time — [Fat Pibble with Air Pods (guide writer), 2023-04-24](https://discord.com/channels/466622455805378571/976193120809123881/1099794698433986651). **pre-1.18.1, single source.**
+
+**Revantusk.** A repeatable Hinterlands quest is worth **100 rep**, and the Amani'Alor cloth turn-in also gives rep — [Agorium/Gallagor/Ka'ne (player), 2023-06-07](https://discord.com/channels/466622455805378571/976193120809123881/1115916549073670195), [Nnorg (player), 2025-01-15](https://discord.com/channels/466622455805378571/976193120809123881/1329080095951949824). Players complained the early grind was roughly **20 days of dailies to Honored**, and that Revantusk lacked the non-daily quests its Alliance counterpart (Silvermoon Remnant) had — [Deleted User (player), 2023-06-06](https://discord.com/channels/466622455805378571/976193120809123881/1115651377805406378). **pre-1.18.1, consensus.**
+
+**Other reputation notes.** Continuing the Bloodsail questline drops Booty Bay to Hated; recovery is a repeatable silk-and-red-dye turn-in in front of Booty Bay (which in turn lowers Bloodsail again) — [Selenya/Flykra (guide writer), 2025-07-07](https://discord.com/channels/466622455805378571/976193120809123881/1391667801760075829). A transmute of **Elemental Earth requires Timbermaw Hold at Friendly** — [Fat Pibble with Air Pods (guide writer), 2025-08-28](https://discord.com/channels/466622455805378571/976193120809123881/1410588729587798076), **1.18.1-announced-pre-release, single source.** Shen'dralar's new Alchemy recipe is tied to Shen'dralar reputation, farmed by killing Dire Maul ogres — [skillgore (player), 2025-08-16](https://discord.com/channels/466622455805378571/976193120809123881/1406280722112708608). Goblins have **rocket cars** and high elves **unicorns** (Durotar Labor Union / Silvermoon Remnant), but the channel confirms only that they exist — it does **not** settle the rocket-car race-lock (**CON-0091**) — [Aeliren (guide writer), 2024-12-24](https://discord.com/channels/466622455805378571/976193120809123881/1321196482417660008).
+
+**Dalaran doubt (CON-0092).** A 2025-08 player searched for the wiki's advertised **Nexus Crystal repeatable (500 rep)** at Dalaran and found only the three other "fortification" quests — [sistedtwister (player), 2025-08-17](https://discord.com/channels/466622455805378571/976193120809123881/1406665734934888518). **1.18.1-announced-pre-release, single source**; leans toward the wiki's four-repeatable table being stale.
+
+### Discord source list
+
+| Claim | Era | Agreement | Cite |
+|---|---|---|---|
+| Kul Tiras 3,027/6,000 ceiling, no Honored | pre-1.18.1 | single source | [[d:turtle-wiki#1103023966542635008]], [[d:turtle-wiki#1104867579325071471]] |
+| Kul Tiras had no rep rewards | pre-1.18.1 | single source | [[d:turtle-wiki#1099794698433986651]] |
+| Revantusk 100-rep repeatable + cloth turn-in | pre-1.18.1 | consensus | [[d:turtle-wiki#1115916549073670195]], [[d:turtle-wiki#1329080095951949824]] |
+| Revantusk ~20 days of dailies to Honored | pre-1.18.1 | consensus | [[d:turtle-wiki#1115651377805406378]] |
+| Bloodsail recovery turn-in | pre-1.18.1 | single source | [[d:turtle-wiki#1391667801760075829]] |
+| Elemental Earth transmute needs Timbermaw Friendly | 1.18.1-announced-pre-release | single source | [[d:turtle-wiki#1410588729587798076]] |
+| Shen'dralar rep via Dire Maul ogres | 1.18.1-announced-pre-release | single source | [[d:turtle-wiki#1406280722112708608]] |
+| Rocket cars/unicorns exist; race-lock open (CON-0091) | pre-1.18.1 | single source | [[d:turtle-wiki#1321196482417660008]] |
+| Dalaran Nexus Crystal repeatable not found (CON-0092) | 1.18.1-announced-pre-release | single source | [[d:turtle-wiki#1406665734934888518]] |
+
+---
+
 ## 4. Gaps and unclear points
 
 1. **No reward tables for six custom factions.** Wardens of Time, Steamwheedle Blood Ring, Kul Tiras, Theramore, Revantusk Trolls, Draenei Exiles and Earthen Ring have no item list in any extracted source. Players consistently link `database.turtlecraft.gg` instead of typing the lists out, and that database is not part of this extraction.
 2. **No quartermaster locations by coordinate.** The wiki gives a name and a settlement, never an X/Y pair.
 3. **Silvermoon Remnant dailies:** removed around 1.17.1, never restored in this record, and staff never answered the repeated requests. Whether the Horde counterpart kept its dailies is a player claim only.
 4. **Durotar Labor Union rocket-car access is contested** — a 2024 player report says race-locked, a 2025 wiki revision says open to non-Goblins at Exalted.
-5. **Dalaran repeatables are contested** — 2023 players say no repeatable exists and Revered is unreachable; the wiki lists four repeatable turn-ins. No dated staff statement resolves it.
+5. **Dalaran repeatables are contested** — 2023 players say no repeatable exists and Revered is unreachable; the wiki lists four repeatable turn-ins, but a **2025-08 Discord player could still not find the Nexus Crystal turn-in** at Dalaran (**CON-0092**, §3a), leaving the wiki's four-repeatable table doubtful. No dated staff statement resolves it.
 6. **Theramore** appears on the official site and in the wiki faction list but has no article, no reputation description and no forum thread in this extraction.
 7. **Reputation totals per rank** are given only as the vanilla-standard thresholds; no source states a custom faction's total requirement except the Wardens of Time sand counts.
 8. **The official page's "1,500 quests" figure** is not broken down per faction anywhere.

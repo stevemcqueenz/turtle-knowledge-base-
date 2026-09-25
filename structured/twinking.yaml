@@ -1,0 +1,1028 @@
+# Machine-readable twinking data from the archived Turtle WoW Europe `#twinking` Discord.
+#
+# Companion document: synthesis/twinking/README.md.
+# Citation format: [[d:twinking#<message_id>]] — every id is reproduced verbatim in
+# structured/discord/evidence-twinking.jsonl and checked by scrape/validate.py.
+#
+# Schema
+#   brackets[]:
+#     level      bracket label ("1-9" .. "50-59")
+#     popular    true when the channel treats the bracket as actively queued/played
+#     classes    <class> -> <spec> -> {bis[], enchants[], notes, sources[], agreement, era}
+#     sources    bracket-level citations
+#     agreement  consensus | single source | contested
+#     era        pre-1.18.1 | 1.18.1-announced-pre-release | post-1.18.1
+#   bis        list of item/gear names stated in-channel (names as written; no invented stats)
+#   enchants   list of enchant/consumable/profession rules stated in-channel
+#   notes      free text, may carry its own tag
+#
+# Agreement and era are per claim, not per document. General vanilla knowledge is not used here.
+schema: twinking-structured/v1
+channel: twinking
+channel_id: "1340062102609592320"
+source_archive: norm/twinking/messages.jsonl
+message_count: 5026
+date_range: ["2025-02-15T00:55:36+04:00", "2026-05-03T03:01:27+04:00"]
+
+authority_notes:
+  - name: Mothra
+    tier: "player (de-facto guide writer)"
+    why: >-
+      Repeated, armory-verified 29/39 BiS lists, two bracket tier lists, proc mechanics, and a
+      public forum list of over/under-tuned items; itemisation answers are unchallenged.
+  - name: dindunuffinz
+    tier: "player (de-facto guide writer)"
+    why: >-
+      Concrete tested numbers (proc rates, enchant spending, stat values) for 19/29 hunter,
+      paladin and the twink economy; runs premades.
+  - note: >-
+      No green-name/staff signal in the channel; no name matched a guide-writer or staff rank in
+      structured/forum/authors.json, so all contributors are treated as players.
+
+what_twinking_is:
+  - claim: >-
+      A twink stops gaining XP at a bracket ceiling and optimises gear/enchants/talents for WPvP
+      and WSG/AB; twink brackets span 1-9 through 50-59.
+    sources: ["[[d:twinking#1407437366368665783]]"]
+    agreement: consensus
+    era: pre-1.18.1
+  - claim: >-
+      Core motives: bypass the 60 raid-gear arms race, farm WSG/AB reputation pre-60, and play a
+      lower-button, lower-gear-gap PvP game.
+    sources:
+      - "[[d:twinking#1364638956439998564]]"
+      - "[[d:twinking#1364908649365114961]]"
+      - "[[d:twinking#1481605809778589709]]"
+      - "[[d:twinking#1446551289759793203]]"
+    agreement: consensus
+    era: mixed
+  - claim: >-
+      Vocabulary: twink (full XP-locked BiS), semi-twink (blue gear + cheap enchants, still
+      levelling), lunatic (level 1-9 XP-locked), grandfathered/GF'd (kept after a change made it
+      unobtainable at that level).
+    sources:
+      - "[[d:twinking#1412348723056611418]]"
+      - "[[d:twinking#1455672950475854009]]"
+    agreement: consensus
+    era: mixed
+
+brackets:
+  - level: "1-9"
+    popular: false
+    classes: {}
+    notes: >-
+      Separate "Lunatic" community with its own WSG/AB turn-ins, guild and events; not classic
+      twinking, covered by the level-one-lunatic scope.
+    sources:
+      - "[[d:twinking#1386437589724299476]]"
+      - "[[d:twinking#1413241575147962428]]"
+      - "[[d:twinking#1490827950931578930]]"
+    agreement: single source
+    era: mixed
+
+  - level: "10-19"
+    popular: true
+    classes:
+      paladin:
+        retribution:
+          bis: []
+          enchants: []
+          notes: >-
+            S-tier: Turtle puts the final-TBC-tier Crusader Strike at level 7-8; a geared ret can
+            crit 600+. Casters are weak because spell-power coefficients are heavily reduced below
+            level 20.
+          sources:
+            - "[[d:twinking#1362191649093976246]]"
+            - "[[d:twinking#1383230595718582273]]"
+            - "[[d:twinking#1346369628921921557]]"
+            - "[[d:twinking#1346298771918815322]]"
+          agreement: consensus
+          era: pre-1.18.1
+      hunter:
+        ranged:
+          bis:
+            - "Ceremonial Dwarven Staff / melee-capable staff with 25 Agility"
+            - "Night Reaver (swap, fiery)"
+            - "Bow of Plunder (Horde, 11 dps, Battle of Hillsbrad)"
+            - "11% quiver (Alliance)"
+          enchants:
+            - "Fiery on the Night Reaver swap"
+          notes: >-
+            "A lot of the time you will spend in melee." Alliance gets the 11% quiver; Horde hunter
+            gets the Bow of Plunder.
+          sources:
+            - "[[d:twinking#1472643749791268914]]"
+            - "[[d:twinking#1469871180449316986]]"
+            - "[[d:twinking#1405180459868094604]]"
+          agreement: consensus
+          era: mixed
+      rogue:
+        subtlety_combat:
+          bis:
+            - "Fishing hat (or goggles)"
+            - "Valiant Medal (Wetlands quest neck)"
+            - "Serpent's shoulders"
+            - "Sentry Cloak or Lizardscale"
+            - "Tunic of Westfall"
+            - "3/3 Monkey or Forest Leather wrists"
+            - "Golemslayer Mitts (Westfall gloves)"
+            - "Deviate Scale Belt"
+            - "Legs of Fang"
+            - "Lynx boots"
+            - "Wrynn / Iron Will rings"
+            - "Deckmasters / Shadowforge Eye + Insignia"
+            - "2x Assassin's Blade; Shadowfang + Assassin's Blade; Cruel Barb + Assassin's Blade"
+          enchants: []
+          notes: >-
+            Talents reworked: gouge is in Sub, Sinister Strike already reduced; Combat for
+            dodge/parry, Assassination for crit/humanoid damage; UD > goblin > orc on Horde.
+          sources:
+            - "[[d:twinking#1471036618226798785]]"
+            - "[[d:twinking#1471036902063738955]]"
+            - "[[d:twinking#1406861217687011368]]"
+          agreement: single source
+          era: mixed
+      warrior:
+        fury_prot:
+          bis:
+            - "Shadowfang + Cruel Barb (dual-wield fury; was 2h axe arms)"
+          enchants:
+            - "Mostly stamina enchants; fiery on weapons"
+          notes: >-
+            19 Orc Warrior screenshot: Str 87 / Agi 84 / Sta 144 / Int 21 / Spirit 39 / Armor 1724 /
+            96-123 dmg at 2.70 / 351 AP / 14.53% crit; ">500g" on enchants; missing fishing hat and
+            WC bow.
+          sources:
+            - "[[d:twinking#1403449481399238777]]"
+            - "[[d:twinking#1403465890888024185]]"
+          agreement: single source
+          era: pre-1.18.1
+      priest:
+        discipline_shadow:
+          bis:
+            - "Gravestone Scepter"
+          enchants: []
+          notes: >-
+            2/2 Holy Focus mandatory (70% less spell pushback) vs hunter pets; 2-point wand spec;
+            blackout build spams rank-1 SW:Pain for stun procs; Improved Renew is "garbage" (renew
+            ticks for 20 at 19).
+          sources:
+            - "[[d:twinking#1423405248088768615]]"
+            - "[[d:twinking#1395879394274447412]]"
+            - "[[d:twinking#1395906966060138547]]"
+            - "[[d:twinking#1443994814394794188]]"
+            - "[[d:twinking#1444094496005554297]]"
+          agreement: consensus
+          era: mixed
+      warlock:
+        affliction:
+          bis: []
+          enchants: []
+          notes: >-
+            Soulstone, Fear, instant DoTs, Discombobulator Ray, Swiftness Potion; corruption can
+            tick ~40-50 but dies to a single priest dispel / minor shadow-protection potion.
+          sources:
+            - "[[d:twinking#1346187702046949570]]"
+            - "[[d:twinking#1346308154081673307]]"
+            - "[[d:twinking#1442922970573049957]]"
+          agreement: single source
+          era: mixed
+      mage:
+        frost:
+          bis: []
+          enchants: []
+          notes: >-
+            "Does not recommend … without blink, mana shield and counterspell, survivability is very
+            low"; played as rank-1-Frostbolt/sheep nuisance or arcane glass cannon.
+          sources:
+            - "[[d:twinking#1373756799164878938]]"
+            - "[[d:twinking#1430067665434710129]]"
+          agreement: single source
+          era: mixed
+      druid:
+        feral:
+          bis: ["Smite's Hammer"]
+          enchants: []
+          notes: "No cat form at 19; Smite's Hammer is the best available druid weapon (probably 2nd-best for ret)."
+          sources:
+            - "[[d:twinking#1475651260366585938]]"
+          agreement: single source
+          era: 1.18.1-announced-pre-release
+      shaman:
+        enhancement:
+          bis: []
+          enchants: []
+          notes: >-
+            Contested: "shamans are not that strong at 19" vs "Purge is one of the strongest spells
+            in the bracket … rank 4 heals … great sustained damage".
+          sources:
+            - "[[d:twinking#1421462984399786005]]"
+            - "[[d:twinking#1421531459868426311]]"
+          agreement: contested
+          era: pre-1.18.1
+    sources:
+      - "[[d:twinking#1409523004840480799]]"
+      - "[[d:twinking#1353877512387694683]]"
+      - "[[d:twinking#1444185400401723655]]"
+      - "[[d:twinking#1405158689492570152]]"
+      - "[[d:twinking#1405169193439203489]]"
+      - "[[d:twinking#1405202686474715278]]"
+      - "[[d:twinking#1405202967052816508]]"
+      - "[[d:twinking#1422318689524387915]]"
+    agreement: consensus
+    era: mixed
+
+  - level: "20-29"
+    popular: true
+    classes:
+      druid:
+        feral:
+          bis:
+            - "PvE/flag-carry 0/30/0 (5/5 Heart of the Wild, +20% stamina)"
+            - "PvP 12/13/5 (Furor, Omen of Clarity, Feral Charge)"
+          enchants: []
+          notes: >-
+            "Probably the strongest spec in the game at 29" (Solo carry = Feral Tank/Frost). Common
+            stats ~513 AP cat / 362 bear, up to ~700 AP full DPS; 1 Agi = 1 AP and 2.2 AP/Str in cat
+            with Predatory Strikes.
+          sources:
+            - "[[d:twinking#1415442499383590963]]"
+            - "[[d:twinking#1433750633433006132]]"
+            - "[[d:twinking#1488253153186021628]]"
+            - "[[d:twinking#1490707169463505019]]"
+          agreement: consensus
+          era: mixed
+      paladin:
+        retribution:
+          bis:
+            - "Corpsemaker (world-buffed)"
+            - "Stormwrought chest (BiS by a mile)"
+          enchants: []
+          notes: >-
+            "Probably 1 of the strongest classes at 29, esp solo"; 2.3k+ HP in damage gear,
+            800-1000+ Crusader Strike crits.
+          sources:
+            - "[[d:twinking#1409027859166527488]]"
+            - "[[d:twinking#1488365939685855353]]"
+            - "[[d:twinking#1464121480634699817]]"
+          agreement: single source
+          era: mixed
+        holy:
+          bis: ["Mail +healing/eagle gear"]
+          enchants: []
+          notes: "Hard-to-find mail +healing/eagle gear while staying above ~2k HP and mana."
+          sources: ["[[d:twinking#1481735157261009057]]"]
+          agreement: single source
+          era: 1.18.1-announced-pre-release
+      hunter:
+        survival:
+          bis:
+            - "Ceremonial Dwarven Staff (25 Agility)"
+            - "Lantern-Helm of the Deep"
+            - "WSG neck"
+            - "Mantle of Thieves"
+            - "Raptor Hunter Tunic"
+            - "DRM bracers / Emissary Cuffs"
+            - "DRM gloves (BiS) / Razzeric's (stam)"
+            - "Torturer's Girdle"
+            - "Triprunner Dungarees"
+            - "Felhoof Sabatons"
+            - "WSG / Jaina's / Seal of Wrynn / Fel-Infused rings"
+            - "Intricate Gnomish Blunderbuss (Alliance) / Master Hunter's Rifle (Horde non-troll) / Master Hunter's Bow (troll)"
+          enchants: []
+          notes: >-
+            Solo build. Melee-centric Survival swaps the staff for Corpsemaker + Crusader and
+            4-piece DRM; strength comes from Improved Wing Clip reliably creating distance.
+          sources:
+            - "[[d:twinking#1469868389840453663]]"
+            - "[[d:twinking#1470114188172197889]]"
+            - "[[d:twinking#1469869335034990845]]"
+            - "[[d:twinking#1479701433468190831]]"
+          agreement: single source
+          era: 1.18.1-announced-pre-release
+        marksman:
+          bis: ["Ceremonial Dwarven Staff", "Intricate Gnomish Blunderbuss (Alliance) / Master Hunter's Rifle (Horde non-troll) / Master Hunter's Bow (troll)"]
+          enchants: []
+          notes: "Premade build; full Marksman."
+          sources: ["[[d:twinking#1469877096506458327]]"]
+          agreement: single source
+          era: 1.18.1-announced-pre-release
+      warrior:
+        fury:
+          bis:
+            - "4-piece Dragonmaw (head/shoulders/gloves/bracers) for damage"
+            - "Ancient Leggings (DRM)"
+            - "Yorgen Bracers"
+            - "Rageboar Harness or Avenger's Armor"
+            - "Caverndeep Trudgers or 7/7 Bear boots (until AB rep)"
+            - "Corpsemaker (BiS 2h)"
+            - "Zealot Blade (BiS mainhand)"
+            - "Windstorm Hammer (stamina/dps)"
+            - "WSG sword or \"Left\" offhand"
+          enchants: []
+          notes: >-
+            Stam builds "pretty close to vanilla". Arms is weak: hamstring has "a 50% chance of
+            landing … every 6 seconds"; the only viable spec is deep Fury for Improved Berserker
+            Rage snare-break.
+          sources:
+            - "[[d:twinking#1457848158800314490]]"
+            - "[[d:twinking#1459993537608155249]]"
+            - "[[d:twinking#1489538919161663611]]"
+          agreement: consensus
+          era: mixed
+      rogue:
+        combat_subtlety:
+          bis:
+            - "Zealot Blade MH (Crusader) + Vendetta OH (Agility)"
+            - "Stam: 9/9 Monkey Helm, Raptor Hunter Tunic, Razzeric's Racing Grips, Emissary Cuffs (Monkey), Panther Hunter Leggings"
+            - "DPS: DRM helm/gloves/bracers, Rageboar Harness, Triprunner Dungarees"
+            - "Tigerstrike Mantle"
+            - "Felhoof Sabatons (until AB)"
+            - "WSG neck"
+            - "WSG + Fel-Infused (Horde) / Purified Silver / 5/5 Monkey (Alliance) rings"
+            - "Trashtalon (+5 weapon dmg ambush)"
+            - "Cursed Thornblade + Lifestealing"
+            - "Slip Dagger"
+            - "AB belt"
+          enchants: ["Crusader on the mainhand Zealot Blade", "Agility on the Vendetta offhand", "Lifestealing on a Cursed Thornblade alternative"]
+          notes: >-
+            Combat is "as good or better than sub"; riposte + imp sprint + imp gouge, last 4-5
+            points into camo or precision. Mace-spec is a debated sidegrade (best non-GF maces are
+            mainhand-only and fast). "Obscene grandfathered gear" exists on existing Alliance 29
+            rogues.
+          sources:
+            - "[[d:twinking#1468084757920485387]]"
+            - "[[d:twinking#1427346103044542556]]"
+            - "[[d:twinking#1441973898857021653]]"
+          agreement: consensus
+          era: 1.18.1-announced-pre-release
+      shaman:
+        enhancement:
+          bis:
+            - "Corpsemaker or An'she Totem"
+            - "4-piece Dragonmaw (+strength)"
+            - "Spellhance: Bloody Brass Knuckles (22 Int) + Basalt Buckler, swap to Windstorm Hammer (Lifesteal) + Marbled Buckler at 60-70% mana"
+            - "Raptor Hunter Tunic, Lantern-Helm, 7/7 Eagle shoulders, Razzeric's/Hotshot's gloves, Torturer's Girdle, Cavern Silk Trousers"
+          enchants:
+            - "Crusader on the 2h (best, and value skyrockets at level 30 with Windfury)"
+          notes: >-
+            Slow weapons like Corpsemaker proc Crusader far more reliably than An'she. Purge nerfed
+            to an 8-second cooldown for PvP but "hit pretty hard" at 29. Mothra's DPS armory
+            `Persuasive` is cited as BiS.
+          sources:
+            - "[[d:twinking#1455988171979358392]]"
+            - "[[d:twinking#1450900808764887081]]"
+            - "[[d:twinking#1451760217204326526]]"
+            - "[[d:twinking#1421678324240875602]]"
+          agreement: single source
+          era: mixed
+      warlock:
+        affliction_destruction:
+          bis:
+            - "Shadow-Wrath greens (~245 SP unbuffed)"
+            - "Green Lens of Shadow Wrath"
+            - "Umbral Crystal + 13-14 dmg dagger"
+            - "2x Underworld Band"
+            - "2x Shadowbind Sigil"
+            - "Or 4-piece Stormreaver"
+          enchants: []
+          notes: >-
+            "Rather expensive barrier to entry … close to 500+g". Either Nightfall-fishing
+            Affliction or Destro + 5/5 Corruption for guaranteed Shadowburns, at the cost of 6
+            yards of range.
+          sources:
+            - "[[d:twinking#1461398683227783313]]"
+            - "[[d:twinking#1471813776537030698]]"
+          agreement: single source
+          era: 1.18.1-announced-pre-release
+      mage:
+        frost:
+          bis: ["armory `Shivering` (frost flag-carrier, int/stam)", "Thornlash wand", "Sinister Rites bracers"]
+          enchants: []
+          notes: >-
+            Best in bracket (Mothra); pure flag-carrier stamina-stacking. Frost is the WSG-strongest
+            spec; 39+ can go Fire/Ele. Stacking raw frost spell damage leaves you too squishy.
+          sources:
+            - "[[d:twinking#1452358416197484695]]"
+            - "[[d:twinking#1452361483492134922]]"
+            - "[[d:twinking#1452363605029814292]]"
+            - "[[d:twinking#1443306239185653934]]"
+            - "[[d:twinking#1462522325059768571]]"
+          agreement: single source
+          era: 1.18.1-announced-pre-release
+      priest:
+        discipline_shadow:
+          bis: ["stat wand (damage)"]
+          enchants: []
+          notes: >-
+            Int/stam mix; 2/2 Holy Focus mandatory, then 5/5 Blackout for stun procs via rank-1
+            SW:Pain (only the application rolls). Wand spec is good for stam/int; stat wands are
+            "rather overtuned". Shadow needs Shadow-Wrath gear and is "rather glass".
+          sources:
+            - "[[d:twinking#1444094496005554297]]"
+            - "[[d:twinking#1443994814394794188]]"
+            - "[[d:twinking#1444084520449085591]]"
+            - "[[d:twinking#1444095174732026039]]"
+            - "[[d:twinking#1444094873480462336]]"
+          agreement: consensus
+          era: 1.18.1-announced-pre-release
+    sources:
+      - "[[d:twinking#1479624368123412501]]"
+      - "[[d:twinking#1479629989254008895]]"
+      - "[[d:twinking#1391624471487709256]]"
+      - "[[d:twinking#1413381288378892388]]"
+      - "[[d:twinking#1413482964159037450]]"
+      - "[[d:twinking#1419689789254406295]]"
+      - "[[d:twinking#1428050125162549402]]"
+    agreement: consensus
+    era: mixed
+
+  - level: "30-39"
+    popular: true
+    classes:
+      shaman:
+        enhancement:
+          bis: []
+          enchants: []
+          notes: "Nukes — Windfury one-shots reported by a mage."
+          sources: ["[[d:twinking#1373756799164878938]]"]
+          agreement: single source
+          era: pre-1.18.1
+      hunter:
+        survival:
+          bis: []
+          enchants: []
+          notes: "Melee Survival; top of the bracket alongside rogue."
+          sources: ["[[d:twinking#1373756799164878938]]"]
+          agreement: single source
+          era: pre-1.18.1
+      rogue:
+        subtlety:
+          bis: ["Widow's Kiss (BiS dagger, ~750g on Ambershire)", "Pendulum of Doom (2h)"]
+          enchants: ["Crusader on Pendulum of Doom (~100% uptime)", "Double-enchant trick: two PoDs, swap to the Badlands quest \"Fiery Blaze\" weapon after the proc"]
+          notes: "Top of the bracket; BiS is BOE-heavy."
+          sources:
+            - "[[d:twinking#1373756799164878938]]"
+            - "[[d:twinking#1460667673762332918]]"
+            - "[[d:twinking#1487833577860370504]]"
+          agreement: consensus
+          era: mixed
+      mage:
+        fire_arcane:
+          bis: []
+          enchants: []
+          notes: >-
+            Arcane only as a ~+300 SP / 1.8k HP glass cannon; "fire mage is best on 39".
+          sources:
+            - "[[d:twinking#1373756799164878938]]"
+            - "[[d:twinking#1462522325059768571]]"
+          agreement: single source
+          era: mixed
+      warrior:
+        protection:
+          bis: []
+          enchants: []
+          notes: >-
+            Screenshot build 4/3/23 Arms/Fury/Protection at level 39 (21 points left) — a
+            Protection-leaning flag-carry/tank build; reply asks "why prot spec tho".
+          sources:
+            - "[[d:twinking#1472388989569732668]]"
+            - "[[d:twinking#1472410331782320170]]"
+          agreement: single source
+          era: 1.18.1-announced-pre-release
+      paladin:
+        retribution:
+          bis: ["Scarlet Chestpiece (placeholder only)"]
+          enchants: []
+          notes: >-
+            Scarlet items are transmog-priced; 5/5 Vengeful Strikes vs 2 Vengeance was asked but
+            never definitively answered.
+          sources:
+            - "[[d:twinking#1488349849937121412]]"
+            - "[[d:twinking#1488366062008406266]]"
+            - "[[d:twinking#1489050897156804699]]"
+            - "[[d:twinking#1494367824708239510]]"
+          agreement: single source
+          era: post-1.18.1
+    sources:
+      - "[[d:twinking#1426552371726782544]]"
+      - "[[d:twinking#1468562189618249818]]"
+      - "[[d:twinking#1469006777067765814]]"
+      - "[[d:twinking#1483797931160244405]]"
+      - "[[d:twinking#1469005865662156851]]"
+      - "[[d:twinking#1488368275271450624]]"
+      - "[[d:twinking#1468398703927627934]]"
+      - "[[d:twinking#1430706219894439967]]"
+    agreement: consensus
+    era: mixed
+
+  - level: "40-49"
+    popular: true
+    classes:
+      paladin:
+        retribution:
+          bis: []
+          enchants: []
+          notes: >-
+            "s++ tier … up there with enha shaman" (physical ret; spell-ret is contested and
+            gear-dependent).
+          sources:
+            - "[[d:twinking#1464121480634699817]]"
+            - "[[d:twinking#1464119506770067468]]"
+          agreement: contested
+          era: 1.18.1-announced-pre-release
+      shaman:
+        enhancement_elemental:
+          bis:
+            - "11 Elemental / 28 Enhancement hybrid (spellhance)"
+            - "Spellhance set: shield + high stam/int, Flametongue + Searing Totem + shocks"
+            - "Blade of Eternal Darkness + \"+2 elemental damage on hit\" gear for sustain"
+          enchants: []
+          notes: "Beats plate wearers; uses 1h+shield when flag carrying."
+          sources:
+            - "[[d:twinking#1369288217043665109]]"
+            - "[[d:twinking#1362051448149508247]]"
+          agreement: single source
+          era: pre-1.18.1
+      rogue:
+        subtlety_boed:
+          bis:
+            - "Magram centaur epic axe (BiS 2h/rep weapon, long grind)"
+            - "Blade of Eternal Darkness build"
+          enchants: []
+          notes: >-
+            BoED build is "one of the highest time investments of all twinks" — BoED 1% from Mara
+            last boss, Incendosaur shoulders 0.1% from Hateforge Quarry elites.
+          sources:
+            - "[[d:twinking#1489933896589115545]]"
+            - "[[d:twinking#1463617900257476755]]"
+            - "[[d:twinking#1362055670060286042]]"
+          agreement: single source
+          era: mixed
+      warlock:
+        destruction:
+          bis: []
+          enchants: []
+          notes: "Fully world-buffed destro at 540 fire SP; a 3.2k crit was reported."
+          sources: ["[[d:twinking#1448030941745250388]]"]
+          agreement: single source
+          era: 1.18.1-announced-pre-release
+      warrior:
+        arms_fury:
+          bis: ["Third Khan (stronger than most pre-raid 60 2h options)", "Kolkar rep pieces"]
+          enchants: []
+          notes: "2H Arms vs DW Fury asked about repeatedly; Kolkar rep required."
+          sources:
+            - "[[d:twinking#1492683898092781568]]"
+            - "[[d:twinking#1419075594162933830]]"
+            - "[[d:twinking#1471576858590974159]]"
+          agreement: single source
+          era: mixed
+    sources:
+      - "[[d:twinking#1344596242252038144]]"
+      - "[[d:twinking#1344723115107680319]]"
+      - "[[d:twinking#1468562189618249818]]"
+      - "[[d:twinking#1444279816915521628]]"
+      - "[[d:twinking#1456590301849325644]]"
+      - "[[d:twinking#1471573807851634750]]"
+    agreement: consensus
+    era: mixed
+
+  - level: "50-59"
+    popular: true
+    classes:
+      paladin:
+        retribution_holy:
+          bis: ["Soulforge set"]
+          enchants: []
+          notes: "Soulforge is the paladin set."
+          sources: ["[[d:twinking#1477617361384378469]]"]
+          agreement: single source
+          era: 1.18.1-announced-pre-release
+      warrior:
+        arms_fury:
+          bis: ["Tier 0.5 dungeon set", "DM north tribute axe", "ZG gear", "Hakkar trinket"]
+          enchants: []
+          notes: "Armory `Benchmade` cited as a 59 warrior reference."
+          sources:
+            - "[[d:twinking#1492779034789023804]]"
+            - "[[d:twinking#1382336945472016536]]"
+            - "[[d:twinking#1456582003892813960]]"
+            - "[[d:twinking#1493271717143908472]]"
+          agreement: consensus
+          era: mixed
+      shaman:
+        enhancement:
+          bis: ["Dungeon-2 or ZG gear"]
+          enchants: ["ZG enchants (when available)"]
+          notes: "59 can equip raid/ZG gear."
+          sources:
+            - "[[d:twinking#1382336945472016536]]"
+            - "[[d:twinking#1456582003892813960]]"
+          agreement: single source
+          era: mixed
+      rogue:
+        combat:
+          bis: ["Dungeon-2 or ZG gear"]
+          enchants: []
+          notes: "59 can equip raid/ZG gear."
+          sources: ["[[d:twinking#1382336945472016536]]"]
+          agreement: single source
+          era: pre-1.18.1
+    sources:
+      - "[[d:twinking#1453642847247925359]]"
+      - "[[d:twinking#1436484092131545169]]"
+      - "[[d:twinking#1475590151559446559]]"
+      - "[[d:twinking#1471160122104348824]]"
+    agreement: contested
+    era: 1.18.1-announced-pre-release
+
+enchant_rules:
+  - claim: >-
+      A high-level character can apply enchants to a low-level character's BoP/soulbound item
+      through a trade window; the item stays usable by the low-level character.
+    sources:
+      - "[[d:twinking#1428257722364854394]]"
+      - "[[d:twinking#1427403694865125447]]"
+      - "[[d:twinking#1401129840161062912]]"
+      - "[[d:twinking#1457973737721696370]]"
+      - "[[d:twinking#1458028403608256677]]"
+    agreement: consensus
+    era: mixed
+  - claim: >-
+      Naxx/Saph shoulder enchants and head/leg arcanums work via trade window on BoP; ZG head/leg
+      enchants were removed/unavailable on Ambershire by 2026-03.
+    sources:
+      - "[[d:twinking#1428257722364854394]]"
+      - "[[d:twinking#1478576918059155609]]"
+      - "[[d:twinking#1477032537007198315]]"
+      - "[[d:twinking#1477082896505507900]]"
+    agreement: contested
+    era: 1.18.1-announced-pre-release
+  - claim: >-
+      Armor kits above your level can be used if the item ilvl meets the kit minimum, applied by a
+      high level; Thick Armor Kit requires item ilvl 25+.
+    sources:
+      - "[[d:twinking#1455672950475854009]]"
+      - "[[d:twinking#1477025612492181675]]"
+      - "[[d:twinking#1477031129164026049]]"
+      - "[[d:twinking#1477079144411037818]]"
+    agreement: consensus
+    era: 1.18.1-announced-pre-release
+  - claim: >-
+      Ring/neck (JC) enchants require the jewellery to be item ilvl 25+ or a quest reward; the WSG
+      neck/ring (ilvl 23) cannot be enchanted, while the Alliance Wetlands neck (ilvl 30) and
+      Redridge ring can. GF'd +6 Agility ring/neck enchants pre-date the requirement.
+    sources:
+      - "[[d:twinking#1422528611360964751]]"
+      - "[[d:twinking#1405202686474715278]]"
+      - "[[d:twinking#1405169193439203489]]"
+      - "[[d:twinking#1422528526363394069]]"
+      - "[[d:twinking#1406062324825063585]]"
+      - "[[d:twinking#1439244902600015905]]"
+      - "[[d:twinking#1405158498127314966]]"
+    agreement: consensus
+    era: mixed
+  - claim: >-
+      Crusader is PPM: slower weapons get a higher per-swing and per-instant proc chance; do not put
+      it on an offhand. Lifestealing procs ~3x as often as Crusader (one player's test); fiery has
+      the highest sustained DPS / armour pen and procs penetrate BoP.
+    sources:
+      - "[[d:twinking#1440092660538015948]]"
+      - "[[d:twinking#1440091411025236110]]"
+      - "[[d:twinking#1440078289451483258]]"
+      - "[[d:twinking#1478075694587187251]]"
+      - "[[d:twinking#1406997556415692932]]"
+      - "[[d:twinking#1440117095684640829]]"
+    agreement: contested
+    era: mixed
+  - claim: >-
+      Engineering is mandatory for twinks; gnomish for BoP trinkets/head, goblin for
+      consumables/sappers; Goblin Bomb Dispenser is bugged and does not scale; Green Lens requires
+      245 engineering.
+    sources:
+      - "[[d:twinking#1420281111019524197]]"
+      - "[[d:twinking#1416133409335410740]]"
+      - "[[d:twinking#1449205111464263720]]"
+      - "[[d:twinking#1359626950057918596]]"
+      - "[[d:twinking#1449880391346557158]]"
+      - "[[d:twinking#1422597330804150333]]"
+    agreement: consensus
+    era: mixed
+
+quest_reward_gear:
+  - piece: "Wetlands quest neck (ilvl 30, enchantable)"
+    faction: Alliance
+    bracket: "10-19"
+    notes: "The single biggest Alliance 19 advantage over the ilvl-23 WSG neck; enables the JC +6 Agility enchant."
+    sources: ["[[d:twinking#1405202686474715278]]", "[[d:twinking#1405169193439203489]]"]
+    agreement: consensus
+    era: pre-1.18.1
+  - piece: "Valiant Medal (Wetlands quest)"
+    faction: Alliance
+    bracket: "10-19"
+    notes: "19 rogue neck."
+    sources: ["[[d:twinking#1471036618226798785]]"]
+    agreement: single source
+    era: 1.18.1-announced-pre-release
+  - piece: "Redridge ring quest reward"
+    faction: Alliance
+    bracket: "10-19"
+    notes: "Second enchantable ring."
+    sources: ["[[d:twinking#1422528526363394069]]"]
+    agreement: single source
+    era: pre-1.18.1
+  - piece: "Glacial Stone (2h)"
+    faction: Alliance
+    bracket: "10-19"
+    notes: "\"best 2h weapon\" at 19."
+    sources: ["[[d:twinking#1422318689524387915]]"]
+    agreement: single source
+    era: pre-1.18.1
+  - piece: "Bow of Plunder (Battle of Hillsbrad)"
+    faction: Horde
+    bracket: "10-19"
+    notes: "11 dps hunter bow."
+    sources: ["[[d:twinking#1405180459868094604]]"]
+    agreement: single source
+    era: pre-1.18.1
+  - piece: "+7 Agility ring (ilvl 25, enchantable)"
+    faction: Horde
+    bracket: "10-19"
+    notes: "Horde's compensation for the Alliance enchantable neck/ring."
+    sources: ["[[d:twinking#1405169193439203489]]"]
+    agreement: consensus
+    era: pre-1.18.1
+  - piece: "Heart of Darkness quest — BiS 1h mace, dagger and gun"
+    faction: both
+    bracket: "20-29"
+    notes: "29 weapon slots for both factions."
+    sources: ["[[d:twinking#1413461913236410400]]"]
+    agreement: single source
+    era: pre-1.18.1
+  - piece: "+4-all-stats trinket and epic neck quests"
+    faction: both
+    bracket: "20-29"
+    notes: "Available to both factions."
+    sources: ["[[d:twinking#1413461913236410400]]", "[[d:twinking#1439264290245968113]]"]
+    agreement: single source
+    era: mixed
+  - piece: "Westfall / Harvest Golem chains"
+    faction: both
+    bracket: "10-19, 20-29"
+    notes: "19/29 pieces including an alternative agility chest."
+    sources: ["[[d:twinking#1413564780156813412]]"]
+    agreement: single source
+    era: pre-1.18.1
+  - piece: "Dragonmaw Retreat epic neck"
+    faction: both
+    bracket: "20-29, 30-39"
+    notes: "BiS at 29 and 39 but an extreme grind."
+    sources: ["[[d:twinking#1475629653082243143]]"]
+    agreement: single source
+    era: 1.18.1-announced-pre-release
+  - piece: "Stormwrought quest weapon / chest / trinkets"
+    faction: Alliance
+    bracket: "20-29, 30-39"
+    notes: "Highest-DPS 1h mace/dagger and \"BiS by a mile\" chest at 29; 39 crit BOE trinket. Called an itemisation oversight (10+ ilvls above the Horde equivalent) and partly grandfathered."
+    sources:
+      - "[[d:twinking#1413482964159037450]]"
+      - "[[d:twinking#1419689789254406295]]"
+      - "[[d:twinking#1488365939685855353]]"
+      - "[[d:twinking#1488368275271450624]]"
+      - "[[d:twinking#1420202676897185812]]"
+      - "[[d:twinking#1420184454768361615]]"
+    agreement: consensus
+    era: mixed
+  - piece: "Magram centaur rep epic axe"
+    faction: both
+    bracket: "40-49"
+    notes: "49 rogue BiS 2h/rep weapon, long grind."
+    sources: ["[[d:twinking#1489933896589115545]]", "[[d:twinking#1463617900257476755]]"]
+    agreement: single source
+    era: mixed
+  - piece: "Badlands quest \"Fiery Blaze\" weapon"
+    faction: both
+    bracket: "30-39"
+    notes: "Swap used after a Pendulum of Doom Crusader proc."
+    sources: ["[[d:twinking#1487833577860370504]]", "[[d:twinking#1487839884063539200]]"]
+    agreement: single source
+    era: post-1.18.1
+
+consumables:
+  - claim: "Flasks require level 50, so unavailable below 50-59."
+    sources: ["[[d:twinking#1344641732700274780]]"]
+    agreement: single source
+    era: pre-1.18.1
+  - claim: >-
+      Lower-bracket staples: Swiftness Potion (~15s), Free Action Potion (~1.6g), Limited
+      Invulnerability, Restorative, Strong Anti-Venom, health/mana/armor/regen potions, scrolls,
+      murloc nets, sleeping dust, grenades, wizard oil.
+    sources:
+      - "[[d:twinking#1395399899599732847]]"
+      - "[[d:twinking#1367522520856657921]]"
+      - "[[d:twinking#1444045872571613275]]"
+      - "[[d:twinking#1477186978985414688]]"
+      - "[[d:twinking#1463771368289206283]]"
+      - "[[d:twinking#1464274551876747367]]"
+    agreement: consensus
+    era: mixed
+  - claim: >-
+      Higher-level wizard oils (30/40) and the Darkmoon buff can be applied via trade; dragonslayer
+      and rend world buffs give HP but little/no damage; mongoose is too expensive for PvP.
+    sources:
+      - "[[d:twinking#1460236314535399444]]"
+      - "[[d:twinking#1472086813572337796]]"
+      - "[[d:twinking#1367522173706571827]]"
+    agreement: single source
+    era: mixed
+
+speed_and_movement:
+  - claim: >-
+      Speed effects do not stack; highest wins. AB boots 8%, boot enchant 8%, Zandalar world buff
+      10%; no stack with Cheetah/Travel/Cat/Ghost Wolf. Exceptions: Night Elf 1% racial and the
+      post-1.18 rogue passive speed (additive, stacks with AB boots).
+    sources:
+      - "[[d:twinking#1418855475021353080]]"
+      - "[[d:twinking#1418613730480099508]]"
+      - "[[d:twinking#1418706927344681003]]"
+    agreement: consensus
+    era: pre-1.18.1
+  - claim: "A report of \"athari pants\" stacking with boots to >20% on a paladin was disputed as unintended."
+    sources: ["[[d:twinking#1409458675382222978]]", "[[d:twinking#1409545485429112832]]"]
+    agreement: contested
+    era: pre-1.18.1
+  - claim: >-
+      WSG jumps are a skill differentiator; race/gender affects which jumps are possible (gnomes
+      cannot do the Alliance \"ToT\" jumps). Safespotting became a bannable PvP offence on
+      2026-01-11.
+    sources:
+      - "[[d:twinking#1365983331765714964]]"
+      - "[[d:twinking#1493334100096979146]]"
+      - "[[d:twinking#1459955573008109600]]"
+      - "[[d:twinking#1459951630882705469]]"
+    agreement: consensus
+    era: mixed
+
+pvp_practice:
+  - claim: >-
+      WSG always queued from the minimap PvP button; AB was battlemaster-only for sub-20 (and 1-9)
+      until the PVPWhen addon automated queueing in 2026-03.
+    sources: ["[[d:twinking#1411025129781203007]]", "[[d:twinking#1486081059115503828]]"]
+    agreement: consensus
+    era: mixed
+  - claim: "Arena skirmishes/rated can be queued at any bracket but rarely pop below 60 without hand organisation."
+    sources: ["[[d:twinking#1424885403802140692]]", "[[d:twinking#1394703829320204380]]"]
+    agreement: consensus
+    era: mixed
+  - claim: >-
+      BG system announcements were removed 2025-09 and their loss blamed for dead brackets (bug
+      report 16807); BG XP was removed then partially restored.
+    sources:
+      - "[[d:twinking#1416223332679811182]]"
+      - "[[d:twinking#1423755671803006986]]"
+      - "[[d:twinking#1423757637874483231]]"
+      - "[[d:twinking#1435949946129092640]]"
+      - "[[d:twinking#1439730335800885368]]"
+    agreement: consensus
+    era: mixed
+  - claim: "Honor rank caps by level: 29 -> rank 3, 39 -> rank 5, 49 -> rank 9; rank 3 gives a 10% vendor/repair discount."
+    sources:
+      - "[[d:twinking#1435855490281373822]]"
+      - "[[d:twinking#1344596242252038144]]"
+      - "[[d:twinking#1371830684053667901]]"
+    agreement: consensus
+    era: mixed
+  - claim: >-
+      Cross-faction battlegrounds arrived ~2025-11, mixing teams game-to-game and reviving activity,
+      but preventing cross-faction twink team-ups.
+    sources:
+      - "[[d:twinking#1440868664617340979]]"
+      - "[[d:twinking#1436416938237624544]]"
+      - "[[d:twinking#1464383700488945822]]"
+      - "[[d:twinking#1444098235466649611]]"
+    agreement: consensus
+    era: 1.18.1-announced-pre-release
+  - claim: >-
+      Guild hubs: Kul Tiran Admiralty, Warsong Outriders, Stinkie Twinkies, Rats, Nephilim,
+      Dragonmaw Clan on Nordanaar; Xanadu on Tel'Abim Horde; Stinky Twinkies claims the largest
+      cross-faction 19-49 twink guild. Community ran WSG/AB nights, arena and WPvP events, with a
+      final meet-up on 2026-05-02.
+    sources:
+      - "[[d:twinking#1409580627510169721]]"
+      - "[[d:twinking#1419993480993706024]]"
+      - "[[d:twinking#1341161665806467293]]"
+      - "[[d:twinking#1412129467467567247]]"
+      - "[[d:twinking#1429892059107430653]]"
+      - "[[d:twinking#1340077014886908008]]"
+      - "[[d:twinking#1500209141182894182]]"
+    agreement: consensus
+    era: mixed
+
+controversy_twink_vs_leveller:
+  anti_twink: ["[[d:twinking#1444185400401723655]]", "[[d:twinking#1413315589887361054]]", "[[d:twinking#1459974431643537652]]", "[[d:twinking#1444378187596304545]]"]
+  pro_twink: ["[[d:twinking#1444155602363220171]]", "[[d:twinking#1412795818259255398]]", "[[d:twinking#1364638956439998564]]", "[[d:twinking#1413379312824090655]]"]
+  turtle_position:
+    claim: >-
+      Player-proposed low-level enchant scaling was rejected as against server "vanilla purity";
+      a separate twink queue was rejected by most respondents as unworkable.
+    sources:
+      - "[[d:twinking#1446567082484568228]]"
+      - "[[d:twinking#1444117282468134942]]"
+      - "[[d:twinking#1444380564932005938]]"
+    agreement: consensus
+    era: 1.18.1-announced-pre-release
+
+turtle_vs_vanilla:
+  - claim: "Custom talents change the tier list: paladins get Crusader Strike at level 7-8; rogue talents are reworked."
+    sources:
+      - "[[d:twinking#1362191649093976246]]"
+      - "[[d:twinking#1383230595718582273]]"
+      - "[[d:twinking#1406861217687011368]]"
+      - "[[d:twinking#1418706927344681003]]"
+    agreement: consensus
+    era: pre-1.18.1
+  - claim: "Custom dungeons/items define BiS: Dragonmaw Retreat, Stormwrought Descent, Windhorn, Hateforge Quarry, Gilneas, Karazhan (K40), Emerald Sanctum."
+    sources:
+      - "[[d:twinking#1469869335034990845]]"
+      - "[[d:twinking#1488368275271450624]]"
+      - "[[d:twinking#1484633260394025110]]"
+      - "[[d:twinking#1344596242252038144]]"
+    agreement: consensus
+    era: mixed
+  - claim: "Turtle-only enchant economy: JC ring/neck, Saph/Fortitude shoulder on BoP, armor kits, belt buckles, 2% haste/armor-pen."
+    sources:
+      - "[[d:twinking#1439244902600015905]]"
+      - "[[d:twinking#1428257722364854394]]"
+      - "[[d:twinking#1477025612492181675]]"
+    agreement: consensus
+    era: 1.18.1-announced-pre-release
+  - claim: "Grandfathering is systemic: GF'd 29 quest dagger, GF'd +6 Agi ring enchants, GF'd armor kits, an Alliance 29 dagger/gun later moved to level 32."
+    sources:
+      - "[[d:twinking#1427346103044542556]]"
+      - "[[d:twinking#1405158498127314966]]"
+      - "[[d:twinking#1455672950475854009]]"
+      - "[[d:twinking#1455744155996127263]]"
+      - "[[d:twinking#1420184454768361615]]"
+    agreement: consensus
+    era: mixed
+  - claim: "BG dampening buffs/debuffs added in 1.18.0, made per-spec in 1.18.1; feared to be tuned around 60 BGs."
+    sources:
+      - "[[d:twinking#1404430996178210926]]"
+      - "[[d:twinking#1404437493671006321]]"
+      - "[[d:twinking#1484355395257634846]]"
+      - "[[d:twinking#1484361717503885433]]"
+    agreement: single source
+    era: mixed
+  - claim: "PvP gear was not competitive at 60; a T2-equivalent patch was promised but added no sub-60 vendor items."
+    sources:
+      - "[[d:twinking#1481294117865525249]]"
+      - "[[d:twinking#1481301792129159210]]"
+      - "[[d:twinking#1487818436728852500]]"
+    agreement: consensus
+    era: mixed
+  - claim: "Three-realm split with no cross-realm BGs fragmented queues; transfers/merges requested."
+    sources: ["[[d:twinking#1428044052627980308]]", "[[d:twinking#1428066961673289739]]"]
+    agreement: consensus
+    era: 1.18.1-announced-pre-release
+  - claim: "Warmode on PvE realms (not vanilla world-PvP flags) is the world-PvP context; low Tel'Abim population pushed PvP into BGs."
+    sources: ["[[d:twinking#1437276356437217341]]", "[[d:twinking#1437269969912991794]]"]
+    agreement: consensus
+    era: 1.18.1-announced-pre-release
+
+timeline:
+  - date: 2025-08-11
+    event: "1.18.0 announces universal BG damage/healing/shield dampening buffs."
+    sources: ["[[d:twinking#1404430996178210926]]"]
+  - date: 2025-09
+    event: "Ambershire launch splits population; BG system announcements removed; BG XP removed."
+    sources: ["[[d:twinking#1429768767499665419]]", "[[d:twinking#1416223332679811182]]"]
+  - date: 2025-09-24
+    event: "Stormwrought quest weapon called an itemisation oversight (10+ ilvls above Horde equivalent); partly grandfathered."
+    sources: ["[[d:twinking#1420202676897185812]]", "[[d:twinking#1420184454768361615]]"]
+  - date: 2025-11
+    event: "Cross-faction battlegrounds introduced."
+    sources: ["[[d:twinking#1440868664617340979]]"]
+  - date: 2026-01-11
+    event: "Safespotting made bannable."
+    sources: ["[[d:twinking#1459955573008109600]]"]
+  - date: 2026-03-20
+    event: "1.18.1 lands; spec-based BG dampening; arena queue from the minimap."
+    sources: ["[[d:twinking#1484355395257634846]]", "[[d:twinking#1484659758354137239]]"]
+  - date: 2026-04-01
+    event: "Promised PvP gear patch; no sub-60 vendor additions."
+    sources: ["[[d:twinking#1487818436728852500]]"]
+  - date: 2026-04-26
+    event: "XP-off, /who and instant rested logout disabled; temporary PvP modifiers — ends new twinking."
+    sources: ["[[d:twinking#1497695623019757739]]"]
+  - date: 2026-05-02
+    event: "Final twink meet-up before server sunset."
+    sources: ["[[d:twinking#1500209141182894182]]"]
+
+open_questions:
+  - No authoritative, complete BiS list per class/bracket exists in-channel; several players were told to adapt classic twink guides.
+  - "Armory characters (Persuasive, Shivering, Zeroeffort, Sackslasher, Fappies, Saints, Ghettobooty, Huntardess, Benchmade, Colorfuel) are the closest thing to canonical lists but were not captured as full inventories."
+  - "Turtle's database (database.turtlecraft.gg) was frequently down, so many item IDs were never resolved in-channel."
+  - "The Dragonmaw 6-piece \"procs weapon enchants\" claim was never proven (author ~97% sure it does not)."
+  - "The Lifestealing \"3x Crusader proc rate\" figure is a single-source test."
+  - "Post-1.18.1 conclusions cover a very short window before server shutdown."

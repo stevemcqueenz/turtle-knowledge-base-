@@ -40,12 +40,14 @@ Full kit timelines for CC2 (2024-10-12, live 2024-11-01) and CC3/1.18.0 (2025-07
 
 ## Gaps (not covered by any source — do not guess)
 
-1. **Post-1.18.1 PvE numbers for every spec**: no forum post benchmarks BM, MM, or Survival DPS after the 2026-03-20 release; the server closed 2026-05-15, leaving ~8 weeks for players to react. Rotations and talent builds for that era in every playbook are marked "derived" or "staff-tooltip-derived," not sourced.
-2. **A validated post-1.18.1 51-point talent build for any spec** — only draft/asked-but-unanswered talent-calculator links exist (`t=22214`-adjacent threads such as p=171462).
-3. **Survival PvP build and rotation** — no link exists; the section in `marksmanship-pvp.md` is two sentences and explicitly flagged as a gap in-file.
+> **Discord enrichment (2026-09-25):** the archived `#hunter` Discord was folded into every playbook. It closed gaps **2** (a validated post-1.18.1 51-point build for every spec — 34 distinct post-patch allocations decoded), **3** (Survival PvP 8/5/38) and **6** (ranged hit cap corrected to 8% at 300 weapon skill; weapon skill linearized 1%/5 pts to 315), partly closed **1** (two Naxx data points; BM 700 / MM 750 dummy dps), and filled every previously-null `talent.spell_id`. Each playbook now ends with a `## Discord additions` section and a Discord source table; every claim carries a `[[d:hunter#<id>]]` citation, an era and an agreement tag.
+
+1. **Post-1.18.1 PvE numbers for every spec**: no *forum* post benchmarks BM, MM, or Survival DPS after the 2026-03-20 release. Discord partly fills this — two Naxx boss-fight data points (BM rank 1 / MM rank 2 with a raptor, pet ~50% of BM damage) and a controlled dummy comparison (BM 700 vs MM 750 dps at 33% crit) — but no turtlogs parse for a full tier exists. Rotations for that era remain player-fragment-derived.
+2. **A validated post-1.18.1 51-point talent build for any spec** — **CLOSED by Discord**: 107 legal decoded builds (81 distinct allocations); BM 34/17/0, MM 5/39/7, SV 16/0/35 (PvE) and SV 8/5/38, MM 0/35/16 (PvP). Codec in `staging/talents/talent_codec.py`; validated builds in `structured/talents/builds-hunter.yaml`.
+3. **Survival PvP build and rotation** — **CLOSED by Discord**: `FAD-F-YQaYDJTAbIQoB` = 8/5/38 [single source, [[d:hunter#1489610500349231196]]]. Rotation is still single-source/anecdotal.
 4. **Zone-by-zone leveling route** (dungeons/zones per level bracket) — only fragments of Turtle-custom zones with special pets (Thalassian Highlands, Gillijim's/Lapidis Isle, Tel'Abim, Gilneas) from the community wiki, no forum-sourced route.
 5. **Melee-hunter hardcore mode** — asked in 2022 with no forum answer beyond a link to a 2020 guide (t=4098).
-6. **Turtle's exact linearized weapon-skill/hit-cap table** — every hit percentage cited (9%/6%/5%) traces to vanilla-baseline math or single hedged posts, not a staff-published formula.
+6. **Turtle's exact linearized weapon-skill/hit-cap table** — **CLOSED by Discord (player math, not staff)**: ranged hit cap is **8% at 300 weapon skill** (level-63 hit suppression removed with the CC2 weapon-skill change) and weapon skill is linearized at **1% hit per 5 points up to 315** (305 → 7%, 310 → 6%, 315 → 5%) [consensus, [[d:hunter#1298063246254932059]], [[d:hunter#1485763124253425858]]]. The old 9%/6%/5% figures are vanilla-baseline math and are flagged superseded.
 7. **Exact 2H vs dual-wield melee hit caps for Survival** — only a 2021 vanilla-era guide gives a number (12% DW), not re-verified on the CC2+ Survival kit.
 8. **Pre-raid BiS lists** for any spec on current (post-CC2/CC3) itemization — players are repeatedly told "no one gives a shit about pre-bis here" and pointed to AtlasLoot instead of a maintained list.
 9. **Whether the Experimental Ammunition cycle is deterministic (Fire→Arcane→Nature per the staff tooltip) or effectively random** — two players in the same thread describe it differently; unresolved.
@@ -55,6 +57,7 @@ Full kit timelines for CC2 (2024-10-12, live 2024-11-01) and CC3/1.18.0 (2025-07
 
 ## Top open questions for the orchestrator
 
-- Any post-1.18.1 raid logs, Discord class-channel guides, or database dumps (spell/talent IDs) for Hunter — every `spell_id` field in the YAML is null because no forum source gives them.
-- Decoding the many opaque `talents.turtlecraft.gg/hunter?points=...` build links quoted across the playbooks into point-by-point allocations.
-- Whether any player posted a Survival PvP guide or a deep-BM PvP build link outside the extracted threads (only summary opinions exist in the sources used here).
+- ~~Any post-1.18.1 raid logs, Discord class-channel guides, or database dumps (spell/talent IDs) for Hunter~~ — **done**: every `spell_id` was filled from `structured/talents/builds-hunter.yaml`; the Discord channel guides (Dresche FAQ, Vellasta simulator, MetaHunt) are cited.
+- ~~Decoding the many opaque `talents.turtlecraft.gg/hunter?points=...` build links quoted across the playbooks into point-by-point allocations~~ — **done**: both codecs decode (long-form base64 and per-tree short form); 107 legal builds.
+- Whether any player posted a Survival PvP guide or a deep-BM PvP build link outside the extracted threads — **Survival PvP is now decoded (8/5/38)**; a **deep-BM PvP build link still does not exist** (only the sketch [[d:hunter#1485052986911883385]]).
+- Open after Discord: post-1.18.1 full-tier parses, the Experimental Ammunition deterministic-vs-random question, the exact Aimed Shot cooldown (26 vs 30 s), the exact 2H/DW melee hit caps, and whether pets permanently skip PvP dampening (player observation, no staff post).

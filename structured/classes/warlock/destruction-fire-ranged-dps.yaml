@@ -16,17 +16,37 @@ agreement: contested
 patch_validity:
   written_for: "CC2/CC3; 1.18.1 Searing Pain and Hellfire revisions applied"
   valid_for_1181: true
-  notes: "1.18.1 buffed Searing Pain (2.0-s cast, 57% SP, +~20% base dmg by 2026-03-19) and Hellfire (6.66% SP/tick, cheap per-second mana); no post-1.18.1 raid re-test exists to confirm whether this closed the gap to Affliction."
+  notes: "1.18.1 buffed Searing Pain (2.0-s cast, 57% SP, +~20% base dmg by 2026-03-19) and Hellfire (6.66% SP/tick, cheap per-second mana); no post-1.18.1 raid re-test exists to confirm whether this closed the gap to Affliction. Discord supplies the point-by-point 0/11/40 pinned build; the post-release verdict on Fire is contested ('no meme Firelock anymore' vs 'never able to compete with drain or demo') [[d:warlock#1486355435609919620]], [[d:warlock#1493286788775805198]]."
 talents:
-  build_name: "Firelock (no full 51-point list given by any source; only talent-calculator links, one pre-CC2-live)"
-  points: []
+  build_name: "Firelock 0/11/40 (pinned 1.18.1-announced-pre-release build, point-by-point decoded)"
+  points:
+    - {tree: Demonology, talent: "Sinister Pursuit", rank: 2, spell_id: 52739, note: "11-point demonless dip; alternative Demonic Aegis 2 (spell_id 45922)"}
+    - {tree: Demonology, talent: "Demonic Embrace", rank: 5, spell_id: 18701}
+    - {tree: Demonology, talent: "Soul Entrapment", rank: 3, spell_id: 51708}
+    - {tree: Demonology, talent: "Demonic Sacrifice", rank: 1, spell_id: 18788, note: "Imp sac +4% + Soul Entrapment 6% = +10% spell damage"}
+    - {tree: Destruction, talent: Cataclysm, rank: 5, spell_id: 17782}
+    - {tree: Destruction, talent: Bane, rank: 5, spell_id: 17792, note: "1.18.1 Bane also cuts Searing Pain cast time"}
+    - {tree: Destruction, talent: Aftermath, rank: 3, spell_id: 18121}
+    - {tree: Destruction, talent: Shadowburn, rank: 1, spell_id: 17877}
+    - {tree: Destruction, talent: Devastation, rank: 5, spell_id: 18134}
+    - {tree: Destruction, talent: "Destructive Reach", rank: 2, spell_id: 17918}
+    - {tree: Destruction, talent: "Improved Searing Pain", rank: 5, spell_id: 17932}
+    - {tree: Destruction, talent: "Improved Soul Fire", rank: 2, spell_id: 51737}
+    - {tree: Destruction, talent: "Improved Immolate", rank: 5, spell_id: 17836}
+    - {tree: Destruction, talent: Ruin, rank: 1, spell_id: 17959}
+    - {tree: Destruction, talent: Emberstorm, rank: 5, spell_id: 17958}
+    - {tree: Destruction, talent: Conflagrate, rank: 1, spell_id: 17962}
+  build_note: "Pinned Afraido screenshot 0/11/40 + matching code -CrAAAB-AoFYBoCFVIAoB (repeats 9x) [[d:warlock#1484229282854342789]], [[d:warlock#1465115051655434394]]. A sibling variant runs Intensity 2 instead of Destructive Reach 2; a shadow-bolt sibling is the 17/3/31 SM/Ruin shape. Shadow Vulnerability is skipped by demonless Fire [[d:warlock#1484229282854342789]] (the pinned screenshot)."
   leveling_order: []
 stat_weights:
-  hit: "highest priority (~16% vanilla level-63 cap cited by a player; Fire has no talent hit)"
+  hit: "highest priority (~16% vanilla level-63 cap cited by a player; Fire has no talent hit). Discord: 11-12% from gear (15-16% cap) for SM/Ruin, Demo and Fire [[d:warlock#1388995453873553489]], [[d:warlock#1387659949374443561]]"
   crit: "second (Ruin, Firestone, Devastation, Improved Searing Pain); contested by one pre-live source who argued for pure spell power instead"
   spell_power: "third"
   haste: "unclear/unanswered whether it matters now that Searing Pain's GCD and cast scale with haste since 1.18.1"
-caps: {}
+stat_priority: [hit-to-cap, crit, spell-power, stamina, haste]
+caps:
+  gear_hit: "11-12% from gear, 15-16% cap (Destruction has no talent hit) [[d:warlock#1388995453873553489]], [[d:warlock#1387659949374443561]] (consensus)"
+  crit: "at least ~20% crit named alongside the hit cap for Fire (forum, Guiltyhaomarush p=168196, 2026-02-14); no hard cap sourced"
 rotation_single:
   - {priority: 1, action: "Soul Fire", condition: "Improved Soul Fire buff missing and Soul Fire off cooldown (buff applies on cast since 2024-12-20)"}
   - {priority: 2, action: "Immolate", condition: "missing (Conflagrate consumes 3 s of it without removing it)"}
@@ -35,6 +55,7 @@ rotation_single:
   - {priority: 5, action: "Corruption", condition: "Improved Soul Fire buff has <=5 s left and Soul Fire is not ready (bridge filler)"}
   - {priority: 6, action: "Searing Pain", condition: "default filler (2.0-s cast base, 1.5 s with 5/5 Bane, 1-s GCD, +~20% base dmg since 2026-03-19); never Shadow Bolt"}
   - {priority: 7, action: "Life Tap", condition: "mana below Soul Fire + Immolate cost"}
+  - {priority: 8, action: "Soul Fire -> Immolate -> Conflagrate -> Searing Pain", condition: "Discord-confirmed post-1.18.1 Fire priority; Bane 5/5 makes Searing Pain 1.5 s [[d:warlock#1484229282854342789]]", sources: ["[[d:warlock#1484229282854342789]]"], era: 1.18.1-announced-pre-release, agreement: "single source (build screenshot)"}
 rotation_aoe:
   - {targets_min: 2, priority: 1, action: "Immolate each target, Conflagrate the main target, Searing Pain filler", condition: "2-3 targets"}
   - {targets_min: 4, priority: 1, action: "Hellfire (with Wrathstone) on a tanked, non-cleaving stack", condition: "4+ targets"}
@@ -61,3 +82,16 @@ mistakes_to_avoid:
   - "Casting Shadow Bolt as a Fire lock"
   - "Expecting frequent Pyroclasm stuns from Hellfire (the 26% chance is per full channel, not per tick, ~1.7%/tick)"
   - "Taking Aftermath for its slow (both value and proc rate criticized)"
+  - "Rolling the SM/Ruin Shadow-Bolt variant but forgetting it drops Shadow Vulnerability: the 17/3/31 sibling runs on shadow bolt, the 0/11/40 on Searing Pain [[d:warlock#1465115051655434394]]"
+discord:
+  channels: [warlock]
+  agreement: "mixed — consensus on the 0/11/40 allocation and rotation; contested whether Fire is viable at all post-1.18.1"
+  eras: [pre-1.18.1, 1.18.1-announced-pre-release, post-1.18.1]
+  sources:
+    - {cite: "[[d:warlock#1484229282854342789]]", era: 1.18.1-announced-pre-release, agreement: single source, topic: "pinned Firelock 0/11/40 screenshot"}
+    - {cite: "[[d:warlock#1465115051655434394]]", era: 1.18.1-announced-pre-release, agreement: single source, topic: "searing-pain and shadow-bolt Firelock codes"}
+    - {cite: "[[d:warlock#1486355435609919620]]", era: post-1.18.1, agreement: contested, topic: "'no meme Firelock anymore'"}
+    - {cite: "[[d:warlock#1493286788775805198]]", era: post-1.18.1, agreement: contested, topic: "fire cannot compete with drain/demo; slightly better than SM/Ruin if hit-capped"}
+    - {cite: "[[d:warlock#1388995453873553489]]", era: pre-1.18.1, agreement: consensus, topic: "11-12% gear hit for SM/Ruin, Demo and Fire"}
+    - {cite: "[[d:warlock#1484228321708478635]]", era: 1.18.1-announced-pre-release, agreement: consensus, topic: "the 11-point demonless dip reaches Demonic Sacrifice via Soul Entrapment"}
+    - {cite: "[[d:warlock#1483576857428361257]]", era: 1.18.1-announced-pre-release, agreement: single source, topic: "Fire still the weakest overall post-1.18.1"}

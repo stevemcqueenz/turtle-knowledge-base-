@@ -137,6 +137,60 @@ Pre-pull: Windfury Weapon on the 2H (1 h duration), Lightning Shield (9 charges 
 9. Dropping totems every pull while soloing ("They're not often worth dropping since you'll be killing faster than the mana is worth" — Skegg).
 10. Post-1.18.1: assuming Flurry works from white crits — as of 2026-03-24 players still reported it did not, and Elemental Weapons' Windfury haste may override it (Splitsec, Travoltino).
 
+## Discord additions (post-1.18.1)
+
+The archived `#shaman` Discord closes this file's "no post-1.18.1 build or rotation" gap. Era tags: `pre-1.18.1` < 2025-10-03, `1.18.1-announced-pre-release` 2025-10-03..2026-03-19, `post-1.18.1` >= 2026-03-20.
+
+### Builds
+
+| Build | Split | Code | Era | Agreement | Note |
+|---|---|---|---|---|---|
+| Post-1.18.1 "standard pve dps build" (Not Normal) | 17/34/0 | `DoAYLAAC-FAFYYIFATIAoB-` | post-1.18.1 | consensus | the channel's answer to the Enh PvE build question; last 2 points optional (Improved Fire Totems preferred) [[d:shaman#1493306457784062084]], [[d:shaman#1488303963198455820]], [[d:shaman#1493306593318535169]] |
+| Spellhance shape | 22/29/0 | `AoDYLAQDAC-FAVYALBQDIAY-` | 1.18.1-announced-pre-release | single source | Ordinary Joe's max-threat variant `DoAYLAQDAC-FAVYALAQDIAg-` [[d:shaman#1487038299544748173]], [[d:shaman#1485848758791966846]] |
+| Mitigation-tank hybrid | 23/28/0 | `AoDYLAQDBC-FAVYALAQDIAY-` | post-1.18.1 | single source | [[d:shaman#1485648863430836266]], [[d:shaman#1489511855788392469]] |
+| Tankier melee | 15/36/0 | `FADYL-FAVYALFQDIAoB-` | mixed | single source | Ancestral Guardian 3 + Spirit Armor 2 + Totemic Alignment 2 [[d:shaman#1408569517189103616]] |
+
+The channel's split spectrum runs 15/36 -> 17/34 -> 21/30 -> 22/29 -> 23/28 as Elemental throughput is traded for Enhancement survivability.
+
+### Spellhance, explicitly defined
+
+- **Definition**: Flametongue imbue, a **22/29/0** Elemental Fury split, hybrid spellpower gear and a fire-totem emphasis (Fire Nova/Searing weave single-target) [[d:shaman#1486379110036013087]].
+- **Power**: pre-1.18.1 **10-15% behind physhance** single-target (better AoE); post-1.18.1, after the fixes, **~5-8% behind** [[d:shaman#1485046277111812196]], [[d:shaman#1485047380679069746]].
+- **Scaling split**: spellhance scales shocks/Lightning Shield/fire totems; physhance scales Stormstrike/Lightning Strike/autos/Windfury; physical crit ~= spell crit for spellhance via Elemental Devastation uptime [[d:shaman#1427353354346172588]], [[d:shaman#1424256298899345479]].
+- **Fire-elemental era** (2025-10): the pre-release fire build double-dipped Elemental Weapons and was "nuts single target dps, braindead easy" [[d:shaman#1423506245045850194]], [[d:shaman#1424157142599991517]]; killed by the 1.18.1 melee-hit requirement for the +30% Fire [[d:shaman#1484621315741712596]], [[d:shaman#1484823161403867196]] (**superseded**).
+
+### Rotation and stats (confirmed)
+
+- **Rotation is stable and matches the KB**: Flame Shock -> Stormstrike -> Earth Shock (consume the +25% buff) -> Lightning Strike -> keep Lightning Shield / swap to Water Shield when mana-limited [[d:shaman#1486024479951032474]], [[d:shaman#1486721868789584004]], [[d:shaman#1457756350342758472]], [[d:shaman#1485707818081194104]], [[d:shaman#1486136709375725759]]. A minority observation: "many shamans skip Flame Shock" on short-lived trash [[d:shaman#1494026002748145664]].
+- **Weapon skill**: the glancing cap is **315**, but "313 from just ancient jades is fine" post-1.18.1 and further hit/WS overcaps are worth only ~**0.4x** [[d:shaman#1443272112771960965]], [[d:shaman#1491836949063929958]], [[d:shaman#1491837276249002225]]; Ancient Jade Leggings are a more efficient WS source than Towerforge [[d:shaman#1491836338562007223]].
+- **Physical hit 8%** (3% talents + 0.2%/weapon skill above 300) [[d:shaman#1467795868198375495]], [[d:shaman#1483167267842818272]]; haste budget example 2% haste ~= 1.5% crit [[d:shaman#1484577067184947200]].
+- **No channel consensus** on a crit/haste:AP ratio — a question was asked and left unanswered [[d:shaman#1484665748612976680]]. Keep the KB's Skegg equivalence table as single-source.
+- **Concoction of the Arcane Giant and Juju Power no longer stack** [[d:shaman#1485348172426510379]], [[d:shaman#1480931235931881594]].
+
+### Boss notes
+
+- **Fire-immune bosses** (MC/Ony/BWL): fire-totem and Flame Shock value is lost [[d:shaman#1406978821315498004]].
+- **Sapphiron** (Enh/tank fire-totem twisting): a post-1.18.1 report of "suspiciously low" damage despite near-perfect fire-totem twisting and 100% uptime — unexplained, possibly the FT-totem/Bulwark bugs [[d:shaman#1491147488865030254]].
+
+### Bugs relevant to Enhancement
+
+- **Flametongue Totem SP-scaling bug**: the FT **totem** is doing far more damage than intended post-1.18.1 (party aura only; still drop it) [[d:shaman#1491212453290315776]], [[d:shaman#1493741881442570381]].
+- **Flurry**: shipped triggering only from direct spell crits / Stormstrike / Lightning Strike, not melee swings or imbues, and was overwritten by Elemental Weapons' Windfury haste; hotfixed 2026-03-21/24/31 [[d:shaman#1484583137232290024]], [[d:shaman#1484583463859392573]], [[d:shaman#1484584257501270037]], [[d:shaman#1485245225055162368]].
+- **Earthen Bulwark**: built only from white auto attacks, not Stormstrike/Lightning Strike, through 2026-04-07 [[d:shaman#1484954736342995116]], [[d:shaman#1485640385857454291]].
+
+### Omitted (no new Discord detail)
+
+No channel source contradicts the KB's T3/T3.5 notes, snapshotting, Bloodlust timing or pre-BiS lists beyond the pointers above (Greybull's pinned guide [[d:shaman#1411592058119913492]]; Squid's Enh consumables + pre-raid draft [[d:shaman#1416980701667922021]], [[d:shaman#1418103287202451560]]).
+
+| Discord source | Era | Agreement | Used for |
+|---|---|---|---|
+| [[d:shaman#1493306457784062084]] | post-1.18.1 | consensus | 17/34/0 standard build |
+| [[d:shaman#1486024479951032474]] | post-1.18.1 | consensus | post-1.18.1 rotation |
+| [[d:shaman#1486379110036013087]] | post-1.18.1 | single source | spellhance delta |
+| [[d:shaman#1491836949063929958]] | post-1.18.1 | consensus | 313 weapon skill fine |
+| [[d:shaman#1484583137232290024]] | post-1.18.1 | consensus | Flurry bug/hotfix |
+| [[d:shaman#1485348172426510379]] | post-1.18.1 | consensus | consumable non-stacking |
+
 ## Sources
 
 | Source | Authority | Date | Era | Used for | Agreement |

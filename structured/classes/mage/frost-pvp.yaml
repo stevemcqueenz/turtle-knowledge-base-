@@ -64,3 +64,34 @@ mistakes_to_avoid:
   - "Blinking while high in the air (blinks in place)"
   - "Counterspelling a target in Ice Block"
   - "Draining Mana Shield to zero mana"
+
+discord:
+  channel: mage
+  scope: "Frost PvP additions from the archived #mage Discord (post-1.18.1 sections). Every claim carries a [[d:mage#<id>]] citation, an era and agreement."
+  patch_validity_extra: "Post-1.18.1 deep Frost is widely reported weak after the dampening changes and the Icicles nerf; mages still play Frost for control in team fights [[d:mage#1446952036661723289]], [[d:mage#1491498337088573571]], [[d:mage#1491543407754219811]] (post-1.18.1, consensus)."
+  rotation_single:
+    - action: "Frost is played for control, not turreting: use Cone of Cold, Polymorph, Counterspell, trinkets, Ice Block + Blink."
+      sources: ["[[d:mage#1491494895574323224]]"]
+      era: post-1.18.1
+      agreement: single source
+    - action: "PoM + Ice Block ('PomBlock') remains the recommended annoying-BG build."
+      sources: ["[[d:mage#1491779826992939130]]"]
+      era: post-1.18.1
+      agreement: single source
+  stat_weights:
+    priority: "crit > spell power > haste, plus solid stamina; at low levels stamina beats raw frost damage [[d:mage#1446156953347686441]], [[d:mage#1443285596842758205]] (post-1.18.1, single source)"
+  caps:
+    deep_frost_verdict: "no point playing deep Frost post-nerf; better to play deep Arcane with Ice Block [[d:mage#1446952036661723289]], [[d:mage#1491498337088573571]]"
+    dampening_reports: "CoC 71 at 700 SP; 13-15 Frostbolts to kill a geared melee [[d:mage#1485311972139335833]], [[d:mage#1491110087388037304]]"
+  consumables:
+    - "Free Action Potion is the standard melee counter to mage [[d:mage#1446915765461581934]] (post-1.18.1, single source)."
+  race_choice:
+    - "Gnome Escape Artist [[d:mage#1043563538557448302]]; Undead Will of the Forsaken for fear fights [[d:mage#1493740921232031906]]; Orc/Troll for PvE damage [[d:mage#1447253910875017238]] (post-1.18.1, single source each)."
+  matchups:
+    - "Paladins shrug off CC and dominate team fights [[d:mage#1491110398357798913]]; rogues/shamans top the meta [[d:mage#1430916238699397321]]; warlocks can one-shot [[d:mage#1485360017107451977]] (post-1.18.1, single source/consensus)."
+  sources:
+    - {id: "[[d:mage#1446952036661723289]]", era: 1.18.1-announced-pre-release, agreement: consensus, used_for: "deep frost weak"}
+    - {id: "[[d:mage#1491494895574323224]]", era: post-1.18.1, agreement: single source, used_for: "control playstyle"}
+    - {id: "[[d:mage#1491543407754219811]]", era: post-1.18.1, agreement: single source, used_for: "frost strong in team fights"}
+    - {id: "[[d:mage#1443285596842758205]]", era: 1.18.1-announced-pre-release, agreement: single source, used_for: "PvP stamina"}
+    - {id: "[[d:mage#1491779826992939130]]", era: post-1.18.1, agreement: single source, used_for: "PomBlock"}

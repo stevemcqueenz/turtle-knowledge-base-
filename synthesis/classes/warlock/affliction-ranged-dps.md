@@ -129,6 +129,70 @@ Sources: wiki "Affliction Drain" ("Curse, Corruption, Siphon Life, Dark Harvest 
 - Letting shards overflow the bags; not keeping a shard for Soulstone/Healthstone/pet re-summon ("there are times you can die simply because you don't have soul shards" [Forumdweller (player), 2025-05-06](https://forum.turtlecraft.gg/viewtopic.php?p=129896#p129896)).
 - Relying on Curse of Weakness — "you can safely throw this garbage out of the spell bar" (Akarui, 2025-07-02); "It doesnt stack with other attack speed slows" [Atreidon (player), 2025-04-18](https://forum.turtlecraft.gg/viewtopic.php?p=127400#p127400). Consensus that it is a last-resort or reflect-breaker only.
 
+## Discord findings (2025–2026)
+
+The archived `#warlock` Discord closes the forum file's two biggest gaps: a **point-by-point 1.18.1-announced-pre-release build** and the **numeric haste/hit targets**. Era tags: pre-1.18.1 (<2025-10-03), 1.18.1-announced-pre-release (2025-10-03 .. 2026-03-19), post-1.18.1 (≥2026-03-20).
+
+### Talent build — the pinned 35/11/5 (Afraido, 2026-03-19, 1.18.1-announced-pre-release)
+
+Three screenshots pinned by **Afraido** (2026-03-19, one day pre-release) are the channel's post-1.18.1 benchmarks; the per-tree `talents.turtlecraft.gg` codes decode cleanly with zero rank-over-max against the 1.18.1 tree. The Affliction one is **35/11/5 (Dark Harvest + Demonic Sacrifice)** [[d:warlock#1484228321708478635]], exactly reproduced by code `FoAKaASDRBFAB-ArCAAB-F` [[d:warlock#1489118494866935868]] (the `-CrAAAB-` Sinister Pursuit variant is the same shape) [[d:warlock#1484605293135663197]]:
+
+| Tree | Allocation |
+|---|---|
+| Affliction 35 | Suppression 5, Imp. Corruption 5, Imp. Life Tap 1, Imp. Drains 2, Imp. Curse of Agony 3, Fel Concentration 2, Grim Reach 2, Nightfall 2, Soul Siphon 3, Rapid Deterioration 2, Siphon Life 1, Malediction 1, Shadow Mastery 5, Dark Harvest 1 |
+| Demonology 11 | Demonic Aegis 2 (alt: Sinister Pursuit 2), Demonic Embrace 5, Soul Entrapment 3, Demonic Sacrifice 1 |
+| Destruction 5 | Shadow Vulnerability 5 |
+
+This **supersedes** the forum's pre-release build links and the 1.18.0 chappelles endpoint: the 11-point dip now takes **Soul Entrapment 3 + Demonic Sacrifice 1** (the forum text listed Demonic Embrace + Demonic Aegis only) [[d:warlock#1484228321708478635]]. Demonic Sacrifice on the 1.18.1 tree requires Soul Entrapment 3, so the 11-point dip is the cheapest access [[d:warlock#1484605293135663197]].
+
+### Stats — Discord supplies the numbers the forum left as a gap
+
+- **Hit**: 6% from gear (5% with Emerald Blessing); Suppression covers the other 10% [[d:warlock#1388998345846030508]], [[d:warlock#1379836639400169612]], [[d:warlock#1387659949374443561]] (consensus).
+- **Haste**: **19% gear haste for MC/BWL and ~23% for AQ** are the breakpoints — “everything in between is ineffective” (Bigdots' breakpoint sheet) [[d:warlock#1440433738415870039]], [[d:warlock#1440439603331858502]]; **1% haste ≈ 12–16 SP** in the field [[d:warlock#1413427517876076609]], [[d:warlock#1383748702123986976]] (single source).
+- **Crit**: effectively worthless — DoTs do not crit, ~0 SP per 1% [[d:warlock#1388257261968953344]], [[d:warlock#1421918198206304456]].
+
+### Rotation — Drain Soul first, Dark Harvest last, and the “cleave” is gone
+
+- Open with Drain Soul **before** Dark Harvest: Drain Soul ticks apply Shadow Vulnerability since CC3 [[d:warlock#1423323493948199004]], [[d:warlock#1423323195682848779]].
+- **Never clip DoTs** — reapply when they actually fall; Dark Harvest shortens their duration [[d:warlock#1432327385155637340]], [[d:warlock#1430598435341340826]], [[d:warlock#1425413794934554684]].
+- **Dark Harvest no longer hastens DoTs on every dotted target** — since ~2025-10-03/04 it affects only the selected target, removing the unintended multi-target “dark harvest cleave”. This is **not in the forum 1.18.1 changelog** [[d:warlock#1424081673691070486]], [[d:warlock#1424003723306336338]], [[d:warlock#1432870103653027871]] (consensus, 1.18.1-announced-pre-release).
+- Multi-dot **caps at ~3 targets**; above that it is counter-productive [[d:warlock#1442927152696786994]], [[d:warlock#1422187631432962091]].
+- **Pet vs sacrifice**: Affliction/Destro sacrifice the demon (demons do not scale for them) and pair it with Soul Entrapment; Demonology always keeps the pet [[d:warlock#1405348590494285984]], [[d:warlock#1405594274438975589]], [[d:warlock#1405349574465290354]] (consensus). Imp sac = +4% spell damage or Succubus = −10% threat (costs ~4% damage) [[d:warlock#1404709089526677505]].
+- **Snapshotting is contested on record**: one side says all DoTs snapshot spell power for their duration [[d:warlock#1430248865440727221]], [[d:warlock#1430245667489583184]]; the other says nothing snapshots [[d:warlock#1428697399198613616]], [[d:warlock#1423607202287063052]]. Unleashed Potential snapshots SP on the 1st stack and AP on the 3rd [[d:warlock#1424161054623137964]], [[d:warlock#1424161635798487214]], [[d:warlock#1424161767998750731]], later-refresh behaviour unresolved [[d:warlock#1428336835280502885]].
+
+### Gear and encounters
+
+- **Progression**: Affliction T3.5 > T2.5 > T3; a common mid-tier core is 5/5 T2.5 + Gloves of Unwinding Mystery + Whip of Encouragement; T1 gives 10% haste [[d:warlock#1419451950264487946]], [[d:warlock#1419030790179782747]], [[d:warlock#1419451725776949331]]. **T2.5 5-set Doomguard is broken** (can summon 3 at once) — wear 4/5 [[d:warlock#1427812439428169879]], [[d:warlock#1422985751360045252]]. **T3.5 Affliction shoulders list +1% haste but grant none** (bug) [[d:warlock#1423661895596114001]].
+- **Pre-BiS**: Ghost9626's phase-1 BiS sheet (dungeon-only filter) [[d:warlock#1435397902490009700]]; T0.5 questline is T1-equivalent [[d:warlock#1435399064022810725]]; Bigdots' pre-raid import is 6% hit / ~20.7% haste / 372 SP / 405 shadow SP [[d:warlock#1440446239572361327]], [[d:warlock#1440442071616852132]].
+- **Class weapon**: reported from a ~T2.5 Timbermaw Hold raid, Exalted required [[d:warlock#1484606459810545809]], [[d:warlock#1485439306888642704]], [[d:warlock#1487723556220440597]]; **bug report 21505: item 33332 only procs from direct damage, not DoTs, contrary to tooltip** [[d:warlock#1489253135112208465]], [[d:warlock#1488803795012943923]].
+- **Per-boss Naxx draft**: Demo on the three Spider bosses; Affliction on Patchwerk/Grobbulus/Gluth/Thaddius/Four Horsemen/Noth/Heigan/Loatheb/Sapphiron; Fire on Razuvious/Gothik/Kel'Thuzad [[d:warlock#1438009683439784116]] (single source). Pets are fragile on Gluth/Thaddius/Sapphiron/KT/Loatheb [[d:warlock#1422952692740915302]].
+- **Live standing (post-1.18.1)**: demo > affli > destro/SM-Ruin > firelock [[d:warlock#1484828741267095563]]; Affliction is “strong on longer and multi-target fights, not as good on shorter ones” [[d:warlock#1464576856442278021]].
+
+### Base/shared mechanics added by Discord
+
+- **Malediction** applies the highest rank of Curse of Agony you know at no extra mana; a **rank-1 Curse of Recklessness (35 mana)** is the cheap trigger [[d:warlock#1392516068819337286]], [[d:warlock#1446533749415346187]], [[d:warlock#1384475234295611533]]. Curse assignment is coordinated: “talk with the other warlocks and decide who uses which curse” [[d:warlock#1415319616162365573]].
+- **Curses**: support curses are worth ~600 raid DPS each; Curse of Agony/Doom only for the unassigned “4th” warlock [[d:warlock#1404193641513357455]], [[d:warlock#1434978329068441673]], [[d:warlock#1187826168326537256]] (priority contested, value consensus).
+- **Soul shards stack ×3**, shard-bag and `ShardCapPlus` practice, Drain Soul rank 1 suffices while leveling [[d:warlock#1387507303699451954]], [[d:warlock#1409730099426889768]], [[d:warlock#1141736503773511740]].
+- **Fear**: heartbeat resists cap uptime ~14–16 s; instant damage breaks it; Curse of Recklessness suppresses (not removes) and can be juggled with Curse of Weakness; no DR on NPCs [[d:warlock#1242655866025541662]], [[d:warlock#1017527046391480380]], [[d:warlock#1379220585581772861]].
+- **Professions**: Engineering is the raid/perf prof, Tailoring the class-fit (Shadoweave + Bloodvine 2% crit), Alchemy+Herb the money pair, Tailoring+Enchanting the first-character pair [[d:warlock#928808982846517248]], [[d:warlock#1055966043614490715]], [[d:warlock#1104592642152607764]], [[d:warlock#1055939038542041098]].
+- **Pet scaling** (not in any forum file): pets gain SP from Intellect; Unleashed Potential adds AP/SP; AP→WD VW 20% / Succubus 40% / Felhunter 30% / greater 60%; Torment 60% SP, Sacrifice 120%, Lash of Pain 60%, Firebolt 40%, Legion Strike 60%, Felstorm 25%/tick [[d:warlock#1488156105111633930]] (consensus).
+- **Post-1.18.1 pain points**: Demonology's new ceiling is **pet threat** (no reduction tool) [[d:warlock#1485689509197774958]], [[d:warlock#1485724425365229831]]; greater-demon pathing/instant-despawn bugs [[d:warlock#1486367004469235773]]; Dark Harvest called the spec's worst capstone [[d:warlock#1464978208935121054]].
+
+### Supersessions
+
+- Pre-1.18.1 whole-grid/base-36 builds (2021–2025) are on an older tree (Dark Pact, Amplify Curse, Improved Voidwalker, Master Conjurer, Improved Shadow Bolt removed) and are historical.
+- The 2024-era “Dark Harvest cleave for AoE” advice is obsolete after the 2025-10 multi-target change [[d:warlock#1424081673691070486]].
+- “SM/Ruin is the raid default” is superseded by the 2026 consensus that Affliction is the default and Demonology the short-fight king [[d:warlock#1439237831410188408]], [[d:warlock#1436226614659649617]], [[d:warlock#1483576857428361257]].
+
+| Discord claim | Sources | Agreement | Era |
+|---|---|---|---|
+| Pinned 35/11/5 DH/DS build + codes | Afraido screenshot (1.18.1-announced-pre-release), matching per-tree codes | consensus | 1.18.1-announced-pre-release (screenshot); post-1.18.1 (codes) |
+| 19%/23% haste breakpoints; 1% haste ≈ 12–16 SP | Bigdots sheet; field reports | single source | 1.18.1-announced-pre-release |
+| Dark Harvest multi-target removal | three independent observers | consensus | 1.18.1-announced-pre-release |
+| DoT/UP snapshotting | both sides in-thread | contested | 1.18.1-announced-pre-release |
+| Affliction is the default PvE spec (2026) | Tatica, W, biloen | consensus | post-1.18.1 |
+| Class-weapon proc bug (21505) | bug report + reply | single source | post-1.18.1 |
+
 ## Sources (authority, dates, agreement)
 
 | Recommendation | Sources | Agreement | 1.18.1 note |

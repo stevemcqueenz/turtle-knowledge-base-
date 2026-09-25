@@ -13,6 +13,24 @@ Era markers as in `holy-healer.md`. The most-referenced leveling guide (Aykhanch
 
 General warning: "Maybe when you get to level 30 or 40 priests can do something. But the leveling process is pain in a can. Solo, they are hot wet garbage" — [Luxlorica (player), 2023-11-05](https://forum.turtlecraft.gg/viewtopic.php?p=75955#p75955) (minority view).
 
+## Leveling route (Discord consensus, 1.18.1 era)
+
+The `#priest` channel's verdict contradicts the older wiki advice "level Shadow" (era: 1.18.1-announced-pre-release unless noted; agreement: consensus):
+
+- **Do not level Shadow before 40.** "The concept of 'leveling as shadow' or 'leveling as Disc' are very misleading noob trap for priest because shadow priests don't get their full power until lvl 40, and many essential talents for Disc are actually in Holy tree" — [[d:priest#1331378617153753258]] (Greendam). Order: **2/2 Wand Specialization -> 5/5 Spirit Tap -> Holy tree to 5/5 Spiritual Guidance -> Discipline for smite at 40+, or respec Shadow at 42** (40 loses Wand Spec) — [[d:priest#1331378617153753258]], [[d:priest#1379158596683825162]], [[d:priest#1325029038913228903]].
+- **Wand is king before 40:** "don't pretend casting anything is faster than wanding before level 40" — [[d:priest#1296239261280112731]]; "priest is shit without wand spec" — [[d:priest#1296223142905118742]]; low-level enchanting wands are "notoriously OP" — [[d:priest#1300314106829602880]].
+- **Disc comes online only at 60:** "despite Disc tree is designed for smite dps, it doesn't really come online until lvl 60, for leveling most your powerups are in holy tree" — [[d:priest#1332161439959613440]].
+- **Hardcore smite chain-pull loop:** spirit-stacking + Spirit Tap, frontload 2-5 casts with the extra spirit, then wand/staff weave — [[d:priest#1331388964594126850]].
+- **Spirit Tap now also procs on Mind Blast crits** (1.18.1) — [[d:priest#1484646351974174741]].
+
+Bracket summary (Discord; era 1.18.1-announced-pre-release unless noted):
+
+| Bracket | Spec | Play |
+|---|---|---|
+| 1-19 | Smite/wand | Buy the best wand (enchanting wands OP); 2/2 Wand Specialization first; shield -> SW:P -> wand. Wanding beats casting before 40. [[d:priest#1300314106829602880]], [[d:priest#1296223142905118742]], [[d:priest#1296239261280112731]] |
+| 20-39 | Wand + Smite | 5/5 Spirit Tap, then Holy tree to 5/5 Spiritual Guidance; spirit-stacking + Spirit Tap gives very high spell power for the level range. Fear Ward becomes baseline at 20. Smite starts out-DPSing the wand around 30. [[d:priest#1332161439959613440]], [[d:priest#1331388964594126850]], [[d:priest#1296219501406453820]] |
+| 40-60 | Shadow or Holy/Smite | Shadowform comes online; respec Shadow at 42 (40 loses Wand Spec). HC smite chain-pull loop works. Disc comes online only at 60. [[d:priest#1331378617153753258]], [[d:priest#1331388964594126850]], [[d:priest#1332161439959613440]] |
+
 ## Wands and Spirit Tap (the two consensus talents)
 
 - "Wand Specialization and Spirit Tap are the only must have talents to have" — [Aykhanchik (guide writer; 52-post guide t=2484, repeatedly requested for updates), 2022-09-05](https://forum.turtlecraft.gg/viewtopic.php?p=24431#p24431). "Wands as always when levelling your priest are your best friend (there are wand merchants selling white ones(!))" — [Atreidon (player), 2026-01-05](https://forum.turtlecraft.gg/viewtopic.php?p=164458#p164458). "At lower levels, the Enchanting wands are insanely OP and often do more DPS than your spells" — [Getplucked (player), 2023-07-14](https://forum.turtlecraft.gg/viewtopic.php?p=53458#p53458). "as soon as you hit level 5, try to get a Lesser Magic Wand (item 11287)" (Aykhanchik); "crucial to get a wand ASAP and upgrade it to Greater Magic Wand ASAP. I bought mine on the AH for about 60 silver" — [Reomc1 (player), 2025-02-27](https://forum.turtlecraft.gg/viewtopic.php?p=121113#p121113).
@@ -124,6 +142,7 @@ Staff philosophy on racials: keep niches but remove "I HAVE TO pick this race if
 | [Amyloriley](https://forum.turtlecraft.gg/viewtopic.php?p=112368#p112368), [Roxanneflowers](https://forum.turtlecraft.gg/viewtopic.php?p=6905#p6905), [Natuaduck](https://forum.turtlecraft.gg/viewtopic.php?p=92395#p92395) | player (Roxanneflowers staff-praised) | 2020-2025 | pre-1.18.1 | Starshards build | single lineage |
 | [Ibux](https://forum.turtlecraft.gg/viewtopic.php?p=35235#p35235), [Cookieboy](https://forum.turtlecraft.gg/viewtopic.php?p=79217#p79217) | player | 2023 | pre-1.18.1 | melee weaving | consensus (pre-CC2 Inner Fire AP) |
 | [Dragunovi](https://forum.turtlecraft.gg/viewtopic.php?p=102970#p102970), [Jamey](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071), [Torta](https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168) | staff | 2024-2026 | all | racials, Spirit Tap, heal values, Tauren | authoritative |
+| Discord `#priest` leveling consensus (Greendam, Odi, wily) | players | 2024-2026 | 1.18.1-announced-pre-release/post-1.18.1 | "do not level Shadow before 40"; 2/2 Wand Spec -> 5/5 Spirit Tap -> Holy to Spiritual Guidance -> respec 42; HC chain-pull; wand king | consensus (contradicts older wiki advice) |
 | Tauren quest pages (turtle-wow.fandom.com) | community wiki | 2026-05 | post-1.18.1 | quest chain ids/NPCs | unofficial |
 
 Pre-1.18.1 advice affected by 1.18.1: leveling-heal weakness after 30 ("healing without specializing into Holy much harder while leveling after level 30" — staff dev comment, fixed by raised base values), Lightwell click tactics, Spirit Tap kill-only, Blackout row.

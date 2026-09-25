@@ -92,6 +92,13 @@ Priority:
 
 Wand between casts when mana is low (Wand Specialization mana return).
 
+### Discord rhythm and post-1.18.1 (1.18.1-announced-pre-release/post-1.18.1)
+
+- **"1 HF 4 Smite is the rotation regardless how many searing light procs, you just keep doing it, unless boss will die during next rotation then you skip HF and finish with smite + chastise"** — Greendam [[d:priest#1431112150679818281]], [[d:priest#1430727888310898830]] (1.18.1-announced-pre-release, consensus).
+- Macro logic (Iosifa): "If Purifying Flames has less than 2 s left, cast Holy Fire. Otherwise, cast Smite. I have a macro that casts an instant Smite if Searing Light is up, otherwise cast Holy Fire" [[d:priest#1332034430507815052]] (1.18.1-announced-pre-release, consensus).
+- **Chastise (40 s) on an ally above 80% HP** — tank on pull, then Affliction lock / Arcane mage > 2H melee > DW melee; heal first if under 80% [[d:priest#1383364969432875028]] (1.18.1-announced-pre-release, single source).
+- **Post-1.18.1:** the **31/20/0 Disc-DPS allocation survives unchanged** (Dinousek [[d:priest#1490793158249021610]], 2026-04-06, single source); Searing Light mana refund raised to 60% (staff). 1.18.1 finally adds **smite T3/T3.5 alternatives** [[d:priest#1483921829101047889]], [[d:priest#1484515281106899125]] (consensus), while **Discipline sets are holy-damage only with no healing**, hurting off-healing and gear-swapping [[d:priest#1484579771336888330]], [[d:priest#1484565459503284335]] (consensus).
+
 ## Multi-target / AoE
 
 - 2-3 targets: Holy Fire + SW:P on secondary targets, Smite the skull; Chastise the tank.
@@ -145,5 +152,6 @@ Wand between casts when mana is low (Wand Specialization mana return).
 | [Jamey](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071) | staff | 2026-01-23 | announced | Searing Light 60% | authoritative |
 | [Dragunovi](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272) | staff | 2026-02-15 | announced | Disc sets | authoritative |
 | Viability debate: [Bigsmerf](https://forum.turtlecraft.gg/viewtopic.php?p=136250#p136250), [Keds](https://forum.turtlecraft.gg/viewtopic.php?p=154706#p154706), [Terrydavis](https://forum.turtlecraft.gg/viewtopic.php?p=143427#p143427) | player | 2025 | pre/announced | standing | contested |
+| Discord `#priest` (Greendam, Iosifa, Dinousek, Bluefear, wily) | players | 2024-2026 | 1.18.1-announced-pre-release/post-1.18.1 | 1 HF 4 Smite, PF<2 s macro, ally-Chastise >80%, 31/20/0 survives 1.18.1, smite T3/T3.5 sets, Disc sets holy-damage only | consensus |
 
 Pre-1.18.1 advice affected by 1.18.1: Searing Light mana values (now 60%), "no smite sets" complaints (sets added), Holy Nova mana (reduced again).

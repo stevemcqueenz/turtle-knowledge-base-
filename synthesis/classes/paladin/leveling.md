@@ -69,6 +69,37 @@ Is the 1.18.1 tree different? Talent positions are unchanged; Righteous Strikes 
 - Skip Redemption/Divine Intervention (guide); keep Divine Shield/Lay on Hands/Hand of Protection for escapes; Alchemy for invisibility/Limited Invulnerability potions; do not Consecrate near enemy players (PvP flag).
 - A 2022 HC build (`https://talents.turtlecraft.gg/paladin/5U-5IV3U1Z6-50C`) is pre-CC2 — [Mrkrissatan (player), 2022-02-08](https://forum.turtlecraft.gg/viewtopic.php?p=16846#p16846) (obsolete).
 
+## Discord leveling additions (pinned codes, per-bracket)
+
+Discord closes the forum's "no modern leveling code" gap with a pinned dual-route post and a per-bracket table.
+
+### Pinned codes (decoded)
+
+Jr's pinned post gives both routes as talent-calculator codes; they decode to exactly the available points at each level (10/11/21/31/41/51 at 10/20/30/40/50/60) [[d:paladin#1407454061623513088]] (decoded, consensus on the method).
+
+- **Route A - pure Ret**: leveling `FAAoB-FAY-AoAoFKYAFAFAB` (11/8/32 with **Deflection 5 over Improved Judgement/Seal of the Crusader**: "5 pts deflection over judgement/sotc while leveling"); endgame `FAAoB-FAY-AoTAFKYAFAFAB` (11/8/32 spellret).
+- **Route B - Prot swap at 20** (the pinned AoE-self-heal spec): 1-19 `FAAo--` (10/0/0); 20 `-AoYCB-` (0/11/0, "prot swap, 1g cost to respec, put on a shield"); 30 `-AoYFZYAAB-` (0/21/0); 40 `AoaAZBAQ...` (7/24/0); 50 (17/24/0); 60 `AoaAZBDQhAAQ-AoYFZYAAZ-` (27/24/0, the leveling-to-raid spec).
+- Older forum orders (Unchallenged 2024) remain useful for the dungeon variant but the 1.17.2 links are pre-1.18.1; see the "Talent orders" table above.
+
+### Per-bracket play
+
+| Bracket | Discord advice | Source | Agreement |
+|---|---|---|---|
+| 1-10 | Seal of Righteousness + Judgement, Blessing of Might/Wisdom; no tanking before Righteous Fury 16; no AoE before Consecration 20 and no Seal of Wisdom before 18 | [[d:paladin#1324719350799798292]] | consensus |
+| 10-19 | Ret talents for questing (Benediction/Deflection) or start Prot; **avoid Seal of the Crusader**; buy a 2H every 5-10 levels | [[d:paladin#1328039243838394449]] | single source |
+| 20-29 | **AoE leveling starts at 20**: Blessing of Sanctuary + max-rank Consecration + Retribution Aura; fast weapon + Seal/Judgement of Wisdom makes mana a non-issue; farm Defias miners (Deadmines), Stonesplinter trolls (Loch Modan), Mosshide gnolls (Wetlands) | [[d:paladin#1336241598014554163]] [[d:paladin#1335002252141658155]] [[d:paladin#1324160117914206248]] | consensus |
+| 30-39 | **Respec Prot at 30 for Holy Shield**; the full AoE kit is online by ~23 (Consecration + BoS + 3/3 Shield Spec); Prot holds 2-4 mobs at once from ~30-42 | [[d:paladin#1325654388961706014]] [[d:paladin#1380545044695617638]] [[d:paladin#1324476017108058144]] | consensus |
+| 40-60 | Finish Prot or Ret; no distinct post-CC2 40s/50s advice in-channel. Post-1.18.1 leveling stat order is **stam, spellpower, int, str, agi** | [[d:paladin#1486596157973991424]] | single source |
+
+### Post-1.18.1 advice
+
+- **Go Ret until 5/5 Vengeance**; **Sanctity Aura is not worth it while leveling** (Excinerus) [[d:paladin#1456918732579279054]]; **Repentance is optional while leveling** [[d:paladin#1456920898652078316]].
+- **Holy is a dungeon-heal spec, not a questing spec**: "Hpal for questing is not great since the damage is quite low, but it's doable. Better for dungeon spam" (Mithreon) [[d:paladin#1456972397163843678]].
+- Practical early gear named in-channel: a level-23 2H - **Pysan's Old Greatsword** (60-91 dmg, 3.30 speed, +5 Str/+13 Spirit) [[d:paladin#1484168051606950009]].
+- **Dodging's "cookie cutter for all 3 trees" leveling screenshots** (2025-06-29, pre-1.18.1, single source) transcribe row-by-row in `staging/paladin-core/talents.md` §5: Ret 31/50, Prot 31/50 and a Holy dungeon-grind 32/0/0 [[d:paladin#1388786478598983691]].
+
+**Superseded**: pre-1.18.1 long-form build codes (2024-10 -> 2025-08) were authored on the CC2 tree; Ret PvP codes showing Eye for an Eye 3 are the CC2 maximum (1.18.1 caps it at 2) [[d:paladin#1407454061623513088]].
+
 ## Sources
 
 | Thread | Authors (authority) | Date | Era | Agreement |
@@ -85,5 +116,6 @@ Is the 1.18.1 tree different? Talent positions are unchanged; Righteous Strikes 
 | [How to Tank t23687](https://forum.turtlecraft.gg/viewtopic.php?t=23687), [Prot leveling dungeons pulls t21160](https://forum.turtlecraft.gg/viewtopic.php?t=21160) | Terrydavis, Atreidon, Jendaille, Azcron (players) | 2025-08 → 2026-01 | announced | consensus |
 | [Cooldowns on strikes too generous t22358](https://forum.turtlecraft.gg/viewtopic.php?t=22358) | Oldenwisp, Catyngla, Vidnar (players) | 2025-10 | announced | contested |
 | Staff [p102969](https://forum.turtlecraft.gg/viewtopic.php?p=102969#p102969), [p108776](https://forum.turtlecraft.gg/viewtopic.php?p=108776#p108776), [p166071](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071), [p121678](https://forum.turtlecraft.gg/viewtopic.php?p=121678#p121678), [p20251](https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251) | Dragunovi, Jamey, Torta (staff) | 2022 → 2026 | all | staff |
+| Discord `#paladin` pinned leveling post + per-bracket answers (see "Discord leveling additions") | Jr (pinned builds), Drekalo, Destroses, R, Light, Bristol, Excinerus, Jesse Potter, Mithreon, Dodging (players) | 2021-06 → 2026-04 | pre-1.18.1 → post-1.18.1 | decoded leveling codes, per-bracket play, post-1.18.1 advice | consensus on the route; single source per bracket |
 
-Flags: the guide's orders were written for 1.17.2 and are pre-1.18.1; 1.18.1 lowered early Holy Strike damage and changed Righteous Strikes, which affects the 35–39 bracket's feel but not the order. No post-1.18.1 levelling report exists.
+Flags: the forum guide's orders were written for 1.17.2 and are pre-1.18.1; 1.18.1 lowered early Holy Strike damage and changed Righteous Strikes, which affects the 35-39 bracket's feel but not the order. The Discord section above adds the pinned decoded codes (validated to the exact points available per level), the per-bracket table and the post-1.18.1 "Ret until 5/5 Vengeance / Holy is not a questing spec" advice.

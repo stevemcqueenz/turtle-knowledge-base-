@@ -12,32 +12,80 @@ sources:
 agreement: contested
 patch_validity:
   written_for: "1.18.0 / 1.18.1 announced"
-  valid_for_1181: unknown
-  notes: "No post-1.18.1 PvP thread; Daybreak nerf reduces sustain; Hand of Freedom 24-s CD and Divine Shield -60% damage dealt are the 1.18.0 PvP nerfs."
+  valid_for_1181: partial
+  notes: "Post-1.18.1 Discord has extensive PvP data (builds, gear, arena rules) that the forum thread lacks. Daybreak nerf reduces sustain; arena (2026-03-31) disables bubble and Lay on Hands and restricts cooldowns/consumables. The exact Divine Shield penalty remains contested."
+discord:
+  channel: paladin
+  scope: "post-1.18.1 Holy paladin PvP (BGs, world, arena)"
+  sources:
+    - {id: "1487416064835846296", era: post-1.18.1, agreement: single source, claim: "Posted 'mainly for pvp' Holy 35-point core"}
+    - {id: "1489299128310693929", era: post-1.18.1, agreement: consensus, claim: "Standard full hpal tree Holy 38 / Ret 13 with Blessed Strikes 5; also the PvP-favoured build"}
+    - {id: "1483861915020169378", era: post-1.18.1, agreement: consensus, claim: "'Holy pvp healer is pretty easy PVP super tanky with insane heals and so many survival tools'"}
+    - {id: "1487443771523203184", era: post-1.18.1, agreement: consensus, claim: "'I don't see how pvp differs from pve for holy except for stam requirements'"}
+    - {id: "1493010360322621630", era: post-1.18.1, agreement: consensus, claim: "1h + shield beats 2h for hpal PvP (armour, healing power, stats, seal procs)"}
+    - {id: "1484823910041260132", era: post-1.18.1, agreement: consensus, claim: "CS for hpal is for PvP or resetting Shock while on the move"}
+    - {id: "1487435841679786094", era: post-1.18.1, agreement: consensus, claim: "Healer PvP set 5/8 grants immunity to silence/interrupt"}
+    - {id: "1487339526719406091", era: post-1.18.1, agreement: consensus, claim: "Standout PvP piece: healer/ret gloves 30 sta / 20 int / 2% spell crit / +40 healing"}
+    - {id: "1487442560191434856", era: post-1.18.1, agreement: consensus, claim: "PvP healer mace (92 healing + mp5) beats Jind'o Hexer for holy PvP"}
+    - {id: "1489382932161495110", era: post-1.18.1, agreement: contested, claim: "Bubble switched off in rated arena"}
+    - {id: "1441426127284473877", era: 1.18.1-announced-pre-release, agreement: single source, claim: "Lay on Hands is disabled in arena"}
+    - {id: "1489674002254528573", era: post-1.18.1, agreement: consensus, claim: "Hand of Sacrifice damage no longer breaks CC (1.18.0 change in anticipation of arenas)"}
+    - {id: "1490581333637070860", era: post-1.18.1, agreement: contested, claim: "Divine Shield penalty disputed: 'another 10% penalty on bubble' (-70%)"}
+    - {id: "1467173434726547698", era: post-1.18.1, agreement: contested, claim: "Divine Shield 'reduces healing taken and done by 50%' - separate contested report"}
+    - {id: "1434479918317703300", era: 1.18.1-announced-pre-release, agreement: consensus, claim: "Free Action Potion substitutes for Hand of Freedom for the WSG flag carrier"}
+    - {id: "1450987301416075294", era: 1.18.1-announced-pre-release, agreement: consensus, claim: "Hand of Freedom is countered by simply turning and running; it is also dispellable"}
+  cross_channel:
+    - {channel: pvp-general, id: "1370761645491748996", era: pre-1.18.1, agreement: consensus, claim: "'Holy pala and restohance shaman a/s tier'"}
+    - {channel: pvp-general, id: "1353324094954934314", era: pre-1.18.1, agreement: single source, claim: "mtnd's list puts Hpal and Protpal in S tier; 'Hpal, (3 times as unkillable than 1.12)'"}
+    - {channel: pvp-general, id: "1104024920343720007", era: pre-1.18.1, agreement: single source, claim: "'holy pala is particularly rare and very strong' in pugs"}
+    - {channel: pvp-general, id: "1315720921260101725", era: pre-1.18.1, agreement: single source, claim: "Prot paladin: 7k hp, ~60% physical DR, loses to Soul Link"}
+  matchups: "see kb/synthesis/classes/paladin/holy-pvp.md and staging/paladin-pvp/matchups.yaml; worst matchups are Purge shaman, mage, Soul Link warlock and shadow priest"
 talents:
-  build_name: "not posted (pieces named: Blessed Strikes 5/5, Divine Favor, Holy Judgement, Daybreak, Spiritual Focus)"
-  points: []
+  build_name: "Holy PvP core 35 pts ('mainly for pvp', link spends 35/51) + the standard 38/0/13 hpal tree"
+  build_link: "https://talents.turtlecraft.gg/paladin?points=AoaAYCdQpAYAB--"
+  build_link_note: "The Perrapys link decodes to a legal Holy 35-point core; the remaining 16 points were left unspent in the link, so the exact 51-point finish is unknown."
+  points:
+    - {tree: Holy, talent: Divine Intellect, rank: 5, spell_id: 20261}
+    - {tree: Holy, talent: Holy Judgement, rank: 3, spell_id: 51308}
+    - {tree: Holy, talent: Spiritual Focus, rank: 2, spell_id: 20206}
+    - {tree: Holy, talent: Healing Light, rank: 3, spell_id: 20239}
+    - {tree: Holy, talent: Unyielding Faith, rank: 2, spell_id: 25836}
+    - {tree: Holy, talent: Improved Concentration Aura, rank: 3, spell_id: 20256}
+    - {tree: Holy, talent: Illumination, rank: 5, spell_id: 20215}
+    - {tree: Holy, talent: Ironclad, rank: 2, spell_id: 51311}
+    - {tree: Holy, talent: Divine Favor, rank: 5, spell_id: 51316}
+    - {tree: Holy, talent: Holy Shock, rank: 1, spell_id: 20473}
+    - {tree: Holy, talent: Holy Power, rank: 3, spell_id: 5925}
+    - {tree: Holy, talent: Daybreak, rank: 1, spell_id: 51323}
+  standard_points:
+    build_name: "38/0/13 hpal (Holy tree as above minus Unyielding Faith 2 / Imp Conc Aura 3, plus Imp Lay on Hands 2, Sanctity Aura 1, Blessed Strikes 5; Ret 13: Imp Blessings 5, Benediction 5, Imp Judgement 2, BoK 1)"
+    note: "Support variant swaps Improved Concentration Aura for the CC-resist aura (silence/fear resist vs locks, spriests and warriors) [[d:paladin#1431289140644937758]] [[d:paladin#1315974293678723093]]"
   leveling_order: []
 stat_weights:
-  stamina: "high (opponents complain Holy Paladins cannot be killed by one DPS)"
+  stamina: "high (opponents complain Holy Paladins cannot be killed by one DPS; 'pvp differs from pve for holy [only] for stam requirements' [[d:paladin#1487443771523203184]])"
   healing_power: "high"
+  spell_crit: "medium (Daybreak/Illumination; pre-1.18.1)"
 caps: {}
 rotation_single:
   - {priority: 1, action: "stay in melee with Seal of Wisdom; Holy Shock the ally in need", condition: "always"}
-  - {priority: 2, action: "Crusader Strike", condition: "Holy Shock on cooldown (Blessed Strikes reset)"}
+  - {priority: 2, action: "Crusader Strike", condition: "Holy Shock on cooldown (Blessed Strikes reset) - keeps heals instant and on the move [[d:paladin#1484823910041260132]]"}
   - {priority: 3, action: "Hammer of Justice", condition: "enemy healer/DPS in range"}
   - {priority: 4, action: "Hand of Freedom / Hand of Protection / Cleanse", condition: "flag carrier slowed; physical focus; debuffs"}
-  - {priority: 5, action: "Divine Shield and keep healing", condition: "focused; avoid casting into an interrupt with bubble down"}
+  - {priority: 5, action: "Divine Shield and keep healing", condition: "focused; avoid casting into an interrupt with bubble down; disabled in rated arena [[d:paladin#1489382932161495110]]"}
 rotation_aoe: []
 aoe_threshold: 0
 cooldowns:
-  - {name: Divine Shield, use_when: "focused; heals unaffected"}
-  - {name: Hand of Freedom, use_when: "flag carrier / kited ally (24-s CD)"}
-  - {name: Hammer of Justice, use_when: "peel / setup kill"}
+  - {name: Divine Shield, use_when: "focused; heals unaffected; disabled in rated arena; -60% damage dealt (post-patch reported as -70% or -50% healing, contested)"}
+  - {name: Hand of Freedom, use_when: "flag carrier / kited ally (24-s CD); countered by running/dispel; FAP can substitute"}
+  - {name: Hammer of Justice, use_when: "peel / setup kill; Imp HoJ + old PvP set drops it to ~30 s"}
+  - {name: Lay on Hands, use_when: "emergency; DISABLED in arena"}
 resource_rules:
   - "Seal of Wisdom melee for mana"
-consumables: []
+consumables:
+  - "Tea with Sugar / Herbal Tea (no potion CD), Major Mana Potion, Frost Oil, sappers/thorium grenades (stun), Free Action Potion, Living Action Potion, low-rank scrolls [[d:paladin#1431563512550785124]] [[d:paladin#1455759403100803173]] [[d:paladin#1434479918317703300]]"
+  - "Engineering is the PvP profession [[d:paladin#1491337490085445834]]"
 mistakes_to_avoid:
   - "Trying to out-range casters instead of the Crusader Strike -> Holy Shock loop"
   - "Casting with bubble on cooldown into a kick"
   - "Chasing kiters"
+  - "Using 2h instead of 1h + shield as a support healer [[d:paladin#1493010360322621630]]"

@@ -51,6 +51,36 @@ No source gives a single authoritative point-by-point table for the post-Class-C
 - **Spec choice matters more**: tanking is explicitly recommended over Resto for Hardcore/dungeon-leveling because "it's very hard to level as Resto and tanks are in short supply" — [Cyrin23 (player), 2024-11-09](https://forum.turtlecraft.gg/viewtopic.php?p=107212#p107212). No Hardcore-specific talent build beyond this general steer was found — **gap** (a dedicated "HC druid talent build" thread, t14029, yielded only the pre-CC2 build discussed in Talent point order above, and a second HC thread, t15497, yielded only the tank-over-resto steer).
 - **General caution**: no Hardcore-specific pulling/safety advice (mob-count limits, downtime buffers) beyond the standard leveling playstyle notes above was found in sources — **gap**.
 
+## Discord leveling additions (per-bracket route and decoded talent order)
+
+The `#druid` pins and the decoded calculator links close the "no per-level table" gap. The pinned feral leveling build is a decoded **Balance 11 / Feral 35 / Restoration 5** (screenshot, 2026-03-20 era) [[d:druid#1413144334336790652]].
+
+### Per-bracket route
+
+| Bracket | Spec | Play | Sources |
+|---|---|---|---|
+| 1–10 | any | "1-10 wrath spam"; no Bear Form until 10 | [[d:druid#1359148907841458309]] [[d:druid#1304615970706558986]] |
+| 10–19 | bear/caster | "10-22 bear" — Bear Form + Swipe cleave; Balance opens Sylvan Blessing 2/2 + Imp Wrath | [[d:druid#1359148907841458309]] [[d:druid#1473297976796381358]] |
+| 20–29 | cat | Cat Form at 20 makes Feral dominant; "23+ cat"; bear safer / cat quicker | [[d:druid#1359148907841458309]] [[d:druid#1294200479781355572]] [[d:druid#1294200215435219027]] |
+| 30–39 | feral (respec) / balance | **Respec into Omen of Clarity at 30** when Travel Form arrives; Balance gets Moonkin Form at 30 (20% mana reduction) | [[d:druid#1413144334336790652]] [[d:druid#1302038881763594301]] [[d:druid#1379911302243418293]] |
+| 40–49 | feral/balance | Feral: Predatory Strikes, Blood Frenzy, Imp Shred, Heart of the Wild. Balance: Eclipse → Imp Starfire → Guidance → Vengeance. Feral Barkskin ranks at 44/52/60 | [[d:druid#1304615970706558986]] |
+| 50–60 | feral/balance | Feral: Berserk, Heart of the Wild 5, Leader of the Pack, Carnage. Balance: Vengeance 5, Imp MotW, Subtlety | [[d:druid#1304615970706558986]] |
+
+### Feral pick-order variants (all cited in-channel)
+
+- **Pinned**: Feral Swiftness first; at **level 30 respec into Omen of Clarity**; then continue down Feral. "You can tank every leveling dungeon in this spec. If you equip int/spirit gear you can also heal them just fine." [[d:druid#1413144334336790652]]
+- Feline Swiftness → Omen at Travel Form (30) [[d:druid#1290712178319687690]]; Omen first if duoing [[d:druid#1290810516998062122]]; Omen → Feral Swiftness → Ancient Brutality [[d:druid#1384614988605292545]]; race to Feral Swiftness → 1 Feral Charge → 5 Furor → respec at 30 [[d:druid#1362190023864226084]].
+- **Bear-during-leveling pick order** by Allfather [[d:druid#1308610613273956403]].
+- **Balance pick order, post-1.18.1**: Imp Wrath → Sylvan Blessing → Natural Weapons → Imp Moonfire → Omen → Moonfury → Moonglow → 1/5 Vengeance → Moonkin Form → Imp Starfire → Nature's Grace → BoAT → Eclipse [[d:druid#1473297976796381358]]; the pre-1.18.1 order is longer [[d:druid#1304615970706558986]].
+
+### Other Discord leveling facts
+
+- **Feral leveling weapon progression**: Smite's Mighty Hammer 18 → Manual Crowd Pummeler 28 → Thornroot Maul 32 → Grimlock's Charge 42 → Ice Barbed Spear 51 → gear sheet at 60 [[d:druid#1484464772115206204]].
+- **Travel/mount speeds** (baseline): Bear 10, Cat 20, Travel 30 (40% speed), mount 60% at 40, epic 100% at 60; Swift Travel Form comes from the Mount Hyjal In Turmoil questline (Loganaar, Moonglade) [[d:druid#1316582411949051924]] [[d:druid#1325097793362071574]].
+- **Professions**: Engineering for performance (sapper charge/crafted pummeler), Alchemy + Herbalism for money/supply/consume comfort, Leatherworking/Tailoring valid; "almost no items are profession locked except some engi items" [[d:druid#1304924934874857503]] [[d:druid#1268263442264100946]] [[d:druid#1264982518831255647]] [[d:druid#1264989306552844288]].
+- **Hit caps while leveling**: melee 8% (5% with Natural Weapons 3/3); weapon is a stat stick and chance-on-hit does not work in form [[d:druid#1412860092692299806]] [[d:druid#1013833314651603015]].
+- **Crit-aura quirk**: Moonkin/personal crit auras snapshot at shift time and do not refresh on gear change until re-shifting [[d:druid#1292304809898020886]].
+
 ## Sources
 
 | Post | Author (authority) | Date | Era | Agreement |
@@ -66,3 +96,4 @@ No source gives a single authoritative point-by-point table for the post-Class-C
 | [p20164](https://forum.turtlecraft.gg/viewtopic.php?p=20164#p20164)–[p20182](https://forum.turtlecraft.gg/viewtopic.php?p=20182#p20182) (t=3313) | Templar44, Markuis, Augustfenix85, Geojak (players) | 2022-07-21 | pre-1.18.1, pre-Class-Changes | historical context only — predates the CC1/CC2 reworks, not used for current guidance |
 | [p102966](https://forum.turtlecraft.gg/viewtopic.php?p=102966#p102966) | Dragunovi (staff) | 2024-10-12 | pre-1.18.1 | official — Swift Travel Form, Barkskin (Feral) learn levels |
 | [p26875](https://forum.turtlecraft.gg/viewtopic.php?p=26875#p26875) | Geojak (player) | 2022-10-06 | pre-1.18.1 | single source — profession pairing |
+| `#druid` Discord — pinned build + per-bracket route, pick orders, weapon progression, professions | Fat Pibble (staff), AstroChris, Karina, Allfather, Trekoer, Micro Jackson, Angrycat/Powershift (players) | 2025-06 → 2026-04 | 1.18.1-announced-pre-release / post-1.18.1 | consensus on bracket route, single-source on variants |

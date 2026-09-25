@@ -42,14 +42,30 @@ agreement: consensus
 patch_validity:
   written_for: "1.17.2 (Class Changes 2) and 1.18.0 (Chain Heal coefficient/Spirit Link/Totemic Mastery rework)"
   valid_for_1181: true
-  notes: "'No changes for resto shamans in 1.18.1' beyond the Resto T1 8-set rework (spread-heal proc replaced by a 25% chance for a 250-damage absorb on Healing Wave/Lesser Healing Wave); talents, coefficients and the healing priority are unaffected."
+  notes: "'No changes for resto shamans in 1.18.1' beyond the Resto T1 8-set rework (spread-heal proc replaced by a 25% chance for a 250-damage absorb on Healing Wave/Lesser Healing Wave); talents, coefficients and the healing priority are unaffected. Discord confirms '1.18.1 changes nothing else for Resto' and adds the post-1.18.1 rank/rotation detail and the 'dead bonus' verdict on the replacement in `discord:` below."
 talents:
-  build_name: "Standard 0/8/43 (deep Restoration with Enhancement filler)"
-  build_link: null
+  build_name: "Standard 0/8/43 (deep Restoration with Enhancement filler; the exact 43 points are now enumerated from Discord)"
+  build_link: "https://talents.turtlecraft.gg/shaman?points=-FAAY-FoDoaIFYQKFAB"
   points:
-    - {tree: Enhancement, talent: "Ancestral Knowledge", rank: 5, spell_id: null}
-    - {tree: Enhancement, talent: "Stable Shields", rank: 3, spell_id: null, note: "synergizes with Improved Water Shield"}
-    - {tree: Restoration, talent: "most of the tree", rank: 43, spell_id: null, note: "no source enumerates the exact 43 points; Improved Reincarnation and Nature's Grace are the commonly skipped fillers"}
+    - {tree: Enhancement, talent: "Ancestral Knowledge", rank: 5, spell_id: 17489}
+    - {tree: Enhancement, talent: "Stable Shields", rank: 3, spell_id: 16291, note: "synergizes with Improved Water Shield"}
+    - {tree: Restoration, talent: "Improved Healing Wave", rank: 5, spell_id: 16229, note: "the full 43-point allocation, stable 2024-10 -> 2026-04 ([[d:shaman#1296270828614193172]] -> [[d:shaman#1492915776087134350]])"}
+    - {tree: Restoration, talent: "Tidal Focus", rank: 5, spell_id: 16217}
+    - {tree: Restoration, talent: "Ancestral Healing", rank: 3, spell_id: 16240}
+    - {tree: Restoration, talent: "Tidal Mastery", rank: 5, spell_id: 16221}
+    - {tree: Restoration, talent: "Healing Way", rank: 3, spell_id: 29202}
+    - {tree: Restoration, talent: "Healing Focus", rank: 2, spell_id: 16230}
+    - {tree: Restoration, talent: "Totemic Mastery", rank: 1, spell_id: 16189}
+    - {tree: Restoration, talent: "Restorative Totems", rank: 5, spell_id: 16208}
+    - {tree: Restoration, talent: "Improved Water Shield", rank: 3, spell_id: 51371}
+    - {tree: Restoration, talent: "Tidal Surge", rank: 2, spell_id: 51492}
+    - {tree: Restoration, talent: "Ancestral Swiftness", rank: 1, spell_id: 16188}
+    - {tree: Restoration, talent: "Undertow", rank: 2, spell_id: 51373}
+    - {tree: Restoration, talent: "Improved Chain Heal", rank: 5, spell_id: 51378}
+    - {tree: Restoration, talent: "Spirit Link", rank: 1, spell_id: 51363, note: "common raid build; Skegg's dungeon-farming variant skips it while gearing"}
+  variant_healing_wave:
+    build_name: "Chain-Heal-free Healing-Wave build 0/22/29 (pre-1.18.1 only)"
+    note: "r3/r6-10 Healing Wave spam, 7-13 haste, no shield; mana effectively infinite via Healing Way / Tidal Surge / T1 8-set bounces. Only worked with the old T1 8-set. [[d:shaman#1445177080668229713]], [[d:shaman#1465798907492827137]]"
   leveling_order:
     - {level: 51, tree: Restoration, talent: "respec: Improved Water Shield with Stable Shields first"}
     - {level: 60, tree: Restoration, talent: "finish every Restoration talent except Improved Reincarnation, Healing Focus and Spirit Link (Skegg's dungeon-farming path only; raiders take Spirit Link)"}
@@ -58,7 +74,15 @@ stat_weights:
   camp_a: "Ignore mp5/spirit/%mana-regen gear; stack Intellect and +healing; farm tea and gold for Major Mana Potions; downranking solves mana issues (Grubi450)"
   camp_b: "Have at least +10% mana-regen-while-casting gear until T2/T2.5; keep a Spirit of Zanza on cooldown (Akos1896, partly superseded by the 2024-12-20 Water Shield regen talents)"
   int: "as much as possible; ~4k mana pool recommended on a badly geared Resto shaman"
-  haste: "the old T1 8-set needed a full haste stack to work; with the set gone (1.18.1) no haste target exists (gap)"
+  haste: "the old T1 8-set needed a full haste stack to work; with the set gone (1.18.1) no haste target exists in the forum KB -- Discord fills it: 1% haste ~= 15 +healing (Not Normal) or ~20 +healing at 1200 healing (peter_hammer), soft cap = the 1.5 s GCD"
+  discord_numbers:
+    haste: "1% haste ~= 15 +healing [[d:shaman#1454137300031246456]]; ~20 +healing at 1200 healing / 20% crit [[d:shaman#1425115694739095632]]; soft cap = the 1.5 s GCD for Chain Heal [[d:shaman#1477569610671853578]]"
+    crit: "1% crit ~= 12 +healing but only 5-8 +healing on HW/CH ranks [[d:shaman#1454137300031246456]], [[d:shaman#1457846645872918700]]; called near-useless for Resto (50% bonus converts to overheal) [[d:shaman#1457838505907454105]], [[d:shaman#1455717313545502720]]"
+    mp5: "largely dead post-1.18.0; cross-faction access to Blessing of Wisdom and Shaman Mana Spring devalues mp5, and 'all mp5 is now mp2' [[d:shaman#1404579043088793791]], [[d:shaman#1378303011834691645]], [[d:shaman#1424163612141948928]]"
+    camp_b_superseded: "camp_b is superseded by the post-1.18.0 Discord consensus: haste is the throughput stat, mp5 is de-prioritised [[d:shaman#1404579043088793791]]"
+    water_shield: "9 orbs with Stable Shields; Improved Water Shield = 3% regen/orb + 6% -> ~33% meditation equivalent [[d:shaman#1296623038556541039]], [[d:shaman#1402621429559853098]]"
+    era: mixed
+    agreement: "mixed (consensus mp5 dead; single source equivalences)"
 caps: {}
 rotation_single:
   - {priority: 1, action: "Totems before pull: Windfury/Strength of Earth/Flametongue/Mana Spring in a melee group (Grace of Air for hunters/druids, Tranquil Air for casters); Water Shield on", condition: "pre-pull"}
@@ -96,5 +120,124 @@ mistakes_to_avoid:
   - "Healing Wave spam expecting the old T1 8-set spread proc (removed 2026-03-20)"
   - "Chasing mana-regen gear over +healing once past T2/T2.5 gear (contested for fresh 60s)"
   - "Casting Earth Shield in Ghost Wolf form (not possible since 2024-11-20)"
+  - "Assuming Earth Shield can be cast on the tank -- it is self-cast only (players asked twice for an ally version; never added) [[d:shaman#1296809224386379880]], [[d:shaman#1474496084549177599]]"
   - "Using max-rank Earth Shock to interrupt as a healer (pulls the mob onto you)"
   - "Dropping Searing Totem near CC'd mobs"
+
+discord:
+  channel: shaman
+  scope: "Restoration additions from the archived #shaman Discord (2021-02-15 -> 2026-05). Every claim carries a [[d:shaman#<id>]] citation, an era (cc2 | 1180 | 1.18.1-announced-pre-release | post-1.18.1) and agreement (consensus | single source | contested)."
+  builds:
+    - name: "Standard 0/8/43 (exact allocation enumerated)"
+      split: {Enhancement: 8, Restoration: 43}
+      code: -FAAY-FoDoaIFYQKFAB
+      sources: ["[[d:shaman#1358870710474375221]]", "[[d:shaman#1358871932073672886]]", "[[d:shaman#1484894131515035779]]", "[[d:shaman#1492915776087134350]]"]
+      era: "mixed"
+      agreement: consensus
+      note: "The forum KB's 'no source enumerates the exact 43 points' gap is closed: Enh Ancestral Knowledge 5 + Stable Shields 3; Resto Improved Healing Wave 5, Tidal Focus 5, Ancestral Healing 3, Tidal Mastery 5, Healing Way 3, Healing Focus 2, Totemic Mastery 1, Restorative Totems 5, Improved Water Shield 3, Tidal Surge 2, Ancestral Swiftness 1, Undertow 2, Improved Chain Heal 5, Spirit Link 1. Identical allocation from a 2024-10 grid code to a 2026-04 dash code; skipped fillers are Improved Reincarnation and Nature's Grace."
+      allocation:
+        - {tree: Enhancement, talent: Ancestral Knowledge, rank: 5, spell_id: 17489}
+        - {tree: Enhancement, talent: Stable Shields, rank: 3, spell_id: 16291}
+        - {tree: Restoration, talent: Improved Healing Wave, rank: 5, spell_id: 16229}
+        - {tree: Restoration, talent: Tidal Focus, rank: 5, spell_id: 16217}
+        - {tree: Restoration, talent: Ancestral Healing, rank: 3, spell_id: 16240}
+        - {tree: Restoration, talent: Tidal Mastery, rank: 5, spell_id: 16221}
+        - {tree: Restoration, talent: Healing Way, rank: 3, spell_id: 29202}
+        - {tree: Restoration, talent: Healing Focus, rank: 2, spell_id: 16230}
+        - {tree: Restoration, talent: Totemic Mastery, rank: 1, spell_id: 16189}
+        - {tree: Restoration, talent: Restorative Totems, rank: 5, spell_id: 16208}
+        - {tree: Restoration, talent: Improved Water Shield, rank: 3, spell_id: 51371}
+        - {tree: Restoration, talent: Tidal Surge, rank: 2, spell_id: 51492}
+        - {tree: Restoration, talent: Ancestral Swiftness, rank: 1, spell_id: 16188}
+        - {tree: Restoration, talent: Undertow, rank: 2, spell_id: 51373}
+        - {tree: Restoration, talent: Improved Chain Heal, rank: 5, spell_id: 51378}
+        - {tree: Restoration, talent: Spirit Link, rank: 1, spell_id: 51363}
+    - name: "Chain-Heal-free Healing-Wave build 0/22/29 (pre-1.18.1 only)"
+      split: {Enhancement: 22, Restoration: 29}
+      sources: ["[[d:shaman#1445177080668229713]]", "[[d:shaman#1465798907492827137]]"]
+      era: 1.18.1-announced-pre-release
+      agreement: single source
+      note: "Healing Wave r3 (most mana-efficient) / r4 (near-max scaling) spam with 7-13 haste and no shield; mana effectively infinite via Healing Way + Tidal Surge + the old T1 8-set bounces. Dead once the T1 8-set changed."
+  rotation_single:
+    - action: "Chain Heal rank 1 spam is the default raid heal (max rank when heavy raidwide damage lands); Healing Wave rank 4/5 for isolated single-target damage (r3 most mana-efficient, r4 near-max scaling); Lesser Healing Wave only for emergencies (giga mana inefficient, never a routine raid heal); rank-1 Healing Wave pre-pull to set Healing Way and fish the Ancestral Fortitude proc."
+      condition: "post-1.18.1 raid consensus"
+      sources: ["[[d:shaman#1380694277461512214]]", "[[d:shaman#1489450604236509245]]", "[[d:shaman#1489450669936218213]]", "[[d:shaman#1490120632711516312]]", "[[d:shaman#1487131827796836525]]", "[[d:shaman#1489450784704823316]]", "[[d:shaman#1410288522526457928]]"]
+      era: mixed
+      agreement: consensus
+    - action: "R1 -> R2 Chain Heal base-heal gap ~92.5, i.e. ~149 +healing; LHW is never downranked (HW r3 already casts 1.7 s)."
+      condition: "rank selection"
+      sources: ["[[d:shaman#1425200401577152583]]", "[[d:shaman#1487131827796836525]]", "[[d:shaman#1464784154250969201]]"]
+      era: mixed
+      agreement: "consensus (rank guide) / single source (numbers)"
+  rotation_aoe:
+    - action: "Chain Heal is the only AoE heal; Healing Stream Totem is the supplementary AoE heal. No numeric target threshold exists in the channel."
+      targets_min: 3
+      sources: ["[[d:shaman#1470854987251847449]]", "[[d:shaman#1429871523447050396]]"]
+      era: 1.18.1-announced-pre-release
+      agreement: consensus
+  totems:
+    - "Totems are off-GCD auras, four droppable at once, stack with oils/poisons; totem twisting is dead post-CC2 [[d:shaman#1361235720567525467]], [[d:shaman#1482118867835687032]]."
+    - "Cleansing totems are the best water totems: instant/off-GCD, cover the whole party instead of Decursive, and do not trigger the Loatheb debuff [[d:shaman#1377134664648757300]], [[d:shaman#1380690300531380234]], [[d:shaman#1376906060614467704]]."
+    - "Mana Spring is weaker than Blessing of Wisdom and is not buffed by Resto talents; it is used to refill between pulls [[d:shaman#1374677881292197938]]."
+    - "Healing Stream is the useful dungeon/raidwide-damage option; contested as 'still bad' [[d:shaman#1374680418707574838]], [[d:shaman#1429871523447050396]], [[d:shaman#1410229297482043403]]."
+    - "Totem of Calming River is the Resto BiS totem until Naxx (+8 mp5 while Water Shield active, +10 mana per pop, amplified by Improved Water Shield) [[d:shaman#1440622702930169946]], [[d:shaman#1416210028657901588]]; Totem of Flowing Water grants party effects on water totems [[d:shaman#1424838222546210907]]."
+  earth_shield:
+    cast_target: "self only -- players asked twice for a talent to cast it on allies and it was never added [[d:shaman#1296809224386379880]], [[d:shaman#1474496084549177599]]"
+    healer_use: "30% pushback reduction stacking with Healing Focus 70% to 100% [[d:shaman#1416160312729796809]]"
+    scaling: "scales with healing power; can crit and proc Ancestral Healing [[d:shaman#1435024400545091725]], [[d:shaman#1406331865610190978]]"
+    era: "mixed"
+    agreement: consensus
+  cooldowns:
+    - name: Spirit Link
+      use: "30% of damage split among three linked allies, 20 s, 10-min CD (1.18.0). Loatheb (usable during the silence, rotate between Resto shamans); Maexxna (before web wrap); enrage/tank-burst phases. Some raiders call it near-useless in Naxx/K40 -- contested."
+      sources: ["[[d:shaman#1303893673603502080]]", "[[d:shaman#1374680596713832480]]", "[[d:shaman#1379431123049779222]]", "[[d:shaman#1365147055802290199]]"]
+      era: "pre-1.18.1"
+      agreement: contested
+    - name: Ancestral Swiftness
+      use: "instant-cast emergency heal; instant rank-5 HW as the single-target 'fuck-up button'; mandatory for raiding/dungeons alongside Healing Focus [[d:shaman#1464784154250969201]], [[d:shaman#1358871932073672886]], [[d:shaman#1438519559446466580]]."
+      era: "mixed"
+      agreement: consensus
+  stat_weights:
+    order_a: "Healing power > crit > haste > int > stam > mp5 > agi > str > spirit [[d:shaman#1446485791671980104]]"
+    order_b: "Healing power -> enough stamina -> enough mana -> crit and haste [[d:shaman#1428075745908883639]]"
+    critique: "crit 'does literally nothing useful for resto' -- 50% bonus, converts to overheal [[d:shaman#1457838505907454105]]"
+    mp5: "avoid mp5, stack haste; Water Shield + Blessing of Wisdom + 20-s teas cover sustain [[d:shaman#1404579043088793791]]"
+    spirit: "weak on Resto, no in-combat regen [[d:shaman#1424163612141948928]]"
+    hit: "no hit rating needed for healing [[d:shaman#1377193056213794837]]"
+    haste_cap: "soft cap = the 1.5 s GCD for Chain Heal [[d:shaman#1477569610671853578]]"
+    era: "mixed"
+    agreement: contested
+  set_bonuses:
+    t1_8set_pre: "HW/LHW bounces to two nearby allies, and the bounces act as full Healing-Wave events: Undertow can proc multiple times per cast and Healing Way applies at 100%, yielding ~36% mana returned per cast; ~126-154 total healing power on the set, yet BiS through Naxx for many [[d:shaman#1305074980530290710]], [[d:shaman#1311208584058503218]], [[d:shaman#1429875953844355234]], [[d:shaman#1429862467693056151]]"
+    t1_8set_post: "HW/LHW 25% chance to absorb 250 damage for 6 s (1.18.1); players universally call it a dead bonus and a nerf [[d:shaman#1465314216352288791]], [[d:shaman#1464641964132663409]], [[d:shaman#1474959812721643632]]"
+    t3: "6/6 gives 6% resilience + 35 stamina; bonuses called mediocre, high stats [[d:shaman#1487677651031294022]], [[d:shaman#1467837081526075574]]"
+    t35: "5-set crit scales with Healing Way stacks; strong when T1 shamans spread stacks, now mostly single-target [[d:shaman#1464912167441793168]], [[d:shaman#1432497254203396197]]"
+    best_combos: "pre-1.18.1 8/8 T1 or 3/8 T2 + 5/5 T2.5; post-1.18.1 5xT2 + 4xT3, or 3/8 T2 (head+legs+bracers) [[d:shaman#1477574997248839745]], [[d:shaman#1467837081526075574]]"
+    era: "mixed"
+    agreement: "consensus (T1 verdict) / single source (T3/T3.5)"
+  encounters:
+    - {boss: Loatheb, note: "healing mostly unnecessary; Spirit Link is usable during the silence and Resto shamans should rotate it; Healing Stream does not trigger the debuff", sources: ["[[d:shaman#1303893673603502080]]", "[[d:shaman#1376906060614467704]]"]}
+    - {boss: Maexxna, note: "Spirit Link the tank before web wrap, or on a one-phase kill", sources: ["[[d:shaman#1379431123049779222]]"]}
+    - {boss: Sapphiron, note: "super mana-intensive (healing every GCD); Healing Stream matters on the raidwide damage", sources: ["[[d:shaman#1301580915637747787]]", "[[d:shaman#1410229297482043403]]"]}
+    - {boss: "Kel'Thuzad", note: "the one fight where Chain Heal's harder melee bounces matter (Frost Blast)", sources: ["[[d:shaman#1311168018633592913]]"]}
+    - {boss: Kara40, note: "Chain Heal ~99% of Resto healing output; healing-power builds beat haste there", sources: ["[[d:shaman#1399898074272239617]]"]}
+    - {boss: "Naxx (composition)", note: "typical 7-10 healers, so 'too many healers' is a bad reason to stack haste", sources: ["[[d:shaman#1379388780783341609]]"]}
+  consumables:
+    - "Teas (+ ~20 s each, replaced dark/demonic runes) + Major Mana Potion on cooldown; Spirit of Zanza; Mageblood; +healing weapon oil (Wizard Oil for stronger heals); Dreamshard Elixir; stamina/mana flask if desperate; one pot + one tea ~= 1 min of max-rank Chain Heal [[d:shaman#1405880608852410368]], [[d:shaman#1416962191340343510]], [[d:shaman#1421212798633119786]]."
+  mistakes_to_avoid:
+    - "Overhealing: normal Resto overheal is ~half of effective healing; more than effective = bad gear, tank-only healing, or slower than peers [[d:shaman#1377402427463958528]]"
+    - "Spamming Chain Heal in dungeons -> OOM for no benefit; get Ancestral Swiftness + Healing Focus [[d:shaman#1470095703727411342]], [[d:shaman#1438519559446466580]]"
+    - "Using LHW as a routine raid heal (giga mana inefficient) [[d:shaman#1464642194303352916]]"
+    - "Chasing crit or mp5 over healing power + haste [[d:shaman#1457838505907454105]]"
+    - "Expecting the old T1 8-set Healing-Wave playstyle after 2026-03-20 [[d:shaman#1474959812721643632]]"
+    - "Assuming Earth Shield can be cast on the tank -- it cannot [[d:shaman#1296809224386379880]]"
+  sources:
+    - {id: "[[d:shaman#1492915776087134350]]", era: post-1.18.1, agreement: consensus, used_for: "0/8/43 enumerated (Mithreon)"}
+    - {id: "[[d:shaman#1296270828614193172]]", era: pre-1.18.1, agreement: consensus, used_for: "0/8/43 earliest decode (Chidi)"}
+    - {id: "[[d:shaman#1487131827796836525]]", era: post-1.18.1, agreement: consensus, used_for: "rank guide"}
+    - {id: "[[d:shaman#1489450784704823316]]", era: post-1.18.1, agreement: consensus, used_for: "LHW emergency-only"}
+    - {id: "[[d:shaman#1454137300031246456]]", era: 1.18.1-announced-pre-release, agreement: single source, used_for: "haste/crit +healing equivalences"}
+    - {id: "[[d:shaman#1425115694739095632]]", era: 1.18.1-announced-pre-release, agreement: single source, used_for: "haste ~20 +healing at 1200"}
+    - {id: "[[d:shaman#1477569610671853578]]", era: 1.18.1-announced-pre-release, agreement: consensus, used_for: "haste soft cap 1.5 s GCD"}
+    - {id: "[[d:shaman#1296809224386379880]]", era: pre-1.18.1, agreement: consensus, used_for: "Earth Shield self-only"}
+    - {id: "[[d:shaman#1445177080668229713]]", era: 1.18.1-announced-pre-release, agreement: single source, used_for: "0/22/29 Healing-Wave build"}

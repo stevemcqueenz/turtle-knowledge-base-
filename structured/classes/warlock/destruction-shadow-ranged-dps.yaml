@@ -16,30 +16,57 @@ agreement: contested
 patch_validity:
   written_for: "CC2 tree (30/0/21 SM/Ruin), unchanged by CC3 and 1.18.1 except renames"
   valid_for_1181: true
-  notes: "1.18.1 changed nothing structural for this build (only curse GCDs, Curse of Exhaustion/Tongues cost, Master Conjuror removal); the 2026-02 dummy tests reporting SM/Ruin far behind Affliction (250 vs 450 DPS) are the most recent data and are not contradicted."
+  notes: "1.18.1 changed nothing structural for this build (only curse GCDs, Curse of Exhaustion/Tongues cost, Master Conjuror removal); the 2026-02 dummy tests reporting SM/Ruin far behind Affliction (250 vs 450 DPS) are the most recent data and are not contradicted. Discord adds a point-by-point post-1.18.1 SM/Ruin 30/0/21 code [[d:warlock#1486103119220838540]]."
 talents:
   build_name: "SM/Ruin 30/0/21 (explicit list from LastyK + community wiki); DS/Ruin (Demonic Sacrifice) is a contested variant"
   points:
-    - {tree: Affliction, talent: "Improved Corruption", rank: 5, spell_id: null}
-    - {tree: Affliction, talent: "Grim Reach", rank: 2, spell_id: null}
-    - {tree: Affliction, talent: Nightfall, rank: 2, spell_id: null}
-    - {tree: Affliction, talent: "Improved Curse of Agony", rank: 3, spell_id: null}
-    - {tree: Affliction, talent: Malediction, rank: 1, spell_id: null}
-    - {tree: Affliction, talent: "Siphon Life", rank: 1, spell_id: null}
-    - {tree: Affliction, talent: "Shadow Mastery", rank: 5, spell_id: null}
-    - {tree: Destruction, talent: "Shadow Vulnerability (Improved Shadow Bolt)", rank: 5, spell_id: null}
-    - {tree: Destruction, talent: Cataclysm, rank: 5, spell_id: null}
-    - {tree: Destruction, talent: Bane, rank: 5, spell_id: null}
-    - {tree: Destruction, talent: Devastation, rank: 5, spell_id: null}
-    - {tree: Destruction, talent: "Destructive Reach", rank: 2, spell_id: null}
-    - {tree: Destruction, talent: Ruin, rank: 1, spell_id: null}
+    - {tree: Affliction, talent: "Improved Corruption", rank: 5, spell_id: 17814}
+    - {tree: Affliction, talent: "Grim Reach", rank: 2, spell_id: 18219}
+    - {tree: Affliction, talent: Nightfall, rank: 2, spell_id: 18095}
+    - {tree: Affliction, talent: "Improved Curse of Agony", rank: 3, spell_id: 18830}
+    - {tree: Affliction, talent: Malediction, rank: 1, spell_id: 52546}
+    - {tree: Affliction, talent: "Siphon Life", rank: 1, spell_id: 18265}
+    - {tree: Affliction, talent: "Shadow Mastery", rank: 5, spell_id: 18275}
+    - {tree: Destruction, talent: "Shadow Vulnerability (Improved Shadow Bolt)", rank: 5, spell_id: 17803}
+    - {tree: Destruction, talent: Cataclysm, rank: 5, spell_id: 17782}
+    - {tree: Destruction, talent: Bane, rank: 5, spell_id: 17792}
+    - {tree: Destruction, talent: Devastation, rank: 5, spell_id: 18134}
+    - {tree: Destruction, talent: "Destructive Reach", rank: 2, spell_id: 17918}
+    - {tree: Destruction, talent: Ruin, rank: 1, spell_id: 17959}
+  post_1181_pinned_points:
+    label: "Post-1.18.1 SM/Ruin 30/0/21 (decoded per-tree code FoAQYASCRBF--FAVABoCAAI, 51/51 legal)"
+    split: "30 / 0 / 21"
+    points:
+      - {tree: Affliction, talent: Suppression, rank: 5, spell_id: 18178}
+      - {tree: Affliction, talent: "Improved Corruption", rank: 5, spell_id: 17814}
+      - {tree: Affliction, talent: "Improved Life Tap", rank: 2, spell_id: 18183}
+      - {tree: Affliction, talent: "Improved Curse of Agony", rank: 3, spell_id: 18830}
+      - {tree: Affliction, talent: "Grim Reach", rank: 2, spell_id: 18219}
+      - {tree: Affliction, talent: Nightfall, rank: 2, spell_id: 18095}
+      - {tree: Affliction, talent: "Soul Siphon", rank: 2, spell_id: 52559, note: "this post-1.18.1 code runs Soul Siphon 2, not the talents.md summary's full set; it also takes Malediction"}
+      - {tree: Affliction, talent: "Rapid Deterioration", rank: 2, spell_id: 52556}
+      - {tree: Affliction, talent: "Siphon Life", rank: 1, spell_id: 18265}
+      - {tree: Affliction, talent: Malediction, rank: 1, spell_id: 52546}
+      - {tree: Affliction, talent: "Shadow Mastery", rank: 5, spell_id: 18275}
+      - {tree: Destruction, talent: "Shadow Vulnerability", rank: 5, spell_id: 17803}
+      - {tree: Destruction, talent: "Demonic Swiftness", rank: 2, spell_id: 57731}
+      - {tree: Destruction, talent: Bane, rank: 5, spell_id: 17792}
+      - {tree: Destruction, talent: Shadowburn, rank: 1, spell_id: 17877}
+      - {tree: Destruction, talent: Devastation, rank: 5, spell_id: 18134}
+      - {tree: Destruction, talent: "Destructive Reach", rank: 2, spell_id: 17918}
+      - {tree: Destruction, talent: Ruin, rank: 1, spell_id: 17959}
+    sources: ["[[d:warlock#1486103119220838540]]"]
+    era: post-1.18.1
+    agreement: single source
   leveling_order: []
 stat_weights:
-  hit: "contested priority: one source says the hit cap is not mandatory (a top parser ran 7-9% hit), another says it is the one thing to bring to a first raid"
+  hit: "contested priority: one source says the hit cap is not mandatory (a top parser ran 7-9% hit), another says it is the one thing to bring to a first raid. Discord: 11-12% from gear (15-16% cap) for SM/Ruin, Demo and Fire [[d:warlock#1388995453873553489]], [[d:warlock#1387659949374443561]]"
   crit: "wanted (Ruin doubles crit damage; Shadow Vulnerability is crit-driven since 2024-12-20)"
   spell_power: "high (Shadow Bolt scales strongly; Flask of Supreme Power adds ~128 points to an average bolt)"
   stamina: "medium (T3 Plagueheart Raiment carries ~73 more stamina than the Affliction set)"
-caps: {}
+stat_priority: [hit-to-cap, crit, spell-power, stamina]
+caps:
+  gear_hit: "11-12% from gear, 15-16% cap for all Destruction builds [[d:warlock#1388995453873553489]], [[d:warlock#1387659949374443561]] (consensus); one forum source runs 7-9% and still parses (contested)"
 rotation_single:
   - {priority: 1, action: "Shadow Bolt", condition: "Nightfall proc up (instant, cannot miss)"}
   - {priority: 2, action: "recast assigned raid curse", condition: "missing"}
@@ -47,9 +74,11 @@ rotation_single:
   - {priority: 4, action: "Shadowburn", condition: "target below Shadowburn health range, or fight ending, or moving (costs a shard)"}
   - {priority: 5, action: "Shadow Bolt", condition: "default filler"}
   - {priority: 6, action: "Life Tap", condition: "mana below one Shadow Bolt's cost"}
+  - {priority: 7, action: "Keep curses + Corruption, otherwise Shadow Bolt; Siphon Life dropped for threat", condition: "Discord-confirmed SM/Ruin rule [[d:warlock#1428791458672021596]]", sources: ["[[d:warlock#1428791458672021596]]"], era: 1.18.1-announced-pre-release, agreement: "consensus (forum KB)"}
 rotation_aoe:
   - {targets_min: 2, priority: 1, action: "Corruption (+ Curse of Agony if Malediction) on each, Shadow Bolt the kill target", condition: "2-3 targets"}
   - {targets_min: 4, priority: 1, action: "Rain of Fire or Hellfire", condition: "4+ targets; Fire is resisted in Molten Core/Blackwing Lair"}
+  - {targets_min: 3, priority: 2, action: "Affliction-style multi-dot is not this build's job", condition: "SM/Ruin is a single-target Shadow Bolt turret; the channel notes only ~55-60% of its damage is Shadow Bolt, so hit/crit are less mandatory than assumed [[d:warlock#1490901049777721516]]", sources: ["[[d:warlock#1490901049777721516]]"], era: post-1.18.1, agreement: single source}
 aoe_threshold: 4
 cooldowns:
   - {name: Shadowburn, use_when: "target near death or fight ending; costs a shard"}
@@ -58,6 +87,7 @@ resource_rules:
   - "Life Tap is the mana engine, scaled by Improved Life Tap and Shadow Mastery"
   - "Shadowburn and Soul Fire (if used) each cost a shard; Soul Fire is not part of this rotation in any source"
   - "track Nightfall with an addon (Necrosis or TNE_Nightfall)"
+  - "DS/Ruin is contested: Discord computes the Demonic Sacrifice package as only '3%-5% dps increase unless demon dies to raid mechanics' over keeping the Imp, and the Fire/Destro demonless dip reaches the same +10% (Imp sac +4% + Soul Entrapment 6%) [[d:warlock#1404709089526677505]], [[d:warlock#1405348590494285984]]"
 consumables:
   - "Flask of Supreme Power"
   - "resist potions per raid"
@@ -68,3 +98,14 @@ mistakes_to_avoid:
   - "Summoning Infernal without Demonology talents (uncontrolled, disruptive)"
   - "Casting Siphon Life for 'free' damage in a threat-limited raid"
   - "Letting the Imp die to AoE and losing Blood Pact instead of parking it with Take Position or sacrificing it on unavoidable-pet-damage fights"
+  - "Believing SM/Ruin is still the 2026 raid default — the channel's post-1.18.1 consensus is Affliction by default and Demonology on short fights, with SM/Ruin behind [[d:warlock#1439237831410188408]], [[d:warlock#1483576857428361257]]"
+discord:
+  channels: [warlock]
+  agreement: "mixed — consensus that SM/Ruin trails Affliction/Demonology post-1.18.1; single-source 30/0/21 post-release code"
+  eras: [pre-1.18.1, 1.18.1-announced-pre-release, post-1.18.1]
+  sources:
+    - {cite: "[[d:warlock#1486103119220838540]]", era: post-1.18.1, agreement: single source, topic: "decoded post-1.18.1 SM/Ruin 30/0/21"}
+    - {cite: "[[d:warlock#1490901049777721516]]", era: post-1.18.1, agreement: single source, topic: "only 55-60% of SM/Ruin damage is Shadow Bolt; don't over-value hit/crit"}
+    - {cite: "[[d:warlock#1434152217736118352]]", era: 1.18.1-announced-pre-release, agreement: consensus, topic: "'poor man's Affliction in 1.18'; 250 vs 450 dummy DPS"}
+    - {cite: "[[d:warlock#1439237831410188408]]", era: 1.18.1-announced-pre-release, agreement: consensus, topic: "Affliction is the default; SM/Ruin superseded"}
+    - {cite: "[[d:warlock#1432489734239944796]]", era: 1.18.1-announced-pre-release, agreement: single source, topic: "demon buffs scale on fire and shadow spell power"}

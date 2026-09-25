@@ -55,3 +55,39 @@ mistakes_to_avoid:
   - "Arcane Power while Mana Shield drains you"
   - "Freecasting into an un-CC'd melee; channelling into a Felhunter/Intensity warlock"
   - "Mid range vs shamans"
+
+discord:
+  channel: mage
+  scope: "Arcane PvP additions from the archived #mage Discord (post-1.18.1 sections). Every claim carries a [[d:mage#<id>]] citation, an era and agreement."
+  patch_validity_extra: "Post-1.18.1 PvP damage is heavily dampened class/spec-wide; players report needing 13-15 Frostbolts to kill a geared melee and a Cone of Cold hitting for 71 at 700 SP [[d:mage#1485311972139335833]], [[d:mage#1491110087388037304]] (post-1.18.1, consensus on the reports; the dampening numbers were never published)."
+  rotation_single:
+    - action: "Kill pattern: Presence of Mind -> Arcane Rupture (instant) -> Arcane Missiles; PoM+trinket Rupture one-shots when it crits, and double-duplicate + Instability keep it going."
+      condition: "PoM off cooldown"
+      sources: ["[[d:mage#1491794197773156493]]", "[[d:mage#1485360017107451977]]", "[[d:mage#1491794484428537888]]"]
+      era: post-1.18.1
+      agreement: consensus
+    - action: "Do not turret Frostbolt / freecast into an un-CC'd melee; use Polymorph, Cone of Cold, Counterspell, trinkets, Ice Block + Blink for control."
+      sources: ["[[d:mage#1491494895574323224]]"]
+      era: post-1.18.1
+      agreement: single source
+  stat_weights:
+    priority: "crit > spell power > haste, plus solid stamina [[d:mage#1446156953347686441]] (post-1.18.1, single source)"
+  caps:
+    double_duplicate_crit_chance: "~1-2% per PoM window on a 650-700 SP / 30% crit mage (Kibuum, Bahamutxd) — unchanged by Discord"
+    dampening_reports: "CoC 71 at 700 SP; 13-15 Frostbolts to kill a geared melee [[d:mage#1485311972139335833]], [[d:mage#1491110087388037304]]"
+  consumables:
+    - "Free Action Potion is the standard melee counter to mage ('tryhards in pvp use them') [[d:mage#1446915765461581934]] (post-1.18.1, single source)."
+  race_choice:
+    - "Gnome Escape Artist (rogue/warrior snares) [[d:mage#1043563538557448302]]; Undead Will of the Forsaken for forced-fear fights [[d:mage#1493740921232031906]]; Orc/Troll are the PvE damage races (Troll Berserking macroed with trinkets for burst) [[d:mage#1447253910875017238]]; High Elf for speedrun mana [[d:mage#1494293691227963503]] (post-1.18.1, single source each)."
+  matchups:
+    - "Paladins shrug off CC and dominate team fights; rogues/shamans top the meta [[d:mage#1491110398357798913]], [[d:mage#1430916238699397321]] (post-1.18.1, consensus)."
+    - "Vs warriors: Dampen Magic + deadzone their Intercept [[d:mage#1491500856984600709]] (post-1.18.1, single source)."
+    - "Warlocks can one-shot and are the worst 1v1; answer with nova, blink, disengage [[d:mage#1485360017107451977]] (post-1.18.1, single source)."
+  mistakes_to_avoid:
+    - "'PomBlock' (PoM + Ice Block) remains the recommended annoying-BG build even after the damage nerfs [[d:mage#1491779826992939130]]"
+  sources:
+    - {id: "[[d:mage#1491794197773156493]]", era: post-1.18.1, agreement: consensus, used_for: "PoM Rupture kill pattern"}
+    - {id: "[[d:mage#1446952036661723289]]", era: 1.18.1-announced-pre-release, agreement: consensus, used_for: "deep frost weak, deep arcane with iceblock"}
+    - {id: "[[d:mage#1446156953347686441]]", era: 1.18.1-announced-pre-release, agreement: single source, used_for: "PvP stat priority"}
+    - {id: "[[d:mage#1491110087388037304]]", era: post-1.18.1, agreement: consensus, used_for: "dampening reports"}
+    - {id: "[[d:mage#1446915765461581934]]", era: 1.18.1-announced-pre-release, agreement: single source, used_for: "Free Action Potion counter"}

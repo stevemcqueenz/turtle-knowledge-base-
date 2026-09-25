@@ -19,24 +19,107 @@ talents:
   build_name: "Hemo/Prep control build"
   build_link: "https://talents.turtlecraft.gg/rogue?points=YoaAKADYYI--FLCYYBCARC"
   points:
-    - {tree: Subtlety, talent: Hemorrhage, rank: 1, spell_id: null}
-    - {tree: Subtlety, talent: "Bloody Mess", rank: 2, spell_id: null}
-    - {tree: Subtlety, talent: "Dirty Deeds", rank: 1, spell_id: null}
-    - {tree: Subtlety, talent: Initiative, rank: 3, spell_id: null}
-    - {tree: Subtlety, talent: "Blackjack / Improved Sap", rank: 2, spell_id: null}
-    - {tree: Subtlety, talent: Preparation, rank: 1, spell_id: null}
-    - {tree: Combat, talent: "Improved Sprint", rank: 2, spell_id: null}
-    - {tree: Subtlety, talent: Elusiveness, rank: 2, spell_id: null}
+    - {tree: Subtlety, talent: Hemorrhage, rank: 1, spell_id: 16511}
+    - {tree: Subtlety, talent: "Bloody Mess", rank: 2, spell_id: 51975}
+    - {tree: Subtlety, talent: "Dirty Deeds", rank: 1, spell_id: 14082}
+    - {tree: Subtlety, talent: Initiative, rank: 3, spell_id: 13980}
+    - {tree: Subtlety, talent: Blackjack, rank: 2, spell_id: 14094, note: "or Improved Sap"}
+    - {tree: Subtlety, talent: Preparation, rank: 1, spell_id: 14185}
+    - {tree: Combat, talent: "Improved Sprint", rank: 2, spell_id: 13875}
+    - {tree: Subtlety, talent: Elusiveness, rank: 2, spell_id: 14066}
   leveling_order: []
 talents_alt:
   build_name: "Ambush/Backstab dagger PvP build"
   build_link: "https://talents.turtlecraft.gg/rogue?points=-FQDYCDQAQB-FDaYDISABIQ"
+  decoded_builds:
+    # Decoded by staging/talents/talent_codec.py; talent_id/spell_id from kb/structured/talents/rogue.yaml.
+    - build_name: "Hemo/Cold Blood PvP — 21/8/22 (rank-14 swords)"
+      split: {Assassination: 21, Combat: 8, Subtlety: 22}
+      code: "CoYAKoAQAI-FAD-FDaQYACAJ"
+      sources: ["[[d:rogue#1489700090208583730]]"]
+      agreement: single source
+      era: post-1.18.1
+      note: "poster reports Hemo and Nox 'about equal' once on rank-14 PvP swords"
+      points:
+        - {tree: Assassination, talent: "Remorseless Attacks", rank: 2, spell_id: 14148}
+        - {tree: Assassination, talent: Malice, rank: 5, spell_id: 14142}
+        - {tree: Assassination, talent: Ruthlessness, rank: 3, spell_id: 14161}
+        - {tree: Assassination, talent: "Relentless Strikes", rank: 1, spell_id: 14179}
+        - {tree: Assassination, talent: "Throwing Weapon Specialization", rank: 2, spell_id: 13859}
+        - {tree: Assassination, talent: Lethality, rank: 5, spell_id: 14137}
+        - {tree: Assassination, talent: "Improved Poisons", rank: 2, spell_id: 14114}
+        - {tree: Assassination, talent: "Cold Blood", rank: 1, spell_id: 14177}
+        - {tree: Combat, talent: Opportunity, rank: 5, spell_id: 14075}
+        - {tree: Combat, talent: "Improved Backstab", rank: 3, spell_id: 13866}
+        - {tree: Subtlety, talent: Camouflage, rank: 5, spell_id: 14065}
+        - {tree: Subtlety, talent: "Improved Gouge", rank: 3, spell_id: 13792}
+        - {tree: Subtlety, talent: "Improved Ambush", rank: 3, spell_id: 14081}
+        - {tree: Subtlety, talent: Elusiveness, rank: 2, spell_id: 14066}
+        - {tree: Subtlety, talent: "Serrated Blades", rank: 2, spell_id: 14172}
+        - {tree: Subtlety, talent: Initiative, rank: 3, spell_id: 13980}
+        - {tree: Subtlety, talent: Blackjack, rank: 2, spell_id: 14094}
+        - {tree: Subtlety, talent: "Dirty Deeds", rank: 1, spell_id: 14082}
+        - {tree: Subtlety, talent: Preparation, rank: 1, spell_id: 14185}
+    - build_name: "Mace PvP — 0/20/31 (community post, not endorsed)"
+      split: {Combat: 20, Subtlety: 31, Assassination: 0}
+      code: "-AoAoCDFA-FACYbJCARCQYBA"
+      sources: ["[[d:rogue#1485084316349497555]]"]
+      agreement: single source
+      era: post-1.18.1
+      note: "posted as a question, not endorsed"
+      points:
+        - {tree: Combat, talent: "Lightning Reflexes", rank: 5, spell_id: 13791}
+        - {tree: Combat, talent: Precision, rank: 5, spell_id: 13845}
+        - {tree: Combat, talent: "Improved Sprint", rank: 2, spell_id: 13875}
+        - {tree: Combat, talent: Setup, rank: 3, spell_id: 14071}
+        - {tree: Combat, talent: "Concussive Blows", rank: 5, spell_id: 13803}
+        - {tree: Subtlety, talent: Camouflage, rank: 5, spell_id: 14065}
+        - {tree: Subtlety, talent: Elusiveness, rank: 2, spell_id: 14066}
+        - {tree: Subtlety, talent: "Serrated Blades", rank: 3, spell_id: 14173}
+        - {tree: Subtlety, talent: Initiative, rank: 3, spell_id: 13980}
+        - {tree: Subtlety, talent: "Improved Ghostly Strike", rank: 3, spell_id: 51972}
+        - {tree: Subtlety, talent: "Smoke Bomb", rank: 1, spell_id: 51969}
+        - {tree: Subtlety, talent: Hemorrhage, rank: 1, spell_id: 16511}
+        - {tree: Subtlety, talent: Blackjack, rank: 2, spell_id: 14094}
+        - {tree: Subtlety, talent: "Dirty Deeds", rank: 2, spell_id: 14083}
+        - {tree: Subtlety, talent: Preparation, rank: 1, spell_id: 14185}
+        - {tree: Subtlety, talent: "Bloody Mess", rank: 2, spell_id: 51975}
+        - {tree: Subtlety, talent: "Honor Among Thieves", rank: 2, spell_id: 52514}
+        - {tree: Subtlety, talent: "Tricks of the Trade", rank: 3, spell_id: 52543}
+        - {tree: Subtlety, talent: "Mark for Death", rank: 1, spell_id: 52538}
+    - build_name: "Long-lost Assassination control — 30/0/21 (no Noxious)"
+      split: {Assassination: 30, Subtlety: 21, Combat: 0}
+      code: "QoYAIoTYYIQ--FDCYYASAB"
+      sources: ["[[d:rogue#1484537921900908738]]"]
+      agreement: single source
+      era: post-1.18.1
+      note: "returning-player build; poster claims it 'explodes every other class except maybe WAR', unverified"
+      points:
+        - {tree: Assassination, talent: "Improved Eviscerate", rank: 2, spell_id: 14163}
+        - {tree: Assassination, talent: Malice, rank: 5, spell_id: 14142}
+        - {tree: Assassination, talent: Ruthlessness, rank: 3, spell_id: 14161}
+        - {tree: Assassination, talent: "Relentless Strikes", rank: 1, spell_id: 14179}
+        - {tree: Assassination, talent: Lethality, rank: 5, spell_id: 14137}
+        - {tree: Assassination, talent: "Taste for Blood", rank: 2, spell_id: 14175}
+        - {tree: Assassination, talent: "Vile Poisons", rank: 3, spell_id: 16515}
+        - {tree: Assassination, talent: "Improved Poisons", rank: 3, spell_id: 14115}
+        - {tree: Assassination, talent: "Efficient Poisons", rank: 3, spell_id: 52520}
+        - {tree: Assassination, talent: "Cold Blood", rank: 1, spell_id: 14177}
+        - {tree: Assassination, talent: Vigor, rank: 2, spell_id: 52527}
+        - {tree: Subtlety, talent: Camouflage, rank: 5, spell_id: 14065}
+        - {tree: Subtlety, talent: "Improved Gouge", rank: 3, spell_id: 13792}
+        - {tree: Subtlety, talent: Elusiveness, rank: 2, spell_id: 14066}
+        - {tree: Subtlety, talent: "Serrated Blades", rank: 3, spell_id: 14173}
+        - {tree: Subtlety, talent: Initiative, rank: 3, spell_id: 13980}
+        - {tree: Subtlety, talent: "Cloaked in Shadows", rank: 2, spell_id: 52709}
+        - {tree: Subtlety, talent: Blackjack, rank: 2, spell_id: 14094}
+        - {tree: Subtlety, talent: Preparation, rank: 1, spell_id: 14185}
 stat_weights:
   stamina: "high (PvP BiS list is Tier-3/3.5 heavy)"
   hit: "to not miss openers"
   crit: "for Ambush"
   agility: "generic"
-  stealth_level_detection: "situational gear swaps for the opener war (see gear list); no numeric weights given anywhere (gap)"
+  stealth_level_detection: "situational gear swaps for the opener war (see gear list); no numeric weights given anywhere (gap). Discord: Vanish gives 1 s spell immunity and a '+54 real levels of stealth' modifier (theory) [[d:rogue#1479856314137186385]]; a Night Elf in full +stealth gear is effectively level-65.5 stealth, detectable only by Perception [[d:rogue#1401580440078389329]]; stacking rules unresolved [[d:rogue#1413550321296212028]]"
 caps: {}
 rotation_single:
   - {priority: 1, action: "Approach from behind in stealth; Distract a turning mob/target; Sap a secondary target first if using Blackjack", condition: "opener setup"}
@@ -46,6 +129,7 @@ rotation_single:
   - {priority: 4, action: "Thistle Tea", condition: "extra builder inside the stun"}
   - {priority: 5, action: "Blind (or bandage/restealth via Improved Gouge) if the target trinkets", condition: "re-open; Preparation can redo Blind/Vanish/Sprint on the Hemo/Prep build"}
   - {priority: 6, action: "Instant or Instant/Crippling poisons only; never a DoT poison or Rupture on a target you plan to CC", condition: "always"}
+  - {priority: 7, action: "Post-1.18.1: always open with Cheap Shot rather than Ambush, even on dagger rogues; use Poison over crit because PvP gear reduces critical hits", condition: "crit-reduction 'resilience' is everywhere post-patch", sources: ["[[d:rogue#1493332911406055564]]", "[[d:rogue#1491654819138633758]]"], agreement: consensus, era: post-1.18.1}
 rotation_aoe: []
 aoe_threshold: 999
 cooldowns:
@@ -69,3 +153,59 @@ mistakes_to_avoid:
   - "Vanishing while still in melee range or with DoTs ticking on you"
   - "Assuming stealth hides you at short range against players (detection-tick jank; see leveling.md)"
   - "Expecting the Noxious Assault PvP build (assassination-pvp.yaml) to provide equivalent control"
+  - "Using Dissolvent/Corrosive on players post-1.18.1 (they do not apply) [[d:rogue#1488216301460783246]]"
+  - "Assuming Improved Sap is a BG opener: it costs 65 energy and telegraphs your position [[d:rogue#1443806889287618723]]"
+
+pvp_matchups:
+  source_note: "Discord's post-1.18.1 matchup verdicts; forum matchups are mostly pre-1.18.1. Citations resolve in evidence-rogue.jsonl / evidence-pvp-general.jsonl."
+  warrior: "contested/losing at full PvP gear post-1.18.1 [[d:rogue#1491339462997708932]], [[d:rogue#1491646337018499214]]; pre-1.18.1 rogue-favoured unless the warrior has FAP or is an Orc [[d:pvp-general#1075876537380917278]]"
+  druid: "hard losing; 'cannot win without Assassination' [[d:rogue#1417742111683645543]], [[d:rogue#1417181852879290558]]; near-unwinnable while the druid stays in bear [[d:pvp-general#1103744129785135164]]"
+  paladin: "losing pre-1.18.1 vs geared paladins; post-1.18.1 Sub rogues claim they 'easily control' paladins with cooldowns up [[d:rogue#1489352355693592637]] (contested)"
+  shaman: "contested: 'no defensive cooldown, easier target' [[d:rogue#1492644310234038463]] vs a documented full CC chain being needed [[d:rogue#1492634440856375468]]"
+  hunter: "losing; naxx survival hunters named among the hardest, kill the pet and re-Sap [[d:rogue#1419668962408661117]], [[d:pvp-general#1336091851278520433]]"
+  warlock: "losing, worse with gear; naxx affliction locks and Soul Link are hard counters [[d:rogue#1436599924669153381]], [[d:pvp-general#1138484964078399500]]"
+  priest: "undead wins ('there is literally nothing they can do' vs WotF) [[d:rogue#1417785062346330112]]; dagger rogues expected to 'smoke' mage/priest [[d:rogue#1404094602876813373]]"
+  mage: "contested; historically 'perma farmed by mages' but a dagger rogue is expected to win [[d:rogue#1403976474817462482]], [[d:pvp-general#1278955218364530803]]"
+  rogue: "decided by who lands CC/stealth first; racial stealth level and Human Perception are the levers [[d:rogue#1419668962408661117]], [[d:rogue#1436632429300420629]]"
+
+pvp_gear_discord:
+  counterplay: "post-1.18.1 anti-rogue set: ~30 nature resistance on the new PvP set, up to 21% crit reduction (AB 3/3 12% + 2-piece Arena 3% + Arena ring 3% + Belt Buckle 3%), Greater/elemental Nature Protection potions [[d:rogue#1487419470443057284]], [[d:rogue#1465337336270426224]], [[d:rogue#1484489992918139020]]"
+  weapons: "1.8-speed PvP sword claimed sub-BiS for Subtlety; 2.0-speed PvP dagger called poison-unfriendly; Alcor's off-hand is the plate answer for hemo/Prep [[d:rogue#1487857538194997330]], [[d:rogue#1487314461302984735]], [[d:rogue#1487820844712591674]]"
+  sets: "new rewards are K40 ilvl and stronger than the old PvP items, but rogues call the itemisation 'shiit for any specc of Rogue' (no agility, STR+stam only) [[d:rogue#1484635445781598238]], [[d:rogue#1487374863722352680]], [[d:rogue#1491338903439937608]]"
+  consumables: "FAPs + Crunchwrap Supremes; Engineering recommended (gnomish chicken is the only offensive DPS gadget; useful goblin gadgets are buyable) [[d:rogue#1464363487374606487]], [[d:rogue#1465020246170669089]], [[d:rogue#1470780105117667512]]"
+
+pvp_race_order:
+  source_note: "Discord's channel-local race ranking (pre-1.18.1, single detailed guide, corroborated) [[d:rogue#1360971069737140415]], [[d:rogue#1360971823780462692]], [[d:rogue#1361181395459899634]], [[d:rogue#1376712398202998886]], [[d:rogue#1435632812345524244]]"
+  alliance: "Dwarf 5/5 (Stoneform clears a rival rogue's Blind because Blind is a poison), Gnome 5/5 (Escape Artist clears nova/Concussive/Crippling, matters most on WSG), Night Elf/Human 3/5, High Elf 0/5"
+  horde: "Orc 4/5 (stun-duration reduction), Undead 4/5 (WotF + underrated Cannibalize), Goblin 4/5 (sprint, +3 dagger), Troll 2/5"
+
+discord:
+  channels: [rogue, pvp-general]
+  agreement: "contested over time — pre-1.18.1 rogue 'lower mid tier', 1.18.0 'broken', post-1.18.1 split three ways"
+  eras: [pre-1.18.1, 1.18.1-announced-pre-release, post-1.18.1]
+  sources:
+    - {cite: "[[d:rogue#1484641315361915042]]", era: post-1.18.1, agreement: single source, topic: "decoded Hemo/Prep 11/5/35 PvP build"}
+    - {cite: "[[d:rogue#1489700090208583730]]", era: post-1.18.1, agreement: single source, topic: "Hemo/Cold Blood 21/8/22"}
+    - {cite: "[[d:rogue#1493351003238694942]]", era: post-1.18.1, agreement: single source, topic: "Assa/Sub fast-weapon poison 23/0/28"}
+    - {cite: "[[d:rogue#1485084316349497555]]", era: post-1.18.1, agreement: single source, topic: "Mace PvP 0/20/31 (unendorsed)"}
+    - {cite: "[[d:rogue#1484537921900908738]]", era: post-1.18.1, agreement: single source, topic: "30/0/21 no-Noxious control build"}
+    - {cite: "[[d:rogue#1487820844712591674]]", era: post-1.18.1, agreement: single source, topic: "Nelson's hemo/Prep HaT build; HaT > Vigor; Serrated Blades useless in PvP"}
+    - {cite: "[[d:rogue#1487827015338954802]]", era: post-1.18.1, agreement: single source, topic: "HaT vs Vigor reasoning"}
+    - {cite: "[[d:rogue#1491270486402011287]]", era: post-1.18.1, agreement: consensus, topic: "Preparation is the defining utility pick"}
+    - {cite: "[[d:rogue#1479856314137186385]]", era: 1.18.1-announced-pre-release, agreement: single source, topic: "Vanish stealth/immunity numbers"}
+    - {cite: "[[d:rogue#1401580440078389329]]", era: pre-1.18.1, agreement: single source, topic: "Nelf +stealth gear detection"}
+    - {cite: "[[d:rogue#1443806889287618723]]", era: 1.18.1-announced-pre-release, agreement: single source, topic: "Improved Sap overrated in BGs"}
+    - {cite: "[[d:rogue#1438212303572172870]]", era: 1.18.1-announced-pre-release, agreement: single source, topic: "Sap -> regen swap -> Cannibalize"}
+    - {cite: "[[d:rogue#1465337336270426224]]", era: 1.18.1-announced-pre-release, agreement: single source, topic: "21% crit-reduction PvP set"}
+    - {cite: "[[d:rogue#1491338903439937608]]", era: post-1.18.1, agreement: single source, topic: "PvP sets have no agility"}
+    - {cite: "[[d:rogue#1487419470443057284]]", era: post-1.18.1, agreement: consensus, topic: "~30 nature resistance PvP set counters Instant Poison"}
+    - {cite: "[[d:rogue#1491339462997708932]]", era: post-1.18.1, agreement: contested, topic: "warrior matchup flips at full PvP gear"}
+    - {cite: "[[d:rogue#1417742111683645543]]", era: pre-1.18.1, agreement: consensus, topic: "feral matchup"}
+    - {cite: "[[d:rogue#1492634440856375468]]", era: post-1.18.1, agreement: single source, topic: "shaman full CC chain"}
+    - {cite: "[[d:rogue#1417785062346330112]]", era: pre-1.18.1, agreement: consensus, topic: "priest/WotF"}
+    - {cite: "[[d:rogue#1490678912118948052]]", era: post-1.18.1, agreement: contested, topic: "post-1.18.1 BG role"}
+    - {cite: "[[d:rogue#1441309314051735603]]", era: 1.18.1-announced-pre-release, agreement: single source, topic: "AV bunker/tower role"}
+    - {cite: "[[d:rogue#1484635445781598238]]", era: post-1.18.1, agreement: single source, topic: "new PvP rewards K40 ilvl"}
+    - {cite: "[[d:pvp-general#1075876537380917278]]", era: pre-1.18.1, agreement: consensus, topic: "rogue-vs-warrior pre-1.18.1"}
+    - {cite: "[[d:pvp-general#1138484964078399500]]", era: pre-1.18.1, agreement: consensus, topic: "rogue-vs-warlock"}
+    - {cite: "[[d:pvp-general#1103744129785135164]]", era: pre-1.18.1, agreement: consensus, topic: "rogue-vs-druid"}

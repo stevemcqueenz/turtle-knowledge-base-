@@ -1,0 +1,89 @@
+class: Paladin
+spec: Protection
+role: pvp
+sources: []
+agreement: contested
+patch_validity:
+  written_for: "1.18.1 live (post-2026-03-20), with pre-1.18.1 Discord context where marked"
+  valid_for_1181: yes
+  notes: "New coverage: the forum KB marked Protection PvP as 'none'. Discord supplies a decoded 11/33/7 prot PvP tree, Reckoning anti-melee value, prot threat/damage variants, T1 PvP as prot pre-bis and the bruiser role."
+discord:
+  channel: paladin
+  scope: "Protection PvP (flag carrier / anti-melee bruiser), pre-1.18.1 .. post-1.18.1"
+  sources:
+    - {id: "1484476226256240721", era: post-1.18.1, agreement: consensus, claim: "Decoded deep-prot PvP tree 11/33/7"}
+    - {id: "1485364474562220133", era: post-1.18.1, agreement: single source, claim: "Confirms the 11/33/7 prot PvP tree"}
+    - {id: "1482102558729441460", era: post-1.18.1, agreement: consensus, claim: "'Fury wars and cat druids I encounter in PvP certainly still feel Reckoning's existence'"}
+    - {id: "1296316172165451890", era: pre-1.18.1, agreement: single source, claim: "'might even just do Prot for PvP to make Rogues and Warriors cry. Reckoning block triggers will be funny'"}
+    - {id: "1449087673586286592", era: 1.18.1-announced-pre-release, agreement: single source, claim: "'my first spec for pvp was Reckoning, as it always was in Classic'"}
+    - {id: "1441078917015404699", era: 1.18.1-announced-pre-release, agreement: single source, claim: "'They took away reckoning for pvp, that was very iconic' (old Reckoning reworked to the block-trigger version)"}
+    - {id: "1490469775988494518", era: post-1.18.1, agreement: contested, claim: "'running as deep prot with TF and I'm top of the leaderboards 9/10 matches with 0 consumes and no dedicated PvP gear'"}
+    - {id: "1490466272973029558", era: post-1.18.1, agreement: contested, claim: "Opposite: 'currently just trolling as deep prot with TF in arathi, but doesnt seem really useful'"}
+    - {id: "1490253553183363175", era: post-1.18.1, agreement: single source, claim: "'ngl, t1 pvp is prob super prebis for prot pally'"}
+    - {id: "1490382851429109760", era: post-1.18.1, agreement: single source, claim: "'bis prot gear is honestly the epic pvp gear great stats and sp'"}
+    - {id: "1481357663798558852", era: 1.18.1-announced-pre-release, agreement: single source, claim: "Prot as a WSG/new-BG flag carrier"}
+    - {id: "1484653064366325761", era: post-1.18.1, agreement: consensus, claim: "Hammer of Justice ~30 s with Imp HoJ 3/3 + old PvP set"}
+    - {id: "1489674002254528573", era: post-1.18.1, agreement: consensus, claim: "Hand of Sacrifice no longer breaks CC"}
+  cross_channel:
+    - {channel: pvp-general, id: "1315720921260101725", era: pre-1.18.1, agreement: single source, claim: "Prot paladin: 7k hp, ~60% physical DR, holy damage ignores armour, 12 s immunity + full heal; beats all melee and most casters, loses to Soul Link"}
+    - {channel: pvp-general, id: "1353324094954934314", era: pre-1.18.1, agreement: single source, claim: "mtnd's list puts Hpal and Protpal in S tier"}
+    - {channel: pvp-general, id: "1340006892612616274", era: pre-1.18.1, agreement: single source, claim: "1v1 prot beats ret"}
+talents:
+  build_name: "Deep Prot PvP, 11/33/7 (decoded)"
+  build_link: "https://talents.turtlecraft.gg/paladin?points=AoAoB-AoYDZYCAZYAoB-AoQ"
+  points:
+    - {tree: Holy, talent: Divine Intellect, rank: 5, spell_id: 20261}
+    - {tree: Holy, talent: Improved Seal of Righteousness, rank: 5, spell_id: 20332}
+    - {tree: Holy, talent: Sanctity Aura, rank: 1, spell_id: 20218}
+    - {tree: Protection, talent: Redoubt, rank: 5, spell_id: 45822}
+    - {tree: Protection, talent: Precision, rank: 3, spell_id: 20193}
+    - {tree: Protection, talent: Toughness, rank: 3, spell_id: 20145}
+    - {tree: Protection, talent: Improved Righteous Fury, rank: 3, spell_id: 20470}
+    - {tree: Protection, talent: Blessing of Sanctuary, rank: 1, spell_id: 20911}
+    - {tree: Protection, talent: Shield Specialization, rank: 3, spell_id: 20150}
+    - {tree: Protection, talent: Improved Hand of Reckoning, rank: 2, spell_id: 51335}
+    - {tree: Protection, talent: Righteous Defense, rank: 3, spell_id: 51330}
+    - {tree: Protection, talent: Holy Shield, rank: 1, spell_id: 20925}
+    - {tree: Protection, talent: Reckoning, rank: 3, spell_id: 45825}
+    - {tree: Protection, talent: Righteous Strikes, rank: 5, spell_id: 51345}
+    - {tree: Protection, talent: Bulwark of the Righteous, rank: 1, spell_id: 51346}
+    - {tree: Retribution, talent: Benediction, rank: 5, spell_id: 20105}
+    - {tree: Retribution, talent: Improved Judgement, rank: 2, spell_id: 25957}
+  variants:
+    - "Prot 38 / Holy 13 (Reckoning 5, Righteous Strikes 5, Bulwark 1) - prot threat/damage variant [[d:paladin#1458084059795423304]]"
+    - "Prot 40 / Ret 11 - prot threat variant [[d:paladin#1485667467706765485]]"
+    - "The same 11/33/7 shape is the PvE tank build - see protection-tank.yaml"
+  leveling_order: []
+stat_weights:
+  stamina: "primary - the bruiser identity (7k hp reported)"
+  spell_power: "high - prot threat/damage and the PvP epic set's SP"
+  strength_attack_power: "low (as PvE)"
+  resilience: "does not reduce druid melee crit"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "Righteous Fury + Retribution/Sanctity Aura + Seal of Righteousness", condition: "always"}
+  - {priority: 2, action: "Holy Shield on cooldown; Reckoning block triggers punish melee", condition: "anti-melee"}
+  - {priority: 3, action: "Hammer of Justice (Imp HoJ 3/3) then burst", condition: "setup kill"}
+  - {priority: 4, action: "Judgement / Holy Strike / Crusader Strike", condition: "threat and Zealous Defence"}
+  - {priority: 5, action: "Hand of Freedom / BoP / Cleanse / Hand of Sacrifice", condition: "support the team"}
+  - {priority: 6, action: "Divine Shield", condition: "survive burst; 12 s immunity + instant full heal in the pre-1.18.1 report; disabled in rated arena"}
+rotation_aoe: []
+aoe_threshold: 0
+cooldowns:
+  - {name: Divine Shield, use_when: "bruiser reset; disabled in rated arena"}
+  - {name: Hammer of Justice, use_when: "kill window (~30 s with Imp HoJ + old PvP set)"}
+  - {name: Bulwark of the Righteous, use_when: "damage reduction / snap threat"}
+  - {name: Lay on Hands, use_when: "emergency; disabled in arena"}
+resource_rules:
+  - "Seal/Judgement of Wisdom for mana; blocks return mana (Shield Specialization)"
+consumables:
+  - "Engineering (grenades, sappers), Frost Oil, pots/teas, Free Action Potion [[d:paladin#1483206266699386882]]"
+mistakes_to_avoid:
+  - "Expecting prot to close on kiters - it is an anti-melee/FC bruiser, not a chaser"
+  - "Treating Crusader Strike as a threat button instead of Zealous Defence"
+  - "Stacking Strength plate instead of stamina + spell power"
+matchups:
+  melee: "win - Reckoning + plate + Holy Shield punish rogues/warriors/ferals/enhancers"
+  casters: "win except Soul Link warlock - holy damage ignores armour, 7k hp and ~60% physical DR; mage/priest/destro lose"
+  soul_link_warlock: "loss - the named hard counter"
+  sources: ["[[d:pvp-general#1315720921260101725]]", "[[d:pvp-general#1340006892612616274]]", "[[d:paladin#1482102558729441460]]"]

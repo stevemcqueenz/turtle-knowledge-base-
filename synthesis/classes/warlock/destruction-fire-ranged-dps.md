@@ -89,6 +89,38 @@ Sources: wiki Firelock ("Curse, Soulfire, Immolate, Conflagrate, Corruption, Sea
 - Expecting Pyroclasm stuns from Hellfire (1.7% per tick).
 - Taking Aftermath for the slow (Tewth, Szalord).
 
+## Discord findings (2025–2026)
+
+### Talent build — the pinned 0/11/40 (forum gap on allocation closed)
+
+The forum file called the exact Fire allocation a gap. The channel's pinned third build is **0/11/40**, screenshot + matching code `-CrAAAB-AoFYBoCFVIAoB` (repeated 9×) [[d:warlock#1484229282854342789]], [[d:warlock#1465115051655434394]]:
+
+| Tree | Allocation |
+|---|---|
+| Demonology 11 | Sinister Pursuit 2 (alt: Demonic Aegis 2), Demonic Embrace 5, Soul Entrapment 3, Demonic Sacrifice 1 |
+| Destruction 40 | Cataclysm 5, Bane 5, Aftermath 3, Shadowburn 1, Devastation 5, Destructive Reach 2, Improved Searing Pain 5, Improved Soul Fire 2, Improved Immolate 5, Ruin 1, Emberstorm 5, Conflagrate 1 |
+
+The **11-point demonless dip yields +10% spell damage** (Imp sacrifice +4% + Soul Entrapment 6%); Shadow Vulnerability is skipped, so the build must run **Searing Pain** [[d:warlock#1484229282854342789]]. A sibling code `FoAQYAC-AD-FAFYAoCAVIAQB` is the **17/3/31 “runs shadow bolt”** variant [[d:warlock#1465115051655434394]].
+
+### Post-1.18.1 verdict — contested on record
+
+- Pro: “There is no meme Firelock anymore… Even before buffs I tanked with it dungeons and ZG” [[d:warlock#1486355435609919620]].
+- Con: “End game if t1/2 everything is viable except fire destro” [[d:warlock#1490107431429210183]]; “Fire lock is fine post-bwl, but you'll never be able to compete with drain or demo locks. I'd say it's slightly better than SM/Ruin if you have enough spell hit.” [[d:warlock#1493286788775805198]]; the live ranking keeps Fire last [[d:warlock#1483576857428361257]].
+- **Contested, single-source tier lists**: nobody in-channel agrees on where Fire lands.
+
+### Stats and mechanics
+
+- **11–12% gear hit, 15–16% cap** for Fire (no talent hit) [[d:warlock#1388995453873553489]], [[d:warlock#1387659949374443561]] (consensus).
+- The post-1.18.1 rotation is confirmed as **Soul Fire → Immolate → Conflagrate → Searing Pain**, with Bane 5/5 making Searing Pain 1.5 s [[d:warlock#1484229282854342789]].
+- Discord pairs the demonless dip with the same +10% package as Affliction (Imp sac + Soul Entrapment) [[d:warlock#1405348590494285984]], [[d:warlock#1405594274438975589]].
+
+| Discord claim | Sources | Agreement | Era |
+|---|---|---|---|
+| Pinned 0/11/40 Firelock | Afraido screenshot (1.18.1-announced-pre-release) + 9 codes | single source | 1.18.1-announced-pre-release (screenshot); post-1.18.1 (codes) |
+| 17/3/31 shadow-bolt sibling | Summonjutsu code | single source | 1.18.1-announced-pre-release |
+| Fire still weakest / “cannot compete” | Fauxnetic, Summonjutsu | contested | post-1.18.1 |
+| 11–12% gear hit | two answers | consensus | 1.18.1-announced-pre-release |
+
 ## Sources
 
 | Recommendation | Sources | Agreement | 1.18.1 note |

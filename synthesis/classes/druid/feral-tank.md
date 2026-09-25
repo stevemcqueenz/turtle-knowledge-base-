@@ -13,7 +13,7 @@ Playbook for a Bear-form tank on Turtle WoW, built from the Druid forum (f=42), 
 
 ## Talent build
 
-No source publishes a full decoded post-1.18.1 point list (talents.turtlecraft.gg links only, not decodable from text — same gap as the paladin playbook). Points named as mandatory/near-mandatory by multiple sources:
+**The calculator links decode** (Discord, `staging/talents/`): the meta link above decodes to **Balance 11 / Feral 35 / Restoration 5** [[d:druid#1413144334336790652]]. No dedicated *optimal* bear tree was ever settled — the channel repeatedly asks for one ("Can anybody share a good bear build?", "As Feral Bear tank there are not that many talents to spend on except balance (Omen of Clarity) + feral tree") and runs 11/33/5–11/37/3 hybrids [[d:druid#1330854853135827025]] [[d:druid#1352128749851643965]]. Points named as mandatory/near-mandatory by multiple sources:
 
 - **Omen of Clarity** and **Furor** — take by ~level 20/25 while leveling and keep at 60; "Always go Omen of Clarity first by Lv20, then into Furor by Lv25. The clearcasting procs very often and gives you tons of threat when tanking from all the free swipes you get in bear form" — [Captain4k (player), 2026-01-22](https://forum.turtlecraft.gg/viewtopic.php?p=165907#p165907).
 - **Feral Instinct** (threat), **Thick Hide** (armor), **Blood Frenzy** + **Primal Fury** (attack speed/rage on crit) — cookie-cutter tank staples across every build cited.
@@ -93,6 +93,45 @@ No source gives a numbered priority list as explicit as the paladin playbook's; 
 - Pulling without Faerie Fire's armor debuff, or without Demoralizing Roar against physical-heavy packs.
 - Assuming bear can tank every fight equally: Nefarian and other fear-heavy/stance-dance-dependent encounters are specifically worse for bears — plan to swap tanks or specs for those pulls.
 
+## Discord additions (post-1.18.1)
+
+Decoded tree, the exact threat-nerf math, Maul/Savage Bite thresholds, idol/consume calls and encounter notes from `#druid`.
+
+### The 1.18.1 threat nerf, quantified
+
+| Ability | Pre-nerf threat modifier | Change | Player math | Source |
+|---|---|---|---|---|
+| Maul | 175% | **−15%** | ≈ **9%** threat reduction | [[d:druid#1470128951165718528]] [[d:druid#1464351740957823007]] |
+| Savage Bite | 225% | **−12%** | ≈ **5.6%** threat reduction | [[d:druid#1481530798686470226]] |
+| **Total bear threat** | — | — | ≈ **7–8%** (Tephus) | [[d:druid#1482094347028664371]] [[d:druid#1482094399813849241]] |
+
+Developer comment on the official note: "Feral Bears have been overly prominent in their threat output, leaving little room for other tanks to shine." Pre-nerf, bear was "literally 1.5–2x the threat that prot does (assuming naxx/kara gear)" [[d:druid#1482095800686346431]]. Post-release the standing is contested: the pre-release view was "best tank in raids, a little overturned" [[d:druid#1483016079209926688]], the post-release view is that a dodged/parried Savage Bite now leaves no fallback [[d:druid#1484733781331021875]] [[d:druid#1484741482169499689]].
+
+### Rotation thresholds (Discord, more explicit than the forum)
+
+1. **Tiger's Fury from Cat before the pull** (~20% haste + 18s Enrage).
+2. **Always queue Maul** on every auto-attack — it is the threat engine, not a filler [[d:druid#1474473590043836720]].
+3. **Savage Bite at >35 rage or on Clearcasting**; with the T3 8-piece use it every cooldown to refresh the damage-reduction buff [[d:druid#1412021581693059226]].
+4. **Faerie Fire (Feral)** on a spare GCD; **Swipe** as the rage dump.
+5. **Rage potion on pull** is the best snap-threat opener [[d:druid#1474500952965906515]]; rage pot ≈ 132 AP vs 5% haste ≈ 133 AP over a 20s window [[d:druid#1482102222077825224]].
+6. Example rage-threshold macro: 0<Rage<100 Maul; 20<Rage<100 Maul+Swipe; 50<Rage<100 Maul+Savage Bite+Swipe [[d:druid#1480481555263787149]].
+
+### Statistics and gear
+
+- **Haste is the best bear threat stat** — Maul rides the swing timer, "like heroic strike for fury prot but even more powerful" [[d:druid#1292121947412627498]]; **Agility is bait** — "triple the threat gains from 3 Haste over 25 Agi" [[d:druid#1473795292779516119]].
+- **Bear idols**: Idol of the Ironfur, Idol of Crushing Maul, Idol of Ursoc's Resolve, Idol of the Unyielding Bear, Idol of the Savage Counter, Idol of the Protector [[d:druid#1479530552850907227]]; Idol of Brutality (-30% Maul / -20% Swipe cost) as the cheap option [[d:druid#1386988179898499093]].
+- **Enchants**: counterweight weapon, haste shoulder, threat gloves [[d:druid#1474483802976948254]]. **Consumables**: Juju Power, Elixir of the Mongoose, R.O.I.D.S., Elixir of Firewater, Elixir of Superior Defense, 2% haste or +20 Str food, crystal ward [[d:druid#1475757404493713469]].
+- **AoE**: Swipe + FF per add; Demoralizing Roar groups mobs but is not sustained threat; Swipe on single target is "excess rage dump… shit threat" [[d:druid#1479712614409048095]] [[d:druid#1484741482169499689]].
+
+### Encounter notes
+
+| Boss | Note | Source |
+|---|---|---|
+| Twin Emperors | Bear cannot tank the caster emperor — historically its weakest fight | [[d:druid#1301990218085306369]] |
+| Vael | Bear is strong (fight timer); rage pot + Bite/Maul opener | [[d:druid#1296452879154020443]] |
+| Chromaggus | Savage Bite every 6s matters vs the 10s swing timer | [[d:druid#1321165760151949322]] |
+| Sapphiron | Killed with 0 frost resist in full AQ40 gear | [[d:druid#1293715946489516052]] |
+
 ## Sources
 
 | Post | Author (authority) | Date | Era | Agreement |
@@ -108,4 +147,5 @@ No source gives a numbered priority list as explicit as the paladin playbook's; 
 | [p171995](https://forum.turtlecraft.gg/viewtopic.php?p=171995#p171995), [p171996](https://forum.turtlecraft.gg/viewtopic.php?p=171996#p171996) | Grizb37, Wosator (players) | 2026-03-23 | post-1.18.1 | single source, PvP bear complaint |
 | [p165608](https://forum.turtlecraft.gg/viewtopic.php?p=165608#p165608), [p165907](https://forum.turtlecraft.gg/viewtopic.php?p=165907#p165907) | Terrydavis, Captain4k (players) | 2026-01-19/22 | 1.18.1-announced-pre-release | leveling/build guidance |
 | [p25382](https://forum.turtlecraft.gg/viewtopic.php?p=25382#p25382), [p26875](https://forum.turtlecraft.gg/viewtopic.php?p=26875#p26875) | Reploidrocsa, Geojak (players) | 2022-09-18/10-06 | pre-1.18.1 | single source, gear/profession tip |
+| `#druid` Discord — decoded tree, threat-nerf math, Maul/Savage Bite thresholds, idols, boss notes | Micro Jackson, Tephus, Hotverdomme-Nord, Valarya, Midoko, Fat Pibble (staff), Habu | 2025-06 → 2026-04 | 1.18.1-announced-pre-release / post-1.18.1 | consensus on nerf math, contested on post-release standing |
 | `synthesis/1.18.1-master-changelog.md` §Druid, `synthesis/turtle-vs-vanilla-timeline.md` §Druid | — (compiled from staff posts) | — | — | official changelog compilation |

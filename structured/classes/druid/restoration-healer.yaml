@@ -18,43 +18,125 @@ agreement: contested
 patch_validity:
   written_for: "1.17.2 / 1.18.0 (Class Changes 2 Restoration rework: Efflorescence, Genesis, Aessina's Bloom, Tranquility rework)"
   valid_for_1181: unknown
-  notes: "No Restoration-specific 1.18.1 ability/talent change found in the master changelog beyond the T3.5 'Blooming Bud' set-bonus critique (player-reported, not confirmed as an official 1.18.1 change vs. a pre-existing itemization issue)."
+  notes: "No Restoration ability/talent change shipped in 1.18.1; 1.18.1 nerfed/reshuffled the T3.5 5/6-set bonus for top-end Kara40 raiders. Discord resolves the forum's 'both builds actively played' framing: the channel's Tree build is the post-1.18 consensus (decoded 18/0/33, 4+ independent confirmations) and the Healing Touch build is called not viable in current raids [[d:druid#1380604807810646098]]. Bapi's pinned post-1.18.1 guide decodes to 12/0/39 with Nature's Focus 5/5 and Tranquil Spirit 5/5 [[d:druid#1484966802101502214]]."
+discord:
+  channel: druid
+  scope: "Restoration builds, spirit->MP5 math, downranking, idols, consumables, encounter calls"
+  sources:
+    - {id: "1430728686411448410", era: 1.18.1-announced-pre-release, agreement: consensus, claim: "Tree of Life build decodes to Balance 18 / Restoration 33 (full tree through Tree of Life Form); 4+ independent confirmations 2025-10 -> 2026-01 [[d:druid#1433167379973541919]]"}
+    - {id: "1484966802101502214", era: 1.18.1-announced-pre-release, agreement: single source, claim: "Bapi's pinned post-1.18.1 Restoration build decodes to Balance 12 / Restoration 39, full tree incl. Nature's Focus 5/5 and Tranquil Spirit 5/5 [[d:druid#1475224646591971493]]"}
+    - {id: "1421530945730646168", era: pre-1.18.1, agreement: consensus, claim: "Moonglow/Healing Touch build decodes to Balance 21 / Restoration 30 (Nature's Grace + Improved Healing Touch; cannot take Tree Form) [[d:druid#1315990548586168331]]"}
+    - {id: "1296230109518237756", era: pre-1.18.1, agreement: consensus, claim: "Designer confirms Efflorescence is a level-60 passive that only triggers in Tree of Life Form and snap-heals the remaining HoT duration when a Rejuv/Regrowth is replaced [[d:druid#1296391502087589999]]"}
+    - {id: "1296399632099704863", era: pre-1.18.1, agreement: single source, claim: "Regrowth R9 in Tree + Tranquil Spirit costs around 400 mana"}
+    - {id: "1315692080185610392", era: pre-1.18.1, agreement: consensus, claim: "Downranking: Regrowth rank 5 for sustained tank healing, max rank only for emergencies [[d:druid#1315691191819571210]]"}
+    - {id: "1407633163961892914", era: 1.18.1-announced-pre-release, agreement: single source, claim: "Spirit->MP5 from in-client code: 'Spirit * 0.20 * 0.15 for MP2' (Reflection); 450 spirit ~= 15.75 MP2 / 39.375 MP5 - why 3/3 Preservation beats 3/3 Reflection"}
+    - {id: "1405962260626804849", era: 1.18.1-announced-pre-release, agreement: single source, claim: "'+20% HOT is way more than -4% mana, you can just cast a rank 8 and heal more than a rank 9 with -4% mana' - Preservation beats mana-cost reduction"}
+    - {id: "1409495826107203728", era: pre-1.18.1, agreement: single source, claim: "Tranquil Spirit does nothing for Rejuvenation; Micro Jackson prefers Moonglow + 3/3 Preservation over Tranquil Spirit [[d:druid#1416048492580704368]]"}
+    - {id: "1407247748352442461", era: 1.18.1-announced-pre-release, agreement: single source, claim: "Hidden 1.18 change: the +10% healing talent now scales with healing power and the Tree flat-HP bug is fixed - end-game resto buffed, low-gear resto nerfed"}
+    - {id: "1402603506656874578", era: pre-1.18.1, agreement: single source, claim: "Spirit-aura bug reports: the initial ~110 spirit gave too much, each point beyond gave ~5% of what it should [[d:druid#1403315055973634068]]"}
+    - {id: "1380503533228658708", era: 1.18.1-announced-pre-release, agreement: consensus, claim: "Only 1 (maybe 2 coordinated) resto druids fit a 40-man raid because HoTs overwrite; '2 resto druids is 1.5 resto druids'"}
+    - {id: "1380604807810646098", era: 1.18.1-announced-pre-release, agreement: consensus, claim: "'Healing touch druid is just a worse priest or pally with a damn long cast time' - the HT build is not viable in current raids"}
+    - {id: "1396785171436408915", era: pre-1.18.1, agreement: consensus, claim: "Tranquility is the resto druid's unique niche and the main reason to bring one, especially Anomalus and Kruul P2 [[d:druid#1405512865674166342]]"}
+    - {id: "1413159028833390593", era: 1.18.1-announced-pre-release, agreement: single source, claim: "Tree build is Regrowth-focused; Micro Jackson heals '60-70% Regrowth instead of 90%' in raids"}
+    - {id: "1380510114372649045", era: 1.18.1-announced-pre-release, agreement: single source, claim: "HT build: rank 3 Healing Touch with Aessina's Bloom can heal ~2000 for almost no mana at 1.5s; higher ranks' 3s cast is not viable"}
+    - {id: "1380837659353546782", era: pre-1.18.1, agreement: single source, claim: "Swiftmend at the end of a Regrowth/Rejuvenation for best HPM; '4.5k crits of Swiftmend' and a 9k crit instant NS-Healing-Touch oh-shit button [[d:druid#1380836896724488214]]"}
+    - {id: "1421550248354123787", era: pre-1.18.1, agreement: single source, claim: "All resto idols are mediocre/bad: Idol of Health (HT -0.15s), Idol of Longevity (25 mana per HT), Idol of the Forgotten Wilds (Regrowth 10% plant heal), Idol of Rejuvenation (+50 healing, ~+60 in tree) [[d:druid#1384122313192243272]]"}
+    - {id: "1385179156051918880", era: 1.18.1-announced-pre-release, agreement: single source, claim: "Idol of Blooming lets you cast Healing Touch rank 4 and lower in Tree form"}
+    - {id: "1475237840618258546", era: 1.18.1-announced-pre-release, agreement: single source, claim: "Micro Jackson corrections to Bapi: 8 Healing Power belt buckle over 10 Int; best spirit cloak/wrists/belt are green level-55+ 'of Spirit' pieces; 'Of the Lost' trinket is BIS spirit at 2200g [[d:druid#1430121439448531025]]"}
+    - {id: "1383743120902066301", era: pre-1.18.1, agreement: consensus, claim: "Resto consumables: teas, Nightfin Soup, spirit food (does NOT stack with Nightfin), Mageblood + Oil + Nightfin + Blessing for MP5; Flask of Distilled Wisdom for mana [[d:druid#1383746068830748722]] [[d:druid#1386731522635075656]]"}
+    - {id: "1427389460844380331", era: 1.18.1-announced-pre-release, agreement: single source, claim: "Tier value: only 2/8 T3 and 5/5 T3.5 are worth a lot; T2 8/8 costs ~230 healing power; T3 6/8 is strong"}
+    - {id: "1381722834925129920", era: 1.18.1-announced-pre-release, agreement: single source, claim: "T3.5 combination theory: '3/5 T3.5 and 5/8 T2 to get the Regrowth bonus + 2/9 T3 heal' for Moonglow+Tree"}
+    - {id: "1302718473369030768", era: pre-1.18.1, agreement: single source, claim: "Sapphiron: Tranquility can be interrupted by the aura ticks"}
+    - {id: "1475543475733663815", era: pre-1.18.1, agreement: single source, claim: "Kara40: Tranquility is 'super nice', but mana is a real issue on sub-1-hour clears [[d:druid#1405945984965677257]]"}
 talents:
-  build_name: "Tree of Life/HoT build vs. Moonglow/Healing Touch build (both actively played; no decoded full 60-point list found)"
+  build_name: "Consensus Tree of Life 18/0/33 (decoded); 21/0/30 Moonglow/HT is the older raiding standard; Bapi's post-1.18.1 12/0/39 is the only full post-patch build"
   build_link: "https://talents.turtlecraft.gg/druid?points=BgAbAI--FAFABbFFALFQB (Tree build, Bayanni, 2025-10-19)"
+  build_link_note: "The forum file had 'no decoded full 60-point list'. The channel's Tree build decodes to Balance 18 / Restoration 33; Bapi's post-1.18.1 guide decodes to 12/0/39. Both are shown below."
   points:
-    - {tree: Restoration, talent: "Genesis", rank: 3, spell_id: null}
-    - {tree: Restoration, talent: "Aessina's Bloom", rank: 2, spell_id: null}
-    - {tree: Restoration, talent: "Preservation", rank: 3, spell_id: null}
-    - {tree: Restoration, talent: "Nature's Focus", rank: 5, spell_id: null}
-    - {tree: Restoration, talent: "Improved Tranquility or Nature's Reach", rank: 2, spell_id: null}
-    - {tree: unspecified, talent: "remainder (not individually named in sources)", rank: null, spell_id: null}
+    - {tree: Balance, talent: "Improved Wrath", rank: 5, spell_id: 16818}
+    - {tree: Balance, talent: "Natural Weapons", rank: 3, spell_id: 45717}
+    - {tree: Balance, talent: "Natural Shapeshifter", rank: 3, spell_id: 16835}
+    - {tree: Balance, talent: "Moonfury", rank: 1, spell_id: 16896}
+    - {tree: Balance, talent: "Omen of Clarity", rank: 1, spell_id: 16864}
+    - {tree: Balance, talent: "Nature's Reach", rank: 2, spell_id: 16820}
+    - {tree: Balance, talent: "Moonglow", rank: 3, spell_id: 16847}
+    - {tree: Restoration, talent: "Improved Mark of the Wild", rank: 5, spell_id: 17055}
+    - {tree: Restoration, talent: "Subtlety", rank: 5, spell_id: 17122}
+    - {tree: Restoration, talent: "Swiftmend", rank: 1, spell_id: 18562}
+    - {tree: Restoration, talent: "Genesis", rank: 3, spell_id: 17113}
+    - {tree: Restoration, talent: "Reflection", rank: 3, spell_id: 17108}
+    - {tree: Restoration, talent: "Gift of Nature", rank: 5, spell_id: 24946}
+    - {tree: Restoration, talent: "Nature's Swiftness", rank: 1, spell_id: 17116}
+    - {tree: Restoration, talent: "Preservation", rank: 2, spell_id: 51449}
+    - {tree: Restoration, talent: "Improved Regrowth", rank: 5, spell_id: 17078}
+    - {tree: Restoration, talent: "Improved Tranquility", rank: 2, spell_id: 17124}
+    - {tree: Restoration, talent: "Tree of Life Form", rank: 1, spell_id: 45705}
+  alternative_points:
+    - build_name: "Bapi post-1.18.1 12/0/39 (full tree)"
+      points:
+        - {tree: Balance, talent: "Improved Wrath", rank: 3, spell_id: 16816}
+        - {tree: Balance, talent: "Sylvan Blessing", rank: 2, spell_id: 51422}
+        - {tree: Balance, talent: "Natural Weapons", rank: 3, spell_id: 45717}
+        - {tree: Balance, talent: "Natural Shapeshifter", rank: 2, spell_id: 16834}
+        - {tree: Balance, talent: "Omen of Clarity", rank: 1, spell_id: 16864}
+        - {tree: Balance, talent: "Nature's Reach", rank: 1, spell_id: 16819}
+        - {tree: Restoration, talent: "Improved Mark of the Wild", rank: 5, spell_id: 17055}
+        - {tree: Restoration, talent: "Nature's Focus", rank: 5, spell_id: 17068}
+        - {tree: Restoration, talent: "Swiftmend", rank: 1, spell_id: 18562}
+        - {tree: Restoration, talent: "Genesis", rank: 3, spell_id: 17113}
+        - {tree: Restoration, talent: "Reflection", rank: 3, spell_id: 17108}
+        - {tree: Restoration, talent: "Gift of Nature", rank: 5, spell_id: 24946}
+        - {tree: Restoration, talent: "Tranquil Spirit", rank: 5, spell_id: 24972}
+        - {tree: Restoration, talent: "Nature's Swiftness", rank: 1, spell_id: 17116}
+        - {tree: Restoration, talent: "Preservation", rank: 3, spell_id: 51450}
+        - {tree: Restoration, talent: "Improved Regrowth", rank: 5, spell_id: 17078}
+        - {tree: Restoration, talent: "Improved Tranquility", rank: 2, spell_id: 17124}
+        - {tree: Restoration, talent: "Tree of Life Form", rank: 1, spell_id: 45705}
+    - build_name: "Moonglow / Improved Healing Touch 21/0/30 (older raiding standard)"
+      note: "Cannot take Tree Form; uses Nature's Grace + Improved Healing Touch. Points from the decoded build: Improved Wrath 5, Improved Moonfire 2, Natural Weapons 3, Moonfury 3, Omen 1, Nature's Reach 2, Vengeance 1, Moonglow 3, Nature's Grace 1; Restoration Improved MotW 5, Improved Healing Touch 5, Swiftmend 1, Genesis 3, Reflection 3, Gift of Nature 5, Aessina's Bloom 2, Nature's Swiftness 1, Improved Regrowth 5 [[d:druid#1421530945730646168]]"
   leveling_order: []
 stat_weights:
-  spirit: "strong despite low apparent personal-log impact — 1 Spirit gives ~0.2 healing to every party member (party-wide effect), so 'every point of spirit is 1sp' for raid healing"
+  spirit: "STRONG - 1 Spirit gives ~0.2 healing to EVERY party member (party-wide effect), so 'every point of spirit is 1sp' for raid healing; Spirit->MP5 = Spirit * 0.20 * 0.15 (Reflection) [[d:druid#1407633163961892914]]"
   healing_power: "no numeric weight given (gap)"
-  intellect: "no numeric weight given (gap)"
+  intellect: "no numeric weight given (gap); the 8 Healing Power belt buckle is preferred over 10 Int [[d:druid#1475237840618258546]]"
+  preservation_vs_reflection: "3/3 Preservation > 3/3 Reflection because +20% HoT beats -4% mana [[d:druid#1405962260626804849]]"
+  tranquil_spirit: "does NOT help Rejuvenation - only Healing Touch; a point-donor if you are not HT-healing [[d:druid#1409495826107203728]]"
 caps: {}
 rotation_single:
-  - {priority: 1, action: "Regrowth (downranked)", condition: "sustained tank heal, Tree build — rank chosen so mana lasts 45s-75s spamming with no external help"}
-  - {priority: 1, action: "Healing Touch (downranked)", condition: "sustained tank heal, HT build — same 45s-75s downranking rule"}
+  - {priority: 1, action: "Regrowth (rank 5)", condition: "sustained tank heal, Tree build - rank chosen so mana lasts 45s-75s spamming with no external help [[d:druid#1315692080185610392]]"}
+  - {priority: 1, action: "Healing Touch (rank 3 + Aessina's Bloom)", condition: "HT build: ~2000 heal at 1.5s for almost no mana; higher ranks' 3s cast is not viable [[d:druid#1380510114372649045]]"}
   - {priority: 2, action: "Healing Touch (max rank) or Regrowth (max rank)", condition: "emergency top-up"}
-  - {priority: 3, action: Swiftmend, condition: "instant-cast emergency heal, consumes an existing HoT"}
+  - {priority: 3, action: Swiftmend, condition: "instant-cast emergency heal at the END of a Regrowth/Rejuv for best HPM ('4.5k crits'); consumes an existing HoT [[d:druid#1380837659353546782]]"}
+  - {priority: 4, action: "Nature's Swiftness + Healing Touch", condition: "instant oh-shit button (9k crit reported) [[d:druid#1380836896724488214]]"}
 rotation_aoe:
-  - {targets_min: 5, priority: 1, action: Tranquility, condition: "raid-wide (post-CC2 rework), 30-minute cooldown, ranks last only 4/6/8/10s, use sparingly"}
+  - {targets_min: 5, priority: 1, action: Tranquility, condition: "raid-wide (post-CC2 rework), 30-minute cooldown, the spec's unique niche; best on sustained-damage fights (Anomalus, Kruul P2) but interruptible on Sapphiron [[d:druid#1396785171436408915]] [[d:druid#1302718473369030768]]"}
+  - {targets_min: 5, priority: 2, action: "Rejuvenation blanket", condition: "HoT the raid; Efflorescence snap-heals replaced HoTs in Tree Form [[d:druid#1296230109518237756]]"}
 aoe_threshold: 5
 cooldowns:
-  - {name: Tranquility, use_when: "raid emergency only — 30-minute cooldown, doubled mana cost, no baseline threat"}
-  - {name: Swiftmend, use_when: "instant emergency heal, requires an existing HoT on the target"}
+  - {name: Tranquility, use_when: "raid emergency only - 30-minute cooldown, doubled mana cost, no baseline threat"}
+  - {name: Swiftmend, use_when: "instant emergency heal, requires an existing HoT on the target; strongest at the tail of a Regrowth/Rejuv"}
+  - {name: "Nature's Swiftness", use_when: "instant max-rank Healing Touch for a 9k-ish crit save"}
 resource_rules:
-  - "Downrank Regrowth/Healing Touch to the rank that sustains 45s-75s of spam with no external mana help; use higher ranks only for longer fights"
-  - "Reserve max-rank casts for emergency top-ups"
+  - "Downrank Regrowth to rank 5 (or Healing Touch to rank 3 with Aessina's Bloom) to sustain 45s-75s of spam with no external mana help; reserve max-rank casts for emergencies [[d:druid#1315692080185610392]]"
+  - "Reminder: Efflorescence requires Tree of Life Form and is a level-60 passive [[d:druid#1296230109518237756]]"
+  - "Spirit is a party-wide healing stat via spirit aura; do not evaluate it by personal-log impact alone [[d:druid#1407633163961892914]]"
 consumables:
-  - "No Restoration-specific consumable list found; assume the general caster list (Major Mana Potion, Nordanaar Herbal Tea, Dark Rune, Nightfin Soup, Mageblood Potion) applies but this is inferred, not directly sourced for Restoration"
-  - "No pre-raid BiS list found in sources (gap)"
+  - "Teas, Nightfin Soup, spirit food (does NOT stack with Nightfin), Mageblood Potion, Brilliant Mana/Wizard Oil, Flask of Distilled Wisdom for mana [[d:druid#1383743120902066301]]"
+  - "Dire Maul alcohol gives +25 spirit / -5 int and stacks with Medivh's Merlot Blue [[d:druid#1430121439448531025]]"
+  - "Idol of Rejuvenation (+50 healing, ~+60 in tree) or Idol of Blooming (cast HT r4 and lower in Tree) as the practical picks [[d:druid#1421550248354123787]] [[d:druid#1385179156051918880]]"
+  - "No pre-raid BiS list in-channel; Bapi's pinned guide (rentry.co/vw8h8rbc) has the pre-raid/BiS sheets [[d:druid#1475224646591971493]]"
 mistakes_to_avoid:
-  - "Bringing more than one or two Restoration druids to a 40-man raid without HoT-assignment coordination"
-  - "Spamming max-rank heals instead of downranking to the mana-sustainable rank"
-  - "Trying to tank-heal a dungeon in full Tree Form without a strong repeatable direct-heal backup"
-  - "Forgetting Efflorescence requires training from a class trainer and Tree of Life Form to function"
-  - "Assuming a second/third druid's weaker HoT will stack instead of overwrite"
+  - "Bringing more than one or two Restoration druids to a 40-man raid without HoT-assignment coordination ('2 resto druids is 1.5 resto druids') [[d:druid#1380503533228658708]]"
+  - "Spamming max-rank heals instead of downranking to the mana-sustainable rank [[d:druid#1315692080185610392]]"
+  - "Running the Healing Touch build in current raids - 3s cast, no secondary effect [[d:druid#1380604807810646098]]"
+  - "Forgetting Efflorescence requires Tree of Life Form to function [[d:druid#1296230109518237756]]"
+  - "Assuming a second/third druid's weaker HoT will stack instead of overwrite [[d:druid#1380503533228658708]]"
+  - "Twisting Tranquil Spirit onto a Rejuvenation-focused build - it does nothing for Rejuv [[d:druid#1409495826107203728]]"
+supersedes:
+  - {claim: "Efflorescence requires training from a class trainer only (forum hedge)", verdict: "Also requires Tree of Life Form; it is a level-60 passive that snap-heals replaced HoTs", sources: ["[[d:druid#1296230109518237756]]"]}
+  - {claim: "Both Restoration builds are actively played (forum)", verdict: "The Tree build is the post-1.18 consensus; the Healing Touch build is called not viable in current raids", sources: ["[[d:druid#1430728686411448410]]", "[[d:druid#1380604807810646098]]"]}
+  - {claim: "Resto low-gear spirit stacking advice (pre-1.18)", verdict: "Era-specific: 1.18 made the +10% healing talent scale with healing power and fixed the Tree flat-HP bug - end-game buffed, low-gear nerfed", sources: ["[[d:druid#1407247748352442461]]"]}
+gaps:
+  - "No numeric Healing Power / Intellect stat weight"
+  - "No Restoration-specific consumable list beyond the shared caster list"
+  - "No pre-raid BiS text list (external sheets only)"

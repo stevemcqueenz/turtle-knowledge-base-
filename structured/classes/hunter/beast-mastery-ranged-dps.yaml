@@ -38,50 +38,52 @@ agreement: contested
 patch_validity:
   written_for: "three kits: CC2 (Nov 2024 - Aug 2025), CC3/1.18.0 (Aug 2025 - Mar 2026), 1.18.1 (from 2026-03-20)"
   valid_for_1181: unknown
-  notes: "1.18.1 removed Baited Shot and Kill Command's CC3 form, returned Bestial Wrath, added Scent of Blood and reworked Kill Command into a crit-gated capstone (revised 2026-03-19 to 80% pet AP). No post-1.18.1 raid DPS log exists in the sources; the post-1.18.1 rotation and talent build below are staff-derived plus early player fragments, not a validated guide."
+  notes: "1.18.1 removed Baited Shot and Kill Command's CC3 form, returned Bestial Wrath, added Scent of Blood and reworked Kill Command into a crit-gated capstone (revised 2026-03-19 to 80% pet AP). The Discord work decoded the channel's post-1.18.1 BM raid build (34/17/0, consensus x3) and filled the previously-null talent spell_ids; no turtlogs parse for a full tier exists, so the rotation below stays derived (staff tooltips + player fragments) even though the allocation is now sourced."
 talents:
-  build_name: "1.18.1 bot default (derived from staff tooltips and player fragments; NOT a sourced 51-point list) — deep BM with MM filler"
-  build_link: "CC2 endgame link (SvenS2): https://talents.turtlecraft.gg/hunter?points=FQAYBoAoQCQQAAAoCoQBAoACAAAAAAAAAAAAAAAAAAA%3D ; CC3 links (opaque, not decodable from text): https://talents.turtlecraft.gg/hunter?points=FAAaRoQoBBQQB-AoEoABAg- (Illyria), https://talents.turtlecraft.gg/hunter?points=FQAYBoQoBCQQB-AoCoQBAo- (SvenS2)"
+  build_name: "Post-1.18.1 BM 34/17/0 — deep BM through Kill Command + Bestial Wrath, MM filler (decoded; consensus)"
+  build_link: "https://talents.turtlecraft.gg/hunter?points=FYACBoIoZASYB-AoAoQDQ- (decoded: 34 BM / 17 MM); variants 33/18/0, 41/10/0, 39/12/0, 36/12/3"
   points:
-    - {tree: "Beast Mastery", talent: "Endurance Training / Swift Aspects", rank: "1-5", spell_id: null}
-    - {tree: "Beast Mastery", talent: "Thick Hide", rank: 3, spell_id: null}
-    - {tree: "Beast Mastery", talent: "Improved Revive Pet / Improved Mend Pet", rank: "1-2", spell_id: null}
-    - {tree: "Beast Mastery", talent: "Coordinated Assault", rank: 1, spell_id: null}
-    - {tree: "Beast Mastery", talent: "Unleashed Fury", rank: 5, spell_id: null}
-    - {tree: "Beast Mastery", talent: "Pathfinding", rank: 2, spell_id: null}
-    - {tree: "Beast Mastery", talent: "Ferocity", rank: 5, spell_id: null}
-    - {tree: "Beast Mastery", talent: "Bestial Discipline", rank: 2, spell_id: null}
-    - {tree: "Beast Mastery", talent: "Bestial Precision", rank: 2, spell_id: null}
-    - {tree: "Beast Mastery", talent: "Scent of Blood", rank: 3, spell_id: null}
-    - {tree: "Beast Mastery", talent: "Bestial Wrath", rank: 1, spell_id: null}
-    - {tree: "Beast Mastery", talent: Frenzy, rank: "2-3", spell_id: null}
-    - {tree: "Beast Mastery", talent: "Spirit Bond", rank: 2, spell_id: null}
-    - {tree: "Beast Mastery", talent: "Kill Command", rank: 1, spell_id: null}
-    - {tree: Marksmanship, talent: "Lethal Shots", rank: 5, spell_id: null}
-    - {tree: Marksmanship, talent: Efficiency, rank: 5, spell_id: null}
-    - {tree: Marksmanship, talent: "Mortal Shots / Improved Stings", rank: 5, spell_id: null}
+    - {tree: "Beast Mastery", talent: "Swift Aspects", rank: 5, spell_id: 19556}
+    - {tree: "Beast Mastery", talent: "Endurance Training", rank: 3, spell_id: 19585}
+    - {tree: "Beast Mastery", talent: "Improved Revive Pet", rank: 2, spell_id: 19575}
+    - {tree: "Beast Mastery", talent: "Coordinated Assault", rank: 1, spell_id: 49559}
+    - {tree: "Beast Mastery", talent: "Unleashed Fury", rank: 5, spell_id: 19620}
+    - {tree: "Beast Mastery", talent: "Bestial Discipline", rank: 1, spell_id: 19590}
+    - {tree: "Beast Mastery", talent: Ferocity, rank: 5, spell_id: 19602}
+    - {tree: "Beast Mastery", talent: "Scent of Blood", rank: 3, spell_id: 52997}
+    - {tree: "Beast Mastery", talent: "Bestial Wrath", rank: 1, spell_id: 19574}
+    - {tree: "Beast Mastery", talent: "Bestial Precision", rank: 2, spell_id: 51555}
+    - {tree: "Beast Mastery", talent: "Spirit Bond", rank: 2, spell_id: 20895}
+    - {tree: "Beast Mastery", talent: Frenzy, rank: 3, spell_id: 19623}
+    - {tree: "Beast Mastery", talent: "Kill Command", rank: 1, spell_id: 41827}
+    - {tree: Marksmanship, talent: "Lethal Shots", rank: 5, spell_id: 19431}
+    - {tree: Marksmanship, talent: Efficiency, rank: 5, spell_id: 19420}
+    - {tree: Marksmanship, talent: "Hawk Eye", rank: 2, spell_id: 19499}
+    - {tree: Marksmanship, talent: Swiftshot, rank: 3, spell_id: 19456}
+    - {tree: Marksmanship, talent: "Endless Quiver", rank: 2, spell_id: 51518}
   leveling_order: []
 stat_weights:
-  ranged_attack_power: "top priority - feeds the pet through Spirit Bond; item RAP-for-crit trades 'improve the hunter's personal DPS but do almost nothing for the pet' [Skurridizo]"
-  hit: "same cap as MM (see marksmanship-ranged-dps.yaml)"
-  crit: "matters post-1.18.1 because Kill Command requires a hunter crit"
+  ranged_attack_power: "top priority - feeds the pet through Spirit Bond; item RAP-for-crit trades 'improve the hunter's personal DPS but do almost nothing for the pet' [Skurridizo]. Post-1.18.1 Discord: pets do not scale with hunter crit, so BM only needs enough crit to keep Kill Command on cooldown, then stacks RAP [consensus, [[d:hunter#1488161325879267450]]]"
+  hit: "8% at 300 weapon skill (corrected below; the forum KB's 9% is vanilla-baseline math) [consensus, [[d:hunter#1298063246254932059]], [[d:hunter#1485763124253425858]]]"
+  crit: "enough to keep Kill Command usable (it needs a hunter crit); pets do not inherit crit [consensus, [[d:hunter#1488161325879267450]], [[d:hunter#1486502917342232787]]]"
   haste: "same as MM"
   pet_damage_items: "T0.5 Beastmaster's set + AQ20 Hunter's set + Breastplate of Beast Mastery + Ferra's Collar totalled '13% damage, 4% additional crit and 50 attack power' for the pet per Arcanex Ota, but 'an item giving +9 agility is already better than that pet-damage bonus' once past BWL per Skurridizo"
-caps: {}
+caps:
+  ranged_hit: "8% at 300 ranged weapon skill (not 9%): level-63 hit suppression was removed with the CC2 weapon-skill change [consensus, [[d:hunter#1298063246254932059]]]; weapon skill is linearized at 1% hit per 5 points up to 315 (305 -> 7%, 310 -> 6%, 315 -> 5%) [consensus, [[d:hunter#1485763124253425858]], [[d:hunter#1463846948200124426]]]; +3 racial skill is only 0.6% hit, +5 is the useful threshold [single source x2, [[d:hunter#1491594913136115732]]]"
 rotation_single:
   - {priority: 1, action: "Pet attack, Hunter's Mark, Bestial Wrath at the pull and on cooldown", condition: "1.18.1 kit; 18 s enrage, no GCD, 1.5 min cd"}
-  - {priority: 2, action: "Kill Command whenever usable", condition: "1.18.1 kit; after any hunter crit, 8 s cd, no GCD, 45 yd, needs line of sight to the pet"}
+  - {priority: 2, action: "Kill Command whenever usable", condition: "1.18.1 kit; after any hunter crit, 8 s cd, no GCD, 45 yd, needs line of sight to the pet; off the GCD and lingers ~4 s into its 8 s cd, so a crit every ~4 s keeps it near 100% uptime [single source, [[d:hunter#1490812124006711457]]]; it cannot be cast mid-Steady-cast [single source, [[d:hunter#1493025359409582222]]]"}
   - {priority: 3, action: "Steady Shot after each Auto Shot, never clipping the auto", condition: "crit-fishes for Kill Command and procs Coordinated Assault"}
   - {priority: 4, action: "Arcane Shot on cooldown", condition: "mana available; scales with weapon damage post-1.18.1 and also procs Coordinated Assault"}
   - {priority: 5, action: "Multi-Shot on cooldown", condition: "always fits it in"}
   - {priority: 6, action: "Serpent Sting", condition: "drop it first when mana is short - 'costs almost as much as 2 Steady Shots'"}
-  - {priority: 7, action: "Aspect of the Viper", condition: "mana < ~20% on a long fight and no burst planned; swap back to Hawk before damage windows"}
+  - {priority: 7, action: "Aspect of the Viper", condition: "mana < ~20% on a long fight and no burst planned; swap back to Hawk before damage windows; out-of-combat tool only in raids - 'Aspect of the Viper loses to much dmg imo' [Valkory, [[d:hunter#1485684679708246016]]]"}
 rotation_aoe:
   - {targets_min: 2, priority: 1, action: "Multi-Shot on cooldown; keep the single-target loop otherwise", condition: "2-3 targets"}
-  - {targets_min: 4, priority: 1, action: "Volley (talented, 3 s cast post-1.18.1) if available; otherwise stay single-target", condition: "no benchmarked post-1.18.1 AoE data exists"}
+  - {targets_min: 4, priority: 1, action: "Volley (talented, 3 s cast post-1.18.1, -2 s with Barrage) if available; otherwise stay single-target", condition: "no benchmarked post-1.18.1 AoE data exists"}
 aoe_threshold: 4
 cooldowns:
-  - {name: "Bestial Wrath", use_when: "on pull and on cooldown (1.18.1); offensive and defensive - pet cannot be stopped short of being killed; save for CC-breaks in PvP"}
+  - {name: "Bestial Wrath", use_when: "on pull and on cooldown (1.18.1); offensive and defensive - pet cannot be stopped short of being killed; save for CC-breaks in PvP; effectively always active when used on cooldown [single source, [[d:hunter#1489010656664617093]]]"}
   - {name: "Kill Command", use_when: "every time it is usable post-crit (1.18.1); pre-1.18.1 CC3 version doubled as the 12-s pet CC-break, removed in 1.18.1"}
   - {name: "Intimidation", use_when: "pet stun/threat spike; make the pet re-take a mob in dungeons"}
   - {name: "Baited Shot", use_when: "CC3/1.18.0 kit only - obsolete after 2026-03-20; fire the instant it is up after Kill Command, do not Arcane Shot while waiting (shared cooldown, could block the proc)"}
@@ -90,14 +92,128 @@ resource_rules:
   - "Tallstrider aura, Blessing of Wisdom, mana potions/tea; Aspect of the Viper post-1.18.1 between pulls"
   - "Improved Revive Pet lets you res mid-combat with a low-cost shot if far away, or via Scare Beast/Freeze Trap"
 consumables:
-  - "As Marksmanship, plus Juju Might/Juju Power and Scrolls for the pet"
-  - "T2 5-piece pet bonus needs no line of sight to the pet; T3 4-set +50 AP to hunter and pet (1.18.1, single source)"
+  - "As Marksmanship, plus Juju Might/Juju Power, Scroll of Strength/Agility and a food/agility scroll for the pet"
+  - "Pet consumables stack and are what push BM Kill Command crits to 7-9k [consensus, [[d:hunter#1491073655382212830]], [[d:hunter#1490806608312406098]]]"
+  - "T2 5-piece pet bonus needs no line of sight to the pet; T3 4-set +50 AP to hunter and pet (1.18.1, single source); T3.5 5-set competes with the T3 4-set [single source, [[d:hunter#1485684117256405168]]]"
   - "Orc Command (+5% pet damage) is the PvE racial pick for BM, contested by 'most likely a skill issue' when compared to top Undead parses"
 mistakes_to_avoid:
   - "Letting the pet die (Shadowflame, cleaves) and losing Happiness - a bigger DPS loss for BM than other specs"
   - "Not using the capstone: sitting on Baited Shot (CC3) or Kill Command/Bestial Wrath (1.18.1) instead of pressing them"
+  - "Under-buffing the pet as BM - pet scrolls/jujus drive 7-9k Kill Commands [single source, [[d:hunter#1490807845078434054]]]"
   - "Putting Claw on a scorpid/wind serpent and focus-starving Scorpid Poison/Lightning Breath"
   - "Using the wrong pet for the boss - scorpid on poison-immune Kara40 bosses"
   - "Ripping threat with Kill Command + scorpid poison on a weak tank without Blessing of Salvation on the pet"
   - "Spending points in 5/5 Frenzy or Improved Eyes of the Beast instead of damage/hit talents"
   - "Running Serpent Sting on every pull as BM (mana)"
+leveling_by_bracket:
+  note: "Discord-sourced from the archived #hunter channel; see synthesis/classes/hunter/leveling.md for the full route."
+  brackets:
+    - {bracket: "1-10", advice: "Do the level-10 taming chain; boar is the safe early pet (Charge snap-threat, wide diet); vendor ammo is 200/stack and the ammo pouch costs a bag slot.", sources: ["[[d:hunter#1484584442461818981]]", "[[d:hunter#1414390378085224508]]", "[[d:hunter#1422543678517411881]]"], era: mixed, agreement: consensus}
+    - {bracket: "10-19", advice: "BM rows 1-2; keep Growl/Bite/Claw current; a Screech bird (owl/bat/carrion) is the strongest AoE-threat leveling pet.", sources: ["[[d:hunter#1485409849180426321]]", "[[d:hunter#1415476596680425494]]", "[[d:hunter#1484751722546204763]]"], era: mixed, agreement: consensus}
+    - {bracket: "20-29", advice: "BM defensives then Unleashed Fury/Ferocity/Intimidation; 'BM feels weak' at 21 is common but the pet carries; Salt Flats Vulture owl (~32) gives early Screech rank 2.", sources: ["[[d:hunter#1484310735457747206]]", "[[d:hunter#1415478653193818132]]"], era: mixed, agreement: consensus}
+    - {bracket: "30-39", advice: "Continue BM; Hinterlands Eagle (35-40) knows Screech rank 3 innately despite rank 3 needing 48; unique Hinterlands owls give max Screech from ~42.", sources: ["[[d:hunter#1428475590486524116]]", "[[d:hunter#1415479627337568298]]"], era: mixed, agreement: single source}
+    - {bracket: "40-49", advice: "Level 40 is the melee-SV breakpoint: Untamed Trapper + Lightning Reflexes; common plan is level BM to 40 then respec SV and accept tanking; pet aggro starts ripping in the low 40s. 'from 39 to 40, right away when I got untamed trapper, my levelling speed became ridiculously faster' [Sofie].", sources: ["[[d:hunter#1417950297417978098]]", "[[d:hunter#1455791834709098547]]", "[[d:hunter#1416403076352442469]]", "[[d:hunter#1417540728942366750]]"], era: mixed, agreement: consensus}
+    - {bracket: "50-60", advice: "Finish the chosen tree; solo DME lashers from ~54. No distinct post-1.18.1 50-60 report exists.", sources: ["[[d:hunter#1383780310201794651]]"], era: pre-1.18.1, agreement: single source}
+    - {bracket: leveling_general, advice: "BM is the consensus leveling spec across all three kit eras; Survival is weak until 40; post-1.18.1 baseline Steady Shot at 20 makes MM leveling viable; 'for levelling just stack agility' [Ash].", sources: ["[[d:hunter#1484312036170010798]]", "[[d:hunter#1484311755512610846]]", "[[d:hunter#1415655104622624879]]"], era: mixed, agreement: consensus}
+    - {bracket: hardcore, advice: "Boar (tanky, eats anything, Charge snap-threat) or a Screech bird for AoE threat; BM defensives first.", sources: ["[[d:hunter#1484749621845561464]]", "[[d:hunter#1484689711233765478]]"], era: post-1.18.1, agreement: consensus}
+discord:
+  channel: hunter
+  scope: "Beast Mastery additions from the archived #hunter Discord (Turtle WoW Europe; pre-1.18.1 to the 2026-05-15 shutdown). Every claim carries [[d:hunter#<id>]], an era (pre-1.18.1 | 1.18.1-announced-pre-release | post-1.18.1) and agreement (consensus | single source | contested)."
+  builds:
+    - name: "Post-1.18.1 BM 34/17/0 — deep BM through Kill Command + Bestial Wrath, MM filler"
+      split: {Beast Mastery: 34, Marksmanship: 17}
+      code: "FYACBoIoZASYB-AoAoQDQ-"
+      total_points: 51
+      source: "[[d:hunter#1484537323629580359]], [[d:hunter#1486069229819138169]], [[d:hunter#1486067074555187392]]"
+      era: post-1.18.1
+      agreement: consensus
+      note: "Recurring shape x3 (plus 33/18/0 x2). Lethal Shots regained value because Kill Command needs a hunter crit; Bestial Discipline is 'pretty much mandatory' with a scorpid, though several builds skip it because the focus regen is small [[d:hunter#1484537665566015568]]. This replaces the previous 'staff-tooltip-derived' bot default."
+      allocation:
+        - {tree: Beast Mastery, talent: Swift Aspects, rank: 5, talent_id: 373, spell_id: 19556}
+        - {tree: Beast Mastery, talent: Endurance Training, rank: 3, talent_id: 374, spell_id: 19585}
+        - {tree: Beast Mastery, talent: Improved Revive Pet, rank: 2, talent_id: 378, spell_id: 19575}
+        - {tree: Beast Mastery, talent: Coordinated Assault, rank: 1, talent_id: 380, spell_id: 49559}
+        - {tree: Beast Mastery, talent: Unleashed Fury, rank: 5, talent_id: 381, spell_id: 19620}
+        - {tree: Beast Mastery, talent: Bestial Discipline, rank: 1, talent_id: 382, spell_id: 19590}
+        - {tree: Beast Mastery, talent: Ferocity, rank: 5, talent_id: 384, spell_id: 19602}
+        - {tree: Beast Mastery, talent: Scent of Blood, rank: 3, talent_id: 385, spell_id: 52997}
+        - {tree: Beast Mastery, talent: Bestial Wrath, rank: 1, talent_id: 386, spell_id: 19574}
+        - {tree: Beast Mastery, talent: Bestial Precision, rank: 2, talent_id: 388, spell_id: 51555}
+        - {tree: Beast Mastery, talent: Spirit Bond, rank: 2, talent_id: 389, spell_id: 20895}
+        - {tree: Beast Mastery, talent: Frenzy, rank: 3, talent_id: 390, spell_id: 19623}
+        - {tree: Beast Mastery, talent: Kill Command, rank: 1, talent_id: 391, spell_id: 41827}
+        - {tree: Marksmanship, talent: Efficiency, rank: 5, talent_id: 413, spell_id: 19420}
+        - {tree: Marksmanship, talent: Lethal Shots, rank: 5, talent_id: 415, spell_id: 19431}
+        - {tree: Marksmanship, talent: Hawk Eye, rank: 2, talent_id: 416, spell_id: 19499}
+        - {tree: Marksmanship, talent: Swiftshot, rank: 3, talent_id: 418, spell_id: 19456}
+        - {tree: Marksmanship, talent: Endless Quiver, rank: 2, talent_id: 419, spell_id: 51518}
+    - name: "Post-1.18.1 BM variants (screenshots + codes)"
+      variants:
+        - {split: "33/18/0", code: "FYACBoAoZASYB-AoAoRCQI-", note: "adds Aimed Shot 1 / Mortal Shots 1"}
+        - {split: "41/10/0", code: "FoAaBoQoZASgB-AoAo-", note: "adds Thick Hide 3 + Bestial Discipline 2"}
+        - {split: "39/12/0", code: "AoAaBoSoZBSgB-AoAoQ-", note: "adds Thick Hide 3 + Improved Mend Pet 2"}
+        - {split: "36/12/3", code: "FoAARoAoZBSYB-AoAoQ-Y", note: "adds Pathfinding 2 + Intimidation 1 + Improved Slaying 3"}
+      source: "[[d:hunter#1485189121210056724]], [[d:hunter#1486067074555187392]], [[d:hunter#1486066438006505583]], [[d:hunter#1486122938506674419]], [[d:hunter#1487094951606091916]]"
+      era: post-1.18.1
+      agreement: consensus
+      note: "15 post-patch talent screenshots were transcribed in staging/hunter-core/talents.md §1.4; header totals are the verifiable part. The sim's no-pet BM Kara40 BiS readout was 1014.02 DPS (±32) [[d:hunter#1492436284168212531]]."
+    - name: "Pre-1.18.1 recurring BM/MM hybrids (the forum KB's flagship links, now decoded)"
+      variants:
+        - {split: "29/22/0", code: "FQAYBoAoQCQQAAAoCoQBAoACAAAAAAAAAAAAAAAAAAA=", note: "CC2 BM raid link (SvenS2)"}
+        - {split: "31/20/0", code: "FYACBoQoBCQQB-AoCoQBAo-", note: "CC3 BM/MM hybrid link (SvenS2)"}
+      source: "[[d:hunter#1296276364978159639]], [[d:hunter#1409566381254381608]]"
+      era: pre-1.18.1
+      agreement: single source
+      note: "Slot labels are the 1.18.1 grid names; ranks are CC2/CC3-era ranks (the tree was rebuilt three times). Full table in staging/hunter-core/talents.md §2."
+  rotation_single:
+    - claim: "No authoritative full BM priority list exists in the channel; the recurring question went unanswered and several posters said BM is 'no rotation / macro it' [consensus (gap), [[d:hunter#1486410405952880663]], [[d:hunter#1489057031435587764]]]. The list in this file is reconstructed from fragments."
+      era: post-1.18.1
+      agreement: derived
+    - claim: "Kill Command (1.18.1) is off the GCD and stays usable ~4 s into its 8 s cooldown, so a hunter crit roughly every 4 s keeps it near 100% uptime; measured 99.93% uptime at 33% crit [single source (player-tested), [[d:hunter#1490812124006711457]], [[d:hunter#1490826259817562155]]]."
+      era: post-1.18.1
+      agreement: single source
+    - claim: "Same-gear dummy dps: BM 700 vs MM 750 at 33% crit; in Naxx a raptor BM was rank 1 over MM rank 2 on boss fights with the pet ~50% of total damage and Kill Command crits of 7,153 [single raid sample, [[d:hunter#1490826259817562155]], [[d:hunter#1486419920332787763]]]."
+      era: post-1.18.1
+      agreement: single source
+  stat_weights:
+    hit: "8% at 300 weapon skill (forum KB's 9% superseded) [consensus, [[d:hunter#1298063246254932059]]]"
+    agility: "1 agi = 3 eAP; 53 agi = 1% crit [consensus, [[d:hunter#1488075516060766330]], [[d:hunter#1488074387918688336]]]"
+    crit: "1% crit = 50+ eAP post-1.18.1 (up from 30 eAP pre-patch), because of MM's new crit scaling [single source, [[d:hunter#1486693663084904448]]]"
+    haste: "1% haste = 12-14 eAP (MM) / 20-40 (SV); explicitly unverifiable private-sheet weights [contested, [[d:hunter#1488442215729594449]]]"
+  caps:
+    ranged_hit: "8% at 300 weapon skill; 1% hit per 5 weapon skill up to 315 [consensus, [[d:hunter#1298063246254932059]], [[d:hunter#1485763124253425858]]]"
+    weapon_skill: "315 is the cap of the linear bonus; historically buggy above it (316 gave bonus crit, 317/318 nothing) [single source, [[d:hunter#1486496701177921701]]]"
+  pets:
+    - claim: "Pet contribution post-1.18.1: ~50% of BM total damage in Naxx; ~8-10% for MM/SV, under 6% on several Naxx bosses [single-raid samples, [[d:hunter#1486419920332787763]], [[d:hunter#1488167502499418182]], [[d:hunter#1486310800736911400]]]."
+      era: post-1.18.1
+      agreement: single source
+    - claim: "BM pet choice is fight-length dependent: MC scorpid for long fights with an Eyes-of-the-Beast snapshot (4 stacks, pop Bestial Wrath/AP trinkets, 5th stack via Eyes of the Beast); ZG snake for short fights/Kill Command; ZG raptor as the all-rounder that works in Naxx. Cat fell behind (no damaging special). Wolf is bad for BM (0% damage scaling). Contested by family multiplier: Kill Command is multiplied by the family modifier (raptor 1.1 -> 802 vs scorpion 0.94 -> 685 on dummy), Coordinated Assault is not [single source, [[d:hunter#1485789832759349258]]]."
+      sources: ["[[d:hunter#1490837960583549270]]", "[[d:hunter#1490794224499822733]]", "[[d:hunter#1486454996177260656]]", "[[d:hunter#1439002895591805049]]"]
+      era: mixed
+      agreement: consensus
+    - claim: "Scorpid Poison stacking-scaling bug pushed scorpion damage far above the others; hotfixed 2026-03-24, after which the guide author called scorpion 'probably middle of the pack' [consensus, [[d:hunter#1487448189387931749]], [[d:hunter#1484745831117623356]]]."
+      era: post-1.18.1
+      agreement: consensus
+    - claim: "1.18.1 added pet cleave avoidance (~40% less physical cleave damage) [single source, [[d:hunter#1485121037426495529]]]; prefer 2.0 attack-speed pets for Windfury (the proc has an internal cooldown) [single source, [[d:hunter#1489955871776702616]]]."
+      era: post-1.18.1
+      agreement: single source
+  encounters:
+    - {zone: Naxxramas, advice: "4 Horsemen, Sapphiron and Kel'Thuzad are 'not BM fights'; elsewhere BM was competitive; raptors work in Naxx 'mostly'.", sources: ["[[d:hunter#1485920686055886930]]", "[[d:hunter#1486454996177260656]]"], era: post-1.18.1, agreement: consensus}
+    - {zone: Kara40, advice: "No humanoids/beasts/giants/dragonkin, so Improved Slaying is worthless there; pet uptime is the challenge and scorpid is unusable on 6 of 9 bosses.", sources: ["[[d:hunter#1486333622796550184]]", "[[d:hunter#1485915598004158527]]"], era: post-1.18.1, agreement: consensus}
+    - {zone: "Nefarian (BWL)", advice: "The hunter class call destroys melee weapons; unequip melee weapons before it.", sources: ["[[d:hunter#1485009781281390593]]"], era: post-1.18.1, agreement: consensus}
+    - {zone: "AQ40", advice: "Anubisath shadowflame is avoidable at the deadzone line as MM [single source, [[d:hunter#1491059182638727278]]]; 1.18.1 traps work on the new Onyxia and adds [[d:hunter#1484656535996207226]].", era: post-1.18.1, agreement: single source}
+  consumables:
+    - "MM raid consumable list (Spirit of Zanza, Mongoose, Ground Scorpok Assay, Juju Might, Danonzo's/Squid Eel Skewer, Consecrated Sharpening Stone) plus pet Juju Power/Juju Might/Scrolls + Agility Scroll [single source x2, [[d:hunter#1486496184280420533]], [[d:hunter#1491073655382212830]]]"
+    - "Danonzo's well-fed 'carrots' apply the buff instantly (no 10 s wait) [single source, [[d:hunter#1488738273063862376]]]"
+  mistakes_to_avoid:
+    - "Not using the capstone (Baited Shot on CC3; Kill Command/Bestial Wrath on 1.18.1)."
+    - "Letting the pet die or overaggro; for BM this is the Kara40/Naxx pain point."
+    - "Starving scorpion poison with Claw, or letting poison stacks drop and losing the Eyes-of-the-Beast snapshot."
+    - "Under-buffing the pet as BM (pet scrolls/jujus drive 7-9k Kill Commands)."
+  sources:
+    - "[[d:hunter#1412681801339764817]] - Dresche pinned Hunter FAQ (1.18.1; updated 2026-03-28 in full T3.5 BiS)"
+    - "[[d:hunter#1490682120815775965]] - Vellasta TWoW Hunter Simulator (2026-04-06)"
+    - "[[d:hunter#1488624322686746945]] - MetaHunt 1.18.1 tooling (one-button rotation, beast DB)"
+    - "[[d:hunter#1299178457112252457]] - Destroses custom-beast spreadsheets"
+    - "[[d:hunter#1395076924551856231]] - Ash cross-class gear spreadsheet"
+    - "[[d:hunter#1485752587289493554]] - MetaHunt 1.4.0 for 1.18.1"

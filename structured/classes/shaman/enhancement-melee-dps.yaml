@@ -51,25 +51,28 @@ agreement: contested
 patch_validity:
   written_for: "1.17.2 (Class Changes 2) and 1.18.0 (live 2025-08-15)"
   valid_for_1181: unknown
-  notes: "1.18.1 changed Windfury Weapon (25% per hit), Flurry (any crit, 3 swings, reworked trigger), Elemental Weapons' Windfury/Flametongue effects, and the Lightning Strike Water Shield ratio to 18:1; no talent points moved. No source posts an updated build or rotation after 2026-03-20, and post-release bug reports (Flurry not triggering correctly, overwritten by Elemental Weapons' haste) were still open on 2026-04-07."
+  notes: "1.18.1 changed Windfury Weapon (25% per hit), Flurry (any crit, 3 swings, reworked trigger), Elemental Weapons' Windfury/Flametongue effects, and the Lightning Strike Water Shield ratio to 18:1; no talent points moved. The forum file's 'no source posts an updated build or rotation after 2026-03-20' is closed by Discord: the post-1.18.1 17/34/0 build and the confirmed rotation are in `discord:` below ([[d:shaman#1493306457784062084]], [[d:shaman#1486024479951032474]]). Post-release Flurry/Bulwark bugs were hotfixed in stages."
 talents:
-  build_name: "Atreidon's raid build (link only; named-core talents listed separately)"
-  build_link: "https://talents.turtlecraft.gg/shaman?points=FQAYNAAAAAAAAAFAFaAIFADIAoAAAAAAAAAAAAAAAAA="
+  build_name: "Post-1.18.1 standard PvE DPS build -- 17/34/0 (Not Normal; the pre-release builds are the 22/29/0 / 15/36/0 spectrum below)"
+  build_link: "https://talents.turtlecraft.gg/shaman?points=DoAYLAAC-FAFYYIFATIAoB-"
   points:
-    - {tree: Elemental, talent: Convection, rank: 5, spell_id: null}
-    - {tree: Elemental, talent: Concussion, rank: 2, spell_id: null, note: "or Elemental Warding"}
-    - {tree: Elemental, talent: "Elemental Devastation", rank: 3, spell_id: null}
-    - {tree: Elemental, talent: "Elemental Focus", rank: 1, spell_id: null}
-    - {tree: Enhancement, talent: "Thundering Strikes", rank: 5, spell_id: null}
-    - {tree: Enhancement, talent: "Stable Shields", rank: 3, spell_id: null}
-    - {tree: Enhancement, talent: "Lightning Strike", rank: 1, spell_id: null}
-    - {tree: Enhancement, talent: Flurry, rank: 5, spell_id: null}
-    - {tree: Enhancement, talent: "Elemental Weapons", rank: 3, spell_id: null}
-    - {tree: Enhancement, talent: Stormstrike, rank: 1, spell_id: null}
-    - {tree: Enhancement, talent: "Element's Grace", rank: 5, spell_id: null}
-    - {tree: Enhancement, talent: Bloodlust, rank: 1, spell_id: null}
-    - {tree: Enhancement, talent: "Ancestral Knowledge", rank: 5, spell_id: null}
-    - {tree: Enhancement, talent: "Calming Winds", rank: 3, spell_id: null, note: "raid threat reduction; Toxo calls it mandatory only at high gear"}
+    - {tree: Elemental, talent: Convection, rank: 3, spell_id: 16110}
+    - {tree: Elemental, talent: Concussion, rank: 5, spell_id: 16108, note: "or Elemental Warding"}
+    - {tree: Elemental, talent: "Elemental Devastation", rank: 3, spell_id: 29180}
+    - {tree: Elemental, talent: "Elemental Focus", rank: 1, spell_id: 45541}
+    - {tree: Elemental, talent: Reverberation, rank: 3, spell_id: 16114}
+    - {tree: Elemental, talent: "Call of Flame", rank: 2, spell_id: 16160}
+    - {tree: Enhancement, talent: "Ancestral Knowledge", rank: 5, spell_id: 17489}
+    - {tree: Enhancement, talent: "Thundering Strikes", rank: 5, spell_id: 16305}
+    - {tree: Enhancement, talent: "Stable Shields", rank: 3, spell_id: 16291}
+    - {tree: Enhancement, talent: "Calming Winds", rank: 3, spell_id: 51385, note: "raid threat reduction; Toxo calls it mandatory only at high gear"}
+    - {tree: Enhancement, talent: "Lightning Strike", rank: 1, spell_id: 51387}
+    - {tree: Enhancement, talent: Flurry, rank: 5, spell_id: 16284}
+    - {tree: Enhancement, talent: "Enhancing Totems", rank: 2, spell_id: 16295}
+    - {tree: Enhancement, talent: "Elemental Weapons", rank: 3, spell_id: 29080}
+    - {tree: Enhancement, talent: Stormstrike, rank: 1, spell_id: 17364}
+    - {tree: Enhancement, talent: "Element's Grace", rank: 5, spell_id: 29088}
+    - {tree: Enhancement, talent: Bloodlust, rank: 1, spell_id: 45509}
   leveling_order: []
 stat_weights:
   note: "No source gives an explicit DPS stat-weight list; see enhancement-tank.yaml's Turtle mechanics table for the underlying formulas (Rockbiter/Windfury/Lightning Strike scale with AP; Flametongue/fire totems scale with SP)."
@@ -118,3 +121,140 @@ mistakes_to_avoid:
   - "Chasing mp5/Int/Spirit gear instead of AP/hit/crit"
   - "Dropping every totem every pull while soloing"
   - "Assuming Flurry works from white-hit crits post-1.18.1, or that it is not overwritten by Elemental Weapons' Windfury haste (both reported bugged as of 2026-04-07)"
+
+discord:
+  channel: shaman
+  scope: "Enhancement additions from the archived #shaman Discord (2021-02-15 -> 2026-05). Every claim carries a [[d:shaman#<id>]] citation, an era (pre-1.18.1 | 1.18.1-announced-pre-release | post-1.18.1) and agreement (consensus | single source | contested)."
+  builds:
+    - name: "Post-1.18.1 standard PvE DPS build -- 17/34/0 (Not Normal)"
+      split: {Elemental: 17, Enhancement: 34, Restoration: 0}
+      code: DoAYLAAC-FAFYYIFATIAoB-
+      source: "[[d:shaman#1493306457784062084]]"
+      also_cited: ["[[d:shaman#1488303963198455820]]", "[[d:shaman#1493306544392241343]]", "[[d:shaman#1493306593318535169]]"]
+      era: post-1.18.1
+      agreement: consensus
+      note: "The channel's answer to 'what build for Enh PvE' post-1.18.1; the last 2 points are optional (Improved Fire Totems preferred by Not Normal). Full decode in kb/structured/talents/builds-shaman.yaml."
+      allocation:
+        - {tree: Elemental, talent: Convection, rank: 3, spell_id: 16110}
+        - {tree: Elemental, talent: Concussion, rank: 5, spell_id: 16108}
+        - {tree: Elemental, talent: Elemental Devastation, rank: 3, spell_id: 29180}
+        - {tree: Elemental, talent: Elemental Focus, rank: 1, spell_id: 45541}
+        - {tree: Elemental, talent: Reverberation, rank: 3, spell_id: 16114}
+        - {tree: Elemental, talent: Call of Flame, rank: 2, spell_id: 16160}
+        - {tree: Enhancement, talent: Ancestral Knowledge, rank: 5, spell_id: 17489}
+        - {tree: Enhancement, talent: Thundering Strikes, rank: 5, spell_id: 16305}
+        - {tree: Enhancement, talent: Stable Shields, rank: 3, spell_id: 16291}
+        - {tree: Enhancement, talent: Calming Winds, rank: 3, spell_id: 51385}
+        - {tree: Enhancement, talent: Lightning Strike, rank: 1, spell_id: 51387}
+        - {tree: Enhancement, talent: Flurry, rank: 5, spell_id: 16284}
+        - {tree: Enhancement, talent: Enhancing Totems, rank: 2, spell_id: 16295}
+        - {tree: Enhancement, talent: Elemental Weapons, rank: 3, spell_id: 29080}
+        - {tree: Enhancement, talent: Stormstrike, rank: 1, spell_id: 17364}
+        - {tree: Enhancement, talent: "Element's Grace", rank: 5, spell_id: 29088}
+        - {tree: Enhancement, talent: Bloodlust, rank: 1, spell_id: 45509}
+    - name: "Enhancement split spectrum (channel scan, 1.18.1-valid)"
+      variants:
+        - {split: "22/29/0", code: AoDYLAQDAC-FAVYALBQDIAY-, occurrences: 6, note: "spellhance / higher-Elemental shape; Ordinary Joe's max-threat variant is DoAYLAQDAC-FAVYALAQDIAg-", source: "[[d:shaman#1487038299544748173]]", also_cited: ["[[d:shaman#1485848758791966846]]"]}
+        - {split: "23/28/0", code: AoDYLAQDBC-FAVYALAQDIAY-, occurrences: 3, note: "post-1.18.1 Ele/Enh mitigation-tank hybrid", source: "[[d:shaman#1485648863430836266]]", also_cited: ["[[d:shaman#1489511855788392469]]"]}
+        - {split: "15/36/0", code: FADYL-FAVYALFQDIAoB-, occurrences: 15, note: "tankier melee+mitigation variant (Ancestral Guardian 3, Spirit Armor 2, Totemic Alignment 2)", source: "[[d:shaman#1408569517189103616]]"}
+        - {split: "21/30/0", code: FoAYLAADAB-FAFYYIFAQIAo-, occurrences: 2, note: "transitional Ele Fury 1/Ele Weapons 3 shape", era: mixed}
+      era: mixed
+      agreement: consensus
+    - name: "Atreidon's pre-1.18.1 raid build (link only)"
+      code: FQAYNAAAAAAAAAFAFaAIFADIAoAAAAAAAAAAAAAAAAA=
+      source: "[[d:shaman#1493306457784062084]]"
+      era: post-1.18.1
+      agreement: single source
+      note: "The forum KB's named-core list; superseded by the decoded 17/34/0 for post-1.18.1 play."
+  spellhance_variant:
+    definition: "Flametongue imbue, 22/29/0 Elemental Fury split, hybrid spellpower gear and a fire-totem emphasis (Fire Nova/Searing weave single-target)."
+    power_delta: "pre-1.18.1 10-15% behind physhance single-target (but better AoE); post-1.18.1 after the fixes ~5-8% behind."
+    scaling: "spellhance scales shocks/Lightning Shield/fire totems; physhance scales Stormstrike/Lightning Strike/autos/Windfury; physical crit ~= spell crit for spellhance via Elemental Devastation uptime."
+    sources: ["[[d:shaman#1486379110036013087]]", "[[d:shaman#1485046277111812196]]", "[[d:shaman#1485047380679069746]]", "[[d:shaman#1427353354346172588]]", "[[d:shaman#1485584249364152431]]", "[[d:shaman#1424256298899345479]]"]
+    era: mixed
+    agreement: single source (Not Normal)
+  fire_elemental_era:
+    summary: "The 2025-10 pre-release fire-elemental (Molten Blast spam, double-dipping Elemental Weapons Flametongue) was 'nuts single target dps, braindead easy'; 1.18.1's melee-hit requirement for the +30% Fire killed it."
+    sources: ["[[d:shaman#1423506245045850194]]", "[[d:shaman#1424157142599991517]]", "[[d:shaman#1422913275967967286]]", "[[d:shaman#1484621315741712596]]", "[[d:shaman#1484823161403867196]]"]
+    era: mixed
+    agreement: consensus (superseded)
+  rotation_single:
+    - action: "Flame Shock to open (skip on fire-immune or sub-9-s targets), Stormstrike on cooldown (+25% next 2 Nature), Earth Shock while the Stormstrike buff is up, Lightning Strike on cooldown with Lightning Shield, keep the shield refreshed and swap to Water Shield when mana-limited."
+      condition: "post-1.18.1 consensus"
+      sources: ["[[d:shaman#1486024479951032474]]", "[[d:shaman#1486721868789584004]]", "[[d:shaman#1457756350342758472]]", "[[d:shaman#1485707818081194104]]", "[[d:shaman#1486136709375725759]]"]
+      era: mixed
+      agreement: consensus
+    - action: "Some shamans now skip Flame Shock entirely on short-lived targets; the channel notes it as an observation, not advice."
+      condition: "trash / very short fights"
+      sources: ["[[d:shaman#1494026002748145664]]"]
+      era: post-1.18.1
+      agreement: single source
+    - action: "Stormstrike can no longer roll Windfury twice (1.18.1); do not hold strikes waiting for a Windfury window."
+      condition: "always"
+      sources: ["[[d:shaman#1486024479951032474]]"]
+      era: post-1.18.1
+      agreement: consensus
+  rotation_aoe:
+    - action: "Keep the single-target loop on the kill target; Chain Lightning is an option even as melee."
+      targets_min: 2
+      sources: ["[[d:shaman#1486024479951032474]]"]
+      era: post-1.18.1
+      agreement: consensus
+    - action: "Fire Nova Totem then Magma Totem (+ Chain Lightning); Fire Nova is preferred for up-front damage, and Elemental Weapons' Flametongue +30% Fire now requires a melee hit first."
+      targets_min: 4
+      sources: ["[[d:shaman#1486561660150747156]]", "[[d:shaman#1494697839996047441]]", "[[d:shaman#1484492563611123743]]"]
+      era: post-1.18.1
+      agreement: consensus
+  stat_weights:
+    weapon_skill: "glancing cap 315; ~313 from Ancient Jade Leggings is 'fine' post-1.18.1, and further hit/WS overcaps are worth only ~0.4x."
+    physical_hit: "8% including 3% talents (+0.2% per weapon skill above 300)."
+    crit: "~30-35% then stack AP/haste; physical crit ~= spell crit value for spellhance via Elemental Devastation uptime."
+    haste: "after crit; budget example 2% haste ~= 1.5% crit."
+    spell_hit_shocks: "comes from Elemental Devastation procs; take only as much pure physical gear as the physical hit cap needs."
+    sources: ["[[d:shaman#1443272112771960965]]", "[[d:shaman#1462146703665660158]]", "[[d:shaman#1491836949063929958]]", "[[d:shaman#1467795868198375495]]", "[[d:shaman#1483167267842818272]]", "[[d:shaman#1424256298899345479]]", "[[d:shaman#1484577067184947200]]", "[[d:shaman#1489336780141625554]]", "[[d:shaman#1491554624778272868]]"]
+    era: mixed
+    agreement: "consensus on caps; single source on equivalences"
+    note: "No channel consensus on a crit/haste:AP ratio; a question was asked and unanswered [[d:shaman#1484665748612976680]]. Keep the forum KB's Skegg equivalence table as single-source."
+  caps:
+    physical_hit: "8% (incl. 3% talents + 0.2%/weapon skill above 300)"
+    weapon_skill: "315 glancing cap; 313 practically fine via Ancient Jade Leggings"
+    spell_hit_shocks: "benefits from the Elemental Devastation buff"
+    sources: ["[[d:shaman#1443272112771960965]]", "[[d:shaman#1491836949063929958]]", "[[d:shaman#1467795868198375495]]"]
+  totems:
+    - "Windfury / Flametongue Totems buff the party only, never the shaman [[d:shaman#1494624498870386748]]."
+    - "Elemental Weapons' Flametongue +30% Fire requires a melee hit first (1.18.1) [[d:shaman#1484492563611123743]]."
+    - "Searing Totem updates in place, no re-drop needed [[d:shaman#1494090499475247184]]."
+  consumables:
+    - "Concoction of the Arcane Giant and Juju Power no longer stack post-1.18.1 -- the forum KB's list implies they do [[d:shaman#1485348172426510379]], [[d:shaman#1480931235931881594]]."
+  boss_notes:
+    - {boss: "Sapphiron (Enh/tank fire-totem twisting)", note: "a post-1.18.1 report of unexpectedly low DPS despite near-perfect fire-totem twisting and 100% uptime; unexplained, possibly the FT-totem/bulwark bugs", agreement: single source, sources: ["[[d:shaman#1491147488865030254]]"]}
+    - {boss: "fire-immune bosses (MC/Ony/BWL)", note: "fire-totem / Flame Shock value is lost", sources: ["[[d:shaman#1406978821315498004]]"]}
+  gear:
+    - "Greybull's pinned Leveling & Pre-BiS guide [[d:shaman#1411592058119913492]]; Squid's Enh consumables + pre-raid draft [[d:shaman#1416980701667922021]], [[d:shaman#1418103287202451560]]."
+    - "Ancient Jade Leggings hybrid weapon-skill [[d:shaman#1491836338562007223]]."
+  bugs:
+    - id: BUG-FLURRY
+      entity: [Flurry, Elemental Weapons, Windfury Weapon]
+      summary: "Flurry shipped triggering only from direct spell crits and Stormstrike/Lightning Strike, not melee swings or imbues, and was overwritten by Elemental Weapons' Windfury haste. Hotfixed in stages 2026-03-21/24/31."
+      sources: ["[[d:shaman#1484583137232290024]]", "[[d:shaman#1484583463859392573]]", "[[d:shaman#1484584257501270037]]", "[[d:shaman#1485245225055162368]]"]
+      era: post-1.18.1
+      agreement: consensus
+    - id: BUG-BULWARK
+      entity: [Earthen Bulwark, Rockbiter Weapon, Stormstrike, Lightning Strike]
+      summary: "Earthen Bulwark built only from white auto attacks, not from Stormstrike/Lightning Strike, through the 2026-03-25 hotfix and still reported on 2026-04-07."
+      sources: ["[[d:shaman#1484954736342995116]]", "[[d:shaman#1485640385857454291]]", "[[d:shaman#1485245225055162368]]"]
+      era: post-1.18.1
+      agreement: consensus
+  mistakes_to_avoid:
+    - "Skipping Flame Shock entirely [[d:shaman#1494026002748145664]]"
+    - "Holding Stormstrike / Lightning Strike for a Windfury window [[d:shaman#1486024479951032474]]"
+    - "Expecting Windfury / Flametongue Totem to buff yourself [[d:shaman#1494624498870386748]]"
+    - "Stacking Concoction of the Arcane Giant + Juju Power (no longer stack) [[d:shaman#1485348172426510379]]"
+    - "Relying on Flurry before the hotfixes [[d:shaman#1484583137232290024]]"
+  sources:
+    - {id: "[[d:shaman#1493306457784062084]]", era: post-1.18.1, agreement: consensus, used_for: "17/34/0 standard build"}
+    - {id: "[[d:shaman#1486024479951032474]]", era: post-1.18.1, agreement: consensus, used_for: "post-1.18.1 rotation"}
+    - {id: "[[d:shaman#1486379110036013087]]", era: post-1.18.1, agreement: single source, used_for: "spellhance delta"}
+    - {id: "[[d:shaman#1491836949063929958]]", era: post-1.18.1, agreement: consensus, used_for: "313 weapon skill fine"}
+    - {id: "[[d:shaman#1484583137232290024]]", era: post-1.18.1, agreement: consensus, used_for: "Flurry bug/hotfix"}
+    - {id: "[[d:shaman#1485348172426510379]]", era: post-1.18.1, agreement: consensus, used_for: "consumable non-stacking"}

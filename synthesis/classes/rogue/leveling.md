@@ -142,6 +142,51 @@ Rogue is discussed as one of the easier Hardcore classes because of its escape k
 - "speaking of rogue quests, I implore you to read. Like, actually read and understand whats being asked of you in the rogue class quests. Many 1st time rogues die on those because they don't read" [Voodoochile (player), 2025-05-20](https://forum.turtlecraft.gg/viewtopic.php?p=132177#p132177).
 - One report of extreme early-game power via world-buff abuse on a non-Turtle Hardcore server: "IF you abuse ony buff you don't even need a good dagger. I've got a hc rogue on the other server without good daggers, and its litteral 1 shots from 20 to 30" [amanagor (player), 2025-12-08](https://forum.turtlecraft.gg/viewtopic.php?p=162041#p162041) — **single source, not confirmed as Turtle-specific** (the post says "on the other server"); flagged, not relied on.
 
+## Discord findings (2025–2026) — leveling per bracket
+
+`#rogue` leveling slices (2021-02 .. 2026-05). Citations `[[d:rogue#id]]` resolve in `structured/discord/evidence-rogue.jsonl`. Eras: **pre-1.18.1** (< 2025-10-03), **1.18.1-announced-pre-release** (2025-10-03 .. 2026-03-19), **post-1.18.1** (≥ 2026-03-20).
+
+### The route, decoded
+
+**Combat/dagger to ~40 → respec Assassination (Noxious Assault) at 40 → respec to the endgame spec at 58–60** [[d:rogue#1425614628385325138]], [[d:rogue#1455712360433189117]], [[d:rogue#1458113459639156888]] (consensus, 1.18.1-announced-pre-release). The **level-40 respec decodes to exactly 31/0/0** — Remorseless 2, Malice 5, Ruthlessness 3, Murder 2, Relentless 1, Lethality 5, Vile Poisons 3, Imp Poisons 3, Efficient Poisons 3, Envenom 1, Vigor 2, **Noxious Assault 1** (no TfB/Seal Fate/Cold Blood) [[d:rogue#1475759154089033738]], [[d:rogue#1452327807320592507]] — and the pinned leveling build decodes to **20/5/26** [[d:rogue#1431531176333541396]]. Decoded leveling-stage codes: ~16 as 16/0/0 [[d:rogue#1471422190661402634]], ~19 as 11/8/0 [[d:rogue#1478408865740619817]], ~27 as 2/8/8 [[d:rogue#1471423390220026026]], ~32 as 19/13/0 [[d:rogue#1478410049712951316]], ~34 as 12/18/4 [[d:rogue#1455185169706385542]], ~36 as 31/5/0 [[d:rogue#1487577693246586900]], fresh-60 as 11/0/0 [[d:rogue#1487373934478360667]].
+
+### Per-bracket advice
+
+| Bracket | Advice | Citation | Era | Agreement |
+|---|---|---|---|---|
+| 1–10 | Quest on Sinister Strike/Eviscerate or Backstab/Ambush; dual wield unlocks at 10; start lockpicking/poison skill | [[d:rogue#1355443254015033394]], [[d:rogue#1355443795524587603]] | 1.18.1-announced-pre-release | single source |
+| 10–19 | Combat swords (smoothest) or Ambush/Backstab daggers (Remorseless → Imp Backstab → Imp Ambush); Imp Gouge is a lifesaver; Deadmines/SFK daggers | [[d:rogue#1310955868933586985]], [[d:rogue#1312496085784072232]], [[d:rogue#1286056902975029313]] | mixed | consensus |
+| 20–29 | Poison class quest at 20 (dangerous); learn frontstab; pickpocket lockboxes 20–30 are level-1 boxes | [[d:rogue#1003729345174569090]], [[d:rogue#1131138509588140062]] | mixed | consensus |
+| 30–39 | Vanquisher's Sword + Sword of Omen/Serenity at ~40; Gut Ripper ~40; frontstab costs more damage taken | [[d:rogue#1165510276062384150]], [[d:rogue#1136264023206268989]], [[d:rogue#1310955868933586985]] | mixed | consensus |
+| 40–49 | Respec Assassination for Noxious Assault; Envenom single-target; double Instant Poison; Coldrage/Ghaz'rilla daggers; 1.30 daggers wanted | [[d:rogue#1425614628385325138]], [[d:rogue#1455712360433189117]], [[d:rogue#1324107314747408587]], [[d:rogue#1429957247668195349]] | 1.18.1-announced-pre-release | consensus |
+| 50–60 | Finish Assassination or the frontstab line; respec to endgame at 58–60; Barman Shanker/Gut Ripper carry to 60 | [[d:rogue#1458113459639156888]], [[d:rogue#1431531176333541396]], [[d:rogue#1136264023206268989]] | 1.18.1-announced-pre-release | consensus |
+| general | Rested XP via survival tents at Crossroads lets you skip bad quests; stealth detection worsens with level; hardcore: Precision + Remorseless near-mandatory, Riposte/Imp Sprint for survival | [[d:rogue#1047182469792800849]], [[d:rogue#1012791496841383997]], [[d:rogue#1360325720752001295]] | mixed | consensus |
+
+### Weapons, weapons speed and progression
+
+- **~1.3-speed daggers wanted** for poison-proc volume; "there's literally only a single exception to this for BiS and it's a spellstrike rogue build" [[d:rogue#1446546660032385118]].
+- **Dagger progression**: Big Bronze Knife → Deadly Bronze Poniard → Meteor Shard / Broad-Bladed Knife → The Ziggler / Tigerbane → Fiendish Skiv → Gut Ripper → Barman Shanker [[d:rogue#1286056902975029313]], [[d:rogue#1324107314747408587]]. Zaszz's fuller list: Blade of Cunning (lvl-13 class-quest dagger), Tail Spike (WC ~18), Meteor Shard (SFK), Toxic Revenger (Gnomeregan), The Betrayer (~33), Coldrage Dagger (RFD ~40), Ghaz'rilla Fang (~43), Barman Shanker (BRD 50s).
+- **Sword progression**: Vanquisher's Sword (RFD quest) + Sword of Omen (H, SM) / Sword of Serenity (A, SM) at ~40, then Thrash Blade [[d:rogue#1165510276062384150]], [[d:rogue#1136222815981416449]], [[d:rogue#1136264023206268989]].
+- **Frontstabbing** (Backstab from the front via a quick sidestep/scroll-wheel) is the practical dagger-leveling technique, but "you give your mob your back, more damage taken, fewer parries" [[d:rogue#1131138509588140062]], [[d:rogue#1310955868933586985]].
+
+### Lockpicking and professions (fills the forum's profession gap)
+
+- **Lockpicking routes**: 1–104 training chests → 104–150 Ashenvale coast → 150–200 Desolace → 175–300 pickpocket crates → 200+ Searing Gorge/Tanaris → 225 all vanilla safes [[d:rogue#1300049551545077802]]; an alternative via an early quest box to 155 +5 gloves, ZF boxes to 200, lockboxes/BRD to 300 [[d:rogue#1436923703177777192]]. Door requirements: **Stratholme 300, Scholomance 280**; BRD/Tyr's Hand EPL for 250–300 [[d:rogue#1457300884785463306]].
+- **Engineering** for AoE-threat grenades, target dummies as an area taunt and spell reflectors, with a raid-meta swap at 60 [[d:rogue#1211963153521446912]], [[d:rogue#1274445464682496132]]; **Skinning + Leatherworking** as the first-character/leveling pick (gear floor + gold), **Tribal** for Devilsaur/Batskin [[d:rogue#1272038156367302767]], [[d:rogue#1300415145499037749]]; Alchemy+Herbalism / Mining / Fishing as rogue gold, plus stealth-mining Hateforge Quarry and ZG spellbinders as rogue-specific farms [[d:rogue#1329020698542346291]], [[d:rogue#1332114386772557875]], [[d:rogue#1354008564405899265]].
+- **Stealth-detection warning for levelers**: detection worsens as you level on Turtle, so do not assume classic stealth ranges [[d:rogue#1012791496841383997]].
+
+| Topic | Citation | Era | Agreement |
+|---|---|---|---|
+| Route (Combat→Assa at 40→endgame at 58–60) | [[d:rogue#1425614628385325138]], [[d:rogue#1458113459639156888]] | 1.18.1-announced-pre-release | consensus |
+| Level-40 respec 31/0/0 | [[d:rogue#1475759154089033738]] | 1.18.1-announced-pre-release | consensus |
+| Pinned leveling build 20/5/26 | [[d:rogue#1431531176333541396]] | 1.18.1-announced-pre-release | single source |
+| Dagger progression | [[d:rogue#1286056902975029313]] | pre-1.18.1 | consensus |
+| Sword progression | [[d:rogue#1165510276062384150]] | pre-1.18.1 | consensus |
+| Frontstabbing | [[d:rogue#1131138509588140062]] | pre-1.18.1 | consensus |
+| Lockpicking routes | [[d:rogue#1300049551545077802]], [[d:rogue#1436923703177777192]] | mixed | consensus |
+| Professions | [[d:rogue#1272038156367302767]] | pre-1.18.1 | consensus |
+| Rested-XP tents | [[d:rogue#1047182469792800849]] | pre-1.18.1 | single source |
+
 ## Sources
 
 | Source | Authority | Date / era | Used for | Agreement |

@@ -28,19 +28,19 @@ patch_validity:
 talents:
   build_name: "2H Arms raid (sourced points only)"
   points:
-    - {tree: Arms, talent: Tactical Mastery, rank: 3, spell_id: null, note: "3-5"}
-    - {tree: Arms, talent: Improved Rend, rank: 2, spell_id: null}
-    - {tree: Arms, talent: Improved Overpower, rank: 2, spell_id: null}
-    - {tree: Arms, talent: Deep Wounds, rank: 3, spell_id: null}
-    - {tree: Arms, talent: Impale, rank: 2, spell_id: null}
-    - {tree: Arms, talent: Two-Handed Weapon Specialization, rank: 3, spell_id: null}
-    - {tree: Arms, talent: Master Strike, rank: 1, spell_id: null}
-    - {tree: Arms, talent: Sweeping Strikes, rank: 1, spell_id: null}
-    - {tree: Arms, talent: Master of Arms, rank: 5, spell_id: null}
-    - {tree: Arms, talent: Improved Slam, rank: 2, spell_id: null}
-    - {tree: Arms, talent: Mortal Strike, rank: 1, spell_id: null}
-    - {tree: Arms, talent: Precision Cut, rank: 3, spell_id: null, note: "position swapped with Boundless Anger in 1.18.1"}
-    - {tree: Fury, talent: Cruelty, rank: 5, spell_id: null}
+    - {tree: Arms, talent: Tactical Mastery, rank: 3, spell_id: 12677, note: "3-5"}
+    - {tree: Arms, talent: Improved Rend, rank: 2, spell_id: 12658}
+    - {tree: Arms, talent: Improved Overpower, rank: 2, spell_id: 12963}
+    - {tree: Arms, talent: Deep Wounds, rank: 3, spell_id: 12867}
+    - {tree: Arms, talent: Impale, rank: 2, spell_id: 16494}
+    - {tree: Arms, talent: Two-Handed Weapon Specialization, rank: 3, spell_id: 12712}
+    - {tree: Arms, talent: Master Strike, rank: 1, spell_id: 54023}
+    - {tree: Arms, talent: Sweeping Strikes, rank: 1, spell_id: 12292}
+    - {tree: Arms, talent: Master of Arms, rank: 5, spell_id: 51658}
+    - {tree: Arms, talent: Improved Slam, rank: 2, spell_id: 12330}
+    - {tree: Arms, talent: Mortal Strike, rank: 1, spell_id: 12294}
+    - {tree: Arms, talent: Precision Cut, rank: 3, spell_id: 51643, note: "position swapped with Boundless Anger in 1.18.1"}
+    - {tree: Fury, talent: Cruelty, rank: 5, spell_id: 12856}
     - {tree: Fury, talent: Unbridled Wrath, rank: 0, spell_id: null, note: "contested for 2H"}
   leveling_order:
     - {level: null, tree: Fury, talent: Cruelty 5/5}
@@ -59,13 +59,28 @@ talents:
   links_opaque:
     - "https://talents.turtlecraft.gg/warrior?points=FQADCYDQB-FoAAoAAoRCF-"
     - "https://talents.turtlecraft.gg/warrior?points=FQADCYDQ-FoAAoAAoRCFAB-"
-stat_weights: null
+stat_weights:
+  # Discord publishes no numeric weights (the channel defers to WarriorSim); this is the
+  # post-1.18.1 order plus the corroborating mechanics only — no invented numbers.
+  - {stat: hit, verdict: "first priority to cap; whole-percent itemisation means weapon skill must land on a whole percent to move the cap", sources: ["[[d:warrior#1488056090510757938]]"], agreement: consensus, era: post-1.18.1}
+  - {stat: weapon-skill, verdict: "very high value; caps ~315 (5% yellow hit at 315)", sources: ["[[d:warrior#1485500872829177918]]", "[[d:warrior#1491404869641306306]]"], agreement: "single source (315) + consensus on value", era: post-1.18.1}
+  - {stat: crit, verdict: "extra value via Impale and Flurry; does not scale Execute (nor does strength)", sources: ["[[d:warrior#1488167716261990542]]", "[[d:warrior#1488242120606224424]]"], agreement: consensus, era: post-1.18.1}
+  - {stat: strength/attack-power, verdict: "primary after hit/weapon-skill/crit for 2H; scales everything except Execute", sources: ["[[d:warrior#1491403718187417752]]", "[[d:warrior#1488167716261990542]]"], agreement: consensus, era: post-1.18.1}
+  - {stat: haste, verdict: "good for both specs, exponential; 2H has 'slam clipping' at some haste amounts", sources: ["[[d:warrior#1487147648434569246]]", "[[d:warrior#1488516184025600031]]"], agreement: consensus, era: post-1.18.1}
+  - {stat: agility, verdict: "crit/dodge; used heavily while leveling (stack leather)", sources: ["[[d:warrior#1487172105962524866]]"], agreement: single source, era: post-1.18.1}
+  - {stat: armor-penetration, verdict: "not worth chasing; boss armor is often taken to 0 by raid debuffs", sources: ["[[d:warrior#1488167716261990542]]", "[[d:warrior#1485240366453227620]]"], agreement: consensus, era: post-1.18.1}
 stat_priority: [hit-to-2H-cap, weapon-top-end-damage, strength/attack-power, crit, agility]
 caps:
   hit_2h_pct: 8      # Cheruscan p=156442, single source ("8% max")
-  hit_boss_pct: 9    # general player consensus
+  hit_boss_pct: 9    # general player consensus; Discord: at 300 skill, drops toward 5% with weapon skill
+  weapon_skill_cap: 315                  # [[d:warrior#1485500872829177918]] single source, post-1.18.1
+  crit_flurry_uptime_target: "~30-33"    # [[d:warrior#1491395973660807168]] single source
+  crit_cap_dw_buffed_pct: 41             # [[d:warrior#1493655987071094914]] single source (HS is yellow, skips the DW penalty)
+  haste_target_pct: 10                   # [[d:warrior#1491404869641306306]] single source (2H theorycrafter, +315 weapon skill)
+  world_buff_crit_pct: "~20"             # [[d:warrior#1487138802571939951]] single source
   crit: null
   defense: null
+  discord_note: "weapon-skill 315-316 hit cap is contested (a player at 316 skill + 9% hit reports sheet misses) [[d:warrior#1485499853537804388]]"
 rotation_single:
   - {priority: 0, action: "Charge -> Bloodrage -> Sunder Armor once -> Berserker Stance", condition: "opener on raid bosses"}
   - {priority: 1, action: Mortal Strike, condition: "off cooldown"}
@@ -76,25 +91,80 @@ rotation_single:
   - {priority: 6, action: Hamstring, condition: "proc-fishing instant filler; no cooldown since 1.18.1"}
   - {priority: 7, action: Heroic Strike, condition: "rage >= 70 and nothing else; Arms generally avoids HS"}
   - {priority: 8, action: Execute, condition: "target HP <= 20% and rage high (>= ~60); per Licata Slam/MS beat Execute per rage unless overcapping or target dying now — contested"}
+  - {priority: 9, action: Overpower, condition: "always when Sweeping Strikes is up; otherwise only if MS/WW are unavailable", sources: ["[[d:warrior#1493216441845940356]]"], agreement: consensus, era: post-1.18.1}
+  - {priority: 10, action: "Slam when the swing timer is far left; Heroic Strike/Cleave before the timer is far right", condition: "swing-timer rule of thumb", sources: ["[[d:warrior#1486600679303811223]]"], agreement: single source, era: post-1.18.1}
+  - {priority: 11, action: "BWL execute phase: 'slam-exe-swing, repeat' (Slam, then a 20-rage Execute)", condition: "execute phase", sources: ["[[d:warrior#1485576434079629414]]", "[[d:warrior#1485608350640246854]]"], agreement: "consensus among BWL raiders", era: post-1.18.1}
 rotation_aoe:
   - {targets_min: 2, priority: 1, action: Sweeping Strikes, condition: "start of pull (20 rage)"}
   - {targets_min: 2, priority: 2, action: Whirlwind, condition: "under Sweeping Strikes (Berserker Stance)"}
   - {targets_min: 2, priority: 3, action: Cleave, condition: "on-next-swing under Sweeping Strikes"}
   - {targets_min: 4, priority: 1, action: "same as 2-3", condition: "no 4+ specific priority in sources; mind threat and CC"}
+  - {targets_min: 2, priority: 4, action: "Badge of the Swarmguard as the AoE burst trinket, stacked with Sweeping Strikes", condition: "big AoE nuke window", sources: ["[[d:warrior#1485304664197955765]]"], agreement: single source, era: post-1.18.1}
+  - {targets_min: 2, priority: 5, action: "Slow weapon is better for WW/Cleave (top-end weapon damage)", condition: "gear choice", sources: ["[[d:warrior#1488522558948249790]]"], agreement: single source, era: post-1.18.1}
 aoe_threshold: null
 cooldowns:
   - {name: Sweeping Strikes, use_when: "every AoE pull"}
   - {name: Recklessness, use_when: "execute phase"}
-  - {name: Death Wish, use_when: "if taken"}
+  - {name: Death Wish, use_when: "if taken; on pull or ~30 s before the boss dies; stacks with Enrage as a 'second Death Wish' in uptime", sources: ["[[d:warrior#1485896194306871407]]", "[[d:warrior#1485964140072796200]]"], agreement: consensus, era: post-1.18.1}
   - {name: Master Strike, use_when: "effect of equipped weapon only; do not weapon-swap mid-combat (resets swing timer)"}
+  - {name: Bloodrage, use_when: "on cooldown; self-crits and procs Enrage (~6 s, 20%) on Bloodrage's 1-min cycle", sources: ["[[d:warrior#1487840381780361246]]"], agreement: consensus, era: post-1.18.1}
+  - {name: Enrage, use_when: "a de-facto ~1-min DPS cooldown via Bloodrage; a '2nd Death Wish' in uptime — this is why Arms dips Fury for it", sources: ["[[d:warrior#1485964140072796200]]", "[[d:warrior#1488713744682057889]]"], agreement: consensus, era: post-1.18.1}
+  - {name: "execute-phase pop order", use_when: "Perception -> Bloodrage -> Death Wish -> Juju Flurry -> Mighty Rage Potion -> Recklessness -> Flask; MRP+Juju Flurry+Bloodrage in one no-GCD macro", sources: ["[[d:warrior#1493946168646828064]]", "[[d:warrior#1494010684982296686]]"], agreement: single source, era: post-1.18.1}
+  - {name: "Badge of the Swarmguard", use_when: "line up with Death Wish when the raid is not bringing boss armor to zero", sources: ["[[d:warrior#1488972481804107917]]"], agreement: single source, era: post-1.18.1}
 resource_rules:
   - "Rage comes once per white swing; do not Execute down to 0 with nothing to do (Licata)"
   - "Bloodrage (10) is not enough for Slam/Execute"
   - "Conserve rage between dungeon pulls"
-consumables: []
+consumables:
+  - "Diamond Flask = 75 Strength on Turtle; 'use it all the way to Naxx' — a second Death Wish [[d:warrior#1485804733242544260]], [[d:warrior#1494797352144343333]]"
+  - "Flask of Petrified Gold = +25% chance to trigger equipped-item effects (Thunderfury / Ironfoe / Wing of the Time Lord / HoJ builds) [[d:warrior#1485751182386397295]], [[d:warrior#1490463389707800626]]"
+  - "Molten Emberstone / Earthstrike / Diamond Flask share a 30 s cooldown [[d:warrior#1489336452205645954]]"
+  - "Elixir stacking: mongoose does not stack with emerald-mongoose concoction / Elixir of Greater Agility; Giants does not stack with Juju Power [[d:warrior#1486113106873679943]]"
+  - "Cloak enchant: +7 Agility (Timbermaw) [[d:warrior#1487631739651362908]]"
+  - "Crusader on weapons; armor-penetration enchants are called useless [[d:warrior#1485891535685025872]], [[d:warrior#1485240366453227620]]"
 mistakes_to_avoid:
   - "Heroic Strike as a filler"
   - "Slam cast mid-swing instead of right after a swing"
   - "Execute spam at low rage after CC3 (refund era advice)"
   - "Weapon swapping for Master Strike effects mid-fight"
   - "Sweeping Strikes/Whirlwind near CC"
+  - "Using Heroic Strike as a rotational filler / at low rage (starves rage; its only edge is not missing/glancing) [[d:warrior#1494053998099955822]]"
+  - "Slam timing wrong relative to the white swing (delays the next auto) [[d:warrior#1486600679303811223]]"
+  - "Slamming during the execute phase on 2H Fury at MC/BWL gear (simmed DPS loss) [[d:warrior#1491715292546465852]]"
+  - "Expecting Mortal Strike alone to carry single-target ('MS is near superfluous when Slam exists' — contested) [[d:warrior#1492945449219395846]]"
+  - "Chasing armor penetration as a stat/enchant [[d:warrior#1488167716261990542]], [[d:warrior#1485240366453227620]]"
+  - "Treating the Kyrsie 2026-03-26 'Deadly Calm / Wrecking Ball' talent list as live — it is a player proposal, not a shipped patch [[d:warrior#1486524065144373248]]"
+
+leveling_by_bracket:
+  spec_consensus:
+    - {claim: "Fury is the best solo leveling spec post-1.18.1; Arms if you have a healer", sources: ["[[d:warrior#1484971008153747569]]"], agreement: consensus, era: post-1.18.1}
+    - {claim: "Arms 10-60 is still 'standard'; Fury only needs Cruelty pre-30", sources: ["[[d:warrior#1492166484498190438]]", "[[d:warrior#1486086625799835798]]"], agreement: consensus, era: post-1.18.1}
+    - {claim: "No-respec route: Fury (Cruelty) to ~30, then Arms with a 2H; go DW when Blood Drinker is reachable", sources: ["[[d:warrior#1486645720646942790]]"], agreement: single source, era: post-1.18.1}
+  brackets:
+    - {bracket: "1-10", advice: "Hardest stretch; on max-difficulty HC 1-10 is near-impossible and becomes manageable at 10", sources: ["[[d:warrior#1485774955764383857]]", "[[d:warrior#1484456303463239790]]"], era: post-1.18.1}
+    - {bracket: "10-19", advice: "Opener Demo Shout -> Sunder -> Execute; stam/spirit gear; hamstring kiting; one mob at a time", sources: ["[[d:warrior#1493937763802677289]]", "[[d:warrior#1464992683176230932]]"], era: mixed}
+    - {bracket: "20-29", advice: "Fury to 30; DW off-hand gets +10% hit from the talent but off-hand misses still hurt rage gen, so 2H is smoother", sources: ["[[d:warrior#1428321174961524737]]", "[[d:warrior#1430007342480490506]]"], era: 1.18.1-announced-pre-release}
+    - {bracket: "30-39", advice: "Arms respec at 30 (Sweeping Strikes); Whirlwind Axe at 30; Prot picks up at Shield Slam; Sweeping+WW is the dungeon pull", sources: ["[[d:warrior#1427988056673095852]]", "[[d:warrior#1493939126385246208]]"], era: mixed}
+    - {bracket: "40-49", advice: "Mortal Strike/Bloodthirst at 40; weapons to chase: Whirlwind Axe, Diamond Flask", sources: ["[[d:warrior#1485977686001188864]]", "[[d:warrior#1493937763802677289]]"], era: post-1.18.1}
+    - {bracket: "50-60", advice: "Prot respec if dungeon-spamming; past 40 Arms tanking in a shield takes too much damage", sources: ["[[d:warrior#1429822325510897794]]"], era: 1.18.1-announced-pre-release}
+  leveling_stat_priority: "stam > str >= spirit > agi (single source) [[d:warrior#1459283546194575496]]"
+  ordered_arms_route:
+    author: Virasan
+    source: "[[d:warrior#1364931945624240191]]"
+    note: "order only; listed ranks sum to 52 vs 51 (one stale line)"
+    order: [Cruelty 5, Improved Rend 2, Tactical Mastery 3, Improved Thunder Clap 1, Improved Charge 2, Tactical Mastery 5, Improved Overpower 2, Deep Wounds 3, Two-Handed Weapon Specialization 3, Impale 2, Sweeping Strikes 1, Master Strike 1, Master of Arms 5, Improved Slam 2, Improved Thunder Clap 2, Mortal Strike 1, Unbridled Wrath 5, Improved Shouts 5, Enrage 5]
+  hc_fury_build: {code: "FQLAIYD-FoAAJYAoZBVAB-", source: "[[d:warrior#1469876907020652688]]"}
+
+discord:
+  channels: [warrior]
+  agreement: "mixed — consensus on mechanics/priority; contested on Arms-vs-2H-Fury strength and on the 2H Fury rotation sim"
+  eras: [pre-1.18.1, 1.18.1-announced-pre-release, post-1.18.1]
+  sources:
+    - {cite: "[[d:warrior#1488521089893142660]]", era: post-1.18.1, agreement: single source, topic: "Arms = AoE/cleave pick, mid-pack ST"}
+    - {cite: "[[d:warrior#1487590647996350464]]", era: post-1.18.1, agreement: single source, topic: "only Arms 1.18.1 change is the BA/PC swap"}
+    - {cite: "[[d:warrior#1488713744682057889]]", era: post-1.18.1, agreement: consensus, topic: "Arms dips Fury for Enrage"}
+    - {cite: "[[d:warrior#1485576434079629414]]", era: post-1.18.1, agreement: consensus, topic: "BWL execute: slam-exe-swing"}
+    - {cite: "[[d:warrior#1484563441808183316]]", era: post-1.18.1, agreement: single source, topic: "deathcute 30/21 top parsing at launch"}
+    - {cite: "[[d:warrior#1485500872829177918]]", era: post-1.18.1, agreement: single source, topic: "weapon-skill 315 cap"}
+    - {cite: "[[d:warrior#1494491071366037607]]", era: post-1.18.1, agreement: single source, topic: "post-1.18.1 rage formula (guide writer 30/Khoni)"}
+    - {cite: "[[d:warrior#1486524065144373248]]", era: post-1.18.1, agreement: single source, topic: "unshipped Kyrsie rework proposal"}

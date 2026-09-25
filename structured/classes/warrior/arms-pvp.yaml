@@ -34,40 +34,47 @@ sources:
   - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=169850#p169850", author: Eyeburn, authority: player, date: "2026-03-02"}
   - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=171300#p171300", author: Magicknight, authority: player, date: "2026-03-19"}
   - {url: "https://forum.turtlecraft.gg/viewtopic.php?p=172120#p172120", author: Mdzielak, authority: player, date: "2026-03-24"}
-agreement: "contested overall (F-tier vs strongest-with-support); consensus on: Arms for Mortal Strike, stamina gearing, play with healers/dispellers, FAP and consumables, avoid 1v1 and enhancement shamans"
+agreement: "contested overall (F-tier vs strongest-with-support); consensus on: stamina gearing, play with healers/dispellers, FAP and consumables, avoid 1v1 and enhancement shamans. Post-CC3 the spec default flipped to Fury — '2h fury is the best 2h pvp spec' — so 'Arms is the PvP spec (Mortal Strike)' is now contested [[d:warrior#1486355885612863549]], [[d:warrior#1488507175885082747]]"
 patch_validity:
   written_for: "CC3 / 1.18.0 kit; Hamstring-cooldown-era posts flagged"
   valid_for_1181: true
-  notes: "1.18.1 removed the Hamstring cooldown (added at CC2) and made PvP dampening class-specific (numbers not in repo). Master Strike (CC3) replaced Counterattack (CC2). Decisive Strike builds (pre-Dec-2024) obsolete. No post-1.18.1 re-evaluation."
+  notes: "1.18.1 removed the Hamstring cooldown (added at CC2) and made PvP dampening class-specific (numbers not in repo). Master Strike (CC3) replaced Counterattack (CC2). Decisive Strike builds (pre-Dec-2024) obsolete. Discord post-CC3/1.18.1: the default PvP spec flipped from Arms to Fury (Improved Berserker Rage root break); at live launch a player reports class-specific dampening was NOT added [[d:warrior#1485326960132493414]] (contested)."
 talents:
   build_name: "Arms PvP (sourced pieces only)"
   points:
-    - {tree: Arms, talent: Mortal Strike, rank: 1, spell_id: null}
+    - {tree: Arms, talent: Mortal Strike, rank: 1, spell_id: 12294}
     - {tree: Arms, talent: Improved Hamstring, rank: null, spell_id: null}
-    - {tree: Arms, talent: Sweeping Strikes, rank: 1, spell_id: null}
-    - {tree: Arms, talent: Master Strike, rank: 1, spell_id: null}
-    - {tree: Arms, talent: Master of Arms, rank: 5, spell_id: null, note: "polearm +2 yd range (Manletow, single source)"}
-    - {tree: Arms, talent: Tactical Mastery, rank: 4, spell_id: null, note: "Disarm needs 20 rage"}
-    - {tree: Arms, talent: Improved Charge, rank: 1, spell_id: null, note: "Charge gives 9 rage baseline; abilities need 10"}
+    - {tree: Arms, talent: Sweeping Strikes, rank: 1, spell_id: 12292}
+    - {tree: Arms, talent: Master Strike, rank: 1, spell_id: 54023}
+    - {tree: Arms, talent: Master of Arms, rank: 5, spell_id: 51658, note: "polearm +2 yd range (Manletow, single source)"}
+    - {tree: Arms, talent: Tactical Mastery, rank: 4, spell_id: 12678, note: "Disarm needs 20 rage"}
+    - {tree: Arms, talent: Improved Charge, rank: 1, spell_id: 12285, note: "Charge gives 9 rage baseline; abilities need 10"}
     - {tree: Fury, talent: Booming Voice, rank: null, spell_id: null, note: "level-19 build (stealth breaking)"}
-    - {tree: Fury, talent: Piercing Howl, rank: 1, spell_id: null}
-    - {tree: Protection, talent: Improved Intervene, rank: 2, spell_id: null, note: "root/snare immunity 3 s; row 3"}
+    - {tree: Fury, talent: Piercing Howl, rank: 1, spell_id: 12323}
+    - {tree: Protection, talent: Improved Intervene, rank: 2, spell_id: 51592, note: "root/snare immunity 3 s; row 3"}
   variants:
     - name: "Fury PvP (post-CC3)"
       points:
-        - {tree: Fury, talent: Blood Drinker, rank: 3, spell_id: null}
-        - {tree: Fury, talent: Improved Berserker Rage, rank: 2, spell_id: null}
-        - {tree: Fury, talent: Death Wish, rank: 1, spell_id: null}
-        - {tree: Fury, talent: Enrage, rank: 5, spell_id: null}
+        - {tree: Fury, talent: Blood Drinker, rank: 3, spell_id: 51625}
+        - {tree: Fury, talent: Improved Berserker Rage, rank: 2, spell_id: 20501}
+        - {tree: Fury, talent: Death Wish, rank: 1, spell_id: 12328}
+        - {tree: Fury, talent: Enrage, rank: 5, spell_id: 13048}
       note: "dual wield; Thunderfury procs trigger the heal (Eyeburn p=169850, single source)"
     - name: "Protection PvP"
       note: "Concussion Blow stun + Shield Slam dispel (Manletow p=112703); deep prot + Thunderfury vs enh shaman (ferundal p=168167); widely considered a meme"
   leveling_order: []
-stat_weights: null
+stat_weights:
+  # PvP has no numeric weights; Discord agrees stamina-first and adds the post-1.18.1 set economy.
+  - {stat: stamina, verdict: "first; glass-cannon (~4k HP) is the classic mistake", sources: ["[[d:warrior#1452728250563297290]]"], agreement: consensus, era: 1.18.1-announced-pre-release}
+  - {stat: armor, verdict: "the real gate post-1.18.1: 'warrior can pvp when people got 0 armor'; proposed fixes are an armor cap at 5k, remove crit/DoT reduction, real dampening", sources: ["[[d:warrior#1488851645558292670]]", "[[d:warrior#1488858716970160149]]", "[[d:warrior#1486057650713002115]]"], agreement: single source each, era: post-1.18.1}
+  - {stat: weapon-top-end-damage, verdict: "slow/high top-end 2H; post-1.18.1 Elementium Axe is the named PvP weapon, BRE the PvE one", sources: ["[[d:warrior#1485934279493156884]]", "[[d:warrior#1491753844777160745]]"], agreement: single source, era: post-1.18.1}
+  - {stat: hit, verdict: "same cap logic as PvE; no PvP-specific number in sources"}
+  - {stat: crit/attack-power, verdict: "after stamina/armor; set bonuses now carry huge str/crit/hit/stam/armor and reduce DoT/crit damage taken", sources: ["[[d:warrior#1492257144588865787]]"], agreement: consensus, era: post-1.18.1}
 stat_priority: [stamina, weapon-top-end-damage, hit, crit, attack-power]
 caps:
   hp_unbuffed_target: "5.5k-7k (Springboards; player advice, not a cap)"
   hit: null
+  pvp_dampening: "announced class/spec-specific for 1.18.1, but a player reports it was not added at launch — contested; numbers absent from both corpora [[d:warrior#1485326960132493414]]"
 rotation_single:
   - {priority: 0, action: "Charge (out of combat) or Intercept (Berserker Stance) -> Hamstring", condition: "opener; Bloodrage + Demoralizing Shout vs stealthed rogue"}
   - {priority: 1, action: Mortal Strike, condition: "off cooldown"}
@@ -78,6 +85,8 @@ rotation_single:
   - {priority: 6, action: Disarm, condition: "vs melee; keep 20 rage"}
   - {priority: 7, action: Intimidating Shout, condition: "peel/escape; unreliable vs WotF/tremor"}
   - {priority: 8, action: Hamstring, condition: "keep snare up; no cooldown since 1.18.1"}
+  - {priority: 9, action: "Post-CC3 Fury PvP priority: Bloodthirst/Blood Drinker attrition + Improved Berserker Rage root break; 'warrior can't burst, so it settles for blood drinker attrition'", condition: "Fury PvP (the post-CC3 default)", sources: ["[[d:warrior#1484523736714707054]]", "[[d:warrior#1485893615937916949]]"], agreement: consensus, era: post-1.18.1}
+  - {priority: 10, action: "2H Fury takes Booming Voice over Unbridled Wrath (Booming Voice is a PvP talent, Unbridled Wrath is PvE)", condition: "2H Fury PvP", sources: ["[[d:warrior#1492881562516324425]]", "[[d:warrior#1492881927785680998]]"], agreement: single source, era: post-1.18.1}
 rotation_aoe:
   - {targets_min: 2, priority: 1, action: Sweeping Strikes, condition: "then Whirlwind/Cleave"}
   - {targets_min: 2, priority: 2, action: Piercing Howl, condition: "AoE snare, no cooldown"}
@@ -88,6 +97,9 @@ cooldowns:
   - {name: Free Action Potion, use_when: "on cooldown in serious fights (consensus)"}
   - {name: Recklessness / Retaliation / Shield Wall, use_when: "shared 30-min CD; once per BG or two"}
   - {name: Berserker Rage, use_when: "fear immunity; with Improved Berserker Rage a root/snare break every 30 s"}
+  - {name: "Improved Berserker Rage", use_when: "the decisive post-CC3 PvP talent (root break every 30 s) — 'just too good especially vs mages'; makes Fury the default PvP spec", sources: ["[[d:warrior#1485893615937916949]]"], agreement: consensus, era: post-1.18.1}
+  - {name: "PvP trinket (Insignia)", use_when: "mandatory; breaks stuns/roots/slows, 5-min CD; cannot break sheep/trap/seduce (pre-2025 grievance)", sources: ["[[d:warrior#925100035509735495]]", "[[d:pvp-general#1216689050057048134]]"], agreement: consensus, era: pre-1.18.1}
+  - {name: Shield Wall, use_when: "post-1.18.1 called 'useless in pvp' by one source; community asks for 5-min base CDs", sources: ["[[d:warrior#1488679442699129005]]"], agreement: single source, era: post-1.18.1}
   - {name: Engineering gadgets, use_when: "as available"}
 resource_rules:
   - "Every fight starts at 0 rage; Charge gives 9"
@@ -101,3 +113,48 @@ mistakes_to_avoid:
   - "No FAP/consumables"
   - "Melee-ing enhancement shamans"
   - "Using 2024-11..2026-03 Hamstring-cooldown advice as current"
+  - "Treating Arms as the default PvP spec post-CC3 without checking: 'Arms is also the worse choice outside of 3v3 arena or hard premate' [[d:warrior#1488506997602127883]]"
+  - "No FAP/engineering: 'there is skill expression in pvp with warrior but it's usually smart usage of combat potions or engineering items/trinkets' [[d:warrior#1409975234857275402]]"
+  - "Expecting the PvP trinket to break sheep/trap/seduce (it cannot) [[d:pvp-general#1216689050057048134]]"
+
+discord_builds:
+  note: "decoded from 1.18.x talent-builder links/screenshots via staging/talents/talent_codec.py; all legal 51/51 unless noted"
+  arms_pvp_1181: {split: "Arms 31 / Fury 20", code: "FQLAKYDQpAQABA-FoAAJYCY-", source: "[[d:warrior#1491008034946682940]]", era: post-1.18.1}
+  dw_fury_pvp_1180: {split: "Arms 14 / Fury 37", code: "NQQAKI-AoFApACoBCVYB-", source: "[[d:warrior#1437891956914262147]]", era: 1.18.1-announced-pre-release}
+  fury_pvp_community_1181: {split: "Fury 35 / Prot 11 / Arms 5", code: "FA-AoFgBACqBCVABA-TAFAIA", source: "[[d:warrior#1492063894464761937]]", era: post-1.18.1}
+  twink_49_fury: {points: 40, code: "-AoAoJYCoBCQQ-QYFAIA", source: "[[d:warrior#1490383799958372482]]", era: post-1.18.1}
+  kyrsie_1180_screenshot: {split: "Arms 17 / Fury 34", source: "[[d:warrior#1401373128533479435]]", era: pre-1.18.1}
+
+pvp_gear:
+  sets_post_1181: "new PvP sets carry huge str/crit/hit/stam/armor and reduce DoT/crit damage taken; T3 PvP 'outstams k40 bis by 80~ stamina and has way better threat' [[d:warrior#1492257144588865787]], [[d:warrior#1488606329005146245]]"
+  costs: "20k honor/week cap; T1 24,000; T2 144,000 + T1; T3 520,000 + T2 and 21,000 Conquest -> ~33 weeks / 8+ months [[d:warrior#1487427534772764682]], [[d:warrior#1492266218629890271]]; T1 is fresh-60-viable [[d:warrior#1491052658637934704]]"
+  enchants: "Helm +7 Def/+10 Stam, Neck +6 Stam, Cape +3 Agi, Chest +100 hp or +4 all stats, Wrist +9 Stam, Legs +7 Def/+10 Stam, Feet Minor Speed, rings +Stam, weapon Crusader / Weapon Chain [[d:warrior#1384786996848754728]]; Weapon Chain mandatory vs disarm spam [[d:pvp-general#1290571835859275818]]"
+  weapons: "Elementium Axe is the named post-1.18.1 PvP weapon, BRE stays the PvE weapon [[d:warrior#1485934279493156884]]"
+
+pvp_race: "Gnome / Escape Artist is the consensus warrior PvP race [[d:warrior#995410602115735654]], [[d:warrior#1494450420385320961]]; Human Perception a minority pick [[d:warrior#995409805797752903]]"
+
+pvp_matchups:
+  summary: "warrior is the consensus group-PvP DPS but a weak solo duelist; kiting + CC is the whole counter [[d:pvp-general#1310884374819901450]], [[d:pvp-general#1387001790829957131]]"
+  lines:
+    - {vs: mage, advice: "hard counter unless FAP; post-CC3 Improved Berserker Rage root break is the advertised answer", sources: ["[[d:pvp-general#1387001790829957131]]", "[[d:warrior#1485893615937916949]]"], agreement: consensus}
+    - {vs: paladin, advice: "losing; MS is 'pointless damage-wise vs a heal paladin' (-80% dmg)", sources: ["[[d:pvp-general#1198322883143938078]]", "[[d:warrior#1474054341106073610]]"], agreement: consensus}
+    - {vs: hunter, advice: "slight hunter favour; entrap/concussive beats improved Hamstring; deep prot claimed counter", sources: ["[[d:pvp-general#1126849924491919420]]", "[[d:warrior#1302028129719816287]]"], agreement: contested}
+    - {vs: rogue, advice: "the one matchup warrior is not disadvantaged in; sit Defensive Stance, Blood Craze, 2h for Overpower", sources: ["[[d:warrior#1146692339931291679]]", "[[d:warrior#1176592574924988547]]"], agreement: consensus}
+    - {vs: warlock, advice: "succubus Seduce -> burst is the loss; deny the pet", sources: ["[[d:pvp-general#1216944373036613633]]", "[[d:pvp-general#1351160314342936608]]"], agreement: consensus}
+    - {vs: druid, advice: "stop hitting into Frenzied Regen", sources: ["[[d:warrior#1138784880495427596]]"], agreement: consensus}
+    - {vs: shaman, advice: "losing; '-80% dmg vs shamans or heal paladins'; prot+stun is the single-source counter", sources: ["[[d:warrior#1474054341106073610]]", "[[d:pvp-general#1418626701457625119]]"], agreement: consensus}
+
+discord:
+  channels: [warrior, pvp-general]
+  agreement: "contested overall; the post-CC3 Arms->Fury spec flip and the PvP set economy are the key additions"
+  eras: [pre-1.18.1, 1.18.1-announced-pre-release, post-1.18.1]
+  sources:
+    - {cite: "[[d:warrior#1486355885612863549]]", era: post-1.18.1, agreement: single source, topic: "'2h fury is the best 2h pvp spec'"}
+    - {cite: "[[d:warrior#1485893615937916949]]", era: post-1.18.1, agreement: consensus, topic: "Improved Berserker Rage root break -> Fury best PvP spec"}
+    - {cite: "[[d:warrior#1485862406440882286]]", era: post-1.18.1, agreement: single source, topic: "1k AP test: MS/BT/Shield Slam deal the same damage"}
+    - {cite: "[[d:warrior#1491008034946682940]]", era: post-1.18.1, agreement: single source, topic: "full Arms 31/20 PvP build"}
+    - {cite: "[[d:warrior#1437891956914262147]]", era: 1.18.1-announced-pre-release, agreement: single source, topic: "DW Fury 14/37 PvP build"}
+    - {cite: "[[d:warrior#1492063894464761937]]", era: post-1.18.1, agreement: single source, topic: "community 1.18.1 Fury 35/Prot 11 PvP build"}
+    - {cite: "[[d:warrior#1384786996848754728]]", era: pre-1.18.1, agreement: single source, topic: "slot-by-slot PvP enchant list"}
+    - {cite: "[[d:warrior#1494450420385320961]]", era: post-1.18.1, agreement: consensus, topic: "Gnome/Escape Artist is the PvP race"}
+    - {cite: "[[d:pvp-general#1216689050057048134]]", era: pre-1.18.1, agreement: single source, topic: "trinket cannot break sheep/trap/seduce"}

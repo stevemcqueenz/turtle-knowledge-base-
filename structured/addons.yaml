@@ -1,0 +1,597 @@
+# Addon / client-mod landscape as discussed in the archived #code-corner Discord.
+# Source channel: code-corner (Turtle WoW Europe), 2022-06-21 .. 2026-05-30.
+# Citations: [[d:code-corner#<message_id>]] (resolve in structured/discord/evidence-code-corner.jsonl).
+# era: pre-1.18.1 (<2025-10-03) | 1.18.1-announced-pre-release (2025-10-03..2026-03-19) | post-1.18.1 (>=2026-03-20).
+# agreement: consensus | single source | contested.
+# Authority: no green-name signal in Discord; addon authors posting under their project names
+# (Shagu, balake, Pepopo, allfoxwy, MarcelineVQ, Mewtiny, jrc13245, Pitohui, Oldmana,
+# Kirchlive/Tetto, Walter Bennet, Belthazorg) > recognised maintainers > players.
+schema: code-corner-addons/v1
+channel: code-corner
+
+client_mods:
+  VanillaTweaks:
+    repo: https://github.com/brndd/vanilla-tweaks
+    purpose: >-
+      One-time wow.exe patch: Large Address Aware / 4 GB, FOV, farclip, sound channels.
+    recommender: [ugoboom, Rerolladin]
+    era: pre-1.18.1
+    agreement: consensus
+    sources:
+    - '[[d:code-corner#1001207292718497882]]'
+    - '[[d:code-corner#1086763506751258765]]'
+  VanillaFixes:
+    repo: https://github.com/hannesmann/vanillafixes
+    purpose: >-
+      Launcher run every session: applies stutter/lag fixes and DXVK compatibility, loads
+      DLLs (nampower, superwow), then runs whatever file is named wow.exe.
+    recommender: [ugoboom, Sal, Silkroad]
+    era: pre-1.18.1
+    agreement: consensus
+    sources:
+    - '[[d:code-corner#1088225716589568111]]'
+    - '[[d:code-corner#1064577507241762817]]'
+    - '[[d:code-corner#1235184163745824849]]'
+    - '[[d:code-corner#1064300156645818379]]'
+  Nampower:
+    repo: https://github.com/pepopo978/nampower
+    upstream: https://github.com/namreeb/nampower
+    purpose: >-
+      DLL mod: spell queuing (the fix for "one button, two spells"), IsSpellInRange,
+      IsSpellUsable, queue-state icon, quickcast-at-cursor, channel/stopping fixes.
+      Required by SuperCleveRoidMacros and many rotation addons. Pepopo's fork is the
+      one pushed in-channel; config exposes a per-cast buffer and a delay window.
+    recommender: [TechWomanWoW, Mewtiny, community]
+    era: pre-1.18.1
+    agreement: consensus
+    sources:
+    - '[[d:code-corner#1061015304265805984]]'
+    - '[[d:code-corner#1289175514422055003]]'
+    - '[[d:code-corner#1312194271306059857]]'
+    - '[[d:code-corner#1289276707693396071]]'
+  SuperWoW:
+    repo: https://github.com/balakethelock/SuperWoW
+    purpose: >-
+      DLL injection: hidden/overflow buff visibility, autoloot (SetAutoloot), clickthrough,
+      uncapSounds CVar, 511-char macros, combat logging, companion SuperAPI, extra
+      UnitCastingInfo.
+    recommender: [balake (author)]
+    era: pre-1.18.1
+    agreement: consensus
+    notes: >-
+      Known issues: raid hitching that worsens over time; neutral/invisible-target
+      nameplates; limited player tooltip info; guild-bank weapon-oil stack bug.
+    sources:
+    - '[[d:code-corner#1228455937757417473]]'
+    - '[[d:code-corner#1235623116202577950]]'
+    - '[[d:code-corner#1238364213143928842]]'
+    - '[[d:code-corner#1235835336773599332]]'
+    - '[[d:code-corner#1235912156529164380]]'
+  UnitXP_SP3:
+    repo: https://github.com/allfoxwy/UnitXP_SP3
+    purpose: >-
+      Memory mod (no injection): line-of-sight and distance API, horizontal camera,
+      Lua debug interface. Soft dependency of HealersMate.
+    recommender: [allfoxwy (author)]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1283399432422817803]]'
+    - '[[d:code-corner#1287081525396897865]]'
+    - '[[d:code-corner#1343576643293155482]]'
+  DXVK / dxvk-async:
+    purpose: >-
+      Translates the client's DX9 to Vulkan; large (reported ~60-200) FPS gains. Windows
+      alt-tab flicker / ~1s black screen in borderless windowed; overlays can crash it.
+      Also mitigates the 32-bit client's OutOfMemory pressure.
+    recommender: [ugoboom, Rerolladin, Moustacho]
+    era: mixed
+    agreement: consensus
+    sources:
+    - '[[d:code-corner#1033859949123600404]]'
+    - '[[d:code-corner#1033868854197239828]]'
+    - '[[d:code-corner#1034814267158966272]]'
+    - '[[d:code-corner#1360966847289229513]]'
+    - '[[d:code-corner#1489973377665073253]]'
+  VanillaHelpers64:
+    repo: https://github.com/paokkerkir/VanillaHelpers64
+    purpose: >-
+      Drop-in replacement for VanillaHelpers adding a 64-bit TextureServer to reduce the
+      32-bit client's OutOfMemory pressure with HD texture packs (beta).
+    recommender: [Belthazorg (author)]
+    era: post-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1489373149748531250]]'
+    - '[[d:code-corner#1489634680419647508]]'
+
+addons:
+  pfUI:
+    repo: https://github.com/shagu/pfUI
+    purpose: >-
+      All-in-one UI: unit frames, action bars, castbars, nameplates, raid frames,
+      /pfcast mouseover. The default "install one addon" pick.
+    recommender: [Thol]
+    quote: For addons, I would recommend pfUI it has everything you need, highly customizable.
+    era: pre-1.18.1
+    agreement: consensus
+    sources:
+    - '[[d:code-corner#1007203707659755620]]'
+  pfQuest + pfQuest-turtle:
+    repo: https://github.com/shagu/pfQuest-turtle
+    purpose: >-
+      Quest database + map markers, extended with Turtle's custom quests; "the closest in
+      game database we have".
+    recommender: [ugoboom, '!!!RETRO', Skoltr]
+    era: pre-1.18.1
+    agreement: consensus
+    sources:
+    - '[[d:code-corner#1086762502483890287]]'
+    - '[[d:code-corner#1344050509731991643]]'
+  pfQuest-turtle (The-Kludge-Bureau fork):
+    repo: https://github.com/The-Kludge-Bureau/pfQuest-turtle
+    purpose: >-
+      Fork fixing quest markers not rendering in Turtle zones/dungeons and wrong-objective
+      data; Turtle quest data acknowledged incomplete.
+    recommender: [txtsd (author)]
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1481496088622928073]]'
+    - '[[d:code-corner#1481027301461332130]]'
+  Instance Journal:
+    repo: https://github.com/Arthur-Helias/InstanceJournal
+    purpose: >-
+      Rebuilt Encounter Journal (Shift+J): dungeon/raid bosses with abilities and loot,
+      search, world-map integration, custom Turtle content; most boss abilities still missing.
+    recommender: [Walter Bennet (author)]
+    era: post-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1484657806635171921]]'
+    - '[[d:code-corner#1488927179453501470]]'
+  GoggleMaps + GoggleMaps Turtle:
+    repo: https://github.com/spawnedc
+    purpose: Carbonite-like world map with pfQuest integration.
+    recommender: [spawnedc (author)]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1412195322330874100]]'
+  Atlas / AtlasQuest:
+    purpose: Dungeon maps and quest guides; maintenance gaps noted.
+    recommender: [TechWomanWoW]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1279264263726301218]]'
+  Modern Map Markers:
+    purpose: Adds markers with an Atlas ID for dungeon info.
+    recommender: [tilr]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1367853659320356875]]'
+  Codex:
+    repo: https://github.com/nakda/codex
+    purpose: Mob/spell list addon ("all the spells for every individual mob").
+    recommender: [Vaas]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1402368257465384980]]'
+  GuidelimeVanilla:
+    purpose: Leveling-guide framework being rewritten for Turtle.
+    recommender: [Grommey]
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1468245189125738699]]'
+  WhatsTraining_Turtle:
+    repo: https://github.com/spawnedc
+    purpose: Shows trainable spells; author documents DBC-vs-DB extraction problems.
+    recommender: [spawnedc (author)]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1367223058535940226]]'
+  ShaguTweaks + ShaguTweaks-mods + ShaguTweaks-more-mods:
+    repo: https://github.com/GryllsAddons/ShaguTweaks-Mods
+    purpose: >-
+      Lightweight pfUI alternative: XP bar, unit frames, mana/energy ticks, macro-tweaks
+      (equip/equipoff). Forks: GryllsAddons/ShaguTweaks-Mods, CrimsonHollow/ShaguTweaks-more-mods.
+    recommender: [Arkoudokinigos, Minces, Sattva]
+    era: pre-1.18.1
+    agreement: consensus
+    sources:
+    - '[[d:code-corner#1164289016271732758]]'
+    - '[[d:code-corner#1252646730164604999]]'
+    - '[[d:code-corner#1071220298709471302]]'
+    - '[[d:code-corner#1165793054964334682]]'
+  tDF (Turtle DragonFlight UI) + tDF-more-mods:
+    purpose: Dragonflight-style unit frames.
+    recommender: ['Deleted User', Arkoudokinigos]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1283836457370517515]]'
+    - '[[d:code-corner#1266163896386060430]]'
+  LunaUnitFrames:
+    purpose: Unit frames + mouseover /lunamo.
+    recommender: [stochastic, Oldmana]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1278504904503201876]]'
+  NotGrid:
+    purpose: Healer raid frames; /ngcast mouseover.
+    recommender: [stochastic, Heallios]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1278504904503201876]]'
+    - '[[d:code-corner#1398312276163039444]]'
+  HealersMate:
+    purpose: >-
+      Healer unit frames with heal prediction, pet frames, aura tracker; pitched as a
+      Healbot/VuhDo alternative (later renamed Puppeteer).
+    recommender: [Oldmana/OldManAlpha (author)]
+    era: pre-1.18.1
+    agreement: consensus
+    sources:
+    - '[[d:code-corner#1309000229223399526]]'
+    - '[[d:code-corner#1382132661044379740]]'
+  CRAP:
+    purpose: Blizzard-like raid frames.
+    recommender: [Oldmana, Neo]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1342798453931245588]]'
+  X-Perl / Z-Perl / Bongos / Discord Action Bars / Bartender:
+    purpose: Unit frames and action bars; X-Perl appears in a crash-troubleshooting post.
+    recommender: [various]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1159301960151871588]]'
+    - '[[d:code-corner#1398312276163039444]]'
+  pfUI-nameplates / ShaguPlates:
+    purpose: Enemy nameplates with a UnitCastingInfo shim.
+    recommender: [balake]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1235689119410028586]]'
+  DragonflightReloaded:
+    repo: https://github.com/DnDurken
+    purpose: DF-look UI; known combo-point scaling bug.
+    recommender: [cogwheel]
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1437876955247542282]]'
+  FrameFade / FlightMap / CustomMusic / BuffAlert (GryllsAddons):
+    purpose: UI fade, flight map, zone music, buff sound alerts.
+    recommender: [Grylls, Silkroad]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1291005844233916480]]'
+    - '[[d:code-corner#1089872187369979924]]'
+  ShaguController:
+    purpose: Gamepad/controller support (and forks).
+    recommender: [ugoboom, Ziggurat]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1088853644557946981]]'
+    - '[[d:code-corner#1392459623390253066]]'
+  WIM:
+    repo: https://github.com/Kirchlive/WIM
+    purpose: Instant-messenger chat window, actively maintained.
+    recommender: [Tetto]
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1467153568523096230]]'
+  BetterCharacterStats:
+    purpose: Character-sheet stat detail; crit-rate averaging (mean-vs-sum) bug fixed by halving classrate.
+    recommender: [Mcz, optimage]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1266426136309534770]]'
+    - '[[d:code-corner#1379103262824726538]]'
+  Bagshui / Postal-returned / Aux / Sorted / Bagnon:
+    purpose: Bags, mail automation, auction-house helper. Aux repeatedly implicated in client crashes.
+    recommender: [Ayri, TechWomanWoW, Trickery]
+    era: mixed
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1280670653888069662]]'
+    - '[[d:code-corner#1486449584971710646]]'
+
+macro_addons:
+  SuperMacro:
+    purpose: Classic macro extension (longer macros, script functions, /script RunMacro).
+    recommender: [Mewtiny, Phnom]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1303332038988009604]]'
+    - '[[d:code-corner#1309891461025632356]]'
+  Roid-Macros:
+    repo: https://github.com/MarcelineVQ/Roid-Macros
+    purpose: >-
+      Macro extension predating Blizzard conditionals: /startattack, /equip,
+      [help @mouseover], target modifiers.
+    recommender: [Mewtiny, ugoboom]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1237455282066554900]]'
+    - '[[d:code-corner#1278504904503201876]]'
+  CleveRoidMacros / SuperCleveRoidMacros:
+    repo: https://github.com/jrc13245/SuperCleveRoidMacros
+    purpose: >-
+      Macro extension: modern-like conditionals (mybuff/nodebuff/mydebuff/combo/stimer/
+      channeltime/reactive/behind/multiscan/firstaction/retarget), /castsequence,
+      /equipoh, dynamic #showtooltip. Requires SuperWoW + Nampower + UnitXP.
+    recommender:
+    - "Don't ping me (maintainer)"
+    - Heallios
+    - alyflex
+    era: 1.18.1-announced-pre-release
+    agreement: consensus
+    sources:
+    - '[[d:code-corner#1433579920730099894]]'
+    - '[[d:code-corner#1443619133198569602]]'
+  GMacro:
+    repo: https://gitea.com/Erloys/GMacro-wow-vanilla-addon
+    purpose: >-
+      Alternative SuperWoW macro addon with Roid-like syntax and CleverMacro-style
+      #showtooltip; /castsequence, /equipoh, /equipranged, Nampower range check.
+    recommender: [Pitohui (author), mentalxpc]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1308104073157021719]]'
+    - '[[d:code-corner#1311708831830769734]]'
+  Cursive:
+    repo: https://github.com/pepopo978/Cursive
+    purpose: >-
+      DoT/curse duration tracker used as a dependency by rotation addons
+      (/cursive curse <spell>|target, Cursive:Curse(...)). Maintained for 1.18.x by
+      Kirchlive/Tetto with Turtle-specific fixes.
+    recommender: [nv, Pepopo, Goajos, Tetto]
+    era: mixed
+    agreement: consensus
+    sources:
+    - '[[d:code-corner#1244671767851831327]]'
+    - '[[d:code-corner#1417392442206064712]]'
+    - '[[d:code-corner#1454965235512246466]]'
+
+raiding_tooling:
+  BigWigs:
+    repo: https://github.com/pepopo978/BigWigs
+    forks: https://github.com/balakethelock/BigWigs
+    purpose: >-
+      Raid boss timers/bars; version query; custom bars via /bw extra custombar. Turtle
+      Kara40 fork. Its farclip default caused Maexxna portal failures (staff-confirmed).
+      Its cooldown data powers SCRM's raid cooldown frame.
+    recommender: [balake, '30', Turt Reynolds]
+    era: mixed
+    agreement: consensus
+    sources:
+    - '[[d:code-corner#1270523199691427911]]'
+    - '[[d:code-corner#1270484223933026496]]'
+    - '[[d:code-corner#1366495884962955414]]'
+    - '[[d:code-corner#1483298694974537852]]'
+  TWThreat / Threat:
+    repo: https://github.com/allfoxwy/Threat
+    forks: https://github.com/MarcelineVQ/TWThreat
+    purpose: Threat meter using an undocumented server threat API; Taunt-resist checker.
+    recommender: [ugoboom, JJPasak, Deleted User]
+    era: pre-1.18.1
+    agreement: consensus
+    notes: Breaks when mobs share a name; default only tracked elite/worldboss and no solo play.
+    sources:
+    - '[[d:code-corner#1277664684576608367]]'
+    - '[[d:code-corner#1371792720468774975]]'
+    - '[[d:code-corner#1374701093157732415]]'
+    - '[[d:code-corner#1367560226563424397]]'
+  ShaguDPS:
+    purpose: >-
+      Lightweight damage meter. Totem damage not attributed; MC'd-mob damage attributed
+      to the controller; could not separate same-named mobs.
+    recommender: [Thol, Rafalexxxx]
+    era: pre-1.18.1
+    agreement: consensus
+    sources:
+    - '[[d:code-corner#1005846607805300787]]'
+    - '[[d:code-corner#1241358757431345222]]'
+    - '[[d:code-corner#1240922252250316800]]'
+    - '[[d:code-corner#1240389077409468456]]'
+  DPSMate:
+    purpose: Damage meter; freezes when its logfile reaches ~20 MB.
+    recommender: [Disorder, Birdi]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1134027762773012520]]'
+    - '[[d:code-corner#1007219295270486137]]'
+  SW_Stats:
+    purpose: Damage meter; totem damage missing without SuperWoW combat logger.
+    recommender: [Rafalexxxx]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1241359467912888331]]'
+  SP_SwingTimer:
+    repo: https://github.com/balakethelock/SP_SwingTimer
+    purpose: >-
+      Auto-attack swing timer; contains the main/off-hand detection math and a warrior
+      HeroicStrikeQueued helper.
+    recommender: [Speedz, balake, '30']
+    era: pre-1.18.1
+    agreement: consensus
+    sources:
+    - '[[d:code-corner#1216537958786535524]]'
+    - '[[d:code-corner#1309977024907055197]]'
+    - '[[d:code-corner#1294525909235400765]]'
+  ST SwingTimer:
+    purpose: Swing timer exposing the st_timer global used by slam/steady-shot macros.
+    recommender: [Jorrick, Drath]
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1451838444929290394]]'
+  Decursive:
+    purpose: One-click raid dispel UI.
+    recommender: [nv, beastie]
+    era: pre-1.18.1
+    agreement: contested
+    notes: >-
+      Staff discussed discouraging automation of this kind but did not break the API;
+      players argued dispelling is uninteresting enough to warrant it.
+    sources:
+    - '[[d:code-corner#1358515017548562513]]'
+    - '[[d:code-corner#1358516273050423570]]'
+    - '[[d:code-corner#1358544378150387923]]'
+  Clique:
+    purpose: Click-casting on unit frames.
+    recommender: [TechWomanWoW, JohnGood]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1288983568801988618]]'
+  HealComm / HealPredict:
+    purpose: Heal prediction library.
+    recommender: [Oldmana, Rerolladin]
+    era: pre-1.18.1
+    agreement: consensus
+    notes: SuperWoW/Nampower compatibility was fragile; MarcelineVQ's build became the standard.
+    sources:
+    - '[[d:code-corner#1326759038049845280]]'
+    - '[[d:code-corner#1309000229223399526]]'
+  RallyHelper:
+    repo: https://github.com/Weirdpuppy94/RallyHelper
+    purpose: >-
+      World-buff tracking independent of manipulated server time
+      (Ony/Nef/ZG/DMF/Warchief).
+    recommender: [Pearcen (author)]
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1483823462865961022]]'
+    - '[[d:code-corner#1484163734820749332]]'
+  ItemRack:
+    purpose: >-
+      Gear sets and weapon swap via /script EquipSet("Set Name"); handles same-name items
+      with different enchants.
+    recommender: [Cysthen]
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1472407948562006018]]'
+  AutoLock:
+    repo: https://github.com/DavidBecht/AutoLock
+    purpose: Warlock priority rotation assistant; Nampower queue-aware; requires Cursive + SuperWoW.
+    recommender: [PaterTod]
+    era: post-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1487861776149254325]]'
+  lazyScript / lazySpell:
+    purpose: Macro/rotation helper; slam-after-autoattack timing; interrupt detection via SuperWoW.
+    recommender: [':) (fork author)']
+    era: mixed
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1452622582300934297]]'
+    - '[[d:code-corner#1503567637571960883]]'
+  DoiteAuras:
+    purpose: WeakAuras-like proc/buff/cooldown tracking using AURA_CAST_ON_SELF/OTHER off SPELL_GO.
+    recommender: [Minta, Pepopo]
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1480120996999462972]]'
+    - '[[d:code-corner#1463248355424600188]]'
+  AA Floating Text:
+    purpose: Healing floating combat text.
+    recommender: [Heallios]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1421168802275655710]]'
+  ShaguScore / MageHud / MageTools / PowerInfusionHandler / TrackTarget:
+    purpose: Class/role helper addons discussed or maintained in-channel.
+    recommender: [Eir, Neej]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1264663058492559411]]'
+    - '[[d:code-corner#1268189284809183313]]'
+    - '[[d:code-corner#1235230310522687543]]'
+    - '[[d:code-corner#1246582322615156836]]'
+
+other_qol:
+  Spy / Spy-vanilla:
+    purpose: PvP awareness.
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1280670653888069662]]'
+  Feed-o-Matic:
+    repo: https://github.com/McPewPew/GFW_FeedOMatic
+    purpose: Pet feeding; Turtle food list needs manual IDs.
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1465573318156615781]]'
+  MissingCrafts / MasterTradeSkills:
+    purpose: Trade-skill helper.
+    recommender: [Refaim]
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1280670653888069662]]'
+  Deathlog_Vanilla:
+    repo: https://github.com/Kirchlive
+    purpose: Hardcore death log.
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1453225390465224756]]'
+  Cursive-raid:
+    repo: https://github.com/Kirchlive
+    purpose: Raid debuff tracking.
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1483849727496945768]]'
+  Zorlen:
+    purpose: Rotation addon.
+    era: 1.18.1-announced-pre-release
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1460386479237759222]]'
+  AtlasLoot forks:
+    purpose: >-
+      Loot-table browser; community forks (Lexiebean, Otari98,
+      Kirchlive/AtlasLoot-GearFilter) for Turtle content.
+    era: mixed
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1246103464514158713]]'
+    - '[[d:code-corner#1487727805268492320]]'
+    - '[[d:code-corner#1494811961446371358]]'
+  TWOW-Setup (Linux installer):
+    repo: https://github.com/TheLinuxITGuy/TWOW-Setup
+    purpose: Community Linux installer bundling tDF, pfQuest, pfQuest-turtle, SuperAPI and SuperWoW.
+    era: pre-1.18.1
+    agreement: single source
+    sources:
+    - '[[d:code-corner#1283836457370517515]]'

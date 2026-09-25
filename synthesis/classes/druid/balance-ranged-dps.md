@@ -13,7 +13,7 @@ Playbook for the "Boomkin" caster DPS spec. Class Changes 2 (2024-10-12) gave Ba
 
 ## Talent build
 
-No source decodes a full 60-point list; the shape given by the deepest post-CC2 write-up:
+**The calculator links decode** (Discord, `staging/talents/`). The pinned 1.18.0 Balance raid build decodes to **Balance 35 / Restoration 13 + 3 flex** (Guidance of the Dream or Reflection) [[d:druid#1356852934725472369]]; the post-1.18.1 channel build is **37/0/14** (BoAT 3/3, Owlkin Frenzy 1/3) [[d:druid#1485212531613241375]]. Full point lists are in `balance-ranged-dps.yaml`. The shape otherwise given by the deepest post-CC2 write-up:
 
 - **~35-38 points committed to core Balance talents** (all damage/hit/crit/range/cast-time/Moonkin Form/Balance of All Things/Eclipse talents) with only **2-3 flex points**, split between **Gale Winds** (raid AoE-slow utility, no personal damage) and **Guidance of the Dream** (interrupt/pushback avoidance — even fully talented it "still brings you to 76% during an enraged owlkin proc, so you still get pushback") — [Scattyau (player), 2025-11-11](https://forum.turtlecraft.gg/viewtopic.php?p=159149#p159149).
 - **~13 points into Restoration for Genesis** ("+5/10/15% periodic damage/healing," reduced from an 18-point requirement in an earlier revision) — same source.
@@ -39,7 +39,7 @@ The rotation is **consensus in shape**, contested only in feel/reward:
    - **1.18.1 (official, revision dated 2026-03-19)**: "Damage from Wrath now has a 40% chance and Damage from Starfire now has a 60% chance to proc their beneficial effects" — [Jamey (staff), 2026-03-19 revision of p166071](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071).
    - Each Eclipse buff lasts 15 seconds with a separate 30-second cooldown per school; both cannot be active simultaneously.
 4. **Stopcasting**: because Eclipse windows are short and the proc can land mid-cast, "optimal gameplay" frequently means cancelling a cast already in progress to switch to the newly-buffed spell rather than let the current cast finish and waste part of the window — described as the single biggest "feel" complaint about the spec both pre- and post-1.18.1 — [Tarsis (player), 2025-06-10](https://forum.turtlecraft.gg/viewtopic.php?p=135044#p135044); [Auralys (player), 2026-03-23](https://forum.turtlecraft.gg/viewtopic.php?p=172020#p172020).
-5. **Balance of All Things** (3 points as of 1.18.1, down from 5): Wrath cast on an Insect-Swarm'd target refunds 10/20/30% of its mana cost; Starfire gets a +3/6/9% (revised 2026-01-26 from an initial 2/4/6%) crit-chance bonus against a Moonfire'd target — [Jamey (staff), 2026-01-23/26](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071). Community verdict pre-revision: "There is so much to hate here... they recharge randomly and unpredictably, with a 30% [chance] on each DOT tick" — [Scattyau (player), 2025-11-11](https://forum.turtlecraft.gg/viewtopic.php?p=159149#p159149).
+5. **Balance of All Things** (3 points as of 1.18.1, down from 5): Wrath cast on an Insect-Swarm'd target refunds 10/20/30% of its mana cost. The second half of the talent changed **twice**: the **2026-01-26 revision** gave Starfire **-0.2/0.4/0.6 s reduced cast time** against a Moonfire'd target [[d:druid#1465349903348924598]]; the **2026-03-19 revision replaced that with +3/6/9% crit**, which players read as a net nerf ("we lost 20% spell haste on Starfire for 9% crit that doesn't scale eclipse"). **Any pre-release note quoting the cast-time version is stale** — see the Discord additions section. Community verdict pre-revision: "There is so much to hate here... they recharge randomly and unpredictably, with a 30% [chance] on each DOT tick" — [Scattyau (player), 2025-11-11](https://forum.turtlecraft.gg/viewtopic.php?p=159149#p159149).
 6. **DoT-refresh tension**: because Insect Swarm and Moonfire have near-identical durations and both accumulate procs, optimal play sometimes clips one DoT early to refresh it under an active Eclipse bonus, desyncing the two — same source.
 
 ## Multi-target / AoE rotation
@@ -77,6 +77,37 @@ The rotation is **consensus in shape**, contested only in feel/reward:
 - Assuming DoT ticks or Hurricane will proc on-hit trinkets (Scythe, Clackora, Sigil, Fortune-stat items) — they don't.
 - Judging the spec purely on the damage meter without accounting for decurse/utility uptime, which several sources argue is core to the spec's actual raid value.
 
+## Discord additions (post-1.18.1)
+
+Numeric stat weights, the exact Eclipse rotation, T3/T3.5 gear calls and the 1.18.1 BoAT timeline correction.
+
+### Balance of All Things — January → March 2026 (supersession)
+
+| Revision | Starfire effect vs a Moonfire'd target | Source |
+|---|---|---|
+| **2026-01-26** | **-0.2 / 0.4 / 0.6 s cast time** | [[d:druid#1465349903348924598]] |
+| **2026-03-19 (shipped)** | **+3 / 6 / 9% crit** — cast-time version replaced | delta, `staging/druid-pve/delta.md` |
+
+The community reads the swap as a net nerf. The Wrath half (10/20/30% mana refund on an Insect-Swarm'd target) is unchanged across both revisions.
+
+### Statistics
+
+- **Hit ≈ 40 spell power; crit ≈ 20; haste ≈ 16.** Practical advice: "get 12-15 spell hit, stack as much spell crit as you can. Hit>crit>sp" [[d:druid#1386036047225290873]] [[d:druid#1380884597826392074]] [[d:druid#1387146935336697998]]. This closes the forum file's "no numeric weight given (gap)".
+- **Crit cap near T3.5**: "39.5 crit is what bis will look like with scythe, while also being crit capped" [[d:druid#1380629211223691294]].
+- **Cast-time stack**: 8/8 T3 grants 10% haste on entering Eclipse; Improved Wrath lowers the Wrath GCD to 1.0 s; Starfire is reducible by the Ebb and Flow idol (-0.2 s), crit (-0.5 s), BoAT and T3 haste [[d:druid#1382526320789033011]] [[d:druid#1383503369485815959]].
+
+### Rotation (Discord step-by-step)
+
+Moonfire + Insect Swarm → Wrath until Arcane Eclipse → Starfire for the whole window → **refresh Moonfire then Insect Swarm in the last second of Arcane Eclipse** → Starfire until Nature Eclipse → Wrath for that window, refreshing DoTs only in its last second. **Do not re-DoT mid-window.** Solstice only blocks re-entering the *same* Eclipse, so keep casting Starfire to fish Nature. An Eclipse monitor plus Cursive (DoT tracker) is strongly recommended [[d:druid#1382205752961269830]] [[d:druid#1382166180663529532]] [[d:druid#1382206204222111784]].
+
+### Gear, AoE and consumables
+
+- **T3.5 3-set** summons a second Hurricane cloud at exactly 50% of your ticks that continues after channelling and is buffed by Eclipse/Enlighten — "very very strong" for trash; the **5-set is widely called bad** [[d:druid#1381396350142251149]] [[d:druid#1388439061844328528]].
+- **Ebb and Flow idol ≈ +60 dps**; 8/8 T3 + Starfire boon + Ebb and Flow + Bloodlust gives 1.35 s Starfires; snapshot the crit idol before swapping to it [[d:druid#1380178763412799568]] [[d:druid#1380642728140079134]] [[d:druid#1380178703555887235]].
+- **Consumables**: Chromatic Flask best early Kara40 (Wisdom flask only on Chess), Brilliant Wizard Oil, Nightfin Soup, Mageblood, Major Mana, Nordanaar Tea, LIP, Zanza, Greater Arcane Elixir, Elixir of Greater Nature Power, Dreamshard Elixir, Cerebral Cortex Compound, Juicy Stripped Melon, Medivh's Merlot Blue, Bright Dream Shards [[d:druid#1379631498847715390]] [[d:druid#1381556479252762735]].
+- **Post-1.18.1 reaction**: Starfire damage "horribly low"; pure Wrath spam reported to out-damage Starfire inside Arcane Eclipse; the later retraction of the "Starfire crit is broken" theory ("crit seems fine... the starfire dmg is way too low") [[d:druid#1484680824552161360]] [[d:druid#1484694699364319326]] [[d:druid#1484945523889803354]] [[d:druid#1489726742280011827]]. Krokat's sims: 1.18 peak 1549.2 vs 1.18.1 1454.0 DPS; 1.18.1 Ebb and Flow 1225.8 vs Moon 1199.5 [[d:druid#1464380870935969944]] [[d:druid#1464386394410713444]]. "Worst proper DPS spec" sentiment stands, but the forum's ~15% figure remains uncorroborated [[d:druid#1486095894875996311]].
+- **Designer intent**: the rework was explicitly meant to reduce BoAT/Owlkin Frenzy/Eclipse randomness [[d:druid#1464541190186602538]].
+
 ## Sources
 
 | Post | Author (authority) | Date | Era | Agreement |
@@ -88,4 +119,5 @@ The rotation is **consensus in shape**, contested only in feel/reward:
 | [p166071](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071) | Jamey (staff) | 2026-01-23/26, 03-19 | 1.18.1-announced-pre-release | official — Balance of All Things, Moonfury, Eclipse proc-chance changes |
 | [p172020](https://forum.turtlecraft.gg/viewtopic.php?p=172020#p172020)–[p172592](https://forum.turtlecraft.gg/viewtopic.php?p=172592#p172592) (t=24455) | Auralys, Froghijab420, Morkahja, Jizzus, Mistikkk, Arthurice (players) | 2026-03-23/26 | post-1.18.1 | consensus among posters — spec still unrewarding post-patch |
 | [p173102](https://forum.turtlecraft.gg/viewtopic.php?p=173102#p173102)–[p173305](https://forum.turtlecraft.gg/viewtopic.php?p=173305#p173305) (t=24604) | Noephix, Velanyr, Froizerk, Trevor89, Kerenis (players) | 2026-03-30 | post-1.18.1 | single detailed source, agreed by replies |
+| `#druid` Discord — stat weights, Eclipse step-by-step, T3.5 set, BoAT timeline, post-patch reaction | Krokat, Fat Pibble (staff), Treehide/Verrik, Breaddy, Hotverdomme-Nord, Micro Jackson, Feenik (players/staff) | 2025-10 → 2026-04 | 1.18.1-announced-pre-release / post-1.18.1 | consensus on stat order and rotation, contested on post-patch magnitude |
 | `synthesis/1.18.1-master-changelog.md` §Druid, `synthesis/turtle-vs-vanilla-timeline.md` §Druid | — (compiled from staff posts) | — | — | official changelog compilation |

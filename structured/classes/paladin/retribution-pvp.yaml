@@ -1,0 +1,135 @@
+class: Paladin
+spec: Retribution
+role: pvp
+sources: []
+agreement: contested
+patch_validity:
+  written_for: "1.18.1 live (post-2026-03-20), with pre-1.18.1 Discord context where marked"
+  valid_for_1181: yes
+  notes: "New coverage: the forum KB marked Retribution PvP as weak/folded into the PvE file and had no build. Discord supplies two decoded 51-point trees (AP/SoC and spell/SoR), Judgement-of-Justice ranged-stun tech, the support-kit verdict, post-1.18.1 standings and the arena rules. Gear is explicitly 'subjective'."
+discord:
+  channel: paladin
+  scope: "Retribution PvP builds, tactics, gear and arena (pre-1.18.1 .. post-1.18.1)"
+  sources:
+    - {id: "1484646921850192184", era: post-1.18.1, agreement: consensus, claim: "'In PvP you always soc, (because sor can't burst) and always mix ap sp, for all the purpose'"}
+    - {id: "1488868459726245898", era: post-1.18.1, agreement: single source, claim: "'for PVP tho I would always run SOC'"}
+    - {id: "1485064552906358784", era: post-1.18.1, agreement: single source, claim: "'In PvP burst is more important than anything'"}
+    - {id: "1441145875756875876", era: 1.18.1-announced-pre-release, agreement: contested, claim: "Naxx ret: 'can do a lot of damage as spellret in pvp too'"}
+    - {id: "1485052206989185095", era: post-1.18.1, agreement: contested, claim: "'Burst is king in pvp. And spellret has NO FUCKING STAMINA'"}
+    - {id: "1463425553074753640", era: post-1.18.1, agreement: single source, claim: "'Ret pvp bis gear is subjective, to your personal desires and gameplay'"}
+    - {id: "1440085972103594096", era: 1.18.1-announced-pre-release, agreement: consensus, claim: "Mithreon's decoded 'SoC Ret' and 'SoR Ret' trees (both 11/8/32)"}
+    - {id: "1465252005432787102", era: 1.18.1-announced-pre-release, agreement: single source, claim: "Decoded deep-Prot damage variant 30/21 for 1.18.1 PvP"}
+    - {id: "1491170906700251276", era: post-1.18.1, agreement: single source, claim: "Judgement of Justice can be a ranged stun if the seal procs on the judgement hit"}
+    - {id: "1485101394544427152", era: post-1.18.1, agreement: single source, claim: "'Repentance really is excellent now' (1.18.1 +8% AP tick on immune targets)"}
+    - {id: "1490479546053693462", era: post-1.18.1, agreement: single source, claim: "'And SoC is now more consistent, in pvp too' (7 -> 9 PPM)"}
+    - {id: "1484792824296771716", era: post-1.18.1, agreement: contested, claim: "'yea ret pal feels HELLA good in pvp right now'"}
+    - {id: "1483194113871446199", era: post-1.18.1, agreement: contested, claim: "Counter: 'Ret isn't amazing in pvp' / 'Rets are ass, hpally is where paladin pvp is at'"}
+    - {id: "1483197309121462443", era: post-1.18.1, agreement: consensus, claim: "'Half of alliance in PvP is rets and 5% of them ever threw a heal or freedom/protection on another player'"}
+    - {id: "1481012056034508960", era: post-1.18.1, agreement: contested, claim: "Weapon enchant: Crusader default, +30 Spellpower the spell-ret choice; no consensus"}
+    - {id: "1482087143743557733", era: post-1.18.1, agreement: contested, claim: "Crusader vs +30 SP for prot/ret PvP - unresolved"}
+    - {id: "1443943020658429973", era: 1.18.1-announced-pre-release, agreement: consensus, claim: "Run-speed boots treated as the anti-kite requirement"}
+    - {id: "1487529855430955068", era: post-1.18.1, agreement: consensus, claim: "'People sneeze at stamina but that's vanilla pvp stat'"}
+  cross_channel:
+    - {channel: pvp-general, id: "1109073351412027432", era: pre-1.18.1, agreement: consensus, claim: "'most of the Rets I have seen completely ignore the support kit of the Paladin ... (cleanse, bop, bos)'"}
+    - {channel: pvp-general, id: "1429044165223645285", era: pre-1.18.1, agreement: single source, claim: "Paladins can BoP/bubble off Blind, so rogue sap->blind chains are weaker after the 2025 trinket change"}
+    - {channel: pvp-general, id: "1161371374846218290", era: pre-1.18.1, agreement: single source, claim: "Pre-2025 Hammer of Justice was not class-trinketable"}
+talents:
+  build_name: "AP/SoC ret PvP, 11/8/32 (decoded)"
+  build_link: "https://talents.turtlecraft.gg/paladin?points=FoAAB-FAY-AoTAFJYAFIFAB"
+  points:
+    - {tree: Holy, talent: Divine Strength, rank: 5, spell_id: 20266}
+    - {tree: Holy, talent: Divine Intellect, rank: 5, spell_id: 20261}
+    - {tree: Holy, talent: Sanctity Aura, rank: 1, spell_id: 20218}
+    - {tree: Protection, talent: Improved Devotion Aura, rank: 5, spell_id: 20142}
+    - {tree: Protection, talent: Precision, rank: 3, spell_id: 20193}
+    - {tree: Retribution, talent: Benediction, rank: 5, spell_id: 20105}
+    - {tree: Retribution, talent: Improved Judgement, rank: 2, spell_id: 25957}
+    - {tree: Retribution, talent: Improved Seal of the Crusader, rank: 3, spell_id: 20337}
+    - {tree: Retribution, talent: Conviction, rank: 5, spell_id: 20121}
+    - {tree: Retribution, talent: Blessing of Kings, rank: 1, spell_id: 20217}
+    - {tree: Retribution, talent: Pursuit of Justice, rank: 1, spell_id: 26022}
+    - {tree: Retribution, talent: Two-Handed Weapon Specialization, rank: 3, spell_id: 20113}
+    - {tree: Retribution, talent: Vengeance, rank: 5, spell_id: 20059}
+    - {tree: Retribution, talent: Seal of Command, rank: 1, spell_id: 20375}
+    - {tree: Retribution, talent: Vengeful Strikes, rank: 5, spell_id: 51359}
+    - {tree: Retribution, talent: Repentance, rank: 1, spell_id: 20066}
+  alternative_points:
+    build_name: "Spell/SoR ret PvP, 11/8/32 (decoded; no Seal of Command, Improved Seal of Righteousness 5, Pursuit of Justice 2)"
+    points:
+      - {tree: Holy, talent: Divine Strength, rank: 5, spell_id: 20266}
+      - {tree: Holy, talent: Improved Seal of Righteousness, rank: 5, spell_id: 20332}
+      - {tree: Holy, talent: Sanctity Aura, rank: 1, spell_id: 20218}
+      - {tree: Protection, talent: Improved Devotion Aura, rank: 5, spell_id: 20142}
+      - {tree: Protection, talent: Precision, rank: 3, spell_id: 20193}
+      - {tree: Retribution, talent: Benediction, rank: 5, spell_id: 20105}
+      - {tree: Retribution, talent: Improved Judgement, rank: 2, spell_id: 25957}
+      - {tree: Retribution, talent: Improved Seal of the Crusader, rank: 3, spell_id: 20337}
+      - {tree: Retribution, talent: Conviction, rank: 5, spell_id: 20121}
+      - {tree: Retribution, talent: Blessing of Kings, rank: 1, spell_id: 20217}
+      - {tree: Retribution, talent: Pursuit of Justice, rank: 2, spell_id: 26023}
+      - {tree: Retribution, talent: Two-Handed Weapon Specialization, rank: 3, spell_id: 20113}
+      - {tree: Retribution, talent: Vengeance, rank: 5, spell_id: 20059}
+      - {tree: Retribution, talent: Vengeful Strikes, rank: 5, spell_id: 51359}
+      - {tree: Retribution, talent: Repentance, rank: 1, spell_id: 20066}
+  deep_prot_damage_points:
+    build_name: "Prot 30 / Ret 21 damage PvP variant (decoded)"
+    points:
+      - {tree: Protection, talent: Redoubt, rank: 5, spell_id: 45822}
+      - {tree: Protection, talent: Guardian's Favor, rank: 2, spell_id: 20175}
+      - {tree: Protection, talent: Toughness, rank: 5, spell_id: 20147}
+      - {tree: Protection, talent: Shield Specialization, rank: 2, spell_id: 20149}
+      - {tree: Protection, talent: Anticipation, rank: 3, spell_id: 20098}
+      - {tree: Protection, talent: Improved Hammer of Justice, rank: 3, spell_id: 20489}
+      - {tree: Protection, talent: Holy Shield, rank: 1, spell_id: 20925}
+      - {tree: Protection, talent: Reckoning, rank: 4, spell_id: 45826}
+      - {tree: Protection, talent: Righteous Strikes, rank: 5, spell_id: 51345}
+      - {tree: Retribution, talent: Benediction, rank: 5, spell_id: 20105}
+      - {tree: Retribution, talent: Improved Judgement, rank: 2, spell_id: 25957}
+      - {tree: Retribution, talent: Deflection, rank: 3, spell_id: 20062}
+      - {tree: Retribution, talent: Conviction, rank: 5, spell_id: 20121}
+      - {tree: Retribution, talent: Pursuit of Justice, rank: 2, spell_id: 26023}
+      - {tree: Retribution, talent: Vindication, rank: 3, spell_id: 26021}
+      - {tree: Retribution, talent: Seal of Command, rank: 1, spell_id: 20375}
+  leveling_order: []
+stat_weights:
+  stamina: "high - the PvP stat; spell-ret is criticised for having none [[d:paladin#1485052206989185095]]"
+  attack_power_strength: "high for AP/SoC (the default PvP seal)"
+  spell_power: "viable alternative (spell/SoR tree); contested"
+  crit: "high (burst windows)"
+  resilience: "does not reduce druid melee crit (specific to the druid matchup)"
+caps: {}
+rotation_single:
+  - {priority: 1, action: "Seal of Command up; Judgement of Command for burst", condition: "always; SoC is the PvP seal, SoR points are wasted [[d:paladin#1380445706090844222]]"}
+  - {priority: 2, action: "Repentance + Hammer of Justice chain CC", condition: "setup a kill; Repentance is now 'excellent' vs immune targets [[d:paladin#1324918396680273981]] [[d:paladin#1485101394544427152]]"}
+  - {priority: 3, action: "Crusader Strike / Holy Strike", condition: "Zeal/Holy Might maintenance and burst"}
+  - {priority: 4, action: "Judgement of Justice", condition: "ranged-stun tech: the seal can proc on the judgement hit; re-seal afterwards [[d:paladin#1491170906700251276]]"}
+  - {priority: 5, action: "Cleanse / Hand of Freedom / BoP / Blessing of Sacrifice", condition: "support the team - the real value of a Ret in PvP [[d:paladin#1483197309121462443]]"}
+  - {priority: 6, action: "Divine Shield", condition: "burst window; disabled in rated arena; -60% damage dealt (penalty contested)"}
+rotation_aoe: []
+aoe_threshold: 0
+cooldowns:
+  - {name: Divine Shield, use_when: "survive burst; disabled in rated arena"}
+  - {name: Hammer of Justice, use_when: "kill-securing stun; ~30 s with Imp HoJ 3/3 + old PvP set"}
+  - {name: Repentance, use_when: "CC / scaling tick on immune targets"}
+  - {name: Hand of Protection, use_when: "anti-physical save; breaks Blind"}
+resource_rules:
+  - "Judgement of Wisdom melee for mana; keep the team cleansed and blessed"
+consumables:
+  - "Sappers, thorium grenades (stun), teas, pots, Frost Oils, Free Action Potion, Living Action Potion [[d:paladin#1483206266699386882]]"
+  - "Run-speed boots; stamina enchants; engineering for grenades [[d:paladin#1491337490085445834]]"
+mistakes_to_avoid:
+  - "Using Seal of Righteousness in PvP (SoC is the PvP seal) [[d:paladin#1380445706090844222]]"
+  - "Ignoring the support kit (Cleanse/BoP/Sacrifice/Freedom) [[d:pvp-general#1109073351412027432]]"
+  - "Chasing kiters instead of bursting inside a HoJ/Repentance window"
+  - "Mixing AP gear with an SP weapon or vice versa"
+matchups:
+  warrior: "win - Freedom + pillar-kite, then HoJ burst; prot/reckoning eats warriors"
+  rogue: "win - survive the opener and connect once; BoP/bubble off Blind"
+  shaman: "hard loss - Purge strips seal/Vengeance/blessings/Hands; no slow or charge"
+  mage: "loss - nova/CS -> Poly, dispel Freedom, kite; lose the mana war"
+  warlock: "loss - fear + Curse of Tongues; Soul Link 'mugs' paladins"
+  priest: "loss (shadow) - dispel shield/fear, fear-resist gear; healer-priest is softer"
+  druid: "hardest - kite/reset and out-sustain; resilience does not reduce druid melee crit"
+  hunter: "contested - cannot be kited by the hunter but cannot catch one; Viper mana tax"
+  paladin: "spec-dependent - prot beats ret 1v1; hpal out-sustains"
+  sources: ["[[d:pvp-general#1118210717846339636]]", "[[d:pvp-general#1153844681717854249]]", "[[d:pvp-general#1371851334738907257]]", "[[d:pvp-general#1376543969743474790]]", "[[d:pvp-general#1126789007439822858]]", "[[d:pvp-general#1306963676057833532]]", "[[d:pvp-general#1161684586296782848]]", "[[d:pvp-general#1161014215235092520]]", "[[d:pvp-general#1340006892612616274]]"]

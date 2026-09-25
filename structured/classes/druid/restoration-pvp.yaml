@@ -19,33 +19,73 @@ agreement: consensus
 patch_validity:
   written_for: "1.17.2 / 1.18.0 (thread runs Oct 2025 through the 1.18.1-announced-pre-release era)"
   valid_for_1181: unknown
-  notes: "No dedicated post-1.18.1 re-test thread found beyond a single one-line post-patch complaint (Wosator, 2026-03-23) agreeing the spec is still weak. The Blind-becomes-a-physical-debuff PvP-system change referenced in-thread is a general PvP change, not confirmed Druid-specific or dated to 1.18.1 in the master changelog."
+  notes: "No dedicated post-1.18.1 re-test thread found beyond a single one-line post-patch complaint (Wosator, 2026-03-23) that the spec is still weak. Discord adds four independent 2025 voices making 'worst PvP healer by a wide margin' a CONSENSUS, plus a #pvp-general mirror. The 2024 pre-CC2 counter-argument that druids are 'incredibly strong' PvP healers is superseded for the post-2025 burst meta and must carry an era label [[d:druid#1233506057523822693]]."
+discord:
+  channel: druid
+  cross_channel: pvp-general
+  scope: "Restoration PvP standing, hybrid-not-Tree build guidance, anti-Rogue tactics, gear and consumes"
+  sources:
+    - {id: "1421054886526849065", era: mixed, agreement: consensus, claim: "'Rerolling to paladin or shaman unfortunately, druid is the worst pvp healer by a large margin'; if you insist, Heart of the Wild/NS for survivability or Nature's Grace/NS for a balance hybrid [[d:druid#1351559105533313065]] [[d:druid#1381267695516782703]] [[d:druid#1487886330200457307]]"}
+    - {id: "1296951349094780983", era: pre-1.18.1, agreement: consensus, claim: "Purge/dispel is the core failure mode: 'he purges any hots before I'm off gcd to use swiftmend'; adding damage to Purge in 1.18 made it worse [[d:druid#1308814250717745173]] [[d:druid#1399647476364873798]]"}
+    - {id: "1487885405922787509", era: post-1.18.1, agreement: consensus, claim: "Arena/3v3 guidance: 'go resto (but yes don't take the tree, and go for the feral charge)' - partner survivability is the reason; a resto/boom hybrid is ideal with good partners [[d:druid#1487886330200457307]]"}
+    - {id: "1341048744732528681", era: 1.18.1-announced-pre-release, agreement: single source, claim: "Moonglow is a PvP-oriented Resto build, or early-resto when you cannot afford many Regrowths [[d:druid#1439744516234936492]]"}
+    - {id: "1235462981001678859", era: post-1.18.1, agreement: consensus, claim: "Tree of Life is bad-to-unusable in PvP: 'being a slow-moving tree is not great in a BG'; 'Tree form in PvP is an extreme horrible experience' [[d:druid#1488570237837246544]]"}
+    - {id: "1233506057523822693", era: pre-1.18.1, agreement: contested, claim: "Pre-CC2 2024 dissent: druids are 'incredibly strong' PvP healers (most mobile, most instants, >10k-armor bear at a button, can't be rooted/poly in form, second mana bar) - superseded by the 2025 consensus [[d:druid#1212357602080723014]]"}
+    - {id: "1212357602080723014", era: pre-1.18.1, agreement: single source, claim: "Blood Ring 1v1: a feral/resto hybrid with mixed heal/tank gear beat deep feral druids handily (more mana regen + instants)"}
+    - {id: "1308814250717745173", era: pre-1.18.1, agreement: consensus, claim: "Anti-Rogue: Blind cannot be cleansed and the Rogue can reset freely; bear-shift is survival only (locks out healing); save the trinket for Kidney Shot [[d:druid#1402317105650733229]]"}
+    - {id: "1082697299085512795", era: pre-1.18.1, agreement: consensus, claim: "Stealth detection stack vs Rogues: Catseye Ultra Goggles +18, Catseye Elixir +10, PvP gloves +10, friendly Warlock Paranoia +30"}
+    - {id: "1461754694274912499", era: 1.18.1-announced-pre-release, agreement: consensus, claim: "Post-1.17.2 potions usable in Cat/Bear; defensive consume list: Greater <element> Protection Potions, Free Action, LIP, Magic Resistance, Elixir of Fortitude, Juju Chill/Ember, Spirit of Zanza; bears add Greater Stoneshield, Elixir of Superior Defense, Hardened Mushroom"}
+    - {id: "1344247088527052820", era: mixed, agreement: consensus, claim: "PvP set 3/4-piece speed bonus treated as mandatory; PvP pieces otherwise stat-inferior to PvE [[d:druid#1348208499779178497]] [[d:druid#1466435037455978599]]"}
+    - {id: "1487935338197291078", era: post-1.18.1, agreement: contested, claim: "1.18.1 tiered PvP sets (T1 ~ilvl 71 / T2 ~77 / T3 ~92) partly supersede 'PvP gear inferior to PvE'; some specs now use the new set for PvE threat BIS, which is controversial [[d:druid#1487969266769727612]]"}
+    - {id: "1487907149618348213", era: post-1.18.1, agreement: consensus, claim: "PvP Dampening became class/spec-dependent in 1.18.1; staff confirm 'pvp dampening' exists but druid values are unpublished [[d:druid#1491538510492995816]]"}
+    - {id: "1482116247696183336", era: pre-1.18.1, agreement: consensus, claim: "Tauren War Stomp -> Entangling Roots -> Travel Form is the named PvP play; Tauren is the PvP-minmax race [[d:druid#1382377045362868386]]"}
 talents:
-  build_name: "General Restoration healer build, PvP-adjusted (no dedicated PvP point list found)"
+  build_name: "Hybrid, not deep Tree: HotW+NS or Nature's Grace+NS, skip Tree, take Feral Charge for 3v3"
   build_link: null
   points: []
+  directions:
+    - "Heart of the Wild + Nature's Swiftness for survivability [[d:druid#1421054886526849065]]"
+    - "Nature's Grace + Nature's Swiftness for a Balance/Resto damage-off-heal hybrid [[d:druid#1421054886526849065]]"
+    - "Moonglow (21/0/30-style) as the efficient-healing PvP-ish Resto build [[d:druid#1341048744732528681]]"
+    - "3v3: skip Tree Form and take Feral Charge; a pure healer is still advised for new PvPers because the warrior partner gets focused [[d:druid#1487885405922787509]]"
   leveling_order: []
 stat_weights:
-  stamina: "prioritized over Resilience per one detailed report ('Focus on stamina gear over anything else'); Resilience alone reported insufficient against Envenom-spec Rogues even fully stacked"
-caps: {}
+  stamina: "prioritized over Resilience per one detailed report ('Focus on stamina gear over anything else'); Resilience alone reported insufficient against Envenom Rogues even fully stacked"
+  resilience: "reworked in CC2 from 'reduce crit chance' to 'reduce crit/DoT damage' (1% old crit immunity = 3% reduced); insufficient alone vs Envenom"
+  pvp_hit: "contested - melee 5% [[d:druid#1350792370085564456]], spell 3% [[d:druid#1482736105634791637]], or 'Natural Weapons covers it' [[d:druid#1283031488895647767]]"
+caps:
+  pvp_hit_melee: "5% - the PvE 8% change only removed boss hit suppression [[d:druid#1350792370085564456]]"
+  pvp_spell_hit: "3% [[d:druid#1482736105634791637]]; with Natural Weapons effectively 0 [[d:druid#1283031488895647767]]"
 rotation_single:
   - {priority: 1, action: "Lesser/Greater Arcane Protection Potion + Fire/Frost/Arcane/Shadow (LAP/FAP-type) potions", condition: "pre-engagement if possible"}
-  - {priority: 2, action: "Rejuvenation, Barkskin, Faerie Fire, Nature's Grasp", condition: "opening defensive sequence against an incoming Rogue"}
+  - {priority: 2, action: "Rejuvenation, Barkskin, Faerie Fire, Nature's Grasp", condition: "opening defensive sequence against an incoming Rogue; note Nature's Grasp no longer works in Bear Form [[d:druid#1406166500393484289]]"}
   - {priority: 3, action: "save PvP trinket for Kidney Shot, not the opening stun", condition: "post-1.18.1 caveat: trinketing may let the Rogue Blind-and-reset instead, since Blind is reportedly now a physical debuff"}
-  - {priority: 4, action: "shift to Bear Form", condition: "near-mandatory once an engagement starts or is expected; survive-then-disengage, not a win condition"}
+  - {priority: 4, action: "shift to Bear Form", condition: "near-mandatory once an engagement starts or is expected; survive-then-disengage, not a win condition (locks out healing)"}
   - {priority: 5, action: "Feral Charge or Nature's Grasp/roots", condition: "create separation once stabilized"}
 rotation_aoe: []
 aoe_threshold: null
 cooldowns:
-  - {name: "PvP trinket", use_when: "Kidney Shot, not the opening Cheap Shot/Ambush"}
+  - {name: "PvP trinket", use_when: "Kidney Shot, not the opening Cheap Shot/Ambush; universal 3-min all-CC break used in form"}
+  - {name: "Nature's Swiftness", use_when: "instant heal emergency; the point of the NS hybrids"}
   - {name: "Bear Form", use_when: "expected or in-progress Rogue engagement"}
-resource_rules: []
+resource_rules:
+  - "Moonglow's mana efficiency while still contributing damage is the reason it is called a PvP build [[d:druid#1341048744732528681]]"
 consumables:
   - "Crunchy bread (Blind removal)"
-  - "Catseye Goggles, Catseye Elixir, Druid PvP-rank gloves, 'Dyad of Twitching Elf Ears' — stack for ~+58 stealth detection to spot Rogues before their opener"
+  - "Catseye Goggles, Catseye Elixir, Druid PvP-rank gloves, 'Dyad of Twitching Elf Ears' - stack for ~+58 stealth detection to spot Rogues before their opener [[d:druid#1082697299085512795]]"
+  - "Defensive potions: Greater <element> Protection, Free Action Potion, LIP, Magic Resistance Potion, Elixir of Fortitude, Juju Chill/Ember, Spirit of Zanza [[d:druid#1461754694274912499]]"
 mistakes_to_avoid:
   - "Fighting in caster form against a Rogue instead of shifting to Bear at the first sign of engagement"
   - "Trinketing the opening stun instead of saving it for Kidney Shot"
   - "Assuming Resilience alone solves Rogue burst"
   - "Queuing solo into arena as Restoration without a coordinated peeling partner"
   - "Skipping the 3-4 piece PvP set bonus in favor of higher-item-level PvE pieces"
+  - "Taking Tree Form in PvP - 'an extreme horrible experience' [[d:druid#1235462981001678859]]"
+supersedes:
+  - {claim: "Druids are 'incredibly strong' PvP healers (2024, pre-CC2)", verdict: "Superseded for the post-2025 burst meta by a four-source negative consensus; retain only with the era label", sources: ["[[d:druid#1233506057523822693]]", "[[d:druid#1421054886526849065]]"]}
+  - {claim: "PvP pieces are inferior to PvE (2024-2025)", verdict: "At least partly superseded by the 1.18.1 tiered PvP sets; old sets sunset", sources: ["[[d:druid#1487935338197291078]]"]}
+gaps:
+  - "No endorsed deep-Tree or hybrid point list (directions only)"
+  - "Exact 1.18.1 Druid PvP Dampening values unpublished"
+  - "No Hunter matchup tactic; no working feral counterplay vs Shaman/Paladin"
+  - "No rated-arena druid representation data (only the 75/25/0 prediction)"

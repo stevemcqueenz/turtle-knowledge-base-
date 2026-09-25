@@ -38,24 +38,24 @@ patch_validity:
 talents:
   build_name: "Deep Protection (sourced core; ~51 points not fully specified)"
   points:
-    - {tree: Protection, talent: Shield Slam, rank: 1, spell_id: null}
-    - {tree: Protection, talent: Improved Shield Slam, rank: 2, spell_id: null}
-    - {tree: Protection, talent: Defiance, rank: 5, spell_id: null}
-    - {tree: Protection, talent: Defensive Tactics, rank: 3, spell_id: null, note: "contested"}
-    - {tree: Protection, talent: Reprisal, rank: 2, spell_id: null}
-    - {tree: Protection, talent: Improved Revenge, rank: 3, spell_id: null}
-    - {tree: Protection, talent: Concussion Blow, rank: 1, spell_id: null}
-    - {tree: Protection, talent: One-Handed Weapon Specialization, rank: 5, spell_id: null}
-    - {tree: Protection, talent: Shield Specialization, rank: 5, spell_id: null}
-    - {tree: Protection, talent: Improved Bloodrage, rank: 2, spell_id: null}
-    - {tree: Protection, talent: Anticipation, rank: 3, spell_id: null}
-    - {tree: Protection, talent: Last Stand, rank: 1, spell_id: null}
+    - {tree: Protection, talent: Shield Slam, rank: 1, spell_id: 23922}
+    - {tree: Protection, talent: Improved Shield Slam, rank: 2, spell_id: 51599}
+    - {tree: Protection, talent: Defiance, rank: 5, spell_id: 12792}
+    - {tree: Protection, talent: Defensive Tactics, rank: 3, spell_id: 51608, note: "contested"}
+    - {tree: Protection, talent: Reprisal, rank: 2, spell_id: 51594}
+    - {tree: Protection, talent: Improved Revenge, rank: 3, spell_id: 12800}
+    - {tree: Protection, talent: Concussion Blow, rank: 1, spell_id: 12809}
+    - {tree: Protection, talent: One-Handed Weapon Specialization, rank: 5, spell_id: 16542}
+    - {tree: Protection, talent: Shield Specialization, rank: 5, spell_id: 12727}
+    - {tree: Protection, talent: Improved Bloodrage, rank: 2, spell_id: 12818}
+    - {tree: Protection, talent: Anticipation, rank: 3, spell_id: 12751}
+    - {tree: Protection, talent: Last Stand, rank: 1, spell_id: 12975}
     - {tree: Protection, talent: Toughness, rank: null, spell_id: null, note: "filler"}
     - {tree: Protection, talent: Improved Shield Wall, rank: null, spell_id: null, note: "0-2, contested"}
-    - {tree: Arms, talent: Tactical Mastery, rank: 2, spell_id: null, note: "2-5"}
-    - {tree: Arms, talent: Improved Heroic Strike, rank: 3, spell_id: null, note: "0-3"}
-    - {tree: Arms, talent: Improved Thunder Clap, rank: 3, spell_id: null}
-    - {tree: Arms, talent: Deflection, rank: 5, spell_id: null, note: "if reaching row 3 Arms"}
+    - {tree: Arms, talent: Tactical Mastery, rank: 2, spell_id: 12676, note: "2-5"}
+    - {tree: Arms, talent: Improved Heroic Strike, rank: 3, spell_id: 12664, note: "0-3"}
+    - {tree: Arms, talent: Improved Thunder Clap, rank: 3, spell_id: 12666}
+    - {tree: Arms, talent: Deflection, rank: 5, spell_id: 16466, note: "if reaching row 3 Arms"}
     - {tree: Fury, talent: Cruelty, rank: 0, spell_id: null, note: "5 in the Defensive Tactics + Enrage variant (Herods)"}
   skip: [Iron Will, Improved Disarm, Improved Intervene, Gag Order, Improved Taunt]
   leveling_order: []   # prot leveling: see leveling.md (Czasku respec at 30; Xudo pre-CC2 order obsolete)
@@ -63,11 +63,23 @@ talents:
     - "https://talents.turtlecraft.gg/warrior?points=aQFDAYAQAAAAAAAAAAAAAAAAAAAAVAAgIDAopSAABAA="   # Inovatu p=118692
     - "https://talents.turtlecraft.gg/warrior?points=SQFABYAQAAAAAAAAAAAAAAAAAAAAVAAoITAoZSQABAA%3D" # Ademar p=103539
     - "https://talents.turtlecraft.gg/warrior?points=FQFARYAQBYAAAAAAAAAAAAAAAAAAVAFoIAQABQAAAAA%3D" # Czasku p=106723 (leveling, 30+)
-stat_weights: null
+stat_weights:
+  # Discord supplies a post-1.18.1 order (the forum YAML had null); equivalences are pre-1.18.1.
+  - {stat: agility/crit, verdict: "primary threat stat for a warrior tank; crit also carries dps and (via agi) armor/dodge", sources: ["[[d:warrior#1428801642077229220]]", "[[d:warrior#1433037675350200380]]", "[[d:warrior#1444685256383922206]]"], agreement: consensus, era: 1.18.1-announced-pre-release}
+  - {stat: strength/attack-power, verdict: "second; more valuable the more crit you already have. 1 str = 2 AP x 0.15 SS AP-mod x 1.5 = ~0.54 SS threat", sources: ["[[d:warrior#1428796660321882112]]", "[[d:warrior#1440378875266994196]]"], agreement: consensus, era: 1.18.1-announced-pre-release}
+  - {stat: shield-block-value, verdict: "a defensive bonus, not a threat-first stat: 1 BV = ~1.73 SS threat; 5.2 BV = ~1% crit at 1k AP. Do not chase BV over dps stats", sources: ["[[d:warrior#1428796660321882112]]", "[[d:warrior#1492035908298604554]]", "[[d:warrior#1451316778293792799]]"], agreement: consensus, era: mixed}
+  - {stat: haste, verdict: "bottom of the threat list; does nothing for Shield Slam/Concussion Blow; only relevant with Thunderfury", sources: ["[[d:warrior#1428801642077229220]]", "[[d:warrior#1433037675350200380]]"], agreement: consensus, era: 1.18.1-announced-pre-release}
+  - {stat: defense, verdict: "avoided on threat gear; its only real job is the crit cap, which Shield Block imitates; less defense = more rage = more threat (DTactics)", sources: ["[[d:warrior#1492251922600558612]]", "[[d:warrior#1442863484931932212]]", "[[d:warrior#1453563618653114418]]"], agreement: consensus, era: mixed}
+  - {stat: stamina, verdict: "the survival stat; fury-prot 'basically just want 1h hit cap and as much stamina as possible'", sources: ["[[d:warrior#1441252441004703905]]", "[[d:warrior#1440378255743123558]]"], agreement: consensus, era: 1.18.1-announced-pre-release}
+stat_weights_equivalence: "1% crit = ~18.8 str = ~5.2 shield block value of Shield-Slam threat at 1k AP (0 AP: ~12 str / ~3.7 BV); overall 1% crit ~= 17.3 BV [[d:warrior#1428796660321882112]], [[d:warrior#1428800565785395230]] (single source, pre-1.18.1)"
 stat_priority: [defense-to-crit-immunity, hit, weapon-skill, stamina/effective-health, armor, block-value, crit]
 caps:
-  defense: null     # Turtle linearized formula; no number in sources. vanilla baseline 440 (not from turtlecraft.gg)
+  defense: null     # Turtle linearized formula; no single number in sources. vanilla baseline 440 (not from turtlecraft.gg)
+  defense_crit_immunity_formula: "440 - 315 boss weapon skill = 125 x 0.04 = -5% crit (vanilla/Turtle formula)"   # [[d:warrior#1345960627646107719]], [[d:warrior#1396960978301751316]]
+  defense_440_contested: "'you dont need 440 defense for any boss' — Shield Block substitutes [[d:warrior#1413857703725498479]], [[d:warrior#1492251922600558612]]"
+  uncrushable_pct: 102.4   # total avoidance with Shield Block up; 5/5 Anticipation (310 def) + 5/5 Shield Spec + 2% block ~ done [[d:warrior#1259889236119785482]], [[d:warrior#1266419628544884818]]
   hit_boss_pct: 9
+  hit_note: "weapon skill reduces the hit needed (308 skill -> 7% cited); 8% is the number most repeat [[d:warrior#1480822787714322564]], [[d:warrior#1389430085144281168]]"
   boss_parry_pct_player_claim: 14   # Ellifta p=167684; not staff
   boss_dodge_pct_player_claim: 5
 rotation_single:
@@ -80,12 +92,19 @@ rotation_single:
   - {priority: 6, action: Concussion Blow, condition: "off cooldown (20 s, 0 rage)"}
   - {priority: 7, action: Thunder Clap, condition: "once per pull for the attack-speed debuff; usable in Defensive Stance"}
   - {priority: 8, action: Execute, condition: "target <= 20% and Defensive Tactics taken: swap to Battle/Berserker Stance and spam"}
+  - {priority: 9, action: "Concussion Blow -> Shield Slam as the first GCDs of every opener, with Heroic Strike if rage allows", condition: "pull", sources: ["[[d:warrior#1457123304996470917]]", "[[d:warrior#1483276814368374936]]"], agreement: consensus, era: 1.18.1-announced-pre-release}
+  - {priority: 10, action: "Twospooky variant: Shield Slam -> Revenge/Overpower -> Concussion Blow -> Heroic Strike only at rage >= 37 -> Sunder only at rage >= 47", condition: "rage-gated", sources: ["[[d:warrior#1430873262748860497]]"], agreement: single source, era: 1.18.1-announced-pre-release}
+  - {priority: 11, action: "DTactics tank fights in Battle Stance and fishes for Overpower procs ('insane threat')", condition: "Defensive Tactics build", sources: ["[[d:warrior#1465951824824766630]]", "[[d:warrior#1442863484931932212]]"], agreement: consensus among DTactics players, era: 1.18.1-announced-pre-release}
+  - {priority: 12, action: "Use a threat meter and do not DPS through a whiffed opener", condition: "always", sources: ["[[d:warrior#1481682700015505458]]"], agreement: consensus, era: 1.18.1-announced-pre-release}
 rotation_aoe:
   - {targets_min: 2, priority: 1, action: Thunder Clap, condition: "main AoE threat (contested vs Sunder tabbing)"}
   - {targets_min: 2, priority: 2, action: Demoralizing Shout, condition: "every pull"}
   - {targets_min: 2, priority: 3, action: "tab Revenge / Sunder Armor", condition: "spread threat; mark skull"}
   - {targets_min: 4, priority: 1, action: Thunder Clap, condition: "4-target cap (player claim)"}
   - {targets_min: 4, priority: 2, action: Challenging Shout, condition: "emergency AoE taunt"}
+  - {targets_min: 2, priority: 4, action: "Demoralizing Shout is the best real AoE threat ability if you have no Thunderfury, and is the standard opener on a pack", condition: "pack opener", sources: ["[[d:warrior#1485307725683495074]]", "[[d:warrior#1431975527245283359]]"], agreement: consensus, era: mixed}
+  - {targets_min: 2, priority: 5, action: "Tab Cleave (and tab Sunder) — 'tab cleave is your best aoe threat ability that's not dynamite'", condition: "2+ targets", sources: ["[[d:warrior#1484622368537186324]]"], agreement: single source, era: post-1.18.1}
+  - {targets_min: 2, priority: 6, action: "Improved Thunder Clap has a 4-target cap, cannot crit and is often resisted; the 4-target cap is now consensus (was a player claim)", condition: "AoE", sources: ["[[d:warrior#1468804526411612373]]", "[[d:warrior#1476086839499558922]]", "[[d:warrior#1489458712262348831]]"], agreement: consensus, era: mixed}
 aoe_threshold: null
 cooldowns:
   - {name: Taunt, use_when: "threat lost; chain Intercept -> Defensive Stance -> Taunt in one GCD"}
@@ -96,15 +115,51 @@ cooldowns:
   - {name: Shield Block, use_when: "boss tanking on cooldown; optional in low-level dungeons (contested)"}
   - {name: Berserker Rage, use_when: "fears (stance dance)"}
   - {name: Bloodrage, use_when: "pre-pull and on cooldown"}
+  - {name: "Shield Block + Improved Shield Slam", use_when: "together push crit/crushing blows off the table, but the two block buffs are separate and do not stack; careful ordering needed ('dumb design')", sources: ["[[d:warrior#1476093163650416716]]", "[[d:warrior#1486459142867521668]]"], agreement: consensus, era: mixed}
+  - {name: Shield Wall, use_when: "30-min CD, reserved for emergencies; shares the 30-min CD with Recklessness/Retaliation", sources: ["[[d:warrior#1489297544843624621]]"], agreement: single source, era: post-1.18.1}
+  - {name: "Taunt chain", use_when: "Taunt -> Mocking Blow -> Challenging Shout with Intercept to reach a loose mob; multiple backup taunts matter on BWL drakes because a taunt can miss", sources: ["[[d:warrior#1490529592883023903]]"], agreement: consensus, era: post-1.18.1}
 resource_rules:
   - "Conserve rage at the end of a pull for the next one"
   - "Reprisal refunds Revenge rage"
   - "More avoidance/tier gear = less rage; keep a dungeon/rage set"
   - "Defensive Tactics: Battle Stance threat ~1.512x vs Defensive 1.495x with Defiance 5/5 (Ellifta math), at the cost of 10% DR and Shield Block"
-consumables: []
+  - "Discord formula: ((1.3 x Defiance - 1) x 1.8 + 1) x 0.8; with Defiance 1.15 = 1.5128 in battle/zerk vs 1.56 Def-stance+Defiance [[d:warrior#1433435759158886501]], [[d:warrior#1440101384006406224]]. Velanir's pinned version uses Defiance 1.20 -> 1.6064, which is contested as a pre-1.18.1 constant [[d:warrior#1400823950228848670]]"
+  - "Defensive Tactics needs ~20%+ crit; under that, use the Revenge spec or Cruelty instead of Impale [[d:warrior#1435245982823485441]]"
+  - "Shield Slam is ~30% of total boss-fight threat; post-1.18.1 an opener crit can be 7-8k-15k threat and a Shield Slam crit 4-5k on a 4.5 s cooldown [[d:warrior#1428800565785395230]], [[d:warrior#1443250783763169481]], [[d:warrior#1487928770303099021]]"
+consumables:
+  - "Mighty Rage Potion on the pull, inside Bloodrage + Berserker Rage [[d:warrior#1425928245374877760]], [[d:warrior#1427402284995706991]]"
+  - "Diamond Flask as a standard tank on-use; swap to HoJ/Blackhand's Breadth while its buff/CD runs [[d:warrior#1427402284995706991]], [[d:warrior#1440805963803132015]]"
+  - "Stoneshield Potion — repeatedly named as the reason fury-prot (no shield) survives; big armor pot on the pull [[d:warrior#1445929336514412584]], [[d:warrior#1463182833848684554]]"
+  - "Limited Invulnerability Potion macro'd into Challenging Shout for the AoE-taunt emergency [[d:warrior#1437846916946857995]], [[d:warrior#1429727170976153610]]"
+  - "Free Action Potion, Zanza, Juju Might / Juju Flurry, sharpening stones — the general warrior stack [[d:warrior#1438190579405295790]]"
+  - "Flask of Titans + stamina enchant as the offset when mixing DPS pieces into a tank set [[d:warrior#1446701925838885036]]"
+  - "No prot-specific curated list exists in-channel (gap); the pinned resources are general warrior/gear sheets [[d:warrior#1395076762559582380]], [[d:warrior#1378344793033146542]]"
 mistakes_to_avoid:
   - "Wearing full T1/T2/T3 tank sets for threat (Ellifta: use T2 shoulders/legs/boots + off-pieces)"
   - "Letting Shield Block overwrite the Improved Shield Slam charge without noticing"
   - "Leaving Defensive Stance without Defensive Tactics"
   - "Spending all rage before the next pull"
   - "Copying pre-CC2 talent lists (Improved Shield Block, Improved Sunder Armor)"
+  - "Whiffing the opener: missing 2-3 Shield Slams on the pull means 'your threat doesn't exist' (~20% of pulls are scuffed) [[d:warrior#1488266577995370547]], [[d:warrior#1485223080249917522]]"
+  - "Revenge-centric builds do not fix the opener — Revenge contributes little at the pull [[d:warrior#1485319117702434856]]"
+  - "Gearing full mitigation / chasing 440 defense leaves no threat ('if it's not crit/hit then it's useless for tanks') [[d:warrior#1437139082185539894]], [[d:warrior#1492112928109891644]]"
+  - "Relying on Thunder Clap for AoE: 4-target cap, no crit, frequently resisted ('tclap threat is dogwater') [[d:warrior#1476086839499558922]]"
+  - "Staying in Defensive Stance after taking Defensive Tactics wastes the talent [[d:warrior#1442863484931932212]], [[d:warrior#1465951824824766630]]"
+
+leveling:
+  spec_consensus: "Prot is a viable dungeon-leveling tank from 30 (Shield Slam) but slower solo (contested) [[d:warrior#1429822325510897794]], [[d:warrior#1450677084732129410]]; no shield/spec is needed to tank leveling dungeons — swap to shield+1H when damage spikes (consensus) [[d:warrior#1457458781205168320]], [[d:warrior#1455910106918158506]]"
+  brackets: "see leveling_by_bracket in arms-melee-dps.yaml"
+
+discord:
+  channels: [warrior]
+  agreement: "mixed — Discord corroborates the forum KB (1.18.1 prot changes were buffs, not a nerf) and adds the threat maths; contested on the Defiance constant and the Shield Slam threat model"
+  eras: [pre-1.18.1, 1.18.1-announced-pre-release, post-1.18.1]
+  sources:
+    - {cite: "[[d:warrior#1481378107037323354]]", era: 1.18.1-announced-pre-release, agreement: consensus, topic: "1.18.1 Defiance 4-20%, Shield Slam 20% AP / 75% threat (no prot nerf, no new ability)"}
+    - {cite: "[[d:warrior#1433435759158886501]]", era: 1.18.1-announced-pre-release, agreement: consensus, topic: "DTactics threat formula ~1.5128"}
+    - {cite: "[[d:warrior#1400823950228848670]]", era: pre-1.18.1, agreement: contested, topic: "pinned 1.6064 variant"}
+    - {cite: "[[d:warrior#1428801642077229220]]", era: 1.18.1-announced-pre-release, agreement: consensus, topic: "agi/crit is the tank threat stat"}
+    - {cite: "[[d:warrior#1259889236119785482]]", era: pre-1.18.1, agreement: consensus, topic: "102.4% uncrushable recipe"}
+    - {cite: "[[d:warrior#1487143734452949093]]", era: post-1.18.1, agreement: single source, topic: "four-build prot menu (Dtac/Revenge x Enrage/Impale)"}
+    - {cite: "[[d:warrior#1484900996613279845]]", era: post-1.18.1, agreement: single source, topic: "1.18.1 closed the furyprot-vs-deep-prot TPS gap"}
+    - {cite: "[[d:warrior#1481016354009125054]]", era: 1.18.1-announced-pre-release, agreement: single source, topic: "community threat sim (30-thirty.github.io)"}

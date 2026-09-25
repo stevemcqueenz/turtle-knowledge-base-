@@ -75,6 +75,65 @@ Only fragments exist (gap): a hardcore Ele shaman at 30+ was "really strong, int
 6. Buying every spell rank (skip Resurrection ranks, resistance totems — Skegg).
 7. Ghost Wolf with Earth Shield expectations (not castable in wolf).
 
+## Discord additions (leveling 1–60)
+
+The archived `#shaman` Discord is the same channel Skegg's compiled guide came from (the pinned post is by `Greybull-Ambershire`, documented as = Skegg), so it corroborates rather than duplicates the forum path; what it adds is **decoded level checkpoints**, a full Elemental order, the as-played rotations and the professions timing. Era tags: `pre-1.18.1` < 2025-10-03, `1.18.1-announced-pre-release` 2025-10-03..2026-03-19, `post-1.18.1` >= 2026-03-20.
+
+### Decoded level checkpoints (new)
+
+| Level | Split | Allocation | Source | Era |
+|---|---|---|---|---|
+| 20 (tank) | 0/11/0 | Ancestral Knowledge 5, Totemic Alignment 2, Stable Shields 3, Lightning Strike 1 — "notably, you dont yet have your talents that increase your survivability and you'll still be VERY squishy" (Holidae) | [[d:shaman#1484544318432608261]] | post-1.18.1 |
+| 24 | 0/15/0 | Ancestral Knowledge 5, Thundering Strikes 5, Stable Shields 3, Improved Ghost Wolf ~2 | [[d:shaman#1492689922036076769]] | post-1.18.1 |
+| 37–38 | 11/17/0 | Clearcasting 11 + Shield Spec 5/Stable Shields 3/Lightning Strike 1/Ancestral Guardian 3/Spirit Armor 2 — "I'm struggling with mana management... slow 1h and shield" (Collin) | [[d:shaman#1484338909755343051]] | post-1.18.1 |
+| 44 | 11/24/0 | "when you will probably finally resolve mana issues and have the main defensive relevant talents (plus hit and spell hit to help with threat)" (trallnar) | [[d:shaman#1488875575337681129]] | post-1.18.1 |
+| 51 | 11/31/0 | code `FQAYI-AoUaALAQDIAgB-` (deathstreak) | [[d:shaman#1486400127383109772]] | post-1.18.1 |
+
+### Per-bracket play (Discord Q&A and checkpoints)
+
+| Bracket | Discord play |
+|---|---|
+| 1–10 | No shaman-specific advice. General loop: "shock, white hit, refresh lightning shield and repeat"; "only use totems when you can use them for 3+ mobs in a row or you need to kite w earthbind or prevent fear w tremor" (belle) [[d:shaman#1002037160519667712]] |
+| 10–19 | Shield Specialization 5 -> Totemic Alignment 2 -> Stable Shields 3 -> Lightning Strike 1 (Akos) [[d:shaman#1357843068090454067]]; Water Shield at 26, Earth Shield at 40 [[d:shaman#1267795445938126858]] |
+| 20–29 | The first power spike: Lightning Strike at 20 with 9 shield orbs is the melee engine, and Rockbiter's extra AP makes its procs hit hard [[d:shaman#1407046819237855405]], [[d:shaman#1405209188161814590]]; level-20 tank checkpoint above |
+| 30–39 | Stormstrike at 30 [[d:shaman#1407046819237855405]]; "I would get stormstrike before flurry, especially if you are using a shield during leveling dungeons" (CecilC) [[d:shaman#1402816767893573673]] |
+| 40–49 | Mana resolves ~44–45: "autocrit frostbrand + clearcasting at ~45 for infinite mana" (Not Normal) [[d:shaman#1407046819237855405]]; imbue switch Rockbiter + Lightning Shield -> Frostbrand at 41/42 [[d:shaman#1411592191498784788]] |
+| 50–60 | Level-51 11/31/0 adds Totemic Alignment 2, Thundering Strikes 4, Imp. Ghost Wolf 2, Elemental Weapons 3, Stormstrike 1, Element's Grace 4, Bloodlust 1 [[d:shaman#1486400127383109772]]; no post-1.18.1 50–60-specific post exists |
+
+### Elemental leveling order (new)
+
+sailorVEVO's full 10–60 Elemental order — 10-24 Convection/Warding/Concussion/Ele Focus/Imp Molten Blast/Call of Thunder; 25-33 Call of Flame/Call of Thunder/Ele Mastery/Ele Fury/Imp Fire Totems; 34-40 Lightning Mastery/Earthquake; 41-50 Imp Healing Wave/Tidal Mastery or Focus; 51-60 Totemic Mastery/Healing Focus/other Tidal/Nature's Grace 2 [[d:shaman#1420491949298942048]]. This is the only printed Elemental leveling order in either KB.
+
+### Spec verdict and playstyle
+
+- **Enhancement remains the consensus leveling spec**; Elemental needs drinks — "elemental lvling is hard bc the reduced cast time is so deep down" (Tharok) [[d:shaman#1396424488102531165]]; "Enha going faster. Ele needs a lot of drinks" [[d:shaman#1411592191498784788]]. The post-1.18.1 "shield vs two-hand?" solo question was asked and left unanswered in-channel [[d:shaman#1392380621464146010]] (the forum 1H-vs-2H dispute stays contested).
+- roflstoffl's as-played loop: single target "Lightning Shield on -> run towards the mob -> pull with Flame Shock -> Auto Attack till Death"; multi-mob "Drop Searing Totem -> if mana allows drop agility and/or stoneskin or strength -> drop Nova/Magma Totem -> Auto Attack"; and "WF/Rockbiter/Flametongue/Frostbrand doesnt matter... when you wear +spell gear or when you fight high armored mobs use Flametongue/Frostbrand" [[d:shaman#1102644541082849481]].
+- Greybull's pinned leveling rotations (tank/healer/solo) and the 24-point order to 33 — Shield Spec 5 > Totemic Alignment 2 > Stable Shields 3 > Ancestral Guardian 3 > Lightning Strike > Thundering Strikes 1 > Spirit Armor 2 > Thundering Strikes 4 > Elemental Weapons 3 > Stormstrike — are reproduced from the pinned post [[d:shaman#1411592161732067429]], [[d:shaman#1411592090604933141]], [[d:shaman#1411592062507421858]].
+- Zaaparou's 2025 refinement: "some like to rush for that elemental focus in ele tree, personally don't cus I like to abuse the 5sec rule for mana" [[d:shaman#1262472166264406056]].
+- **Skill/imbue money advice** (pinned): skip all but the first rank of Resurrection; "can technically skip Flametongue imbue"; skip the resistance totems; "if you don't plan to tank or play ele, skip the ranged damage spells (but never shocks)" [[d:shaman#1411592191498784788]].
+
+### Professions timing (new)
+
+Leveling = **Herbalism/Alchemy** or **Skinning/Leatherworking** (Stormshroud ~50); at ~53 drop Leatherworking for Herbalism to fund gold farming; at 60 **Herbalism + Engineering** for raiding [[d:shaman#1411592191498784788]]. Engineering is the raid performance pick (sappers, target dummies, the engineering shield) [[d:shaman#1308800768437911673]], [[d:shaman#1475214525291565066]]; and contrary to a common assumption, "Alchemy does not provide any extra buffs compared to characters without it" [[d:shaman#1471890562008481905]].
+
+### Bug caveats for leveling
+
+- Post-1.18.1 the old **Rockbiter −10% damage reduction** leveling survivability is gone (replaced by the buggy Earthen Bulwark) [[d:shaman#1484954736342995116]]; **Flurry** shipped triggering only from spell/strike crits, not white hits or imbues, through the hotfixes [[d:shaman#1484631308582912020]], [[d:shaman#1484583137232290024]]; and **Elemental Weapons' Windfury still sometimes grants 1 stack instead of 2** as of 2026-04-04 [[d:shaman#1490017275686686730]].
+
+### Still gaps after Discord
+
+Shield-vs-2H solo leveling post-1.18.1 [[d:shaman#1392380621464146010]], hardcore-specific shaman leveling, and a zone-by-zone questing route remain unaddressed.
+
+| Discord source | Era | Agreement | Used for |
+|---|---|---|---|
+| [[d:shaman#1411592191498784788]] | pre-1.18.1 | consensus (pinned guide) | imbue switch, professions, skill skips |
+| [[d:shaman#1484544318432608261]] | post-1.18.1 | single source | level-20 checkpoint |
+| [[d:shaman#1420491949298942048]] | pre-1.18.1 | single source | Elemental leveling order |
+| [[d:shaman#1407046819237855405]] | pre-1.18.1 | consensus | LS 20 / SS 30 / Frostbrand ~45 |
+| [[d:shaman#1357843068090454067]] | pre-1.18.1 | consensus | Akos talent order |
+| [[d:shaman#1488875575337681129]] | post-1.18.1 | single source | level-44 checkpoint |
+| [[d:shaman#1486400127383109772]] | post-1.18.1 | single source | level-51 checkpoint |
+
 ## Sources
 
 | Source | Authority | Date | Era | Used for | Agreement |
