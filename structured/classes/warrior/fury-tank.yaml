@@ -583,3 +583,54 @@ discord:
     era: post-1.18.1
     agreement: consensus
     topic: BWL built around warrior tanks; taunt chain
+play_loop:
+  guide_section: guide/classes/warrior/protection.md#how-to-play
+  opener:
+  - Defensive Stance with as much rage as possible
+  - Death Wish right before running in (bosses)
+  - Bloodrage
+  - Bloodthirst + Heroic Strike on the first GCD
+  - no Thunder Clap / Demoralizing Shout early
+  tank:
+  - priority: 1
+    action: Bloodthirst
+    condition: on cooldown; above Revenge
+  - priority: 2
+    action: Revenge
+    condition: when lit
+  - priority: 3
+    action: Heroic Strike
+    condition: keep rage ~50-60
+  - priority: 4
+    action: Sunder Armor
+    condition: when rage-capped
+  - priority: 5
+    action: Stay in Defensive Stance in Execute phase
+    condition: 'big lead: mitigate, save rage for next pull'
+  aoe:
+    targets_min: 2
+    loop:
+    - mark kill order
+    - Demoralizing Shout spam
+    - tab-Cleave
+    - Thunder Clap (max 4)
+    - short Berserker swap for Whirlwind
+    - Challenging Shout emergency
+  taunt:
+  - Taunt (Defensive, 10 s cd, 5 yd)
+  - Mocking Blow (Battle, 120 s cd)
+  - Challenging Shout (10 min cd)
+  cooldowns:
+  - Death Wish pre-pull
+  - no Shield Wall while dual-wielding
+  - Last Stand / healthstone when low
+  avoid:
+  - FuryProt with a shield
+  - FuryProt before gear/healers can carry it
+  sources:
+  - '[[d:warrior#1475249694681600101]]'
+  - '[[d:warrior#1475249627337986211]]'
+  - '[[d:warrior#1487798975640764467]]'
+  - '[[d:warrior#1487799048063942657]]'
+  - '[[d:warrior#1472681264820781318]]'
+  - '[[d:warrior#1475256639379734619]]'

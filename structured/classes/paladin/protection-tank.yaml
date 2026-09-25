@@ -740,3 +740,480 @@ stat_priority_note: 'Everran (p=143606) gives two separate orders, not one list.
   crit cap is "often not worth reaching when you consider what you have to sacrifice". Strength is CONTESTED: called irrelevant
   to threat by Kerenis (p=153860) and defended by others. "Adds X damage to melee attacks" items are valued separately because
   they trigger Judgement of Wisdom an extra time per swing.'
+leveling_gameplay:
+- levels: 10-19
+  spec: Protection
+  new_abilities:
+  - level: 10
+    name: Hand of Reckoning
+    spell_id: 51302
+  - level: 14
+    name: Blessing of Wisdom
+    spell_id: 19742
+  - level: 16
+    name: Righteous Fury
+    spell_id: 25780
+  - level: 16
+    name: Retribution Aura
+    spell_id: 7294
+  - level: 18
+    name: Seal of Wisdom
+    spell_id: 20166
+  single_target:
+  - priority: 1
+    action: Blessing of Wisdom (14+), Devotion or Retribution Aura (16+)
+    condition: '[[d:paladin#1452839978001371166]]'
+  - priority: 2
+    action: Seal of Righteousness
+  - priority: 3
+    action: Holy Strike
+    condition: strike cooldown ready
+  - priority: 4
+    action: Crusader Strike
+    condition: mana above ~50% [[d:paladin#1473978354691604500]]
+  - priority: 5
+    action: Judgement
+    condition: finish only; do not re-seal on a dying mob [[d:paladin#1452839704889393349]]
+  - priority: 6
+    action: Blessing of Wisdom until Blessing of Sanctuary
+    condition: '[[d:paladin#1425264348489711837]]'
+  multi_target:
+  - priority: 1
+    action: Pull one mob at a time
+  - priority: 2
+    action: Hammer of Justice the add, kill the first
+  - priority: 3
+    action: Divine Protection
+    condition: emergency
+  tank:
+  - priority: 1
+    action: Righteous Fury + Devotion or Retribution Aura; shield equipped
+    condition: '[[d:paladin#1425262878130180229]]'
+  - priority: 2
+    action: Seal of Righteousness, mark skull
+  - priority: 3
+    action: Holy Strike mob A, tab, Judgement mob B, tab, auto-attack with SoR on mob C
+    condition: '[[d:paladin#1425262949639131186]]'
+  - priority: 4
+    action: Hammer of Justice the third mob
+    condition: '[[d:paladin#1463624373092090078]]'
+  - priority: 5
+    action: Hand of Reckoning
+    condition: mob leaves you
+  - priority: 6
+    action: Divine Protection / Hand of Protection / Lay on Hands
+    condition: emergency
+  heal:
+  - priority: 1
+    action: Holy Light rank 3 (rank 2 for small top-ups)
+    condition: only real heal before 20 [[d:paladin#1456972397163843678]]
+  - priority: 2
+    action: Holy Strike
+    condition: in melee; small party heal
+  - priority: 3
+    action: Seal of Wisdom + melee between heals
+    condition: from 18 [[d:paladin#1395273597840261130]]
+  - priority: 4
+    action: Purify
+    condition: poison or disease
+  - priority: 5
+    action: Drink between pulls; Intellect gear
+    condition: '[[d:paladin#1429466401910947848]]'
+- levels: 20-29
+  spec: Protection
+  new_abilities:
+  - level: 20
+    name: Blessing of Sanctuary (talent)
+    spell_id: 20911
+  - level: 20
+    name: Consecration
+    spell_id: 26573
+  - level: 20
+    name: Flash of Light
+    spell_id: 19750
+  - level: 20
+    name: Exorcism
+    spell_id: 879
+  - level: 20
+    name: Holy Strike Rank 3
+    spell_id: 1866
+  - level: 22
+    name: Concentration Aura
+    spell_id: 19746
+  - level: 28
+    name: Holy Strike Rank 4
+    spell_id: 680
+  - level: 28
+    name: Seal of Wisdom Rank 2
+    spell_id: 20356
+  single_target:
+  - priority: 1
+    action: Blessing of Wisdom (14+), Devotion or Retribution Aura (16+)
+    condition: '[[d:paladin#1452839978001371166]]'
+  - priority: 2
+    action: Seal of Righteousness
+  - priority: 3
+    action: Holy Strike
+    condition: strike cooldown ready
+  - priority: 4
+    action: Crusader Strike
+    condition: mana above ~50% [[d:paladin#1473978354691604500]]
+  - priority: 5
+    action: Judgement
+    condition: finish only; do not re-seal on a dying mob [[d:paladin#1452839704889393349]]
+  - priority: 6
+    action: Seal of Wisdom
+    condition: low mana on the last mob, from 18 [[d:paladin#1485702321647124602]]
+  - priority: 7
+    action: Exorcism
+    condition: Undead or Demon target [[d:paladin#1473954986609344543]]
+  multi_target:
+  - priority: 1
+    action: Blessing of Sanctuary, Righteous Fury, Retribution Aura
+    condition: '[[d:paladin#1488343219153670284]]'
+  - priority: 2
+    action: Seal of Wisdom, Judgement of Wisdom, keep Seal of Wisdom up
+    condition: '[[d:paladin#1467022959960133653]]'
+  - priority: 3
+    action: Pull 3-4 mobs 1-3 levels lower, no casters
+    condition: '[[d:paladin#1478149717362741258]]'
+  - priority: 4
+    action: Consecration before mobs arrive, recast every 8 s
+    condition: '[[d:paladin#1484776924046692372]]'
+  - priority: 5
+    action: Holy Strike on cooldown
+  - priority: 6
+    action: Concentration Aura + Holy Light/Flash of Light on self
+    condition: below ~50% HP [[d:paladin#1426916449129336862]]
+  tank:
+  - priority: 1
+    action: 'Buffs: Retribution Aura, Righteous Fury, Blessing of Wisdom (Sanctuary if Prot)'
+    condition: '[[d:paladin#1428748823458742342]]'
+  - priority: 2
+    action: Pre-cast Seal of Wisdom (trash) or Seal of Righteousness (boss)
+  - priority: 3
+    action: Consecration
+    condition: 3+ mobs; cast before mobs reach you [[d:paladin#1461015656781582367]]
+  - priority: 4
+    action: Holy Strike skull
+    condition: on cooldown [[d:paladin#1421451485169975356]]
+  - priority: 5
+    action: Judgement then re-seal
+    condition: on cooldown
+  - priority: 6
+    action: Hand of Reckoning / Hammer of Justice
+    condition: mob off you
+  - priority: 7
+    action: Never Crusader Strike
+    condition: physical, no Righteous Fury bonus [[d:paladin#1465095694464585840]]
+  heal:
+  - priority: 1
+    action: Flash of Light rank 1-2
+    condition: default tank heal [[d:paladin#1452051332470145065]]
+  - priority: 2
+    action: Holy Light rank 4
+    condition: tank at or below ~60% until near full [[d:paladin#1452052778427088937]]
+  - priority: 3
+    action: Holy Strike
+    condition: several people hurt, you in melee
+  - priority: 4
+    action: Judge Wisdom > Seal of Wisdom > Holy Strike
+    condition: mana [[d:paladin#1408151414445834242]]
+  - priority: 5
+    action: Concentration Aura
+    condition: taking pushback, from 22
+  - priority: 6
+    action: Avoid max ranks
+    condition: dungeon mana [[d:paladin#1344732617190281337]]
+- levels: 30-39
+  spec: Protection
+  new_abilities:
+  - level: 30
+    name: Holy Shield (talent)
+    spell_id: 20925
+  - level: 30
+    name: Consecration Rank 2
+    spell_id: 20116
+  - level: 30
+    name: Cleanse
+    spell_id: 4987
+  - level: 34
+    name: Divine Shield
+    spell_id: 642
+  - level: 36
+    name: Holy Strike Rank 5
+    spell_id: 2495
+  - level: 38
+    name: Seal of Wisdom Rank 3
+    spell_id: 20357
+  multi_target:
+  - priority: 0
+    action: Holy Shield
+    condition: before every pull; big pulls from ~34 with Reckoning [[d:paladin#1473436732656582806]]
+  - priority: 1
+    action: Blessing of Sanctuary, Righteous Fury, Retribution Aura
+    condition: '[[d:paladin#1488343219153670284]]'
+  - priority: 2
+    action: Seal of Wisdom, Judgement of Wisdom, keep Seal of Wisdom up
+    condition: '[[d:paladin#1467022959960133653]]'
+  - priority: 3
+    action: Pull 3-4 mobs 1-3 levels lower, no casters
+    condition: '[[d:paladin#1478149717362741258]]'
+  - priority: 4
+    action: Consecration before mobs arrive, recast every 8 s
+    condition: '[[d:paladin#1484776924046692372]]'
+  - priority: 5
+    action: Holy Strike on cooldown
+  - priority: 6
+    action: Concentration Aura + Holy Light/Flash of Light on self
+    condition: below ~50% HP [[d:paladin#1426916449129336862]]
+  tank:
+  - priority: 1
+    action: Seal of Righteousness, Holy Shield while running in
+    condition: '[[d:paladin#1431134534631555173]]'
+  - priority: 2
+    action: Holy Strike + Judgement on skull, Consecration
+  - priority: 3
+    action: Holy Strike on cooldown > Judgement > re-seal > Holy Shield > Consecration (3+ mobs)
+  - priority: 4
+    action: Stop recasting Holy Shield after the first cast on a pack
+    condition: mana tight [[d:paladin#1463623306107162715]]
+  - priority: 5
+    action: Downrank Consecration
+    condition: packs die fast [[d:paladin#1436793203482296331]]
+  - priority: 6
+    action: Divine Shield
+    condition: only to survive; it drops threat
+  heal:
+  - priority: 1
+    action: Flash of Light rank 3
+    condition: default, from 34
+  - priority: 2
+    action: Holy Light rank 5-6
+    condition: big tank damage
+  - priority: 3
+    action: Holy Shock
+    condition: emergency, only if talented (Holy/Prot variant)
+  - priority: 4
+    action: Holy Strike
+    condition: in melee; weak without Blessed Strikes [[d:paladin#1446238314255618109]]
+  - priority: 5
+    action: Cleanse
+    condition: magic, poison, disease
+- levels: 40-49
+  spec: Protection
+  new_abilities:
+  - level: 40
+    name: Consecration Rank 3
+    spell_id: 20922
+  - level: 40
+    name: Blessing of Sanctuary Rank 2
+    spell_id: 20912
+  - level: 42
+    name: Bulwark of the Righteous (talent)
+    spell_id: 51346
+  - level: 44
+    name: Holy Strike Rank 6
+    spell_id: 5569
+  - level: 48
+    name: Seal of Wisdom Rank 4
+    spell_id: 51745
+  multi_target:
+  - priority: 0
+    action: Holy Shield
+    condition: before every pull; big pulls from ~34 with Reckoning [[d:paladin#1473436732656582806]]
+  - priority: 1
+    action: Blessing of Sanctuary, Righteous Fury, Retribution Aura
+    condition: '[[d:paladin#1488343219153670284]]'
+  - priority: 2
+    action: Seal of Wisdom, Judgement of Wisdom, keep Seal of Wisdom up
+    condition: '[[d:paladin#1467022959960133653]]'
+  - priority: 3
+    action: Pull 3-4 mobs 1-3 levels lower, no casters
+    condition: '[[d:paladin#1478149717362741258]]'
+  - priority: 4
+    action: Consecration before mobs arrive, recast every 8 s
+    condition: '[[d:paladin#1484776924046692372]]'
+  - priority: 5
+    action: Holy Strike on cooldown
+  - priority: 6
+    action: Concentration Aura + Holy Light/Flash of Light on self
+    condition: below ~50% HP [[d:paladin#1426916449129336862]]
+  - priority: 7
+    action: Bulwark of the Righteous
+    condition: bigger packs / bad pull [[d:paladin#1328381614782152867]]
+  tank:
+  - priority: 1
+    action: Seal of Righteousness, Holy Shield while running in
+    condition: '[[d:paladin#1431134534631555173]]'
+  - priority: 2
+    action: Holy Strike + Judgement on skull, Consecration
+  - priority: 3
+    action: Holy Strike on cooldown > Judgement > re-seal > Holy Shield > Consecration (3+ mobs)
+  - priority: 4
+    action: Stop recasting Holy Shield after the first cast on a pack
+    condition: mana tight [[d:paladin#1463623306107162715]]
+  - priority: 5
+    action: Downrank Consecration
+    condition: packs die fast [[d:paladin#1436793203482296331]]
+  - priority: 6
+    action: Divine Shield
+    condition: only to survive; it drops threat
+  - priority: 7
+    action: Bulwark of the Righteous
+    condition: boss burst or bad pull
+  heal:
+  - priority: 1
+    action: Flash of Light rank 4
+    condition: default
+  - priority: 2
+    action: Holy Light rank 7
+    condition: tank burst
+  - priority: 3
+    action: Cleanse / Purify
+    condition: dispel
+  - priority: 4
+    action: Heal in an Intellect set
+    condition: works to ~50 in Ret/Prot talents [[d:paladin#1362082588281405560]]
+- levels: 50-60
+  spec: Protection
+  new_abilities:
+  - level: 50
+    name: Holy Shield Rank 2
+    spell_id: 20927
+  - level: 50
+    name: Consecration Rank 4
+    spell_id: 20923
+  - level: 50
+    name: Bulwark of the Righteous Rank 2
+    spell_id: 51565
+  - level: 52
+    name: Holy Strike Rank 7
+    spell_id: 10332
+  - level: 60
+    name: Holy Shield Rank 3
+    spell_id: 20928
+  - level: 60
+    name: Consecration Rank 5
+    spell_id: 20924
+  - level: 60
+    name: Holy Strike Rank 8
+    spell_id: 10333
+  multi_target:
+  - priority: 0
+    action: Holy Shield
+    condition: before every pull; big pulls from ~34 with Reckoning [[d:paladin#1473436732656582806]]
+  - priority: 1
+    action: Blessing of Sanctuary, Righteous Fury, Retribution Aura
+    condition: '[[d:paladin#1488343219153670284]]'
+  - priority: 2
+    action: Seal of Wisdom, Judgement of Wisdom, keep Seal of Wisdom up
+    condition: '[[d:paladin#1467022959960133653]]'
+  - priority: 3
+    action: Pull 3-4 mobs 1-3 levels lower, no casters
+    condition: '[[d:paladin#1478149717362741258]]'
+  - priority: 4
+    action: Consecration before mobs arrive, recast every 8 s
+    condition: '[[d:paladin#1484776924046692372]]'
+  - priority: 5
+    action: Holy Strike on cooldown
+  - priority: 6
+    action: Concentration Aura + Holy Light/Flash of Light on self
+    condition: below ~50% HP [[d:paladin#1426916449129336862]]
+  - priority: 7
+    action: Lashers (Dire Maul East) from 52-54; Retribution Aura over Sanctity
+    condition: '[[d:paladin#1459712646252204133]] [[d:paladin#1486673767294963723]]'
+  tank:
+  - priority: 1
+    action: Seal of Righteousness, Holy Shield while running in
+    condition: '[[d:paladin#1431134534631555173]]'
+  - priority: 2
+    action: Holy Strike + Judgement on skull, Consecration
+  - priority: 3
+    action: Holy Strike on cooldown > Judgement > re-seal > Holy Shield > Consecration (3+ mobs)
+  - priority: 4
+    action: Stop recasting Holy Shield after the first cast on a pack
+    condition: mana tight [[d:paladin#1463623306107162715]]
+  - priority: 5
+    action: Downrank Consecration
+    condition: packs die fast [[d:paladin#1436793203482296331]]
+  - priority: 6
+    action: Divine Shield
+    condition: only to survive; it drops threat
+  - priority: 7
+    action: 'Near 50-60: Seal of Righteousness, Seal of Wisdom only to judge'
+    condition: '[[d:paladin#1428222847570153592]]'
+  heal:
+  - priority: 1
+    action: Flash of Light rank 5-7
+    condition: default
+  - priority: 2
+    action: Holy Light rank 8-9
+    condition: big tank hits
+  - priority: 3
+    action: Holy Shock rank 4
+    condition: emergency if talented
+  - priority: 4
+    action: Cleanse
+    condition: dispel
+play_loop:
+  opener:
+  - Righteous Fury, Sanctity Aura, blessing, Seal of Righteousness, mark skull
+  - Pre-cast Holy Shield (and Consecration where 3+ mobs meet you) [[d:paladin#1484776924046692372]]
+  - Spell-power trinket
+  - Judgement of Righteousness [[d:paladin#1479624488675971323]]
+  - Holy Strike
+  - Re-seal Righteousness
+  single_target:
+  - priority: 1
+    action: Holy Strike
+    condition: off cooldown; never delay
+  - priority: 2
+    action: Judgement of Righteousness
+    condition: ~2 s after Holy Strike, on cooldown
+  - priority: 3
+    action: Seal of Righteousness
+    condition: next GCD after judging
+  - priority: 4
+    action: Holy Shield
+    condition: mana permits
+  - priority: 5
+    action: Consecration
+    condition: filler; rank 5 early then rank 1
+  - priority: 6
+    action: Exorcism
+    condition: Undead/Demon, nothing else ready
+  - priority: 7
+    action: Hand of Reckoning
+    condition: mob leaves you
+  aoe:
+    targets_min: 3
+    loop:
+    - priority: 1
+      action: Pre-cast Consecration
+    - priority: 2
+      action: Single-target loop on skull; tab Judgement/Holy Strike/taunt onto others
+      condition: '[[d:paladin#1485641256586444910]]'
+    - priority: 3
+      action: Rank-5 Consecration at most 1-2 times per big pack
+      condition: '[[d:paladin#1469947262431133819]]'
+    - priority: 4
+      action: Greater Blessings spam for adds that must stick instantly
+      condition: '[[d:paladin#1464060242735399034]]'
+  cooldowns:
+  - Holy Shield up for big hits (crit/crush cap)
+  - Bulwark of the Righteous and Greater Stoneshield for known burst
+  - Divine Shield only for mechanics or to avoid death (drops threat)
+  - Blessing of Protection on the other tank or a DPS with aggro
+  tank:
+  - priority: 1
+    action: Never Crusader Strike for threat
+    condition: '[[d:paladin#1487459563707044021]]'
+  - priority: 2
+    action: No Consecration on a single target
+  - priority: 3
+    action: Re-apply Righteous Fury after death
+    condition: '[[d:paladin#1487898897144877108]]'
+  - priority: 4
+    action: 'Trash mana: Seal of Wisdom (costs ~30% threat); below 30% mana rank-1 Consecration until 50%'
+    condition: '[[d:paladin#1485641549508251782]] [[d:paladin#1470119581581312222]]'

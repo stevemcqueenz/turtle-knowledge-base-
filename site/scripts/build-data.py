@@ -972,6 +972,119 @@ def build_instances(guide: GuideContext | None) -> dict | None:
 
 
 # ---------------------------------------------------------------------------
+# Instance maps (site/scripts/maps-source.json, written by tools/maps/)
+# ---------------------------------------------------------------------------
+#
+# tools/maps/extract_maps.py renders each instance's floors from the client's
+# minimap textures (public/maps/<slug>/<floor>.webp) and lists, per floor, the
+# unique named elites/bosses the server spawns there ("pois", positions as
+# 0..1 fractions of the image). Markers are made here, from the page as it is
+# now: a boss named on the page (an H3 in a boss section, the first cell of a
+# "Boss" table, or a **bold** name) that matches a poi's creature name gets a
+# numbered marker linking to its boss card (H3) or its section.
+
+MAPS_SOURCE_PATH = SCRIPT_DIR / "maps-source.json"
+MAP_BOSS_SECTION = re.compile(r"boss|encounter|wing|floor|event", re.I)
+MAP_TABLE = re.compile(r"^\|\s*(?:boss|encounter)[^|]*\|.*\n\|[-| :]+\|\n((?:\|.*(?:\n|$))*)", re.I | re.M)
+MAP_BOLD = re.compile(r"\*\*([^*\n]{3,80})\*\*")
+
+
+def boss_anchor(heading: str) -> str:
+    """Same rule as src/lib/instances.ts bossAnchor()."""
+    s = re.sub(r"<[^>]+>", "", heading).lower()
+    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+    return f"boss-{s or 'section'}"
+
+
+def _map_norm(text: str) -> str:
+    text = CHIP_HTML.sub("", text)
+    text = re.sub(r"<[^>]+>", "", text)
+    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)
+    text = text.replace("’", "'").replace("*", "").replace("`", "")
+    return " " + re.sub(r"\s+", " ", text).strip().lower() + " "
+
+
+MAP_ASIDE = re.compile(r"\([^)]*\b(?:replac\w*|removed|formerly|instead|was)\b[^)]*\)", re.I)
+
+
+def map_candidates(page: dict) -> list[tuple[str, str, int]]:
+    """(text, anchor, tier) for every boss the page names: tier 1 = an H3 of a
+    boss section, tier 2 = a "Boss" table's first cell, tier 3 = a **bold** name
+    inside a boss section, tier 4 = a bold name elsewhere; page order within a
+    tier. Only tier 1 and 2 may name a one-word elite."""
+    tiers: dict[int, list[tuple[str, str]]] = {1: [], 2: [], 3: [], 4: []}
+    for s in page["sections"]:
+        md = s["markdown"]
+        bossy = bool(MAP_BOSS_SECTION.search(s["heading"]) and re.search(r"^###\s", md, re.M))
+        h3s = [(m.start(), m.group(1).strip()) for m in re.finditer(r"^###\s+(.+)$", md, re.M)] if bossy else []
+        found: list[tuple[int, int, str, str]] = []
+        for pos, h in h3s:
+            found.append((1, pos, MAP_ASIDE.sub("", h), boss_anchor(h)))
+        for m in MAP_TABLE.finditer(md):
+            base = m.start(1)
+            for row in re.finditer(r"^\|([^|\n]*)\|", m.group(1), re.M):
+                found.append((2, base + row.start(), MAP_ASIDE.sub("", row.group(1).strip()), s["id"]))
+        for m in MAP_BOLD.finditer(md):
+            under = [h for pos, h in h3s if pos < m.start()]
+            anchor = boss_anchor(under[-1]) if under else s["id"]
+            found.append((3 if MAP_BOSS_SECTION.search(s["heading"]) else 4, m.start(), m.group(1), anchor))
+        for tier, _pos, text, anchor in sorted(found, key=lambda t: t[1]):
+            tiers[tier].append((text, anchor))
+    return [(t, a, k) for k in (1, 2, 3, 4) for t, a in tiers[k]]
+
+
+def attach_maps(instances: dict | None) -> int:
+    """Adds `map` {provenance, thumb, floors[{floor,label,file,width,height,kind,
+    markers[{n,boss,x,y,anchor}]}]} to every instance page that has one."""
+    if instances is None or not MAPS_SOURCE_PATH.exists():
+        return 0
+    source = json.loads(MAPS_SOURCE_PATH.read_text(encoding="utf-8"))
+    n_pages = 0
+    for page in instances["pages"]:
+        entry = source.get("pages", {}).get(page["slug"])
+        if not entry:
+            continue
+        floors = [{k: f[k] for k in ("floor", "label", "file", "width", "height", "kind")} | {"markers": []}
+                  for f in entry["floors"]]
+        pois = [(fi, p) for fi, f in enumerate(entry["floors"]) for p in f.get("pois", [])]
+        used: set[str] = set()
+        n = 0
+        for text, anchor, tier in map_candidates(page):
+            hay = _map_norm(text)
+            hits = []
+            for fi, p in pois:
+                name = p["name"].replace("’", "'")
+                if name in used:
+                    continue
+                if tier > 2 and p.get("rank") != 3 and " " not in name.strip():
+                    continue  # a bare one-word elite ("Bishop") in prose is not a boss call-out
+                if re.search(r"(?<![a-z0-9'])" + re.escape(name.lower()) + r"(?![a-z0-9'])", hay):
+                    hits.append((fi, p))
+            if not hits:
+                continue
+            fi0 = hits[0][0]
+            same = [p for fi, p in hits if fi == fi0]
+            for _, p in hits:
+                used.add(p["name"].replace("’", "'"))
+            n += 1
+            floors[fi0]["markers"].append({
+                "n": n,
+                "boss": " & ".join(dict.fromkeys(p["name"] for p in same)),
+                "x": same[0]["x"],
+                "y": same[0]["y"],
+                "anchor": anchor,
+            })
+        page["map"] = {
+            "provenance": {k: v for k, v in source.get("provenance", {}).items()
+                           if any(f["kind"] == k for f in floors)},
+            "thumb": {"file": entry["thumb"], "width": entry["thumbWidth"], "height": entry["thumbHeight"]},
+            "floors": floors,
+        }
+        n_pages += 1
+    return n_pages
+
+
+# ---------------------------------------------------------------------------
 # Guide summaries: viability matrix, talent trees and builds, leveling paths
 # ---------------------------------------------------------------------------
 #
@@ -1652,6 +1765,7 @@ def main(argv: list[str] | None = None) -> int:
 
     classes = [build_class_entry(slug, matrix_rows, guide) for slug in CLASS_ORDER]
     instances = build_instances(guide)
+    map_pages = attach_maps(instances)
     guide_classes = [c["slug"] for c in classes if c["guidePath"]]
 
     matrix_json = {
@@ -1709,7 +1823,8 @@ def main(argv: list[str] | None = None) -> int:
         print(f"  e.g. unresolved: {miss}")
     if instances is not None:
         ic = meta_json["instanceCounts"]
-        print(f"Instances: {ic['pages']} pages ({ic['dungeons']} dungeons, {ic['raids']} raids)")
+        print(f"Instances: {ic['pages']} pages ({ic['dungeons']} dungeons, {ic['raids']} raids), "
+              f"{map_pages} with maps")
     if guide is None:
         print(f"No guide directory at {GUIDE_DIR / 'classes'}; every class built from synthesis/")
     else:

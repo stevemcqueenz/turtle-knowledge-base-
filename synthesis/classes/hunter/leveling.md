@@ -130,7 +130,7 @@ Folded from the archived `#hunter` Discord (`staging/hunter-core/`). Era tags: *
 
 ### Ammo and scope arithmetic (Discord)
 
-- 17.5 DPS craftable Survival arrows, 25.5 DPS recipe (1 Arcanite + 5 Thorium + 10 Dense Blasting Powder per 5×200), Enchanted Thorium Shells, and the +2% crit **Facetted Crystal Scope** [consensus, [[d:hunter#1484621720001319113]], [[d:hunter#1485357293724762112]], [[d:hunter#1485555500157505657]], [[d:hunter#1484564082014289983]]]; 200/stack and the pouch tax stay [consensus, [[d:hunter#1422543678517411881]], [[d:hunter#1422933084256337951]]].
+- 17.5 DPS craftable Survival arrows, Enchanted Thorium Shells, and the +2% crit **Facetted Crystal Scope** [consensus, [[d:hunter#1484621720001319113]], [[d:hunter#1485555500157505657]], [[d:hunter#1484564082014289983]]]; 200/stack and the pouch tax stay [consensus, [[d:hunter#1422543678517411881]], [[d:hunter#1422933084256337951]]].
 
 ### Discord sources used
 

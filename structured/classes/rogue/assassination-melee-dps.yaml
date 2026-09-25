@@ -1001,3 +1001,575 @@ stat_priority_note: '"Assassination isn''t your combat swords mentality of pilin
   glancing blows down. One post-1.18.1 poster says to "throw out 1.3 speed mainhands" [Mdzielak p=171653] — single source,
   no numbers. Crit and agility are a tie: no cited post ranks them against each other, so their order in the array above carries
   no ranking. Grouping them is this repository''s reading of the sources listed above.'
+leveling_gameplay:
+- levels: 1-9
+  spec: Assassination
+  new_abilities:
+  - level: 1
+    name: Stealth
+    spell_id: 1784
+  - level: 4
+    name: Backstab
+    spell_id: 53
+  - level: 4
+    name: Pick Pocket
+    spell_id: 921
+  - level: 6
+    name: Gouge
+    spell_id: 1776
+  - level: 6
+    name: Sinister Strike Rank 2
+    spell_id: 1757
+  - level: 8
+    name: Evasion
+    spell_id: 5277
+  - level: 8
+    name: Eviscerate Rank 2
+    spell_id: 6760
+  single_target:
+  - priority: 1
+    action: Sinister Strike
+    condition: opener, from Stealth or walking in; cheaper than Backstab [[d:rogue#1423929228168003667]]
+  - priority: 2
+    action: Sinister Strike
+    condition: until 3-5 combo points
+  - priority: 3
+    action: Eviscerate
+    condition: 3-5 combo points (vanilla baseline)
+  - priority: 4
+    action: eat/drink between pulls
+    condition: energy starvation is normal; most damage is auto-attacks [[d:rogue#1470280229107925074]]
+  multi_target:
+  - priority: 1
+    action: Gouge the second mob, kill the first
+    condition: only if an add joins; never pull two
+  - priority: 2
+    action: Evasion
+    condition: from L8, when two mobs are hitting you [[d:rogue#1386261551807336469]]
+- levels: 10-19
+  spec: Assassination
+  new_abilities:
+  - level: 10
+    name: Slice and Dice
+    spell_id: 5171
+  - level: 10
+    name: Sap
+    spell_id: 6770
+  - level: 10
+    name: Expose Armor
+    spell_id: 8647
+  - level: 10
+    name: Sprint
+    spell_id: 2983
+  - level: 12
+    name: Kick
+    spell_id: 1766
+  - level: 12
+    name: Backstab Rank 2
+    spell_id: 2589
+  - level: 14
+    name: Ambush
+    spell_id: 8676
+  - level: 14
+    name: Garrote
+    spell_id: 703
+  - level: 14
+    name: Sinister Strike Rank 3
+    spell_id: 1758
+  - level: 16
+    name: Eviscerate Rank 3
+    spell_id: 6761
+  - level: 16
+    name: Feint
+    spell_id: 1966
+  - level: 16
+    name: Pick Lock
+    spell_id: 1804
+  - level: 18
+    name: Gouge Rank 2
+    spell_id: 1777
+  - level: 15
+    name: Ruthlessness (talent, 3/3 by 17)
+    spell_id: 14156
+  single_target:
+  - priority: 1
+    action: Sinister Strike
+    condition: opener; Ambush only with a dagger swapped into the main hand [[d:rogue#1434877610520870962]]
+  - priority: 2
+    action: Slice and Dice
+    condition: any combo points; keep it up [[d:rogue#1478390151750357075]]
+  - priority: 3
+    action: Sinister Strike
+    condition: builder; refresh Slice and Dice when low [[d:rogue#1479922062515503124]]
+  - priority: 4
+    action: 1-point Slice and Dice then 1-point Eviscerate spam
+    condition: from 17 (Ruthlessness 3/3 refunds a point) [[d:rogue#1447473413311565887]], [[d:rogue#1451736486822154462]]
+  - priority: 5
+    action: Kick
+    condition: target casting (vanilla baseline)
+  multi_target:
+  - priority: 1
+    action: Sap one mob before the pull, kill the other
+    condition: 2 mobs max [[d:rogue#1437489052386594896]]
+  - priority: 2
+    action: Gouge one, Evasion; Sprint away if it goes wrong
+    condition: both mobs on you
+- levels: 20-29
+  spec: Assassination
+  new_abilities:
+  - level: 20
+    name: Poisons (quest)
+    spell_id: 2842
+  - level: 20
+    name: Instant Poison
+    spell_id: 8681
+  - level: 20
+    name: Crippling Poison
+    spell_id: 3420
+  - level: 20
+    name: Rupture
+    spell_id: 1943
+  - level: 20
+    name: Ghostly Strike
+    spell_id: 14278
+  - level: 20
+    name: Stealth Rank 2
+    spell_id: 1785
+  - level: 20
+    name: Backstab Rank 3
+    spell_id: 2590
+  - level: 22
+    name: Distract
+    spell_id: 1725
+  - level: 22
+    name: Vanish
+    spell_id: 1856
+  - level: 22
+    name: Garrote Rank 2
+    spell_id: 8631
+  - level: 22
+    name: Sinister Strike Rank 4
+    spell_id: 1759
+  - level: 22
+    name: Expose Armor Rank 2
+    spell_id: 8649
+  - level: 24
+    name: Eviscerate Rank 4
+    spell_id: 6762
+  - level: 24
+    name: Mind-numbing Poison
+    spell_id: 5763
+  - level: 26
+    name: Cheap Shot
+    spell_id: 1833
+  - level: 26
+    name: Ambush Rank 2
+    spell_id: 8724
+  - level: 26
+    name: Kick Rank 2
+    spell_id: 1767
+  - level: 28
+    name: Instant Poison II
+    spell_id: 8687
+  - level: 28
+    name: Rupture Rank 2
+    spell_id: 8639
+  - level: 28
+    name: Backstab Rank 4
+    spell_id: 2591
+  - level: 28
+    name: Feint Rank 2
+    spell_id: 6768
+  - level: 28
+    name: Sap Rank 2
+    spell_id: 2070
+  - level: 20
+    name: Relentless Strikes (talent)
+    spell_id: 14179
+  single_target:
+  - priority: 0
+    action: Apply poisons
+    condition: Instant both hands, or Instant MH + Crippling OH [[d:rogue#1459069865053786154]], [[d:rogue#1330009940076527649]]
+  - priority: 1
+    action: Cheap Shot from Stealth
+    condition: from 26; Sinister Strike before that [[d:rogue#1478390323825610794]]
+  - priority: 2
+    action: Slice and Dice
+    condition: 1 combo point, missing or expiring
+  - priority: 3
+    action: Eviscerate
+    condition: 1 combo point, spam
+  - priority: 4
+    action: Ghostly Strike
+    condition: the mob hits hard [[d:rogue#1478390151750357075]]
+  - priority: 5
+    action: Sinister Strike
+    condition: no combo point left
+  - priority: 9
+    action: Do not use Rupture
+    condition: worse than Eviscerate without Taste for Blood [[d:rogue#1479922062515503124]]
+  multi_target:
+  - priority: 1
+    action: Sap one, Distract the rest
+    condition: before the pull [[d:rogue#1386261551807336469]]
+  - priority: 2
+    action: Crippling Poison off hand
+    condition: runners
+  - priority: 3
+    action: Vanish
+    condition: emergency reset (vanilla baseline)
+  tank:
+  - priority: 1
+    action: Threat is damage before 60; Ghostly Strike for dodge
+    condition: dungeons, niche [[d:rogue#1314468356580966400]]
+- levels: 30-39
+  spec: Assassination
+  new_abilities:
+  - level: 30
+    name: Blade Flurry
+    spell_id: 13877
+  - level: 30
+    name: Envenom (talent)
+    spell_id: 52531
+  - level: 30
+    name: Kidney Shot
+    spell_id: 408
+  - level: 30
+    name: Deadly Poison
+    spell_id: 2835
+  - level: 30
+    name: Detection
+    spell_id: 45608
+  - level: 30
+    name: Disarm Trap
+    spell_id: 1842
+  - level: 30
+    name: Garrote Rank 3
+    spell_id: 8632
+  - level: 30
+    name: Sinister Strike Rank 5
+    spell_id: 1760
+  - level: 32
+    name: Eviscerate Rank 5
+    spell_id: 8623
+  - level: 32
+    name: Gouge Rank 3
+    spell_id: 8629
+  - level: 32
+    name: Wound Poison
+    spell_id: 13220
+  - level: 34
+    name: Blind
+    spell_id: 2094
+  - level: 34
+    name: Blinding Powder
+    spell_id: 6510
+  - level: 34
+    name: Ambush Rank 3
+    spell_id: 8725
+  - level: 34
+    name: Expose Armor Rank 3
+    spell_id: 8650
+  - level: 34
+    name: Sprint Rank 2
+    spell_id: 8696
+  - level: 36
+    name: Instant Poison III
+    spell_id: 8691
+  - level: 36
+    name: Rupture Rank 3
+    spell_id: 8640
+  - level: 36
+    name: Backstab Rank 5
+    spell_id: 8721
+  - level: 38
+    name: Deadly Poison II
+    spell_id: 2837
+  - level: 38
+    name: Mind-numbing Poison II
+    spell_id: 8694
+  - level: 38
+    name: Garrote Rank 4
+    spell_id: 8633
+  - level: 38
+    name: Sinister Strike Rank 6
+    spell_id: 8621
+  single_target:
+  - priority: 1
+    action: Cheap Shot
+    condition: opener
+  - priority: 2
+    action: Sinister Strike
+    condition: until 1 combo point
+  - priority: 3
+    action: Envenom
+    condition: 1 combo point, missing or expiring [[d:rogue#1470309775123415110]]
+  - priority: 4
+    action: Slice and Dice
+    condition: 1 combo point, missing or expiring
+  - priority: 5
+    action: Eviscerate
+    condition: 1 combo point, spam [[d:rogue#1434530443642015945]]
+  - priority: 6
+    action: Kidney Shot
+    condition: dangerous mob [[d:rogue#1474363294687957103]]
+  - priority: 7
+    action: Thistle Tea
+    condition: energy-starved [[d:rogue#1464645356926271601]]
+  multi_target:
+  - priority: 1
+    action: Blade Flurry on
+    condition: 2+ enemies in melee; off at 1 [[d:rogue#1468685312724172872]]
+  - priority: 2
+    action: Evasion + Blade Flurry + Slice and Dice
+    condition: 3 mobs, when Evasion is ready [[d:rogue#1386261551807336469]]
+  - priority: 3
+    action: Sap or Blind the 4th
+    condition: do not fight 4
+  tank:
+  - priority: 1
+    action: Blade Flurry for multi-target threat; swap targets, accept lost combo points
+    condition: Combat leveling tank build [[d:rogue#1332944053943406615]]; contested [[d:rogue#1346544529238392874]]
+- levels: 40-49
+  spec: Assassination
+  new_abilities:
+  - level: 40
+    name: Noxious Assault (talent)
+    spell_id: 52714
+  - level: 40
+    name: Stealth Rank 3
+    spell_id: 1786
+  - level: 40
+    name: Eviscerate Rank 6
+    spell_id: 8624
+  - level: 40
+    name: Feint Rank 3
+    spell_id: 8637
+  - level: 42
+    name: Flourish
+    spell_id: 45604
+  - level: 42
+    name: Slice and Dice Rank 2
+    spell_id: 6774
+  - level: 42
+    name: Vanish Rank 2
+    spell_id: 1857
+  - level: 42
+    name: Ambush Rank 4
+    spell_id: 11267
+  - level: 42
+    name: Kick Rank 3
+    spell_id: 1768
+  - level: 44
+    name: Instant Poison IV
+    spell_id: 11341
+  - level: 44
+    name: Rupture Rank 4
+    spell_id: 11273
+  - level: 44
+    name: Backstab Rank 6
+    spell_id: 11279
+  - level: 46
+    name: Deadly Poison III
+    spell_id: 11357
+  - level: 46
+    name: Garrote Rank 5
+    spell_id: 11289
+  - level: 46
+    name: Gouge Rank 4
+    spell_id: 11285
+  - level: 46
+    name: Expose Armor Rank 4
+    spell_id: 11197
+  - level: 46
+    name: Sinister Strike Rank 7
+    spell_id: 11293
+  - level: 48
+    name: Noxious Assault Rank 2
+    spell_id: 52715
+  - level: 48
+    name: Eviscerate Rank 7
+    spell_id: 11299
+  - level: 48
+    name: Sap Rank 3
+    spell_id: 11297
+  single_target:
+  - priority: 1
+    action: Cheap Shot or Noxious Assault
+    condition: opener
+  - priority: 2
+    action: Envenom
+    condition: 1 combo point, missing or expiring [[d:rogue#1468115101352722661]]
+  - priority: 3
+    action: Slice and Dice
+    condition: 1 combo point, missing or expiring
+  - priority: 4
+    action: Eviscerate
+    condition: finisher; stop 1-point spam [[d:rogue#1437830369255620728]]
+  - priority: 5
+    action: Noxious Assault
+    condition: builder; never Backstab/Sinister Strike [[d:rogue#1436359116774838312]]
+  - priority: 6
+    action: Kidney Shot
+    condition: dangerous mob
+  - priority: 7
+    action: Swap to slow weapon + Sinister Strike
+    condition: poison-immune mob [[d:rogue#1461858045247225907]]
+  multi_target:
+  - priority: 1
+    action: Blade Flurry off
+    condition: 'fast daggers: poisons do not cleave [[d:rogue#1456462381906657310]]'
+  - priority: 2
+    action: Sap/Gouge/Blind, kill one at a time
+  - priority: 3
+    action: Flourish
+    condition: two melee mobs on you [[d:rogue#1260222269108785162]]
+  tank:
+  - priority: 1
+    action: Overlap Ghostly Strike with Flourish
+    condition: budget evasion [[d:rogue#1428665940102348821]]
+  - priority: 2
+    action: Sap one, Blind one
+    condition: 4-mob packs [[d:rogue#1471053347518681149]]
+- levels: 50-60
+  spec: Assassination
+  new_abilities:
+  - level: 50
+    name: Kidney Shot Rank 2
+    spell_id: 8643
+  - level: 50
+    name: Crippling Poison II
+    spell_id: 3421
+  - level: 50
+    name: Ambush Rank 5
+    spell_id: 11268
+  - level: 51
+    name: Cold Blood (talent)
+    spell_id: 14177
+  - level: 52
+    name: Dissolvent Poison
+    spell_id: 45878
+  - level: 52
+    name: Instant Poison V
+    spell_id: 11342
+  - level: 52
+    name: Mind-numbing Poison III
+    spell_id: 11400
+  - level: 52
+    name: Feint Rank 4
+    spell_id: 11303
+  - level: 52
+    name: Rupture Rank 5
+    spell_id: 11274
+  - level: 52
+    name: Backstab Rank 7
+    spell_id: 11280
+  - level: 54
+    name: Deadly Poison IV
+    spell_id: 11358
+  - level: 54
+    name: Garrote Rank 6
+    spell_id: 11290
+  - level: 54
+    name: Sinister Strike Rank 8
+    spell_id: 11294
+  - level: 56
+    name: Corrosive Poison
+    spell_id: 51924
+  - level: 56
+    name: Eviscerate Rank 8
+    spell_id: 11300
+  - level: 56
+    name: Noxious Assault Rank 3
+    spell_id: 52716
+  - level: 56
+    name: Expose Armor Rank 5
+    spell_id: 11198
+  - level: 58
+    name: Ambush Rank 6
+    spell_id: 11269
+  - level: 58
+    name: Kick Rank 4
+    spell_id: 1769
+  - level: 58
+    name: Sprint Rank 3
+    spell_id: 11305
+  - level: 60
+    name: Agitating Poison
+    spell_id: 45611
+  - level: 60
+    name: Dissolvent Poison II
+    spell_id: 45882
+  - level: 60
+    name: Instant Poison VI
+    spell_id: 11343
+  - level: 60
+    name: Deadly Throw
+    spell_id: 45605
+  - level: 60
+    name: Rupture Rank 6
+    spell_id: 11275
+  - level: 60
+    name: Gouge Rank 5
+    spell_id: 11286
+  - level: 60
+    name: Backstab Rank 8
+    spell_id: 11281
+  - level: 60
+    name: Stealth Rank 4
+    spell_id: 1787
+  single_target:
+  - priority: 0
+    action: Poisons by creature type
+    condition: Dissolvent on Elemental/Mechanical/Giant/Undead, Instant otherwise; carry a second pair [[d:rogue#1484513053876949133]],
+      [[d:rogue#1484557710065406146]]
+  - priority: 1
+    action: Cheap Shot
+    condition: opener [[d:rogue#1458145570056310915]]
+  - priority: 2
+    action: Envenom
+    condition: 1 combo point, missing or expiring
+  - priority: 3
+    action: Slice and Dice
+    condition: 1 combo point, missing or expiring
+  - priority: 4
+    action: Eviscerate (Cold Blood first if ready)
+    condition: finisher [[d:rogue#1480513960317943900]]
+  - priority: 5
+    action: Noxious Assault
+    condition: builder
+  multi_target:
+  - priority: 1
+    action: as 40-49
+    condition: Blade Flurry off; control extra mobs
+  tank:
+  - priority: 1
+    action: Agitating Poison from 60
+    condition: see tank.md [[d:rogue#1471053347518681149]]
+play_loop:
+  opener:
+  - Pre-loaded combo point carried with Slice and Dice, or Noxious Assault [[d:rogue#1480688682787667988]]
+  - 'Solo: Cheap Shot from Stealth'
+  single_target:
+  - priority: 1
+    action: Envenom then Slice and Dice
+    condition: 1 combo point each; missing or expiring [[d:rogue#1484581432889442335]]
+  - priority: 2
+    action: Eviscerate (Cold Blood first if ready)
+    condition: 5 combo points [[d:rogue#1480513960317943900]]
+  - priority: 3
+    action: Noxious Assault
+    condition: builder; never Backstab/Sinister Strike [[d:rogue#1436359116774838312]]
+  - priority: 9
+    action: no Rupture
+    condition: '[[d:rogue#1485191077827842271]]'
+  aoe:
+    targets_min: 999
+    loop:
+    - priority: 1
+      action: stay single target
+      condition: Blade Flurry only at exactly 2 targets if your sim agrees (contested) [[d:rogue#1456462381906657310]], [[d:rogue#1484686771382915153]]
+  cooldowns:
+  - Cold Blood on a 5-point Eviscerate or on Noxious Assault with Seal Fate
+  - Vanish for threat reset / trinket swap
+  - Thistle Tea when energy-starved

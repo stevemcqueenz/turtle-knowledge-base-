@@ -13,6 +13,33 @@
 !!! note "What changed in 1.18.1"
     **Baited Shot is gone** ("The barbeque is over"). **Bestial Wrath is back**: 18 s enrage, 1.5 min cooldown, no GCD. The new talent **Scent of Blood** gives your attacks a 5/10/15% chance to enrage the pet for +40% damage for 8 s. **Kill Command** is the capstone: 80% of pet AP, usable after you crit, 8 s cooldown, no GCD. Endurance Training and Thick Hide were raised again. Source: [Jamey (staff), 2026-01-23, revised 2026-03-19](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071). The 1.18.0 guides (Kill Command removes pet CC, Baited Shot on crits, "Sausage Shot") are obsolete.
 
+## How to play
+
+The level-60 decision loop for the 34/17/0 build. Details are in the sections linked below.
+
+1. **Opener:**
+    1. Send the pet exactly as the tank hits [[d:hunter#1484689822005067816]].
+    2. Hunter's Mark, then Auto Shot.
+    3. Bestial Wrath together with Rapid Fire and your on-use trinkets.
+2. **Single-target loop:** Auto → Steady → Arcane → Auto ([rotation](#single-target-rotation)).
+    - **Kill Command** whenever it is usable and the pet is in melee range. It has no GCD, but do not cast it during a Steady Shot cast.
+    - **Steady Shot** after each Auto Shot, without clipping.
+    - **Arcane Shot** after Steady when it fits.
+    - Never Aimed Shot or Serpent Sting.
+3. **Cooldowns:**
+    - Bestial Wrath on cooldown (90 s).
+    - Rapid Fire (5 min) and trinkets with it.
+    - Devilsaur Tooth: pre-use it, then use it again after the pet's first crit ([cooldowns](#cooldowns)).
+4. **AoE switch rule:**
+    - **2+ targets:** Multi-Shot replaces Arcane.
+    - **3+ targets:** open with Volley. On trash packs, a Gorilla's Thunderstomp does the work ([AoE](#aoe-rotation)).
+5. **Resource rule:** Aspect of the Hawk until you are low on mana, then Aspect of the Viper until the fight ends [[d:hunter#1478128745838674021]]. Drop Arcane first to save mana [[d:hunter#1489708299913003218]].
+6. **Movement and situational:**
+    - Arcane Shot while moving [[d:hunter#1494752221303279848]].
+    - Keep the pet out of cleaves and breaths, and trained in the tier's resistances.
+    - Do not revive the pet mid-fight with under ~30 s left ([pet management](#pet-management-and-threat)).
+    - Pet ability bar: see [Pets](pets.md#which-abilities-to-autocast).
+
 ## Talent build
 
 ### Raid 34/17/0 (recommended)

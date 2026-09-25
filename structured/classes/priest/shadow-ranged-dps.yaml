@@ -794,3 +794,135 @@ stat_priority_note: Consensus is "You just get 5% hit, stack spell power and mor
   p=113536]. The cap is 16% total versus level-63 bosses, of which Shadow Focus gives 10%, so 6% from gear (5% if any druid
   is in the raid). The tail order is Jcarrill0's list. Crit is deliberately low — Mind Blast is the only crittable ability
   and it has a cooldown — which is why players objected to the 1.18.1 Shadow T2.5 set being built around crit.
+leveling_gameplay:
+- levels: 40-49
+  spec: Shadow (respec at 42)
+  new_abilities:
+  - level: 42
+    name: Shadowform (talent)
+    spell_id: 15473
+  - level: 42
+    name: Mind Flay (talent)
+    spell_id: 15407
+  - level: 42
+    name: Vampiric Embrace (talent)
+    spell_id: 15286
+  - level: 28
+    name: Mind Flay Rank 2
+    spell_id: 17311
+  - level: 36
+    name: Mind Flay Rank 3
+    spell_id: 17312
+  - level: 44
+    name: Mind Flay Rank 4
+    spell_id: 17313
+  - level: 46
+    name: Mind Blast Rank 7
+    spell_id: 10945
+  - level: 42
+    name: 'Shadow Word: Pain Rank 6'
+    spell_id: 10892
+  single_target:
+  - priority: 0
+    action: Shadowform
+    condition: missing
+  - priority: 1
+    action: 'Power Word: Shield (self, downranked to what the mob can barely break)'
+    condition: pre-pull, prevents Mind Flay pushback
+    source: '[[d:priest#1415763183548895383]], [[d:priest#1415765173549006889]]'
+  - priority: 2
+    action: Mind Blast
+    source: '[[d:priest#1415763183548895383]]'
+  - priority: 3
+    action: 'Shadow Word: Pain'
+  - priority: 4
+    action: Mind Flay x2
+  - priority: 5
+    action: Shoot to finish (or while SW:P ticks)
+    condition: another cast not worth it
+    source: '[[d:priest#1415765173549006889]]'
+  multi_target:
+  - priority: 1
+    action: 'Shadow Word: Pain on each mob'
+  - priority: 2
+    action: Mind Flay kill target
+  - priority: 3
+    action: Psychic Scream
+    condition: mobs reach you
+  heal:
+  - priority: 1
+    action: leave Shadowform to heal (vanilla baseline); same heal priority as the Smite/Holy block
+    condition: dungeon healing
+    source: '[[d:priest#1486888659960729700]]'
+- levels: 50-60
+  spec: Shadow (respec at 42)
+  new_abilities:
+  - level: 52
+    name: Mind Flay Rank 5
+    spell_id: 17314
+  - level: 52
+    name: Mind Blast Rank 8
+    spell_id: 10946
+  - level: 50
+    name: 'Shadow Word: Pain Rank 7'
+    spell_id: 10893
+  - level: 58
+    name: Mind Blast Rank 9
+    spell_id: 10947
+  - level: 58
+    name: 'Shadow Word: Pain Rank 8'
+    spell_id: 10894
+  - level: 60
+    name: Mind Flay Rank 6
+    spell_id: 18807
+  single_target:
+  - priority: 1
+    action: same loop as 40-49 with new ranks
+  - priority: 2
+    action: Vampiric Embrace
+    condition: longer fights / elites for self-healing
+  multi_target:
+  - priority: 1
+    action: same as 40-49
+play_loop:
+  opener:
+  - Shadowform, Inner Fire, PW:S if pushback expected
+  - 'Shadow Word: Pain -> Mind Blast -> Mind Flay x2 (Vampiric Embrace first only if mana/healing needed; delay Mind Blast
+    on a fresh tank)'
+  single_target:
+  - priority: 1
+    action: 'Shadow Word: Pain'
+    condition: missing and target lives >= 3 ticks; never clip
+    source: '[[d:priest#1489637342825152522]]'
+  - priority: 2
+    action: Mind Blast
+    condition: off cooldown, threat allows
+  - priority: 3
+    action: Mind Flay x2 per Mind Blast cooldown
+    condition: filler; clip by hand; never stop by moving
+    source: '[[d:priest#1451277154942718034]]'
+  - priority: 4
+    action: Vampiric Embrace
+    condition: group needs mana/healing; never during Fade
+  - priority: 5
+    action: Pain Spike
+    condition: finisher
+  aoe:
+    targets_min: 5
+    loop:
+    - priority: 1
+      action: Holy Nova spam
+      condition: 5+ mobs, tank has aggro; ~9-10 casts to OOM
+    - priority: 2
+      action: single-target kill target, SW:P extras living >= 3 ticks
+      condition: 2-4 targets
+  cooldowns:
+  - name: Trinkets
+    use_when: passive-cooldown trinket first; snapshot SW:P under Zandalarian Hero Charm
+  - name: Fade
+    use_when: before pulling aggro; with T3.5 3-set before SW:P refresh
+  - name: Vampiric Embrace
+    spell_id: 15286
+    use_when: only when mana/healing needed
+  heal:
+  - 'Emergency: /cancelaura Shadowform then Flash Heal; VE passive group healing'

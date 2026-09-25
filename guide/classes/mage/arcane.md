@@ -10,6 +10,22 @@
 | Strengths | 10% hit from talents; best AoE of any mage spec; almost nothing in PvE resists arcane; least gear-dependent spec [[d:mage#1425934816251220068]], [[d:mage#1426190199460987002]] |
 | Weaknesses | 30-yd range; Arcane Power can kill you if you run out of mana [[d:mage#1479235845629153411]]; Kara40's Anomalus and the trash around it are arcane-immune [[d:mage#1454543299540025457]]; "bursty but super squishy" [[d:mage#1439706644022824960]] |
 
+## How to play
+
+The level-60 decision loop. The details, with sources, are in the sections below.
+
+1. **Opener:** on-use SP trinket → `Arcane Rupture` → `Arcane Missiles` → `Arcane Rupture` → `Mind Quickening Gem` + `Arcane Power` → Missiles spam ([Single-target rotation](#single-target-rotation)) [[d:mage#1468008389048008928]]. Many players hold `Presence of Mind` at the pull for threat reasons (see the opener notes).
+2. **Single-target loop, outside Arcane Power:**
+   1. `Arcane Missiles` on Clearcasting.
+   2. `Arcane Rupture` whenever the debuff is missing. Cancel Missiles for it right after a missile lands.
+   3. `Arcane Surge` when it lights up (after a resist) and your total haste is under the [Surge cutoff](#haste-caps-measured).
+   4. `Arcane Missiles`.
+3. **During Arcane Power (or any big haste window):** `Arcane Rupture` if the debuff is missing, otherwise `Arcane Missiles`. No Surge and no Presence of Mind in this window [[d:mage#1486059691699343402]].
+4. **Cooldowns:** `Arcane Power` only at full mana, since it kills you if you run out [[d:mage#1439011377133129900]]. Pop `Mind Quickening Gem` first and Arcane Power near the end of MQG [[d:mage#1484204264791216199]]. Juju Flurry and Potion of Quickness go inside Arcane Power. Full table in [Cooldowns](#cooldowns).
+5. **AoE switch: 3+ targets,** spam max-rank `Arcane Explosion`. Pre-stack Sigil of Ancient Accord with rank-1 Explosion before the pull. Drop an Explosion rank if you pull threat off the tank ([AoE rotation](#aoe-rotation)).
+6. **Mana:** Mage Armor always. Gems, tea and runes between Arcane Power windows. `Evocation` just before a server tick, cancelled after the 4th tick ([Mana](#mana), [[d:mage#1452736983209083033]]).
+7. **Movement:** `Fire Blast`. It can also fish a resist that enables Surge [[d:mage#1454567964413264118]].
+
 ## What 1.18.1 changed for Arcane
 
 - **No Arcane talent changed.** The community summary was "Nothing for mage is changing... Frost is getting better damage, that's all" [[d:mage#1484356989961240717]].

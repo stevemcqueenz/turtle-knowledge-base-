@@ -10,6 +10,46 @@ Protection is not a PvP spec [[d:warrior#1495077215207952434]].
 
 **Contested:** Ionnatra argues much of the weakness is player knowledge, since "it is just a lot about knowing your class" and warriors "beat Shaman, Warlock, Druid, Priest pretty easily" with cooldowns [[d:warrior#1494704286066540584]], [[d:warrior#1488826573439238214]]. Most regulars disagree: "warrior has never been in a weaker state in pvp than on turtle wow" [[d:warrior#1488839076193894411]]. Before the patch, a tier list in #pvp-general put warrior alone in F tier [[d:pvp-general#1426339548039872532]]. A healer helps warriors most, because it "lets the war actually be in the middle of stuff disrupting without dieing instantly" [[d:pvp-general#1429595291362918493]]; Kyrsie calls that "not powerhouse, just usable" [[d:pvp-general#1429595911268466698]].
 
+## How to play
+
+A decision loop for level-60 PvP. The details are in [Burst and control](#burst-and-control), [Target priority](#target-priority-and-battleground-role) and [Matchups](#matchups).
+
+1. **Before the fight:**
+   - Pick a low-armor target first [[d:warrior#1489648607278661744]].
+   - Stay in Charge range, and keep Bloodrage going through a stance swap so you can Intercept [[d:warrior#1494704075055567070]].
+   - **2H Fury:** start fights in Berserker Stance only while Berserker Rage is ready; when it is on cooldown, stay in Battle Stance [[d:warrior#1460700183967957192]].
+2. **Opener:**
+   - **Arms/2H:** Charge → auto-attack → Slam + Mortal Strike [[d:warrior#1496077451577528390]].
+   - **DW Fury:** Charge → Hamstring → Bloodthirst / Whirlwind (vanilla baseline).
+3. **Loop:**
+   1. Keep Hamstring up; it has no cooldown in 1.18.1.
+   2. Mortal Strike or Bloodthirst on cooldown (6 s).
+   3. Whirlwind.
+   4. Rend on plate targets, because bleeds ignore armor [[d:warrior#1461331450237423836]].
+   5. Don't try to stack Sunder [[d:warrior#1489647195371077812]].
+4. **Kill:** once the target is under 20%, Bloodrage + Death Wish and Execute [[d:warrior#1490662215882375268]].
+5. **Control:**
+   - Charge and Intercept share stun diminishing returns: don't Intercept within 5 s of a Charge [[d:warrior#1465395209444524246]]. Intercept (30 s) shares its cooldown with Intervene [[d:warrior#1465395113869049946]].
+   - Pummel and Shield Bash share a cooldown [[d:warrior#1454776559570518109]]. Pummel casters and healers [[d:warrior#1321684935077265508]].
+   - Piercing Howl on groups; Disarm (60 s) melee. Weapon Chain on either hand makes a target immune to Disarm [[d:warrior#1446923546918916287]].
+   - Deep Wounds ticks break your own Intimidating Shout [[d:warrior#1465796531096518920]].
+6. **Survive / escape:**
+   - Berserker Rage (30 s) breaks fear (vanilla baseline); Improved Berserker Rage also breaks roots [[d:warrior#1485893615937916949]]. Death Wish lets Fury push through Fear in any stance [[d:pvp-general#1432169367419883642]].
+   - **Arms** has no root break: carry Free Action Potions [[d:warrior#1494705065603371009]].
+   - Retaliation, which also procs off dodges [[d:pvp-general#1431777899517710387]]. Shield Wall only with a shield equipped; it shares a cooldown with Recklessness [[d:warrior#1462506610068029502]].
+   - Against casters, a physical or spell reflector trinket and Zanza's; expect a Lesser Invulnerability Potion when you Charge [[d:pvp-general#1433037585055485973]], [[d:pvp-general#1432945315501183097]].
+7. **Target priority:** hunt rogues and make kamikaze pushes on healers while your team works [[d:warrior#1489649742718697623]]. Ignore bears and plate as long as you can. Intervene a healer under pressure; with a healer behind you, stay in melee [[d:pvp-general#1429595291362918493]].
+8. **Reset:** out of cooldowns and losing, Fear + bandage, then kite [[d:warrior#1449212320315084953]]. Don't facetank a melee specialist.
+
+**Vs class** (full table in [Matchups](#matchups)):
+
+- **Shaman / Paladin:** your weakest matchups [[d:warrior#1455234542141968621]]. Disarm Enhancement; Berserker Rage breaks Repentance [[d:pvp-general#1433888687392817154]].
+- **Rogue:** stunlocks beat you; Arms Overpower helps [[d:warrior#1435065004071194836]].
+- **Hunter:** Intercept + Disarm together, then Piercing Howl; reflect the opener's Explosive Trap [[d:pvp-general#1429582078873440357]], [[d:pvp-general#1429583147233968230]].
+- **Priest:** they bait Berserker Rage with Fear and then Net you [[d:pvp-general#1432168724714229770]].
+- **Mage:** save the Improved Berserker Rage root break for their roots [[d:warrior#1485893615937916949]].
+- **Warlock:** your strongest matchup [[d:warrior#1455234542141968621]].
+
 ## What changed for PvP in 1.18.1
 
 - **Hamstring has no cooldown.** It had 6 s from Class Changes 2 until the patch, including a brief February reinstatement [[d:warrior#1475827984576544879]], [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071). Combined with Blood Drinker it turns kiting into self-healing [[d:warrior#1484624968045166792]].

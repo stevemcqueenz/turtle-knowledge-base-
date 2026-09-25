@@ -607,3 +607,19 @@ stat_priority_note: '"Get as much +healing and +int as you can" (Skegg); on a ba
   most, with about a 4k mana pool as the target. Mana regeneration is CONTESTED: one camp says ignore mp5, Spirit and percentage-regen
   gear entirely and solve mana with downranking, tea and potions, the other keeps at least +10% while-casting regen until
   T2/T2.5. No source gives numeric weights.'
+play_loop:
+  opener:
+  - Water Shield, mana oil
+  - Drop group totem set
+  heal:
+  - 'Raid-wide / stacked damage: Chain Heal rank 1 (rank 3 under heavy damage)'
+  - 'Steady tank damage: Healing Wave rank 3-4 (rank 6+ with good healing power)'
+  - 'Spike: max-rank Lesser Healing Wave'
+  - 'Tank near death: Ancestral Swiftness + max-rank Healing Wave'
+  - '5-man: Healing Wave far more than Chain Heal unless the group is stacked'
+  - Spirit Link in burn / enrage phases
+  - 'Mana: tea + potion on cooldown; Undertow keeps Water Shield charges'
+  - 'Dispel: Cure Poison / Cure Disease, cleansing totems, Tremor Totem, Purge'
+  cooldowns:
+  - Ancestral Swiftness (3 min) for the instant emergency heal
+  - Spirit Link (10 min) when a tank is about to die

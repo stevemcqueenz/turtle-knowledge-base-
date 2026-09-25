@@ -665,3 +665,31 @@ stat_priority_note: 'Mimiwarmini''s tanking order; the same guide gives a separa
   already supplies ~653 attack power and Agility adds threat and survivability, Skegg puts Strength second once you are 60
   (Agility second only while leveling), and Akos1896''s pre-CC2 order is stam > agi > melee crit > haste > dodge/parry > strength
   > int. Guide targets pre-raid: 8% physical hit, 17% spell hit, 160 stamina, 100 agility, 6,000 armor, 20 defense.'
+play_loop:
+  opener:
+  - Rockbiter Weapon on slow 1H, shield, Lightning Shield
+  - 'Ask for Power Word: Shield'
+  - Chain Lightning (or Molten Blast into Chain Lightning)
+  single_target:
+  - Earth Shock if ready
+  - Stormstrike if ready
+  - Lightning Strike if ready
+  - Auto-attack (builds Earthen Bulwark)
+  - Water Shield at ~66% mana
+  aoe:
+    targets_min: 2
+    loop:
+    - Stoneclaw Totem + Totem of the Tides (Water Shield)
+    - Tab Earth Shock across the pack
+    - Fire Nova Totem if the party AoEs
+    - Magma after Nova only as last resort
+  cooldowns:
+  - 'No defensive cooldown: healthstone, tea, Stoneshield Potion'
+  - Tea + mana potion on cooldown
+  - 'Emergency pack snap: Fire Nova + Stoneclaw (+ Goblin Sapper Charge)'
+  tank:
+  - Earthshaker Slam (5 yd, 10 s cd, off GCD) then Earth Shock when a mob leaves you
+  - Call out resisted taunts
+  - Never hard-cast while being hit
+  - Rank 1 Earth Shock only for cheap interrupts
+  - No Stoneskin Totem on bosses

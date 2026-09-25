@@ -980,3 +980,743 @@ stat_priority_note: 'Melee hit cap is 8%, or 5% with Natural Weapons 3/3; hit ab
   sets is contested — useful for PvP shifting, considered wasted stat points in PvE. Strength and Agility are a tie: no cited
   post ranks them against each other, so their order in the array above carries no ranking. Grouping them is this repository''s
   reading of the sources listed above.'
+leveling_gameplay:
+- levels: 1-9
+  spec: Feral (caster phase)
+  new_abilities:
+  - level: 1
+    name: Wrath Rank 1
+    spell_id: 5176
+    note: starting spell, not in the 1.18.1 kit dump (vanilla baseline id)
+  - level: 1
+    name: Healing Touch Rank 1
+    spell_id: 5185
+    note: starting spell, not in the kit dump (vanilla baseline id)
+  - level: 1
+    name: Mark of the Wild Rank 1
+    spell_id: 1126
+  - level: 4
+    name: Moonfire Rank 1
+    spell_id: 8921
+  - level: 4
+    name: Rejuvenation Rank 1
+    spell_id: 774
+  - level: 6
+    name: Thorns Rank 1
+    spell_id: 467
+  - level: 6
+    name: Wrath Rank 2
+    spell_id: 5177
+  - level: 8
+    name: Entangling Roots Rank 1
+    spell_id: 339
+  - level: 8
+    name: Healing Touch Rank 2
+    spell_id: 5186
+  single_target:
+  - priority: 1
+    action: Mark of the Wild; Thorns from 6
+    condition: buff missing
+  - priority: 2
+    action: Wrath
+    condition: pull and spam
+    source: '[[d:druid#1424253556558401556]]'
+  - priority: 3
+    action: Moonfire
+    condition: once per mob, or on a fleeing mob (from 4)
+  - priority: 4
+    action: melee (staff)
+    condition: mana low
+    source: '[[d:druid#1424253556558401556]]'
+  - priority: 5
+    action: Entangling Roots, step back, Wrath, re-root
+    condition: mob hits hard; outdoors only (from 8)
+    source: '[[d:druid#1468260854071034128]] [[d:druid#1442171109985357835]]'
+  - priority: 6
+    action: Rejuvenation / Healing Touch self, then drink
+    condition: out of combat and HP or mana low
+    source: '[[d:druid#1424254260530643015]]'
+  multi_target:
+  - priority: 1
+    action: avoid; root one mob, Wrath the other
+    condition: second mob joins (vanilla baseline)
+- levels: 10-19
+  spec: Feral (Bear)
+  new_abilities:
+  - level: 10
+    name: Bear Form
+    spell_id: 5487
+  - level: 10
+    name: Maul Rank 1
+    spell_id: 6807
+  - level: 10
+    name: Growl
+    spell_id: 6795
+  - level: 10
+    name: Demoralizing Roar Rank 1
+    spell_id: 99
+  - level: 10
+    name: Rejuvenation Rank 2
+    spell_id: 1058
+  - level: 10
+    name: Ferocity
+    spell_id: 16934
+    source: talent (10-14)
+  - level: 12
+    name: Enrage
+    spell_id: 5229
+  - level: 12
+    name: Regrowth Rank 1
+    spell_id: 8936
+  - level: 14
+    name: Bash Rank 1
+    spell_id: 5211
+  - level: 14
+    name: Healing Touch Rank 3
+    spell_id: 5187
+  - level: 14
+    name: Cure Poison
+    spell_id: 8946
+  - level: 16
+    name: Swipe Rank 1
+    spell_id: 779
+  - level: 16
+    name: Rejuvenation Rank 3
+    spell_id: 1430
+  - level: 18
+    name: Maul Rank 2
+    spell_id: 6808
+  - level: 18
+    name: Faerie Fire Rank 1
+    spell_id: 770
+  - level: 18
+    name: Hibernate Rank 1
+    spell_id: 2637
+  - level: 18
+    name: Regrowth Rank 2
+    spell_id: 8938
+  - level: 18
+    name: Feral Instinct
+    spell_id: 16947
+    source: talent (18-19)
+  single_target:
+  - priority: 1
+    action: Moonfire (or Faerie Fire from 18) from range, then Bear Form
+    condition: pull
+    source: '[[d:druid#1427911420602876027]]'
+  - priority: 2
+    action: Enrage
+    condition: no rage at pull; 60 s cooldown
+    source: '[[d:druid#1394955453666037823]]'
+  - priority: 3
+    action: Maul
+    condition: rage available; off GCD
+    source: '[[d:druid#1436445990809899018]]'
+  - priority: 4
+    action: Bash
+    condition: caster casting or mob fleeing
+    source: '[[d:druid#1442171109985357835]]'
+  - priority: 5
+    action: shift out, Rejuvenation/Regrowth self, shift back
+    condition: after the kill, HP low
+    source: '[[d:druid#1491814814404710541]]'
+  multi_target:
+  - priority: 1
+    action: Moonfire pull, Bear Form, Demoralizing Roar
+    condition: 2-3 mobs
+    source: https://forum.turtlecraft.gg/viewtopic.php?p=165791#p165791
+  - priority: 2
+    action: Swipe + tab-target Maul
+    condition: from 16; Swipe hits max 3 targets, so pull no more than 3
+    source: '[[d:druid#1479708465545875456]]'
+  - priority: 3
+    action: pull 1-2 at a time
+    condition: before 16 (no Swipe)
+  tank:
+  - priority: 1
+    action: Regrowth self, Moonfire one mob, Faerie Fire another, Bear Form, Swipe + Maul, Demoralizing Roar
+    condition: pull
+    source: '[[d:druid#1427911420602876027]]'
+  - priority: 2
+    action: Demoralizing Roar, skull-mark and Maul main target
+    condition: opening threat
+    source: '[[d:druid#1455466125675466864]] [[d:druid#1394955453666037823]]'
+  - priority: 3
+    action: tab Maul; Swipe once learned
+    condition: steady threat; contested Swipe-first vs Maul-first while rage-starved
+    source: '[[d:druid#1428999300129755218]] [[d:druid#1438127035804291083]] [[d:druid#1394955453666037823]]'
+  - priority: 4
+    action: Growl
+    condition: only to take a mob back; never as opener; off GCD
+    source: '[[d:druid#1432722952813543505]] [[d:druid#1432367846968655993]]'
+  - priority: 5
+    action: skip Enrage
+    condition: healer struggling
+    source: '[[d:druid#1477368423267696690]]'
+  - priority: 6
+    action: Hibernate
+    condition: Beast/Dragonkin add (vanilla baseline)
+  - priority: 7
+    action: wear normal leather questing gear
+    condition: bear and cat gear overlap
+    source: '[[d:druid#1491438522739982437]]'
+  heal:
+  - priority: 1
+    action: swap to Intellect set; no resto talents needed
+    condition: dungeon healer role
+    source: '[[d:druid#1433108224315490324]] [[d:druid#1471345148494483569]]'
+  - priority: 2
+    action: highest Rejuvenation on the tank
+    condition: default
+    source: '[[d:druid#1440918500775563335]]'
+  - priority: 3
+    action: second-highest Regrowth
+    condition: tank keeps taking damage
+    source: '[[d:druid#1440918500775563335]]'
+  - priority: 4
+    action: rank-1 Healing Touch
+    condition: small dips
+    source: '[[d:druid#1440918500775563335]]'
+  - priority: 5
+    action: second-highest Healing Touch
+    condition: tank still dropping; max rank rarely
+    source: '[[d:druid#1440918500775563335]]'
+  - priority: 6
+    action: Cure Poison
+    condition: poison on a party member (from 14)
+  - priority: 7
+    action: drink between pulls; respect the 5-second rule
+    condition: mana (vanilla baseline)
+- levels: 20-29
+  spec: Feral (Cat; Bear for packs and tanking)
+  new_abilities:
+  - level: 20
+    name: Cat Form
+    spell_id: 768
+  - level: 20
+    name: Claw Rank 1
+    spell_id: 1082
+  - level: 20
+    name: Rip Rank 1
+    spell_id: 1079
+  - level: 20
+    name: Prowl Rank 1
+    spell_id: 5215
+  - level: 20
+    name: Insect Swarm Rank 1
+    spell_id: 5570
+  - level: 20
+    name: Starfire Rank 1
+    spell_id: 2912
+  - level: 20
+    name: Rebirth Rank 1
+    spell_id: 20484
+  - level: 20
+    name: Healing Touch Rank 4
+    spell_id: 5188
+  - level: 20
+    name: Feral Swiftness
+    spell_id: 17002
+    source: talent (20-21)
+  - level: 22
+    name: Shred Rank 1
+    spell_id: 5221
+  - level: 22
+    name: Feral Charge
+    spell_id: 16979
+  - level: 24
+    name: Rake Rank 1
+    spell_id: 1822
+  - level: 24
+    name: Ferocious Bite Rank 1
+    spell_id: 22557
+  - level: 24
+    name: Tiger's Fury Rank 1
+    spell_id: 5217
+  - level: 24
+    name: Regrowth Rank 3
+    spell_id: 8939
+  - level: 24
+    name: Swipe Rank 2
+    spell_id: 780
+  - level: 24
+    name: Remove Curse
+    spell_id: 2782
+  - level: 25
+    name: Faerie Fire (Feral) Rank 1
+    spell_id: 16857
+  - level: 26
+    name: Dash Rank 1
+    spell_id: 1850
+  - level: 26
+    name: Maul Rank 3
+    spell_id: 6809
+  - level: 26
+    name: Healing Touch Rank 5
+    spell_id: 5189
+  - level: 26
+    name: Blood Frenzy
+    spell_id: 45721
+    source: talent (26-27)
+  - level: 28
+    name: Challenging Roar
+    spell_id: 5209
+  - level: 28
+    name: Claw Rank 2
+    spell_id: 3029
+  - level: 28
+    name: Rip Rank 2
+    spell_id: 9492
+  - level: 28
+    name: Rejuvenation Rank 5
+    spell_id: 2091
+  single_target:
+  - priority: 1
+    action: Insect Swarm / Moonfire pull, or Prowl in; Faerie Fire (Feral) from 25
+    condition: pull
+    source: '[[d:druid#1427914229494710423]] [[d:druid#1476991316775931974]]'
+  - priority: 2
+    action: Tiger's Fury
+    condition: from 26 (Blood Frenzy), buff missing; off GCD; skip before the talent
+    source: '[[d:druid#1463118416008183876]] [[d:druid#1454154979450552415]]'
+  - priority: 3
+    action: Rake
+    condition: from 24, Rake missing
+  - priority: 4
+    action: Claw
+    condition: build combo points
+  - priority: 5
+    action: Rip
+    condition: 1-2 combo points on fast-dying mobs; 5 on tough ones
+    source: '[[d:druid#1488331103730139168]] [[d:druid#1437413011580256336]]'
+  - priority: 6
+    action: Claw until dead; Ferocious Bite only if it kills
+    condition: ignore combo points at low level
+    source: '[[d:druid#1467987874593898496]] [[d:druid#1508522976016859156]]'
+  - priority: 7
+    action: Shred instead of Claw
+    condition: grouped and behind the mob
+    source: '[[d:druid#1489369901381718197]]'
+  - priority: 8
+    action: Shred; Ferocious Bite at 3-4 combo points
+    condition: bleed-immune mob
+    source: '[[d:druid#1467979995988361497]]'
+  - priority: 9
+    action: Feral Charge (Bear) or Bash
+    condition: mob flees
+    source: '[[d:druid#1442171109985357835]]'
+  - priority: 10
+    action: shift out, heal, shift back
+    condition: out of combat; mana regenerates in Cat
+    source: '[[d:druid#1491816026214633512]]'
+  multi_target:
+  - priority: 1
+    action: DoT pull, Bear Form, Swipe + tab-Maul
+    condition: 2-3 mobs; cat has no AoE
+    source: '[[d:druid#1460831352915103879]] [[d:druid#1294200215435219027]]'
+  tank:
+  - priority: 1
+    action: Regrowth, Rejuvenation, Cat Form, Tiger's Fury, Bear Form ~10 s before pull
+    condition: from 26; Blood Frenzy survives the shift
+    source: '[[d:druid#1472398513760637101]] [[d:druid#1444967001121357986]]'
+  - priority: 2
+    action: Faerie Fire (Feral)
+    condition: pull and loose adds
+    source: '[[d:druid#1491140379490390106]]'
+  - priority: 3
+    action: Feral Charge
+    condition: interrupt a caster or reach the next pack; no threat, never a pull
+    source: '[[d:druid#1478421765855383685]] [[d:druid#1433148306586075292]]'
+  - priority: 4
+    action: Challenging Roar
+    condition: pack runs at the healer; 10-minute cooldown
+    source: '[[d:druid#1411769744175923270]]'
+  - priority: 5
+    action: Cat Form + Shred
+    condition: finish a single mob once threat is safe
+    source: '[[d:druid#1444972918290383024]]'
+  heal:
+  - priority: 1
+    action: Healing Touch Rank 4 as the spammable heal
+    condition: steady damage
+    source: '[[d:druid#1367313040151679067]] [[d:druid#1334875425196867588]]'
+  - priority: 2
+    action: Rebirth (out of form)
+    condition: a player dies
+    source: '[[d:druid#1460640945753165854]]'
+  - priority: 3
+    action: Remove Curse
+    condition: curse on a party member (from 24)
+- levels: 30-39
+  spec: Feral (respec with Omen of Clarity)
+  new_abilities:
+  - level: 30
+    name: Travel Form
+    spell_id: 783
+  - level: 30
+    name: Tranquility Rank 1
+    spell_id: 740
+  - level: 30
+    name: Regrowth Rank 4
+    spell_id: 8940
+  - level: 30
+    name: Shred Rank 2
+    spell_id: 6800
+  - level: 30
+    name: Omen of Clarity
+    spell_id: 16864
+    source: talent (respec at 30)
+  - level: 30
+    name: Sylvan Blessing
+    spell_id: 51421
+    source: talent (respec at 30)
+  - level: 32
+    name: Ravage Rank 1
+    spell_id: 6785
+  - level: 32
+    name: Ferocious Bite Rank 2
+    spell_id: 22568
+  - level: 32
+    name: Healing Touch Rank 6
+    spell_id: 6778
+  - level: 34
+    name: Maul Rank 4
+    spell_id: 8972
+  - level: 34
+    name: Rake Rank 2
+    spell_id: 1823
+  - level: 34
+    name: Swipe Rank 3
+    spell_id: 769
+  - level: 34
+    name: Rejuvenation Rank 6
+    spell_id: 3627
+  - level: 36
+    name: Pounce Rank 1
+    spell_id: 9005
+  - level: 36
+    name: Frenzied Regeneration Rank 1
+    spell_id: 22842
+  - level: 36
+    name: Rip Rank 3
+    spell_id: 9493
+  - level: 36
+    name: Tiger's Fury Rank 2
+    spell_id: 6793
+  - level: 36
+    name: Regrowth Rank 5
+    spell_id: 8941
+  - level: 38
+    name: Claw Rank 3
+    spell_id: 5201
+  - level: 38
+    name: Shred Rank 3
+    spell_id: 8992
+  - level: 38
+    name: Healing Touch Rank 7
+    spell_id: 8903
+  single_target:
+  - priority: 1
+    action: Prowl, Tiger's Fury, Pounce, Faerie Fire (Feral), Rake, Claw, Rip, Claw, Bite
+    condition: from 36 (Pounce + Blood Frenzy back)
+    source: '[[d:druid#1489369792446988350]] [[d:druid#1444605330041602069]]'
+  - priority: 2
+    action: Faerie Fire (Feral), Rake, Claw, Rip, Claw
+    condition: '30-35 (no Blood Frenzy: skip Tiger''s Fury)'
+  - priority: 3
+    action: Shred (behind) or Claw
+    condition: Clearcasting proc
+    source: '[[d:druid#1427967004635037858]] https://forum.turtlecraft.gg/viewtopic.php?p=165907#p165907'
+  - priority: 4
+    action: Rip at 1-4 combo points; 5 on tough mobs
+    condition: mob dies fast
+    source: '[[d:druid#1488330626565144576]]'
+  multi_target:
+  - priority: 1
+    action: Bear Form, Swipe + tab-Maul; spend Clearcasting on Swipe
+    condition: 2-3 mobs
+    source: https://forum.turtlecraft.gg/viewtopic.php?p=165907#p165907
+  tank:
+  - priority: 1
+    action: spend Clearcasting on Swipe or Maul
+    condition: Omen proc
+    source: '[[d:druid#1491093646400032778]]'
+  - priority: 2
+    action: do not rely on Frenzied Regeneration
+    condition: it heals little
+    source: '[[d:druid#1308006939296403456]]'
+  heal:
+  - priority: 1
+    action: Healing Touch or Regrowth
+    condition: Clearcasting proc (free cast)
+    source: '[[d:druid#1484119752631910470]] [[d:druid#1463959311301480509]]'
+  - priority: 2
+    action: Moonfire a nearly dead mob
+    condition: fish Sylvan Blessing (own killing blow only)
+    source: '[[d:druid#1444037598510055424]]'
+  - priority: 3
+    action: Tranquility (shift out of form)
+    condition: whole party low
+    source: '[[d:druid#1360346299471495358]]'
+- levels: 40-49
+  spec: Feral
+  new_abilities:
+  - level: 40
+    name: Dire Bear Form
+    spell_id: 9634
+  - level: 40
+    name: Innervate
+    spell_id: 29166
+  - level: 40
+    name: Hurricane Rank 1
+    spell_id: 16914
+  - level: 40
+    name: Ferocious Bite Rank 3
+    spell_id: 22827
+  - level: 40
+    name: Rejuvenation Rank 7
+    spell_id: 8910
+  - level: 41
+    name: Ancient Brutality
+    spell_id: 51415
+    source: talent (41-42)
+  - level: 42
+    name: Maul Rank 5
+    spell_id: 9745
+  - level: 42
+    name: Regrowth Rank 6
+    spell_id: 9750
+  - level: 43
+    name: Primal Fury
+    spell_id: 45719
+    source: talent (43-44)
+  - level: 44
+    name: Barkskin
+    spell_id: 22812
+  - level: 44
+    name: Barkskin (Feral) Rank 1
+    spell_id: 51401
+  - level: 44
+    name: Rake Rank 3
+    spell_id: 1824
+  - level: 44
+    name: Rip Rank 4
+    spell_id: 9752
+  - level: 44
+    name: Swipe Rank 4
+    spell_id: 9754
+  - level: 44
+    name: Healing Touch Rank 8
+    spell_id: 9758
+  - level: 45
+    name: Berserk
+    spell_id: 45708
+  - level: 46
+    name: Shred Rank 4
+    spell_id: 9829
+  - level: 46
+    name: Pounce Rank 2
+    spell_id: 9823
+  - level: 46
+    name: Rejuvenation Rank 8
+    spell_id: 9839
+  - level: 48
+    name: Claw Rank 4
+    spell_id: 9849
+  - level: 48
+    name: Ferocious Bite Rank 4
+    spell_id: 22828
+  - level: 48
+    name: Tiger's Fury Rank 3
+    spell_id: 9845
+  - level: 48
+    name: Regrowth Rank 7
+    spell_id: 9856
+  single_target:
+  - priority: 1
+    action: Tiger's Fury, Rake, Rip, spam Claw
+    condition: with Ancient Brutality (bleed ticks refund energy)
+    source: '[[d:druid#1488360033426342001]]'
+  - priority: 2
+    action: keep building on crits
+    condition: Primal Fury adds a combo point per crit
+    source: '[[d:druid#1471028199185059967]]'
+  tank:
+  - priority: 1
+    action: Barkskin in caster form, then shift
+    condition: before a hard pull; 60 s cooldown; -20% attack speed
+    source: '[[d:druid#1488905914017906758]] [[d:druid#1432725711852146830]]'
+  - priority: 2
+    action: Barkskin (Feral)
+    condition: emergency; 10-minute cooldown
+    source: '[[d:druid#1465653427081187378]]'
+  - priority: 3
+    action: Berserk
+    condition: feared
+    source: '[[d:druid#1462684604111519827]]'
+  - priority: 4
+    action: mix Maul + Swipe, cycle targets
+    condition: 3+ mobs, after Primal Fury
+    source: '[[d:druid#1394955453666037823]]'
+  - priority: 5
+    action: Innervate the healer
+    condition: healer out of mana
+  heal:
+  - priority: 1
+    action: Innervate self
+    condition: low mana; ~100% regen for 15 s at high Spirit
+    source: '[[d:druid#1465410896120643595]]'
+  - priority: 2
+    action: consider a resto respec
+    condition: 'untalented healing limit contested: ~45, 50+ or 60 dungeons'
+    source: '[[d:druid#1484119752631910470]] [[d:druid#1491880047932604508]] [[d:druid#1493363757907312831]]'
+- levels: 50-60
+  spec: Feral
+  new_abilities:
+  - level: 50
+    name: Healing Touch Rank 9
+    spell_id: 9888
+  - level: 50
+    name: Maul Rank 6
+    spell_id: 9880
+  - level: 51
+    name: Carnage
+    spell_id: 16998
+    source: talent (51-52)
+  - level: 52
+    name: Rip Rank 5
+    spell_id: 9894
+  - level: 52
+    name: Rejuvenation Rank 9
+    spell_id: 9840
+  - level: 53
+    name: Leader of the Pack
+    spell_id: 17007
+    source: talent
+  - level: 54
+    name: Rake Rank 4
+    spell_id: 9904
+  - level: 54
+    name: Shred Rank 5
+    spell_id: 9830
+  - level: 54
+    name: Swipe Rank 5
+    spell_id: 9908
+  - level: 54
+    name: Regrowth Rank 8
+    spell_id: 9857
+  - level: 56
+    name: Ferocious Bite Rank 5
+    spell_id: 22829
+  - level: 56
+    name: Healing Touch Rank 10
+    spell_id: 9889
+  - level: 56
+    name: Furor
+    spell_id: 17056
+    source: talent (56-60)
+  - level: 58
+    name: Savage Bite
+    spell_id: 45736
+  - level: 58
+    name: Maul Rank 7
+    spell_id: 9881
+  - level: 58
+    name: Claw Rank 5
+    spell_id: 9850
+  - level: 58
+    name: Rejuvenation Rank 10
+    spell_id: 9841
+  - level: 60
+    name: Rip Rank 6
+    spell_id: 9896
+  - level: 60
+    name: Tiger's Fury Rank 4
+    spell_id: 9846
+  - level: 60
+    name: Regrowth Rank 9
+    spell_id: 9858
+  - level: 60
+    name: Reshift
+    spell_id: 47379
+  single_target:
+  - priority: 1
+    action: Tiger's Fury, Rake, Rip, Claw to 5, Ferocious Bite (refreshes bleeds)
+    condition: Carnage
+    source: '[[d:druid#1434049222940033114]]'
+  - priority: 2
+    action: Reshift, then Tiger's Fury
+    condition: energy < 30, no tick due, TF < 3 s left; up to 60 energy with Furor + Wolfshead enchant
+    source: '[[d:druid#1480881704733511861]] [[d:druid#1459798058324725914]]'
+  tank:
+  - priority: 1
+    action: Cat Form, Tiger's Fury, Bear Form (+~15 rage), Mighty Rage Potion; Berserk when Blood Frenzy ends
+    condition: pre-pull
+    source: '[[d:druid#1472410728739770508]] [[d:druid#1488823880549273600]]'
+  - priority: 2
+    action: Maul
+    condition: always
+    source: '[[d:druid#1491404394812407858]]'
+  - priority: 3
+    action: Swipe
+    condition: more than 2 mobs or rage full
+    source: '[[d:druid#1491404394812407858]]'
+  - priority: 4
+    action: Savage Bite
+    condition: above 50 rage; no shared GCD with Maul/Swipe
+    source: '[[d:druid#1491404394812407858]] [[d:druid#1436445990809899018]]'
+  - priority: 5
+    action: Hibernate one mob per 3-4 pack
+    condition: Black Morass
+    source: '[[d:druid#1460295750545314016]] [[d:druid#1460287082483421340]]'
+  heal:
+  - priority: 1
+    action: max-rank Healing Touch
+    condition: best healing per mana at leveling gear
+    source: '[[d:druid#1484189596945223801]]'
+play_loop:
+  opener:
+  - Prowl
+  - Tiger's Fury (just before an energy tick)
+  - Pounce
+  - Rake
+  - Rip
+  - Claw to 5 combo points
+  - Ferocious Bite
+  - 'no stealth: Faerie Fire (Feral) first'
+  single_target:
+  - priority: 1
+    action: Tiger's Fury
+    condition: buff missing; off GCD
+  - priority: 2
+    action: Rip
+    condition: bleedable, Rip missing, 5 CP (1-3 CP if fight < ~30 s)
+  - priority: 3
+    action: Ferocious Bite
+    condition: 5 CP and Rip up (Carnage refreshes bleeds)
+  - priority: 4
+    action: Rake
+    condition: bleedable, Rake missing
+  - priority: 5
+    action: Shred
+    condition: Clearcasting and behind
+  - priority: 6
+    action: Claw
+    condition: filler
+  - priority: 7
+    action: Reshift then Tiger's Fury
+    condition: energy < 28-30, no tick due, TF < 3 s left
+  - priority: 8
+    action: 'bleed-immune: Tiger''s Fury > Ferocious Bite at 5 CP > Shred > Reshift below 28 energy'
+    condition: target bleed-immune
+  aoe:
+    targets_min: 3
+    loop:
+    - keep single-target rotation on the kill target (no cat AoE)
+    - shift to Bear and Swipe only if the tank needs help
+    - Hurricane from caster form only with a spell-power set or Atiesh
+  cooldowns:
+  - 'Tiger''s Fury: 100% uptime, off GCD'
+  - 'Berserk: 6-minute cooldown, long bleedable bosses'
+  - 'on-use trinkets: pull and last 20%'
+  guide_section: guide/classes/druid/feral-cat.md#how-to-play

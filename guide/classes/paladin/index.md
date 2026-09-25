@@ -72,6 +72,8 @@ Only **Human, Dwarf and High Elf** can be paladins [[d:paladin#14869067291104420
 
 ## Professions
 
-- **Engineering** is the only profession that matters for raid performance, in every role: "the only main profession that benefits you in raids is engineering" [[d:paladin#1486890674321096929]], because "no other proffession offers unique enchants/abilities" [[d:paladin#1437832214326022334]]. Sappers, grenades and (for Prot and farming) the Force Reactive Disk [[d:paladin#1488941850139033770]]. It is "not required unless you're planning to be even semi serious in raids" [[d:paladin#1429188657431969863]].
-- **Blacksmithing** is good for making your own leveling gear [[d:paladin#1456908911972974754]]; Swordsmithing makes the Tempered Runeblade, a pre-raid spellret weapon ("gives bis sword for 2 phases of a server") [[d:paladin#1428433981707124838]].
-- **Gathering** (two of Herbalism, Mining, Skinning) while leveling [[d:paladin#1436709623355932702]]; your second main profession can be anything [[d:paladin#1486890896782790758]].
+- **Level with two of Herbalism, Mining and Skinning** [[d:paladin#1436709623355932702]].
+- **At 60, take Engineering.** "The only main profession that benefits you in raids is engineering" [[d:paladin#1486890674321096929]], because "no other proffession offers unique enchants/abilities" [[d:paladin#1437832214326022334]]. It gives Sappers, grenades and, for Prot and farming, the Force Reactive Disk [[d:paladin#1488941850139033770]]. It is "not required unless you're planning to be even semi serious in raids" [[d:paladin#1429188657431969863]]. The second main profession can be anything [[d:paladin#1486890896782790758]]. Keep Herbalism for lashers or Mining for ZG.
+- **Retribution:** Blacksmithing (Swordsmith) makes the Tempered Runeblade, a pre-raid Spellret weapon ("gives bis sword for 2 phases of a server") [[d:paladin#1428433981707124838]]. Otherwise Blacksmithing is only a leveling-gear profession [[d:paladin#1456908911972974754]].
+
+Full guide: [Professions](professions.md)

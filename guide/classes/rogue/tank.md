@@ -11,6 +11,19 @@
 
 **Contested:** Heffey calls it "functionally a non starter in a raid environment" [[d:rogue#1456019756397236472]]. Practitioners report tanking many Naxx bosses [[d:rogue#1479139872018137099]], and Epickalen calls rogue threat problems "propaganda" [[d:rogue#1471425077223620619]]. Devs have not added a taunt [[d:rogue#1448063039701254328]]. Tank players ran a forum campaign for a Physical version of Agitating Poison ([forum thread t=23930](https://forum.turtlecraft.gg/viewtopic.php?t=23930)), with no change as of 2026-04 [[d:rogue#1475438629332586507]].
 
+## How to play
+
+The loop for the **33/18/0 poison-avoidance tank**. It is a dungeon and off-tank role; you have **no taunt**. Details: [Rotation (avoidance chain)](#rotation-avoidance-chain), [Where it works](#where-it-works).
+
+1. **Pull:** coat your weapons with **Agitating Poison**, or Corrosive on valid targets [[d:rogue#1462134848415338742]]. Pull before the DPS start, because you cannot taunt a mob back.
+2. **First GCDs:** **Ghostly Strike → 1-point Flourish**, then the normal threat rotation [[d:rogue#1489567787620896880]]. On a pack, turn **Blade Flurry** on with Ghostly Strike [[d:rogue#1314468356580966400]].
+3. **Steady threat loop:** **Noxious Assault** spam with Agitating Poison, and **Envenom** at 1 point for poison threat [[d:rogue#1346462072153702481]]. **Riposte** whenever it is up.
+4. **Avoidance chain (keep it rolling):** Ghostly Strike → Flourish → Ghostly Strike → **Evasion** → Ghostly Strike → Flourish → Ghostly Strike [[d:rogue#1471063134339858453]]. Juju Escape extends it [[d:rogue#1464675980151886085]].
+5. **Multiple mobs:** there is no AoE threat tool. Cleave with Blade Flurry and swap targets to spread threat [[d:rogue#1479145606654988469]]. On 4-mob packs, **Sap** one and **Blind** one [[d:rogue#1471053347518681149]].
+6. **Threat recovery and swaps:** you can't taunt. Hand a boss over by lowering your own threat with Feint or Vanish [[d:rogue#1473169875227639943]]. In a group with a Subtlety rogue tank, Mark for Death → Shadow of Death is a threat burst [[d:rogue#1494762649739853886]].
+7. **Defensive rules:** never let Flourish and Ghostly Strike run out at the same time; that is when you get crit [[d:rogue#1471063504709484586]]. Save Evasion for that gap. Stamina covers the spell damage you cannot dodge.
+8. **Avoid:** nature-immune bosses (Agitating Poison does nothing to them), taunt-swap fights, heavy spellcasters and big trash pulls [[d:rogue#1473170462539251824]], [[d:rogue#1471059228574879856]].
+
 ## Talent build
 
 ### Poison-avoidance tank, 33/18/0

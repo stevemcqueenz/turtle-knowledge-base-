@@ -10,6 +10,19 @@
 | Strengths | Windfury burst, self-Bloodlust, party buffs, cleave via Fire Nova and Chain Lightning, can off-tank with the same talents ([Tank](tank.md)) |
 | Weaknesses | RNG-heavy damage; threat spikes from Windfury crits (see [Threat](#threat)); mana on long fights; only slow axes and maces (no swords, no dual wield) [[d:shaman#1423472024092934196]], [[d:shaman#1467620073719075008]] |
 
+## How to play
+
+The loop a player keeps in mind (or a bot runs) at level 60 with the [17/34/0 build](#raid-17340-recommended). Details: [Single target](#single-target-rotation), [AoE](#aoe-rotation), [Cooldowns](#cooldowns), [Threat](#threat).
+
+1. **Before the pull:** Windfury Weapon on the weapon, Lightning Shield up, group totems down (Strength of Earth, Windfury, Flametongue, Mana Spring; see [Totems](#totems-for-enhancement)). Let the tank build a lead first [[d:shaman#1356065572231839866]].
+2. **Opener:** let the first white swing land, then Stormstrike [[d:shaman#1434594354118524958]]; Flame Shock as the first shock if the target lives more than ~9 s and is not fire-immune.
+3. **Single-target loop:** **Stormstrike > Lightning Strike (Rank 3) > shock** on cooldown, auto-attack in between [[d:shaman#1450924897978023976]]. The shock is always Flame Shock → Earth Shock → Earth Shock, with Stormstrike before each Earth Shock [[d:shaman#1489381819735605390]]. Never hold a strike for a Windfury window.
+4. **Cooldowns:** Bloodlust (5 min) at the start once Stormstrike and a shock are rolling, stacked with Blood Fury/Berserking, haste potions and on-use trinkets.
+5. **AoE switch:** at **3+ grouped targets** add Fire Nova Totem and Chain Lightning on Clearcasting; on big packs keep Fire Nova going while Chain Lightning is on cooldown; Magma only if mana allows.
+6. **Resources:** Lightning Shield on bosses, Water Shield on trash or when mana is short [[d:shaman#1457507332471783485]]; tea and mana potion on long fights; ask for Judgement of Wisdom.
+7. **Threat:** Calming Winds 3/3, Salvation + Tranquil Air Totem [[d:shaman#1486395760894414898]]; near the threat ceiling replace some Earth Shocks with Frost Shock or Flame Shock [[d:shaman#1486399922365530282]].
+8. **Movement / situational:** Flame Shock is your filler GCD while running in; skip Flame Shock on fire-immune bosses; re-drop totems when the group moves out of range (vanilla baseline).
+
 ## Talent build
 
 ### Raid 17/34/0 (recommended)

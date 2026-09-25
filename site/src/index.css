@@ -28,6 +28,9 @@
   --g-B-a: 0.22;
   --g-C-a: 0.1;
   --shadow: 0 1px 0 rgb(255 240 214 / 0.04) inset, 0 12px 32px -18px rgb(0 0 0 / 0.7);
+  /* backdrop of the instance maps: the minimap art is dark, so it stays dark in both themes */
+  --c-map-bg: 13 12 10;
+  --c-map-edge: 43 38 31;
   color-scheme: dark;
 }
 
@@ -48,6 +51,8 @@
   --g-B-a: 0.18;
   --g-C-a: 0.08;
   --shadow: 0 1px 0 rgb(255 255 255 / 0.6) inset, 0 12px 28px -20px rgb(70 48 16 / 0.35);
+  --c-map-bg: 38 33 26;
+  --c-map-edge: 74 64 50;
   color-scheme: light;
 }
 
@@ -115,6 +120,48 @@
 
   .panel {
     @apply rounded-2xl bg-surface2/60 hairline;
+  }
+
+  /* Instance maps (components/InstanceMap.tsx) */
+  .map-frame {
+    background:
+      radial-gradient(120% 90% at 50% 40%, rgb(var(--c-map-edge) / 0.55), transparent 70%),
+      rgb(var(--c-map-bg));
+  }
+
+  .map-marker {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.55rem;
+    height: 1.55rem;
+    padding: 0 0.3rem;
+    transform: translate(-50%, -50%);
+    border-radius: 9999px;
+    background: rgb(222 176 98);
+    color: rgb(24 18 8);
+    font: 700 0.75rem/1 ui-sans-serif, system-ui, sans-serif;
+    box-shadow: 0 0 0 2px rgb(13 12 10 / 0.9), 0 3px 8px rgb(0 0 0 / 0.55);
+    text-decoration: none;
+  }
+
+  .map-tool {
+    @apply inline-flex h-8 w-8 items-center justify-center rounded-full hairline bg-surface text-muted;
+  }
+
+  .map-tool:hover:not(:disabled) {
+    @apply text-ink;
+  }
+
+  .map-tool:disabled {
+    @apply opacity-40;
+  }
+
+  .map-marker:hover,
+  .map-marker:focus-visible {
+    background: rgb(250 226 170);
+    z-index: 2;
   }
 
   .chip {

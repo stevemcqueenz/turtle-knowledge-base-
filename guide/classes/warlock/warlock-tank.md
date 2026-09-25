@@ -17,6 +17,24 @@ Beyond that, a geared warlock can tank 5-man dungeons as a "void tank". It needs
 
 Tanking got much harder in 1.18.0. Master Demonologist lost the Voidwalker's +20% healing received, which "helped make up for our lack of avoidance stats" [[d:warlock#1447993848247746712]]. Power Overwhelming now costs base health, which killed the old pre-pull trick [[d:warlock#1455660288048369912]]. The class designer reportedly reacted to the idea with "What? Warlock tank? No way that works" [[d:warlock#1452809525798109224]].
 
+## How to play
+
+The tank loop at level 60. The details are in [Pull and threat loop](#pull-and-threat-loop) (5-man), [Threat rotation](#threat-rotation) (Twin Emperors) and [Where it works](#where-it-works).
+
+**5-man "void tank" (0/33/18, Wrathstone up):**
+
+1. **Pull:** send the Voidwalker in with Torment, or run in and chain-DoT with Felstone up.
+2. **First GCDs:**
+    - Caster or melee pairs: Immolate every target, then tab Searing Pain.
+    - Packs: DoT the group, then Hellfire once the mobs converge on you.
+3. **Steady threat:** keep Immolate up and cast Searing Pain on the kill target. Every fire spell gets the Wrathstone threat bonus.
+4. **Multi-mob threat:** Hellfire keeps the pack. Health Funnel, Felstone, Healthstone and Voidwalker Sacrifice are your only AoE healing-threat tools.
+5. **No taunt, so no threat recovery:** keep the group's burst in check. Death Coil or Fear a loose mob that heads for the healer. Against kicks, bait the interrupt and hold threat with a fire wand plus Immolate.
+6. **Defensive rules:** Soul Link and the Voidwalker's Master Demonologist bonus carry your damage reduction. Keep the Voidwalker alive with Health Funnel, and use Healthstone. **Contested:** whether potions such as Stoneshield make it practical (see the table above).
+7. **Avoid:** tanking before you have Wrathstone, Bane and Soul Link; any content with frequent silences or school lockouts (Stratholme); treating vampirism healing as threat.
+
+**Twin Emperors caster tank (0/17/34, shadow resistance):** after each teleport you need about 5k threat within a few seconds. Cast Immolate → Conflagrate → Searing Pain spam, with Shadow Ward on cooldown. Curse of Doom is an optional burst. Never cast Shadow Bolt, because it has no pushback protection. Park your pet in the middle of the room.
+
 ## Twin Emperors: shadow-resistance tank
 
 You tank **Vek'lor**, the caster, whose Shadow Bolts need shadow resistance.
@@ -110,7 +128,7 @@ Summonjutsu's "what I normally run for tanking 5 man's" [[d:warlock#145565714463
 Split **0/33/18**, validated with `talent_tool.py` (VALID). Calculator codes:
 `talents.turtlecraft.gg/warlock?points=-AoTIBoSYBQFAB-AoFYRAQ` ([Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=warlock&t=-050231150223012501-050532102)) · `talents.turtlecraft.gg/warlock/-52JB2F1H1-55K6C`
 
-- You "really can't do it until you get Wrathstone, Bane and Soul Link" [[d:warlock#1489010489030606961]]. Wrathstone comes at level 44 [[d:warlock#1379816702786801864]].
+- You "really can't do it until you get Wrathstone, Bane and Soul Link" [[d:warlock#1489010489030606961]]. **Contested:** spell data has Create Wrathstone as a trainer spell at level 42; a player reports not getting it until 44 [[d:warlock#1379816702786801864]].
 - **Soul Link** (20% of damage to the demon) plus Master Demonologist's Voidwalker 10% physical reduction "gets you on regular tank level, about 50% damage reduction together with armor" [[d:warlock#1486370117850763284]].
 - **Aftermath's** snare keeps trash inside Hellfire; **Pyroclasm's** stun works as proc-based avoidance [[d:warlock#1489010489030606961]].
 - W's alternative path: start as Demonology with Soul Link, then SM/Ruin, then full Destruction as your gear improves [[d:warlock#1486368023609872534]]. W also tanked dungeons and ZG as Fire with Wrathstone, switching to Soul Link Demonology for Hakkar [[d:warlock#1486355435609919620]].

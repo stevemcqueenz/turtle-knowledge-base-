@@ -722,3 +722,589 @@ stat_priority_note: 'Suppression covers 10% of the hit a warlock needs for Affli
   community wiki says "Haste and Hit" and one geared player says "as much haste as you can get", but the direct question "is
   Affli better with haste or full sp?" was asked and never answered. Rapid Deterioration''s 6% haste is multiplicative with
   gear haste, and the game rounds tick timing up to 0.04 s. Whether Dark Harvest is affected by hit at all is an open question.'
+leveling_gameplay:
+- levels: 1-9
+  spec: Affliction
+  new_abilities:
+  - level: 1
+    name: Summon Imp
+    spell_id: 688
+  - level: 1
+    name: Immolate Rank 1
+    spell_id: 348
+  - level: 4
+    name: Corruption Rank 1
+    spell_id: 172
+  - level: 4
+    name: Curse of Weakness
+    spell_id: 702
+  - level: 6
+    name: Life Tap Rank 1
+    spell_id: 1454
+  - level: 6
+    name: Shadow Bolt Rank 2
+    spell_id: 695
+  - level: 8
+    name: Curse of Agony Rank 1
+    spell_id: 980
+  - level: 8
+    name: Fear Rank 1
+    spell_id: 5782
+  single_target:
+  - priority: 1
+    action: send Imp
+  - priority: 2
+    action: Curse of Agony
+    condition: level 8+; instant, starts timer [[d:warlock#1429880192163250319]]
+  - priority: 3
+    action: Corruption
+    condition: level 4+
+  - priority: 4
+    action: Immolate
+    condition: levels 1-3, or target >50% HP before level 8
+  - priority: 5
+    action: wand (Shadow Bolt at 1-3)
+    condition: filler
+  - priority: 6
+    action: Life Tap
+    condition: HP near full and mana <50% [[d:warlock#1457856394010038566]]
+  - priority: 7
+    action: drink/eat
+    condition: both bars low (vanilla baseline)
+  multi_target:
+  - priority: 1
+    action: avoid multi-mob pulls
+    condition: Imp cannot tank
+  - priority: 2
+    action: DoT both, then Fear the one not on you
+    condition: level 8+; DoT before Fear [[d:warlock#1387410120182599772]]
+- levels: 10-19
+  spec: Affliction
+  new_abilities:
+  - level: 10
+    name: Summon Voidwalker
+    spell_id: 697
+  - level: 10
+    name: Drain Soul Rank 1
+    spell_id: 1120
+  - level: 10
+    name: Demon Armor Rank 2
+    spell_id: 696
+  - level: 10
+    name: Create Healthstone (Minor)
+    spell_id: 6201
+  - level: 12
+    name: Health Funnel Rank 1
+    spell_id: 755
+  - level: 12
+    name: Shadow Bolt Rank 3
+    spell_id: 705
+  - level: 14
+    name: Corruption Rank 2
+    spell_id: 6222
+  - level: 14
+    name: Drain Life Rank 1
+    spell_id: 689
+  - level: 14
+    name: Curse of Recklessness Rank 1
+    spell_id: 704
+  - level: 16
+    name: Life Tap Rank 2
+    spell_id: 1455
+  - level: 18
+    name: Curse of Agony Rank 2
+    spell_id: 1014
+  - level: 18
+    name: Searing Pain Rank 1
+    spell_id: 5676
+  - level: 18
+    name: Create Soulstone (Minor)
+    spell_id: 693
+  - level: 14
+    name: Improved Corruption (talent 5/5)
+    spell_id: 17814
+  - level: 17
+    name: Suppression (talent 3/5)
+    spell_id: 18176
+  - level: 18
+    name: Improved Life Tap (talent 1/2)
+    spell_id: 18182
+  - level: 19
+    name: Improved Drains (talent 1/2)
+    spell_id: 45913
+  single_target:
+  - priority: 1
+    action: send Voidwalker (Torment autocast)
+    condition: always first; send to next mob a few seconds before current dies [[d:warlock#1490124228727537755]]
+  - priority: 2
+    action: Curse of Agony
+    condition: missing; never clip [[d:warlock#1426230149959127154]]
+  - priority: 3
+    action: Corruption
+    condition: missing; instant from 14
+  - priority: 4
+    action: Drain Life
+    condition: own HP low (level 14+)
+  - priority: 5
+    action: Drain Soul or wand
+    condition: filler; Drain Soul 31.5 vs Drain Life 23 DPS at 15 [[d:warlock#1462037192196096116]]; contested vs wand
+  - priority: 6
+    action: Drain Soul finish
+    condition: need soul shards
+  - priority: 7
+    action: Life Tap
+    condition: HP near full and mana <50%
+  - priority: 8
+    action: Health Funnel Voidwalker
+    condition: between pulls, pet low (vanilla baseline)
+  multi_target:
+  - priority: 1
+    action: Voidwalker on mob A
+  - priority: 2
+    action: Curse of Agony + Corruption on A, then B
+  - priority: 3
+    action: Fear B
+    condition: after its DoTs; Curse of Recklessness keeps a feared mob from fleeing [[d:warlock#1490139514566344975]]
+  - priority: 4
+    action: drain/wand the mob on you
+  - priority: 5
+    action: do not add more mobs
+    condition: levels 17-19 (Torment rank lag [[d:warlock#1433032936160100373]]) or own HP <60%
+  tank:
+  - priority: 1
+    action: Voidwalker can tank/off-tank low dungeons with Health Funnel
+    condition: not beginner-friendly, loses multi-mob aggro [[d:warlock#1472406090791780585]]
+  - priority: 2
+    action: with a real tank bring the Imp
+    condition: ranged, stamina buff, fewer accidental pulls [[d:warlock#1455572117692354725]]
+- levels: 20-29
+  spec: Affliction
+  new_abilities:
+  - level: 20
+    name: Summon Succubus
+    spell_id: 712
+  - level: 20
+    name: Immolate Rank 3
+    spell_id: 1094
+  - level: 20
+    name: Shadow Bolt Rank 4
+    spell_id: 1088
+  - level: 20
+    name: Rain of Fire Rank 1
+    spell_id: 5740
+  - level: 20
+    name: Demon Armor Rank 3
+    spell_id: 706
+  - level: 20
+    name: Health Funnel Rank 2
+    spell_id: 3698
+  - level: 20
+    name: Ritual of Summoning
+    spell_id: 698
+  - level: 22
+    name: Drain Life Rank 2
+    spell_id: 699
+  - level: 22
+    name: Create Firestone
+    spell_id: 51692
+  - level: 24
+    name: Corruption Rank 3
+    spell_id: 6223
+  - level: 24
+    name: Drain Soul Rank 2
+    spell_id: 8288
+  - level: 24
+    name: Fear Rank 2
+    spell_id: 6213
+  - level: 26
+    name: Life Tap Rank 3
+    spell_id: 1456
+  - level: 26
+    name: Create Healthstone
+    spell_id: 5699
+  - level: 28
+    name: Curse of Agony Rank 3
+    spell_id: 6217
+  - level: 28
+    name: Curse of Recklessness Rank 2
+    spell_id: 7658
+  - level: 28
+    name: Shadow Bolt Rank 5
+    spell_id: 1106
+  - level: 28
+    name: Banish Rank 1
+    spell_id: 710
+  - level: 20
+    name: Improved Drains (talent 2/2)
+    spell_id: 45914
+  - level: 22
+    name: Fel Concentration (talent 2/2)
+    spell_id: 17784
+  - level: 25
+    name: Improved Curse of Agony (talent 3/3)
+    spell_id: 18830
+  - level: 28
+    name: Soul Siphon (talent 3/3)
+    spell_id: 52560
+  - level: 29
+    name: Nightfall (talent 1/2)
+    spell_id: 18094
+  single_target:
+  - priority: 1
+    action: send Voidwalker
+  - priority: 2
+    action: Curse of Agony
+    condition: missing
+  - priority: 3
+    action: Corruption
+    condition: missing
+  - priority: 4
+    action: Shadow Bolt
+    condition: Nightfall proc only (29+) [[d:warlock#1434098671196307637]]
+  - priority: 5
+    action: Drain Life
+    condition: own HP low
+  - priority: 6
+    action: Drain Soul or wand
+    condition: filler; drain tanking not online yet [[d:warlock#1410017237124780195]]
+  - priority: 7
+    action: Life Tap
+    condition: HP near full and mana <50%
+  multi_target:
+  - priority: 1
+    action: same 2-3 mob juggle as 10-19
+  - priority: 2
+    action: no Rain of Fire solo
+    condition: 295 mana at rank 1
+- levels: 30-39
+  spec: Affliction
+  new_abilities:
+  - level: 30
+    name: Summon Felhunter
+    spell_id: 691
+  - level: 30
+    name: Siphon Life (talent 1/1)
+    spell_id: 18265
+  - level: 30
+    name: Soul Fire Rank 1
+    spell_id: 6353
+  - level: 30
+    name: Hellfire Rank 1
+    spell_id: 1949
+  - level: 30
+    name: Immolate Rank 4
+    spell_id: 2941
+  - level: 30
+    name: Drain Life Rank 3
+    spell_id: 709
+  - level: 30
+    name: Enslave Demon Rank 1
+    spell_id: 1098
+  - level: 32
+    name: Curse of the Elements Rank 1
+    spell_id: 1490
+  - level: 32
+    name: Create Felstone
+    spell_id: 51698
+  - level: 34
+    name: Corruption Rank 4
+    spell_id: 7648
+  - level: 36
+    name: Life Tap Rank 4
+    spell_id: 11687
+  - level: 36
+    name: Shadow Bolt Rank 6
+    spell_id: 7641
+  - level: 38
+    name: Curse of Agony Rank 4
+    spell_id: 11711
+  - level: 38
+    name: Drain Life Rank 4
+    spell_id: 7651
+  - level: 38
+    name: Drain Soul Rank 3
+    spell_id: 8289
+  - level: 38
+    name: Siphon Life Rank 2
+    spell_id: 18879
+  - level: 31
+    name: Malediction (talent 1/1)
+    spell_id: 52546
+  - level: 32
+    name: Nightfall (talent 2/2)
+    spell_id: 18095
+  - level: 34
+    name: Rapid Deterioration (talent 2/2)
+    spell_id: 52556
+  - level: 39
+    name: Shadow Mastery (talent 5/5)
+    spell_id: 18275
+  single_target:
+  - priority: 1
+    action: send Voidwalker
+  - priority: 2
+    action: rank-1 Curse of Recklessness (Malediction applies max-rank Curse of Agony)
+    condition: 31+; 35 mana [[d:warlock#1446533749415346187]]; else Curse of Agony
+  - priority: 3
+    action: Corruption
+    condition: missing
+  - priority: 4
+    action: Siphon Life
+    condition: target lives its duration [[d:warlock#1429880384040210454]]
+  - priority: 5
+    action: Shadow Bolt
+    condition: Nightfall proc
+  - priority: 6
+    action: wand
+    condition: below level ~34
+  - priority: 7
+    action: Drain Life
+    condition: 34+, own HP low [[d:warlock#1490122722783789229]]
+  - priority: 8
+    action: Drain Soul
+    condition: 34+, filler
+  - priority: 9
+    action: Life Tap
+    condition: HP near full and mana <50%
+  - priority: 10
+    action: never Immolate
+    condition: from ~33 [[d:warlock#1487115677218115665]]
+  multi_target:
+  - priority: 1
+    action: Voidwalker on one mob
+  - priority: 2
+    action: curse + Corruption + Siphon Life on each (max 3)
+  - priority: 3
+    action: Fear one
+    condition: after DoTs
+  - priority: 4
+    action: drain the mob on you
+    condition: Siphon Life on all is your healing
+- levels: 40-49
+  spec: Affliction
+  new_abilities:
+  - level: 40
+    name: Dark Harvest (talent 1/1)
+    spell_id: 52550
+  - level: 40
+    name: Howl of Terror Rank 1
+    spell_id: 5484
+  - level: 40
+    name: Mana Funnel Rank 1
+    spell_id: 1941
+  - level: 40
+    name: Immolate Rank 5
+    spell_id: 11665
+  - level: 40
+    name: Fear Rank 3
+    spell_id: 6215
+  - level: 42
+    name: Death Coil Rank 1
+    spell_id: 6789
+  - level: 42
+    name: Hellfire Rank 2
+    spell_id: 11683
+  - level: 42
+    name: Create Wrathstone
+    spell_id: 51701
+  - level: 44
+    name: Curse of Shadow Rank 1
+    spell_id: 17862
+  - level: 44
+    name: Corruption Rank 5
+    spell_id: 11671
+  - level: 44
+    name: Shadow Bolt Rank 7
+    spell_id: 11659
+  - level: 46
+    name: Drain Life Rank 5
+    spell_id: 11699
+  - level: 46
+    name: Life Tap Rank 5
+    spell_id: 11688
+  - level: 48
+    name: Curse of Agony Rank 5
+    spell_id: 11712
+  - level: 48
+    name: Siphon Life Rank 3
+    spell_id: 18880
+  - level: 42
+    name: Grim Reach (talent 2/2)
+    spell_id: 18219
+  - level: 44
+    name: Suppression (talent 5/5)
+    spell_id: 18178
+  - level: 49
+    name: Shadow Vulnerability (talent 5/5)
+    spell_id: 17803
+  single_target:
+  - priority: 1
+    action: send Voidwalker
+    condition: you usually tank the mob yourself now [[d:warlock#1490117148272496680]]
+  - priority: 2
+    action: Curse of Shadow (Malediction adds Curse of Agony)
+    condition: 44+; before 44 rank-1 Recklessness [[d:warlock#1429880192163250319]]
+  - priority: 3
+    action: Curse of Agony
+    condition: 'fell off: recast manually [[d:warlock#1465281355674947646]]'
+  - priority: 4
+    action: Corruption
+    condition: missing
+  - priority: 5
+    action: Siphon Life
+    condition: missing, target lives its duration
+  - priority: 6
+    action: Shadow Bolt
+    condition: Nightfall proc
+  - priority: 7
+    action: Dark Harvest
+    condition: elites only [[d:warlock#1435341566393843712]]
+  - priority: 8
+    action: Drain Life
+    condition: own HP low
+  - priority: 9
+    action: Drain Soul
+    condition: filler
+  - priority: 10
+    action: Life Tap
+    condition: HP near full and mana <50%
+  - priority: 11
+    action: Death Coil then Healthstone
+    condition: emergency
+  multi_target:
+  - priority: 1
+    action: Voidwalker on first mob; DoT all (3-4)
+  - priority: 2
+    action: Fear one; Howl of Terror on a bad pull
+    condition: (vanilla baseline)
+  - priority: 3
+    action: train 4-5 with Curse of Exhaustion + DoTs
+    condition: only with the optional Exhaustion talents and enough mana [[d:warlock#1452397652628209725]]
+  tank:
+  - priority: 1
+    action: 5-man void tank not available on this path
+    condition: needs Wrathstone, Bane and Soul Link [[d:warlock#1489010489030606961]]; see warlock-tank.md
+- levels: 50-60
+  spec: Affliction
+  new_abilities:
+  - level: 50
+    name: Inferno
+    spell_id: 1122
+  - level: 50
+    name: Dark Harvest Rank 2
+    spell_id: 52551
+  - level: 50
+    name: Death Coil Rank 2
+    spell_id: 17925
+  - level: 52
+    name: Drain Soul Rank 4
+    spell_id: 11675
+  - level: 52
+    name: Create Voidstone
+    spell_id: 52752
+  - level: 52
+    name: Shadow Bolt Rank 8
+    spell_id: 11660
+  - level: 54
+    name: Corruption Rank 6
+    spell_id: 11672
+  - level: 54
+    name: Drain Life Rank 6
+    spell_id: 11700
+  - level: 54
+    name: Howl of Terror Rank 2
+    spell_id: 17928
+  - level: 56
+    name: Life Tap Rank 6
+    spell_id: 11689
+  - level: 58
+    name: Curse of Agony Rank 6
+    spell_id: 11713
+  - level: 58
+    name: Siphon Life Rank 4
+    spell_id: 18881
+  - level: 60
+    name: Drain Soul Rank 5
+    spell_id: 51687
+  - level: 60
+    name: Curse of Shadow Rank 2
+    spell_id: 17937
+  - level: 60
+    name: Dark Harvest Rank 3
+    spell_id: 52552
+  - level: 60
+    name: Ritual of Doom
+    spell_id: 18540
+  - level: 54
+    name: Demonic Embrace (talent 5/5)
+    spell_id: 18701
+  - level: 57
+    name: Soul Entrapment (talent 3/3)
+    spell_id: 51708
+  - level: 59
+    name: Demonic Aegis (talent 2/3)
+    spell_id: 45922
+  - level: 60
+    name: Demonic Sacrifice (talent 1/1)
+    spell_id: 18788
+  single_target:
+  - priority: 1
+    action: same as 40-49
+  - priority: 2
+    action: 'at 60: sacrifice Imp and switch to play_loop'
+  multi_target:
+  - priority: 1
+    action: dot 3-4 mobs, slow with Curse of Exhaustion, kite, Life Tap as HP tops off
+    condition: Felstone + Siphon Life keep resources level [[d:warlock#1464039321358176387]]
+play_loop:
+  opener:
+  - 'pre-pull: summon Imp, Demonic Sacrifice (Succubus if threat-capped)'
+  - haste/SP cooldowns
+  - assigned curse (Malediction adds Curse of Agony)
+  - Corruption
+  - Siphon Life
+  - Drain Soul
+  - 'threat-tight alternative: Siphon Life > Corruption > curse > Drain Soul'
+  single_target:
+  - priority: 1
+    action: Shadow Bolt
+    condition: Nightfall proc; break Drain Soul, never Dark Harvest
+  - priority: 2
+    action: assigned curse
+    condition: missing
+  - priority: 3
+    action: Curse of Agony
+    condition: missing (Malediction does not refresh it)
+  - priority: 4
+    action: Corruption
+    condition: missing
+  - priority: 5
+    action: Siphon Life
+    condition: missing and target lives 30 s
+  - priority: 6
+    action: Dark Harvest
+    condition: Shadow Vulnerability up, all DoTs >=~10 s, 8 s uninterrupted; else finisher
+  - priority: 7
+    action: Drain Soul
+    condition: filler; cancel right after a tick
+  - priority: 8
+    action: Life Tap
+    condition: mana below next cycle
+  aoe:
+    targets_min: 2
+    loop:
+    - priority: 1
+      action: curse + Corruption on each, drain the kill target
+      condition: 2-3 targets living >~10 s
+    - priority: 2
+      action: one Corruption + Drain Soul, or curse only
+      condition: trash dying <~10 s
+    - priority: 3
+      action: never dot more than 3 targets
+    - priority: 4
+      action: spread Siphon Life, then Hellfire/Rain of Fire
+      condition: 5+ stacked mobs; warn tank
+  cooldowns:
+  - trinkets/potions before (re)applying DoTs (snapshot)
+  - 'Death Coil: emergency heal'
+  - 'Limited Invulnerability Potion: threat drop'

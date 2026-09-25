@@ -10,6 +10,18 @@
 | Strengths | Sustained threat on long bosses; huge HP; flexes to cat DPS and off-tank; the "best all-around dungeon tank" [[d:druid#1491518238188638258]] |
 | Weaknesses | No parry or block, so no crit/crush immunity; about 2x the damage taken of other tanks [[d:druid#1486520160226381896]]; dodged or parried openers leave no fallback [[d:druid#1486709286619971636]]; Swipe hits only 3 targets [[d:druid#1491131804730785893]] |
 
+## How to play
+
+The level-60 tank loop; details and sources in the sections linked. For leveling dungeons, see [Gameplay by level](leveling.md#gameplay-by-level).
+
+1. **Pull (about 10 s before):** Regrowth → Rejuvenation → Cat Form → **Tiger's Fury** → Bear Form. Pull with **Faerie Fire (Feral)** or a ranged spell; never with Growl or Feral Charge ([pre-pull](#single-target-rotation)).
+2. **First GCDs:** Mighty Rage Potion → **Maul** + **Savage Bite** together (no shared GCD) → Maul on every swing → Faerie Fire (Feral) → **Enrage** or **Berserk** when the Blood Frenzy haste ends.
+3. **Steady threat:** **Maul** always → **Savage Bite** on Clearcasting or above 50 rage (every cooldown with T3 8-piece) → **Swipe** on 2+ mobs or above ~75 rage → Faerie Fire (Feral) as filler. When rage-starved, Reshift sparingly ([priority](#single-target-rotation)).
+4. **Multi-mob:** pre-HoT yourself, Maul the kill target, tab and Swipe the rest (3-target cap). Mark targets and ask DPS to wait for one Maul. With 4+ mobs, split them between tanks. Idol of Evergrowth plus Demoralizing Roar only for very large packs ([AoE threat](#aoe-threat)).
+5. **Taunt and recovery:** **Growl** (off the GCD) only to take a mob back, or after a double dodge or parry at the pull. When a pack runs loose, Limited Invulnerability Potion then **Challenging Roar** [[d:druid#1411769744175923270]].
+6. **Defensive cooldowns:** **Barkskin** (60 s; cast in caster form before shifting), **Barkskin (Feral)** (10 minutes) for spikes, Berserk to break fear. Skip Enrage when healers struggle. Bandages and potions work in form ([survival](#cooldowns-and-survival)).
+7. **Avoid:** Demoralizing Roar with a warrior in the group, stacking dodge, asking for shields, sappers in form, and dropping below the hit cap ([mistakes](#common-mistakes)).
+
 ## Talent build
 
 ### Tank 11/35/5 (recommended)

@@ -6,6 +6,7 @@ import { Markdown } from '../components/Markdown';
 import { PageHero } from '../components/layout/Page';
 import { ArrowRightIcon } from '../components/Icons';
 import { NotFound } from './NotFound';
+import { MAPS_INCLUDED } from '../components/InstanceMap';
 
 const cellText = (md: string) => plainText(md, 200);
 
@@ -70,8 +71,22 @@ export function InstancesPage() {
                         .map((c, ci) => [c, r.cells[ci] ?? ''] as const)
                         .filter(([c], ci) => ci > 0 && !/^page$/i.test(c));
                       const name = cellText(r.cells[0] ?? '');
+                      const thumb = MAPS_INCLUDED ? s?.mapThumb : null;
                       const inner = (
                         <>
+                          {thumb ? (
+                            <span className="map-frame -mx-4 -mt-4 mb-3 block overflow-hidden rounded-t-2xl border-b" aria-hidden="true">
+                              <img
+                                src={thumb.file}
+                                width={thumb.width}
+                                height={thumb.height}
+                                loading="lazy"
+                                decoding="async"
+                                alt=""
+                                className="mx-auto block h-28 w-full object-contain"
+                              />
+                            </span>
+                          ) : null}
                           <span className="flex items-start justify-between gap-3">
                             <span className="font-serif text-lg font-semibold leading-snug">{name}</span>
                             {r.slug ? <ArrowRightIcon className="mt-1.5 h-4 w-4 shrink-0 text-muted" /> : null}

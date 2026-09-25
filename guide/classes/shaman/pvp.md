@@ -13,6 +13,38 @@ PvP sources are thinner than PvE and mostly predate 1.18.1 (2026-03-20); post-pa
 - **1.18 PvP nerfs still in effect:** Purge has an 8-second cooldown; Nature's Swiftness became Ancestral Swiftness (damage spells cast with it deal 25% less) [[d:shaman#1405331266064089169]]; Grounding Totem's cooldown went up ~33% [[d:shaman#1406007562654056499]].
 - The 1.18.1 Rockbiter rework (Earthen Bulwark) was aimed at Restoration PvP tankiness [[d:shaman#1472960871213826213]].
 
+## How to play
+
+The level-60 PvP decision loop. The details are in [Burst and control sequences](#burst-and-control-sequences), [Defensive tools](#defensive-tools), [Battleground role](#battleground-role) and [Matchups](#matchups).
+
+**Damage (spellhance / Enhancement-Elemental hybrid):**
+
+1. **Before the fight:** Lightning Shield up; shield equipped vs Warrior, Rogue, Ret, Feral and Hunter, two-hander only to burst squishies [[d:shaman#1365197906990071882]]. Travel in Ghost Wolf if rogues are around: it makes you a Beast, so you can't be Sapped (but Hibernate works) [[d:shaman#1470853297660366872]], [[d:shaman#1470853835948953652]].
+2. **Opener and burst:** shock → two totems → auto → Stormstrike, then Stormstrike-buffed Earth Shock; the whole burst fits in about two GCDs [[d:pvp-general#1425207495894499328]]. Against a warlock or mage in the open, burn your cooldowns at the start or you lose [[d:shaman#1439784444381630594]].
+3. **Control chain:** Earth Shock interrupt → **Hex** (Troll, 5-min cooldown) → Earth Shock when the 6 s shock cooldown is back [[d:shaman#1418338864245903492]], [[d:shaman#1471611308167139483]]. Tauren: shock → Totemic Slam/War Stomp → shock, or stomp → self-heal [[d:shaman#1471610841274253365]]. Hexed targets still auto-attack.
+4. **Kite melee:** Frost Shock + Earthbind Totem, Fire Nova and Searing Totem, all instant [[d:shaman#1449322892763598910]]. Once Frost Shock hits diminishing returns, switch to Earthbind [[d:shaman#1316790501432627201]].
+5. **Defence:** drop Grounding Totem (20 s cooldown) before a Polymorph or a big nuke; it does nothing against rogue abilities [[d:shaman#1425240856520294421]]. Free-action and invulnerability potions are your escape; you have no charge, stealth or sprint [[d:shaman#1445315487784243322]]. Flame Shock rogues and cats so they can't re-stealth [[d:shaman#1425663325747806269]].
+6. **Target:** healers first, with shocks and Hex; Purge seals, blessings and shields (8 s cooldown, magic buffs only) [[d:pvp-general#1424861955998351412]].
+7. **Reset:** break line of sight, then heal yourself; drink out of combat (vanilla baseline).
+
+**Restoration (13/17/21):**
+
+1. **Before the fight:** Earth Shield on yourself and open in Ghost Wolf against rogues [[d:shaman#1470853297660366872]]; Water Shield with Totem of the Tides can knock a close rogue or druid out of stealth [[d:shaman#1470855625066942617]].
+2. **Default heals:** Earth Shield lets you heal in people's faces when they have no interrupt [[d:shaman#1494671492556918784]]. Use single-target Healing Wave / Lesser Healing Wave in small fights; Chain Heal only when the team is stacked in a big BG fight [[d:shaman#1470853509183180850]], [[d:shaman#1470853945797640234]].
+3. **Triage:** expect to be focused first [[d:shaman#1470853367684141166]]. Keep yourself alive, then the target being trained (vanilla baseline).
+4. **Emergency:** Ancestral Swiftness (3-min cooldown) is your one instant heal; every other heal is a hard cast, so a team that tunnels you can lock you out [[d:shaman#1494663845619437609]].
+5. **Utility:** Earth Shock the enemy healer's casts; Grounding Totem against CC; Purge enemy buffs; Poison Cleansing Totem no longer removes Blind [[d:shaman#1440024319504683029]].
+6. **Mana:** in a big fight, heal until oom from a safe spot [[d:shaman#1470853945797640234]]. Drink between fights (vanilla baseline).
+
+**Vs class** (full table in [Matchups](#matchups)):
+
+- **Warlock:** Curse of Exhaustion out-slows Frost Shock; abuse line of sight [[d:shaman#1469487274608689375]].
+- **Rogue:** open in Ghost Wolf, without the Insignia a stunlock kills you [[d:shaman#1468558047394664608]]; shield up, Flame Shock against re-stealth.
+- **Mage:** Grounding Totem eats Polymorph and Frostbolt [[d:pvp-general#1423693001900687421]].
+- **Druid:** watch for Hibernate while in Ghost Wolf.
+- **Paladin:** Purge seals and blessings.
+- **Warrior / Hunter:** favourable; shield vs warriors and Weapon Chain vs Disarm [[d:pvp-general#1432642448622096424]].
+
 ## Builds
 
 ### Restoration PvP 13/17/21 (healer)

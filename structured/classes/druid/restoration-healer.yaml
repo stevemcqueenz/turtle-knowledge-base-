@@ -788,3 +788,37 @@ gaps:
 - No numeric Healing Power / Intellect stat weight
 - No Restoration-specific consumable list beyond the shared caster list
 - No pre-raid BiS text list (external sheets only)
+play_loop:
+  opener:
+  - 'pre-pull: Rejuvenation then Regrowth (Rank 9) on the tank'
+  heal:
+  - priority: 1
+    action: Nature's Swiftness + max-rank Healing Touch, or Swiftmend
+    condition: tank below ~30%
+  - priority: 2
+    action: Swiftmend
+    condition: a HoT about to expire
+  - priority: 3
+    action: Rejuvenation (max rank)
+    condition: damaged target without it; before Regrowth (Preservation)
+  - priority: 4
+    action: Regrowth
+    condition: tank and spiky damage (Rank 9 tanks/melee, Rank 4 casters/healers/pets)
+  - priority: 5
+    action: Tranquility (out of Tree Form)
+    condition: whole raid low; 30-minute cooldown
+  - priority: 6
+    action: no HoT
+    condition: target at full health
+  - priority: 7
+    action: Abolish Poison / Remove Curse
+    condition: poison or curse on a raid member
+  cooldowns:
+  - 'Nature''s Swiftness: emergency Healing Touch'
+  - 'Tranquility: 1-2 per raid'
+  - 'Innervate: self, with a Spirit weapon swapped in first'
+  resource_rules:
+  - lower ranks on trash, higher on bosses
+  - Tea and Mana Potions on cooldown
+  - 'second resto druid: split Rejuvenation / Regrowth duty'
+  guide_section: guide/classes/druid/restoration.md#how-to-play

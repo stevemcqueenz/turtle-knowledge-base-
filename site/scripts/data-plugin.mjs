@@ -104,6 +104,7 @@ function summarizeInstances(inst) {
       blurb: stripTags(String(p.intro ?? '').split(/\n\s*\n/)[0]).replace(/^Summary:\s*/i, '').slice(0, 260),
       sections: p.sections.map((s) => ({ id: s.id, heading: stripTags(s.heading) })),
       bosses: p.sections.flatMap((s) => headingsOf(s.markdown, H3)),
+      mapThumb: p.map?.thumb ?? null,
     })),
   };
 }

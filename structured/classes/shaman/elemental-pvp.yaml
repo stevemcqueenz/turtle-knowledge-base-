@@ -592,3 +592,97 @@ stat_priority:
 stat_priority_note: 'Single source (Aluevera 2025-05-21): "u are still ele so u prio SP", with stamina picked up from quest
   rings and necks (up to about 5.4k HP in full T2.5). Spell penetration matters against Nature-resistance gear. No PvP hit
   target is stated anywhere, and the 1.18.1 PvP sets'' resilience values were never published for shaman.'
+play_loop:
+  guide_section: guide/classes/shaman/pvp.md#how-to-play
+  opener:
+  - Lightning Shield up; 1H + shield vs Warrior/Rogue/Ret/Feral/Hunter, 2H only to burst squishies
+  - travel in Ghost Wolf if rogues are expected (Beast form cannot be Sapped; Hibernate can hit it)
+  - 'burst in ~2 GCDs: shock -> two totems -> auto -> Stormstrike -> Stormstrike-buffed Earth Shock'
+  - vs warlock or mage in the open, use cooldowns at the start
+  single_target:
+  - priority: 1
+    action: Earth Shock
+    condition: interrupt a heal/cast, or burst after Stormstrike (6 s shock cooldown)
+  - priority: 2
+    action: Hex
+    condition: Troll; right after an Earth Shock interrupt, then Earth Shock again
+  - priority: 3
+    action: Flame Shock
+    condition: rogue or cat, to stop re-stealth
+  - priority: 4
+    action: Frost Shock
+    condition: melee in range and not yet diminished
+  - priority: 5
+    action: Earthbind Totem
+    condition: Frost Shock is on diminishing returns
+  - priority: 6
+    action: Molten Blast / Lightning Bolt
+    condition: at range with no shock available
+  aoe:
+    targets_min: 2
+    loop:
+    - Fire Nova Totem and Searing Totem while kiting melee
+    - Chain Lightning on stacked targets
+  control:
+  - Earth Shock -> Hex -> Earth Shock silence chain (Troll)
+  - 'Tauren: shock -> Totemic Slam / War Stomp -> shock, or stomp -> self-heal'
+  - Frost Shock + Earthbind Totem to kite; Earthbind once Frost Shock is diminished
+  - Hexed targets still auto-attack and can push back casts
+  cooldowns:
+  - name: Hex
+    spell_id: 45504
+    use_when: Troll; after an Earth Shock interrupt on a healer or caster (300 s cooldown)
+  - name: Totemic Slam
+    spell_id: 45500
+    use_when: Tauren; between shocks or to buy a self-heal (90 s cooldown)
+  - name: Grounding Totem
+    spell_id: 8177
+    use_when: before an expected Polymorph or big nuke (20 s cooldown); useless vs rogue abilities
+  - name: Elemental Mastery
+    spell_id: 16166
+    use_when: opening burst vs casters in the open (180 s cooldown)
+  - name: Ancestral Swiftness
+    spell_id: 16188
+    use_when: emergency instant heal (180 s cooldown; damage spells cast with it deal 25% less)
+  defensive:
+  - Grounding Totem vs Polymorph and Frostbolt
+  - free-action / invulnerability potions are the escape (no charge, stealth or sprint)
+  - line of sight, then self-heal
+  target_priority:
+  - enemy healers first, with shocks and Hex
+  - Purge seals, blessings and shields (8 s cooldown, magic only)
+  reset:
+  - break line of sight, self-heal, drink out of combat (vanilla baseline)
+  heal:
+  - 'Resto 13/17/21: Earth Shield on self, heal through melee without interrupts'
+  - Healing Wave / Lesser Healing Wave in small fights; Chain Heal only when the team is stacked
+  - Ancestral Swiftness is the only instant heal; expect to be tunneled
+  - heal until oom from a safe spot in big BG fights
+  vs_class:
+    warlock: Curse of Exhaustion out-slows Frost Shock; abuse line of sight
+    rogue: open in Ghost Wolf, carry Insignia, shield up, Flame Shock vs re-stealth
+    mage: Grounding Totem eats Polymorph and Frostbolt
+    druid: watch for Hibernate while in Ghost Wolf
+    paladin: Purge seals and blessings
+    warrior: favourable; shield up, Weapon Chain vs Disarm
+    hunter: favourable; shamans are too tanky for hunters
+  sources:
+  - '[[d:shaman#1365197906990071882]]'
+  - '[[d:shaman#1470853297660366872]]'
+  - '[[d:shaman#1470853835948953652]]'
+  - '[[d:pvp-general#1425207495894499328]]'
+  - '[[d:shaman#1439784444381630594]]'
+  - '[[d:shaman#1418338864245903492]]'
+  - '[[d:shaman#1471610841274253365]]'
+  - '[[d:shaman#1449322892763598910]]'
+  - '[[d:shaman#1316790501432627201]]'
+  - '[[d:shaman#1425240856520294421]]'
+  - '[[d:shaman#1445315487784243322]]'
+  - '[[d:shaman#1425663325747806269]]'
+  - '[[d:pvp-general#1424861955998351412]]'
+  - '[[d:shaman#1494671492556918784]]'
+  - '[[d:shaman#1470853509183180850]]'
+  - '[[d:shaman#1494663845619437609]]'
+  - '[[d:shaman#1469487274608689375]]'
+  - '[[d:pvp-general#1423693001900687421]]'
+  - '[[d:shaman#1468558047394664608]]'

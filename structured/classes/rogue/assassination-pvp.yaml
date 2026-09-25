@@ -527,3 +527,86 @@ discord:
     era: post-1.18.1
     agreement: consensus
 guide: guide/classes/rogue/pvp.md
+play_loop:
+  guide_section: guide/classes/rogue/pvp.md#how-to-play
+  opener:
+  - stealth -> Cheap Shot -> Envenom -> Noxious Assault spam
+  - 'big health pool (bear): Cheap Shot -> Envenom -> Slice and Dice'
+  - 'two enemies: Sap one first'
+  single_target:
+  - priority: 1
+    action: Noxious Assault
+    condition: during Cheap Shot stun until 5 combo points (Thistle Tea if short)
+  - priority: 2
+    action: Kidney Shot
+    condition: 5 combo points, or before Cheap Shot ends
+  - priority: 3
+    action: Cold Blood + Noxious Assault / 5-point Eviscerate
+    condition: burst window
+  - priority: 4
+    action: Thistle Tea -> Vanish -> Cheap Shot
+    condition: target trinkets the Kidney Shot
+  - priority: 5
+    action: Noxious Assault
+    condition: until dead
+  control:
+  - Cheap Shot and Kidney Shot do not share diminishing returns on this client
+  - Gouge or Blind when needed
+  - no Deadly Poison if you plan to Blind
+  cooldowns:
+  - name: Kidney Shot
+    spell_id: 8643
+    use_when: 20 s cooldown; after building 5 points in the Cheap Shot stun
+  - name: Cold Blood
+    spell_id: 14177
+    use_when: 3 min; on Noxious Assault or 5-point Eviscerate
+  - name: Vanish
+    spell_id: 1857
+    use_when: 5 min; re-lock with Cheap Shot after a trinket
+  - name: Blind
+    spell_id: 2094
+    use_when: 5 min; peel or CC a second target
+  - name: Evasion
+    spell_id: 5277
+    use_when: 4 min; survive melee when everything else is down
+  - name: Sprint
+    spell_id: 11305
+    use_when: 4 min; escape or reach a kiting caster
+  defensive:
+  - Evasion when all cooldowns are down
+  - save Evasion and Sprint to escape
+  target_priority:
+  - Assassination kills plate, Subtlety kills cloth / outplays [[d:rogue#1490694521275551874]]
+  - 'groups: open on the healer, Sap or Blind the second enemy (vanilla baseline for healer-first)'
+  reset:
+  - Gouge, then bandage while the target is incapacitated [[d:rogue#1374554824783298670]]
+  - 'vs warlock: kill the pet, eat, reset with full cooldowns [[d:rogue#1436600446537175050]]'
+  - 'DoTs: no Cloak of Shadows, only DoT-removing potions [[d:rogue#1437279812254175253]]'
+  vs_class:
+    mage: Sprint + Free Action Potion or no chance; pool energy for Deadly Throw to re-cripple and interrupt Polymorph after
+      Blink
+    shaman: always stun; contested whether a 5-point Kidney kills a 5-6k HP Elemental
+    warlock: kill the pet, or Gouge/Vanish through Death Coil (Shadow Reflector)
+    paladin: Cheap Shot into Freedom, Kidney into trinket, Blind into bubble; Rupture + Crippling kite
+    warrior: easy clap
+    hunter: easy clap
+  sources:
+  - '[[d:rogue#1492308177818095657]]'
+  - '[[d:rogue#1492308239507918908]]'
+  - '[[d:rogue#1374554824783298670]]'
+  - '[[d:rogue#1461753771838406667]]'
+  - '[[d:rogue#1492645046049046699]]'
+  - '[[d:rogue#1442823947702894734]]'
+  - '[[d:pvp-general#1426568992855822399]]'
+  - '[[d:rogue#1461754174701179098]]'
+  - '[[d:rogue#1486568837498273956]]'
+  - '[[d:rogue#1461754193810292736]]'
+  - '[[d:rogue#1490694521275551874]]'
+  - '[[d:rogue#1436600446537175050]]'
+  - '[[d:rogue#1436600877543723029]]'
+  - '[[d:rogue#1437279812254175253]]'
+  - '[[d:rogue#1475178793286242365]]'
+  - '[[d:rogue#1452418744650567854]]'
+  - '[[d:rogue#1492644310234038463]]'
+  - '[[d:rogue#1492650162055807126]]'
+  - '[[d:rogue#1363157881326665728]]'

@@ -12,6 +12,36 @@
 
 **2H or DW? (contested).** At equal gear and skill 2H Fury comes out ahead, but skill decides it at the margin: "dual wield is close behind or better in single target" [[d:warrior#1460671179114156244]], [[d:warrior#1460671218670633249]], [[d:warrior#1457773247989813418]]. After the patch 2H is "ahead of dw fury" [[d:warrior#1486580928548438066]], and the trash gap between the two "isn't a massive gap" [[d:warrior#1488742645944553652]]. Against that, a DW warrior (Lashara) set consecutive Grobbulus DPS records with no Champion buff in April 2026, and the channel reposted it as proof that DW is "batshit broken" [[d:warrior#1494847565156454461]]. Before Bonereaver's Edge drops, DW often wins because it has far more usable weapons [[d:warrior#1468735994437177540]]. Pick by the weapons you own.
 
+## How to play
+
+A decision loop for a level-60 Fury warrior. The details are in [Single-target rotation](#single-target-rotation), [AoE rotation](#aoe-rotation), [Cooldowns](#cooldowns) and [Rage management](#rage-management).
+
+1. **Opener:** Charge → Sunder Armor on the first GCD → Bloodrage for Enrage [[d:warrior#1459198336731975701]]. DW: press Bloodrage right before Bloodthirst so two Bloodthirsts fit in Enrage [[d:warrior#1430101399722659933]].
+2. **Single-target loop:**
+   - **2H (Bloodthirst):** Bloodthirst > Whirlwind on cooldown > Slam only with Flurry up and the cast landing before your next auto > Heroic Strike queued at about 70+ rage [[d:warrior#1485723095900618782]], [[d:warrior#1489434203748696215]]. See [2H priority](#2h-fury-bloodthirst-build-priority) and [How Slam works](#how-slam-works-on-turtle).
+   - **DW:** Execute under 20% > Bloodthirst > Whirlwind > Heroic Strike only when capping > filler Master Strike > Pummel > Hamstring > Sunder Armor [[d:warrior#1429836696479989844]]. See [DW priority](#dual-wield-fury-priority).
+   - **Lawnmower:** Whirlwind > Slam, with Heroic Strike or Cleave as the dump. See [Lawnmower priority](#lawnmower-priority).
+3. **Cooldowns:**
+   - **Death Wish** in the last ~30 s or the Execute phase [[d:warrior#1482492282388091114]].
+   - **Recklessness** on the pull in DPS races. It shares a 30-minute cooldown with Shield Wall and Retaliation.
+   - **Bloodrage** on the pull, and again into Execute on long fights.
+   - Mighty Rage Potion, Juju Flurry and Bloodrage are off the GCD.
+4. **AoE switch (2+ targets):**
+   - **Lawnmower:** Sweeping Strikes + Whirlwind on the first GCD [[d:warrior#1490378739639517226]].
+   - **2H:** Whirlwind > Cleave > Bloodthirst / Slam.
+   - **DW:** Bloodthirst / Whirlwind on cooldown, with Cleave instead of Heroic Strike.
+   - Whirlwind hits up to 4 targets (vanilla baseline).
+5. **Resource rule:**
+   - Bank rage before 20% so one Execute can take the target from 20% to 0 [[d:warrior#1494705955731013692]].
+   - Heroic Strike is a dump, never a choice over a skill [[d:warrior#1477507950644957367]]. Skip it during the DW Execute phase.
+   - A queued Heroic Strike unqueues below its cost.
+   - Stance swaps keep at most 25 rage.
+6. **Movement / situational:**
+   - Slam can be cast while moving.
+   - Whirlwind cannot clip your swing, so press it instead of Slam when the next auto is under about 1 s away.
+   - Improved Berserker Rage breaks roots, but not in Sanv Tas'dal's add phase.
+   - DW does not stance-dance for Overpower [[d:warrior#1470401675914117132]].
+
 ## What changed in 1.18.1
 
 - **Flurry and Slam:** 5/5 Flurry now cuts Slam's cast to **1.92 s** (2.5 / 1.3) instead of the bugged 1.75 s [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071), [[d:warrior#1485731806379639005]], [[d:warrior#1488572106357604544]]. On patch day Flurry stopped being consumed; that was hotfixed at the next restart [[d:warrior#1484635426726609007]], [Torta (staff), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608). 2H Fury lost some Slam speed but kept its damage: "its still the same thing you just benefit way less" [[d:warrior#1464355611406762224]], [[d:warrior#1464396328221020387]].
@@ -130,7 +160,7 @@ Once you are hit-capped, do not trade crit for hit [[d:warrior#14661513294278861
 3. **Whirlwind** on cooldown. Top parsers use it even on a single target [[d:warrior#1478767553613529244]].
 4. **Slam** when Flurry is up and the cast will land before your next auto. Otherwise press another instant [[d:warrior#1485723095900618782]], [[d:warrior#1493900774072258581]]. The working pattern is "Slam bt auto slam ww auto" [[d:warrior#1493965821293101086]].
 5. **Heroic Strike** queued at about 70 rage or more, so you are never rage-starved [[d:warrior#1489434203748696215]], [[d:warrior#1442845647295217745]]. If a Slam cannot land before the next auto, a Heroic Strike beats clipping the auto [[d:warrior#1493900774072258581]].
-6. **Execute phase (target under 20%):** bank rage before 20% so a single Execute can take the target from 20% to 0 [[d:warrior#1494705955731013692]]. Execute scales with AP, armor penetration and rage spent, not weapon damage [[d:warrior#1484660616991080541]], [[d:warrior#1485080360978092143]]. Its cost dropped from 15 to 10 rage, and the freed rage becomes damage [[d:warrior#1467491606910472306]]. With enough crit, weaving Slam between Executes adds damage [[d:warrior#1488972211250397265]].
+6. **Execute phase (target under 20%):** bank rage before 20% so a single Execute can take the target from 20% to 0 [[d:warrior#1494705955731013692]]. Execute scales with AP, armor penetration and rage spent, not weapon damage [[d:warrior#1484660616991080541]], [[d:warrior#1485080360978092143]]. **Contested:** spell data still lists 15 rage on every rank, but players report the cost dropped to 10, with the freed rage becoming damage [[d:warrior#1467491606910472306]]. With enough crit, weaving Slam between Executes adds damage [[d:warrior#1488972211250397265]].
 
 **Training-wheels version** (Guts): "ignore swingtimer, ignore autos and always cast 1 slam and then use bt, slam ww, slam bt, slam 3x repeat". He says that alone, plus good cooldown timing, puts you in the top 10% [[d:warrior#1486668639200608256]], [[d:warrior#1486668804619763712]]. VeganCourage's 5-minute dummy test with a 3.8-speed weapon ranked "Slam > Auto > Slam > Auto > Slam > Auto > WW > BT" at 176k damage, ahead of Slam-only at 153k [[d:warrior#1465391439323201680]].
 
@@ -138,7 +168,7 @@ Once you are hit-capped, do not trade crit for hit [[d:warrior#14661513294278861
 
 ### Lawnmower priority
 
-Without Bloodthirst: **Whirlwind > Slam**, with Heroic Strike or Cleave as the rage dump [[d:warrior#1472301913780257053]]. On packs, open with **Sweeping Strikes + Whirlwind** on the first GCD [[d:warrior#1490378739639517226]]. Trigger Sweeping Strikes off the Charge auto (or fund it with Bloodrage), sit in Berserker Stance, and press it again if the trash is still alive about 30 s later [[d:warrior#1473966467384086528]], [[d:warrior#1473997570970882068]].
+Without Bloodthirst: **Whirlwind > Slam**, with Heroic Strike or Cleave as the rage dump [[d:warrior#1472301913780257053]]. On packs, open with **Sweeping Strikes + Whirlwind** on the first GCD [[d:warrior#1490378739639517226]]. Trigger Sweeping Strikes off the Charge auto (or fund it with Bloodrage) while still in Battle Stance — the spell data allows it only there — then swap to Berserker Stance for Whirlwind, swapping back to Battle Stance to press it again if the trash is still alive about 30 s later [[d:warrior#1473966467384086528]], [[d:warrior#1473997570970882068]].
 
 ### Dual Wield Fury priority
 

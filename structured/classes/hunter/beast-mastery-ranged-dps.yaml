@@ -829,3 +829,439 @@ stat_priority_note: 'The same ranged stats as Marksmanship, but in a different o
   crit still matters because Kill Command needs a hunter crit. Pet-damage set bonuses lose to +9 agility past BWL. Agility
   and ranged attack power are a tie: no cited post ranks them against each other, so their order in the array above carries
   no ranking. Grouping them is this repository''s reading of the sources listed above.'
+leveling_gameplay:
+- levels: 1-9
+  spec: Beast Mastery
+  new_abilities:
+  - level: 1
+    name: Auto Shot
+    spell_id: null
+    note: starting ability
+  - level: 1
+    name: Raptor Strike Rank 1
+    spell_id: null
+    note: starting ability
+  - level: 4
+    name: Aspect of the Monkey
+    spell_id: 13163
+  - level: 4
+    name: Serpent Sting Rank 1
+    spell_id: 1978
+  - level: 6
+    name: Arcane Shot Rank 1
+    spell_id: 3044
+  - level: 6
+    name: Hunter's Mark Rank 1
+    spell_id: 1130
+  - level: 8
+    name: Concussive Shot
+    spell_id: 5116
+  - level: 8
+    name: Raptor Strike Rank 2
+    spell_id: 14260
+  single_target:
+  - priority: 1
+    action: Aspect of the Monkey
+    condition: out of combat, keep on (vanilla baseline)
+  - priority: 2
+    action: Auto Shot
+    condition: pull
+  - priority: 3
+    action: Arcane Shot
+    condition: while the mob runs in; 6 s cooldown
+  - priority: 4
+    action: Concussive Shot
+    condition: from 8, then moonwalk back for 4-5 more shots [[d:hunter#1460603346443440260]]
+  - priority: 5
+    action: Raptor Strike
+    condition: mob in melee; on cooldown (6 s, no GCD)
+  - priority: 6
+    action: never Serpent Sting
+    condition: normal mobs; mana-inefficient [[d:hunter#1478329003201921158]]
+  multi_target:
+  - priority: 1
+    action: do not pull a second mob
+    condition: no pet yet
+- levels: 10-19
+  spec: Beast Mastery
+  new_abilities:
+  - level: 10
+    name: Tame Beast
+    spell_id: 1515
+  - level: 10
+    name: Call Pet
+    spell_id: 883
+  - level: 10
+    name: Feed Pet
+    spell_id: 6991
+  - level: 10
+    name: Revive Pet
+    spell_id: 982
+  - level: 10
+    name: Beast Training
+    spell_id: 5149
+  - level: 10
+    name: Growl Rank 1
+    spell_id: 1853
+  - level: 10
+    name: Growl Rank 2
+    spell_id: 14922
+  - level: 10
+    name: Aspect of the Hawk Rank 1
+    spell_id: 13165
+  - level: 10
+    name: Aspect of the Wolf Rank 1
+    spell_id: 45650
+  - level: 12
+    name: Mend Pet Rank 1
+    spell_id: 136
+  - level: 12
+    name: Distracting Shot Rank 1
+    spell_id: 20736
+  - level: 12
+    name: Wing Clip Rank 1
+    spell_id: 2974
+  - level: 14
+    name: Scare Beast Rank 1
+    spell_id: 1513
+  - level: 16
+    name: Immolation Trap Rank 1
+    spell_id: 13795
+  - level: 16
+    name: Mongoose Bite Rank 1
+    spell_id: 1495
+  - level: 18
+    name: Multi-Shot Rank 1
+    spell_id: 2643
+  pet:
+    tame: 'boar/pig at 10 (eats anything) [[d:hunter#1460555634327027715]]; or Screech bird: Amani Eagle 10, Westfall Greater
+      Fleshripper 16-17 [[d:hunter#1490087581919084586]]'
+    autocast:
+      Growl: on (solo)
+      Claw: off [[d:hunter#1468519397273501737]]
+      Bite: 'on'
+    feed: every 2-3 kills at loyalty 1 [[d:hunter#1447238822139002910]]
+    required: finish the level-10 quest chain or no Feed Pet [[d:hunter#1492136690561585234]]
+  single_target:
+  - priority: 1
+    action: Aspect of the Hawk
+    condition: before the pull
+  - priority: 2
+    action: send pet
+    condition: pet pulls; start shooting at 75-80% mob HP [[d:hunter#1466911679668424945]]
+  - priority: 3
+    action: Hunter's Mark
+    condition: elites and long fights only
+  - priority: 4
+    action: Auto Shot
+    condition: always running
+  - priority: 5
+    action: Arcane Shot
+    condition: off cooldown and mana allows
+  - priority: 6
+    action: Concussive Shot
+    condition: mob turned on you; back off so Growl retakes it
+  - priority: 7
+    action: Raptor Strike / Mongoose Bite / Wing Clip
+    condition: mob in melee
+  - priority: 8
+    action: Mend Pet
+    condition: pet low; heals over 5 s (vanilla baseline)
+  multi_target:
+  - priority: 1
+    action: pull 2 only with a boar or Screech pet
+    condition: Screech holds AoE aggro [[d:hunter#1464682851231334645]]
+  - priority: 2
+    action: shoot the pet's target
+    condition: no Multi-Shot on normal mobs [[d:hunter#1440106926347128963]]
+  - priority: 3
+    action: Scare Beast the add
+    condition: add is a beast (vanilla baseline)
+  - priority: 4
+    action: never a third mob
+    condition: no Feign Death before 30
+  tank:
+  - step: 1
+    action: do not pet-tank dungeons
+    condition: 'no taunt, few pet talents; no source reports pet-tanking below 30. With a real tank: Growl off [[d:hunter#1428016626455937097]],
+      pet in as the tank hits [[d:hunter#1484689822005067816]]'
+- levels: 20-29
+  spec: Beast Mastery
+  new_abilities:
+  - level: 20
+    name: Steady Shot Rank 1
+    spell_id: 3035
+  - level: 20
+    name: Aspect of the Cheetah
+    spell_id: 5118
+  - level: 20
+    name: Freezing Trap Rank 1
+    spell_id: 1499
+  - level: 20
+    name: Disengage Rank 1
+    spell_id: 781
+  - level: 20
+    name: Mend Pet Rank 2
+    spell_id: 3111
+  - level: 22
+    name: Scorpid Sting
+    spell_id: 3043
+  - level: 26
+    name: Rapid Fire
+    spell_id: 3045
+  - level: 28
+    name: Frost Trap
+    spell_id: 13809
+  - level: 28
+    name: Mend Pet Rank 3
+    spell_id: 3661
+  - level: 20
+    name: Coordinated Assault
+    spell_id: null
+    note: talent (passive), per the leveling order
+  pet:
+    growl: new Growl rank from the pet trainer at 20 (every 10 levels) [[d:hunter#1428016626455937097]]
+    level: keep the pet near your level [[d:hunter#1451187541930807449]]
+  single_target:
+  - priority: 1
+    action: Aspect of the Cheetah
+    condition: between mobs; Hawk before the pull
+  - priority: 2
+    action: send pet
+    condition: pet pulls; start shooting at 75-80% mob HP [[d:hunter#1466911679668424945]]
+  - priority: 3
+    action: Auto Shot
+    condition: ''
+  - priority: 4
+    action: Steady Shot
+    condition: after each Auto Shot, no clipping; Steady-only saves drinking [[d:hunter#1476280176533966899]]
+  - priority: 5
+    action: Arcane Shot
+    condition: cheap Coordinated Assault trigger and while moving [[d:hunter#1474824792220631130]]
+  - priority: 6
+    action: Rapid Fire
+    condition: from 26, elites and dangerous pulls
+  - priority: 7
+    action: Scorpid Sting
+    condition: only to help the pet tank an elite [[d:hunter#1478329003201921158]]
+  multi_target:
+  - priority: 1
+    action: pull 2-3
+    condition: pet holds 2, 3-4 sometimes [[d:hunter#1492991635598868482]]
+  - priority: 2
+    action: shoot the pet's primary target
+    condition: ''
+  - priority: 3
+    action: pre-lay Freezing Trap / Frost Trap
+    condition: before the pull; traps are out of combat only before 40 (vanilla baseline)
+  tank:
+  - step: 1
+    action: let the group tank tank
+    condition: Growl off, pet in as the tank hits
+- levels: 30-39
+  spec: Beast Mastery
+  new_abilities:
+  - level: 30
+    name: Feign Death
+    spell_id: 5384
+  - level: 30
+    name: Multi-Shot Rank 2
+    spell_id: 14288
+  - level: 30
+    name: Steady Shot Rank 2
+    spell_id: 3036
+  - level: 34
+    name: Explosive Trap Rank 1
+    spell_id: 13813
+  - level: 36
+    name: Mend Pet Rank 4
+    spell_id: 3662
+  - level: 39
+    name: Bestial Wrath
+    spell_id: 19574
+    note: talent at 39 per the leveling order; 18 s, 90 s cooldown, no GCD
+  pet:
+    milestones: pet Dash at pet level 30 [[d:hunter#1490806796825137273]]; swap to an eagle at 35-40 [[d:hunter#1460555634327027715]];
+      Hinterlands Eagle knows Screech R3 [[d:hunter#1428475590486524116]]
+  single_target:
+  - priority: 1
+    action: same as 20-29
+    condition: ''
+  - priority: 2
+    action: Feign Death
+    condition: mob turned on you and the pet is alive
+  - priority: 3
+    action: Bestial Wrath
+    condition: from 39, elites
+  multi_target:
+  - priority: 1
+    action: pet on the first mob
+    condition: Growl/Screech collects the rest
+  - priority: 2
+    action: Bestial Wrath
+    condition: big pulls
+  - priority: 3
+    action: Multi-Shot
+    condition: only if mana allows
+  - priority: 4
+    action: Concussive Shot + kite, or Feign Death
+    condition: a mob sticks to you
+  tank:
+  - step: 1
+    action: pet tank with Screech bird or Gorilla, Growl on, Claw off
+    condition: Endurance Training + Thick Hide maxed; single-source Dragonmaw Retreat at 32 [[d:hunter#1421042271238750359]]
+  - step: 2
+    action: pull by sending the pet; party waits until 75-80%
+    condition: pet has no taunt; DPS must watch threat [[d:hunter#1421043685780623422]]
+  - step: 3
+    action: Distracting Shot a loose mob off the healer, kite it back to the pet
+    condition: taunt onto the hunter (vanilla baseline)
+  - step: 4
+    action: Mend Pet
+    condition: keep rolling; healers rarely heal pets [[d:hunter#1454829088924762234]]
+  - step: 5
+    action: Feign Death
+    condition: bad pull; drops your threat, pet stays on the mobs
+- levels: 40-49
+  spec: Beast Mastery
+  new_abilities:
+  - level: 40
+    name: Volley Rank 1
+    spell_id: 1510
+  - level: 40
+    name: Trueshot Aura
+    spell_id: 19506
+  - level: 40
+    name: Steady Shot Rank 3
+    spell_id: 3037
+  - level: 44
+    name: Mend Pet Rank 5
+    spell_id: 13542
+  - level: 46
+    name: Aspect of the Wild Rank 1
+    spell_id: 20043
+  - level: 40
+    name: Intimidation
+    spell_id: 19577
+    note: talent at 40 per the leveling order; 60 s cooldown
+  - level: 43
+    name: Kill Command
+    spell_id: 41827
+    note: talent at 43 per the leveling order; 8 s cooldown, no GCD
+  pet:
+    milestones: Wolf to solo dungeons to 60 [[d:hunter#1460556031796183122]]
+  single_target:
+  - priority: 1
+    action: send pet
+    condition: pet pulls; start shooting at 75-80% mob HP [[d:hunter#1466911679668424945]]
+  - priority: 2
+    action: Kill Command
+    condition: usable AND pet in melee range [[d:hunter#1484783149413171350]]
+  - priority: 3
+    action: Steady Shot
+    condition: after each Auto Shot
+  - priority: 4
+    action: Arcane Shot
+    condition: while moving
+  - priority: 5
+    action: Bestial Wrath + Rapid Fire
+    condition: elites
+  multi_target:
+  - priority: 1
+    action: pet on mob 1
+    condition: ''
+  - priority: 2
+    action: Intimidation, then send the pet to mob 2 after one Growl
+    condition: Steakhouse forum p=106303
+  - priority: 3
+    action: Volley
+    condition: 3+ mobs all on the pet; 210 mana, 3 s cast
+  tank:
+  - step: 1
+    action: Kill Command + Bite to tear aggro back
+    condition: '[[d:hunter#1455955199234670673]]'
+  - step: 2
+    action: Dash + move command to kite; retarget once the mob is back on the pet
+    condition: '[[d:hunter#1455955199234670673]]'
+  - step: 3
+    action: Intimidation
+    condition: stun buys time to regain threat [[d:hunter#1421044060180713484]]
+  - step: 4
+    action: Feign Death
+    condition: you pulled aggro
+- levels: 50-60
+  spec: Beast Mastery
+  new_abilities:
+  - level: 50
+    name: Steady Shot Rank 4
+    spell_id: 3038
+  - level: 50
+    name: Volley Rank 2
+    spell_id: 14294
+  - level: 54
+    name: Multi-Shot Rank 4
+    spell_id: 14290
+  - level: 56
+    name: Aspect of the Viper
+    spell_id: 45651
+  - level: 58
+    name: Volley Rank 3
+    spell_id: 14295
+  - level: 60
+    name: Steady Shot Rank 5
+    spell_id: 3668
+  - level: 60
+    name: Mend Pet Rank 7
+    spell_id: 13544
+  single_target:
+  - priority: 1
+    action: same as 40-49
+    condition: ''
+  - priority: 2
+    action: Aspect of the Viper
+    condition: from 56, only when low on mana [[d:hunter#1484535169519063110]]
+  multi_target:
+  - priority: 1
+    action: same as 40-49
+    condition: ''
+  tank:
+  - step: 1
+    action: pet tank with Screecher/Scorpid while one hunter spams Mend Pet
+    condition: level 60 LBRS [[d:hunter#1455955810583838955]]
+play_loop:
+  opener:
+  - send pet as the tank hits [[d:hunter#1484689822005067816]]
+  - Hunter's Mark
+  - Auto Shot
+  - Bestial Wrath + Rapid Fire + trinkets
+  single_target:
+  - priority: 1
+    action: Kill Command
+    condition: usable AND pet in melee AND Steady Shot not casting
+  - priority: 2
+    action: Steady Shot
+    condition: after each Auto Shot, no clipping
+  - priority: 3
+    action: Arcane Shot
+    condition: after Steady when it fits
+  - priority: 4
+    action: never Aimed Shot / Serpent Sting
+    condition: ''
+  aoe:
+    targets_min: 2
+    loop:
+    - Multi-Shot replaces Arcane Shot (2+)
+    - Volley opener (3+)
+    - Gorilla Thunderstomp on trash packs
+  cooldowns:
+  - name: Bestial Wrath
+    spell_id: 19574
+    use: on cooldown (90 s)
+  - name: Rapid Fire
+    spell_id: 3045
+    use: with Bestial Wrath
+  - name: Devilsaur Tooth
+    spell_id: null
+    use: pre-use, again after the pet crits
+  resource: Hawk until low mana, then Viper to the end [[d:hunter#1478128745838674021]]; drop Arcane to save mana
+  movement: Arcane Shot while moving [[d:hunter#1494752221303279848]]

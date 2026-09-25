@@ -12,6 +12,36 @@
 
 Before 1.18.1, MM was "auto → Steady → Multi → auto" with Aimed Shot unused. Guides that tell you to skip Aimed Shot, or that talent Steady Shot or Trueshot Aura, are out of date. Both are baseline now [[d:hunter#1488874340295643166]], [[d:hunter#1487446185630371870]].
 
+## How to play
+
+The level-60 decision loop for the 12/37/2 build. Details are in the sections linked below.
+
+1. **Opener:**
+    1. Send the pet as the tank hits.
+    2. Hunter's Mark, then Auto Shot.
+    3. Start Steady Shot as the Auto Shot fires, and queue Arcane Shot behind it [[d:hunter#1489708299913003218]].
+    4. Rapid Fire and trinkets on the pull ([cooldowns](#cooldowns)).
+2. **Single-target loop:** Aimed → Auto → Steady → Arcane → Auto ([rotation](#single-target-rotation)).
+    1. Never clip Auto Shot.
+    2. Aimed Shot on a **Lock and Load** proc.
+    3. Aimed Shot on cooldown.
+    4. Arcane Shot on Enchanted Ammunition, only after the Aimed Shot has landed.
+    5. Steady Shot as the filler.
+    6. Arcane Shot after Steady when it fits.
+    7. No Multi-Shot on one target. Serpent Sting only if the raid wants the Nature Ammunition debuff.
+3. **Cooldowns:**
+    - Rapid Fire on pull, or with Bloodlust.
+    - On-use trinkets on the opener.
+    - Feign Death whenever threat gets close. Improved Feign Death is mandatory.
+4. **AoE switch rule:**
+    - **2 targets:** Multi-Shot when it fits.
+    - **3+ targets:** Volley opener, then Multi-Shot, then a Lock and Load Aimed Shot down a line of mobs ([AoE](#aoe-rotation)).
+5. **Resource rule:** Aspect of the Hawk until you are low on mana, then Aspect of the Viper until the fight ends [[d:hunter#1478128745838674021]]. Mana oils and Mageblood let you skip Viper ([resources](#resource-and-threat-management)).
+6. **Movement and situational:**
+    - Arcane Shot while moving [[d:hunter#1494752221303279848]].
+    - Stay out of the dead zone.
+    - Volley needs you standing still.
+
 ## Talent build
 
 ### Raid 12/37/2 (recommended)

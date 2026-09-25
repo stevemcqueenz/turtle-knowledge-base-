@@ -74,11 +74,11 @@ Only Night Elves and Tauren can be druids; High Elf druids exist only as a playe
 
 ## Professions
 
-- **Engineering** is the one profession with unique raid tools [[d:druid#1435986342378213439]], but most gadgets and all sappers do not work in Cat or Bear Form, so it is a poor fit for ferals [[d:druid#1485983739757592748]], [[d:druid#1472200959798022301]].
-- **Herbalism + Alchemy:** raid consumables and mana potions for healers [[d:druid#1461063036465840300]]; you can herb from Swift Travel Form [[d:druid#1493356486368170186]].
-- **Leatherworking:** Elemental Leatherworking crafts the Convergence of the Elements leggings, a feral BiS piece [[d:druid#1491826525689872485]]; useful while leveling, low value later [[d:druid#1472200959798022301]].
-- **Gathering first** when you start: crafting is a money sink early [[d:druid#1482785431626977433]].
-- Turtle adds ring and neck enchants (Jewelcrafting) and belt buckles (Blacksmithing) [[d:druid#1491824430819573891]], [[d:druid#1491824487942062091]].
+- **Level with two gathering professions**, since crafting is a money sink early [[d:druid#1482785431626977433]]. Herbalism fits druids best, because you can herb from Swift Travel Form [[d:druid#1493356486368170186]].
+- **At 60, Herbalism + Alchemy** covers raid consumables and healer mana potions [[d:druid#1461063036465840300]]. **Engineering** is the one profession with unique raid tools [[d:druid#1435986342378213439]], but sappers and most gadgets do not work in Cat or Bear Form. That makes it a Balance/Resto pick, not a feral one [[d:druid#1485983739757592748]], [[d:druid#1472200959798022301]].
+- **Leatherworking** helps while leveling and has little value later [[d:druid#1472200959798022301]]. Elemental Leatherworking crafts the "extra good" Convergence of the Elements leggings [[d:druid#1491826525689872485]]. Turtle also adds ring and neck enchants (Jewelcrafting) and belt buckles (Blacksmithing) [[d:druid#1491824430819573891]], [[d:druid#1491824487942062091]].
+
+Full guide: [Professions](professions.md)
 
 ## Raid order
 

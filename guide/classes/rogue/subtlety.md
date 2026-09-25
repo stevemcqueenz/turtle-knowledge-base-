@@ -10,6 +10,23 @@
 | Strengths | Raid-wide armor and damage debuffs [[d:rogue#1489242817254395997]]; the "most engaging spec to play" [[d:rogue#1489244712832598247]] |
 | Weaknesses | Low personal meter numbers; a second Sub adds little; weak in dungeons and small groups [[d:rogue#1488191835057950760]]; PUG leaders often misplace it (caster group, "why is no one sundering") [[d:rogue#1489244564232601663]], [[d:rogue#1489245082040401981]] |
 
+## How to play
+
+The loop for the **17/0/34 support build** at 60. Your job, in order: Improved Expose Armor uptime, Tricks of the Trade uptime, and Mark for Death windows. Details: [Rotation](#rotation), [Group placement](#group-placement), [Poisons](#poisons).
+
+1. **Before the pull:** Deadly V + Deadly IV on normal bosses, or Deadly + Corrosive on Undead, Giant and Mechanical bosses; Instant or Dissolvent on trash. Pre-load a combo point on a critter and carry it with Slice and Dice [[d:rogue#1448107099405156353]]. Optionally **Sap the boss** before Garrote: Blackjack still applies [[d:rogue#1483262959709982761]].
+2. **Opener:** **Garrote** (Hemorrhage if the boss is bleed-immune) → Hemorrhage to 5 → **Improved Expose Armor** → 1-point **Slice and Dice** → Hemorrhage to 5 → **Rupture** (Taste for Blood) [[d:rogue#1490034918212894740]], [[d:rogue#1492117624568680489]].
+3. **Sustain loop (top first):**
+    1. **Improved Expose Armor** at 5 points if it has about 10 s or less left [[d:rogue#1483262959709982761]].
+    2. A **5-point finisher about every 11 s** to keep Tricks of the Trade up. Never 1-point Eviscerate spam [[d:rogue#1488615334016716881]].
+    3. **Slice and Dice** (low points) and 5-point **Rupture**.
+    4. **Eviscerate** with spare combo points.
+    5. **Hemorrhage** as the builder; Ghostly Strike as needed. No Backstab or Sinister Strike.
+4. **Cooldowns:** **Mark for Death → Shadow of Death** in the raid's burst window, with AP trinkets and a potion. Call it out. After that, Vanish → Garrote, then **Preparation** for a second Mark [[d:rogue#1466422873806733362]], [[d:rogue#1468425398747402240]].
+5. **AoE switch:** no Blade Flurry as a rule; it costs the combo points Tricks of the Trade needs [[d:rogue#1456462707405361326]]. The exception is trash that dies before you can reach 5 points anyway [[d:rogue#1456463874256797738]]. Don't put IEA on trash or in dungeons [[d:rogue#1459199748748607488]]. Use Mark + Shadow of Death on a big pack only at the start of the raid, never right before a boss [[d:rogue#1467574568280522968]].
+6. **Resource rule:** Honor Among Thieves has a 1.5 s internal cooldown, which is your main energy limit [[d:rogue#1464644380693626901]]. Lean on the energy set bonuses (Darkmantle, AQ20).
+7. **Situational:** stay in a melee group, because Mark and Tricks of the Trade reach only your party. Judge yourself by IEA and Tricks of the Trade uptime, not by DPS [[d:rogue#1467573603225571431]].
+
 ## What Subtlety brings
 
 Yoridzen's summary: "−2600 armor on boss, +2% phys damage on boss, +4% crit for your group, 16 sec of burst which gives ur group 30% of your ap (or sp for casters and palas)" [[d:rogue#1491442185474801804]].

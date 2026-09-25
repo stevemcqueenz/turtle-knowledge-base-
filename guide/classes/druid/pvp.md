@@ -10,6 +10,47 @@
 
 Overall the class is **B-tier, C on Alliance** because "shamans eat druids for breakfast" [[d:druid#1487165021715697816]]. Cross-class lists put druid in the middle: A-tier behind Shaman, Rogue and Smite Priest [[d:pvp-general#1429944347834581072]], or below Shaman, Rogue and Paladin [[d:pvp-general#1430027610406260776]].
 
+## How to play
+
+The level-60 PvP loops. The details are in [Burst and control sequences](#burst-and-control-sequences), [Matchups](#matchups) and [Battleground role](#battleground-role). A 1v1 as a druid "is a battle to outlast, and in group settings its providing utility" [[d:druid#1467843965523988716]].
+
+**Feral (11/35/5):**
+
+1. **Opener (stealth):** Prowl → `Pounce` → `Rake` → `Rip`. Bleeds ignore armor [[d:druid#1428755592671137895]]. Against a mage, do not open with Pounce, because they Blink out and save the trinket for your Bash [[d:pvp-general#1380875640907235431]].
+2. **Burst:** get the target past half health with bleeds before the Pounce stun ends. Then shift to Bear to finish, or `Bash` and go back to Cat to Shred for 5 more seconds [[d:druid#1473021901327827187]]. If they trinket, stay in Bear; if not, go Cat → `Berserk` (6-minute cooldown; single source) [[d:druid#1413608701654339707]]. At 5 combo points on a low target, use Ferocious Bite (vanilla baseline).
+3. **Control:** `Bash` (4 s stun, 60 s cooldown) is your only stun after the opener. Cat Form has no interrupt, and shifting to Bear to Bash costs 2 GCDs [[d:druid#1333510143786352701]]. `Feral Charge` (15 s cooldown, 8–25 yd) is your gap-closer and interrupt. Don't break your own bleeds with Entangling Roots or Hibernate; roots break on damage (vanilla baseline).
+4. **Defence:** fight any melee in Bear [[d:druid#1428742043164872824]]. Shift, or `Reshift`, to break roots and slows [[d:druid#1459797275575587023]]. Save the PvP trinket for Kidney Shot, not the first stun (see [Matchups](#matchups)). Barkskin is not castable while stunned, and Nature's Grasp not in Bear [[d:druid#1485784482966667445]].
+5. **Heal:** only in lulls or when you have to shift out anyway, e.g. to leave a Frost Nova [[d:druid#1486429431126819027]]. Omen of Clarity allows `Bash` → Omen `Regrowth` → `Rejuvenation` [[d:druid#1248739088060907644]].
+
+**Balance (30/0/21):**
+
+1. **Opener (range):** `Moonfire` + `Insect Swarm`. For a surprise opener, start Starfire from invisibility-trinket stealth [[d:druid#1485047430956454019]].
+2. **Loop:** kite and DoT, Entangling Roots on melee, HoTs between DoTs. Cast Wrath, or a Nature's Grace Starfire, only when safe ([Turboman, 2025-08-05](https://forum.turtlecraft.gg/viewtopic.php?p=143254#p143254)). "Just moonfire spam and use Nature's Grace procs to cast Starfire" [[d:druid#1425436220485533788]].
+3. **Control:** roots break within ~3 s of damage [[d:druid#1492151406159859824]]. Nature's Grasp procs about 35% of the time and Starfire's stun about 15%, so neither is a plan [[d:druid#1494235468852887553]].
+4. **Defence:** Nature's Swiftness (3-minute cooldown) + Healing Touch is your clutch heal. It needs two presses [[d:druid#1451522054921781351]]; "Nature's Swiftness is crazy" [[d:druid#1308975414366175232]]. Tank hits in Bear when caught [[d:druid#1308975414366175232]]. Moonkin Form can be Sapped [[d:druid#1427685519596458005]].
+
+**Restoration / healer hybrid:**
+
+1. **Default heals:** Regrowth and Rejuvenation while moving, not Healing Touch: "it is mostly ya" [[d:druid#1427343668632616960]], [[d:druid#1427343752732737577]]. Keep Nature's Swiftness for burst on you or a partner, and Swiftmend (15 s cooldown) for instant top-ups.
+2. **Pressure:** keep Moonfire and Insect Swarm up while you out-heal the damage, as long as mana holds [[d:druid#1490125435663810640]].
+3. **Weak spots:** HoTs lose to burst and get dispelled by priests and shamans [[d:druid#1487165663452594306]]. **Contested:** others report them as undispellable [[d:pvp-general#1430235229167030375]]. Skip Tree of Life in PvP [[d:druid#1467260763193475113]].
+4. **Utility:** Remove Curse and Cure Poison on partners (vanilla baseline). Innervate (6-minute cooldown) when you are low on mana (vanilla baseline).
+
+**For every spec:**
+
+- **Target priority:** in battlegrounds, peel for and heal flag carriers, and defend nodes ([Battleground role](#battleground-role)). Beyond that, the sources give no druid-specific kill order. The usual rule is to kill the healer if you can lock them out, and otherwise the lowest-armor DPS (vanilla baseline).
+- **Reset / drink:** Travel Form out to reset ("going cheetah and running away") [[d:druid#1427344507007012975]]. Drink out of combat, and re-Prowl (Cat) before you re-engage (vanilla baseline).
+
+**Vs class** (full table in [Matchups](#matchups)):
+
+- **Warrior:** root, kite, shift out of Hamstring, and Travel Form to reset.
+- **Rogue:** be in Bear when the opener lands, and trinket Kidney Shot.
+- **Shaman:** the hardest matchup. Purge strips HoTs, and Enhancement burst kills Cat.
+- **Paladin:** a losing matchup for Feral, because HoJ or Repentance locks you out of heals.
+- **Mage:** no Pounce opener. Balance can out-range Arcane.
+- **Warlock:** kill the pet, and avoid the Death Coil → fear → silence chain. Feral nearly always lands the opener on a warlock [[d:pvp-general#1427357294449922222]].
+- **Priest / Hunter:** expect one-GCD dispels / full ranged pressure even with the pet slept.
+
 ## Builds
 
 ### Feral 11/35/5 (battlegrounds and arena)

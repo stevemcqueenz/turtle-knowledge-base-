@@ -811,3 +811,125 @@ stat_priority_note: Crit is rated far above haste — "1% crit equal to around 4
   Starfire. Hit is hard to cap from set gear alone (the nine-piece T3 set carries only 4% spell hit), and several top players
   deliberately trade a few percent of hit for crit. Spell power is the baseline scaling stat with no numeric weight given.
   Item design loads Balance gear with haste, which the source calls a mismatch.
+leveling_gameplay:
+- levels: 10-19
+  spec: Balance
+  new_abilities:
+  - level: 10
+    name: Improved Wrath
+    spell_id: 16814
+    source: talent (10-14)
+  - level: 18
+    name: Entangling Roots Rank 2
+    spell_id: 1062
+  - level: 18
+    name: Faerie Fire Rank 1
+    spell_id: 770
+  single_target:
+  - priority: 1
+    action: Wrath; Moonfire; Entangling Roots on tough mobs
+    condition: default
+  - priority: 2
+    action: Cat or Bear Form
+    condition: mana low (until 30)
+    source: '[[d:druid#1492652781780074607]]'
+- levels: 20-29
+  spec: Balance
+  new_abilities:
+  - level: 20
+    name: Starfire Rank 1
+    spell_id: 2912
+  - level: 20
+    name: Insect Swarm Rank 1
+    spell_id: 5570
+  - level: 22
+    name: Omen of Clarity
+    spell_id: 16864
+    source: talent
+  single_target:
+  - priority: 1
+    action: Starfire, Wrath, Wrath
+    condition: default
+    source: '[[d:druid#1483651737389891746]]'
+  - priority: 2
+    action: Starfire, Moonfire, Entangling Roots, Insect Swarm, wait, finish with Wrath
+    condition: harder mob; recast Moonfire only on Clearcasting
+    source: '[[d:druid#1315032628642189443]]'
+  - priority: 3
+    action: melee between casts
+    condition: regain mana
+    source: '[[d:druid#1361762103790407981]]'
+- levels: 30-39
+  spec: Balance
+  new_abilities:
+  - level: 30
+    name: Moonkin Form
+    spell_id: 24858
+    source: talent
+  - level: 31
+    name: Owlkin Frenzy
+    spell_id: 45734
+    source: talent (1 point)
+  single_target:
+  - priority: 1
+    action: same, in Moonkin Form; rank-1 Roots and rank-1 Moonfire
+    condition: farming for mana
+    source: '[[d:druid#1483713212246523945]]'
+- levels: 40-49
+  spec: Balance
+  new_abilities:
+  - level: 40
+    name: Hurricane Rank 1
+    spell_id: 16914
+  - level: 40
+    name: Innervate
+    spell_id: 29166
+  - level: 40
+    name: Eclipse
+    spell_id: 51444
+    source: talent
+  single_target:
+  - priority: 1
+    action: Eclipse rotation (see play_loop)
+    condition: from 40
+  multi_target:
+  - priority: 1
+    action: Hurricane
+    condition: 3-4+ mobs; contested learn level (kit 40, one player 30)
+    source: '[[d:druid#1473015992664850472]]'
+play_loop:
+  opener:
+  - pre-cast Starfire on the kill target as the tank pulls
+  - 'Nature Eclipse procced: Wrath; otherwise Moonfire + Insect Swarm'
+  - 'fresh tank: open with Insect Swarm instead'
+  single_target:
+  - priority: 1
+    action: Moonfire
+    condition: missing on target
+  - priority: 2
+    action: Insect Swarm
+    condition: missing on target
+  - priority: 3
+    action: Starfire
+    condition: Arcane Eclipse (reapply Moonfire when less time left than one Starfire)
+  - priority: 4
+    action: Wrath
+    condition: Nature Eclipse (refresh Insect Swarm only in last GCD)
+  - priority: 5
+    action: alternate Starfire / Wrath
+    condition: no Eclipse (fish)
+  - priority: 6
+    action: Moonfire
+    condition: moving, or target at ~1%
+  aoe:
+    targets_min: 3
+    loop:
+    - 'fast-dying trash: Moonfire only'
+    - '2-3 mobs: DoT the ones that live'
+    - '3-4+: pre-cast Starfire for Nature Eclipse, then Hurricane'
+    - do not DoT more than 2-3 mobs first
+  cooldowns:
+  - 'no burst cooldown: on-use trinkets on the first crit of a burn window'
+  - Innervate self when low
+  - Nordanaar Herbal Tea and Major Mana Potion on cooldown
+  guide_section: guide/classes/druid/balance.md#how-to-play

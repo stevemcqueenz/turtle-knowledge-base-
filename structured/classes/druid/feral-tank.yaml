@@ -900,3 +900,51 @@ gaps:
 - No conclusive post-1.18.1 bear-vs-warrior threat answer (contested)
 - No bear crit-immunity/crush-cap Defense value for Turtle
 - No pre-raid BiS list
+play_loop:
+  opener:
+  - '~10 s pre-pull: Regrowth, Rejuvenation, Cat Form, Tiger''s Fury, Bear Form'
+  - pull with Faerie Fire (Feral) or a ranged spell (never Growl or Feral Charge)
+  - Mighty Rage Potion
+  - Maul + Savage Bite together
+  - Enrage or Berserk when Blood Frenzy ends
+  single_target:
+  - priority: 1
+    action: Maul
+    condition: every swing
+  - priority: 2
+    action: Savage Bite
+    condition: Clearcasting or rage > 50; every cooldown with T3 8-piece
+  - priority: 3
+    action: Swipe
+    condition: 2+ mobs or rage > ~75
+  - priority: 4
+    action: Faerie Fire (Feral)
+    condition: no other GCD needed
+  - priority: 5
+    action: Reshift
+    condition: rage-starved, sparingly
+  aoe:
+    targets_min: 2
+    loop:
+    - pre-HoT yourself
+    - Maul the kill target
+    - tab and Swipe the others (3-target cap)
+    - '4+ mobs: split between tanks'
+    - 'very large packs: Idol of Evergrowth + Demoralizing Roar'
+  cooldowns:
+  - 'Barkskin: 60 s, cast in caster form before shifting'
+  - 'Barkskin (Feral): 10 minutes, damage spikes'
+  - 'Berserk: fear break / second haste window'
+  - 'Enrage: skip when healers struggle'
+  tank:
+  - priority: 1
+    action: Growl
+    condition: take a mob back, or after double dodge/parry at the pull; off GCD
+  - priority: 2
+    action: Limited Invulnerability Potion + Challenging Roar
+    condition: pack loose on the group
+    source: '[[d:druid#1411769744175923270]]'
+  - priority: 3
+    action: 'avoid: Demoralizing Roar with a warrior present, dodge stacking, shields, sappers in form'
+    condition: always
+  guide_section: guide/classes/druid/feral-bear.md#how-to-play

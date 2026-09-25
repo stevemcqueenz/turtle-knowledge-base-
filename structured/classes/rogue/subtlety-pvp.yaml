@@ -627,3 +627,84 @@ discord:
     era: post-1.18.1
     agreement: single source
 guide: guide/classes/rogue/pvp.md
+play_loop:
+  guide_section: guide/classes/rogue/pvp.md#how-to-play
+  opener:
+  - stealth -> Garrote -> Rupture -> Vanish, let bleeds work (cloth)
+  - 'full chain: Garrote -> Rupture -> Ghostly Strike -> Flourish -> Evasion -> Sinister Strike to 5 -> Kidney Shot -> Sinister
+    Strike x2 -> Rupture -> Vanish out'
+  single_target:
+  - priority: 1
+    action: Cheap Shot
+    condition: reopen from Vanish while bleeds tick
+  - priority: 2
+    action: Rupture
+    condition: 5 combo points, bleed missing
+  - priority: 3
+    action: Kidney Shot
+    condition: 5 combo points, bleed up
+  - priority: 4
+    action: Ambush -> Kidney Shot -> autos -> Vanish -> Ambush
+    condition: dagger variant, cloth targets only
+  control:
+  - 'Preparation resets Vanish and Blind (vanilla baseline: also Sprint and Evasion): double Vanish, double Blind, 5-point
+    Kidney into another 5-point Kidney'
+  - Cheap Shot and Kidney Shot do not share diminishing returns on this client
+  cooldowns:
+  - name: Preparation
+    spell_id: 14185
+    use_when: 7 min; after the first Vanish/Blind are spent
+  - name: Vanish
+    spell_id: 1857
+    use_when: 5 min; reset into a Cheap Shot opener
+  - name: Blind
+    spell_id: 2094
+    use_when: 5 min
+  - name: Ghostly Strike
+    spell_id: 14278
+    use_when: 20 s; in the opener chain
+  - name: Flourish
+    spell_id: 45604
+    use_when: 40 s; in the opener chain
+  - name: Kidney Shot
+    spell_id: 8643
+    use_when: 20 s
+  - name: Evasion
+    spell_id: 5277
+    use_when: 4 min
+  - name: Sprint
+    spell_id: 11305
+    use_when: 4 min
+  defensive:
+  - Vanish protects from AoE for only one GCD
+  - Sub rarely kills plate outside long 1v1s with several resets
+  target_priority:
+  - Assassination kills plate, Subtlety kills cloth / outplays [[d:rogue#1490694521275551874]]
+  - 'groups: open on the healer, Sap or Blind the second enemy (vanilla baseline for healer-first)'
+  reset:
+  - Gouge, then bandage while the target is incapacitated [[d:rogue#1374554824783298670]]
+  - 'vs warlock: kill the pet, eat, reset with full cooldowns [[d:rogue#1436600446537175050]]'
+  - 'DoTs: no Cloak of Shadows, only DoT-removing potions [[d:rogue#1437279812254175253]]'
+  vs_class:
+    mage: Sprint + Free Action Potion or no chance; pool energy for Deadly Throw to re-cripple and interrupt Polymorph after
+      Blink
+    shaman: always stun; contested whether a 5-point Kidney kills a 5-6k HP Elemental
+    warlock: kill the pet, or Gouge/Vanish through Death Coil (Shadow Reflector)
+    paladin: Cheap Shot into Freedom, Kidney into trinket, Blind into bubble; Rupture + Crippling kite
+    warrior: easy clap
+    hunter: easy clap
+  sources:
+  - '[[d:rogue#1477046153114550273]]'
+  - '[[d:rogue#1459141070452555788]]'
+  - '[[d:rogue#1484647270224887849]]'
+  - '[[d:rogue#1475972891941273782]]'
+  - '[[d:rogue#1477058992965554306]]'
+  - '[[d:pvp-general#1424859626725314662]]'
+  - '[[d:pvp-general#1426568992855822399]]'
+  - '[[d:rogue#1490694521275551874]]'
+  - '[[d:rogue#1374554824783298670]]'
+  - '[[d:rogue#1436600446537175050]]'
+  - '[[d:rogue#1437279812254175253]]'
+  - '[[d:rogue#1475178793286242365]]'
+  - '[[d:rogue#1452418744650567854]]'
+  - '[[d:rogue#1363157881326665728]]'

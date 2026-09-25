@@ -896,3 +896,171 @@ stat_priority:
 stat_priority_note: 'Consensus of the wiki sim and player weights: hit to 16% first and never over it, then haste and spell
   power which trade almost evenly (~17–20 SP per 1% haste), then crit. Haste has breakpoints where an extra missile lands
   inside the Arcane Rupture window, and gear haste stacks multiplicatively. Spell penetration is a PvP stat only.'
+leveling_gameplay:
+- levels: 10-19
+  spec: Arcane
+  new_abilities:
+  - level: 10
+    name: Improved Arcane Missiles 1-5 (talent)
+    spell_id: 11237
+  - level: 15
+    name: Arcane Concentration 1-5 (talent)
+    spell_id: 11213
+  - level: 16
+    name: Arcane Missiles Rank 2
+    spell_id: 5144
+  single_target:
+  - priority: 1
+    action: Frostbolt
+    condition: slow
+  - priority: 2
+    action: Arcane Missiles
+  - priority: 3
+    action: Fire Blast
+    condition: execute
+  multi_target:
+  - priority: 1
+    action: Polymorph
+    condition: second mob
+- levels: 20-29
+  spec: Arcane
+  new_abilities:
+  - level: 20
+    name: Arcane Rupture Rank 1
+    spell_id: 51949
+  - level: 24
+    name: Arcane Missiles Rank 3
+    spell_id: 5145
+  - level: 28
+    name: Arcane Rupture Rank 2
+    spell_id: 51950
+  - level: 26
+    name: Cone of Cold Rank 1
+    spell_id: 120
+  single_target:
+  - priority: 1
+    action: Frostbolt
+    condition: slow
+  - priority: 2
+    action: Arcane Rupture
+    condition: only on high-HP mobs
+  - priority: 3
+    action: Arcane Missiles
+  - priority: 4
+    action: Frost Nova + walk
+    condition: mob in melee
+  - priority: 5
+    action: Fire Blast
+    condition: execute
+  multi_target:
+  - priority: 1
+    action: Arcane Explosion / Cone of Cold / Frost Nova / Fire Blast
+    condition: from 26
+- levels: 30-39
+  spec: Arcane
+  new_abilities:
+  - level: 30
+    name: Accelerated Arcana (talent)
+    spell_id: 51981
+  - level: 32
+    name: Arcane Surge Rank 1
+    spell_id: 51933
+  - level: 31
+    name: Arcane Instability (talent)
+    spell_id: 15058
+  - level: 34
+    name: Arcane Potency (talent)
+    spell_id: 45403
+  - level: 36
+    name: Resonance Cascade 1-5 (talent)
+    spell_id: 51262
+  - level: 36
+    name: Arcane Rupture Rank 3
+    spell_id: 51951
+  single_target:
+  - priority: 1
+    action: Arcane Surge
+    condition: when it lights up after a resist
+  - priority: 2
+    action: Arcane Rupture
+    condition: high-HP mobs
+  - priority: 3
+    action: Arcane Missiles
+  multi_target:
+  - priority: 1
+    action: Cone of Cold -> Arcane Explosion kite
+- levels: 40-49
+  spec: Arcane
+  new_abilities:
+  - level: 41
+    name: Presence of Mind (talent)
+    spell_id: 12043
+  - level: 44
+    name: Arcane Rupture Rank 4
+    spell_id: 51952
+  - level: 48
+    name: Arcane Missiles Rank 6
+    spell_id: 10211
+  single_target:
+  - priority: 1
+    action: Presence of Mind -> Arcane Rupture
+    condition: tough mob
+  - priority: 2
+    action: Arcane Missiles
+    condition: turret
+  multi_target:
+  - priority: 1
+    action: Cone of Cold -> Arcane Explosion kite
+- levels: 50-60
+  spec: Arcane
+  new_abilities:
+  - level: 60
+    name: Arcane Power (talent)
+    spell_id: 12042
+  single_target:
+  - priority: 1
+    action: Same as 40-49; never Arcane Power while leveling
+  multi_target:
+  - priority: 1
+    action: 'Lashers: wand/Counterspell pull -> Cone of Cold -> Arcane Explosion spam -> Frost Nova if crowded'
+play_loop:
+  opener:
+  - On-use SP trinket
+  - Arcane Rupture
+  - Arcane Missiles
+  - Arcane Rupture
+  - Mind Quickening Gem + Arcane Power
+  - Arcane Missiles spam
+  single_target:
+  - priority: 1
+    action: Arcane Missiles
+    condition: Clearcasting active
+  - priority: 2
+    action: Arcane Rupture
+    condition: debuff missing; cancel Missiles right after a missile lands
+  - priority: 3
+    action: Arcane Surge
+    condition: usable after a resist and total haste below the Surge cutoff
+  - priority: 4
+    action: Arcane Missiles
+  - priority: 5
+    action: Fire Blast
+    condition: moving
+  in_arcane_power:
+  - priority: 1
+    action: Arcane Rupture
+    condition: debuff missing
+  - priority: 2
+    action: Arcane Missiles
+    condition: no Surge or Presence of Mind in this window
+  aoe:
+    targets_min: 3
+    loop:
+    - Rank-1 Arcane Explosion to pre-stack Sigil of Ancient Accord before the pull
+    - Max-rank Arcane Explosion spam
+    - Lower Explosion rank if threat is an issue
+  cooldowns:
+  - Arcane Power only at full mana
+  - Mind Quickening Gem first, Arcane Power near the end of MQG
+  - Juju Flurry / Potion of Quickness inside Arcane Power
+  - Evocation just before a server tick, cancel after the 4th tick

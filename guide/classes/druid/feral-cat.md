@@ -10,6 +10,18 @@
 | Strengths | Strong on long, stationary, bleedable bosses (Patchwerk, Kruul) [[d:druid#1486707989984317590]], [[d:druid#1465491737572147242]]; can off-tank trash in cat gear; Atiesh stays BiS [[d:druid#1486729477026349248]] |
 | Weaknesses | Zero cleave/AoE, by design [[d:druid#1472862240754372713]]; bleed-immune bosses; no weapon skill (fixed, more glancing blows than any melee) [[d:druid#1470809454944714928]]; 6-minute Berserk [[d:druid#1469512077864337469]]; 1.18.1 changed nothing for cats ("no time to look at Cats") [[d:druid#1465407973789663324]] |
 
+## How to play
+
+The level-60 loop; details and sources in the sections linked. For leveling, see [Gameplay by level](leveling.md#gameplay-by-level).
+
+1. **Opener:** Prowl → **Tiger's Fury** just before an energy tick → **Pounce** → **Rake** → **Rip** → Claw to 5 → **Ferocious Bite**. Without stealth, open with **Faerie Fire (Feral)** ([opener](#bleedable-target-claw-build)).
+2. **Single-target loop (target can bleed):** Tiger's Fury if missing → Rip if missing at 5 combo points (1-3 on fights under ~30 s) → Ferocious Bite at 5 with Rip up (Carnage refreshes both bleeds) → Rake if missing → Shred on Clearcasting from behind → **Claw** ([priority](#bleedable-target-claw-build)).
+3. **Bleed-immune target:** Tiger's Fury → Ferocious Bite at 5 → Shred from behind → Reshift below 28 energy ([powershift](#bleed-immune-target-powershift-build), [immune bosses](#bleed-immune-bosses)).
+4. **Cooldowns:** Tiger's Fury at 100% uptime (off the GCD). **Berserk** (6-minute cooldown) on long bleedable bosses. On-use trinkets at the pull and in the last 20% ([cooldowns](#cooldowns-and-utility)).
+5. **AoE switch:** there is none. Keep hitting the kill target at any target count. At 3+ mobs, shift to Bear and Swipe only if the tank needs help ([AoE](#aoe)).
+6. **Resource rule:** **Reshift** when energy is under ~28-30, no tick is due and Tiger's Fury has under 3 s left, then recast Tiger's Fury. At 28 energy you are one tick from a Shred ([priority](#bleedable-target-claw-build)).
+7. **Situational:** keep 8% melee hit. If you pull threat, shift to Bear until the tank taunts; Cower is weak. Innervate a healer; Rebirth only out of form ([cooldowns](#cooldowns-and-utility)).
+
 ## Talent build
 
 ### Raid 11/35/5 (recommended)

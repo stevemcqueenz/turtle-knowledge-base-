@@ -703,3 +703,651 @@ discord:
     topic: DW server records
 stat_priority_note: 'Attack power and Strength are a tie: no cited post ranks them against each other, so their order in the
   array above carries no ranking. Grouping them is this repository''s reading of the sources listed above.'
+leveling_gameplay:
+- levels: 1-9
+  spec: DW Fury
+  new_abilities:
+  - level: 1
+    name: Battle Shout Rank 1
+    spell_id: 6673
+  - level: 4
+    name: Charge Rank 1
+    spell_id: 100
+  - level: 4
+    name: Rend Rank 1
+    spell_id: 772
+  - level: 6
+    name: Thunder Clap Rank 1
+    spell_id: 6343
+  - level: 8
+    name: Hamstring Rank 1
+    spell_id: 1715
+  - level: 8
+    name: Heroic Strike Rank 2
+    spell_id: 284
+  single_target:
+  - priority: 1
+    action: Battle Shout
+    condition: before pull
+  - priority: 2
+    action: Charge
+    condition: isolated mob; thrown/ranged pull on dense groups
+  - priority: 3
+    action: Rend
+    condition: only if the mob lives the full bleed
+  - priority: 4
+    action: Auto-attack
+    condition: keep rage for next pull
+  - priority: 5
+    action: Heroic Strike
+    condition: only if rage would cap
+  - priority: 6
+    action: Hamstring
+    condition: runner
+  multi_target:
+  - priority: 1
+    action: Thunder Clap
+    condition: accidental add; slow both, kill one (vanilla baseline)
+- levels: 10-19
+  spec: DW Fury
+  new_abilities:
+  - level: 10
+    name: Defensive Stance
+    spell_id: 71
+  - level: 10
+    name: Sunder Armor Rank 1
+    spell_id: 7386
+  - level: 10
+    name: Taunt
+    spell_id: 355
+  - level: 10
+    name: Bloodrage
+    spell_id: 2687
+  - level: 10
+    name: Rend Rank 2
+    spell_id: 6546
+  - level: 12
+    name: Overpower Rank 1
+    spell_id: 7384
+  - level: 12
+    name: Shield Bash Rank 1
+    spell_id: 72
+  - level: 12
+    name: Battle Shout Rank 2
+    spell_id: 5242
+  - level: 14
+    name: Demoralizing Shout Rank 1
+    spell_id: 1160
+  - level: 14
+    name: Revenge Rank 1
+    spell_id: 6572
+  - level: 16
+    name: Mocking Blow Rank 1
+    spell_id: 694
+  - level: 16
+    name: Shield Block
+    spell_id: 2565
+  - level: 16
+    name: Heroic Strike Rank 3
+    spell_id: 285
+  - level: 18
+    name: Disarm
+    spell_id: 676
+  - level: 18
+    name: Thunder Clap Rank 2
+    spell_id: 8198
+  talents: Cruelty 10-14; Dual Wield Specialization 15-19 (Unbridled Wrath while on a 2H)
+  single_target:
+  - priority: 1
+    action: Battle Shout
+    condition: buff missing
+  - priority: 2
+    action: Charge / thrown pull
+    condition: opener
+  - priority: 3
+    action: Demoralizing Shout
+    condition: first GCD from L14
+  - priority: 4
+    action: Sunder Armor
+    condition: 1 on normal mobs; toward 5 only while mob HP > 50%
+  - priority: 5
+    action: Overpower
+    condition: target dodged (Battle Stance, 5 rage)
+  - priority: 6
+    action: Rend
+    condition: long fights only
+  - priority: 7
+    action: Heroic Strike
+    condition: rage near cap
+  - priority: 8
+    action: Bloodrage
+    condition: pull, for rage
+  multi_target:
+  - priority: 1
+    action: Demoralizing Shout -> Thunder Clap -> focus one
+    condition: accidental add; one mob at a time otherwise
+  tank:
+  - priority: 1
+    action: Setup
+    condition: 2H fine; carry shield + 1H on a swap macro for hard-hitting bosses; be at least the final boss level; expect
+      rage starvation shield-tanking early
+  - priority: 2
+    action: LOS/ranged pull -> Bloodrage -> Demoralizing Shout -> tab-Sunder Armor
+    condition: default pull; Thunder Clap only with spare rage (max 4 targets)
+  - priority: 3
+    action: Charge -> Defensive Stance mid-Charge -> Demoralizing Shout -> Thunder Clap -> tab-Sunder
+    condition: alternative pull
+  - priority: 4
+    action: Sunder Armor
+    condition: rage-efficient single-target threat filler
+  - priority: 5
+    action: Revenge
+    condition: Defensive Stance, when lit; 5 rage (low damage at this level)
+  - priority: 6
+    action: Heroic Strike
+    condition: rage dump only
+  - priority: 7
+    action: Taunt
+    condition: Defensive Stance, 5 yd, 10 s cd; mob on healer; not on crowd-controlled targets
+  - priority: 8
+    action: Mocking Blow
+    condition: L16+, Battle Stance, 120 s cd; backup taunt
+  - priority: 9
+    action: Shield Block / Disarm
+    condition: shield on (L16) / hard-hitting melee boss (L18, Defensive Stance)
+  - priority: 10
+    action: Mark skull > cross > square
+    condition: packs; priority is keeping the healer alive
+- levels: 20-29
+  spec: DW Fury
+  new_abilities:
+  - level: 20
+    name: Cleave Rank 1
+    spell_id: 845
+  - level: 20
+    name: Intimidating Shout
+    spell_id: 5246
+  - level: 20
+    name: Retaliation
+    spell_id: 20230
+  - level: 20
+    name: Rend Rank 3
+    spell_id: 6547
+  - level: 22
+    name: Battle Shout Rank 3
+    spell_id: 6192
+  - level: 22
+    name: Sunder Armor Rank 2
+    spell_id: 7405
+  - level: 24
+    name: Execute Rank 1
+    spell_id: 5308
+  - level: 24
+    name: Demoralizing Shout Rank 2
+    spell_id: 6190
+  - level: 24
+    name: Revenge Rank 2
+    spell_id: 6574
+  - level: 24
+    name: Heroic Strike Rank 4
+    spell_id: 1608
+  - level: 26
+    name: Challenging Shout
+    spell_id: 1161
+  - level: 26
+    name: Charge Rank 2
+    spell_id: 6178
+  - level: 26
+    name: Mocking Blow Rank 2
+    spell_id: 7400
+  - level: 28
+    name: Shield Wall
+    spell_id: 871
+  - level: 28
+    name: Overpower Rank 2
+    spell_id: 7887
+  - level: 28
+    name: Thunder Clap Rank 3
+    spell_id: 8204
+  talents: Improved Shouts 20-24; Enrage 25-29
+  single_target:
+  - priority: 1
+    action: Battle Shout -> Charge -> Demoralizing Shout -> Sunder Armor
+    condition: opener
+  - priority: 2
+    action: Bloodrage
+    condition: HP > ~75% so it procs Enrage (Fury from L25)
+  - priority: 3
+    action: Overpower
+    condition: target dodged
+  - priority: 4
+    action: Execute
+    condition: target < 20% (15 rage, L24+)
+  - priority: 5
+    action: Heroic Strike
+    condition: rage near cap
+  multi_target:
+  - priority: 1
+    action: Cleave
+    condition: 2 mobs; replaces Heroic Strike as dump
+  - priority: 2
+    action: Retaliation / Intimidating Shout
+    condition: pull gone wrong (vanilla baseline)
+  tank:
+  - priority: 1
+    action: Stay in Defensive Stance all pull
+    condition: 'no Tactical Mastery until 44: a swap loses rage (vanilla baseline)'
+  - priority: 2
+    action: Demoralizing Shout -> Thunder Clap -> tab-Sunder Armor, Cleave with high rage
+    condition: pack loop
+  - priority: 3
+    action: Revenge
+    condition: when lit
+  - priority: 4
+    action: Taunt / Challenging Shout (L26+)
+    condition: threat recovery / AoE emergency
+  - priority: 5
+    action: Shield Wall
+    condition: L28+, shield equipped
+- levels: 30-39
+  spec: DW Fury
+  new_abilities:
+  - level: 30
+    name: Berserker Stance
+    spell_id: 2458
+  - level: 30
+    name: Intercept Rank 1
+    spell_id: 20252
+  - level: 30
+    name: Cleave Rank 2
+    spell_id: 7369
+  - level: 30
+    name: Rend Rank 4
+    spell_id: 6548
+  - level: 32
+    name: Berserker Rage
+    spell_id: 18499
+  - level: 32
+    name: Execute Rank 2
+    spell_id: 20658
+  - level: 32
+    name: Hamstring Rank 2
+    spell_id: 7372
+  - level: 32
+    name: Heroic Strike Rank 5
+    spell_id: 11564
+  - level: 32
+    name: Shield Bash Rank 2
+    spell_id: 1671
+  - level: 32
+    name: Battle Shout Rank 4
+    spell_id: 11549
+  - level: 34
+    name: Sunder Armor Rank 3
+    spell_id: 8380
+  - level: 34
+    name: Demoralizing Shout Rank 3
+    spell_id: 11554
+  - level: 34
+    name: Revenge Rank 3
+    spell_id: 7379
+  - level: 36
+    name: Whirlwind
+    spell_id: 1680
+  - level: 36
+    name: Mocking Blow Rank 3
+    spell_id: 7402
+  - level: 38
+    name: Pummel
+    spell_id: 6552
+  - level: 38
+    name: Thunder Clap Rank 4
+    spell_id: 8205
+  - level: 30
+    name: Death Wish
+    spell_id: 12328
+  talents: Death Wish 30; Blood Craze 31-33; Piercing Howl 34; Blood Drinker 35 (start dual wielding); Flurry 36-39
+  single_target:
+  - priority: 1
+    action: Battle Shout -> Charge/thrown -> Demoralizing Shout -> Sunder Armor x1
+    condition: opener
+  - priority: 2
+    action: Bloodrage
+    condition: HP > ~75% (Enrage)
+  - priority: 3
+    action: Whirlwind
+    condition: L36+, Berserker Stance, on cooldown
+  - priority: 4
+    action: Execute
+    condition: target < 20%
+  - priority: 5
+    action: Heroic Strike (or Sunder on long mobs)
+    condition: rage dump
+  - priority: 6
+    action: Hamstring
+    condition: filler; kite while Blood Drinker heals
+  - priority: 7
+    action: Death Wish
+    condition: elite or dangerous pull
+  multi_target:
+  - priority: 1
+    action: Pull 2-3 green mobs
+    condition: from ~30, once Whirlwind/Cleave are trained
+  - priority: 2
+    action: Demoralizing Shout
+    condition: first GCD
+  - priority: 3
+    action: Whirlwind
+    condition: on cooldown
+  - priority: 4
+    action: Cleave
+    condition: rage dump
+  - priority: 5
+    action: Piercing Howl
+    condition: slow runners (L34 talent)
+  - priority: 6
+    action: Retaliation
+    condition: panic button
+  tank:
+  - priority: 1
+    action: Sweeping Strikes (Battle) -> Berserker Stance -> Whirlwind
+    condition: Arms/Fury pack opener; best leveling AoE threat opener
+  - priority: 2
+    action: 'Defensive Stance: tab-Sunder, Cleave, Thunder Clap when rage allows'
+    condition: after the opener
+  - priority: 3
+    action: Taunt stragglers; Mocking Blow backup
+    condition: as their threat runs out
+  - priority: 4
+    action: Pool rage in Defensive previous pull, spend on Thunder Clap/Cleave/Sunder to ~25, one swap for Whirlwind
+    condition: Fury route without Tactical Mastery
+  - priority: 5
+    action: Shield Bash / Pummel
+    condition: interrupt casters; they share a cooldown
+- levels: 40-49
+  spec: DW Fury
+  new_abilities:
+  - level: 40
+    name: Execute Rank 3
+    spell_id: 20660
+  - level: 40
+    name: Cleave Rank 3
+    spell_id: 11608
+  - level: 40
+    name: Heroic Strike Rank 6
+    spell_id: 11565
+  - level: 40
+    name: Rend Rank 5
+    spell_id: 11572
+  - level: 42
+    name: Battle Shout Rank 5
+    spell_id: 11550
+  - level: 42
+    name: Intercept Rank 2
+    spell_id: 20616
+  - level: 44
+    name: Overpower Rank 3
+    spell_id: 11584
+  - level: 44
+    name: Revenge Rank 4
+    spell_id: 11600
+  - level: 44
+    name: Demoralizing Shout Rank 4
+    spell_id: 11555
+  - level: 46
+    name: Sunder Armor Rank 4
+    spell_id: 11596
+  - level: 46
+    name: Charge Rank 3
+    spell_id: 11578
+  - level: 46
+    name: Mocking Blow Rank 4
+    spell_id: 20559
+  - level: 48
+    name: Execute Rank 4
+    spell_id: 20661
+  - level: 48
+    name: Heroic Strike Rank 7
+    spell_id: 11566
+  - level: 48
+    name: Thunder Clap Rank 5
+    spell_id: 11580
+  - level: 40
+    name: Bloodthirst Rank 1
+    spell_id: 23881
+  - level: 48
+    name: Bloodthirst Rank 2
+    spell_id: 23892
+  talents: Bloodthirst 40; Flurry 5/5 41; Improved Berserker Rage 42-43; Tactical Mastery 44-48
+  single_target:
+  - priority: 1
+    action: Opener as 30-39
+    condition: Battle Shout, Charge, Demoralizing Shout, 1 Sunder
+  - priority: 2
+    action: Bloodthirst
+    condition: on cooldown (L40)
+  - priority: 3
+    action: Whirlwind
+    condition: on cooldown
+  - priority: 4
+    action: Execute
+    condition: target < 20%
+  - priority: 5
+    action: Heroic Strike
+    condition: only when capping
+  - priority: 6
+    action: Hamstring / Sunder Armor
+    condition: filler
+  - priority: 7
+    action: Bloodrage + Death Wish
+    condition: elites
+  multi_target:
+  - priority: 1
+    action: Whirlwind
+    condition: on cooldown
+  - priority: 2
+    action: Bloodthirst
+    condition: on cooldown
+  - priority: 3
+    action: Cleave
+    condition: rage dump
+  tank:
+  - priority: 1
+    action: Mark skull -> Charge -> Demoralizing Shout -> Thunder Clap -> Concussion Blow -> Shield Slam -> Sunders
+    condition: Prot pug-tank trash; Battle Stance on trash, Defensive on bosses; Overpower on procs
+  - priority: 2
+    action: Whirlwind > Thunder Clap > Concussion Blow > Shield Slam
+    condition: AoE priority on a pack; Heroic Strike with extra rage
+  - priority: 3
+    action: Bloodthirst
+    condition: 'Fury tank: best single-target threat; stance-dance from 44 (Tactical Mastery)'
+  - priority: 4
+    action: Shield on for bosses
+    condition: 2H tanking works to ~45; past 40 shield/Prot is safer
+- levels: 50-60
+  spec: DW Fury
+  new_abilities:
+  - level: 50
+    name: Recklessness
+    spell_id: 1719
+  - level: 50
+    name: Intervene Rank 1
+    spell_id: 45595
+  - level: 50
+    name: Cleave Rank 4
+    spell_id: 11609
+  - level: 50
+    name: Rend Rank 6
+    spell_id: 11573
+  - level: 52
+    name: Intercept Rank 3
+    spell_id: 20617
+  - level: 52
+    name: Shield Bash Rank 3
+    spell_id: 1672
+  - level: 52
+    name: Battle Shout Rank 6
+    spell_id: 11551
+  - level: 54
+    name: Demoralizing Shout Rank 5
+    spell_id: 11556
+  - level: 54
+    name: Hamstring Rank 3
+    spell_id: 7373
+  - level: 54
+    name: Revenge Rank 5
+    spell_id: 11601
+  - level: 56
+    name: Execute Rank 5
+    spell_id: 20662
+  - level: 56
+    name: Heroic Strike Rank 8
+    spell_id: 11567
+  - level: 56
+    name: Mocking Blow Rank 5
+    spell_id: 20560
+  - level: 58
+    name: Sunder Armor Rank 5
+    spell_id: 11597
+  - level: 58
+    name: Thunder Clap Rank 6
+    spell_id: 11581
+  - level: 60
+    name: Overpower Rank 4
+    spell_id: 11585
+  - level: 60
+    name: Cleave Rank 5
+    spell_id: 20569
+  - level: 60
+    name: Rend Rank 7
+    spell_id: 11574
+  - level: 60
+    name: Battle Shout Rank 7
+    spell_id: 25289
+  - level: 60
+    name: Heroic Strike Rank 9
+    spell_id: 25286
+  - level: 60
+    name: Revenge Rank 6
+    spell_id: 25288
+  - level: 54
+    name: Bloodthirst Rank 3
+    spell_id: 23893
+  - level: 60
+    name: Bloodthirst Rank 4
+    spell_id: 23894
+  talents: 'Arms dip: Improved Rend, Improved Heroic Strike, Deep Wounds, Improved Charge, Impale'
+  single_target:
+  - priority: 1
+    action: Same as 40-49
+    condition: spec loop
+  - priority: 2
+    action: Recklessness
+    condition: L50, dangerous elite/pull; shared 30 min cd
+  multi_target:
+  - priority: 1
+    action: Whirlwind
+    condition: on cooldown
+  - priority: 2
+    action: Bloodthirst
+    condition: on cooldown
+  - priority: 3
+    action: Cleave
+    condition: rage dump
+  tank:
+  - priority: 1
+    action: Respec Protection ~55 if dungeon-spamming
+    condition: finish leveling via dungeons/attunements
+  - priority: 2
+    action: Same loop as 40-49; Concussion Blow or Shield Slam opener
+    condition: single target
+  - priority: 3
+    action: Intervene
+    condition: L50, Defensive Stance, 8-25 yd; peel for a healer
+  - priority: 4
+    action: Recklessness / Shield Wall
+    condition: shared 30 min cooldown
+leveling_gameplay_note: 'Mirrors leveling.md "Gameplay by level". Learn levels/spell ids from the 1.18.1 kit (topics/_kits/warrior.txt);
+  talent unlocks follow the validated talent orders in leveling.md. Contested: the kit lists every Slam rank at L54, a player
+  post gives earlier ranks [[d:warrior#1491503981527044217]]'
+leveling_gameplay_sources:
+- '[[d:warrior#1476322395361906718]]'
+- '[[d:warrior#1476323710452367442]]'
+- '[[d:warrior#1493937763802677289]]'
+- '[[d:warrior#1484032312151769159]]'
+- '[[d:warrior#1476322978114568294]]'
+- '[[d:warrior#1468414511064285255]]'
+- '[[d:warrior#1485271205001822288]]'
+- '[[d:warrior#1484031184601350286]]'
+- '[[d:warrior#1464993090824700059]]'
+- '[[d:warrior#1465266565250285838]]'
+- '[[d:warrior#1476325827296887007]]'
+- '[[d:warrior#1446128654332596224]]'
+- '[[d:warrior#1474888165402873948]]'
+- '[[d:warrior#1476319270169219346]]'
+- '[[d:warrior#1423419033231032330]]'
+- '[[d:warrior#1466175854479409152]]'
+- '[[d:warrior#1491885115759001831]]'
+- '[[d:warrior#1418375631888060579]]'
+- '[[d:warrior#1365157106675617823]]'
+- '[[d:warrior#1434300007237943368]]'
+- '[[d:warrior#1465922876418035757]]'
+- '[[d:warrior#1410572688505831454]]'
+- '[[d:warrior#1449599120640704512]]'
+- '[[d:warrior#1470315145988411517]]'
+- '[[d:warrior#1429822325510897794]]'
+- '[[d:warrior#1425797603110551687]]'
+play_loop:
+  guide_section: guide/classes/warrior/fury.md#how-to-play
+  opener:
+  - Charge
+  - Sunder Armor (first GCD)
+  - 'Bloodrage (Enrage); DW: right before Bloodthirst'
+  single_target:
+    2h:
+    - Bloodthirst on cooldown
+    - Whirlwind on cooldown
+    - Slam if Flurry up and cast lands before next auto
+    - Heroic Strike queued at rage >= ~70
+    dw:
+    - Execute if target < 20%
+    - Bloodthirst on cooldown
+    - Whirlwind on cooldown
+    - Heroic Strike only when capping
+    - 'Filler: Master Strike > Pummel > Hamstring > Sunder Armor'
+    lawnmower:
+    - Whirlwind
+    - Slam
+    - Heroic Strike / Cleave dump
+  aoe:
+    targets_min: 2
+    loop:
+    - 'Lawnmower: Sweeping Strikes + Whirlwind first GCD'
+    - Whirlwind > Cleave > Bloodthirst/Slam (2H)
+    - 'DW: Bloodthirst/Whirlwind on cooldown, Cleave instead of Heroic Strike'
+  cooldowns:
+  - 'Death Wish: last ~30 s or Execute phase'
+  - 'Recklessness: pull in DPS races (30 min cd shared with Shield Wall/Retaliation)'
+  - 'Bloodrage: pull, and into Execute on fights >= 1:15'
+  - Mighty Rage Potion / Juju Flurry / Bloodrage are off the GCD
+  resource_rules:
+  - bank rage before 20% for Execute
+  - Heroic Strike is a dump, never instead of a skill; skip during DW Execute
+  - queued Heroic Strike unqueues below its cost
+  - stance swap keeps max 25 rage
+  situational:
+  - Slam castable while moving
+  - Whirlwind instead of Slam if next auto < ~1 s
+  - Improved Berserker Rage breaks roots (not in Sanv Tas'dal add phase)
+  - 'DW: no stance-dance for Overpower'
+  sources:
+  - '[[d:warrior#1459198336731975701]]'
+  - '[[d:warrior#1430101399722659933]]'
+  - '[[d:warrior#1485723095900618782]]'
+  - '[[d:warrior#1489434203748696215]]'
+  - '[[d:warrior#1429836696479989844]]'
+  - '[[d:warrior#1482492282388091114]]'
+  - '[[d:warrior#1490378739639517226]]'
+  - '[[d:warrior#1494705955731013692]]'
+  - '[[d:warrior#1477507950644957367]]'
+  - '[[d:warrior#1470401675914117132]]'

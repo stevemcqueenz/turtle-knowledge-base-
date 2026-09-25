@@ -10,6 +10,22 @@
 | Strengths | Highest boss damage "in perfect/favorable conditions"; longest range; Fire Blast became the strongest button in 1.18.1 [[d:mage#1487204103632191600]] |
 | Weaknesses | "The first two raids are completely inaccessible to fire" [[d:mage#1493927839274373200]]; crit- and gear-dependent, weak before AQ40/Naxx [[d:mage#1468879512749080669]]; Ignite relies on other Fire mages [[d:mage#1485659693857902663]]; weak AoE compared with Arcane [[d:mage#1319539463122059334]] |
 
+## How to play
+
+The level-60 decision loop. The details, with sources, are in the sections below.
+
+1. **Opener:** `Fire Blast` → `Scorch` → `Scorch` → `Scorch` → `Fireball` → `Fire Blast` [[d:mage#1478881200079769690]]. With several Fire mages, stack Fire Vulnerability together before anyone builds Ignite ([Ignite](#ignite-how-it-works)).
+2. **Single-target loop** ([Single-target rotation](#single-target-rotation)):
+   1. `Pyroblast` at 5 Hot Streak stacks (at 4 only when the boss is about to die).
+   2. `Fire Blast` whenever it is off cooldown: every 2 Fireballs with no haste, every 3 with a little haste [[d:mage#1487204103632191600]].
+   3. `Scorch` to keep 5 Fire Vulnerability stacks, only if the target lives more than about a minute.
+   4. `Fireball`.
+3. **Cooldowns:** `Combustion` once Fire Vulnerability is up, into Fireball/Pyroblast [[d:mage#1478734312135331881]]. Save `Mind Quickening Gem` for fights where it matters ([Cooldowns and mana](#cooldowns-and-mana)).
+4. **Ignite:** let a weak Ignite (built from partial resists) drop and rebuild it. Never stall on extra Scorches to protect a big one [[d:mage#1487206596852449382]], [[d:mage#1478881200079769690]].
+5. **AoE switch** ([AoE rotation](#aoe-rotation)): on trash that stays grouped, rank-1 `Arcane Explosion` → `Flamestrike` R6 → `Flamestrike` R5 → `Blast Wave` → max-rank `Arcane Explosion` spam. If the raid melts trash fast, skip Flamestrike and use only Explosion + Blast Wave [[d:mage#1468725989961109605]].
+6. **Mana:** Master of Elements and Arcane Concentration are your in-fight mana. Gems, tea and `Evocation` as for any mage.
+7. **Movement:** `Fire Blast`, then `Scorch` (1.5 s cast) for short stops *(vanilla baseline)*.
+
 ## What 1.18.1 changed for Fire
 
 - **Improved Fire Blast** now cuts Fire Blast's GCD by 0.3/0.6/1.0 s ([Jamey (staff), 2026-01-26 rev.](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)). Before, a Fireball (~3 s) plus Fire Blast's 1 s GCD took 4 s, the whole Ignite window, so Fire Blast dropped Ignite [[d:mage#1464380190082732185]], [[d:mage#1464375886710182040]]. Now Fire Blast is "your highest dps spell by a good margin" [[d:mage#1487204103632191600]], and every spec's rotation changed [[d:mage#1486320286940004443]].

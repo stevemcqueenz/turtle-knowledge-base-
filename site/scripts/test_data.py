@@ -200,6 +200,80 @@ def check_instances(classes: list, meta: dict) -> None:
     check(not dangling, f"instance links kept as text (target missing): {dangling[:5]}")
 
 
+def image_size(path: Path) -> tuple[int, int] | None:
+    """(width, height) of a WebP file (VP8 / VP8L / VP8X), without Pillow."""
+    b = path.read_bytes()[:40]
+    if b[:4] != b"RIFF" or b[8:12] != b"WEBP":
+        return None
+    kind = b[12:16]
+    if kind == b"VP8 ":
+        return int.from_bytes(b[26:28], "little") & 0x3FFF, int.from_bytes(b[28:30], "little") & 0x3FFF
+    if kind == b"VP8L":
+        v = int.from_bytes(b[21:25], "little")
+        return (v & 0x3FFF) + 1, ((v >> 14) & 0x3FFF) + 1
+    if kind == b"VP8X":
+        return int.from_bytes(b[24:27], "little") + 1, int.from_bytes(b[27:30], "little") + 1
+    return None
+
+
+def check_maps(data: dict | None) -> tuple[int, int, int]:
+    """Instance maps (tools/maps/ -> public/maps/, page.map): every file exists,
+    is a WebP of the stated size within sane bounds, markers sit on the image and
+    link to an anchor the page renders. -> (pages, floors, markers)."""
+    if not data:
+        return 0, 0, 0
+    public = SITE_DIR / "public"
+    source = SITE_DIR / "scripts" / "maps-source.json"
+    n_pages = n_floors = n_markers = 0
+    total = 0
+    for p in data.get("pages") or []:
+        m = p.get("map")
+        if not m:
+            continue
+        n_pages += 1
+        label = f"instances/{p['slug']}/map"
+        anchors = {s["id"] for s in p["sections"]}
+        for s in p["sections"]:
+            if re.search(r"boss|encounter|wing|floor|event", s["heading"], re.I):
+                for h in re.findall(r"^###\s+(.+)$", s["markdown"], re.M):
+                    t = re.sub(r"<[^>]+>", "", h.strip()).lower()
+                    anchors.add("boss-" + (re.sub(r"[^a-z0-9]+", "-", t).strip("-") or "section"))
+        check(set(m.get("provenance") or {}) <= {"minimap", "floorplan"} and m.get("provenance"),
+              f"{label}: provenance {m.get('provenance')}")
+        files = [m["thumb"]] + m["floors"]
+        check(len(m["floors"]) >= 1, f"{label}: no floors")
+        check(len({f["floor"] for f in m["floors"]}) == len(m["floors"]), f"{label}: duplicate floor ids")
+        for f in files:
+            path = public / f["file"]
+            check(f["file"].startswith(f"maps/{p['slug']}/") and f["file"].endswith(".webp"),
+                  f"{label}: unexpected path {f['file']}")
+            if not path.is_file():
+                check(False, f"{label}: {f['file']} is missing")
+                continue
+            total += path.stat().st_size
+            size = image_size(path)
+            check(size == (f["width"], f["height"]), f"{label}: {f['file']} is {size}, manifest says "
+                  f"{(f['width'], f['height'])}")
+            check(path.stat().st_size <= 400_000, f"{label}: {f['file']} is {path.stat().st_size} bytes")
+        for f in m["floors"]:
+            n_floors += 1
+            check(f["kind"] in ("minimap", "floorplan"), f"{label}/{f['floor']}: kind {f['kind']}")
+            check(200 <= max(f["width"], f["height"]) <= 2048 and min(f["width"], f["height"]) >= 64,
+                  f"{label}/{f['floor']}: implausible size {f['width']}x{f['height']}")
+            check(f["label"].strip() != "", f"{label}/{f['floor']}: empty label")
+            for mk in f["markers"]:
+                n_markers += 1
+                check(0 <= mk["x"] <= 1 and 0 <= mk["y"] <= 1, f"{label}/{f['floor']}: marker {mk} off the image")
+                check(mk["anchor"] in anchors, f"{label}/{f['floor']}: marker {mk['n']} links to missing "
+                      f"anchor {mk['anchor']}")
+        ns = [mk["n"] for f in m["floors"] for mk in f["markers"]]
+        check(sorted(ns) == list(range(1, len(ns) + 1)), f"{label}: marker numbers {ns} are not 1..n")
+    if n_pages:
+        check(source.is_file(), "instances.json has maps but site/scripts/maps-source.json is missing")
+        check(total <= 12_000_000, f"map assets total {total} bytes (budget 12 MB)")
+    return n_pages, n_floors, n_markers
+
+
 GRADES = {"S", "A", "B", "C", "D", "F"}
 
 
@@ -360,6 +434,7 @@ def main() -> int:
 
     # ---- Dungeon and raid pages (guide/instances/**) ---------------------
     check_instances(classes, meta)
+    map_counts = check_maps(load_json("instances.json") if (DATA_DIR / "instances.json").exists() else None)
 
     # ---- Every playbook with a YAML file has yaml non-null ----------------
     missing_yaml = []
@@ -439,6 +514,7 @@ def main() -> int:
           f"glossaryTerms={len(glossary)}")
     ic = meta.get("instanceCounts") or {}
     print(f"  instances={ic.get('pages', 0)} (dungeons={ic.get('dungeons', 0)} raids={ic.get('raids', 0)})")
+    print(f"  maps: {map_counts[0]} pages, {map_counts[1]} floors, {map_counts[2]} boss markers")
     print(f"  standing lookups: {total_playbooks - len(misses)}/{total_playbooks} matched "
           f"({hit_rate:.1%})")
     return 0

@@ -8,6 +8,38 @@
 | Shape of the class | "Mage farms the everliving shit out of melee and mage gets the everliving shit farmed out of it by most ranged" [[d:mage#1440109079191355525]] |
 | Pre-1.18.1 tier lists | Shaman god tier > Rogue/Smite Priest S > **Warlock/Mage/Druid A** > Hunter/Paladin B > Warrior F [[d:pvp-general#1429944347834581072]]; Shaman, Rogue >>> Paladin > **Mage**/Priest/Lock > Druid/Warrior > Hunter [[d:pvp-general#1430027610406260776]] |
 
+## How to play
+
+The level-60 PvP decision loop. Details are in [Burst and control sequences](#burst-and-control-sequences), [Builds](#builds) and [Matchups](#matchups). Mage wins with control and short burst windows, not as a Frostbolt turret [[d:mage#1491494895574323224]].
+
+**Arcane, PoM Block 30/0/21 (burst):**
+
+1. **Opener (range):** `Presence of Mind` (3 min) + ZHC/ToEP trinket → instant `Arcane Rupture` → `Arcane Missiles` spam [[d:mage#1491794197773156493]]. Cast PoM on its own, not in a macro [[d:mage#1479120357645619211]].
+2. **Burst:** after PoM, keep Rupture up (15 s cooldown) and "arcane missile bot" [[d:mage#1491794484428537888]]. Missiles keep hitting through broken line of sight once locked on [[d:mage#1430671883379937393]]. A hard-cast kill needs about 8 s of free casting (**Contested**) [[d:pvp-general#1423496943488733355]], so land CC first.
+3. **Control chain:** `Polymorph` one target, `Frost Nova` (25 s) and `Cone of Cold` (10 s) to peel melee, `Counterspell` (30 s; Improved Counterspell adds a silence, vanilla baseline) a caster's key cast [[d:mage#1491494895574323224]]. Never damage your own Polymorph target; it heals to full [[d:mage#1444727256906731660]].
+4. **Defence/escape:** `Blink` (15 s) out of stuns and melee; `Ice Block` (5 min) is full immunity but does not drop threat [[d:mage#1475235315546591466]]; `Cold Snap` (10 min) resets Frost Nova, Cone of Cold and Ice Block (vanilla baseline). Fire Ward / Frost Ward against matching casters [[d:mage#1491794484428537888]]. Arcane is "bursty but super squishy" [[d:mage#1439706644022824960]]: burst one or two targets, then get out [[d:mage#1443727154788569311]].
+
+**Frost/Arcane hybrid 17/0/34 (control):**
+
+1. **Opener (range):** `Amplify Magic` on the enemy (puts him in combat, so a warrior cannot Charge) → rank-1 `Frostbolt` (quick slow: 1.5 s base cast, shorter with Improved Frostbolt) → `Arcane Rupture` → `Arcane Missiles` [[d:mage#1446916002456797397]], [[d:mage#1446915962497531912]]. Frost alternative: `Polymorph` → `Frost Nova` → max-range rank-11 `Frostbolt` (3 s base cast) [[d:mage#1444727016837615803]].
+2. **Loop:** `Ice Barrier` (30 s) up before and during the fight (vanilla baseline) → rank-1 Frostbolt to keep the slow → Rupture/Missiles in each window you get [[d:mage#1446908256739131462]].
+3. **Control and defence:** as Arcane above; this build keeps Ice Barrier on top of Ice Block and Cold Snap [[d:mage#1446908192020893747]], and trades burst for survival (deep Arcane is "better offensively" but less tanky) [[d:mage#1490363735468933281]].
+
+**Both specs:**
+
+- **Target priority:** Counterspell or CC the pure caster's damage source, then burst him; kite non-casters "forever" [[d:mage#1435373606396887183]]. Against a healer + DPS, Polymorph the healer and burst the DPS (vanilla baseline). In team fights your value is CC, Improved Counterspell and Ice Blocks [[d:mage#1491119007074484446]].
+- **Reset/drink:** Ice Block + Blink to break a bad fight [[d:mage#1491494895574323224]]. Spirit is useless because there is no in-combat regen [[d:pvp-general#1423705880704319609]], so drink or Evocate (8 min) only out of combat or behind line of sight (vanilla baseline).
+
+**Vs class** (full table in [Matchups](#matchups)):
+
+- **Warrior:** Counterspell/Amplify Magic first so he cannot Charge; Nova, kite, rank-1 Frostbolt [[d:mage#1446915962497531912]].
+- **Rogue:** skill matchup; his Free Action Potion breaks your shatter combo [[d:pvp-general#1278955218364530803]].
+- **Paladin:** Polymorph through Freedom, burst after it ends [[d:mage#1435125334109454426]].
+- **Shaman:** hard ("shamans OS mages") [[d:mage#1461342743476437145]]; Counterspell locks out his damage and healing [[d:pvp-general#1081905593008259082]]; watch Grounding Totem.
+- **Hunter:** losing [[d:mage#1435373701355798719]]; play the deadzone and line of sight [[d:pvp-general#1120391121005195286]].
+- **Warlock:** even; Ice Block through his Spell Lock window [[d:pvp-general#1430030401585287208]].
+- **Feral druid:** Blink out of Pounce and save the trinket for his Bash [[d:pvp-general#1380875640907235431]].
+
 ## What 1.18.1 changed for PvP
 
 - **Dampening** became class- and spec-dependent, and the numbers were never published ([Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)). Many players "wanted to get away from the burst meta" [[d:mage#1491133264046588186]].

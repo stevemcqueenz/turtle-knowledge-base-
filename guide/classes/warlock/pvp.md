@@ -12,6 +12,59 @@
 
 **1.18.1 PvP damping and resilience:** both hit warlocks twice, because most of their damage is DoTs [[d:warlock#1490175529209430066]]. One player felt he hit "like a wet noodle" [[d:warlock#1490165945266606280]]. **Contested:** Afraido says "your target dies 1 or 2 seconds later than before, not a big deal". Curse of Agony still ramps: 3 ticks of 50, 3 of 100, 3 of 150 [[d:warlock#1491187985486581912]], [[d:warlock#1491186750977085470]]. Curse of Exhaustion is now "hard to use if you aren't affli" [[d:warlock#1492351199847120906]]. Soul Link was cut to 20% for PvP reasons [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071).
 
+## How to play
+
+The level-60 PvP decision loop for each build. The details are in [Control and burst sequences](#control-and-burst-sequences), [Pets](#pets), [Battlegrounds](#battlegrounds) and [Matchups](#matchups).
+
+**Every build, before and between fights:**
+
+- **Pet:** "succubus is great vs rogues, felhunter vs casters", the Voidwalker against warriors [[d:warlock#1412421339352137758]]. Turn off Lash of Pain autocast and run the Felhunter manually ([Pets](#pets)).
+- **Position:** sit at max range and do your rotation from there [[d:warlock#1451420578169753755]].
+- **Reset:** Healthstone or Spellstone; they share a cooldown [[d:warlock#1454095765600473179]]. Fel Domination (5-min cooldown) brings a re-summon down to 1.5 s after your pet dies [[d:pvp-general#1425009815138340914]]. Life Tap, then drink back to full mana out of combat (vanilla baseline).
+
+**Affliction 35/5/11 (default):**
+
+1. **Opener (36 yd, all instant):** Curse of Exhaustion on the melee → Corruption → Curse of Agony → Siphon Life [[d:warlock#1464376560290107628]]. Against a caster healer, use Curse of Tongues plus Spell Lock or Seduce [[d:pvp-general#1382720814482329600]].
+2. **Loop:** walk away and let the DoTs tick. Drain Life or Drain Soul while the target is slowed. Drain channels cannot be kicked or pummelled [[d:warlock#1432907646901551224]]. If no dispel is around, cast Dark Harvest (30 s cooldown) into a Fear [[d:warlock#1450363160979570840]].
+3. **Finish:** Shadowburn (15 s cooldown) or a Nightfall Shadow Bolt. Never hard-cast Shadow Bolt into melee [[d:warlock#1434242633894592725]].
+4. **Control chain:** Fear (1.5 s cast; Fel Concentration stops pushback on it) [[d:warlock#1405907548908949636]] → Curse of Recklessness to juggle the feared target [[d:warlock#1490124423288717403]] → Howl of Terror (40 s cooldown, 2 s cast) when a second melee arrives → Death Coil (2-min cooldown) as the last peel.
+   - **DR:** Seduction shares diminishing returns with Fear [[d:warlock#1424132365671993464]].
+   - Do not open with Fear on an Undead player; Will of the Forsaken gives 3 s immunity [[d:warlock#1424135596372263005]].
+5. **Defence:** against stun openers, trinket first and Death Coil after [[d:warlock#1479969109692125224]]. Drink a Limited Invulnerability Potion when a melee is on you [[d:warlock#1432907646901551224]]. Spellstone clears magic silences.
+6. **Target priority:**
+   - Put the Felhunter's Spell Lock on the enemy healer ("8sec silence on enemy healer") [[d:warlock#1476314060005048532]].
+   - DoT and slow the melee who push in, or the flag carrier.
+   - Against a hunter, kill the pet first.
+   - In premades, do not DoT targets your team has crowd-controlled [[d:pvp-general#1427354322395463682]].
+
+**Destruction 5/5/39 (burst when your group peels):**
+
+1. **Opener:** Seduction to force the trinket [[d:warlock#1450370894307524801]].
+2. **Burst:** Soul Fire (30 s cooldown; it needs CC to land) → re-Seduce → Immolate → Conflagrate (10 s cooldown) → Shadowburn [[d:pvp-general#1431769867446390886]], [[d:pvp-general#1431772306203742272]].
+3. **Control and defence:** you have no Curse of Exhaustion, so rely on Fear, the Curse of Recklessness juggle and Death Coil. The slows, stuns and crits are what secure kills on kiters such as warriors [[d:warlock#1494966922104537178]].
+4. **Avoid:** fire-reflector and fire-immunity-trinket targets. Swap to your DoTs or to a different target [[d:warlock#1469458947969909015]].
+
+**SM/Ruin 30/0/21 (open world, BGs):** play the Affliction loop with the Imp at range. The build keeps full Curse of Exhaustion and Fear pushback protection [[d:warlock#1436410692520644791]].
+
+**Soul Link Demonology 5/34/12 (duels, arenas):**
+
+1. **Opener:** Voidwalker Sacrifice for the shield, then summon the greater demon. It is "easily countered when you know what you're doing" [[d:warlock#1465083424107790549]].
+2. **Arena:** Inferno (10-min cooldown) and Demon Gate reset each match, so spend them every match [[d:warlock#1436498300542128168]].
+3. **Against melee:** keep the Felguard on top of yourself [[d:warlock#1424132713518071920]].
+4. **Not in BGs:** one Fear, Banish or Hamstring on the pet wastes the whole cooldown [[d:warlock#1469459298722775227]].
+
+**Vs class** (sources and the full table are in [Matchups](#matchups)):
+
+- **Warrior:** Curse of Exhaustion before he can Charge, then Death Coil and walk. The Voidwalker shield or a LIP denies him rage.
+- **Rogue:** trinket → Death Coil → double Fear → Curse of Exhaustion → DoTs → drain.
+- **Feral druid:** the near-unwinnable matchup. Carry Thorn's Pod.
+- **Hunter:** pet first.
+- **Priest:** Spell Lock or Seduce, plus Curse of Tongues.
+- **Paladin:** the Felhunter eats Hammer of Justice and Repentance. Expect a bubble after your Death Coil, which moves your next Fear into diminishing returns.
+- **Shaman:** Curse of Exhaustion is a must. Tremor and Grounding make Fear unreliable.
+- **Mage:** Spell Lock the first Arcane Missiles and Death Coil the second.
+- **Warlock:** kill their Succubus before she seduces again.
+
 ## Builds
 
 All validated with `talent_tool.py` (VALID).
@@ -114,7 +167,7 @@ Rule of thumb: "succubus is great vs rogues, felhunter vs casters, vw can work v
 
 Summonjutsu: "Corruption, CoA, Siphon life, Shadowburn" can kill a fresh-60 target while you walk away [[d:warlock#1464376560290107628]].
 
-**Destruction burst:** Seduce to force the trinket → Soul Fire → Immolate → Conflagrate for a near one-shot [[d:warlock#1450370894307524801]]. Soul Fire's 4 s cast needs CC to land [[d:warlock#1491162205931044994]], [[d:warlock#1491182479854534839]]. Geared targets can no longer be one-shot this way [[d:warlock#1491183008793886871]]. The roughly 20% global PvP damage dampening is blamed: old 5k Soul Fires are gone, so the full combo is now Soul Fire (about 3.5k) → reapply Seduce → Immolate (about 1.5k) → Conflagrate (about 2k) → Shadowburn (about 1.5k) instead of a single opener [[d:pvp-general#1431769867446390886]], [[d:pvp-general#1431771508597854216]], [[d:pvp-general#1431772306203742272]].
+**Destruction burst:** Seduce to force the trinket → Soul Fire → Immolate → Conflagrate for a near one-shot [[d:warlock#1450370894307524801]]. **Contested:** spell data gives Soul Fire a 6 s cast (no talent in the kit shortens it), but a player reports 4 s; either way it needs CC to land [[d:warlock#1491162205931044994]], [[d:warlock#1491182479854534839]]. Geared targets can no longer be one-shot this way [[d:warlock#1491183008793886871]]. The roughly 20% global PvP damage dampening is blamed: old 5k Soul Fires are gone, so the full combo is now Soul Fire (about 3.5k) → reapply Seduce → Immolate (about 1.5k) → Conflagrate (about 2k) → Shadowburn (about 1.5k) instead of a single opener [[d:pvp-general#1431769867446390886]], [[d:pvp-general#1431771508597854216]], [[d:pvp-general#1431772306203742272]].
 
 **Demonology duel opener:** pre-sacrifice the Voidwalker for the shield, then summon the Felguard. It is "easily countered when you know what you're doing" [[d:warlock#1465083424107790549]]. Against a warrior, keep the Felguard on top of yourself so he cannot hit you without eating Felstorm [[d:warlock#1424132713518071920]].
 

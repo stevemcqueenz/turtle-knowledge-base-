@@ -15,6 +15,32 @@
 
 Hunter PvP swings on procs: "almost 100% luck. You either get your procs and 1 shot them before they can react or you don't" [[d:hunter#1491130145858261146]].
 
+## How to play
+
+This is the level-60 decision loop. For the details, see [Burst and control sequences](#burst-and-control-sequences), [Battleground role](#battleground-role) and [Matchups](#matchups). Cooldowns come from the 1.18.1 kit.
+
+**Marksmanship 0/34/17:**
+
+1. **Opener:** start at max range (8–35 yd for shots). Hunter's Mark, then Aimed Shot (2 s cast, 26 s cooldown) → Arcane Shot while Enchanted Ammunition is up → Auto Shot → Steady Shot. The burst hits armored targets for 2,000+ [[d:hunter#1485349629468999740]], [[d:hunter#1485325181193814267]]. Multi-Shot opens or finishes a low-HP target [[d:hunter#1492280220827385956]].
+2. **Loop while at range:** Arcane Shot on the move (the reason for Swiftshot) [[d:hunter#1484642023221887077]]. Concussive Shot (12 s cooldown) to keep distance. Viper Sting on mana users, Serpent Sting otherwise (see [Macros](#macros)). Don't stand still casting Steady Shot next to a caster: "any alliance hunter that stays in place trying to do steady shot is an EQ target for me" [[d:hunter#1429360996656615526]].
+3. **Control chain when melee closes in:** Scatter Shot (30 s) → step back → Freezing Trap, or Frost Trap + Entrapment → kite with Concussive Shot. Scatter and Freezing Trap share diminishing returns, so the trap after a Scatter lasts only 6 s [[d:hunter#1470132967287423119]]. Traps can be trinketed [[d:hunter#1429245770460303390]]. Entrapment roots once per Frost Trap [[d:hunter#1486483467830300702]].
+4. **Dead zone escape:** Wing Clip (3 s cooldown), then back off (Disengage only drops threat, so it does not move you). Feign Death (30 s) drops targets and lets you place a trap. Deterrence (5 min) is the last resort. Once a melee sits in your dead zone you are "a walking target dummy" [[d:hunter#1464958762115666064]]. Night Elves chain Feign Death into Shadowmeld [[d:hunter#1460516471250616360]].
+5. **Target priority:** Viper Sting the healers and hold defensive positions with traps [[d:pvp-general#1427354322395463682]]. Burst the warriors and paladins in plate, because Arcane Shot "is extremely good now vs anything with high ac" [[d:hunter#1485349629468999740]].
+6. **Reset / drink:** use Scatter → Feign Death → Freezing Trap to "reset the fight over and over if needed" [[d:hunter#1308899176649851048]]. Drink or switch to Aspect of the Viper only when out of combat, or behind line of sight while a trap holds the target (vanilla baseline).
+
+**Beast Mastery:** Bestial Wrath (90 s) with trinkets, then Kill Command (8 s) on the next crit [[d:hunter#1492013965692108811]]. Send the pet into the backline healer as a dive tank while you kite [[d:hunter#1492849347954741308]]. Expect the pet to be focused or CC'd: resummon it, and never rely on it against warriors [[d:hunter#1470117753963937924]].
+
+**Survival 8/5/38:** you still kite and range as much as you can. Your traps are the real edge: Immolation Trap wins against rogues and warriors [[d:hunter#1422113602130935921]], and Entrapment locks chokepoints [[d:hunter#1489619404449779883]]. Deterrence, if you took it, is your only defensive cooldown. Casters and warlocks beat you in the dead zone [[d:hunter#1458532977729339402]].
+
+**Vs class** (the full table is in [Matchups](#matchups)):
+
+- **Warrior:** trinket Hamstring, then Wing Clip and make distance. Expect Intercept + Disarm (pre).
+- **Rogue:** MM burst survives Cold Blood/Kidney cycles; Survival wins with Immolation Trap.
+- **Mage:** they Blink + Frost Nova into your dead zone. Against BM they need double Ice Block.
+- **Paladin:** Freedom ignores stings, slows, roots and traps, so save the burst for after it.
+- **Shaman / Warlock / Priest:** hard matchups (Frost Shock burst, fear, DoTs). Burst early and use Feign Death to drop targets.
+- **Counterspell** stops trap drops, even out of Feign Death [[d:pvp-general#1431619747358703727]].
+
 ## Builds
 
 ### MM 0/34/17 (recommended)

@@ -12,6 +12,31 @@
 
 Players will meet older advice: "Dark Harvest on cooldown" (2025) and "haste breakpoint tables". Both are superseded; see the sections below.
 
+## How to play
+
+The decision loop for a level-60 raid boss with the 35/11/5 build. The reasons and sources are in [Single-target rotation](#single-target-rotation-raid-boss), [AoE and multi-target](#aoe-and-multi-target) and [Cooldowns, resources and threat](#cooldowns-resources-and-threat).
+
+1. **Before the pull:** summon the Imp and **Demonic Sacrifice** it for +4% spell damage. Sacrifice the Succubus instead if you are threat-capped ([Pets](#pets)). Carry a Felstone, or a Voidstone for threat.
+2. **Opener:** haste and spell-power cooldowns → assigned curse (Malediction adds Curse of Agony) → Corruption → Siphon Life → Drain Soul. If threat is tight, open Siphon Life → Corruption → curse → Drain Soul.
+3. **Single-target loop (top wins):**
+    1. Nightfall proc → Shadow Bolt. Break a Drain Soul for it, never a Dark Harvest.
+    2. Assigned curse missing → curse.
+    3. Curse of Agony missing → Curse of Agony. Malediction does not refresh it.
+    4. Corruption missing → Corruption.
+    5. Siphon Life missing, and the target will live its full 30 s → Siphon Life.
+    6. Dark Harvest only when Shadow Vulnerability is up, every DoT has ≥~10 s left and nothing will interrupt the 8 s channel. Otherwise use it as a finisher ([why](#dark-harvest-why-top-players-barely-use-it)).
+    7. Drain Soul as the filler. Cancel it right after a tick.
+    8. Life Tap when mana will not cover the next cycle.
+4. **Cooldowns:** pop trinkets and potions *before* you (re)apply DoTs, because DoTs keep the buffs they were cast with. Death Coil is your emergency heal. A Limited Invulnerability Potion is your emergency threat drop.
+5. **AoE switch:**
+    - 1 target: the loop above.
+    - 2-3 targets that live longer than ~10 s: curse and Corruption on each, then drain the kill target.
+    - Trash that dies in under ~10 s: one Corruption plus Drain Soul, or just your curse.
+    - Never dot more than 3 targets.
+    - 5+ stacked mobs: spread Siphon Life, then Hellfire or Rain of Fire (warn the tank).
+6. **Resources and threat:** Life Tap is your mana; you rarely drink. At ~80-85% of the tank's threat, wand or hold.
+7. **Movement:** refresh the instants (curses, Corruption, Siphon Life) and Nightfall Shadow Bolts while you move. Start a channel only once you can stand still (vanilla baseline). Never cast Immolate, and never hard-cast Shadow Bolt.
+
 ## Talent build
 
 ### Raid 35/11/5 (recommended)

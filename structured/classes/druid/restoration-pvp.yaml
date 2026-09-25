@@ -226,3 +226,60 @@ stat_priority_note: '"Focus on stamina gear over anything else" [Frantsel p=1564
   to an Envenom rogue''s opener, and the report concludes "resilience won''t save you btw" — but the burst in question
   (Dissolvent Poison) was separately flagged as likely to be hotfixed. Stealth-detection items are tracked separately
   in the playbook; they are gear, not a combat stat.'
+play_loop:
+  guide_section: guide/classes/druid/pvp.md#how-to-play
+  opener:
+  - Rejuvenation on self/partner
+  - Moonfire + Insect Swarm on the enemy
+  heal:
+  - priority: 1
+    action: Rejuvenation / Regrowth while moving
+    condition: default; Healing Touch rarely
+  - priority: 2
+    action: Nature's Swiftness + Healing Touch
+    condition: burst on you or a partner
+  - priority: 3
+    action: Swiftmend
+    condition: instant top-up; 15 s cd
+  - priority: 4
+    action: Moonfire + Insect Swarm
+    condition: keep up while out-healing, while mana holds
+  - priority: 5
+    action: Remove Curse / Cure Poison
+    condition: on partners (vanilla baseline)
+  cooldowns:
+  - name: Nature's Swiftness
+    spell_id: 17116
+    use_when: emergency instant Healing Touch; 180 s cd
+  - name: Swiftmend
+    spell_id: 18562
+    use_when: instant heal; 15 s cd
+  - name: Innervate
+    spell_id: 29166
+    use_when: low mana (vanilla baseline); 360 s cd
+  defensive:
+  - 'HoTs lose to burst and get dispelled by priests/shamans (contested: some report undispellable)'
+  - skip Tree of Life (movement penalty)
+  - Bear Form vs melee when not needed for heals
+  target_priority:
+  - 'BG: peel for / heal flag carriers, defend nodes (guide Battleground role)'
+  - no druid-specific kill order sourced; kill a healer you can lock out, else the lowest-armor dps (vanilla baseline)
+  reset:
+  - Travel Form out to reset ("going cheetah and running away") [[d:druid#1427344507007012975]]
+  - drink out of combat; re-Prowl before re-engaging (vanilla baseline)
+  vs_class:
+    warrior: root, kite, shift out of Hamstring, Travel Form to reset
+    rogue: be in Bear when the opener lands; trinket Kidney Shot, not the first stun
+    shaman: 'hardest matchup: Purge strips HoTs, Enhancement burst kills Cat'
+    paladin: 'losing for Feral: HoJ/Repentance lock you out of heals'
+    mage: no Pounce opener (Blink + trinket saved for Bash); Balance out-ranges Arcane
+    warlock: kill the pet, avoid Death Coil -> fear -> silence; Feral nearly always lands the opener
+    priest: dispels all DoTs/HoTs in one GCD
+    hunter: full ranged pressure even with the pet slept/rooted
+  sources:
+  - '[[d:druid#1427343668632616960]]'
+  - '[[d:druid#1427343752732737577]]'
+  - '[[d:druid#1490125435663810640]]'
+  - '[[d:druid#1487165663452594306]]'
+  - '[[d:pvp-general#1430235229167030375]]'
+  - '[[d:druid#1467260763193475113]]'

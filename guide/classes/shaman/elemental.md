@@ -12,6 +12,18 @@ The pre-1.18.1 **"fire ele" (Molten Blast spam) spec is gone**: 1.18.1 made Flam
 | Strengths | Chain Lightning and Earthquake cleave; ranged; totems and interrupts; Tranquil Air Totem for casters |
 | Weaknesses | Mana; needs a lot of gear ("Ele needs a lot of gear to do something") [[d:shaman#1489597570102722824]]; spell pushback; Nature-resistant bosses; no unique raid buff of its own [[d:shaman#1470892097656717504]]; can't use Atiesh or Scythe of Elune [[d:shaman#1480618703170175086]] |
 
+## How to play
+
+The level-60 loop with the [34/3/14 build](#raid-34314-recommended). Details: [Single target](#single-target-rotation), [AoE](#aoe-rotation), [Cooldowns](#cooldowns), [Totems](#totems-and-group-placement).
+
+1. **Before the pull:** weapon oil (no imbue), Searing Totem or Flametongue Totem plus your group totems.
+2. **Opener:** Elemental Mastery and on-use trinkets first, **then** Flame Shock, so the whole DoT snapshots [[d:shaman#1420830381762154628]]. Skip Flame Shock on fire-immune bosses.
+3. **Single-target loop:** Molten Blast only to refresh Flame Shock before it expires → Chain Lightning on Clearcasting (on cooldown when mana allows) → Lightning Bolt filler [[d:shaman#1490703901098250300]]. No shocks as filler [[d:shaman#1459503774186999850]].
+4. **Cooldowns:** Elemental Mastery (3 min) and Blood Fury right before a fresh Flame Shock.
+5. **AoE switch:** at **2+ targets** Earthquake and Chain Lightning on cooldown, Lightning Bolt filler; at 4+ add Fire Nova Totem when both are on cooldown. Wait for the tank's threat: Earthquake into Chain Lightning on trash "almost certainly" pulls aggro [[d:shaman#1462560298480435231]].
+6. **Resources:** don't cast Chain Lightning without Clearcasting while mana is tight [[d:shaman#1484941909620428922]]; tea or mana potion every boss pull. **Contested:** downranking vs consumables (see [Single target](#single-target-rotation)).
+7. **Movement / situational:** Earth Shock while moving and to interrupt; walk into range every ~2 minutes to re-drop totems for your melee.
+
 ## What 1.18.1 changed for Elemental
 
 | Change | What it means | Source |

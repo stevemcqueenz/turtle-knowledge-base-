@@ -72,7 +72,8 @@ Priests can use wands, one-handed maces, daggers and staves; Night Elves can als
 
 ## Professions
 
-- **Leveling:** double gathering for gold. Tailoring and Enchanting are gold sinks until 60 [[d:priest#1464014152988233738]].
-- **Dungeon leveler:** Tailoring + Enchanting [[d:priest#1477162914807939163]]. Tailoring's Dreamweave (40-45) and Shadoweave (Shadow) sets are worth making [[d:priest#1442771827331043338]].
-- **Endgame:** Engineering + Alchemy [[d:priest#1484601941563539657]]. Engineering is the only profession with real endgame gameplay value [[d:priest#1420896033189396512]], and it makes the BWL spell power goggles [[d:priest#1486384331227398216]].
-- **Gold:** Dire Maul East lashers with Holy Nova; Herbalism adds about 20% [[d:priest#1420896033189396512]]. See [Leveling](leveling.md#gold-and-farming).
+- **Leveling:** double gathering for gold. Crafting professions are gold sinks until 60 [[d:priest#1464014152988233738]]. A dungeon-leveling healer can go Tailoring + Enchanting [[d:priest#1477162914807939163]]; Dreamweave (40-45) and Shadoweave (Shadow) are the crafts worth making [[d:priest#1442771827331043338]].
+- **Endgame:** Engineering + Alchemy [[d:priest#1484601941563539657]]. Engineering is the only profession with real gameplay value [[d:priest#1420896033189396512]], and it makes the BWL spell power goggles [[d:priest#1486384331227398216]].
+- **Gold:** Dire Maul East lashers with Holy Nova; Herbalism adds about 20% [[d:priest#1420896033189396512]].
+
+Full guide: [Professions](professions.md)

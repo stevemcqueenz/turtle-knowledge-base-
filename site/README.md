@@ -2,7 +2,7 @@
 
 A static site over this repository's class guides for Turtle WoW's final patch, 1.18.1: how the community played every class, distilled from a full read of the archived Discord (1.18.1 era) plus the forum and wiki, with every claim linked to the verbatim message it came from. Pick a class or a goal, get the short answer and the ratings first, then the full guide, the leveling path, the dungeon and raid pages, and a machine-readable playbook per spec for bot developers.
 
-Vite + React 18 + TypeScript + Tailwind CSS. No backend, no runtime network calls, no external fonts or CDN scripts, no game artwork. All prose comes from the generated JSON in `src/data/`; the only hand-written strings are UI labels.
+Vite + React 18 + TypeScript + Tailwind CSS. No backend, no runtime network calls, no external fonts or CDN scripts, and no game artwork apart from the instance maps (rendered from the client's own minimap textures, see below). All prose comes from the generated JSON in `src/data/`; the only hand-written strings are UI labels.
 
 ## Requirements
 
@@ -26,11 +26,11 @@ npm run build:single  # -> dist-single/index.html   one self-contained file
 
 `base` is `./`, so `dist/` works unchanged at a domain root, inside a sub-path (GitHub Pages project sites), in any sub-folder of a static server, and straight from disk. Routing is hash-based (`#/class/warrior/protection-tank`), so deep links survive a reload with no server rewrites.
 
-The single-file build inlines the JS, CSS and JSON into one HTML file (~10.7 MB) that opens from `file://` with zero network requests — useful for previews, archives and offline reading.
+The single-file build inlines the JS, CSS and JSON into one HTML file (~10.7 MB) that opens from `file://` with zero network requests — useful for previews, archives and offline reading. It leaves out the instance maps (separate image files under `public/maps/`, ~7.6 MB): its instance pages show a one-line note instead (`VITE_SINGLE_FILE`, `publicDir: false` in `vite.config.single.ts`).
 
 ## Design
 
-"Field manual of an archived server": warm ink on parchment (light) or lamplit leather (dark, the default), a brass accent for the archive, each class's own color on its pages, a book face (system serif stack: Iowan Old Style / Palatino / Charter / Georgia / Noto Serif, nothing downloaded) for headings and the system sans for reading. No game artwork: classes are monograms in their color, talents are typography.
+"Field manual of an archived server": warm ink on parchment (light) or lamplit leather (dark, the default), a brass accent for the archive, each class's own color on its pages, a book face (system serif stack: Iowan Old Style / Palatino / Charter / Georgia / Noto Serif, nothing downloaded) for headings and the system sans for reading. No game artwork: classes are monograms in their color, talents are typography. The one exception is the dungeon and raid maps, which are the client's minimap textures on a fixed dark backdrop (`--c-map-bg`) in both themes.
 
 - **Fast answers first.** Every class, spec and leveling page opens with "The short answer" (the guide's own **Recommendation:** paragraph) and its ratings; the full guide follows with a sticky table of contents (sidebar on desktop, a sticky chip bar on phones) that tracks the section being read.
 - **Ratings** are the guide's S/A/B/C letters on a one-hue brass scale (letter always visible, `*` = contested, dashed `—` = not a role).
@@ -47,8 +47,8 @@ The single-file build inlines the JS, CSS and JSON into one HTML file (~10.7 MB)
 | `#/class/<slug>/leveling` | short answer and leveling ratings, then the guide's sections with the talent-order tables replaced by the **talent path**: one tab per path, a 10→60 timeline in ten-level bands with rank bars and respec markers, and a talent grid with a level slider that replays the order (the guide's tables stay one click away) |
 | `#/class/<slug>/sources`, `#/class/<slug>/guide/<page>` | standalone guide pages with a table of contents |
 | `#/class/<slug>/gear` | forum-era gear lists (research archive) |
-| `#/instances` | dungeon and raid index as cards (level, size, patch, zone, opening line), filter by kind |
-| `#/instances/<slug>` | instance page; boss sections become one card per boss (anchors `boss-<name>`, listed under "Bosses" in the TOC) with a sticky "highlight lines for Tanks / Healers / DPS" filter that dims boss notes not mentioning the role |
+| `#/instances` | dungeon and raid index as cards (map thumbnail, level, size, patch, zone, opening line), filter by kind |
+| `#/instances/<slug>` | instance page; the **map** first (floor tabs, numbered boss markers linking to the boss cards, click to enlarge with zoom and drag-to-pan, provenance line), then boss sections become one card per boss (anchors `boss-<name>`, listed under "Bosses" in the TOC) with a sticky "highlight lines for Tanks / Healers / DPS" filter that dims boss notes not mentioning the role |
 | `#/matrix` (`?by=raid|dungeon|pvp|leveling|farming`) | **viability board**: all classes' specs as a tier list per activity, plus the full ratings table |
 | `#/archive` | the forum-era spec × role matrix and coverage notes (superseded, kept) |
 | `#/about` | provenance, method, how to read citations, bots, the 1.18.1 timeline |
@@ -128,6 +128,8 @@ All summary UI is driven by the guide pages, not the forum-era synthesis. `build
 ### Dungeon and raid pages
 
 `guide/instances/index.md` and the pages it links become `src/data/instances.json`: `{title, intro, sourceFile, groups, pages}`. `groups` are the index's H2 sections (Dungeons, Raids) as Markdown plus the page slugs each links to; each page is `{slug, title, kind: "dungeon"|"raid"|null, group (the index H3 it is listed under), intro, sections, sourceFile}`, with section ids made unique per page. Kind and group come from where the index links the page. Citations and links go through the same transform as the class guides: `[[d:…]]` become chips, links between instance pages, from instance pages to class pages and from class pages (`../../instances/<slug>.md`) to instances become site routes. `meta.json` gains `instanceCounts` and `unwrappedLinks` (relative links whose target is missing, kept as text). The file is optional: without `guide/instances/index.md` it is not written and the app shows no instance pages (the fixtures have none).
+
+**Maps.** `tools/maps/extract_maps.py` (see `tools/maps/README.md`; needs the Turtle WoW client and the server data, so it is run locally and its output committed) renders every instance's floors from the client minimap textures into `public/maps/<slug>/<floor>.webp` (plus `thumb.webp`) and writes `scripts/maps-source.json`: per floor its label, kind (`minimap`, or `floorplan` for a navmesh-only plan), size and the unique named elites/bosses the server spawns on it. `build-data.py` (`attach_maps`) turns that into `pages[].map` = `{provenance, thumb{file,width,height}, floors[{floor, label, file, width, height, kind, markers[{n, boss, x, y, anchor}]}]}`: a boss the page names (an H3 of a boss section, a "Boss" table's first cell, a **bold** name) that matches a spawned creature becomes a numbered marker at its spawn (x, y are 0..1 fractions of the image) linking to its boss card or section. The core module carries each page's `mapThumb` for the index cards. `test_data.py` and `check-data.mjs` check that every map file exists with the stated WebP size, sizes are sane, marker numbers run 1..n, markers sit on the image and link to anchors the page renders; the smoke test checks that instance pages render the map, its floor tabs and markers.
 
 During development, before the guide pages are copied into this checkout, point the generator at another checkout:
 

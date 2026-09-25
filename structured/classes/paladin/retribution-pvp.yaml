@@ -354,3 +354,81 @@ next_patch_announced:
   - '[[d:paladin#1488856415010291794]]'
   items: []
   note: Not a patch; nothing in this file assumes it.
+play_loop:
+  guide_section: guide/classes/paladin/pvp.md#how-to-play
+  opener:
+  - seal up (Seal of Command); know where Hand of Freedom is
+  - Repentance -> Hammer of Justice -> Crusader Strike
+  single_target:
+  - priority: 1
+    action: Judgement of Command
+    condition: target stunned (double damage)
+  - priority: 2
+    action: Seal of Command
+    condition: seal missing (procs about 1 in 2 swings at 9 PPM)
+  - priority: 3
+    action: Crusader Strike
+    condition: on cooldown
+  - priority: 4
+    action: Seal of Justice -> swap to SoC, Judge -> back to SoJ
+    condition: target is a healer or caster (the SoJ stun is the only extra interrupt)
+  control:
+  - Repentance breaks on damage; do not hit a repented target
+  - save Repentance for a cast, a rogue opener or Vanish
+  - Berserker Rage breaks Repentance; it does nothing to a Free Action-potioned target
+  - the Seal of Justice stun reportedly does not DR with itself (iirc, single source)
+  cooldowns:
+  - name: Hammer of Justice
+    spell_id: 10308
+    use_when: after Repentance, or on a healer's cast; 60 s, 10 yd
+  - name: Repentance
+    spell_id: 51558
+    use_when: interrupt a cast or rogue opener; 60 s, 20 yd
+  - name: Divine Shield
+    spell_id: 1020
+    use_when: disengage, or eat a Kidney Shot to save the trinket; halves healing while up
+  - name: Hand of Protection
+    spell_id: 10278
+    use_when: Blind or heavy physical focus on you or an ally
+  - name: Hand of Freedom
+    spell_id: 1044
+    use_when: rooted or slowed ally or self; purgeable
+  defensive:
+  - Divine Shield only to disengage or to eat a stun; reset during it
+  - BoP stops Blind
+  - Hand of Sacrifice no longer breaks crowd control
+  - Freedom, seals and stuns are purgeable magic
+  target_priority:
+  - support first; heal, cleanse, Freedom, BoP allies
+  - reachable targets only; there is no gap closer
+  - pressure healers/casters with Seal of Justice; judge Justice on rogues/druids
+  reset:
+  - break line of sight and heal, then re-engage
+  - drink out of combat (vanilla baseline)
+  vs_class:
+    warrior: disarm-immune gloves; Berserker Rage breaks Repentance
+    rogue: trinket Kidney, bubble/BoP, Repentance -> HoJ, or wait out Evasion
+    mage: reach melee before being noticed (contested)
+    warlock: kill the pet
+    shaman: Purge strips seal and Freedom
+    hunter: shield on, break line of sight, Frost Oil
+  sources:
+  - '[[d:pvp-general#1429284370241552527]]'
+  - '[[d:paladin#1435043535899590837]]'
+  - '[[d:paladin#1465012850329391263]]'
+  - '[[d:paladin#1426723808445989067]]'
+  - '[[d:paladin#1426723987551031336]]'
+  - '[[d:paladin#1426726513239392336]]'
+  - '[[d:paladin#1426800158305419428]]'
+  - '[[d:paladin#1465252136186155038]]'
+  - '[[d:pvp-general#1433888687392817154]]'
+  - '[[d:paladin#1430425762976235651]]'
+  - '[[d:paladin#1429823453028155465]]'
+  - '[[d:paladin#1467173434726547698]]'
+  - '[[d:paladin#1424408436044595280]]'
+  - '[[d:paladin#1441767886023692468]]'
+  - '[[d:paladin#1441760867635953716]]'
+  - '[[d:paladin#1481664216443392121]]'
+  - '[[d:paladin#1467846413848412315]]'
+  - '[[d:paladin#1481664096163074098]]'
+  - '[[d:paladin#1426122717635285005]]'

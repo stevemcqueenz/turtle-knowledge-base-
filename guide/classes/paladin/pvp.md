@@ -12,6 +12,49 @@
 
 Community tier lists from the PvP channel put Paladin in the middle: "Shaman god tier ... hunter paladin b tier, warrior f tier" [[d:pvp-general#1429944347834581072]]; "warrior is rock bottom, paladins average, shamans god tier" [[d:pvp-general#1433954354624466994]].
 
+## How to play
+
+The level-60 PvP decision loop for each spec. The details are in [Burst and control](#burst-and-control), [Battleground roles](#battleground-roles) and [Matchups](#matchups). Cooldowns are from the 1.18.1 kit: Hammer of Justice 60 s (10 yd), Repentance 60 s (20 yd), Divine Shield and Hand of Protection 5 min, Hand of Freedom 24 s, Holy Shock 20 s (20 yd).
+
+**Retribution (Seal of Command):**
+
+1. **Before the fight:** seal up and know where your Freedom button is [[d:pvp-general#1429284370241552527]]. Pick a target you can reach, because Ret has no gap closer [[d:paladin#1481664240270970996]].
+2. **Opener:** Repentance, then Hammer of Justice, then Crusader Strike [[d:pvp-general#1429284370241552527]].
+3. **Burst:** in the stun, Judgement of Command for double damage, with Seal of Command up for the autos [[d:paladin#1435043535899590837]], [[d:paladin#1465012850329391263]].
+4. **Against a healer or caster:** Seal of Justice is your only extra "interrupt" [[d:paladin#1426723808445989067]]. Swap to SoC, judge, and go back to SoJ while its stun lasts [[d:paladin#1426723987551031336]]. The SoJ stun reportedly "doesnt DR with itself iirc" [[d:paladin#1426726513239392336]].
+5. **Control chain:** Repentance breaks on damage, so do not hit a repented target [[d:paladin#1426800158305419428]]. Save Repentance for a cast or for a rogue opener or Vanish [[d:paladin#1465252136186155038]]. Berserker Rage breaks it, and it does nothing to a Free Action-potioned target [[d:pvp-general#1433888687392817154]], [[d:paladin#1430425762976235651]].
+6. **Defence and escape:** use Divine Shield to disengage or to eat a Kidney Shot and save your trinket [[d:paladin#1429823453028155465]]. It halves your healing while it is up [[d:paladin#1467173434726547698]], so use the 12 s to reset. BoP stops Blind [[d:paladin#1424408436044595280]]. Hand of Freedom is weaker on Turtle (a longer cooldown and shorter duration), and Hand of Sacrifice no longer breaks crowd control [[d:paladin#1441767886023692468]]. Freedom, seals and stuns are all purgeable [[d:paladin#1441760867635953716]].
+7. **Target priority:** you are support first: "heal cleanse freedom your friends use bop smart" [[d:paladin#1481664216443392121]]. A well-placed Hand beats your damage [[d:paladin#1441525849042977040]]. Keep up pressure: fish for a Seal of Justice stun on a priest or shaman, or judge Justice on a rogue or druid [[d:paladin#1467846413848412315]].
+8. **Reset:** break line of sight and heal, then re-engage [[d:paladin#1481664096163074098]]. Drink out of combat (vanilla baseline).
+
+**Holy (Blessed Strikes):**
+
+1. **Set-up:** you need 6k+ health. Either harass in melee, using Crusader Strike resets off Holy Shock, or heal priority allies from range [[d:paladin#1481664712130166965]]. Melee that cannot catch you do no damage [[d:paladin#1481664931005857886]].
+2. **Default heals:** Holy Shock (instant) for spot heals under pressure. With Holy Judgement, judge and then use 1.5 s Holy Lights: "1.5 sec holy light right after shaman uses shock, then judge and second 1.5 sec holy light, 3k hp back" [[d:pvp-general#1427671149428342906]]. Flash of Light for cheap top-ups (vanilla baseline).
+3. **Triage:** you "can't heal all through the burst pvp currently has, so have to prio" [[d:paladin#1481664792728174644]]. Heal the ally who is being focused and can still be saved.
+4. **Utility:** Cleanse poisons and magic on allies. Cleanse does not remove Blind, which is physical [[d:paladin#1427780079966224407]], but BoP does [[d:paladin#1424408436044595280]]. Hand of Freedom goes on rooted or slowed allies.
+5. **Mana:** Holy is mana-starved without good gear and comfortable in T2 [[d:pvp-general#1432871223527997505]], [[d:pvp-general#1432871340951605418]]. Drink between fights (vanilla baseline).
+6. **Survive:** Divine Shield buys time, but you often die right after it [[d:pvp-general#1427661560523784203]]. Lay on Hands is disabled in arena [[d:paladin#1441426127284473877]].
+
+**Shockadin (Holy with Precision):** play it as sticky support, not a killer [[d:paladin#1488212884839469197]]. Burst the target with SoC autos until it is low, then finish with a Holy Shock reset. The risk is running out of mana [[d:paladin#1426119339089727588]]. Blessing of Sanctuary counters rogues, cats and fury warriors [[d:paladin#1490472253706604746]].
+
+**Protection (deep Prot):**
+
+1. Play in PvE tank gear with a strong weapon [[d:paladin#1490469775988494518]].
+2. Improved Hammer of Justice gives a 30 s stun [[d:paladin#1484653064366325761]].
+3. Swap in Libram of Final Judgement to execute targets under 35% [[d:paladin#1481665621958725803]].
+4. Your one stun makes you easy to kite 1v1 [[d:paladin#1423412315503464570]].
+5. Dissolvent ignores Block [[d:paladin#1435717695189422100]].
+
+**Vs class** (the full table is in [Matchups](#matchups)):
+
+- **Warrior:** wear disarm-immune gloves. Expect Berserker Rage to break Repentance.
+- **Rogue:** trinket the Kidney, bubble or BoP, then Repentance → HoJ, or wait out Evasion [[d:paladin#1426122717635285005]].
+- **Mage:** get into melee before they notice you. This matchup is **contested**.
+- **Warlock:** kill the pet.
+- **Shaman:** expect Purge on your seal and Freedom.
+- **Hunter:** put on a shield, break line of sight, and use Frost Oil.
+
 ## What changed for Paladin PvP
 
 - **Seal of Command 7 → 9 PPM** ([Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)): "Going to 1 in 2 chance from 1 in 3 is quite helpful" [[d:paladin#1465012850329391263]]. With Libram of Ardour, AP Ret "feels too good to be true" [[d:paladin#1485099624846069790]].

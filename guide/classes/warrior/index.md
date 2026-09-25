@@ -77,8 +77,9 @@ At the highest parse level "all races are within 1% of each other", so pick what
 
 ## Professions
 
-- **Engineering** is "the only profession" that matters for a warrior (sappers, grenades, Battle Chicken) [[d:warrior#1478662431621517363]], [[d:warrior#1478662676279459840]]. Go Gnomish first; switching to Goblin later is mainly to craft your own sappers [[d:warrior#1431678831491547157]].
+- **Engineering** is "the only profession" that matters for a warrior: Sappers, grenades, dummies and Battle Chicken [[d:warrior#1478662431621517363]], [[d:warrior#1478662676279459840]]. Level it with Mining, then drop Mining for a gold profession [[d:warrior#1451247090532356166]]. Go Gnomish first; switching to Goblin later is mainly to craft your own Sappers [[d:warrior#1431678831491547157]].
 - **Blacksmithing** is contested. Some say "avoid like the plague" [[d:warrior#1464385054607151125]]; others say it "has some good bits now", mostly pre-raid [[d:warrior#1445158997660536987]]. The Elementium weapons need Swordsmith (Champion) or Axesmith (Reaper) [[d:warrior#1490124384684478474]].
+- **Alchemy** covers your own flasks and Mighty Rage Potions, but an alt can do it [[d:warrior#1444333624458743818]], [[d:warrior#1445159836688978163]].
 - **Dual spec** costs 350g at level 50 [[d:warrior#1406228381384572998]]. It is worth getting for DPS/tank or PvE/PvP swaps.
 
-More detail on leveling professions is in [Leveling](leveling.md#races-and-professions-for-leveling).
+Full guide: [Professions](professions.md). Leveling notes: [Leveling](leveling.md#races-and-professions-for-leveling).

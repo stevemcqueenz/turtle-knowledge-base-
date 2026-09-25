@@ -282,3 +282,36 @@ stat_priority_note: 'The practitioners'' order: avoidance first — the claim is
   No cited post ranks dodge, parry and defense against each other, nor hit, agility and weapon skill against each other, so
   the order within each of those runs above carries no ranking. Grouping them as avoidance and as threat stats is this repository''s
   reading of the sources listed above.'
+play_loop:
+  opener:
+  - Agitating Poison (Corrosive on valid targets) [[d:rogue#1462134848415338742]]
+  - Ghostly Strike -> 1-point Flourish [[d:rogue#1489567787620896880]]
+  - Blade Flurry on for packs [[d:rogue#1314468356580966400]]
+  single_target:
+  - priority: 1
+    action: Noxious Assault
+    condition: threat builder with Agitating Poison [[d:rogue#1346462072153702481]]
+  - priority: 2
+    action: Envenom
+    condition: 1 combo point; poison threat
+  - priority: 3
+    action: Riposte
+    condition: usable
+  aoe:
+    targets_min: 2
+    loop:
+    - priority: 1
+      action: Blade Flurry on + target swapping
+      condition: no AoE threat tool [[d:rogue#1479145606654988469]]
+    - priority: 2
+      action: Sap one, Blind one
+      condition: 4-mob packs [[d:rogue#1471053347518681149]]
+  cooldowns:
+  - 'Avoidance chain: Ghostly Strike -> Flourish -> Ghostly Strike -> Evasion -> Ghostly Strike -> Flourish -> Ghostly Strike
+    [[d:rogue#1471063134339858453]]'
+  - Never let Flourish and Ghostly Strike expire together [[d:rogue#1471063504709484586]]
+  - Juju Escape extends the chain [[d:rogue#1464675980151886085]]
+  tank:
+  - 'No taunt: pull before DPS start'
+  - Threat hand-off via Feint/Vanish [[d:rogue#1473169875227639943]]
+  - Avoid nature-immune bosses, taunt-swap fights, heavy casters, big pulls [[d:rogue#1473170462539251824]]

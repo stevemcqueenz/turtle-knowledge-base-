@@ -699,3 +699,406 @@ stat_priority_note: 'Defense is stacked to crit immunity rather than indefinitel
   440 is the vanilla baseline, and the one practitioner report is "With 370 defence in Naxx, in my experience this leads to
   1 crit per boss fight and usually 4-5 crushing blows" in Battle Stance without Shield Block [Ellifta p=115882]. Stamina
   is valued as effective health — "reach minimum required defense cap and then invest into EH" [Bogyone p=85806].'
+leveling_gameplay:
+- levels: 30-39
+  spec: Protection (respec from 30)
+  new_abilities:
+  - level: 30
+    name: Berserker Stance
+    spell_id: 2458
+  - level: 30
+    name: Intercept Rank 1
+    spell_id: 20252
+  - level: 30
+    name: Cleave Rank 2
+    spell_id: 7369
+  - level: 30
+    name: Rend Rank 4
+    spell_id: 6548
+  - level: 32
+    name: Berserker Rage
+    spell_id: 18499
+  - level: 32
+    name: Execute Rank 2
+    spell_id: 20658
+  - level: 32
+    name: Hamstring Rank 2
+    spell_id: 7372
+  - level: 32
+    name: Heroic Strike Rank 5
+    spell_id: 11564
+  - level: 32
+    name: Shield Bash Rank 2
+    spell_id: 1671
+  - level: 32
+    name: Battle Shout Rank 4
+    spell_id: 11549
+  - level: 34
+    name: Sunder Armor Rank 3
+    spell_id: 8380
+  - level: 34
+    name: Demoralizing Shout Rank 3
+    spell_id: 11554
+  - level: 34
+    name: Revenge Rank 3
+    spell_id: 7379
+  - level: 36
+    name: Whirlwind
+    spell_id: 1680
+  - level: 36
+    name: Mocking Blow Rank 3
+    spell_id: 7402
+  - level: 38
+    name: Pummel
+    spell_id: 6552
+  - level: 38
+    name: Thunder Clap Rank 4
+    spell_id: 8205
+  - level: 30
+    name: Shield Slam Rank 1
+    spell_id: 23922
+  - level: 38
+    name: Shield Slam Rank 2
+    spell_id: 23923
+  talents: Shield Slam 30; Improved Shield Slam; One-Handed Weapon Specialization; then Cruelty; skip Defensive Tactics and
+    Revenge talents while leveling
+  single_target:
+  - priority: 1
+    action: Defensive Stance, shield
+    condition: default leveling-tank stance; Taunt + Revenge over Defensive Tactics while leveling
+  - priority: 2
+    action: Shield Slam
+    condition: on cooldown (20 rage, 6 s)
+  - priority: 3
+    action: Revenge
+    condition: when lit
+  - priority: 4
+    action: Sunder Armor
+    condition: filler
+  - priority: 5
+    action: Heroic Strike
+    condition: rage dump
+  multi_target:
+  - priority: 1
+    action: Demoralizing Shout -> Thunder Clap -> tab-Sunder
+    condition: 2-4 mobs
+  tank:
+  - priority: 1
+    action: Sweeping Strikes (Battle) -> Berserker Stance -> Whirlwind
+    condition: Arms/Fury pack opener; best leveling AoE threat opener
+  - priority: 2
+    action: 'Defensive Stance: tab-Sunder, Cleave, Thunder Clap when rage allows'
+    condition: after the opener
+  - priority: 3
+    action: Taunt stragglers; Mocking Blow backup
+    condition: as their threat runs out
+  - priority: 4
+    action: Pool rage in Defensive previous pull, spend on Thunder Clap/Cleave/Sunder to ~25, one swap for Whirlwind
+    condition: Fury route without Tactical Mastery
+  - priority: 5
+    action: Shield Bash / Pummel
+    condition: interrupt casters; they share a cooldown
+  - priority: 6
+    action: Shield Slam > Revenge > Sunder Armor > Heroic Strike
+    condition: single-target threat
+- levels: 40-49
+  spec: Protection (respec from 30)
+  new_abilities:
+  - level: 40
+    name: Execute Rank 3
+    spell_id: 20660
+  - level: 40
+    name: Cleave Rank 3
+    spell_id: 11608
+  - level: 40
+    name: Heroic Strike Rank 6
+    spell_id: 11565
+  - level: 40
+    name: Rend Rank 5
+    spell_id: 11572
+  - level: 42
+    name: Battle Shout Rank 5
+    spell_id: 11550
+  - level: 42
+    name: Intercept Rank 2
+    spell_id: 20616
+  - level: 44
+    name: Overpower Rank 3
+    spell_id: 11584
+  - level: 44
+    name: Revenge Rank 4
+    spell_id: 11600
+  - level: 44
+    name: Demoralizing Shout Rank 4
+    spell_id: 11555
+  - level: 46
+    name: Sunder Armor Rank 4
+    spell_id: 11596
+  - level: 46
+    name: Charge Rank 3
+    spell_id: 11578
+  - level: 46
+    name: Mocking Blow Rank 4
+    spell_id: 20559
+  - level: 48
+    name: Execute Rank 4
+    spell_id: 20661
+  - level: 48
+    name: Heroic Strike Rank 7
+    spell_id: 11566
+  - level: 48
+    name: Thunder Clap Rank 5
+    spell_id: 11580
+  - level: 40
+    name: Concussion Blow Rank 1
+    spell_id: 12809
+  - level: 46
+    name: Shield Slam Rank 3
+    spell_id: 23924
+  - level: 48
+    name: Concussion Blow Rank 2
+    spell_id: 51600
+  single_target:
+  - priority: 1
+    action: Concussion Blow
+    condition: opener / on cooldown (generates rage)
+  - priority: 2
+    action: Shield Slam
+    condition: on cooldown
+  - priority: 3
+    action: Revenge
+    condition: when lit
+  - priority: 4
+    action: Sunder Armor
+    condition: filler
+  - priority: 5
+    action: Heroic Strike
+    condition: rage dump
+  multi_target:
+  - priority: 1
+    action: Whirlwind > Thunder Clap > Concussion Blow > Shield Slam
+    condition: pack; Heroic Strike with extra rage
+  tank:
+  - priority: 1
+    action: Mark skull -> Charge -> Demoralizing Shout -> Thunder Clap -> Concussion Blow -> Shield Slam -> Sunders
+    condition: Prot pug-tank trash; Battle Stance on trash, Defensive on bosses; Overpower on procs
+  - priority: 2
+    action: Whirlwind > Thunder Clap > Concussion Blow > Shield Slam
+    condition: AoE priority on a pack; Heroic Strike with extra rage
+  - priority: 3
+    action: Bloodthirst
+    condition: 'Fury tank: best single-target threat; stance-dance from 44 (Tactical Mastery)'
+  - priority: 4
+    action: Shield on for bosses
+    condition: 2H tanking works to ~45; past 40 shield/Prot is safer
+- levels: 50-60
+  spec: Protection (respec from 30)
+  new_abilities:
+  - level: 50
+    name: Recklessness
+    spell_id: 1719
+  - level: 50
+    name: Intervene Rank 1
+    spell_id: 45595
+  - level: 50
+    name: Cleave Rank 4
+    spell_id: 11609
+  - level: 50
+    name: Rend Rank 6
+    spell_id: 11573
+  - level: 52
+    name: Intercept Rank 3
+    spell_id: 20617
+  - level: 52
+    name: Shield Bash Rank 3
+    spell_id: 1672
+  - level: 52
+    name: Battle Shout Rank 6
+    spell_id: 11551
+  - level: 54
+    name: Demoralizing Shout Rank 5
+    spell_id: 11556
+  - level: 54
+    name: Hamstring Rank 3
+    spell_id: 7373
+  - level: 54
+    name: Revenge Rank 5
+    spell_id: 11601
+  - level: 56
+    name: Execute Rank 5
+    spell_id: 20662
+  - level: 56
+    name: Heroic Strike Rank 8
+    spell_id: 11567
+  - level: 56
+    name: Mocking Blow Rank 5
+    spell_id: 20560
+  - level: 58
+    name: Sunder Armor Rank 5
+    spell_id: 11597
+  - level: 58
+    name: Thunder Clap Rank 6
+    spell_id: 11581
+  - level: 60
+    name: Overpower Rank 4
+    spell_id: 11585
+  - level: 60
+    name: Cleave Rank 5
+    spell_id: 20569
+  - level: 60
+    name: Rend Rank 7
+    spell_id: 11574
+  - level: 60
+    name: Battle Shout Rank 7
+    spell_id: 25289
+  - level: 60
+    name: Heroic Strike Rank 9
+    spell_id: 25286
+  - level: 60
+    name: Revenge Rank 6
+    spell_id: 25288
+  - level: 54
+    name: Shield Slam Rank 4
+    spell_id: 23925
+  - level: 54
+    name: Concussion Blow Rank 3
+    spell_id: 51601
+  - level: 60
+    name: Concussion Blow Rank 4
+    spell_id: 51602
+  single_target:
+  - priority: 1
+    action: Concussion Blow
+    condition: opener / on cooldown (generates rage)
+  - priority: 2
+    action: Shield Slam
+    condition: on cooldown
+  - priority: 3
+    action: Revenge
+    condition: when lit
+  - priority: 4
+    action: Sunder Armor
+    condition: filler
+  - priority: 5
+    action: Heroic Strike
+    condition: rage dump
+  multi_target:
+  - priority: 1
+    action: Demoralizing Shout spam, tab-Cleave, Thunder Clap
+    condition: pack
+  tank:
+  - priority: 1
+    action: Respec Protection ~55 if dungeon-spamming
+    condition: finish leveling via dungeons/attunements
+  - priority: 2
+    action: Same loop as 40-49; Concussion Blow or Shield Slam opener
+    condition: single target
+  - priority: 3
+    action: Intervene
+    condition: L50, Defensive Stance, 8-25 yd; peel for a healer
+  - priority: 4
+    action: Recklessness / Shield Wall
+    condition: shared 30 min cooldown
+leveling_gameplay_note: 'Mirrors leveling.md "Gameplay by level". Learn levels/spell ids from the 1.18.1 kit (topics/_kits/warrior.txt);
+  talent unlocks follow the validated talent orders in leveling.md. Contested: the kit lists every Slam rank at L54, a player
+  post gives earlier ranks [[d:warrior#1491503981527044217]]. Protection route only from 30 (Shield Slam); tank earlier as
+  Arms/Fury per arms-melee-dps.yaml.'
+leveling_gameplay_sources:
+- '[[d:warrior#1476322395361906718]]'
+- '[[d:warrior#1476323710452367442]]'
+- '[[d:warrior#1493937763802677289]]'
+- '[[d:warrior#1484032312151769159]]'
+- '[[d:warrior#1476322978114568294]]'
+- '[[d:warrior#1468414511064285255]]'
+- '[[d:warrior#1485271205001822288]]'
+- '[[d:warrior#1484031184601350286]]'
+- '[[d:warrior#1464993090824700059]]'
+- '[[d:warrior#1465266565250285838]]'
+- '[[d:warrior#1476325827296887007]]'
+- '[[d:warrior#1446128654332596224]]'
+- '[[d:warrior#1474888165402873948]]'
+- '[[d:warrior#1476319270169219346]]'
+- '[[d:warrior#1423419033231032330]]'
+- '[[d:warrior#1466175854479409152]]'
+- '[[d:warrior#1491885115759001831]]'
+- '[[d:warrior#1418375631888060579]]'
+- '[[d:warrior#1365157106675617823]]'
+- '[[d:warrior#1434300007237943368]]'
+- '[[d:warrior#1465922876418035757]]'
+- '[[d:warrior#1410572688505831454]]'
+- '[[d:warrior#1449599120640704512]]'
+- '[[d:warrior#1470315145988411517]]'
+- '[[d:warrior#1429822325510897794]]'
+- '[[d:warrior#1425797603110551687]]'
+play_loop:
+  guide_section: guide/classes/warrior/protection.md#how-to-play
+  opener:
+  - 'pre-pull: Battle Shout + Bloodrage ~1 min before, Mighty Rage Potion on pull'
+  - ask DPS to hold 2-3 GCDs
+  - 'DefTac: Battle Stance, shield + fast 1H'
+  - Shield Slam (or Concussion Blow) first
+  - no Thunder Clap / Demoralizing Shout in a single-target opener
+  tank:
+  - priority: 1
+    action: Shield Slam
+    condition: on cooldown (DefTac / Revenge prot)
+  - priority: 2
+    action: Overpower
+    condition: DefTac in Battle Stance, after a dodge
+  - priority: 3
+    action: Revenge
+    condition: Revenge deep prot in Defensive Stance, when lit
+  - priority: 4
+    action: Concussion Blow
+    condition: on cooldown; generates rage
+  - priority: 5
+    action: Heroic Strike
+    condition: queued on every swing you can afford (main threat with Shield Slam)
+  - priority: 6
+    action: Sunder Armor
+    condition: filler
+  - priority: 7
+    action: Shield Block
+    condition: after a hit consumed the Shield Slam block buff (they overwrite)
+  - priority: 8
+    action: Defensive Stance block-dance
+    condition: threat lead safe on a dangerous boss
+  aoe:
+    targets_min: 2
+    loop:
+    - mark skull > cross > square
+    - Demoralizing Shout spam
+    - tab-Cleave
+    - Thunder Clap (max 4 targets)
+    - 'short Berserker swap: Thunder Clap, Whirlwind, Thunder Clap'
+    - Sappers / Thunderfury / dynamite for hard pulls
+    - Challenging Shout emergency
+  taunt:
+  - 'Taunt: Defensive Stance, 5 yd, 10 s cd, resistible; not on crowd-controlled mobs'
+  - 'Mocking Blow: Battle Stance, 120 s cd, backup'
+  - 'Challenging Shout: 10 min cd, AoE'
+  - 'Four Horsemen-style swaps: Taunt only'
+  cooldowns:
+  - Last Stand / healthstone / tea when low
+  - 'Shield Wall: shield equipped; 30 min cd shared with Recklessness/Retaliation'
+  - 'Improved Berserker Rage: roots'
+  avoid:
+  - Revenge talents with DefTac
+  - DefTac in Defensive Stance all fight
+  - slow weapon
+  - taunting crowd-controlled mobs
+  sources:
+  - '[[d:warrior#1429243795848953866]]'
+  - '[[d:warrior#1447700245839478945]]'
+  - '[[d:warrior#1441269697512472678]]'
+  - '[[d:warrior#1488520429432864768]]'
+  - '[[d:warrior#1475256639379734619]]'
+  - '[[d:warrior#1483588317709598801]]'
+  - '[[d:warrior#1476093703821983804]]'
+  - '[[d:warrior#1488520746740224050]]'
+  - '[[d:warrior#1485307725683495074]]'
+  - '[[d:warrior#1484622368537186324]]'
+  - '[[d:warrior#1473484685412794591]]'
+  - '[[d:warrior#1430903627610062879]]'
+  - '[[d:warrior#1379003122881658973]]'
+  - '[[d:warrior#1462506610068029502]]'

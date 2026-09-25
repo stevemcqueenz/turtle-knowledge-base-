@@ -14,6 +14,32 @@ Before 1.18.1, Nezu summed it up as "fire and sm/ruin underperform in every bran
 
 **Contested:** how high Fire's ceiling is. Not Normal argues that too few people play it seriously for logs to show its ceiling [[d:warlock#1452780867859648715]]. Frolegacy concluded it is still the worst spec overall [[d:warlock#1483576857428361257]].
 
+## How to play
+
+The decision loop at level 60. The reasons and sources are in [Fire](#fire), [SM/Ruin](#smruin), [AoE](#aoe) and [Cooldowns, resources and threat](#cooldowns-resources-and-threat).
+
+**Fire (0/11/40):**
+
+1. **Before the pull:** sacrifice the Imp, or the Felhunter if mana is your limit. Carry a Firestone. Bring about 16% hit from gear.
+2. **Opener:** pre-cast Soul Fire → Immolate → Conflagrate. This is very bursty with no threat reduction, so give the tank a lead first.
+3. **Single-target loop (top wins):**
+    1. Improved Soul Fire buff missing and Soul Fire ready → Soul Fire.
+    2. Immolate missing → Immolate. Skip it if the target dies within 9 s.
+    3. Conflagrate ready and Immolate up → Conflagrate.
+    4. Shadowburn ready → Shadowburn, unless you are short on mana.
+    5. Assigned curse missing → curse.
+    6. Searing Pain as the filler.
+    7. Life Tap when needed.
+4. **Cooldowns:** Soul Fire, Conflagrate and Shadowburn go on cooldown. Do not chain instant casts back to back.
+5. **AoE switch:**
+    - 1-3 targets: Immolate each, then Searing Pain in mark order.
+    - 3-5+ targets stacked on the tank: Hellfire.
+    - A pack that cleaves or needs range: Rain of Fire.
+6. **Resources and threat:** Fire uses the most mana of the specs. Use mana potions and tea, and sacrifice the Felhunter if you Life Tap too often. For threat, use Voidstone and Salvation.
+7. **Movement:** Conflagrate, Shadowburn and curses are instant; save them for when you have to move. Fire-immune bosses (MC, BWL, Onyxia): play Affliction or Demonology instead.
+
+**SM/Ruin (30/0/21):** curse (Malediction adds Curse of Agony) → Corruption → Shadow Bolt spam. Nightfall proc → instant Shadow Bolt. Use Shadowburn on a low target when a Shadow Bolt will not fit. On long fights, add Siphon Life, and Drain Soul while Shadowburn is on cooldown. In dungeons, skip the DoTs and just cast Shadow Bolt.
+
 ## Talent build
 
 ### Fire 0/11/40 (recommended)

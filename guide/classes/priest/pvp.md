@@ -16,6 +16,45 @@ Pre-1.18.1 tier lists from `#pvp-general` disagree with each other. One post-CC2
 
 `#pvp-general` also shows Priest was seen as one of the least-played PvP classes on Ambershire ("9/10 games not a priest on horde team") [[d:pvp-general#1423679614970101874]], and Holy struggled to heal through melee 1v1 [[d:pvp-general#1423695441161359392]] — yet other posters called Priest (Smite and Holy alike) overtuned. One tier list put Shadow Priest in the top "Z tier" with Shaman, Rogue, Mage and Paladin, and Smite Priest in "S tier"; a reply suggested Holy Priest belonged in F tier instead [[d:pvp-general#1426339548039872532]], [[d:pvp-general#1426343489796440155]]. Ythor separately rated Smite Priest S tier [[d:pvp-general#1429944347834581072]], and Temu called Smite "more insane than Shaman" on the Tel'Abim server, citing priests "regularly going like 37-3 in AB" [[d:pvp-general#1431213840711942154]], [[d:pvp-general#1431213919019470889]]; Bipst disputed the Smite ranking specifically ("no, smite priest is not s tier. Healer priest is good though") [[d:pvp-general#1430015057277751360]]. On the healer side, dindunuffinz called Priest an overtuned healer — deceptively tanky, spammable shields, and 500-600 Renew ticks that cancel DoTs — citing one geared Horde priest who reportedly did 1,000,000 healing in a single AV and felt "more tanky than any alliance warrior" [[d:pvp-general#1429497713585815652]], [[d:pvp-general#1429499728416211104]], corroborated by a self-described unbiased PvE player [[d:pvp-general#1429446787260743843]]. Ythor also flagged a faction imbalance in fear uptime: Horde priests can chain-fear melee much more reliably than Alliance priests [[d:pvp-general#1429514825221931039]].
 
+## How to play
+
+The level-60 PvP loops. For the details, see [Burst and control sequences](#burst-and-control-sequences), [Matchups](#matchups) and [Battleground role](#battleground-role). Cooldowns are from the 1.18.1 client data.
+
+**Discipline (Smite):**
+
+1. **Pre-fight:** Inner Fire, Enlighten (60 s cooldown) and `Power Word: Shield` on yourself. Keep Fear Ward (30 s cooldown) on yourself against fear classes (vanilla baseline).
+2. **Burst:** self-`Chastise` (40 s cooldown, 25 yd) → `Holy Fire` → `Smite` spam, taking every instant Smite from Searing Light [[d:priest#1428000781478395964]]. Weave another spell between instant Smites (1.5 s internal cooldown) [[d:priest#1452013492961021983]]. Night Elves can weave bow Searing Shot on the move to proc an instant Smite [[d:priest#1412816842149597355]].
+3. **Control:** keep `Psychic Scream` (30 s cooldown) or `Chastise` for a key channel or cast, such as Arcane Missiles or Dark Harvest [[d:priest#1462905759712018432]]. After a Chastise disorient, follow with Smite, not Holy Fire (its DoT breaks it) [Kobiq, 2024-12-04](https://forum.turtlecraft.gg/viewtopic.php?p=111295#p111295). Do not Fear into a PvP trinket, WotF or Fear Ward: the trinket now removes every effect [[d:priest#1440676406890594434]].
+4. **Defence:** re-shield, dispel, and spam `Holy Nova` to fish for instant Smites when melee is on you [[d:priest#1462905759712018432]]. Kiting works against paladins and shamans; rogues and warriors win without your trinket, so save it for their stun chain [[d:priest#1458930070176665793]].
+
+**Shadow:**
+
+1. **Opener:** `Power Word: Shield` on yourself → `Vampiric Embrace` → `Shadow Word: Pain` (six debuffs with Shadow Weaving, very hard to dispel) [[d:priest#1485255007283581048]].
+2. **Loop:** `Mind Blast` (8 s cooldown) → `Mind Flay` from 20 yd. Skip Mind Blast on warriors unless it kills [[d:priest#1485369919938887893]]. Play at range and let VE sustain you; stick to your group [[d:priest#1386358252157140992]].
+3. **Finish:** `Pain Spike` (instant, 30 s cooldown).
+4. **Control:** `Psychic Scream` when melee reaches you. `Silence` (45 s cooldown, 20 yd) casters [[d:pvp-general#1360941242695028736]]. Against Fury warriors, bait Berserker Rage with Fear first, then Net [[d:pvp-general#1432168724714229770]].
+
+**Healer (BG, Holy or Disc):**
+
+1. **Triage:** yourself first, then others, then DPS: enemies focus healers at once [[d:priest#1426927342332280923]]. In pugs you get no peels, so stand near your melee [[d:pvp-general#1427530447658684478]].
+2. **Default heals:** shield the target taking burst, Renew to cancel DoT pressure, Flash Heal for spikes [[d:pvp-general#1429497713585815652]]. Greater Heal (3 s cast) only when nobody is on you (vanilla baseline).
+3. **Dispels:** Dispel Magic sheep, fear, DoTs, HoJ, Repentance and slows off allies [[d:pvp-general#1073761850845573140]]; Chastise an ally to break Sap or Blind [Isvya, 2024-10-19](https://forum.turtlecraft.gg/viewtopic.php?p=103744#p103744).
+
+**Target priority (DPS specs):** squishy casters and healers first. Mana Burn (3 s cast) only on mana-hungry healers such as resto shamans, never paladins [[d:priest#1465782188216942645]], [[d:priest#1465785204026114217]]. Keep Shadow Word: Pain on the flag carrier [[d:priest#1485287934339977258]].
+
+**Reset and drink:** out of combat, drink to full and re-buff (Inner Fire, Fortitude, shield) before the next fight; against a rogue, spam rank-1 Holy Nova while you wait so you are not opened on [Itsbacon, 2025-08-08](https://forum.turtlecraft.gg/viewtopic.php?p=143823#p143823). Drinking and re-buffing between fights is vanilla baseline.
+
+**Vs class** (full plans in [Matchups](#matchups)):
+
+- **Warrior:** shield, no Mind Blast crits; Fear after Berserker Rage.
+- **Rogue:** Fear and DoT them to stop re-stealth; your worst matchup.
+- **Mage:** consumables against Polymorph; Silence them.
+- **Warlock / Hunter:** kill or line-of-sight the pet.
+- **Druid:** outlast with VE; watch cat burst.
+- **Paladin:** burst before the bubble; dispel Freedom.
+- **Shaman:** expect Purge on your shield and Fortitude, and a trinket on your Fear.
+- **Priest:** dispel and Silence war.
+
 ## Builds
 
 All four were posted after 1.18.1 and pass the 1.18.1 tree check (`talent_tool.py decode`: VALID).

@@ -88,15 +88,150 @@ Why this order:
 | Heal | [0/8/43 Restoration](restoration.md#raid-0843-recommended); you can switch to Resto at 52+ and level through dungeons [[d:shaman#1444438508100915261]] |
 | Caster | [34/3/14 Elemental](elemental.md#raid-34314-recommended) |
 
+## Gameplay by level
+
+What to press as the recommended **Enhancement** leveler (the [talent order](#talent-order-10-60) above), bracket by bracket. Learn levels, cooldowns, cast times and mana costs are the 1.18.1 trainer data; talents show the level at which this guide's order takes them. The same talents tank and heal leveling dungeons: **tank** = Rockbiter on a slow one-hander + the highest-armor shield; **healer** = Intellect gear, no imbue, no Resto talents needed [[d:shaman#1469113500256440371]].
+
+Rules for every bracket:
+
+- **Mana is the limit.** Shocks are poor damage per mana while leveling: "enh is fine on mana if you just avoid using shocks" [[d:shaman#1482594044533014623]]. Spend spare mana on healing yourself between mobs, and drink when low [[d:shaman#1439724223365910679]].
+- **Totems solo:** Searing Totem when you fight in one spot, Stoneclaw Totem when you pull more than one mob, Earthbind Totem to slow a runner; the rest waste mana [[d:shaman#1482592822082277376]]. Fire Nova only when 3+ mobs are on you in one place [[d:shaman#1482592913312452811]].
+- **Totem elements:** Earth from level 1, Fire at 10, Water at 20, Air at 30, each after a class quest [[d:shaman#1488288472379949328]]. The trainer data lists some totem spells earlier (Searing Totem L4, Healing Stream Totem L6), but you need that element's totem before you can drop them (vanilla baseline).
+- **Resting:** eat/drink to full after a hard pull; don't start a pull under ~40% mana (vanilla baseline). From 26, Lightning Shield when mana is high, Water Shield when it is low [[d:shaman#1456015634986041386]].
+
+### Levels 1–9
+
+**New now:** L1 Rockbiter Weapon, Lightning Bolt · L4 Earth Shock R1 (6 s shock cooldown), Stoneskin Totem · L6 Earthbind Totem, Healing Wave R2 · L8 Lightning Shield R1, Rockbiter R2, Earth Shock R2, Stoneclaw Totem R1 (30 s cooldown).
+
+**Single target:**
+
+1. Rockbiter on the weapon; Lightning Shield up from 8.
+2. Pull by walking in (or one Lightning Bolt if the mob is a caster), then auto-attack.
+3. Earth Shock only to interrupt a caster or finish a fleeing mob.
+4. After the kill: Healing Wave yourself if below ~50% health, drink if below ~40% mana (vanilla baseline thresholds).
+
+**Multi-target:** don't pull more than two. With two: Stoneclaw Totem to hold one, kill the other; Earthbind Totem to get away.
+
+**Tanking / healing:** no dungeons yet (the first ones are 17+, see [Dungeons by bracket](#dungeons-by-bracket)).
+
+### Levels 10–19
+
+**New now:** L10 Flametongue Weapon R1, Flame Shock R1, Strength of Earth Totem R1, Searing Totem R2, **Earthshaker Slam** (your taunt: 5 yd, 10 s cooldown, off the global cooldown), Totemic Recall · L12 Fire Nova Totem R1 (15 s cooldown), Healing Wave R3, Purge · L14 Earth Shock R3, Lightning Bolt R3, Stoneskin R2, Cure Disease · L16 Lightning Shield R2, Rockbiter R3, Cure Poison · L18 Flametongue R2, Flame Shock R2, Healing Wave R4, Stoneclaw R2, Tremor Totem. Talents: Ancestral Knowledge (10–14), Stable Shields (15–17, 9 Lightning Shield charges), Thundering Strikes (18–19).
+
+**Single target:**
+
+1. Rockbiter or Flametongue: "from 10-20 which imbue you choose doesnt really matter" [[d:shaman#1483998607655964712]]. Lightning Shield up.
+2. Auto-attack; Searing Totem only if you will fight several mobs in one spot.
+3. Earth Shock only for interrupts and kills; skip Flame Shock (don't even buy it) [[d:shaman#1436338711972548660]].
+4. Heal and drink between mobs.
+
+**Multi-target (2–3):** Stoneclaw first, kill one at a time; Fire Nova Totem only with 3+ stacked mobs. Earthbind if it goes wrong.
+
+**Tanking (17–19, Wailing Caverns / Deadmines):** rough. Before the armor talents you are "basically as tanky as a rogue" plus a shield [[d:shaman#1437502700794155123]]; "more than 2 mobs in WC was an oom healer and likely a dead sham tank" [[d:shaman#1477631643857457153]], and WC mobs resist Earth Shock [[d:shaman#1448921448990244896]]. Better to DPS until 26. If you tank:
+
+1. Rockbiter on a one-hander + shield ("Rockbiter on MH. Drop stoneclaw totem every pack") [[d:shaman#1424961681087271086]].
+2. Mark a skull, pull with rank 1 Lightning Bolt and line of sight.
+3. Tab between mobs: Earth Shock (a lower rank is enough) and auto-attack; skip fire totems until Totemic Alignment [[d:shaman#1426100807572389968]].
+4. A mob runs off: Earthshaker Slam, then Earth Shock ("taunt into an earth shock") [[d:shaman#1409016131339157565]].
+5. Stoneclaw Totem without Totemic Alignment pulls aggro onto the totem, not you [[d:shaman#1455604717332992041]]: use it as a distraction.
+
+**Healing (17–19):** Healing Wave R3 (L12, 2.5 s, 80 mana) is the default on the tank; Healing Wave R4 (L18, 3 s, 155 mana) for big hits; R2 for small top-ups. Cure Poison / Cure Disease the tank. Stop casting between pulls so mana regenerates (vanilla baseline: 5-second rule).
+
+### Levels 20–29
+
+**New now:** **L20 Lightning Strike** (talent, 9 s cooldown), Frost Shock R1, Frostbrand R1, Lesser Healing Wave R1 (1.5 s), Lightning Bolt R4, Healing Stream Totem R3, Searing R3 · L21–23 Ancestral Guardian · L22 Molten Blast R1 (2 s), Fire Nova R2, Poison Cleansing Totem · L24 Earth Shock R4, Lightning Shield R3, Rockbiter R4, Healing Wave R5, Strength of Earth R2 · L25–26 Spirit Armor · **L26 Water Shield**, Magma Totem, Mana Spring Totem, Flametongue R3 · L28 Stoneclaw R3, Lesser Healing Wave R2, Flametongue Totem, Molten Blast R2 · L29 Totemic Alignment 1/2.
+
+**Single target:**
+
+1. **Rockbiter + Lightning Shield**: "rockbiter is king from at least 1-30" because Lightning-Strike-boosted Lightning Shield hits add 25% of your attack power [[d:shaman#1446973252227432749]].
+2. **Lightning Strike** on cooldown [[d:shaman#1407046819237855405]].
+3. Auto-attack. No shocks for damage.
+4. Heal between mobs with the spare mana; from 26 swap to Water Shield when mana runs low.
+
+**Multi-target:** Stoneclaw on 2+; Searing Totem if you stay put; Fire Nova (don't buy Magma) for 3+ [[d:shaman#1436341682109943878]].
+
+**Tanking (start at 26 in Shadowfang Keep)** [[d:shaman#1448921578992832714]]:
+
+1. Rockbiter on a slow one-hander + best-armor shield; Lightning Shield for the pull.
+2. **Pull:** mark skull, rank 1 Lightning Bolt with line of sight [[d:shaman#1488885982047768770]]; from 22 add Molten Blast as mobs run in [[d:shaman#1411592161732067429]].
+3. **First GCDs:** Lightning Strike on the skull, Earth Shock (downranked) on the second mob, autos, then tab Earth Shock across the pack [[d:shaman#1411592161732067429]].
+4. **Packs:** Stoneclaw every pack. From **29 (Totemic Alignment)** about 90% of totem threat is yours [[d:shaman#1491173915328774334]]: pull, Stoneclaw, Fire Nova, then "piano earth shock, lightning strike" [[d:shaman#1436372753165848626]]. At low level Stoneclaw alone does more AoE threat than Magma [[d:shaman#1449018291744932002]].
+5. **Taunt:** Earthshaker Slam, then Earth Shock. **Emergency:** Earthbind Totem gives the healer time [[d:shaman#1411592161732067429]].
+6. **Mana:** Water Shield + Mana Spring at 26 "help a LOT"; use a downranked Earth Shock [[d:shaman#1488873898115203122]]. Squishiness fades with Ancestral Guardian and is gone at 26–27 with Spirit Armor [[d:shaman#1472679669974175745]].
+
+**Healing:**
+
+1. Default: **Healing Wave R3** on the tank ("I just spam HW rank 3 or 4") [[d:shaman#1423689120575651962]]; R5 (L24, 3 s, 200 mana) when the tank takes big hits.
+2. Lesser Healing Wave (R1 L20, R2 L28) only when the tank drops fast: it is the fastest heal and the least mana-efficient [[d:shaman#1458535191810408539]].
+3. Rule of thumb: newest Healing Wave + newest Lesser Healing Wave + a Healing Wave two ranks lower [[d:shaman#1411592161732067429]].
+4. Totems: Healing Stream (20) for chip damage [[d:shaman#1429871523447050396]], Mana Spring (26), Poison Cleansing (22) where poisons land, Strength of Earth for melee.
+5. Water Shield from 26; Purge enemy buffs, Cure Poison/Disease.
+
+### Levels 30–39
+
+**New now:** L30 **Windfury Weapon** R1, Grounding Totem, Nature Resistance Totem, Astral Recall, Searing R4, Elemental Weapons 1/3 · **L31 Stormstrike** (talent, 8 s cooldown) · L32 **Chain Lightning** R1 (2.5 s, 6 s cooldown), Windfury Totem, Healing Wave R6, Lightning Shield R4, Fire Nova R3 · **L33 Elemental Weapons 3/3** (Earthen Bulwark with Rockbiter; Frostbrand auto-crits on a Frost-Shocked target) · L34 Frost Shock R2, Rockbiter R5, Water Shield R2 · L34–38 Convection · L36 Earth Shock R5, Lesser Healing Wave R3, Mana Spring R2, Molten Blast R3 · L38 Lightning Strike R2, Stoneclaw R4, Disease Cleansing Totem, Strength of Earth R3, Frostbrand R3 · L39 Elemental Warding.
+
+**Single target:**
+
+1. **Windfury + Water Shield** ("very mana comfy") or Rockbiter + Lightning Shield [[d:shaman#1485784578789474374]]. **Contested:** Windfury is "a gamble" against weak leveling mobs [[d:shaman#1476755747424436235]].
+2. **Stormstrike** on cooldown.
+3. **Lightning Strike** on cooldown.
+4. Earth Shock (after Stormstrike) only if the mob is about to die or you have spare mana.
+5. Auto-attack.
+
+**Multi-target (3):** pull with Chain Lightning, then cycle Stormstrike, Lightning Strike, Earth Shock across them; "water shield will be your go to" [[d:shaman#1393882527638487080]]. Stoneclaw first on bigger pulls.
+
+**Tanking (SFK, RFK, Dragonmaw, Stormwrought, SM):**
+
+1. **Pull:** rank 1 Lightning Bolt + Chain Lightning (from 32) for opening threat [[d:shaman#1411592161732067429]]; Molten Blast into Chain Lightning is "real good opening threat" [[d:shaman#1438950665572450448]].
+2. **Running in:** Stormstrike target 1, Earth Shock target 2, Lightning Strike target 3; Frost Shock instead of Earth Shock on Nature-resistant mobs [[d:shaman#1411592161732067429]].
+3. **Steady loop:** Earth Shock on cooldown (about 40% of your threat [[d:shaman#1453500008375521330]]) > Stormstrike > Lightning Strike > auto-attack.
+4. **4+ mobs:** Stoneclaw + Fire Nova; Magma only if mobs live long; against fire-resistant mobs Stoneclaw is your only AoE threat [[d:shaman#1411592161732067429]].
+5. **From 33, Earthen Bulwark** (Rockbiter + shield) starts at zero every pull and currently builds only from white swings [[d:shaman#1493309560428171430]]: keep auto-attacking and never hard-cast while being hit [[d:shaman#1445658999881207950]].
+6. **Totem of the Tides** (Stormwrought, 33+): stay on Water Shield for AoE threat and mana [[d:shaman#1488873898115203122]].
+7. Windfury Totem with 2+ melee DPS, and tell them they tank what they rip [[d:shaman#1411592161732067429]].
+
+**Healing:** Healing Wave R3–R4 as the default, R6 (L32) for heavy tank damage, Lesser Healing Wave R3 (L36) for emergencies. No Chain Heal until 40; you won't miss it much in 5-mans [[d:shaman#1427723124308185148]]. Totems: Mana Spring, Healing Stream, Windfury or Strength of Earth, Disease Cleansing (38) when needed.
+
+### Levels 40–49
+
+**New now:** L40 **Chain Heal** R1 (3 s), Earth Shield R1, Chain Lightning R2, Healing Wave R7, Lightning Shield R5, Windfury R2, mail armor, racial quests (Hex, Feral Spirit, Totemic Slam) · L41–43 Elemental Devastation · L42 Grace of Air Totem, Water Shield R3, Fire Nova R4 · **L44 Elemental Focus** (Clearcasting), Lesser Healing Wave R4, Rockbiter R6 · L45 Totemic Alignment 2/2 · L46–50 Element's Grace · L46 Chain Heal R2, Frost Shock R3, Mana Spring R3 · L48 **Frostbrand R4**, Earth Shock R6, Healing Wave R8, Stoneclaw R5, Chain Lightning R3, Lightning Shield R6.
+
+**Single target (40–43):** as 30–39. **From 44:**
+
+1. **Frostbrand + Water Shield** [[d:shaman#1487775668908589147]].
+2. Open with **Frost Shock** (rank 1 is enough for the debuff) [[d:shaman#1437946685006282873]].
+3. **Stormstrike**, **Lightning Strike**, auto-attack: Frostbrand procs auto-crit on the frosted target and give Clearcasting.
+4. Refresh Frost Shock when it drops (cheap with Clearcasting).
+
+**Multi-target:** Frost Shock the pack one by one or Chain Lightning pull, Fire Nova for 3+; "near infinite mana unless you spam fire totems" [[d:shaman#1487775668908589147]].
+
+**Tanking (Crescent Grove, Gilneas 42+, ZF, Maraudon, ST):** fully online at 44 with Clearcasting, mail and Elemental Weapons [[d:shaman#1459182669022887979]]. **Swap back to Rockbiter** before tanking. Same loop as 30–39, plus: Lightning Shield for the pull, Water Shield halfway, back to Lightning Shield on Clearcasting [[d:shaman#1411592161732067429]]. Frost Shock on Nature-resistant mobs (Sunken Temple's bottom floor resists Earth Shock [[d:shaman#1435767846071308320]]; Maraudon has Nature-immune mobs [[d:shaman#1453209759099392022]]).
+
+**Healing:** damage ramps from Zul'Farrak, where you want Resto talents [[d:shaman#1437274154872344696]]. Default Healing Wave R3–R4 on the tank, R7–R8 for heavy damage, Lesser Healing Wave R4 (L44) emergencies; Chain Heal R1 only when the group is stacked and taking cleave [[d:shaman#1470095666398363749]]. Totems: Windfury if two damage dealers benefit, otherwise Grace of Air [[d:shaman#1486730676978843719]]; Mana Spring; cleansing totems as needed.
+
+### Levels 50–60
+
+**New now:** L50 Healing Stream R4, Searing R5, **Tranquil Air Totem**, Water Shield R4, Windfury R3 · L51–55 Flurry · L52 Fire Nova R5, Lesser Healing Wave R5, Strength of Earth R4 · L54 Chain Heal R3, Rockbiter R7 · **L56 Bloodlust** (talent, 5 min cooldown), **Lightning Strike R3**, Chain Lightning R4, Earth Shield R3, Healing Wave R9, Lightning Shield R7, Mana Spring R4, Grace of Air R2 · L57–59 Reverberation · L58 Frostbrand R5, Frost Shock R4, Stoneclaw R6, Water Shield R5 · L60 Earth Shock R7, Windfury R4, Lesser Healing Wave R6, Healing Stream R5.
+
+**Single target:** as from 44. Bloodlust for elites and hard pulls. Lightning Strike R3 sits on the General tab; macros must call `Lightning Strike(Rank 3)` [[d:shaman#1484940392347734207]].
+
+**Multi-target:** with good gear Fire Nova into Magma clears packs from 52–54 ("extra nova for green gear") [[d:shaman#1452333229045452871]]; Lasher farming works from 52–56 [[d:shaman#1488144215681663127]].
+
+**Tanking:** same loop as 44+; add Bloodlust for burst threat. See [Tank](tank.md#how-to-play) for the level-60 loop.
+
+**Healing:** from 52 it is safe to go full Resto and level through dungeons [[d:shaman#1444438508100915261]]. Otherwise: max-rank Lesser Healing Wave, Healing Wave and Chain Heal on your bars covers 60 dungeons [[d:shaman#1470096881924313335]]; Healing Wave R3 for most of a run lets you "never drink" [[d:shaman#1487132001134838074]]. See [Restoration](restoration.md#how-to-play).
+
 ## Abilities by level
 
 | Level | What you get | Notes |
 |---|---|---|
 | 1-10 | Earth totems; Fire totems at 10 after a class quest | Water totems at 20, Air at 30, each behind a class quest [[d:shaman#1488288472379949328]] |
-| 20 | Ghost Wolf; Lightning Strike talent | [[d:shaman#1492149412686725230]] |
+| 20 | Lightning Strike talent | [[d:shaman#1492149412686725230]] |
+| 12 (item) / 20 | Ghost Wolf | **Contested:** spell data lists Ghost Wolf as item-granted at 12; players report first getting it around 20 [[d:shaman#1492149412686725230]] |
 | 26 | **Water Shield**, Magma Totem, Mana Spring Totem | "the saving grace of mana issues" [[d:shaman#1420062396537503754]], [[d:shaman#1485621936607334471]] |
 | 30 | Windfury Weapon, Stormstrike talent, Astral Recall (15-minute cooldown) | [[d:shaman#1437957602431729715]], [[d:shaman#1492149412686725230]] |
-| 40 | Mail armor, riding (60%), racial quest chains (Hex, Feral Spirit; Tauren Totemic Slam from level 1) | Wear leather until 40 [[d:shaman#1470188281386893397]]; the mount beats Ghost Wolf's 40% [[d:shaman#1452664011265933464]]; racials [[d:shaman#1404899057154916432]] |
+| 40 | Mail armor, riding (60%), racial quest chains (Hex, Feral Spirit, Tauren Totemic Slam) | Wear leather until 40 [[d:shaman#1470188281386893397]]; the mount beats Ghost Wolf's 40% [[d:shaman#1452664011265933464]]; racials [[d:shaman#1404899057154916432]] — the Tauren chain can be started at 1, but the spell itself is granted at 40 like the other two, per the kit |
 
 **Skip or delay:** Flame Shock and higher ranks of Lightning Bolt while leveling (Lightning Bolt is only for pulling) [[d:shaman#1436338711972548660]], [[d:shaman#1472680849211265144]]; **Magma Totem** ("costs a billion mana ... worse in just about every way compared to Fire Nova") [[d:shaman#1436341682109943878]]; Water totems until Poison/Disease Cleansing [[d:shaman#1427427956460093542]]. **Buy:** Earth Shock and Frost Shock (Frost Shock becomes a must with Frostbrand) [[d:shaman#1436339191444144260]]. Tank leveler list: Stormstrike, Lightning Strike, Earth Shock, Flame Shock, Frost Shock, Lightning Shield, Water Shield [[d:shaman#1436334750934761533]].
 

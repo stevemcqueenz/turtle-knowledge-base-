@@ -651,3 +651,654 @@ stat_priority_note: 'Hit first: the spec needs 10% from items on top of Piercing
   causes mana problems on long fights. Crit versus spell power is contested after the Searing Light internal cooldown. Spirit
   and mp5 are a tie: no cited post ranks them against each other, so their order in the array above carries no ranking. Grouping
   them is this repository''s reading of the sources listed above.'
+leveling_gameplay:
+- levels: 1-9
+  spec: Smite/Holy
+  new_abilities:
+  - level: 1
+    name: Smite Rank 1
+    spell_id: null
+  - level: 1
+    name: Lesser Heal Rank 1
+    spell_id: null
+  - level: 1
+    name: 'Power Word: Fortitude Rank 1'
+    spell_id: 1243
+  - level: 4
+    name: 'Shadow Word: Pain Rank 1'
+    spell_id: 589
+  - level: 4
+    name: Lesser Heal Rank 2
+    spell_id: 2052
+  - level: 6
+    name: 'Power Word: Shield Rank 1'
+    spell_id: 17
+  - level: 6
+    name: Smite Rank 2
+    spell_id: 591
+  - level: 8
+    name: Renew Rank 1
+    spell_id: 139
+  - level: 8
+    name: Fade Rank 1
+    spell_id: 586
+  single_target:
+  - priority: 1
+    action: 'Power Word: Fortitude'
+    condition: missing
+  - priority: 2
+    action: Smite x2-3 then melee
+    condition: no wand yet (vanilla baseline)
+  - priority: 3
+    action: 'Shadow Word: Pain'
+    condition: wand equipped (Lesser Magic Wand ~5)
+    source: '[[d:priest#1436055370169712821]]'
+  - priority: 4
+    action: Shoot (wand) until dead
+    condition: after SW:P
+    source: '[[d:priest#1436055370169712821]]'
+  - priority: 5
+    action: 'Power Word: Shield (self)'
+    condition: mob hits hard
+  - priority: 6
+    action: Lesser Heal / drink
+    condition: out of combat; drink below ~50% mana (vanilla baseline)
+  multi_target:
+  - priority: 1
+    action: 'Power Word: Shield (self)'
+    condition: 2 mobs
+  - priority: 2
+    action: 'Shadow Word: Pain on each'
+  - priority: 3
+    action: Shoot lowest mob
+- levels: 10-19
+  spec: Smite/Holy
+  new_abilities:
+  - level: 10
+    name: Mind Blast Rank 1
+    spell_id: 8092
+  - level: 10
+    name: Lesser Heal Rank 3
+    spell_id: 2053
+  - level: 10
+    name: 'Shadow Word: Pain Rank 2'
+    spell_id: 594
+  - level: 12
+    name: Inner Fire Rank 1
+    spell_id: 588
+  - level: 12
+    name: 'Power Word: Shield Rank 2'
+    spell_id: 592
+  - level: 14
+    name: Psychic Scream Rank 1
+    spell_id: 8122
+  - level: 14
+    name: Cure Disease
+    spell_id: 528
+  - level: 14
+    name: Renew Rank 2
+    spell_id: 6074
+  - level: 14
+    name: Smite Rank 3
+    spell_id: 598
+  - level: 16
+    name: Heal Rank 1
+    spell_id: 2054
+  - level: 16
+    name: Mind Blast Rank 2
+    spell_id: 8102
+  - level: 18
+    name: Dispel Magic Rank 1
+    spell_id: 527
+  - level: 18
+    name: 'Power Word: Shield Rank 3'
+    spell_id: 600
+  - level: 18
+    name: 'Shadow Word: Pain Rank 3'
+    spell_id: 970
+  - level: 10
+    name: Wand Specialization (talent)
+    spell_id: 14524
+  - level: 12
+    name: Spirit Tap (talent)
+    spell_id: 15270
+  single_target:
+  - priority: 1
+    action: 'Inner Fire + Power Word: Fortitude'
+    condition: missing
+  - priority: 2
+    action: 'Power Word: Shield (self)'
+    condition: mob hits hard or 2 incoming
+    source: '[[d:priest#1436055370169712821]]'
+  - priority: 3
+    action: 'Shadow Word: Pain'
+  - priority: 4
+    action: Shoot until dead
+    condition: wand out-damages spells from 13 (Greater Magic Wand + 2/2 Wand Spec)
+    source: '[[d:priest#1468158386821660827]]'
+  - priority: 5
+    action: no drinking; let Spirit Tap regen
+    condition: killing blow landed
+  multi_target:
+  - priority: 1
+    action: 'Power Word: Shield (self)'
+  - priority: 2
+    action: 'Shadow Word: Pain on each mob'
+  - priority: 3
+    action: Shoot lowest
+  - priority: 4
+    action: Psychic Scream -> re-shield -> Lesser Heal -> re-apply SW:P
+    condition: shield broken with 2+ mobs on you
+    source: '[[d:priest#1320479806118170675]]'
+  heal:
+  - priority: 1
+    action: 'Power Word: Shield then heal'
+    condition: tank about to die; on warrior/druid tanks only in true emergency (denies rage)
+    source: '[[d:priest#1393311111255822486]], [[d:priest#1393317355932876832]]'
+  - priority: 2
+    action: Lesser Heal max rank (R3); Heal R1 from 16
+    condition: tank ~50% HP; do not spam
+    source: '[[d:priest#1471253529334382634]], [[d:priest#1430698110853845104]]'
+  - priority: 3
+    action: Renew max rank
+    condition: tank taking steady damage; mostly enough in early dungeons
+    source: '[[d:priest#1479210123439112252]]'
+  - priority: 4
+    action: Cure Disease (14+) / Dispel Magic (18+)
+    condition: disease / magic CC or debuff on a player (vanilla baseline)
+  - priority: 5
+    action: stop casting 5 s (wand) to regen
+    condition: after each big heal
+    source: '[[d:priest#1471253529334382634]]'
+  - priority: 6
+    action: Fade
+    condition: on pull, so loose mobs do not run at you
+    source: '[[d:priest#1423720492048842943]]'
+- levels: 20-29
+  spec: Smite/Holy
+  new_abilities:
+  - level: 20
+    name: Holy Fire Rank 1
+    spell_id: 14914
+  - level: 20
+    name: Flash Heal Rank 1
+    spell_id: 2061
+  - level: 20
+    name: Renew Rank 3
+    spell_id: 6075
+  - level: 20
+    name: Fear Ward
+    spell_id: 6346
+  - level: 20
+    name: Inner Fire Rank 2
+    spell_id: 7128
+  - level: 20
+    name: Fade Rank 2
+    spell_id: 9578
+  - level: 20
+    name: Shackle Undead Rank 1
+    spell_id: 9484
+  - level: 22
+    name: Heal Rank 2
+    spell_id: 2055
+  - level: 22
+    name: Smite Rank 4
+    spell_id: 984
+  - level: 22
+    name: Mind Blast Rank 3
+    spell_id: 8103
+  - level: 24
+    name: Holy Fire Rank 2
+    spell_id: 15262
+  - level: 24
+    name: 'Power Word: Shield Rank 4'
+    spell_id: 3747
+  - level: 26
+    name: Flash Heal Rank 2
+    spell_id: 9472
+  - level: 26
+    name: Renew Rank 4
+    spell_id: 6076
+  - level: 26
+    name: 'Shadow Word: Pain Rank 4'
+    spell_id: 992
+  - level: 28
+    name: Heal Rank 3
+    spell_id: 6063
+  - level: 28
+    name: Mind Blast Rank 4
+    spell_id: 8104
+  - level: 28
+    name: Psychic Scream Rank 2
+    spell_id: 8124
+  single_target:
+  - priority: 1
+    action: Holy Fire (pre-cast, max range)
+    source: '[[d:priest#1448670109785915402]]'
+  - priority: 2
+    action: Smite
+  - priority: 3
+    action: 'Power Word: Shield (self)'
+    condition: mob hits hard
+  - priority: 4
+    action: Shoot to finish
+  - priority: 5
+    action: 'alt: Shadow Word: Pain -> Shoot'
+    condition: 'weak mob / good wand (contested: Greendam rarely casts HF/Smite before 30)'
+    source: '[[d:priest#1436055370169712821]]'
+  multi_target:
+  - priority: 1
+    action: 'Power Word: Shield (self)'
+  - priority: 2
+    action: Holy Fire first mob
+  - priority: 3
+    action: 'Shadow Word: Pain others'
+  - priority: 4
+    action: Shoot
+  - priority: 5
+    action: Psychic Scream
+    condition: shield breaks
+    source: '[[d:priest#1320479806118170675]]'
+  heal:
+  - priority: 1
+    action: Renew max rank on tank
+    condition: always; also Renew Life-Tapping warlocks
+    source: '[[d:priest#1404752891054657586]]'
+  - priority: 2
+    action: Heal max rank (pre-cast, cancel at 2/3 if unneeded)
+    condition: tank dropping
+    source: '[[d:priest#1409428375700770889]]'
+  - priority: 3
+    action: 'Power Word: Shield'
+    condition: tank will not survive until next cast lands
+    source: '[[d:priest#1409428375700770889]]'
+  - priority: 4
+    action: Flash Heal
+    condition: only if Heal spam cannot keep up (mana-inefficient)
+    source: '[[d:priest#1471253529334382634]]'
+  - priority: 5
+    action: Fear Ward on tank
+    condition: before fearing boss
+    source: '[[d:priest#1447464110588428309]]'
+  - priority: 6
+    action: Shackle Undead
+    condition: extra undead mob (vanilla baseline)
+- levels: 30-39
+  spec: Smite/Holy
+  new_abilities:
+  - level: 30
+    name: Smite Rank 5
+    spell_id: 1004
+  - level: 30
+    name: Holy Fire Rank 3
+    spell_id: 15263
+  - level: 30
+    name: 'Power Word: Shield Rank 5'
+    spell_id: 6065
+  - level: 30
+    name: Prayer of Healing Rank 1
+    spell_id: 596
+  - level: 30
+    name: Divine Spirit Rank 1
+    spell_id: 14752
+  - level: 30
+    name: Pain Spike Rank 1
+    spell_id: 45555
+  - level: 30
+    name: Mind Control Rank 1
+    spell_id: 605
+  - level: 32
+    name: Flash Heal Rank 3
+    spell_id: 9473
+  - level: 32
+    name: Renew Rank 5
+    spell_id: 6077
+  - level: 32
+    name: Abolish Disease
+    spell_id: 552
+  - level: 34
+    name: Heal Rank 4
+    spell_id: 6064
+  - level: 34
+    name: Mind Blast Rank 5
+    spell_id: 8105
+  - level: 34
+    name: 'Shadow Word: Pain Rank 5'
+    spell_id: 2767
+  - level: 36
+    name: Dispel Magic Rank 2
+    spell_id: 988
+  - level: 36
+    name: Holy Fire Rank 4
+    spell_id: 15264
+  - level: 36
+    name: 'Power Word: Shield Rank 6'
+    spell_id: 6066
+  - level: 38
+    name: Flash Heal Rank 4
+    spell_id: 9474
+  - level: 38
+    name: Renew Rank 6
+    spell_id: 6078
+  - level: 38
+    name: Smite Rank 6
+    spell_id: 6060
+  - level: 31
+    name: Holy Nova (talent)
+    spell_id: 15237
+  single_target:
+  - priority: 1
+    action: Holy Fire (max range)
+  - priority: 2
+    action: Smite x3
+  - priority: 3
+    action: Smite or max-rank Mind Blast for the killing blow
+    condition: Spirit Tap proc
+    source: '[[d:priest#1489729086015279258]]'
+  - priority: 4
+    action: Shoot 1-2 shots
+    condition: last sliver only
+    source: '[[d:priest#1492796559509819492]]'
+  - priority: 5
+    action: 'Shadow Word: Pain'
+    condition: elites/bosses or while moving only (normal mobs die before 3 ticks)
+    source: '[[d:priest#1450846541362499627]]'
+  - priority: 6
+    action: Pain Spike
+    condition: mob nearly dead
+  multi_target:
+  - priority: 1
+    action: 'Power Word: Shield -> Holy Fire -> SW:P second mob -> Smite first'
+    condition: 2 mobs
+  - priority: 2
+    action: Psychic Scream or Mind Control one
+    condition: 3+ mobs / bad pull
+    source: '[[d:priest#1320479806118170675]]'
+  - priority: 3
+    action: Holy Nova
+    condition: only when 2-3 players need healing and ~3 mobs on you; too expensive to AoE grind
+    source: '[[d:priest#1492802070971945020]], [[d:priest#1492801039093469195]]'
+  heal:
+  - priority: 1
+    action: Renew max rank on tank
+    condition: always
+    source: '[[d:priest#1490472852506542100]]'
+  - priority: 2
+    action: Heal max rank pre-cast, cancel at 2/3 if unneeded
+    condition: tank ~50%; skip Lesser Heal
+    source: '[[d:priest#1490473551717728317]]'
+  - priority: 3
+    action: 'Power Word: Shield -> Flash Heal'
+    condition: emergency only
+    source: '[[d:priest#1490472852506542100]]'
+  - priority: 4
+    action: Prayer of Healing
+    condition: 3+ players fully benefit
+    source: '[[d:priest#1471253529334382634]]'
+  - priority: 5
+    action: Dispel Magic / Abolish Disease
+    condition: magic CC/debuff; disease (vanilla baseline)
+  - priority: 6
+    action: Divine Spirit on group
+    condition: missing
+- levels: 40-49
+  spec: Smite/Holy
+  new_abilities:
+  - level: 40
+    name: Greater Heal Rank 1
+    spell_id: 2060
+  - level: 40
+    name: Prayer of Healing Rank 2
+    spell_id: 996
+  - level: 40
+    name: Divine Spirit Rank 2
+    spell_id: 14818
+  - level: 40
+    name: Mind Blast Rank 6
+    spell_id: 8106
+  - level: 40
+    name: Pain Spike Rank 2
+    spell_id: 57701
+  - level: 42
+    name: Holy Fire Rank 5
+    spell_id: 15265
+  - level: 42
+    name: 'Power Word: Shield Rank 7'
+    spell_id: 10898
+  - level: 42
+    name: 'Shadow Word: Pain Rank 6'
+    spell_id: 10892
+  - level: 44
+    name: Flash Heal Rank 5
+    spell_id: 10915
+  - level: 44
+    name: Renew Rank 7
+    spell_id: 10927
+  - level: 44
+    name: Holy Nova Rank 4
+    spell_id: 27799
+  - level: 46
+    name: Greater Heal Rank 2
+    spell_id: 10963
+  - level: 46
+    name: Mind Blast Rank 7
+    spell_id: 10945
+  - level: 46
+    name: Smite Rank 7
+    spell_id: 10933
+  - level: 48
+    name: Holy Fire Rank 6
+    spell_id: 15266
+  - level: 48
+    name: 'Power Word: Shield Rank 8'
+    spell_id: 10899
+  - level: 47
+    name: Inner Focus (talent)
+    spell_id: 14751
+  single_target:
+  - priority: 1
+    action: Inner Focus -> Holy Fire
+    condition: elite (47+)
+  - priority: 2
+    action: Holy Fire -> Smite x3 -> killing-blow snipe
+    condition: same as 30-39
+    source: '[[d:priest#1489729086015279258]]'
+  multi_target:
+  - priority: 1
+    action: same as 30-39
+  heal:
+  - priority: 1
+    action: Renew max rank on tank
+    condition: always
+  - priority: 2
+    action: Greater Heal (R1 usually fine) or max Heal, pre-cast and cancel
+    condition: tank dropping; start downranking now, never below Heal R2
+    source: '[[d:priest#1431186254069760070]], [[d:priest#1494888479052533902]]'
+  - priority: 3
+    action: 'Power Word: Shield -> Flash Heal'
+    condition: spikes / DPS with aggro
+  - priority: 4
+    action: Prayer of Healing R2
+    condition: 3+ damaged
+  - priority: 5
+    action: Inner Focus + Greater Heal or Prayer of Healing
+    condition: 47+, heaviest moment
+    source: '[[d:priest#1490481295694758060]]'
+- levels: 50-60
+  spec: Smite/Holy
+  new_abilities:
+  - level: 50
+    name: Flash Heal Rank 6
+    spell_id: 10916
+  - level: 50
+    name: Renew Rank 8
+    spell_id: 10928
+  - level: 50
+    name: Prayer of Healing Rank 3
+    spell_id: 10960
+  - level: 50
+    name: 'Shadow Word: Pain Rank 7'
+    spell_id: 10893
+  - level: 50
+    name: Inner Fire Rank 5
+    spell_id: 10951
+  - level: 52
+    name: Greater Heal Rank 3
+    spell_id: 10964
+  - level: 52
+    name: Holy Nova Rank 5
+    spell_id: 27800
+  - level: 54
+    name: Holy Fire Rank 7
+    spell_id: 15267
+  - level: 54
+    name: 'Power Word: Shield Rank 9'
+    spell_id: 10900
+  - level: 54
+    name: Smite Rank 8
+    spell_id: 10934
+  - level: 56
+    name: Flash Heal Rank 7
+    spell_id: 10917
+  - level: 56
+    name: Renew Rank 9
+    spell_id: 10929
+  - level: 58
+    name: Greater Heal Rank 4
+    spell_id: 10965
+  - level: 58
+    name: Mind Blast Rank 9
+    spell_id: 10947
+  - level: 58
+    name: Shadow Mend Rank 1
+    spell_id: 45554
+  - level: 60
+    name: Holy Fire Rank 8
+    spell_id: 15261
+  - level: 60
+    name: 'Power Word: Shield Rank 10'
+    spell_id: 10901
+  - level: 60
+    name: Prayer of Healing Rank 4
+    spell_id: 10961
+  - level: 60
+    name: Greater Heal Rank 5
+    spell_id: 25314
+  - level: 60
+    name: Renew Rank 10
+    spell_id: 25315
+  - level: 60
+    name: Smite Rank 9
+    spell_id: 45968
+  - level: 50
+    name: Purifying Flames (talent)
+    spell_id: 51470
+  - level: 52
+    name: Searing Light (talent)
+    spell_id: 51466
+  - level: 55
+    name: Mental Strength (talent)
+    spell_id: 18551
+  - level: 58
+    name: Enlighten (talent)
+    spell_id: 51476
+  - level: 60
+    name: Force of Will (talent)
+    spell_id: 18544
+  single_target:
+  - priority: 0
+    action: Enlighten (self)
+    condition: 58+, missing
+  - priority: 1
+    action: Holy Fire
+    condition: starts Purifying Flames
+  - priority: 2
+    action: Smite spam; instant Smite on Searing Light proc
+  - priority: 3
+    action: Holy Fire again
+    condition: Purifying Flames expired on a longer fight
+  - priority: 4
+    action: Mind Blast or Smite for killing blow
+    condition: Spirit Tap
+    source: '[[d:priest#1489729086015279258]]'
+  - priority: 5
+    action: 'Shadow Word: Pain'
+    condition: only while moving
+  multi_target:
+  - priority: 1
+    action: 'Power Word: Shield (self) -> Holy Nova spam (rank 1, ~9 per pack, ~6k mana)'
+    condition: Dire Maul East lasher packs from ~50
+    source: '[[d:priest#1432727974754521100]], [[d:priest#1354596333456986244]]'
+  - priority: 2
+    action: single-target loop
+    condition: normal questing
+  heal:
+  - priority: 1
+    action: Renew max rank on tank
+    condition: always
+    source: '[[d:priest#1471253832221589577]]'
+  - priority: 2
+    action: Heal R4 (or Greater Heal R1 for bosses)
+    condition: tank lost ~40% HP
+    source: '[[d:priest#1420844417216155790]], [[d:priest#1431186254069760070]]'
+  - priority: 3
+    action: Renew R5
+    condition: random DPS damage
+    source: '[[d:priest#1471253832221589577]]'
+  - priority: 4
+    action: 'Power Word: Shield -> Flash Heal'
+    condition: emergency only (Flash is mana-expensive)
+    source: '[[d:priest#1428692582585860096]]'
+  - priority: 5
+    action: Inner Focus + max Prayer of Healing, or Prayer of Healing R2
+    condition: group damage
+    source: '[[d:priest#1471253832221589577]]'
+  - priority: 6
+    action: Dispel Magic / Abolish Disease
+    condition: magic CC; diseases in Scholomance/Stratholme (vanilla baseline)
+play_loop:
+  opener:
+  - Inner Fire; Enlighten on self or one non-Smite DPS
+  - Chastise tank on pull
+  - Inner Focus -> Holy Fire -> Smite x4 -> Holy Fire
+  single_target:
+  - priority: 1
+    action: Holy Fire
+    condition: start of every cycle (refresh Purifying Flames); recast if it missed
+    source: '[[d:priest#1431112150679818281]]'
+  - priority: 2
+    action: Smite x4
+    condition: instant on Searing Light proc
+  - priority: 3
+    action: Smite (skip Holy Fire)
+    condition: boss dies before cycle ends
+  - priority: 4
+    action: 'Shadow Word: Pain'
+    condition: moving only
+  - priority: 5
+    action: Pain Spike
+    condition: trash dies within ~2 s
+    source: '[[d:priest#1504912888022831298]]'
+  aoe:
+    targets_min: 4
+    loop:
+    - priority: 1
+      action: Holy Nova spam
+      condition: tank aggro established
+    - priority: 2
+      action: alternate rank-1 Holy Nova and instant Smite
+      condition: long packs / low mana
+  cooldowns:
+  - name: Chastise
+    spell_id: 51478
+    use_when: every 40 s on arcane mage / affliction warlock; never self in raid
+  - name: Inner Focus
+    spell_id: 14751
+    use_when: Holy Fire opener
+  - name: Enlighten
+    spell_id: 51476
+    use_when: 30 min buff; reapply after death
+  - name: Fade
+    use_when: near top of threat
+  heal:
+  - 'Emergency only: Power Word: Shield, Flash Heal; dedicated healing is Holy'

@@ -141,6 +141,150 @@ sailorVEVO's post-1.18.1 order [[d:warlock#1482503137041584229]]. Take the first
 
 Why this order: Fel Intellect early because your demon scales off your Intellect from your first greens [[d:warlock#1473231182366769246]]. Keep one point in Suppression so Fel Concentration unlocks [[d:warlock#1482503137041584229]]. Nether Studies adds 45% to Torment, "pretty insane" for Voidwalker threat and damage [[d:warlock#1474355384524210293]]. Demonology talents do little before Unholy Power (27) or Power Overwhelming (30) [[d:warlock#1427624617731821580]].
 
+## Gameplay by level
+
+What to press, bracket by bracket, for the recommended **Affliction + Voidwalker** path. Each bracket ends with a **Demonology path** line that lists what changes if you follow the [Demonology order](#alternative-demonology-order-sailorvevo-respec-at-60) instead. Learn levels, ranks and cast times come from the 1.18.1 client data. Talents follow the orders above. Warlocks have no healing role, and demon-tanking notes appear only in the brackets where they apply.
+
+**Rules for every bracket:**
+
+- **Always have a demon out.** Resummon it between pulls, never mid-pull, unless you have Fel Domination. The Voidwalker is the leveling pet from level 10 [[d:warlock#1427685348158345257]].
+- **DoT first, then Fear.** New spell applications break Fear, but DoT ticks rarely do [[d:warlock#1387410120182599772]], [[d:warlock#1490117470231461951]].
+- **Never clip Curse of Agony.** Its biggest ticks come at the end [[d:warlock#1426230149959127154]]. Put Siphon Life only on mobs that will outlive it.
+- **Life Tap** when you are near full health and below ~50% mana [[d:warlock#1457856394010038566]]. Eat when your health is low and no drain can fix it. There is no Dark Pact on Turtle [[d:warlock#1490751044295065693]].
+- **Keep the Voidwalker ahead on threat.** Send it to the next mob a few seconds before the current one dies [[d:warlock#1490124228727537755]]. Torment adds a fixed amount of threat and only gains a rank every 10 levels, so the Voidwalker holds badly at levels X7-X9. Pull fewer mobs then [[d:warlock#1433032936160100373]].
+
+### Levels 1–9
+
+- **New now:** L1 Imp (class quest), Immolate R1, Shadow Bolt (your starting spell) · L4 Corruption R1 (1.5 s cast), Curse of Weakness · L6 Life Tap R1, Shadow Bolt R2 · L8 Curse of Agony R1, Fear R1 (1.5 s cast, 20 yd). Buy the best wand you can [[d:warlock#1114842876820590613]].
+- **Demon:** Imp, with Firebolt on autocast (vanilla baseline).
+
+**Single target**
+
+1. Send the Imp.
+2. Levels 1-3: Immolate → Shadow Bolt → wand or melee to finish.
+3. From 4: Corruption → Immolate (only if the mob is still above ~50%) → wand.
+4. From 8: **Curse of Agony** (instant, starts the long timer) [[d:warlock#1429880192163250319]] → Corruption → wand.
+5. From 6: Life Tap by the rule above. Drink when both bars are low; this is normal before the Voidwalker (vanilla baseline).
+
+**Multi-target:** avoid pulls of more than one mob, because the Imp cannot tank. If a second mob joins at level 8+, DoT both, then Fear the one that is not on you and kill the other.
+
+**Demonology path:** identical, because no talents exist yet.
+
+### Levels 10–19
+
+- **New now:** L10 **Voidwalker** (class quest), Drain Soul R1, Demon Armor R2, Create Healthstone (Minor) · L12 Health Funnel R1, Shadow Bolt R3 (2.8 s) · L14 Corruption R2, Drain Life R1, Curse of Recklessness R1 · L16 Life Tap R2, Unending Breath · L18 Curse of Agony R2, Searing Pain R1, Create Soulstone (Minor).
+- **Talents:** Improved Corruption 1-5 (L10-14; Corruption is **instant from 14**), Suppression 1-3 (L15-17), Improved Life Tap 1 (L18), Improved Drains 1 (L19).
+- **Demon:** Voidwalker, with Torment on autocast. Upgrade its Torment rank as soon as you can [Eversongwoods, 2025-02-03](https://forum.turtlecraft.gg/viewtopic.php?p=118780#p118780). Keep Demon Armor up [[d:warlock#1472625100124852244]].
+
+**Single target**
+
+1. **Send the Voidwalker** and let it land a Torment.
+2. **Curse of Agony.**
+3. **Corruption.**
+4. **Filler:** wand, or **Drain Soul**. At level 15 on a dummy, Drain Soul held 31.5 DPS, Drain Life 23 and Shadow Bolt 33 falling to 28 as mana ran out [[d:warlock#1462037192196096116]]. **Contested:** "0 reason to wand after like level 20" [[d:warlock#1462085166829797541]] vs "Voidwalker + dots and wand = infinite farm" [[d:warlock#1472625100124852244]].
+5. **Drain Life** (from 14) instead of the filler when your health is low.
+6. Finish with Drain Soul when you need soul shards (see [Soul shards](#soul-shards-all-levels)).
+7. Life Tap by the rule. Between pulls, Health Funnel the Voidwalker if it is low and you have health to spare (vanilla baseline).
+
+**Multi-target (2-3 mobs)**
+
+1. Voidwalker on mob A.
+2. Curse of Agony and Corruption on A, then on B.
+3. **Fear B** after its DoTs are on. From 14, a Curse of Recklessness on the feared mob stops it fleeing, so it stays in place; swap to another curse to let it run again [[d:warlock#1490139514566344975]].
+4. Drain or wand the mob that is on you, then the next.
+5. **Do not pull more** at levels 17-19, when Torment falls behind, or when your health is below ~60% (vanilla baseline).
+
+**Demon tanking (dungeons):** a Voidwalker with Health Funnel can tank or off-tank low-level dungeons. It "will give you aggro issues when dealing with multiple mobs" and is not beginner-friendly [[d:warlock#1472406090791780585]]. In a group with a real tank, bring the **Imp** instead (ranged, stamina buff, Fire Shield) [[d:warlock#1455572117692354725]]. It stays invisible and pulls less by accident [[d:warlock#1485668056544841840]].
+
+**Demonology path:** Demonic Embrace 1-5 (L10-14), Fel Intellect 1-3 (L15-17), Soul Funnel 1 (L18), Improved Corruption 1 (L19). The loop is Voidwalker → DoTs → Drain Life or wand. Pull the next mob with the Voidwalker once the current one is at half health, and Health Funnel it instead of resting [[d:warlock#1441086565534273666]]. Corruption keeps its cast time until 23.
+
+### Levels 20–29
+
+- **New now:** L20 **Succubus** (class quest), Immolate R3, Shadow Bolt R4 (3.0 s), Rain of Fire R1, Demon Armor R3, Health Funnel R2, Ritual of Summoning · L22 Drain Life R2, Create Firestone, Eye of Kilrogg · L24 Corruption R3 (18 s), Drain Soul R2, Drain Mana R1, Fear R2 (15 s) · L26 Life Tap R3, Searing Pain R2, Create Healthstone · L28 Curse of Agony R3, Curse of Recklessness R2, Shadow Bolt R5, Health Funnel R3, Banish R1.
+- **Talents:** Improved Drains 2 (L20), Fel Concentration 1-2 (L21-22), Improved Curse of Agony 1-3 (L23-25), Soul Siphon 1-3 (L26-28), Nightfall 1 (L29).
+- **Demon:** stay on the **Voidwalker** for solo pulls. The Succubus does more damage but is squishy, and she is only "a bit better if you have demonic swiftness" [[d:warlock#1455537204045545582]]. Many players still switch to her from 20 [[d:warlock#1429055507032965211]].
+
+**Single target:** same as 10-19, plus:
+
+- **Nightfall proc (from 29) → instant Shadow Bolt.** Otherwise do not hard-cast Shadow Bolt [[d:warlock#1434098671196307637]].
+- Drain tanking is not online yet. "25 is too early"; the wand or Drain Soul is the better filler until the late-30s Drain Life rank [[d:warlock#1410017237124780195]].
+- With Soul Siphon, get all your DoTs up before you drain.
+
+**Multi-target:** 2-3 mobs, as above. Rain of Fire R1 costs 295 mana, which is too expensive for solo play; keep it for groups.
+
+**Demonology path:** Improved Corruption 2-5 (L20-23; instant at 23), Improved Drains 1-2 (L24-25), Improved Life Tap 1-2 (L26-27), Suppression 1 (L28), Fel Concentration 1 (L29). Soul Funnel makes the Voidwalker very hard to kill. With 5/5 Fel Stamina and 2/2 Soul Funnel it "can pull 3+ mobs at a time" [[d:warlock#1307088266150805636]].
+
+### Levels 30–39
+
+- **New now:** L30 **Felhunter** (class quest), **Siphon Life** (talent, 30), Soul Fire R1 (6 s cast), Hellfire R1, Immolate R4, Drain Life R3, Demon Armor R4, Enslave Demon R1, Shadow Ward R1, Create Soulstone (Lesser) · L32 Curse of the Elements R1, Create Felstone · L34 Corruption R4, Rain of Fire R2, Searing Pain R3, Drain Mana R2 · L36 Life Tap R4, Shadow Bolt R6, Health Funnel R4, Create Spellstone · L38 **Curse of Agony R4, Drain Life R4, Drain Soul R3, Siphon Life R2**, Soul Fire R2.
+- **Talents:** Siphon Life (L30), Malediction (L31), Nightfall 2 (L32), Rapid Deterioration 1-2 (L33-34), Shadow Mastery 1-5 (L35-39).
+- **Demon:** Voidwalker solo. The Felhunter is the PvP and utility pet [[d:warlock#1480688101943808205]].
+
+**Single target**
+
+1. Send the Voidwalker.
+2. **Curse:** Curse of Agony. With Malediction, cast a **rank-1 Curse of Recklessness** instead: it costs 35 mana and still applies your max-rank Curse of Agony [[d:warlock#1446533749415346187]], [[d:warlock#1459978871561650381]].
+3. **Corruption.**
+4. **Siphon Life** if the mob will live long enough [[d:warlock#1429880384040210454]].
+5. **Drop Immolate** from here on (Crash.Rush stopped at 33) [[d:warlock#1487115677218115665]].
+6. **Filler:** below level ~34, wand; above that, Drain Life when you need health, otherwise Drain Soul [[d:warlock#1490122722783789229]], [[d:warlock#1429880698247975024]].
+7. Nightfall proc → Shadow Bolt.
+8. Life Tap by the rule. Drain tanking starts to work with the level-38 Drain Life rank [[d:warlock#1410017237124780195]].
+
+Keep a **Felstone** (32) in groups. Its healing generates threat, so let the Voidwalker hit first [[d:warlock#1490122874357551236]].
+
+**Multi-target (2-3 mobs):** Voidwalker on one, full DoTs (curse, Corruption, Siphon Life) on each, Fear one, drain the one on you. Siphon Life on every mob is also your healing.
+
+**Demonology path:** Fel Concentration 2 (L30), Soul Funnel 2/2 (L31), Fel Domination (L32), Fel Stamina 1-4 (L33-36), Nether Studies 1-3 (L37-39). Nether Studies adds 45% to Torment, which is big for the Voidwalker's threat [[d:warlock#1474355384524210293]]. Soul Funnel 2/2 lets you fight elites head-on [[d:warlock#1474062678644232374]]. Fel Domination gives you an instant resummon when the demon dies mid-fight [[d:warlock#1475587639188000959]].
+
+### Levels 40–49
+
+- **New now:** L40 **Dark Harvest** (talent; trainer R2 at 50), Howl of Terror R1, Mana Funnel R1, Immolate R5, Demon Armor R5, Create Soulstone, Fear R3 (20 s), Felsteed · L42 **Death Coil R1**, Hellfire R2, Create Wrathstone, Curse of Recklessness R3, Searing Pain R4, Shadow Ward R2 · L44 **Curse of Shadow R1**, Corruption R5, Shadow Bolt R7, Enslave Demon R2, Health Funnel R5, Drain Mana R3 · L46 Drain Life R5, Life Tap R5, Rain of Fire R3, Soul Fire R3, Curse of the Elements R2, Banish R2, Create Healthstone (Greater) · L48 Curse of Agony R5, Siphon Life R3.
+- **Talents:** Dark Harvest (L40), Grim Reach 1-2 (L41-42), Suppression 4-5 (L43-44), Shadow Vulnerability 1-5 (L45-49).
+- **Demon:** Voidwalker. Your DoTs now out-threat it, so "as Affliction, you will usually be tanking the mob". Switch from Drain Soul to Drain Life when your health gets low [[d:warlock#1490117148272496680]].
+
+**Single target**
+
+1. Send the Voidwalker.
+2. **From 44: Curse of Shadow** (Malediction adds Curse of Agony) [[d:warlock#1429880192163250319]]. Before 44, keep using rank-1 Recklessness. If Curse of Agony falls off, recast it yourself: Malediction does not refresh it [[d:warlock#1465281355674947646]].
+3. **Corruption → Siphon Life.**
+4. **Drain Soul** for damage, **Drain Life** when low.
+5. **Dark Harvest** only on elites. On normal mobs it is weak, because they die too fast [[d:warlock#1435341566393843712]].
+6. Nightfall proc → Shadow Bolt. Life Tap by the rule.
+7. **Emergency:** Death Coil (42) to heal and stop a mob, then Healthstone.
+
+**Multi-target (3-4 mobs)**
+
+1. Voidwalker on the first mob; DoT all of them.
+2. Fear one, or use **Howl of Terror** (40, 2 s cast) when a pull goes bad (vanilla baseline).
+3. With the optional Curse of Exhaustion talents, you can drag 4-5 mobs with slows and DoTs if your mana pool allows [[d:warlock#1452397652628209725]]. Stay below 3-4 mobs without them.
+
+**Demon tanking (dungeons):** the 5-man "void tank" needs Wrathstone (42), Bane and Soul Link: "really can't do it until you get wrathstone bane and soul link" [[d:warlock#1489010489030606961]]. That means a Demonology/Destruction build, not this Affliction order. See [Warlock tanking](warlock-tank.md#5-man-void-tank).
+
+**Demonology path:** Master Summoner 1-2 (L40-41), Power Overwhelming (L42), Unholy Power 1-3 (L43-45), Fel Stamina 5 (L46), Master Demonologist 1-3 (L47-49). Do not use Power Overwhelming while leveling "unless using the void with its consume shadows" [[d:warlock#1383459083323183135]]. Even a Demonology Voidwalker eventually struggles to hold threat late [[d:warlock#1492715152393633863]].
+
+### Levels 50–60
+
+- **New now:** L50 **Infernal** (Inferno quest), Dark Harvest R2, Death Coil R2, Immolate R6, Demon Armor R6, Mana Funnel R2, Searing Pain R5, Curse of Tongues R2, Create Soulstone (Greater) · L52 Shadow Bolt R8, Drain Soul R4, **Create Voidstone**, Health Funnel R6, Shadow Ward R3 · L54 Corruption R6, Drain Life R6, Hellfire R3, Howl of Terror R2, Soul Fire R4 · L56 Life Tap R6, Curse of Recklessness R4 · L58 Curse of Agony R6, Siphon Life R4, Death Coil R3, Rain of Fire R4, Create Healthstone (Major) · L60 Shadow Bolt R9, Drain Soul R5, Immolate R7, Dark Harvest R3, Curse of Shadow R2, Curse of the Elements R3, Demon Armor R7, Health Funnel R7, Create Soulstone (Major), Ritual of Doom (quest), Dreadsteed (quest).
+- **Talents:** Demonic Embrace 1-5 (L50-54), Soul Entrapment 1-3 (L55-57), Demonic Aegis 1-2 (L58-59), **Demonic Sacrifice** (L60).
+- **Demon:** Voidwalker until 60. At 60, sacrifice the Imp for raids ([Affliction: How to play](affliction.md#how-to-play)).
+
+**Single target:** same as 40-49. Train every Drain Soul rank [[d:warlock#1445134333630349333]].
+
+**Multi-target and farming:** Affliction farms by dotting 3-4 mobs, keeping them slowed with Curse of Exhaustion and kiting until they die, tapping as needed. Felstone and Siphon Life healing keep you in "resource equilibrium" [[d:warlock#1464039321358176387]]. For Hellfire farms (Hyjal snakes, Dire Maul East lashers), see [AoE leveling and farming](#aoe-leveling-and-farming-40-60).
+
+**Demonology path:** Master Demonologist 4-5 (L50-51), Soul Link (L52), then the order's remaining points. At 60, respec to the [raid build](demonology.md#raid-03417-recommended).
+
+### Soul shards (all levels)
+
+| Rule | Detail |
+|---|---|
+| Get them | Finish mobs with **Drain Soul** (vanilla baseline). Rank 1 is enough when the shard is the point [Snipesta, 2025-02-07](https://forum.turtlecraft.gg/viewtopic.php?p=119257#p119257) |
+| Spend them on | Resummoning the Voidwalker, Succubus or Felhunter (the Imp is free), Healthstone and Soulstone, Soul Fire and Shadowburn (vanilla baseline). Ritual of Summoning costs 1 per summon [[d:warlock#1432018661119496333]]; Ritual of Souls (Soulwell) costs 3 [[d:warlock#1464417092869554227]] |
+| Get them back | A demon that despawns (flight path, out of range) refunds its shard, except the first one after you log in [[d:warlock#1449315336775270513]], [[d:warlock#1449321055263916053]]. Soul bags have up to a 25% chance to refund a shard [[d:warlock#1434553981987852380]] |
+| Storage | Shards stack to 3 per slot on Turtle [[d:warlock#1439148601224859680]]. Keep about 5-10 while leveling (vanilla baseline). ShardCapPlus deletes extras [[d:warlock#1426949316034953327]] |
+| Before a dungeon | Carry enough for a Healthstone, a Soulstone and 1-2 demon resummons (vanilla baseline) |
+
 ## Spells, pets and quests by level
 
 | Level | What you get | Notes / source |
@@ -152,7 +296,8 @@ Why this order: Fel Intellect early because your demon scales off your Intellect
 | ~30 | Felhunter; Soul Fire; Siphon Life (talent) | Soul Fire at 30 [[d:warlock#1478893299388649583]]. The level-30 trainer quest sends you to the Barrens for a good offhand [[d:warlock#1460310584267374624]] |
 | 38 | Big Drain Life rank | Drain tanking starts to work from the late 30s' Drain Life rank; "25 is too early" [[d:warlock#1410017237124780195]] |
 | 40 | Class mount; Conflagrate (talent) | Free 60% mount at 40, discounted epic mount at 60 [[d:warlock#1396757265037656066]] |
-| 44 | Curse of Shadows; Wrathstone | Lead with Curse of Shadows to auto-apply Curse of Agony (Malediction) [[d:warlock#1429880192163250319]]. Wrathstone at 44 [[d:warlock#1379816702786801864]] |
+| 42 | Wrathstone | **Contested:** spell data has Create Wrathstone as a trainer spell at 42; a player reports not getting it until 44 [[d:warlock#1379816702786801864]] |
+| 44 | Curse of Shadows | Lead with Curse of Shadows to auto-apply Curse of Agony (Malediction) [[d:warlock#1429880192163250319]] |
 | 50 | **Infernal** (Inferno quest, ends in Felwood) | The quest mob is a level-55 elite. An Affliction lock can solo it by kiting with Curse of Exhaustion [[d:warlock#1485033334907076718]], [[d:warlock#1429055346684727366]] |
 | 60 | **Doomguard** (Ritual of Doom quest, Blasted Lands), Soulwell questline, Dreadsteed | A Free Action Potion stops the Doomguard Commander's War Stomp from breaking your channel [[d:warlock#1485500197906809004]]. Dreadsteed (Dire Maul West): one player spent about 500 g in total; another warlock can supply J'eevee's Jar, Xorothian Glyphs and Black Lodestone to save about 250 g [[d:warlock#1492529481628385441]], [[d:warlock#1489054932010139688]] |
 

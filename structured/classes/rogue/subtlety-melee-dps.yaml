@@ -685,3 +685,37 @@ discord:
     era: post-1.18.1
     agreement: consensus
 guide: guide/classes/rogue/subtlety.md
+play_loop:
+  opener:
+  - Pre-load a combo point, carry it with Slice and Dice [[d:rogue#1448107099405156353]]
+  - 'Optional: Sap the boss for Blackjack [[d:rogue#1483262959709982761]]'
+  - Garrote (Hemorrhage if bleed-immune) -> Hemorrhage to 5 -> Improved Expose Armor -> 1-point Slice and Dice -> Hemorrhage
+    to 5 -> Rupture [[d:rogue#1490034918212894740]], [[d:rogue#1492117624568680489]]
+  single_target:
+  - priority: 1
+    action: Improved Expose Armor
+    condition: 5 combo points; <= ~10 s left [[d:rogue#1483262959709982761]]
+  - priority: 2
+    action: any 5-point finisher
+    condition: about every 11 s for Tricks of the Trade; no 1-point spam [[d:rogue#1488615334016716881]]
+  - priority: 3
+    action: Slice and Dice (low points) / Rupture (5 points)
+    condition: missing or expiring
+  - priority: 4
+    action: Eviscerate
+    condition: spare combo points
+  - priority: 5
+    action: Hemorrhage
+    condition: builder; no Backstab/Sinister Strike
+  aoe:
+    targets_min: 999
+    loop:
+    - priority: 1
+      action: stay single target; no Blade Flurry
+      condition: 'exception: trash that dies before 5 points [[d:rogue#1456463874256797738]]'
+    - priority: 2
+      action: no IEA on trash or in dungeons
+      condition: '[[d:rogue#1459199748748607488]]'
+  cooldowns:
+  - Mark for Death -> Shadow of Death in the raid burst window with AP trinkets; call it out
+  - Vanish -> Garrote, then Preparation for a second Mark [[d:rogue#1466422873806733362]]

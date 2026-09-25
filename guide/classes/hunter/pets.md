@@ -11,6 +11,33 @@
 
 In every case, keep the pet happy (green), train its resistances for the raid tier, and never leave Claw on autocast next to a real special ability.
 
+## How to play
+
+The pet-control loop, for every spec.
+
+1. **Before the pull:**
+    - The pet is green (happy). Feed it right before the pull; a pet that dies usually stays happy [[d:hunter#1491026532678766684]].
+    - Its autocast bar is set: [autocast](#which-abilities-to-autocast). Never leave Claw on next to a real special.
+2. **Solo or leveling:**
+    - Growl on autocast.
+    - The pet pulls. Start shooting at 75–80% [[d:hunter#1466911679668424945]].
+    - Mend Pet when it drops low.
+    - Level-by-level pets and pet tanking: [Leveling: Gameplay by level](leveling.md#gameplay-by-level).
+3. **Group with a tank, or a raid:**
+    - Growl off [[d:hunter#1428016626455937097]].
+    - Send the pet exactly as the tank hits [[d:hunter#1484689822005067816]].
+    - Avoid Defensive mode, which attacks whatever hits a party member [[d:hunter#1471838967711272970]].
+    - Use Take Position to park the pet out of cleaves and breaths ([positioning](#positioning-in-raids)).
+4. **Pet tanking (BM only):**
+    - Growl on, with a Screech pet, Gorilla or Scorpid.
+    - Pull threat back with Kill Command + Bite, and use Intimidation to buy time [[d:hunter#1455955199234670673]], [[d:hunter#1421044060180713484]].
+    - Keep Mend Pet rolling [[d:hunter#1455955810583838955]].
+    - The pet has no taunt. Growl is threat only [[d:hunter#1485140138584576110]].
+5. **The pet dies:** reviving mid-fight is usually not worth it with under ~30 s left [[d:hunter#1481941619614814320]].
+6. **Between fights:**
+    - Refeed at yellow.
+    - Do not dismiss with the spell; it halves happiness ([feeding](#feeding-and-happiness)).
+
 ## Which pet for what
 
 | Job | Pet | Why | Source |

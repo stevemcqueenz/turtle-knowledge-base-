@@ -12,6 +12,22 @@
 
 **What 1.18.1 did to it.** Noxious Assault lost AP scaling (35% → 30%), Taste for Blood no longer boosts Dissolvent or Corrosive, and those two poisons now only work on Elementals, Mechanicals, Giants and Undead [[d:rogue#1464347389597847693]], [[d:rogue#1484513053876949133]]. Nandieb counts three separate nerfs to Noxious Assault in one patch [[d:rogue#1489503815010095134]]. Players measured roughly 10% less damage [[d:rogue#1485568535215476746]]. The type restriction, not the numbers, is why people call the spec dead [[d:rogue#1486702772622725260]].
 
+## How to play
+
+The loop for **Noxious Assault (41/10/0)** at 60. Details: [Single-target rotation](#single-target-rotation) and [Poisons](#poisons).
+
+1. **Before the pull:** **Instant Poison** on both of your fastest weapons. Keep a second pair coated with **Dissolvent** for Elementals, Mechanicals, Giants and Undead ([creature-type rule](#the-creature-type-rule-1181)). Poison charges last about 20 minutes of fighting [[d:rogue#1471162658550972653]].
+2. **Opener:** a combo point pre-loaded on the boss and carried over with Slice and Dice, or **Noxious Assault** [[d:rogue#1480688682787667988]]. Solo, open with **Cheap Shot** from Stealth (see [leveling](leveling.md#gameplay-by-level)).
+3. **Single-target loop (top first):**
+    1. **Envenom** at 1 combo point if it is missing or expiring, then **Slice and Dice** at 1 combo point [[d:rogue#1484581432889442335]].
+    2. **Eviscerate** at 5 combo points; **Cold Blood** on it when ready [[d:rogue#1480513960317943900]].
+    3. **Noxious Assault** to build. Never Backstab or Sinister Strike [[d:rogue#1436359116774838312]].
+    4. **No Rupture** [[d:rogue#1485191077827842271]].
+4. **Cooldowns:** Cold Blood (a 5-point Eviscerate, or Noxious Assault into Seal Fate); Vanish for threat resets and trinket swaps; Thistle Tea when energy-starved.
+5. **AoE switch:** none. Stay single-target and kill one mob at a time. **Blade Flurry** only for exactly 2 targets, and only if your sim shows a gain (**contested**) [[d:rogue#1456462381906657310]], [[d:rogue#1484686771382915153]].
+6. **Resource rule:** the Ruthlessness point after each finisher pays for the 1-point refreshes [[d:rogue#1478779997878485167]]. Weapon swaps cost a GCD in combat [[d:rogue#1445469130453942475]].
+7. **Situational:** if the target is **nature-immune**, swap to your Dissolvent pair. If it is **immune to all poisons** (Twin Emperors), keep pressing Noxious Assault; the hit still lands. Carry Kidney Shot and Kick for dangerous trash.
+
 ## Talent build
 
 ### Noxious Assault, 41/10/0 (recommended)

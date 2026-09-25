@@ -81,8 +81,9 @@ Race matters little next to gear. Pick one you enjoy looking at for hundreds of 
 
 ## Professions
 
-- **Engineering** is the best hunter profession: the +2% crit scope schematic, Enchanted Thorium Shells, gadgets and sappers [[d:hunter#1486157633780973589]], [[d:hunter#1484564082014289983]]. Engineering/Mining is the standard pair [[d:hunter#1486798560052904010]].
-- **Alchemy** is the best gold profession [[d:hunter#1473024949332742144]].
-- **Survival** (secondary, reworked in 1.18.1) crafts your own arrows and bullets. The trees are gated by Survival skill; the Horde trainer is in Orgrimmar near the fishing trainer [[d:hunter#1484654567957467306]], [[d:hunter#1484976773220401243]]. The 25.5 DPS ammo recipe takes 1 Arcanite, 5 Thorium Bars and 10 Dense Blasting Powder per 5×200 [[d:hunter#1485357293724762112]].
-- **Leatherworking and Skinning** are weak at 60, mostly useful for resistance gear [[d:hunter#1486157530781716631]].
-- Gold farms: DME lashers (from 45) and the ZG kite farm (the best gold once mastered) [[d:hunter#1470681473496383508]], [[d:hunter#1483746983536492575]].
+- **Engineering + Mining** is the standard pair and the best-in-slot choice. You get the +2% crit Facetted Crystal Scope, Enchanted Thorium Shells, gadgets and sappers, and Mining funds your consumables [[d:hunter#1486157633780973589]], [[d:hunter#1484564082014289983]], [[d:hunter#1486798560052904010]].
+- **Alchemy** (with Herbalism) is the best gold profession [[d:hunter#1473024949332742144]]. **Leatherworking and Skinning** are weak at 60, mostly useful for resistance gear [[d:hunter#1486157530781716631]].
+- **Survival** (a secondary profession, reworked in 1.18.1) crafts your own arrows. Trees are gated by Survival skill, and the Horde trainer is in Orgrimmar near the fishing trainer [[d:hunter#1484654567957467306]], [[d:hunter#1484976773220401243]].
+- Gold farms: DME lashers (from level 45) and the ZG kite farm, the best gold once mastered [[d:hunter#1470681473496383508]], [[d:hunter#1483746983536492575]].
+
+Full guide: [Professions](professions.md)

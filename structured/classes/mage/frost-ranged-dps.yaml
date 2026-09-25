@@ -582,3 +582,630 @@ stat_priority:
 stat_priority_note: 'From the wiki Frost sim: hit to the cap (16% is the generic caster figure players quote), then spell
   power, then haste and crit — haste is rated at or slightly above crit at endgame (~12–13 SP per 1% haste versus ~11–12 per
   1% crit). Damage split in that sim: Frostbolt ~57%, Icicles ~43%.'
+leveling_gameplay:
+- levels: 1-9
+  spec: Frost
+  new_abilities:
+  - level: 1
+    name: Arcane Intellect Rank 1
+    spell_id: 1459
+  - level: 4
+    name: Frostbolt Rank 1
+    spell_id: 116
+  - level: 4
+    name: Conjure Water Rank 1
+    spell_id: 5504
+  - level: 6
+    name: Fireball Rank 2
+    spell_id: 143
+  - level: 6
+    name: Fire Blast Rank 1
+    spell_id: 2136
+  - level: 6
+    name: Conjure Food Rank 1
+    spell_id: 587
+  - level: 8
+    name: Frostbolt Rank 2
+    spell_id: 205
+  - level: 8
+    name: Arcane Missiles Rank 1
+    spell_id: 5143
+  - level: 8
+    name: Polymorph Rank 1
+    spell_id: 118
+  single_target:
+  - priority: 1
+    action: Frostbolt
+    condition: from max range, for the slow
+  - priority: 2
+    action: Fireball
+    condition: main damage at these levels, until the mob reaches you
+  - priority: 3
+    action: Fire Blast
+    condition: as it closes or to finish
+  - priority: 4
+    action: Wand
+    condition: to finish
+  - priority: 5
+    action: Eat + drink
+    condition: after every fight or two
+  multi_target:
+  - priority: 1
+    action: Polymorph
+    condition: second mob; avoid pulling 2+
+- levels: 10-19
+  spec: Frost
+  new_abilities:
+  - level: 10
+    name: Frost Nova Rank 1
+    spell_id: 122
+  - level: 10
+    name: Frost Armor Rank 2
+    spell_id: 7300
+  - level: 10
+    name: Conjure Water Rank 2
+    spell_id: 5505
+  - level: 12
+    name: Fireball Rank 3
+    spell_id: 145
+  - level: 12
+    name: Conjure Food Rank 2
+    spell_id: 597
+  - level: 14
+    name: Frostbolt Rank 3
+    spell_id: 837
+  - level: 14
+    name: Arcane Explosion Rank 1
+    spell_id: 1449
+  - level: 14
+    name: Fire Blast Rank 2
+    spell_id: 2137
+  - level: 16
+    name: Flamestrike Rank 1
+    spell_id: 2120
+  - level: 16
+    name: Arcane Missiles Rank 2
+    spell_id: 5144
+  - level: 18
+    name: Fireball Rank 4
+    spell_id: 3140
+  - level: 10
+    name: Improved Frostbolt 1-5 (talent)
+    spell_id: 11070
+  - level: 15
+    name: Frostbite 1-3 (talent)
+    spell_id: 11071
+  - level: 18
+    name: Permafrost 1-2 (talent)
+    spell_id: 11175
+  single_target:
+  - priority: 1
+    action: Frostbolt
+    condition: from max range; 1-2 more while the mob walks in
+  - priority: 2
+    action: Frost Nova Rank 1
+    condition: mob in melee range; then walk back to max range
+  - priority: 3
+    action: Frostbolt
+    condition: until the mob is low
+  - priority: 4
+    action: Fire Blast or wand
+    condition: finish
+  multi_target:
+  - priority: 1
+    action: Polymorph
+    condition: second mob
+  - priority: 2
+    action: Frost Nova Rank 1 -> Arcane Explosion x2-3 -> walk
+    condition: from 14, only 2-3 mobs and only with enough mana/health items
+- levels: 20-29
+  spec: Frost
+  new_abilities:
+  - level: 20
+    name: Frostbolt Rank 4
+    spell_id: 7322
+  - level: 20
+    name: Blink
+    spell_id: 1953
+  - level: 20
+    name: Evocation
+    spell_id: 12051
+  - level: 20
+    name: Mana Shield Rank 1
+    spell_id: 1463
+  - level: 20
+    name: Frost Armor Rank 3
+    spell_id: 7301
+  - level: 20
+    name: Polymorph Rank 2
+    spell_id: 12824
+  - level: 20
+    name: Blizzard Rank 1
+    spell_id: 10
+  - level: 20
+    name: Conjure Water Rank 3
+    spell_id: 5506
+  - level: 22
+    name: Arcane Explosion Rank 2
+    spell_id: 8437
+  - level: 22
+    name: Scorch Rank 1
+    spell_id: 2948
+  - level: 22
+    name: Fire Blast Rank 3
+    spell_id: 2138
+  - level: 22
+    name: Frost Ward Rank 1
+    spell_id: 6143
+  - level: 22
+    name: Conjure Food Rank 3
+    spell_id: 990
+  - level: 24
+    name: Counterspell
+    spell_id: 2139
+  - level: 24
+    name: Flamestrike Rank 2
+    spell_id: 2121
+  - level: 24
+    name: Fireball Rank 5
+    spell_id: 8400
+  - level: 24
+    name: Arcane Missiles Rank 3
+    spell_id: 5145
+  - level: 26
+    name: Cone of Cold Rank 1
+    spell_id: 120
+  - level: 26
+    name: Frost Nova Rank 2
+    spell_id: 865
+  - level: 26
+    name: Frostbolt Rank 5
+    spell_id: 8406
+  - level: 28
+    name: Conjure Mana Agate
+    spell_id: 759
+  - level: 28
+    name: Blizzard Rank 2
+    spell_id: 6141
+  - level: 28
+    name: Mana Shield Rank 2
+    spell_id: 8494
+  - level: 28
+    name: Arcane Intellect Rank 3
+    spell_id: 1461
+  - level: 20
+    name: Permafrost 3 (talent)
+    spell_id: 11175
+  - level: 21
+    name: Improved Frost Nova 1-2 (talent)
+    spell_id: 11165
+  - level: 23
+    name: Ice Shards 1-5 (talent)
+    spell_id: 11207
+  - level: 28
+    name: Shatter 1-2 (talent)
+    spell_id: 11170
+  single_target:
+  - priority: 1
+    action: Frostbolt
+    condition: x1-2 from max range
+  - priority: 2
+    action: Frost Nova Rank 1
+    condition: mob in melee range
+  - priority: 3
+    action: Frostbolt or Fire Blast
+    condition: into the frozen mob (Shatter, from 28)
+  - priority: 4
+    action: Frostbolt
+    condition: after walking back to range
+  - priority: 5
+    action: Cone of Cold Rank 1
+    condition: mob broke free and Nova is on cooldown (from 26)
+  - priority: 6
+    action: Fire Blast or wand
+    condition: finish
+  - priority: 7
+    action: Blink
+    condition: emergency
+  - priority: 8
+    action: Counterspell
+    condition: caster mob starts a heal or big spell
+  - priority: 9
+    action: Evocation
+    condition: out of mana with a mob still up
+  multi_target:
+  - priority: 1
+    action: AoE loop (see aoe_farming)
+    condition: from 26 with 3+ gathered mobs; before 26 keep to 1-2 mobs; never Blizzard-kite
+- levels: 30-39
+  spec: Frost
+  new_abilities:
+  - level: 30
+    name: Ice Block
+    spell_id: 11958
+  - level: 30
+    name: Ice Armor Rank 1
+    spell_id: 7302
+  - level: 30
+    name: Arcane Explosion Rank 3
+    spell_id: 8438
+  - level: 30
+    name: Fire Blast Rank 4
+    spell_id: 8412
+  - level: 30
+    name: Fireball Rank 6
+    spell_id: 8401
+  - level: 30
+    name: Conjure Water Rank 4
+    spell_id: 6127
+  - level: 31
+    name: Cold Snap (talent)
+    spell_id: 12472
+  - level: 32
+    name: Frostbolt Rank 6
+    spell_id: 8407
+  - level: 32
+    name: Flamestrike Rank 3
+    spell_id: 8422
+  - level: 32
+    name: Arcane Surge Rank 1
+    spell_id: 51933
+  - level: 32
+    name: Frost Ward Rank 2
+    spell_id: 8461
+  - level: 32
+    name: Conjure Food Rank 4
+    spell_id: 6129
+  - level: 34
+    name: Cone of Cold Rank 2
+    spell_id: 8492
+  - level: 34
+    name: Mage Armor Rank 1
+    spell_id: 6117
+  - level: 34
+    name: Scorch Rank 3
+    spell_id: 8445
+  - level: 36
+    name: Blizzard Rank 3
+    spell_id: 8427
+  - level: 36
+    name: Mana Shield Rank 3
+    spell_id: 8495
+  - level: 38
+    name: Frostbolt Rank 7
+    spell_id: 8408
+  - level: 38
+    name: Arcane Explosion Rank 4
+    spell_id: 8439
+  - level: 38
+    name: Fire Blast Rank 5
+    spell_id: 8413
+  - level: 38
+    name: Conjure Mana Jade
+    spell_id: 3552
+  - level: 32
+    name: Shatter 3-5 (talent)
+    spell_id: 11170
+  - level: 35
+    name: Frost Channeling 1-3 (talent)
+    spell_id: 11160
+  - level: 38
+    name: Elemental Precision 1-2 (talent)
+    spell_id: 29438
+  single_target:
+  - priority: 0
+    action: Ice Armor (Mage Armor vs casters)
+    condition: keep up
+  - priority: 1
+    action: Same loop as 20-29
+  - priority: 2
+    action: Blink -> Ice Block -> Cold Snap
+    condition: fight going bad (Ice Block from 30, Cold Snap from 31)
+  multi_target:
+  - priority: 1
+    action: AoE loop
+    condition: pull only what one Nova + Cone of Cold cycle controls; keep Ice Block/Cold Snap for a bad pull
+- levels: 40-49
+  spec: Frost
+  new_abilities:
+  - level: 40
+    name: Ice Barrier Rank 1
+    spell_id: 11426
+  - level: 40
+    name: Frost Nova Rank 3
+    spell_id: 6131
+  - level: 40
+    name: Flamestrike Rank 4
+    spell_id: 8423
+  - level: 40
+    name: Ice Armor Rank 2
+    spell_id: 7320
+  - level: 40
+    name: Polymorph Rank 3
+    spell_id: 12825
+  - level: 40
+    name: Conjure Water Rank 5
+    spell_id: 10138
+  - level: 42
+    name: Cone of Cold Rank 3
+    spell_id: 10159
+  - level: 42
+    name: Fireball Rank 8
+    spell_id: 10148
+  - level: 42
+    name: Arcane Intellect Rank 4
+    spell_id: 10156
+  - level: 42
+    name: Conjure Food Rank 5
+    spell_id: 10144
+  - level: 44
+    name: Frostbolt Rank 8
+    spell_id: 10179
+  - level: 44
+    name: Blizzard Rank 4
+    spell_id: 10185
+  - level: 46
+    name: Arcane Explosion Rank 5
+    spell_id: 10201
+  - level: 46
+    name: Ice Barrier Rank 2
+    spell_id: 13031
+  - level: 46
+    name: Mage Armor Rank 2
+    spell_id: 22782
+  - level: 46
+    name: Fire Blast Rank 6
+    spell_id: 10197
+  - level: 48
+    name: Flamestrike Rank 5
+    spell_id: 10215
+  - level: 48
+    name: Conjure Mana Citrine
+    spell_id: 10053
+  - level: 41
+    name: Elemental Precision 3 (talent)
+    spell_id: 29438
+  - level: 42
+    name: Arctic Reach 1-2 (talent)
+    spell_id: 16757
+  - level: 44
+    name: Piercing Ice 1-3 (talent)
+    spell_id: 11151
+  - level: 47
+    name: Improved Cone of Cold 1-3 (talent)
+    spell_id: 11190
+  single_target:
+  - priority: 0
+    action: Ice Barrier
+    condition: before the pull and on cooldown; rank 1 vs ranged mobs that will not break it
+  - priority: 1
+    action: Frostbolt
+    condition: x1-2
+  - priority: 2
+    action: Frost Nova Rank 1
+    condition: melee range
+  - priority: 3
+    action: Frostbolt
+    condition: Shatter on the frozen mob
+  - priority: 4
+    action: Frostbolt
+    condition: after walking back
+  - priority: 5
+    action: Cone of Cold
+    condition: mob broke free
+  - priority: 6
+    action: Fire Blast or wand
+    condition: finish
+  - priority: 99
+    action: Never Icicles while leveling
+  multi_target:
+  - priority: 1
+    action: Ice Barrier -> AoE loop
+    condition: bigger pulls
+- levels: 50-60
+  spec: Frost
+  new_abilities:
+  - level: 50
+    name: Cone of Cold Rank 4
+    spell_id: 10160
+  - level: 50
+    name: Frostbolt Rank 9
+    spell_id: 10180
+  - level: 50
+    name: Ice Armor Rank 3
+    spell_id: 10219
+  - level: 50
+    name: Conjure Water Rank 6
+    spell_id: 10139
+  - level: 52
+    name: Ice Barrier Rank 3
+    spell_id: 13032
+  - level: 52
+    name: Blizzard Rank 5
+    spell_id: 10186
+  - level: 52
+    name: Mana Shield Rank 5
+    spell_id: 10192
+  - level: 52
+    name: Conjure Food Rank 6
+    spell_id: 10145
+  - level: 54
+    name: Arcane Explosion Rank 6
+    spell_id: 10202
+  - level: 54
+    name: Frost Nova Rank 4
+    spell_id: 10230
+  - level: 54
+    name: Fire Blast Rank 7
+    spell_id: 10199
+  - level: 54
+    name: Fireball Rank 10
+    spell_id: 10150
+  - level: 56
+    name: Frostbolt Rank 10
+    spell_id: 10181
+  - level: 56
+    name: Flamestrike Rank 6
+    spell_id: 10216
+  - level: 56
+    name: Arcane Intellect Rank 5
+    spell_id: 10157
+  - level: 56
+    name: Arcane Brilliance Rank 1
+    spell_id: 23028
+  - level: 58
+    name: Cone of Cold Rank 5
+    spell_id: 10161
+  - level: 58
+    name: Ice Barrier Rank 4
+    spell_id: 13033
+  - level: 58
+    name: Mage Armor Rank 3
+    spell_id: 22783
+  - level: 58
+    name: Conjure Mana Ruby
+    spell_id: 10054
+  - level: 60
+    name: Conjure Water Rank 7
+    spell_id: 10140
+  - level: 60
+    name: Ritual of Refreshment
+    spell_id: 45407
+  - level: 60
+    name: Frostbolt Rank 11
+    spell_id: 25304
+  - level: 50
+    name: Arcane Subtlety 1-2 (talent)
+    spell_id: 11210
+  - level: 52
+    name: Magic Absorption 1-3 (talent)
+    spell_id: 29441
+  - level: 55
+    name: Arcane Concentration 1-5 (talent)
+    spell_id: 11213
+  single_target:
+  - priority: 1
+    action: Same loop as 40-49
+  - priority: 2
+    action: Most expensive spell
+    condition: on Clearcasting (from 55)
+  multi_target:
+  - priority: 1
+    action: Dire Maul East lashers
+    condition: 'from ~54: pull -> Cone of Cold -> Arcane Explosion spam -> Frost Nova if crowded'
+play_loop:
+  opener:
+  - Ice Barrier (pre-pull)
+  - Frostbolt
+  - Icicles (only if Flash Freeze)
+  - Frost Nova (if in melee range)
+  - Icicles
+  single_target:
+  - priority: 1
+    action: Icicles
+    condition: Flash Freeze active only
+  - priority: 2
+    action: Ice Barrier
+    condition: off cooldown
+  - priority: 3
+    action: Frost Nova
+    condition: off cooldown and in melee range of a freeze-immune boss
+  - priority: 4
+    action: Cone of Cold
+    condition: in range
+  - priority: 5
+    action: Cold Snap
+    condition: reset Nova for another Nova -> Icicles pair
+  - priority: 6
+    action: Frostbolt
+  aoe:
+    targets_min: 2
+    loop:
+    - '<=5 freeze-immune mobs: Cone of Cold -> Icicles -> Frost Nova -> Icicles -> Arcane Explosion'
+    - '>5 mobs: Cone of Cold -> Arcane Explosion spam'
+    - 'freezable mobs (dungeons/open world): leveling AoE loop'
+    - never Blizzard for damage
+  cooldowns:
+  - Ice Barrier on cooldown
+  - Cold Snap for a second Nova/Barrier/Ice Block
+  - Evocation, mana gems, tea when low
+  notes:
+  - 'Freezable mobs: use the leveling loop, not this one'
+  - Icicles roots for its whole channel; never start it in raid AoE
+leveling_aoe_farming:
+  loop:
+  - Gather the pack
+  - Frost Nova Rank 1
+  - Flamestrike (timed to land just before Nova breaks)
+  - Cone of Cold as they break free
+  - Circle-kite, Arcane Explosion when they catch up; Cone of Cold on cooldown
+  - Repeat when Nova is back
+  rules:
+  - Frost Nova always rank 1
+  - Arcane Explosion max rank unless mana-short or a weak tank
+  - 'Flamestrike: highest rank that leaves mana for the rest of the cycle'
+  - Check mana covers one full cycle before pulling
+  - 'Low mana mid-pull: stop nuking, kite in chill slows until Nova is back'
+  by_level:
+  - levels: 14-25
+    targets: 1-3
+    ranks:
+      Frost Nova: 1
+      Arcane Explosion: 1-2
+    cycle_mana: 300-400
+  - levels: 26-33
+    ranks:
+      Frost Nova: 1
+      Flamestrike: 2
+      Cone of Cold: 1
+      Arcane Explosion: 2-3
+    cycle_mana: ~1000
+  - levels: 34-41
+    ranks:
+      Frost Nova: 1
+      Flamestrike: 3
+      Cone of Cold: 2
+      Arcane Explosion: 3-4
+    cycle_mana: 1450-1700
+  - levels: 42-49
+    ranks:
+      Frost Nova: 1
+      Flamestrike: 4
+      Cone of Cold: 3
+      Arcane Explosion: 4-5
+    cycle_mana: 1900-2150
+  - levels: 50-60
+    ranks:
+      Frost Nova: 1
+      Flamestrike: 5-6
+      Cone of Cold: 4-5
+      Arcane Explosion: 5-6
+    cycle_mana: 2350-2850
+    variant: Cone of Cold -> Arcane Explosion x5-6 -> Cone of Cold, Nova for emergencies
+leveling_conjure_drink:
+  conjure_water_levels:
+  - 4
+  - 10
+  - 20
+  - 30
+  - 40
+  - 50
+  - 60
+  conjure_food_levels:
+  - 6
+  - 12
+  - 22
+  - 32
+  - 42
+  - 52
+  - 60
+  mana_gems:
+    Conjure Mana Agate: 28
+    Conjure Mana Jade: 38
+    Conjure Mana Citrine: 48
+    Conjure Mana Ruby: 58
+  rules:
+  - Recast conjures each time you train a new rank
+  - Eat and drink together after the fight; early on after every 1-2 mobs
+  - Use a mana gem in long fights instead of drinking afterwards
+  - Evocation (from 20) replaces one drink; cast just before a server tick

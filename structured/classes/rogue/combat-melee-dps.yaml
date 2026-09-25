@@ -1231,3 +1231,118 @@ stat_priority_note: 'Hit first to the 9% special-attack cap (lower with racial o
   crit cap: past it, crit and agility lose value and hit becomes the premium stat again. Agility, crit and attack power are
   a tie: no cited post ranks them against each other, so their order in the array above carries no ranking. Grouping them
   is this repository''s reading of the sources listed above.'
+leveling_gameplay:
+- levels: 10-19
+  spec: Combat (leveling route B)
+  new_abilities:
+  - level: 10
+    name: Lightning Reflexes (talent)
+    spell_id: 13712
+  - level: 15
+    name: Deflection (talent)
+    spell_id: 13713
+  single_target:
+  - priority: 1
+    action: Sinister Strike
+    condition: opener
+  - priority: 2
+    action: Slice and Dice
+    condition: any combo points [[d:rogue#1478390151750357075]]
+  - priority: 3
+    action: Sinister Strike
+    condition: builder
+- levels: 20-29
+  spec: Combat (leveling route B)
+  new_abilities:
+  - level: 20
+    name: Riposte (talent)
+    spell_id: 14251
+  - level: 20
+    name: Ghostly Strike
+    spell_id: 14278
+  - level: 26
+    name: Cheap Shot
+    spell_id: 1833
+  single_target:
+  - priority: 1
+    action: Cheap Shot
+    condition: opener from 26
+  - priority: 2
+    action: Riposte
+    condition: after a parry, every time [[d:rogue#1487708730261770362]]
+  - priority: 3
+    action: Slice and Dice
+    condition: any combo points
+  - priority: 4
+    action: Sinister Strike
+    condition: builder
+- levels: 30-39
+  spec: Combat (leveling route B)
+  new_abilities:
+  - level: 30
+    name: Blade Flurry
+    spell_id: 13877
+  - level: 30
+    name: Kidney Shot
+    spell_id: 408
+  - level: 35
+    name: Surprise Attack (talent)
+    spell_id: 52511
+  single_target:
+  - priority: 1
+    action: Cheap Shot
+    condition: opener
+  - priority: 2
+    action: Riposte
+    condition: usable
+  - priority: 3
+    action: Surprise Attack
+    condition: after the target dodges
+  - priority: 4
+    action: Slice and Dice
+    condition: any combo points
+  - priority: 5
+    action: Sinister Strike
+    condition: builder
+  multi_target:
+  - priority: 1
+    action: Blade Flurry on
+    condition: 2+ enemies in melee; off at 1 [[d:rogue#1468685312724172872]]
+  tank:
+  - priority: 1
+    action: Riposte + Blade Flurry + Setup; threat is damage
+    condition: '[[d:rogue#1332944053943406615]]'
+play_loop:
+  opener:
+  - Pre-load a combo point on a critter/add, carry it with Slice and Dice [[d:rogue#1480688682787667988]]
+  - Backstab (daggers) / Sinister Strike (swords); no stealth opener [[d:rogue#1468327294430085130]]
+  - Envenom at 1 combo point, then Slice and Dice [[d:rogue#1484581432889442335]]
+  single_target:
+  - priority: 1
+    action: Envenom
+    condition: 1 combo point; missing or expiring
+  - priority: 2
+    action: Slice and Dice
+    condition: 1 combo point; missing or expiring
+  - priority: 3
+    action: Eviscerate
+    condition: 5 combo points [[d:rogue#1488169648573907026]]
+  - priority: 4
+    action: Surprise Attack
+    condition: usable and energy <= 80 [[d:rogue#1492170434672595226]]
+  - priority: 5
+    action: Backstab (daggers, behind) / Sinister Strike (swords)
+    condition: builder; never Sinister Strike with a dagger
+  aoe:
+    targets_min: 2
+    loop:
+    - priority: 1
+      action: Blade Flurry on
+      condition: 2+ enemies in melee; off at 1 [[d:rogue#1468684315079479351]]
+    - priority: 2
+      action: single-target rotation unchanged
+  cooldowns:
+  - Thistle Tea when energy-starved
+  - Active trinkets on bosses
+  - Vanish before passing the tank on threat [[d:rogue#1465825152125374744]]
+  - Adrenaline Rush (AR variant) right after a 5-point Rupture

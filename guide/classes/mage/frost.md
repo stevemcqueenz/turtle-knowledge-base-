@@ -10,6 +10,24 @@
 | Strengths | Survival; big burst windows when Flash Freeze procs; extra damage on frost-weak MC trash [[d:mage#1448401911437988012]]; best leveling and open-world spec |
 | Weaknesses | Flash Freeze is binary: "It either procs 100% with nova, or 0%" depending on whether the target is freeze-immune [[d:mage#1491938710412071152]]. Also: close range for Nova, no pushback protection, no movement filler, no mana-return talent in the tree [[d:mage#1484630072374726736]]; poor mana on fast fights [[d:mage#1429249488408805417]] |
 
+## How to play
+
+The level-60 decision loop. On freezable mobs (open world, dungeons, some raid trash) play the [leveling loop](leveling.md#the-pull-and-kill-loop) instead: Nova and Cone of Cold root freezable mobs away from the tank.
+
+1. **Pre-pull:** `Ice Barrier`. Its +10% Frost damage for 60 s starts on the cast [[d:mage#1466881324055920836]].
+2. **Opener:** `Frostbolt` → `Icicles` (if Flash Freeze procs) → `Frost Nova` (if you are in melee range) → `Icicles` [[d:mage#1466891208532955228]], [[d:mage#1448401911437988012]].
+3. **Single-target loop** (details in [Single-target rotation](#single-target-rotation-freeze-immune-raid-bosses)):
+   1. `Icicles` only while Flash Freeze is active. Never cast it without the proc.
+   2. `Ice Barrier` when it is off cooldown.
+   3. `Frost Nova` when it is off cooldown and you are in melee range of a freeze-immune boss.
+   4. `Cone of Cold` when you are in range.
+   5. `Cold Snap` to reset Nova for another Nova → Icicles pair.
+   6. `Frostbolt`.
+4. **Cooldowns:** Ice Barrier on cooldown; Cold Snap for a second Nova, Barrier or Ice Block; on-use trinkets as in [Cooldowns and mana](#cooldowns-and-mana). Ice Block does not drop threat [[d:mage#1475235315546591466]].
+5. **AoE switch** (freeze-immune packs, see [AoE rotation](#aoe-rotation-raid-trash)): up to 5 mobs, `Cone of Cold` → `Icicles` → `Frost Nova` → `Icicles` → `Arcane Explosion`. More than 5 mobs, `Cone of Cold` → `Arcane Explosion` spam. Never Blizzard for damage.
+6. **Mana:** Frost runs dry on fast fights [[d:mage#1429249488408805417]]. Use mana gems and tea first and `Evocation` when low (see [Arcane: Mana](arcane.md#mana)). Drink between pulls.
+7. **Movement:** Icicles roots you for its whole channel, and only Blink frees you, so never start it in raid AoE [[d:mage#1428745165132140588]]. While moving, use the instants: `Cone of Cold`, `Frost Nova`, `Fire Blast` *(vanilla baseline)*.
+
 ## What 1.18.1 changed for Frost
 
 - **Ice Barrier:** +5% Frost damage while the shield holds and +10% Frost damage for 1 minute after you cast it ([Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)). That is 15% total while the barrier holds, the same as before, but you now keep 10% after it breaks [[d:mage#1466881324055920836]]. Players called it a minor QoL change [[d:mage#1466941066073870347]]. The buff can look like it vanished when the shield breaks; that was a pfUI display issue [[d:mage#1484696403149193316]], [[d:mage#1484866761202602075]].

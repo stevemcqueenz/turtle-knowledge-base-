@@ -25,6 +25,9 @@ the site builds without Python.
   (written only when `guide/instances/index.md` exists): the index's intro
   and its two groups (Dungeons, Raids) as Markdown with the page slugs each
   lists, and each page's title, kind, index group, intro and H2 sections.
+  Pages with a map also carry `map` (floors rendered from the client minimap
+  textures by `tools/maps/`, images in `public/maps/`, boss markers matched
+  to the page text by `build-data.py`; see `site/README.md`, "Maps").
 - **`meta.json`** — generation timestamp, repo commit, the acceptance
   counts, the forum/patch timeline (`structured/forum/timeline.json`), and a
   short note on source tiers and forum-link rot.

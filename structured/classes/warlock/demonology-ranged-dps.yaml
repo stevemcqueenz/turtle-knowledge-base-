@@ -522,3 +522,178 @@ stat_priority_note: 'Demonic Precision passes 90% of your spell hit and crit to 
   gear with Destruction and why the wiki''s priority is "Hit and Crit". Spell power then matters twice over: Unleashed Potential
   converts 15% of your bonus spell damage per stack (up to three) into the demon''s attack and spell power. Stamina is wanted
   for Power Overwhelming, which costs 40% of the demon''s base health, and for Soul Link.'
+leveling_gameplay:
+- levels: 10-19
+  spec: Demonology
+  new_abilities:
+  - level: 14
+    name: Demonic Embrace (talent 5/5)
+    spell_id: 18701
+  - level: 17
+    name: Fel Intellect (talent 3/3)
+    spell_id: 18744
+  - level: 18
+    name: Soul Funnel (talent 1/2)
+    spell_id: 18703
+  - level: 19
+    name: Improved Corruption (talent 1/5)
+    spell_id: 17810
+  - level: 10
+    name: Summon Voidwalker
+    spell_id: 697
+  - level: 12
+    name: Health Funnel Rank 1
+    spell_id: 755
+  single_target:
+  - priority: 1
+    action: send Voidwalker
+  - priority: 2
+    action: DoTs (Curse of Agony, Corruption)
+  - priority: 3
+    action: Drain Life or wand
+    condition: filler
+  - priority: 4
+    action: pull next mob with Voidwalker
+    condition: current mob at half HP [[d:warlock#1441086565534273666]]
+  - priority: 5
+    action: Health Funnel Voidwalker
+    condition: instead of resting
+- levels: 20-29
+  spec: Demonology
+  new_abilities:
+  - level: 23
+    name: Improved Corruption (talent 5/5)
+    spell_id: 17814
+  - level: 25
+    name: Improved Drains (talent 2/2)
+    spell_id: 45914
+  - level: 27
+    name: Improved Life Tap (talent 2/2)
+    spell_id: 18183
+  - level: 28
+    name: Suppression (talent 1/5)
+    spell_id: 18174
+  - level: 29
+    name: Fel Concentration (talent 1/2)
+    spell_id: 17783
+  single_target:
+  - priority: 1
+    action: same as 10-19
+    condition: Corruption instant from 23
+  multi_target:
+  - priority: 1
+    action: Voidwalker holds 3+ mobs
+    condition: with Fel Stamina 5/5 + Soul Funnel 2/2 [[d:warlock#1307088266150805636]]
+- levels: 30-39
+  spec: Demonology
+  new_abilities:
+  - level: 31
+    name: Soul Funnel (talent 2/2)
+    spell_id: 18704
+  - level: 32
+    name: Fel Domination (talent 1/1)
+    spell_id: 18708
+  - level: 36
+    name: Fel Stamina (talent 4/5)
+    spell_id: 18751
+  - level: 39
+    name: Nether Studies (talent 3/3)
+    spell_id: 51711
+  single_target:
+  - priority: 1
+    action: same as 10-19
+  - priority: 2
+    action: Fel Domination
+    condition: instant resummon if the demon dies mid-fight [[d:warlock#1475587639188000959]]
+  tank:
+  - priority: 1
+    action: Voidwalker tanks elites head-on
+    condition: Soul Funnel 2/2 [[d:warlock#1474062678644232374]]; Nether Studies +45% Torment [[d:warlock#1474355384524210293]]
+- levels: 40-49
+  spec: Demonology
+  new_abilities:
+  - level: 41
+    name: Master Summoner (talent 2/2)
+    spell_id: 18710
+  - level: 42
+    name: Power Overwhelming (talent 1/1)
+    spell_id: 51714
+  - level: 45
+    name: Unholy Power (talent 3/3)
+    spell_id: 18771
+  - level: 46
+    name: Fel Stamina (talent 5/5)
+    spell_id: 18752
+  - level: 49
+    name: Master Demonologist (talent 3/5)
+    spell_id: 23823
+  single_target:
+  - priority: 1
+    action: same as 10-19
+  - priority: 2
+    action: no Power Overwhelming while leveling
+    condition: unless Voidwalker with Consume Shadows [[d:warlock#1383459083323183135]]
+- levels: 50-60
+  spec: Demonology
+  new_abilities:
+  - level: 51
+    name: Master Demonologist (talent 5/5)
+    spell_id: 23825
+  - level: 52
+    name: Soul Link (talent 1/1)
+    spell_id: 19028
+  single_target:
+  - priority: 1
+    action: same as 10-19
+    condition: Voidwalker threat weakens late [[d:warlock#1492715152393633863]]
+  - priority: 2
+    action: at 60 respec to 0/34/17 and use play_loop
+play_loop:
+  opener:
+  - 'pre-pull: summon greater demon for the boss; set autocasts (Felguard Cleave on, Felstorm manual; Doomguard Infernal Blade
+    on); pet passive/defensive'
+  - pet attack
+  - curse (Recklessness if free)
+  - Shadow Bolt until Unleashed Potential 3 stacks
+  - on-use trinket, Power Overwhelming, Felstorm
+  single_target:
+  - priority: 1
+    action: pet attack
+    condition: pet idle
+  - priority: 2
+    action: Power Overwhelming
+    condition: ready and demon can afford 40% base HP (no GCD)
+  - priority: 3
+    action: any direct damage or rank-1 Health/Mana Funnel tick
+    condition: Unleashed Potential about to expire
+  - priority: 4
+    action: curse
+    condition: missing
+  - priority: 5
+    action: Corruption
+    condition: will run full duration
+  - priority: 6
+    action: Shadow Bolt
+    condition: filler; Searing Pain/Shadowburn on short fights
+  - priority: 7
+    action: Health Funnel
+    condition: demon <~50%, no AoE coming
+  - priority: 8
+    action: Life Tap
+    condition: low mana
+  aoe:
+    targets_min: 3
+    loop:
+    - priority: 1
+      action: Felstorm
+      condition: 3+ stacked targets living more than a few seconds; after tank AoE-taunt
+    - priority: 2
+      action: Hellfire
+      condition: tank holds threat
+    - priority: 3
+      action: curse + Shadow Bolt only
+      condition: fast trash
+  cooldowns:
+  - 'greater demon: 3 min control; finish with Power Overwhelming before it breaks free'
+  - 'Fel Domination: instant lesser-demon resummon'
+  - Power Overwhelming on cooldown when the demon can afford it

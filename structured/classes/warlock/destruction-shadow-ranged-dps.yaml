@@ -315,3 +315,45 @@ stat_priority_note: 'Hit first but CONTESTED in degree: one camp reports top Nax
   Shadow Vulnerability — the 2024 argument for trading crit away for raw spell power predates the 2024-12-20 revert to crit-based
   procs. Shadow Bolt scales well with spell power (a Flask of Supreme Power is worth about 128 points on an average Shadow
   Bolt).'
+play_loop:
+  opener:
+  - curse (Malediction adds Curse of Agony)
+  - Corruption
+  - Shadow Bolt
+  single_target:
+  - priority: 1
+    action: Shadow Bolt
+    condition: Nightfall proc (instant)
+  - priority: 2
+    action: curse
+    condition: missing
+  - priority: 3
+    action: Corruption
+    condition: missing
+  - priority: 4
+    action: Shadowburn
+    condition: low target and no time for a Shadow Bolt
+  - priority: 5
+    action: Siphon Life
+    condition: long fights
+  - priority: 6
+    action: Drain Soul
+    condition: long-lived target while Shadowburn is on cooldown
+  - priority: 7
+    action: Shadow Bolt
+    condition: filler
+  - priority: 8
+    action: Life Tap
+    condition: low mana
+  aoe:
+    targets_min: 3
+    loop:
+    - priority: 1
+      action: Hellfire
+      condition: 3-5+ stacked on the tank
+    - priority: 2
+      action: Rain of Fire
+      condition: pack cleaves or needs range
+  cooldowns:
+  - Shadowburn on a low target
+  - in dungeons skip DoTs and just Shadow Bolt

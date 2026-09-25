@@ -10,6 +10,19 @@
 | Strengths | Raid Shadow damage amplification, mana battery, off-healing through VE, and the ability to tank shadow casters |
 | Weaknesses | No real AoE [[d:priest#1433041183721914449]]; crit and haste barely matter [[d:priest#1482571193390207036]]; very high threat [[d:priest#1459705039181320296]]; mana-starved without consumables [[d:priest#1504891047463882844]]; 20-yd Mind Flay range; often behind the tank on trash [[d:priest#1485745098858696747]] |
 
+## How to play
+
+The level-60 Shadow loop. For the details, see the linked sections.
+
+1. **Pre-pull:** `Shadowform`, Inner Fire, and `Power Word: Shield` if you expect pushback.
+2. **Opener:** `Shadow Word: Pain` → `Mind Blast` → `Mind Flay` ×2. Cast `Vampiric Embrace` first only if the fight needs mana or healing [[d:priest#1430465373366648873]]. Against a fresh tank, delay Mind Blast ([threat](#resources-threat-and-1181-mechanics)).
+3. **Single-target loop:** keep SW:P up without clipping it, on targets that live 3+ ticks → `Mind Blast` on cooldown → 2 × `Mind Flay` per Mind Blast cooldown, clipped by hand after the last tick you want. Never stop a Flay by moving [[d:priest#1489637342825152522]], [[d:priest#1451277154942718034]], [[d:priest#1494662933056327902]]. `Pain Spike` as the finisher ([Single-target rotation](#single-target-rotation)).
+4. **Cooldowns:** pop trinkets from the passive one first, and snapshot SW:P under them (Zandalarian Hero Charm) [[d:priest#1456726981210275870]]. With the T3.5 3-piece, `Fade` → SW:P refresh [[d:priest#1444088076384338121]].
+5. **AoE switch:** at 2–4 targets, single-target the kill target and SW:P extras only if they live 3+ ticks. At **5+**, spam `Holy Nova` until mana runs low (about 9–10 casts) ([AoE](#aoe)).
+6. **Resources:** use Major Mana Potion and tea on cooldown. Use `Vampiric Embrace` only when the group needs mana or healing, and never during Fade [[d:priest#1504891047463882844]], [[d:priest#1491659277474074716]].
+7. **Threat:** Mind Blast crits under VE spike threat. Watch the meter and `Fade` before you pull aggro. Fade only delays a pull [[d:priest#1459705039181320296]], [[d:priest#1484604133200891944]].
+8. **Movement and range:** Mind Flay reaches only 20 yd, so stay close. While moving, refresh SW:P or cast instants. To heal in an emergency, drop Shadowform ([macro](#macros-and-addons)).
+
 ## Talent build
 
 ### Raid 0/20/31 (recommended)

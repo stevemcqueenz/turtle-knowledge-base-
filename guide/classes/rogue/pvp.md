@@ -11,6 +11,38 @@
 
 Before 1.18.1, Dissolvent Poison was described in PvP as "the new physical dmg that ignores armor", force-procced by the level-40 keystone and dealing "insane dmg" [[d:pvp-general#1423408386569011260]]. A pre-patch `#pvp-general` tier list put rogues in the top "Z tier" [[d:pvp-general#1426339548039872532]]. That build no longer exists.
 
+## How to play
+
+The level-60 PvP decision loop. The full combos are in [Burst and control sequences](#burst-and-control-sequences), poison setup in [Poisons](#poisons), and per-class detail in [Matchups](#matchups). Cooldowns below come from the 1.18.1 client data.
+
+**Assassination (Noxious Assault):**
+
+1. **Opener (stealth):** sneak up → `Cheap Shot` → `Envenom` → mash `Noxious Assault`. Against big health pools (bear druids) use Cheap Shot → Envenom → `Slice and Dice` [[d:rogue#1492308177818095657]], [[d:rogue#1492308239507918908]]. If you face two enemies, `Sap` one first [[d:rogue#1374554824783298670]].
+2. **Burst:** spend the Cheap Shot stun building to 5 points with Noxious Assault (`Thistle Tea` if short) → `Kidney Shot` (20 s cooldown) → Noxious until dead. `Cold Blood` (3 min) on a Noxious Assault or a 5-point Eviscerate [[d:rogue#1461753771838406667]], [[d:rogue#1492645046049046699]].
+3. **Re-lock:** if they trinket the Kidney, Thistle Tea → `Vanish` (5 min) → Cheap Shot again → Noxious into a 5-point Cold Blood Eviscerate [[d:rogue#1442823947702894734]].
+4. **Control chain:** Cheap Shot and Kidney Shot do not share diminishing returns on this client [[d:pvp-general#1426568992855822399]]. Add `Gouge` or `Blind` (5 min) when needed [[d:rogue#1461754174701179098]]. Don't run Deadly Poison if you plan to Blind [[d:rogue#1486568837498273956]].
+5. **Defence:** with everything on cooldown, `Evasion` (4 min) survives most melee [[d:rogue#1461754193810292736]]. Save Evasion and `Sprint` (4 min) to escape [[d:rogue#1374554824783298670]].
+
+**Subtlety (Hemorrhage/Preparation):**
+
+1. **Opener (stealth):** `Garrote` → `Rupture` → `Vanish` and let the bleeds work on cloth [[d:rogue#1477046153114550273]], or run the full chain: Garrote → Rupture → `Ghostly Strike` → `Flourish` → Evasion → Sinister Strike to 5 → Kidney Shot → Sinister Strike ×2 → Rupture → Vanish out [[d:rogue#1459141070452555788]].
+2. **Burst window:** reopen from Vanish with Cheap Shot while the bleeds tick. The Ambush-dagger variant (Ambush → Kidney → autos → Vanish → Ambush) is only for cloth targets [[d:rogue#1484647270224887849]].
+3. **Control chain:** `Preparation` (7 min) resets Vanish and Blind (vanilla baseline: also Sprint and Evasion), giving double Vanish, double Blind and a 5-point Kidney into another 5-point Kidney [[d:rogue#1475972891941273782]], [[d:rogue#1477058992965554306]].
+4. **Defence:** Vanish protects from AoE for only one GCD [[d:pvp-general#1424859626725314662]]. Sub rarely kills plate outside long 1v1s with several resets [[d:rogue#1490694521275551874]].
+
+**Both specs:**
+
+- **Target priority:** Assassination kills plate, Subtlety kills cloth and outplays [[d:rogue#1490694521275551874]]. In groups, open on the healer and Sap or Blind the second enemy (vanilla baseline for the healer-first rule).
+- **Reset / drink:** Gouge, then bandage while they are incapacitated [[d:rogue#1374554824783298670]]. Against warlocks, kill the pet and reset with full cooldowns after eating [[d:rogue#1436600446537175050]]. DoTs are your worst enemy: there is no Cloak of Shadows, only potions that remove DoTs [[d:rogue#1437279812254175253]].
+
+**Vs class** (full table in [Matchups](#matchups)):
+
+- **Frost Mage:** Sprint plus a Free Action Potion, or no chance [[d:rogue#1475178793286242365]]. Pool energy for `Deadly Throw` to re-apply Crippling and interrupt the Polymorph after a Blink [[d:rogue#1452418744650567854]].
+- **Shaman:** always stun them. **Contested:** some call them "easier targets" [[d:rogue#1492644310234038463]], but a 5-6k HP Elemental survives a 5-point Kidney [[d:rogue#1492650162055807126]].
+- **Warlock:** kill the pet, or Gouge/Vanish through the Death Coil (with an Engineering Shadow Reflector) [[d:rogue#1436600446537175050]], [[d:rogue#1436600877543723029]].
+- **Paladin:** Cheap Shot into their Freedom, Kidney into their trinket, Blind into their bubble; bleed them with Rupture and kite with Crippling [[d:rogue#1363157881326665728]].
+- **Warrior, Hunter:** "easy clap" [[d:rogue#1475178793286242365]].
+
 ## Builds
 
 ### Assassination PvP, 33/0/18 (Noxious Assault)
@@ -106,7 +138,7 @@ Split **22/0/29**, validated (VALID). [Open in talent calculator](https://xian55
 
 **Without Rupture (post-patch, Nandieb):** Cheap Shot → spam Noxious Assault to 5 points (Thistle Tea if needed; a Seal Fate proc gets you there within the stun) → Kidney Shot → only then Envenom + Slice and Dice [[d:rogue#1492645046049046699]].
 
-**Subtlety (Ionnatra):** Garrote → Rupture → Ghostly Strike → Flourish → Disarm → Evasion → Sinister Strike to 5 → Kidney Shot → Sinister Strike ×2 → Rupture → Vanish out. Bleeds and poison keep ticking while you reopen, and Preparation lets you repeat it [[d:rogue#1459141070452555788]].
+**Subtlety (Ionnatra):** Garrote → Rupture → Ghostly Strike → Flourish → **Riposte** (disarms on a dodge/parry proc — the rogue kit has no standalone Disarm spell, only the reactive Riposte talent and the utility Disarm Trap) → Evasion → Sinister Strike to 5 → Kidney Shot → Sinister Strike ×2 → Rupture → Vanish out. Bleeds and poison keep ticking while you reopen, and Preparation lets you repeat it [[d:rogue#1459141070452555788]].
 
 Mechanics to know:
 

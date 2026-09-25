@@ -463,3 +463,89 @@ discord:
     era: post-1.18.1
     agreement: single source
     used_for: PomBlock
+play_loop:
+  guide_section: guide/classes/mage/pvp.md#how-to-play
+  opener:
+  - 'Amplify Magic (1008) on enemy (puts him in combat: no Charge)'
+  - rank-1 Frostbolt (116) slow
+  - Arcane Rupture (51954)
+  - Arcane Missiles (10212)
+  - 'alt Frost: Polymorph (12826) -> Frost Nova (10230) -> max-range Frostbolt rank 11 (25304)'
+  single_target:
+  - priority: 1
+    action: Ice Barrier (13033)
+    condition: not active (30 s cooldown); vanilla baseline
+  - priority: 2
+    action: rank-1 Frostbolt (116)
+    condition: slow missing
+  - priority: 3
+    action: Arcane Rupture -> Arcane Missiles
+    condition: target slowed/rooted and out of melee
+  - priority: 4
+    action: Frostbolt rank 11 (25304)
+    condition: target frozen at max range
+  aoe:
+    targets_min: 2
+    loop:
+    - Frost Nova / Cone of Cold to peel
+    - Polymorph the extra target
+    - kite with rank-1 Frostbolt
+  control:
+  - Polymorph (12826) one target; never damage your own sheep (heals to full) [[d:mage#1444727256906731660]]
+  - Frost Nova (10230, 25 s) / Cone of Cold (10161, 10 s) to peel melee
+  - Counterspell (2139, 30 s) a caster key cast; Improved Counterspell silence (vanilla baseline)
+  cooldowns:
+  - name: Ice Barrier
+    spell_id: 13033
+    use_when: pre-fight and on cooldown
+  - name: Ice Block
+    spell_id: 11958
+    use_when: about to die or to wait out an interrupt/lockout window
+  - name: Cold Snap
+    spell_id: 12472
+    use_when: Ice Block / Frost Nova on cooldown and needed again
+  - name: Blink
+    spell_id: 1953
+    use_when: stunned/rooted by melee or to break Pounce
+  - name: Counterspell
+    spell_id: 2139
+    use_when: enemy caster or healer hard-casts
+  defensive:
+  - Blink (1953, 15 s) out of stuns/melee
+  - 'Ice Block (11958, 300 s): full immunity, no threat drop [[d:mage#1475235315546591466]]'
+  - Cold Snap (12472, 600 s) resets Frost cooldowns incl. Ice Block (vanilla baseline)
+  - Fire Ward (10225) / Frost Ward (10177) vs matching casters [[d:mage#1491794484428537888]]
+  - 'build keeps Ice Barrier + Ice Block + Cold Snap: trades burst for survival'
+  target_priority:
+  - Counterspell or CC a pure caster's damage source, then burst; kite non-casters forever [[d:mage#1435373606396887183]]
+  - 'healer + DPS: Polymorph the healer, burst the DPS (vanilla baseline)'
+  - 'team fights: value is CC, Improved Counterspell, Ice Blocks [[d:mage#1491119007074484446]]'
+  reset:
+  - Ice Block + Blink to break a bad fight [[d:mage#1491494895574323224]]
+  - no in-combat regen (Spirit useless) [[d:pvp-general#1423705880704319609]]; drink or Evocation (spell 12051, 480 s cd)
+    only out of combat / behind LoS (vanilla baseline)
+  vs_class:
+    warrior: Counterspell/Amplify Magic first so he cannot Charge; Nova, kite, rank-1 Frostbolt
+    rogue: skill matchup; his Free Action Potion breaks the shatter combo
+    paladin: Polymorph through Freedom, burst after it ends
+    shaman: hard; Counterspell locks his damage and healing; watch Grounding Totem
+    hunter: losing; play deadzone and line of sight
+    warlock: even; Ice Block through his Spell Lock window
+    druid: Blink out of Pounce, save trinket for Bash
+  sources:
+  - '[[d:mage#1491494895574323224]]'
+  - '[[d:mage#1491794197773156493]]'
+  - '[[d:mage#1491794484428537888]]'
+  - '[[d:mage#1479120357645619211]]'
+  - '[[d:mage#1430671883379937393]]'
+  - '[[d:pvp-general#1423496943488733355]]'
+  - '[[d:mage#1444727256906731660]]'
+  - '[[d:mage#1475235315546591466]]'
+  - '[[d:mage#1435373606396887183]]'
+  - '[[d:mage#1491119007074484446]]'
+  - '[[d:pvp-general#1423705880704319609]]'
+  - '[[d:mage#1446916002456797397]]'
+  - '[[d:mage#1446915962497531912]]'
+  - '[[d:mage#1444727016837615803]]'
+  - '[[d:mage#1446908192020893747]]'
+  - '[[d:mage#1490363735468933281]]'

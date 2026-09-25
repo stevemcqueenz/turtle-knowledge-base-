@@ -87,8 +87,9 @@ sailorVEVO's order: "the one you want to play > orc (demo/destro), troll (aff) >
 
 ## Professions
 
-- **Engineering** is "the no-brainer choice" for endgame: sappers, grenades, reflectors, rocket boots [[d:warlock#1459733829911711796]], [[d:warlock#1424790364094468126]]. **Alchemy** is always good for consumables [[d:warlock#1459733829911711796]].
-- **Tailoring** was called the BiS profession on Ambershire [[d:warlock#1445161121295237181]]. Its only real bind-on-pickup payoff is Mooncloth and the robe; the useful cloak and gloves are Bind on Equip and can be bought [[d:warlock#1451703869968224377]].
-- **Jewelcrafting:** pick Gemology over Goldsmithing; ring enchants stay in demand [[d:warlock#1427499791755116717]].
-- **While leveling:** Tailoring + Skinning, Alchemy + Herbalism, or Tailoring + Enchanting [[d:warlock#1459733928813527318]]. Enchanting alone is discouraged [[d:warlock#1384527459050852442]].
-- **Gold:** Dire Maul East lashers (with Herbalism) is the classic warlock farm [[d:warlock#1434729274413420595]], [[d:warlock#1465755008225251454]]. There is also a solo ZG route with an enslaved Imp (about 200 g/h) [[d:warlock#1466553667996876966]], and Hyjal satyrs as Affliction [[d:warlock#1479253647144517834]].
+- **Endgame:** Engineering + Alchemy. Engineering is "the no-brainer choice" (sappers, grenades, reflectors, rocket boots), and Alchemy is always good for consumables [[d:warlock#1459733829911711796]], [[d:warlock#1424790364094468126]].
+- **Tailoring** was called the BiS profession on Ambershire [[d:warlock#1445161121295237181]], but its only real bind-on-pickup payoff is Mooncloth and the robe; the cloak and gloves are BoE, so you can buy them [[d:warlock#1451703869968224377]]. **Jewelcrafting:** Gemology over Goldsmithing [[d:warlock#1427499791755116717]].
+- **Leveling:** Tailoring + Skinning, Alchemy + Herbalism, or Tailoring + Enchanting [[d:warlock#1459733928813527318]]. Enchanting alone is discouraged [[d:warlock#1384527459050852442]].
+- **Gold:** Dire Maul East lashers with Herbalism [[d:warlock#1434729274413420595]], [[d:warlock#1465755008225251454]], a solo ZG Imp route (about 200 g/h) [[d:warlock#1466553667996876966]], and Hyjal satyrs as Affliction [[d:warlock#1479253647144517834]].
+
+Full guide: [Professions](professions.md)

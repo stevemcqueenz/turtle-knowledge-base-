@@ -296,6 +296,37 @@ if (!isObject(data.meta)) {
   }
 }
 
+/* ---- instance maps (page.map, tools/maps/ -> public/maps/) --------------- */
+const MAP_KINDS = new Set(['minimap', 'floorplan']);
+function checkMapImage(img, where) {
+  if (!isObject(img)) return fail(`${where}: must be an object`);
+  if (!isString(img.file) || !/^maps\/[a-z0-9-]+\/[a-z0-9-]+\.webp$/.test(img.file)) fail(`${where}: file "${img.file}" is not maps/<slug>/<name>.webp`);
+  else if (!existsSync(join(root, 'public', img.file))) fail(`${where}: public/${img.file} does not exist`);
+  for (const k of ['width', 'height']) if (!Number.isInteger(img[k]) || img[k] < 16 || img[k] > 4096) fail(`${where}: ${k} ${img[k]} out of range`);
+}
+function checkMap(map, where, sectionIds) {
+  if (!isObject(map)) return fail(`${where}: must be an object`);
+  if (!isObject(map.provenance) || !Object.keys(map.provenance).length) fail(`${where}: provenance must name the source`);
+  checkMapImage(map.thumb, `${where}.thumb`);
+  if (!isArray(map.floors) || !map.floors.length) return fail(`${where}: floors must be a non-empty array`);
+  const ns = [];
+  map.floors.forEach((f, i) => {
+    const w = `${where}.floors[${i}]`;
+    checkMapImage(f, w);
+    if (!isString(f.floor) || !isString(f.label) || !f.label.trim()) fail(`${w}: floor and label must be strings`);
+    if (!MAP_KINDS.has(f.kind)) fail(`${w}: kind "${f.kind}" is not minimap|floorplan`);
+    if (!isArray(f.markers)) return fail(`${w}: markers must be an array`);
+    for (const m of f.markers) {
+      ns.push(m?.n);
+      if (!isString(m?.boss) || !isString(m?.anchor)) fail(`${w}: marker ${m?.n} needs boss and anchor strings`);
+      if (!(m?.x >= 0 && m?.x <= 1 && m?.y >= 0 && m?.y <= 1)) fail(`${w}: marker ${m?.n} is off the image`);
+      if (isString(m?.anchor) && !m.anchor.startsWith('boss-') && !sectionIds.has(m.anchor)) fail(`${w}: marker ${m.n} links to unknown section "${m.anchor}"`);
+    }
+  });
+  const sorted = [...ns].sort((a, b) => a - b);
+  if (sorted.some((v, i) => v !== i + 1)) fail(`${where}: marker numbers ${sorted.join(',')} are not 1..n`);
+}
+
 /* ---- instances.json (optional: dungeon and raid pages) ------------------- */
 let instanceCount = 0;
 const instancesPath = join(chosen.dir, 'instances.json');
@@ -346,6 +377,7 @@ if (existsSync(instancesPath)) {
         checkLinks(s?.markdown, `${where}.sections[${j}]`);
       });
       checkLinks(p.intro, `${where}.intro`);
+      if (p.map !== undefined) checkMap(p.map, `${where}.map`, ids);
     });
     checkLinks(inst.intro, 'instances.intro');
     const listed = new Set();

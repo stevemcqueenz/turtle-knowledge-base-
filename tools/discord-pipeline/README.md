@@ -15,7 +15,7 @@ zips are not in this repository.
 | 3. regroup | `by_topic.sh <channel>` / `gather_section.py` | one file per heading across all chunks (for big classes), and the "Dungeons & raids" sections for the instance writers |
 | 4. write | `WRITER-BRIEF.md` (one Opus agent per class; paladin split in two), `INSTANCE-BRIEF.md` (raids, dungeons) | `guide/classes/<class>/*.md`, `guide/instances/*.md`, updated `structured/classes/<class>/*.yaml` |
 | 5. QA | `QA-BRIEF.md` with `cite_pairs.py` (claim + full cited message text), `near.py` (neighbouring messages), `show.py` | every Discord citation checked against the claim it supports; wrong IDs re-pointed, unsupported claims reworded or dropped; working calculator links added |
-| 6. evidence | `collect_evidence.py` (resolves every `[[d:<channel>#<id>]]` in the repo against the raw export) | `structured/discord/evidence-<channel>.jsonl` |
+| 6. evidence | `collect_evidence.py guide structured synthesis behavior` (resolves citations against the raw export; it merges into existing files) then `prune_evidence.py` (drops records no published page cites) | `structured/discord/evidence-<channel>.jsonl` |
 | 7. integrate | `graft_yaml.py` (writer YAML + GitHub-only `stat_priority` keys), `scrape/talents/build_trees.py fill`, `site/scripts/build-data.py` | site data |
 
 ## Checks

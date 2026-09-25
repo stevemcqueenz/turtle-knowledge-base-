@@ -89,6 +89,164 @@ Result at 60: **39/0/12**, VALID. Code: `talents.turtlecraft.gg/druid?points=oCa
 
 **Contested:** Improved Wrath first vs Sylvan Blessing and the Nature's Grasp line first; on Hardcore most prefer the survival picks [[d:druid#1484691241777103059]]. Conchim's order takes Sylvan Blessing and Guidance of the Dream early [[d:druid#1492651599514832936]].
 
+## Gameplay by level
+
+What to press at each level on the recommended **Feral** path, using the talent order above. Learn levels and costs come from the 1.18.1 game data. Your role changes with level: a caster from 1 to 9, **Bear** from 10, and **Cat** from 20, with Bear kept for packs and tanking. Heal with an Intellect set in your bags. A short [Balance path](#balance-path-by-bracket) follows the brackets.
+
+### Levels 1–9
+
+**New now:** Wrath and Healing Touch Rank 1 are starting spells (vanilla baseline); L1 Mark of the Wild · L4 Moonfire, Rejuvenation · L6 Thorns, Wrath Rank 2 (1.7 s cast) · L8 Entangling Roots (1.5 s cast, outdoors only), Healing Touch Rank 2 (2 s cast).
+
+**Single target:**
+
+1. Buff Mark of the Wild, and Thorns from level 6.
+2. Pull with **`Wrath`** and keep casting it: "Before level 10, you should be casting Wrath almost exclusively" [[d:druid#1424253556558401556]].
+3. From level 4, cast **`Moonfire`** once per mob, or on one that flees.
+4. Melee with your staff only when your mana is low [[d:druid#1424253556558401556]].
+5. From level 8, on a mob that hits hard: **`Entangling Roots`**, step out of melee range, Wrath, and re-root when it breaks. "Root the thing, hit the thing, repeat until dead" [[d:druid#1468260854071034128]]. Roots work only outdoors [[d:druid#1442171109985357835]].
+6. Between pulls, Rejuvenation or Healing Touch yourself, then drink. These levels are "dreadful", so push to 10 for Bear Form [[d:druid#1424254260530643015]].
+
+**Multi-target:** avoid it. If a second mob joins, root one and Wrath the other (vanilla baseline).
+
+### Levels 10–19
+
+**New now:** L10 **Bear Form**, **Maul**, **Growl** (class quest), Demoralizing Roar, Rejuvenation Rank 2, Moonfire Rank 2; Ferocity talent 10-14 (cheaper Maul) · L12 **Enrage** (60 s cooldown), **Regrowth** Rank 1 · L14 **Bash**, Healing Touch Rank 3, Cure Poison (quest) · L15-17 Open Wounds (it pays off only from Cat Form at 20) · L16 **Swipe**, Rejuvenation Rank 3 · L18 Maul Rank 2, **Faerie Fire**, **Hibernate**, Regrowth Rank 2; Feral Instinct talent 18-19 (threat).
+
+The Bear Form quest mob hits hard: root it and hit it from range [[d:druid#1468260854071034128]]. Then stay in Bear until 20. As a caster you "will be oom very often, literally after every 2-3 mobs" [[d:druid#1426225340736475206]].
+
+**Single target (Bear):**
+
+1. Pull from range with **`Moonfire`** (or **`Faerie Fire`** from 18), then shift to **Bear Form** before the mob arrives [[d:druid#1427911420602876027]].
+2. **`Enrage`** if you start with no rage (60 s cooldown). "Dont be scared to use rage cooldown" [[d:druid#1394955453666037823]].
+3. **`Maul`** whenever you have the rage; it replaces your next swing and does not use the GCD [[d:druid#1436445990809899018]].
+4. **`Bash`** to stop a caster's cast or a fleeing mob. Feral has no reliable snare [[d:druid#1442171109985357835]].
+5. After the kill, shift out, **`Rejuvenation`** or **`Regrowth`** yourself, then shift back [[d:druid#1491814814404710541]].
+
+**Multi-target (2-3 mobs):** pull with Moonfire, shift to Bear, **`Demoralizing Roar`**, then from 16 **`Swipe`** and tab-target Maul ([Chev03, 2026-01-21](https://forum.turtlecraft.gg/viewtopic.php?p=165791#p165791)). Swipe hits at most 3 targets, so do not pull more than 3 [[d:druid#1479708465545875456]]. Before 16, pull one or two at a time.
+
+**Tanking (dungeons):**
+
+- **Form and gear:** Bear Form in your normal leather questing gear; bear and cat gear overlap completely while leveling [[d:druid#1491438522739982437]].
+- **Pull:** Regrowth yourself, Moonfire one mob, Faerie Fire another, shift to Bear, Swipe and Maul, then Demoralizing Roar [[d:druid#1427911420602876027]]. Healing yourself before the pull gives you threat on every mob you enter combat with [[d:druid#1394955453666037823]].
+- **Opening threat:** Demoralizing Roar for a little threat on the whole pack, then skull-mark and Maul your main target [[d:druid#1455466125675466864]], [[d:druid#1394955453666037823]].
+- **Steady threat:** tab through the pack with Maul, and Swipe once you have it. **Contested:** "Early game swipe is honestly more threat than maul. You're rage starved" [[d:druid#1428999300129755218]], and a Maul opener "cripples your rage income" [[d:druid#1438127035804291083]]. Dziadmroz says Maul mostly and Swipe to burn extra rage until you have the rage-on-crit talent [[d:druid#1394955453666037823]].
+- **Taunt:** **`Growl`** only to take a mob back. It does nothing on a mob with no threat list, so never open with it [[d:druid#1432722952813543505]]. It is off the GCD; save it for the mob that someone pulls off you [[d:druid#1432367846968655993]].
+- **Defense:** Enrage adds damage taken; skip it when your healer struggles [[d:druid#1477368423267696690]]. Hibernate a Beast add (Beasts and Dragonkin only; vanilla baseline). Bash interrupts.
+- **When:** Deadmines is tankable and healable from level 10 [[d:druid#1459162799421784136]]. Wailing Caverns is rough before Swipe. **Contested:** the 1.18.1 data has Swipe at 16; one player says to wait for level 20 [[d:druid#1442259854059245718]]. A DPS two levels above you will pull threat anyway, so leveling threat talents change little [[d:druid#1477371576415686838]].
+
+**Healing (dungeons):**
+
+- Carry an Intellect set and swap into it; no Restoration talents are needed [[d:druid#1433108224315490324]], [[d:druid#1471345148494483569]].
+- Default: your highest **Rejuvenation** on the tank first. If they keep taking damage, your second-highest **Regrowth**. For small dips, rank-1 **Healing Touch**. If the tank keeps dropping, your second-highest Healing Touch. Max rank is rarely needed [[d:druid#1440918500775563335]].
+- Ranks learned before level 20 take a large healing-power penalty, which matters once you wear +healing gear [[d:druid#1457650046412787816]].
+- **Cure Poison** from 14. Mana: regen restarts 5 s after your last cast (the 5-second rule; vanilla baseline), so drink between pulls instead of topping up full-health players.
+
+### Levels 20–29
+
+**New now:** L20 **Cat Form**, **Claw** (45 energy), **Rip**, **Prowl**, Insect Swarm, Starfire, Rebirth, Healing Touch Rank 4 (3 s cast); Feral Swiftness talent 20-21 · L22 **Shred** (60 energy), Rejuvenation Rank 4; **Feral Charge** talent (22) · L23-25 Sharpened Claws · L24 **Rake**, **Ferocious Bite**, **Tiger's Fury**, Regrowth Rank 3, Swipe Rank 2, Remove Curse · L25 **Faerie Fire (Feral)** (no cost) · L26 Dash, Maul Rank 3, Healing Touch Rank 5; **Blood Frenzy** talent 26-27 · L28 **Challenging Roar** (10-minute cooldown), Claw and Rip Rank 2, Cower, Rejuvenation Rank 5; Predatory Strikes 28-29.
+
+From 20, Cat is your main form [[d:druid#1448039669471248639]]. Energy ticks 20 every 2 s [[d:druid#1375132558815264858]].
+
+**Single target (Cat):**
+
+1. Pull with **`Insect Swarm`** or Moonfire, or walk in with **`Prowl`**. Insect Swarm costs less and lowers the mob's chance to hit you [[d:druid#1427914229494710423]]. From 25, **`Faerie Fire (Feral)`** is a free pull [[d:druid#1476991316775931974]].
+2. From 26 (Blood Frenzy): **`Tiger's Fury`** before the pull and whenever it drops. It is off the GCD [[d:druid#1463118416008183876]]. Before the talent, skip it: "Without talent this skill is like not existing" [[d:druid#1454154979450552415]].
+3. From 24: **`Rake`**.
+4. **`Claw`** to build combo points.
+5. **`Rip`** early, at 1-2 combo points, on mobs that die fast. "If I wait until 3-4 the mob is pretty much dead" [[d:druid#1488331103730139168]]. Rip at 5 only on tougher mobs [[d:druid#1437413011580256336]].
+6. **`Claw`** until the mob dies. At these levels ignore combo points; Ferocious Bite is "not worth" the energy [[d:druid#1467987874593898496]]. Bite only if it finishes the mob [[d:druid#1508522976016859156]].
+7. In a group, behind the mob: **`Shred`** instead of Claw [[d:druid#1489369901381718197]]. Bleed-immune mob: Shred, and Bite at 3-4 combo points [[d:druid#1467979995988361497]].
+8. **Runners:** Feral Charge (from Bear) or Bash [[d:druid#1442171109985357835]].
+9. **Rest:** you regain mana while in Cat Form, so shift out, heal and shift back; drinking is rarely needed [[d:druid#1491816026214633512]].
+
+**Multi-target:** Cat has no AoE [[d:druid#1460831352915103879]]. With 2-3 mobs, pull with a DoT, shift to **Bear**, Swipe and tab-Maul. "Bear's safer, but cat is quicker", so pick per pull [[d:druid#1294200215435219027]].
+
+**Tanking:** Same as above, plus:
+
+- **Pre-pull (from 26):** Regrowth, Rejuvenation, Cat Form, **Tiger's Fury**, Bear Form, about 10 s before the pull [[d:druid#1472398513760637101]]. The Blood Frenzy haste stays through the shift into Bear [[d:druid#1444967001121357986]].
+- **Faerie Fire (Feral)** on the pull and on loose adds [[d:druid#1491140379490390106]].
+- **Feral Charge** (from 22) interrupts casters and closes the gap to the next pack [[d:druid#1478421765855383685]]. It makes no threat, so do not pull with it [[d:druid#1433148306586075292]].
+- **Challenging Roar** (28): the emergency when a whole pack runs at the healer. Its 10-minute cooldown makes it once per dungeon (vanilla baseline). At 60 tanks macro it with a Limited Invulnerability Potion [[d:druid#1411769744175923270]].
+- To finish a single mob once threat is safe, shift to Cat and Shred [[d:druid#1444972918290383024]].
+
+**Healing:** Same as above, plus Healing Touch Rank 4 (20) as your main spammable heal. Healing Touch Rank 4 with your best Rejuvenation is "perfectly fine pre-40" [[d:druid#1367313040151679067]]. You can keep casting it "pretty much forever with normal mana regen" [[d:druid#1334875425196867588]]. **Rebirth** (20) works only out of form [[d:druid#1460640945753165854]]. **Remove Curse** from 24.
+
+### Levels 30–39
+
+**New now:** L30 **respec for Omen of Clarity** (see the talent order), **Travel Form**, Tranquility, Regrowth Rank 4, Shred Rank 2, Bash Rank 2 · L32 Ravage, Ferocious Bite Rank 2, Healing Touch Rank 6; Feral Charge back (32) · L33-35 Sharpened Claws · L34 Maul Rank 4, Rake Rank 2, Swipe Rank 3, Rejuvenation Rank 6 · L36 **Pounce** (50 energy, from Prowl), **Frenzied Regeneration**, Rip Rank 3, Tiger's Fury Rank 2, Regrowth Rank 5; Blood Frenzy back 36-37 · L38 Claw and Shred Rank 3, Healing Touch Rank 7, Hibernate Rank 2; Predatory Strikes 38-40.
+
+After the respec, Blood Frenzy is gone until 36, so Tiger's Fury is not worth pressing from 30 to 35. **Omen of Clarity** is passive and procs on about 10% of hits [[d:druid#1478393279950225538]].
+
+**Single target (Cat):**
+
+1. From 36 (Blood Frenzy and Pounce): **`Prowl`** → **`Tiger's Fury`** → **`Pounce`** → **`Faerie Fire (Feral)`** → **`Rake`** → Claw → **`Rip`** → Claw → Bite [[d:druid#1489369792446988350]]. "Once u get Rip, Rake and Pounce, u get 90%+ Claw damage" [[d:druid#1444605330041602069]].
+2. Before 36: Faerie Fire (Feral) → Rake → Claw → Rip → Claw, as in 20-29.
+3. **Clearcasting** (Omen): spend it on Shred if you are behind the mob, otherwise Claw ([Captain4k, 2026-01-22](https://forum.turtlecraft.gg/viewtopic.php?p=165907#p165907)), [[d:druid#1427967004635037858]].
+4. Rip at 1-4 combo points on fast-dying mobs, 5 on tough ones [[d:druid#1488330626565144576]].
+5. Faerie Fire (Feral) also procs Omen [[d:druid#1439913144163106906]].
+
+**Multi-target:** Same as above. In Bear, Omen procs give you free Swipes ([Captain4k, 2026-01-22](https://forum.turtlecraft.gg/viewtopic.php?p=165907#p165907)).
+
+**Tanking:** Same as above, plus: "When you get the swipe skill and omen of Clarity its a chill breeze" [[d:druid#1491093646400032778]]. Spend Clearcasting on Swipe or Maul. Frenzied Regeneration (36) heals little since its PvP nerf [[d:druid#1308006939296403456]].
+
+**Healing:** Same as above, plus:
+
+- **Omen** is your mana plan: a Clearcasting proc makes the next Healing Touch or Regrowth free. "Omen is your way to free cast" [[d:druid#1484119752631910470]]. Only direct casts proc it, not HoT ticks [[d:druid#1463959311301480509]].
+- **Sylvan Blessing** (in the 30 respec) triggers only on your own killing blow, so finish nearly dead mobs with Moonfire [[d:druid#1444037598510055424]].
+- **Tranquility** (30, 750 mana) heals the whole party when everyone is low; you must shift out of form to cast it [[d:druid#1360346299471495358]].
+
+### Levels 40–49
+
+**New now:** L40 **Dire Bear Form**, **Innervate** (6-minute cooldown), Hurricane, Ferocious Bite Rank 3, Rejuvenation Rank 7, Tranquility Rank 2 · L41-42 **Ancient Brutality** (bleed ticks refund energy) · L42 Maul Rank 5, Faerie Fire (Feral) Rank 3, Regrowth Rank 6 · L43-44 **Primal Fury** (extra combo point, and rage, on crits) · L44 **Barkskin** (60 s cooldown), **Barkskin (Feral)** (10-minute cooldown), Rake Rank 3, Rip Rank 4, Swipe Rank 4, Healing Touch Rank 8 · L45 **Berserk** talent (6-minute cooldown) · L46 Shred Rank 4, Pounce Rank 2, Rejuvenation Rank 8; Heart of the Wild 46-50 · L48 Claw Rank 4, Ferocious Bite Rank 4, Tiger's Fury Rank 3, Regrowth Rank 7.
+
+**Single target:** Same as above. With Ancient Brutality, "rake-rip-spam claw" is the whole loop [[d:druid#1488360033426342001]]. With Primal Fury, a crit while building gives an extra combo point [[d:druid#1471028199185059967]].
+
+**Multi-target:** Same as above.
+
+**Tanking:** Same as above, in **Dire Bear Form**, plus:
+
+- **Barkskin** (60 s): cast it in caster form before you shift. The buff stays in Bear Form, at the cost of 20% attack speed [[d:druid#1488905914017906758]], [[d:druid#1432725711852146830]]. Use it before a hard pull.
+- **Barkskin (Feral)** (10 minutes) is your emergency button [[d:druid#1465653427081187378]].
+- **Berserk** (45) is your fear break [[d:druid#1462684604111519827]].
+- After the rage-on-crit talent, "mix Maul+Swipe and cycle targets when swiping 3+ mobs" [[d:druid#1394955453666037823]].
+- **Innervate** your healer when they run dry.
+
+**Healing:** Same as above, plus **Innervate** (40) on yourself when low; with high Spirit it gives "100% mana regen for 15 seconds" [[d:druid#1465410896120643595]]. How long untalented healing holds up is **contested**: "until around LvL 45" [[d:druid#1484119752631910470]], "until 50+" [[d:druid#1491880047932604508]], or "until 60 dungeons" [[d:druid#1493363757907312831]].
+
+### Levels 50–60
+
+**New now:** L50 Healing Touch Rank 9, Maul Rank 6, Tranquility Rank 3, Rebirth Rank 4 · L51-52 **Carnage** (Ferocious Bite refreshes your bleeds) · L52 Rip Rank 5, Rejuvenation Rank 9, Barkskin (Feral) Rank 2 · L53 Leader of the Pack · L54 Rake Rank 4, Shred Rank 5, Swipe Rank 5, Regrowth Rank 8; Feral Swiftness 54-55 · L55 the **Wolfshead head enchant** quest (energy and rage on shift) [[d:druid#1486576680322728036]] · L56 Ferocious Bite Rank 5, Healing Touch Rank 10; **Furor** 56-60 · L58 **Savage Bite** (30 rage, 6 s cooldown), Maul Rank 7, Claw Rank 5, Rejuvenation Rank 10 · L60 Rip Rank 6, Tiger's Fury Rank 4, Regrowth Rank 9; **Reshift** (level 60 per players [[d:druid#1424532148173537281]]; the game data gives it no learn level); Swift Travel Form questline.
+
+**Single target (Cat):**
+
+1. Tiger's Fury → Rake → Rip → Claw to 5 combo points → **`Ferocious Bite`**, which refreshes both bleeds [[d:druid#1434049222940033114]].
+2. With Furor and the Wolfshead enchant, a shift back into Cat Form gives up to 60 energy [[d:druid#1459798058324725914]]. At 60, **`Reshift`** when you are under 30 energy, no tick is due and Tiger's Fury has under 3 s left. Recast Tiger's Fury after it [[d:druid#1480881704733511861]].
+3. From here, follow [Feral Cat: How to play](feral-cat.md#how-to-play).
+
+**Multi-target:** Same as above.
+
+**Tanking:** Same as above, plus Savage Bite:
+
+1. **Pre-pull:** Cat → Tiger's Fury → Bear. Furor and the head enchant give about 15 rage per shift [[d:druid#1472410728739770508]]. Add a Mighty Rage Potion on big pulls, and **Berserk** once Blood Frenzy ends [[d:druid#1488823880549273600]].
+2. **`Maul`** always.
+3. **`Swipe`** if more than 2 mobs, or when rage is full.
+4. **`Savage Bite`** above 50 rage [[d:druid#1491404394812407858]]. Maul, Swipe and Savage Bite do not share a GCD [[d:druid#1436445990809899018]].
+5. **Black Morass** (60) is a gear check: Hibernate one mob in each 3- and 4-mob pack, since they apply −50% armor, bleeds and stuns [[d:druid#1460295750545314016]], [[d:druid#1460287082483421340]]. At 60, see [Feral Bear: How to play](feral-bear.md#how-to-play).
+
+**Healing:** Same as above. Max-rank Healing Touch gives more healing per mana than HoTs at leveling gear levels [[d:druid#1484189596945223801]]. At 60, respec to [Restoration](restoration.md#how-to-play) to heal raids.
+
+### Balance path by bracket
+
+For the Balance talent order above. Levels 1-9 play the same as the Feral path.
+
+| Levels | New now | Single target | Multi-target / notes |
+|---|---|---|---|
+| 10–19 | Improved Wrath talents; Roots Rank 2 and Faerie Fire at 18 | Wrath, Moonfire, Roots on tough mobs | Below 30 you still swap to Cat or Bear when mana runs low [[d:druid#1492652781780074607]] |
+| 20–29 | L20 Starfire, Insect Swarm; Omen of Clarity (22) | Open **`Starfire`**, then **`Wrath`, `Wrath`** [[d:druid#1483651737389891746]]. Harder mobs: Starfire → Moonfire → Roots → Insect Swarm, let the DoTs tick, finish with Wrath. Recast Moonfire only on an Omen proc [[d:druid#1315032628642189443]] | Melee between casts to regain mana [[d:druid#1361762103790407981]] |
+| 30–39 | **Moonkin Form** (talent, 30); Owlkin Frenzy 1 (31) | Same, in Moonkin Form. Use rank-1 Roots and rank-1 Moonfire for mana while farming [[d:druid#1483713212246523945]] | With 2/2 Sylvan Blessing and 1/3 Owlkin Frenzy you "never go OoM" [[d:druid#1484236587574493184]] |
+| 40–49 | **Hurricane** (40 in the 1.18.1 data; **contested:** one player reports it at 30 [[d:druid#1473015992664850472]]); Eclipse (40); Innervate | Start using the Eclipse rotation from [Balance: How to play](balance.md#how-to-play) | Hurricane on 3-4+ mobs; roots and Wrath on the rest |
+| 50–60 | Restoration talents from the late 40s | Same | Heal dungeons in an Intellect set at any level (see Healing above) |
+
 ## Abilities and training
 
 | Level | What you get | Note |
@@ -96,7 +254,7 @@ Result at 60: **39/0/12**, VALID. Code: `talents.turtlecraft.gg/druid?points=oCa
 | 1-9 | Wrath, Moonfire, Healing Touch | "Dreadful 1-10": Wrath almost exclusively, Moonfire when learned, melee only to save mana [[d:druid#1424254260530643015]], [[d:druid#1424253556558401556]] |
 | 10 | **Bear Form** (class quest) | The quest mob hits hard: root it, hit it from range, repeat [[d:druid#1468260854071034128]]. Go Bear from 10 to 20 [[d:druid#1426225340736475206]] |
 | 20 | **Cat Form** | Cat becomes your main form [[d:druid#1448039669471248639]] |
-| 30 | **Travel Form**; Moonkin Form (talent) and Hurricane | Respec for Omen here; Moonkin Form comes at 30 on Turtle, not 40 [[d:druid#1444986843350433802]] |
+| 30 | **Travel Form**; Moonkin Form (talent). Hurricane is level 40 in the 1.18.1 data | Respec for Omen here; Moonkin Form comes at 30 on Turtle, not 40 [[d:druid#1444986843350433802]] |
 | 44 / 52 / 60 | Barkskin (Feral) ranks | ([Dragunovi, 2024-10-12](https://forum.turtlecraft.gg/viewtopic.php?p=102966#p102966)) |
 | 60 | **Reshift** (drop and re-enter your form in one click) | Many wish it came at 10 [[d:druid#1424532148173537281]] |
 | 60 | **Swift Travel Form** questline | See below |
@@ -156,7 +314,7 @@ Before level 30 a Balance leveler still swaps to Cat or Bear when mana runs low 
 | Level | Dungeon | Why go | Source |
 |---|---|---|---|
 | 10+ | [Deadmines](../../instances/deadmines.md) | Healable from level 10 with enchants; Smite's Mighty Hammer | [[d:druid#1459162799421784136]] |
-| ~20 | [Wailing Caverns](../../instances/wailing-caverns.md) | The crocolisk boss drops the Idol of Apex Predator (−2 rage Roar). Wait for Swipe at 20 before tanking it | [[d:druid#1439092821196931123]], [[d:druid#1442259854059245718]] |
+| ~20 | [Wailing Caverns](../../instances/wailing-caverns.md) | The crocolisk boss drops the Idol of Apex Predator (−2 rage Roar). Wait for Swipe (level 16 in the 1.18.1 data) before tanking it | [[d:druid#1439092821196931123]], [[d:druid#1442259854059245718]] |
 | 20s | [Shadowfang Keep](../../instances/shadowfang-keep.md) | Not dispelling the Haunted debuff lets Sylvan Blessing trigger almost constantly | [[d:druid#1436218881344667758]] |
 | 20s | [Crescent Grove](../../instances/crescent-grove.md) | Good items and the first-boss mace | [[d:druid#1491887304359411802]] |
 | 25-35 | [Dragonmaw Retreat](../../instances/dragonmaw-retreat.md) | The BoE bear set (long dungeon) | [[d:druid#1442894531673587763]] |

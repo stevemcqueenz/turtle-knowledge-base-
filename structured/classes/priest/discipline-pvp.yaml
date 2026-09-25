@@ -570,3 +570,83 @@ stat_priority_note: 'Stamina first for survivability, then spell power (damage a
   Searing Light procs, and 3% hit versus level-60 players. Spell penetration only against opponents who stack resistance.
   Power Word: Shield scales with healing power, not spell power, per post-1.18.1 player testing — a single source, but it
   is the one thing that would change this order.'
+play_loop:
+  guide_section: guide/classes/priest/pvp.md#how-to-play
+  opener:
+  - 'Inner Fire, Enlighten, Power Word: Shield on self'
+  - self-Chastise -> Holy Fire -> Smite spam (instant Smites from Searing Light)
+  single_target:
+  - priority: 1
+    action: Smite; weave another spell between instant Smites (1.5 s ICD)
+    source: '[[d:priest#1452013492961021983]]'
+  - priority: 2
+    action: Psychic Scream or Chastise
+    condition: key enemy channel/cast
+  - priority: 3
+    action: Smite (not Holy Fire)
+    condition: after a Chastise disorient
+  - priority: 4
+    action: re-shield / dispel / Holy Nova
+    condition: defensive
+  aoe:
+    targets_min: 2
+    loop:
+    - priority: 1
+      action: Holy Nova fishing for instant Smites
+      condition: melee stacked on you
+  cooldowns:
+  - name: Chastise
+    spell_id: 51478
+    use_when: self for haste opener, or ally to break Sap/Blind
+  - name: Psychic Scream
+    spell_id: 10890
+    use_when: melee on you; expect trinket/WotF/Fear Ward
+  heal:
+  - 'triage: self > others > DPS (healers get focused)'
+  - 'pugs give no peels: stay near your melee'
+  - 'Power Word: Shield the burst target; Renew vs DoT pressure; Flash Heal for spikes'
+  - Greater Heal (3 s cast) only when nobody is on you (vanilla baseline)
+  - Dispel Magic sheep/fear/DoTs/HoJ/Repentance/slows off allies; ally Chastise breaks Sap/Blind
+  control:
+  - Psychic Scream (spell 10890, cd 30 s) or Chastise (spell 51480, cd 40 s, 25 yd) saved for a key channel/cast (Arcane Missiles,
+    Dark Harvest)
+  - after a Chastise disorient use Smite, not Holy Fire (DoT breaks it)
+  - do not Fear into PvP trinket / WotF / Fear Ward (trinket removes all effects)
+  defensive:
+  - 're-shield (Power Word: Shield spell 10901, 4 s cd) and dispel'
+  - Holy Nova spam to fish instant Smites with melee on you
+  - kite paladins/shamans; save trinket for rogue/warrior stun chains
+  - Fear Ward (spell 6346, cd 30 s) on self vs fear classes (vanilla baseline)
+  target_priority:
+  - healers and squishy casters first
+  - Mana Burn (3 s cast) only on mana-hungry healers (resto shaman), never paladins
+  - 'keep Shadow Word: Pain on the enemy flag carrier'
+  reset:
+  - 'out of combat: drink to full, re-buff Inner Fire / Fortitude / shield (vanilla baseline)'
+  - 'while waiting vs rogues: spam rank-1 Holy Nova to avoid being opened on'
+  vs_class:
+    warrior: shield; no Mind Blast crits (rage); Fear after Berserker Rage is used, then Net
+    rogue: Fear and DoT to stop re-stealth; save trinket for the stun chain; worst matchup
+    mage: consumables vs Polymorph; Silence
+    warlock: kill or line-of-sight the pet
+    hunter: kill or line-of-sight the pet
+    druid: outlast with VE; watch cat burst
+    paladin: burst before the bubble; Dispel Magic Blessing of Freedom
+    shaman: expect Purge on shield/Fortitude and a trinket on Fear
+    priest: dispel and Silence war
+  sources:
+  - '[[d:priest#1428000781478395964]]'
+  - '[[d:priest#1452013492961021983]]'
+  - '[[d:priest#1412816842149597355]]'
+  - '[[d:priest#1462905759712018432]]'
+  - '[[d:priest#1440676406890594434]]'
+  - '[[d:priest#1458930070176665793]]'
+  - '[[d:priest#1426927342332280923]]'
+  - '[[d:pvp-general#1427530447658684478]]'
+  - '[[d:pvp-general#1429497713585815652]]'
+  - '[[d:pvp-general#1073761850845573140]]'
+  - '[[d:priest#1465782188216942645]]'
+  - '[[d:priest#1485287934339977258]]'
+  - https://forum.turtlecraft.gg/viewtopic.php?p=111295#p111295
+  - https://forum.turtlecraft.gg/viewtopic.php?p=103744#p103744
+  - https://forum.turtlecraft.gg/viewtopic.php?p=143823#p143823

@@ -58,10 +58,12 @@ Racial differences are small: "whatever you like to look at is bis" [[d:rogue#14
 
 ## Professions
 
-- **Engineering** is the only profession that adds to your character's power (Goblin Sapper Charges, Gnomish Battle Chicken) [[d:rogue#1459623698632802468]]. Level Gnomish first for the Chicken, then switch to Goblin for sappers [[d:rogue#1453273131988029490]]. The sim's author calls it "very overrated" for rogues [[d:rogue#1486342417589342240]].
-- **Leatherworking + Skinning** is the usual first-character pair (self-made leather gear); switch at 60 to whatever you need [[d:rogue#1487516373512093821]].
-- **Gold:** naked ZG mining is repeatedly called the easiest rogue farm [[d:rogue#1489623080711094384]]. Disenchanting dungeon drops [[d:rogue#1440513896049016936]] and soloing Hateforge Quarry and LBRS last bosses for Fashion Coins (~40-60 g/h) [[d:rogue#1489491333029822575]], [[d:rogue#1494756893061812255]] also work. "Anything yielding 40g+/hour is a decent farm" [[d:rogue#1476988625773396225]].
-- **Poisons** are their own rogue-only skill; Alchemy does not help with them [[d:rogue#1487509381837754471]]. **Lockpicking** is needed for the class quest chains and pays through box opening.
+- **Leveling:** Skinning + Leatherworking on a first character (self-made leather gear); switch at 60 to whatever you need [[d:rogue#1487516373512093821]].
+- **Raiding:** Engineering is the only profession that adds to your character's power (Goblin Sapper Charges, Gnomish Battle Chicken) [[d:rogue#1459623698632802468]]. Level Gnomish first for the Chicken, then switch to Goblin for sappers [[d:rogue#1453273131988029490]]. **Contested:** one veteran calls it "very overrated" for rogues [[d:rogue#1486342417589342240]].
+- **Gold:** naked ZG mining is repeatedly called the easiest rogue farm [[d:rogue#1489623080711094384]]. Disenchanting dungeon drops also works [[d:rogue#1440513896049016936]], and so does soloing the Hateforge Quarry and LBRS last bosses for Fashion Coins (~40-60 g/h) [[d:rogue#1489491333029822575]], [[d:rogue#1494756893061812255]]. "Anything yielding 40g+/hour is a decent farm" [[d:rogue#1476988625773396225]].
+- **Poisons** are their own rogue-only skill, and Alchemy does not help with them [[d:rogue#1487509381837754471]]. **Lockpicking** is needed for the class quest chains and pays through box opening.
+
+Full guide: [Professions](professions.md)
 
 ## Poisons at a glance
 

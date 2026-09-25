@@ -742,3 +742,167 @@ stat_priority_note: 'From the wiki Fire sim: hit to the 16% cap, then crit (crit
   SP per 1% at endgame versus ~23 for hit), then spell power, then haste — but keep 2–4% haste so two Fireballs fit inside
   the Ignite window. That haste figure was written for the 6 s Ignite; 1.18.0 restored the 4 s Ignite and no source recomputed
   it.'
+leveling_gameplay:
+- levels: 10-19
+  spec: Fire
+  new_abilities:
+  - level: 10
+    name: Improved Fireball 1-5 (talent)
+    spell_id: 11069
+  - level: 15
+    name: Ignite 1-5 (talent)
+    spell_id: 11119
+  - level: 12
+    name: Fireball Rank 3
+    spell_id: 145
+  - level: 18
+    name: Fireball Rank 4
+    spell_id: 3140
+  single_target:
+  - priority: 1
+    action: Fireball
+    condition: spam
+  - priority: 2
+    action: Fire Blast
+    condition: moving or finish
+  - priority: 3
+    action: Frost Nova + walk
+    condition: mob in melee
+  multi_target:
+  - priority: 1
+    action: Polymorph
+    condition: second mob
+- levels: 20-29
+  spec: Fire
+  new_abilities:
+  - level: 20
+    name: Pyroblast Rank 1
+    spell_id: 11366
+  - level: 22
+    name: Scorch Rank 1
+    spell_id: 2948
+  - level: 24
+    name: Pyroblast Rank 2
+    spell_id: 12505
+  - level: 21
+    name: Burning Soul 1-2 (talent)
+    spell_id: 11083
+  single_target:
+  - priority: 1
+    action: Pyroblast
+    condition: opener from max range on a high-HP mob (vanilla baseline)
+  - priority: 2
+    action: Fireball
+  - priority: 3
+    action: Scorch or Fire Blast
+    condition: finish
+  multi_target:
+  - priority: 1
+    action: Keep pulls small
+- levels: 30-39
+  spec: Fire
+  new_abilities:
+  - level: 31
+    name: Arcane Concentration 1-5 (talent)
+    spell_id: 11213
+  - level: 36
+    name: Incinerate 1-2 (talent)
+    spell_id: 18459
+  - level: 38
+    name: Master of Elements 1-3 (talent)
+    spell_id: 29074
+  single_target:
+  - priority: 1
+    action: Fireball
+    condition: x3
+  - priority: 2
+    action: Fire Blast / Scorch / wand
+    condition: finish
+  multi_target:
+  - priority: 1
+    action: Frost Nova -> Flamestrike -> Arcane Explosion
+    condition: small packs
+- levels: 40-49
+  spec: Fire
+  new_abilities:
+  - level: 41
+    name: Fire Vulnerability 1-3 (talent)
+    spell_id: 11095
+  - level: 44
+    name: Blast Wave (talent)
+    spell_id: 11113
+  - level: 45
+    name: Critical Mass 1-3 (talent)
+    spell_id: 11115
+  - level: 48
+    name: Hot Streak 1-2 (talent)
+    spell_id: 51927
+  single_target:
+  - priority: 1
+    action: Pyroblast
+    condition: 5 Hot Streak stacks (from 48)
+  - priority: 2
+    action: Fireball
+  - priority: 3
+    action: Fire Blast / Scorch
+    condition: finish
+  multi_target:
+  - priority: 1
+    action: Frost Nova -> Flamestrike -> Blast Wave -> Arcane Explosion
+- levels: 50-60
+  spec: Fire
+  new_abilities:
+  - level: 50
+    name: Fire Power 1-5 (talent)
+    spell_id: 11124
+  - level: 55
+    name: Combustion (talent)
+    spell_id: 11129
+  - level: 56
+    name: Improved Fire Blast 1-3 (talent)
+    spell_id: 11078
+  single_target:
+  - priority: 1
+    action: Pyroblast
+    condition: 5 Hot Streak stacks
+  - priority: 2
+    action: Fire Blast
+    condition: off cooldown (about every 2 Fireballs, from 58)
+  - priority: 3
+    action: Fireball
+  multi_target:
+  - priority: 1
+    action: Frost Nova -> Flamestrike -> Blast Wave -> Arcane Explosion
+play_loop:
+  opener:
+  - Fire Blast
+  - Scorch
+  - Scorch
+  - Scorch
+  - Fireball
+  - Fire Blast
+  single_target:
+  - priority: 1
+    action: Pyroblast
+    condition: 5 Hot Streak stacks (4 if the boss is about to die)
+  - priority: 2
+    action: Fire Blast
+    condition: 'off cooldown: every 2 Fireballs without haste, every 3 with a little'
+  - priority: 3
+    action: Scorch
+    condition: Fire Vulnerability below 5 stacks and target lives > ~1 min
+  - priority: 4
+    action: Fireball
+  aoe:
+    targets_min: 3
+    loop:
+    - Rank-1 Arcane Explosion (pre-proc trinkets)
+    - Flamestrike rank 6
+    - Flamestrike rank 5
+    - Blast Wave
+    - Max-rank Arcane Explosion spam
+    condition: Flamestrike only if mobs stay grouped and alive; else Arcane Explosion + Blast Wave
+  cooldowns:
+  - Combustion once Fire Vulnerability is up
+  - Mind Quickening Gem saved for fights where it matters
+  - Drop and rebuild a weak (partially resisted) Ignite

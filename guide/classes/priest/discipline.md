@@ -10,6 +10,20 @@
 | Strengths | Turtle's unique take on the spec, praised as the only server that "got smiter priest right" [[d:priest#1495928254920654928]]; the best leveling and farming spec (see [Leveling](leveling.md)); off-heals and shields when needed |
 | Weaknesses | Threat [[d:priest#1497082351803437148]]. Less raid utility than Shadow: some say Smite "brings nothing of value", others disagree (**contested**) [[d:priest#1486181386850275441]], [[d:priest#1490693078640754830]]. 1.18.1 made Disc gear holy-damage-only, which weakens off-healing [[d:priest#1484564440207855657]], [[d:priest#1488642307048739048]] |
 
+## How to play
+
+The level-60 Smite loop. For the details, see the linked sections.
+
+1. **Pre-pull:** Inner Fire. `Enlighten` on yourself, or on one non-Smite DPS [[d:priest#1490641318630658178]].
+2. **Opener:** `Chastise` on the tank on pull [[d:priest#1486224198475976724]] → `Inner Focus` → `Holy Fire` → `Smite` ×4 → `Holy Fire` [[d:priest#1465500759394353345]].
+3. **Single-target loop:** `Holy Fire` (refreshes Purifying Flames) → `Smite` ×4, casting the instant Smite whenever Searing Light procs. If Holy Fire misses, hard-cast it again. If the boss dies before the cycle ends, skip Holy Fire and finish with Smite [[d:priest#1431112150679818281]], [[d:priest#1490797658879557723]]. Gear variants: [T3.5 5-piece](#t35-5-piece-adjustment), [T3 8-piece](#full-t3-8-piece-opener).
+4. **Cooldowns:** `Chastise` every 40 s on a friendly arcane mage or affliction warlock, never on yourself in raids. `Inner Focus` goes on the Holy Fire opener [[d:priest#1465500759394353345]], [[d:priest#1490792756803797113]].
+5. **AoE switch:** at **4+** targets with tank aggro established, spam `Holy Nova`. On long packs or when low on mana, alternate rank-1 Holy Nova with instant Smites. At 1–3 targets, keep the single-target loop ([AoE](#aoe)).
+6. **Resources:** below 10% haste, the loop needs two Searing Light procs, so hit the haste breakpoint first ([Stats](#stat-priority-and-caps)). Use Major Mana Potion and tea on cooldown. When low, cast rank-1 Holy Fire ([Cooldowns, mana and threat](#cooldowns-mana-and-threat)).
+7. **Threat:** Holy Nova makes threat. Let the tank establish first, and Fade near the top of the threat meter [[d:priest#1497082351803437148]].
+8. **Movement:** `Shadow Word: Pain` only while moving. `Pain Spike` as a trash finisher when the mob has under about 2 s to live [[d:priest#1504912888022831298]].
+9. **Emergencies:** `Power Word: Shield` and `Flash Heal` on yourself or others. Dedicated healing belongs to [Holy](holy.md) ([Discipline healing?](#discipline-healing)).
+
 ## Talent build
 
 ### Smite raid DPS 31/20/0 (recommended)

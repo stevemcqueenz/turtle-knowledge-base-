@@ -353,3 +353,86 @@ stat_priority_note: '"PvP is not PvE, survivability is better than raw damage. S
   some comfortable amount to not die instantly" [Xudo p=108896]. Then Shadow or Fire spell damage — cheap "of shadow wrath"
   greens do the job — then crit for Soul Fire and Conflagrate burst. Hit matters less than in PvE because the targets are
   level 60. The epic Warlock PvP set has 0% crit against the blue set''s 2%, and raid gear generally beats PvP gear in battlegrounds.'
+play_loop:
+  guide_section: guide/classes/warlock/pvp.md#how-to-play
+  opener:
+  - pet Succubus (Lash of Pain autocast off); stand at max range
+  - Seduction to force the PvP trinket
+  single_target:
+  - priority: 1
+    action: Soul Fire
+    condition: target crowd-controlled (Seduction or ally CC); 30 s cooldown
+  - priority: 2
+    action: re-Seduce
+    condition: after Soul Fire lands
+  - priority: 3
+    action: Immolate -> Conflagrate
+    condition: Conflagrate off its 10 s cooldown
+  - priority: 4
+    action: Shadowburn
+    condition: finisher; 15 s cooldown
+  - priority: 5
+    action: Fear + Curse of Recklessness juggle
+    condition: target in melee range; no Curse of Exhaustion in this build
+  control:
+  - Seduction shares diminishing returns with Fear
+  - do not open Fear on an Undead player before Will of the Forsaken (3 s immunity)
+  - Death Coil as the last peel (2-min cooldown)
+  cooldowns:
+  - name: Soul Fire
+    spell_id: 51684
+    use_when: target CC'd
+  - name: Conflagrate
+    spell_id: 18932
+    use_when: Immolate on target
+  - name: Shadowburn
+    spell_id: 18871
+    use_when: finisher
+  - name: Death Coil
+    spell_id: 17926
+    use_when: melee on you
+  - name: Fear
+    spell_id: 6215
+    use_when: peel / CC; watch DR shared with Seduction
+  - name: Curse of Recklessness
+    spell_id: 11717
+    use_when: fear-juggle (1 s GCD)
+  - name: Fel Domination
+    spell_id: 18708
+    use_when: fast 1.5 s re-summon after the pet dies (if talented)
+  defensive:
+  - trinket stun openers, then Death Coil
+  - Limited Invulnerability Potion when a melee is on you
+  - Spellstone clears magic silences (shares the Healthstone cooldown)
+  target_priority:
+  - kiting melee (warriors), where burst secures the kill
+  - skip fire-reflector / fire-immunity-trinket targets
+  - in premades do not DoT CC'd targets
+  reset:
+  - Healthstone or Spellstone
+  - Life Tap then drink out of combat (vanilla baseline)
+  vs_class:
+    warrior: burst + slows/stuns; deny rage with LIP or Voidwalker shield
+    rogue: trinket -> Death Coil -> Fear
+    feral_druid: near-unwinnable; Thorn's Pod
+    hunter: kill the pet first
+    priest: Spell Lock or Seduce + Curse of Tongues
+    paladin: expect a bubble after Death Coil pushing Fear into DR
+    shaman: Tremor and Grounding make Fear unreliable
+    mage: fire reflectors counter Destruction; Death Coil the second Arcane Missiles
+    warlock: kill their Succubus first
+  sources:
+  - '[[d:warlock#1450370894307524801]]'
+  - '[[d:pvp-general#1431769867446390886]]'
+  - '[[d:pvp-general#1431772306203742272]]'
+  - '[[d:warlock#1491162205931044994]]'
+  - '[[d:warlock#1494966922104537178]]'
+  - '[[d:warlock#1469458947969909015]]'
+  - '[[d:warlock#1424132365671993464]]'
+  - '[[d:warlock#1424135596372263005]]'
+  - '[[d:warlock#1490124423288717403]]'
+  - '[[d:warlock#1479969109692125224]]'
+  - '[[d:warlock#1432907646901551224]]'
+  - '[[d:warlock#1454095765600473179]]'
+  - '[[d:pvp-general#1425009815138340914]]'
+  - '[[d:pvp-general#1427354322395463682]]'

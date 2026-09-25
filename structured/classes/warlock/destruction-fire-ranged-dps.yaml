@@ -266,3 +266,63 @@ stat_priority_note: 'Guiltyhaomarush [p=168196]: "you need to get 16% hit chance
   rotation should go straight to spell power instead. Haste became relevant when 1.18.1 gave Searing Pain a 2 s cast that
   scales with it; the older thread asking whether haste does anything for fire warlocks [p=120182] predates that and was never
   answered.'
+play_loop:
+  opener:
+  - 'pre-pull: sacrifice Imp (Felhunter if mana-limited), Firestone, ~16% hit'
+  - pre-cast Soul Fire
+  - Immolate
+  - Conflagrate (let the tank build a lead first)
+  single_target:
+  - priority: 1
+    action: Soul Fire
+    condition: Improved Soul Fire buff missing and Soul Fire ready
+  - priority: 2
+    action: Immolate
+    condition: missing; skip if target dies within 9 s
+  - priority: 3
+    action: Conflagrate
+    condition: ready and Immolate up
+  - priority: 4
+    action: Shadowburn
+    condition: ready, unless short on mana
+  - priority: 5
+    action: assigned curse
+    condition: missing
+  - priority: 6
+    action: Searing Pain
+    condition: filler
+  - priority: 7
+    action: Life Tap
+    condition: when needed
+  aoe:
+    targets_min: 3
+    loop:
+    - priority: 1
+      action: Immolate each, Searing Pain in mark order
+      condition: 1-3 targets
+    - priority: 2
+      action: Hellfire
+      condition: 3-5+ stacked on the tank
+    - priority: 3
+      action: Rain of Fire
+      condition: pack cleaves or needs range
+  cooldowns:
+  - Soul Fire, Conflagrate, Shadowburn on cooldown; do not chain instants back to back
+  - Voidstone/Salvation for threat
+  - mana potions and tea
+  tank:
+  - priority: 1
+    action: '5-man void tank (see warlock-tank.md): Voidwalker Torment or run in and chain-DoT with Felstone'
+    condition: pull
+  - priority: 2
+    action: Immolate every target, tab Searing Pain; Hellfire once the pack converges
+    condition: first GCDs, Wrathstone up
+  - priority: 3
+    action: Health Funnel/Felstone/Healthstone/Voidwalker Sacrifice for AoE healing threat
+    condition: multi-mob
+  - priority: 4
+    action: Death Coil or Fear a loose mob; no taunt
+    condition: threat lost
+  - priority: 5
+    action: 'Twin Emperors: Immolate > Conflagrate > Searing Pain spam, Shadow Ward on cooldown, never Shadow Bolt'
+    condition: after each teleport, ~5k threat in seconds

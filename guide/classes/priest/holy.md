@@ -12,6 +12,43 @@
 
 Before 1.18.1, Holy was rated the weakest of the healers ("pala > druid/sham > priest") [[d:priest#1440957032432795709]]. Old guides that call it weak, or that build around Proclaim Champion, are out of date. Proclaim Champion and its connected spells were removed in 1.18.1 [[d:priest#1464351944230436874]], [Jamey, 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071).
 
+## How to play
+
+The level-60 loop for raids. For the reasons, see the linked sections. For dungeons while leveling, see [Leveling: Gameplay by level](leveling.md#gameplay-by-level).
+
+**Default heal by damage pattern:**
+
+| Damage pattern | Default | Notes |
+|---|---|---|
+| Tank, steady damage | Max-rank `Renew` always up, then `Flash Heal` R7 when damage is heavy | "Always Be cRenewing" [[d:priest#1471865143410430062]] |
+| Tank, known spike (tank buster, enrage) | Pre-cast `Greater Heal` R1, and cancel it at about two-thirds if not needed | [Single-target](#single-target-healing-priority-list) |
+| Anyone near half health | `Flash Heal` R7 | [[d:priest#1493870884375629836]] |
+| Small damage on one player | `Flash Heal` R1 | [[d:priest#1492115676935229451]] |
+| 3+ damaged in one party | `Prayer of Healing` R2 on that party. Use R4, or `Inner Focus` + max rank, to fill them fast | [AoE healing](#aoe-healing) |
+| Constant raid damage with 8/8 T2 | `Greater Heal` R1 spam | **Contested**, see [Single-target](#single-target-healing-priority-list) |
+| About to die, no time to cast | `Power Word: Shield`, then heal. Not on warrior or bear tanks except before the pull or in a real emergency | [[d:priest#1426238485303394435]] |
+
+**Between heals:** cast `Renew` R1 on someone who needs it (or on yourself), so your next heal is a different spell and Book of Prayer refunds mana. Do not bend your healing to chase refunds [[d:priest#1492115676935229451]], [[d:priest#1486824507040862208]].
+
+**Triage order:** you → tanks → other healers → DPS [Langorn, 2025-09-19](https://forum.turtlecraft.gg/viewtopic.php?p=152325#p152325). Heal raiders to 80–90%, not 100% [[d:priest#1428691896514908271]].
+
+**Keep up:** Renew on the tanks. Fortitude, Divine Spirit, and Shadow Protection on shadow fights. Inner Fire. Fear Ward on the tank before fears. `Lightwell` before the pull, as a bonus only ([Cooldowns](#cooldowns)).
+
+**Mana plan:**
+
+1. Heal in bursts, then stop casting so the 5-second-rule regen ticks [[d:priest#1378653877729099889]].
+2. Pre-cast and cancel on tanks instead of spamming small heals [[d:priest#1490473551717728317]].
+3. Take a Major Mana Potion early in long fights. Tea and runes share a cooldown ([Mana management](#mana-management)).
+4. Cast max ranks at endgame. Downrank only when you are short on mana (fresh 60, long fights) [[d:priest#1494888479052533902]].
+
+**Cooldowns:**
+
+- `Ascendance` just before a boss enrages or a burst phase. It also breaks CC on you [[d:priest#1492116211587088486]].
+- `Inner Focus` for a free max-rank Prayer of Healing or Greater Heal.
+- `Fade` if you pull aggro. `Desperate Prayer` (Human/Dwarf) for a self emergency.
+
+**Dispels and utility:** dispel magic and diseases with Rinse (or a similar addon), and do not blind-spam dispels on Nefarian [[d:priest#1429146212774187250]]. During Nefarian's priest call, use only Renew and Power Word: Shield [[d:priest#1484524057155211406]]. More in [Role duties](#role-duties).
+
 ## Talent build
 
 ### Raid healer 14/37/0 (recommended)

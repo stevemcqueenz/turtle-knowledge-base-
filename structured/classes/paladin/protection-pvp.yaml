@@ -238,3 +238,41 @@ next_patch_announced:
   - '[[d:paladin#1488856415010291794]]'
   items: []
   note: Not a patch; nothing in this file assumes it.
+play_loop:
+  guide_section: guide/classes/paladin/pvp.md#how-to-play
+  opener:
+  - PvE tank gear with a strong weapon
+  - Hammer of Justice (30 s with Improved Hammer of Justice)
+  single_target:
+  - priority: 1
+    action: Hammer of Justice
+    condition: on cooldown or on a cast
+  - priority: 2
+    action: Libram of Final Judgement swap, execute
+    condition: target under 35%
+  control:
+  - one stun only; easy to kite 1v1
+  cooldowns:
+  - name: Hammer of Justice
+    spell_id: 10308
+    use_when: 30 s with Improved Hammer of Justice
+  - name: Divine Shield
+    spell_id: 1020
+    use_when: disengage or eat a stun
+  defensive:
+  - Dissolvent ignores Block; only dodge and parry mitigate it
+  target_priority:
+  - support allies (BoP, Freedom, cleanse) while disrupting
+  reset:
+  - drink out of combat (vanilla baseline)
+  vs_class:
+    rogue: Dissolvent ignores Block
+    warlock: kill the pet
+    hunter: Holy Shield no longer blocks ranged attacks
+  sources:
+  - '[[d:paladin#1490469775988494518]]'
+  - '[[d:paladin#1484653064366325761]]'
+  - '[[d:paladin#1481665621958725803]]'
+  - '[[d:paladin#1423412315503464570]]'
+  - '[[d:paladin#1435717695189422100]]'
+  - '[[d:paladin#1428745621673738280]]'

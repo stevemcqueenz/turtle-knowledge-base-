@@ -12,6 +12,23 @@
 
 **Why it replaced Assassination.** Combat Envenom plays like the old 41/10/0 poison build, except that Backstab or Sinister Strike replaces Noxious Assault as the builder [[d:rogue#1488628288845910149]], [[d:rogue#1488629955783823381]]. You give up a "triple nerfed" Noxious Assault and Seal Fate. In exchange you get Blade Rush (haste plus Agility-scaled energy), 5 weapon skill from Weapon Expertise (which frees a gloves slot), and 5% crit from Close Quarters Combat or Hack and Slash [[d:rogue#1486883475448397895]], [[d:rogue#1489401067983601705]]. After 1.18.1, Assassination lost about 10% while Combat Envenom had only ever been about 5% behind, which put Combat Envenom 5% ahead [[d:rogue#1485568535215476746]].
 
+## How to play
+
+The loop for **Combat Envenom (24/27/0)** at 60. The reasons and the Adrenaline Rush variant are in [Single-target rotation](#single-target-rotation), [AoE and cleave](#aoe-and-cleave) and [Cooldowns](#cooldowns).
+
+1. **Before the pull:** Instant Poison on both weapons, with a Dissolvent pair in your bags for elementals ([Poisons and weapon sets](#poisons-and-weapon-sets)). Put a combo point on a critter or an add, then carry it to the boss with Slice and Dice [[d:rogue#1480688682787667988]].
+2. **Opener:** no stealth opener; walking in stealth costs too much time [[d:rogue#1468327294430085130]]. Open with **Backstab** (daggers) or **Sinister Strike** (swords). At 1 combo point cast **Envenom, then Slice and Dice** [[d:rogue#1484581432889442335]].
+3. **Single-target loop (top first):**
+    1. **Envenom** at 1 combo point if it is missing or about to fall off.
+    2. **Slice and Dice** at 1 combo point if it is missing or about to fall off.
+    3. **Eviscerate** at 5 combo points, not 1-point spam [[d:rogue#1488169648573907026]].
+    4. **Surprise Attack** when usable and at 80 energy or less [[d:rogue#1492170434672595226]].
+    5. **Backstab** from behind (daggers) or **Sinister Strike** (swords). Never Sinister Strike with a dagger.
+4. **Cooldowns:** Thistle Tea (100 energy) when energy-starved; active trinkets on bosses; **Vanish** when you are about to pass the tank on threat [[d:rogue#1465825152125374744]]. Adrenaline Rush build: Adrenaline Rush right after a 5-point Rupture.
+5. **AoE switch:** **2 or more** enemies in melee → **Blade Flurry on**, same rotation. **1** → Blade Flurry off. Blade Flurry hits only one extra target, so big packs stay weak [[d:rogue#1468684315079479351]], [[d:rogue#1470215457813434539]].
+6. **Resource rule:** energy is 20 every 2 s, faster with Blade Rush and Agility. The Ruthlessness point pays for the next 1-point refresh. Don't mash finishers [[d:rogue#1479064018260856862]].
+7. **Movement and situational:** when the boss faces you, `/cast [behind]Backstab;[nobehind]Sinister Strike` switches your builder [[d:rogue#1487600151974641806]]. Kick casts. Feint only lowers your threat generation; Vanish resets it [[d:rogue#1455361248580468992]].
+
 ## Talent build
 
 ### Combat Envenom, daggers, 24/27/0 (recommended)

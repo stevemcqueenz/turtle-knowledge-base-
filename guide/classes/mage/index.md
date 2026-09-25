@@ -49,10 +49,12 @@ Race "barely matters" below the very top parses; pick what you like [[d:mage#147
 
 ## Professions
 
-- **Engineering** is "bis for every class" for toys and **Goblin Sapper Charges**, which add real raid AoE damage (e.g. with Arcane Explosion) [[d:mage#1488178674309267647]], [[d:mage#1438566091365552378]]. It is not mandatory [[d:mage#1468324299499897119]].
-- **Tailoring** is mainly for Robe of the Archmage (BiS until BWL) and a few BoE crafts: Spellwoven Nobility Drape and Gloves of Spell Mastery. Mooncloth margins are poor [[d:mage#1434898636461969418]], [[d:mage#1453809774398541826]], [[d:mage#1484608704958431252]]. Buying the crafts is often cheaper than leveling Tailoring yourself [[d:mage#1473078862274367721]].
-- **Herbalism + Alchemy** is the best long-run gold and consumables pair [[d:mage#1451246474187771915]]. **Enchanting + Jewelcrafting** earn gold if you advertise; Jewelcrafting makes the +6 Arcane SP ring/neck enchant [[d:mage#1448316389499867206]], [[d:mage#1466718604044144652]].
-- Profession content is "kinda neglected on this server" [[d:mage#1488179923918131453]].
+- **Level with two gathering professions**; Herbalism + Alchemy is the safest long-run pair [[d:mage#1451246474187771915]].
+- **Engineering** is "bis for every class" but not mandatory; for a mage it is mostly **Goblin Sapper Charges** on AoE packs (with Arcane Explosion) [[d:mage#1488178674309267647]], [[d:mage#1438566091365552378]], [[d:mage#1468324299499897119]].
+- **Tailoring** only for Robe of the Archmage (BiS until BWL); the other good crafts (Spellwoven Nobility Drape, Gloves of Spell Mastery) can be bought and Mooncloth margins are poor [[d:mage#1434898636461969418]], [[d:mage#1453809774398541826]], [[d:mage#1484608704958431252]], [[d:mage#1473078862274367721]].
+- **Enchanting + Jewelcrafting** earn gold if you advertise; JC makes the +6 Arcane SP ring/neck enchant. Profession content is "kinda neglected on this server" [[d:mage#1448316389499867206]], [[d:mage#1466718604044144652]], [[d:mage#1488179923918131453]].
+
+Full guide: [Professions](professions.md)
 
 ## Gold
 

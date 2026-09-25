@@ -14,6 +14,22 @@
     - Guides from before 1.18.1 over-rate Holy Strike healing. It used to hit up to 7 targets with the T3.5 set, and Daybreak was stronger [[d:paladin#1484924634599264276]].
     - On 2026-04-01 the paladin developer posted a "next patch" list: Holy Strike healing removed, Holy Strike turned into a next-swing attack, spellstrikes no longer proccing. **It was an April Fools joke, not a real change** [[d:paladin#1488852869212798987]], [[d:paladin#1488856415010291794]]. Ignore any guide that treats it as real.
 
+## How to play
+
+The level-60 healing loop. The details are in [Single-target healing](#single-target-healing-priority-list), [AoE healing](#aoe-healing), [Melee or range](#melee-or-range-choosing-per-fight), [Cooldowns and utility](#cooldowns-and-utility) and [Mana management](#mana-management).
+
+1. **Setup:** Seal of Wisdom on yourself, your assigned blessing, and Concentration Aura if you will melee [[d:paladin#1481036193402716170]]. Decide per fight whether you melee: mirror the melee DPS [[d:paladin#1439619289194823963]].
+2. **Default heal by damage pattern:**
+    - **Tank damage:** Flash of Light, which is most of your casting [[d:paladin#1489753323253923850]]. After a Judgement, a 1.5 s Holy Light for a big hit.
+    - **Spot damage:** Flash of Light on the target. If they are about to die, use Holy Shock.
+    - **Group/raid-wide damage in melee range:** Holy Strike on cooldown with at most 3 Flash of Lights between strikes. It heals up to 4 wounded allies within about 7.6 yd and you for no net mana [[d:paladin#1399695295524110427]], [[d:paladin#1478361089740902608]].
+    - **Group/raid-wide damage at range:** Flash of Light spam. You have no other AoE heal.
+3. **Triage order:** someone about to die → **Holy Shock**. Tank took a big hit and you have the Holy Judgement buff → **Holy Light**. 3+ hurt near you → **Holy Strike**. Everyone else → **Flash of Light** [[d:paladin#1489753379583557704]].
+4. **Keep up:** Seal of Wisdom, and Judgement of Wisdom on a long-lived target. Spend a GCD on Judgement + re-seal after a fast Holy Light or when the debuff is about to drop [[d:paladin#1446997676200820840]]. On trash downtime, a rank-1 Flash of Light on the tank can crit and leave a Daybreak [[d:paladin#1432923730018832555]].
+5. **Mana plan:** Seal/Judgement of Wisdom, Holy Strike, Illumination, Major Mana Potions and Nordanaar tea [[d:paladin#1487359832318148680]]. Do not spam max-rank Holy Light [[d:paladin#1436013333919830126]]. Use Crusader Strike only when moving and you need a Holy Shock reset [[d:paladin#1488534279020482730]].
+6. **Cooldowns:** Lay on Hands on a dying tank. Divine Shield keeps you healing through fear or lethal mechanics. Blessing of Protection saves a DPS who has aggro. Divine Intervention is for planned strats such as Maexxna, and for wipe recovery (vanilla baseline).
+7. **Dispels and utility:** Cleanse removes magic, poison and disease, but it costs a GCD, so pre-cast it before known debuffs. Blessings follow the raid assignment [[d:paladin#1461076668021211320]], [[d:paladin#1468968922354286808]].
+
 ## What 1.18.1 changed for Holy
 
 | Change | Effect on you | Source |

@@ -19,6 +19,35 @@
 
     Players summed it up as "lacerate side damage, raptor strike and mongoose bite got buffed; only Coordinated Assault went down" [[d:hunter#1488832787128647792]]. Survival's Coordinated Assault damage fell to roughly a third or a quarter of what it was [[d:hunter#1484615674688176158]]. Survival is otherwise the 1.18.0 melee kit: Carve, Mongoose Bite on both weapons, and traps in combat through Untamed Trapper.
 
+## How to play
+
+The level-60 decision loop for the 16/0/35 build. Details are in the sections linked below.
+
+1. **Opener:**
+    1. Send the pet as the tank hits [[d:hunter#1484689822005067816]].
+    2. Rapid Fire, on-use trinkets and Blood Fury on the pull ([cooldowns](#cooldowns-and-defensives)).
+    3. Start auto-attack.
+2. **Single-target loop:** one spam macro ([rotation](#single-target-rotation)).
+    1. Raptor Strike.
+    2. Immolation Trap. Skip it on fire-immune targets and on dying ones.
+    3. Mongoose Bite.
+    4. Lacerate, from the flank.
+    5. Carve.
+    6. Wing Clip only when nothing else is ready.
+3. **Cooldowns:**
+    - Rapid Fire and trinkets on pull.
+    - Deterrence as the "just in case" defensive.
+    - Feign Death early: in melee you pull aggro at 110% of the tank's threat.
+4. **AoE switch rule** ([AoE](#aoe-rotation)):
+    - **2 targets:** add Explosive Trap.
+    - **3+ targets:** Explosive Trap → Carve → Raptor Strike → Mongoose Bite → Lacerate → Wing Clip.
+    - Use the two-hander for packs and dual-wield for bosses ([DW vs 2H](#dual-wield-vs-two-hander)).
+5. **Resource rule:** Aspect of the Viper is for trash and farming, not boss fights [[d:hunter#1464367550312874156]]. Otherwise watch trap mana ([resources](#resource-and-threat-management)).
+6. **Movement and situational:**
+    - At range, use baseline Steady Shot [[d:hunter#1466006006126477313]].
+    - On fire-immune bosses, drop fire traps from the macro ([raid notes](#raid-notes)).
+    - Do not Carve into crowd control.
+
 ## Talent build
 
 ### Raid 16/0/35 (recommended)

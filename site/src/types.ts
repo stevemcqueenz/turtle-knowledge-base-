@@ -457,6 +457,8 @@ export interface InstanceSummary {
   blurb: string;
   sections: HeadingRef[];
   bosses: string[];
+  /** The index-card thumbnail of the page's map, when it has one. */
+  mapThumb?: MapImage | null;
 }
 
 export interface CoreData {
@@ -535,6 +537,39 @@ export interface InstancePage {
   intro: string;
   sections: Section[];
   sourceFile: string;
+  /** Floors rendered from the client minimap textures (tools/maps/); absent when none. */
+  map?: InstanceMap;
+}
+
+/** An image under `public/` (path relative to the site root). */
+export interface MapImage {
+  file: string;
+  width: number;
+  height: number;
+}
+
+/** A numbered boss marker; x and y are 0..1 fractions of the floor image. */
+export interface MapMarker {
+  n: number;
+  boss: string;
+  x: number;
+  y: number;
+  /** `boss-<slug>` (a boss card) or a section id of the page. */
+  anchor: string;
+}
+
+export interface MapFloor extends MapImage {
+  floor: string;
+  label: string;
+  kind: 'minimap' | 'floorplan';
+  markers: MapMarker[];
+}
+
+export interface InstanceMap {
+  /** kind -> provenance line, for the kinds this page's floors use. */
+  provenance: Partial<Record<MapFloor['kind'], string>>;
+  thumb: MapImage;
+  floors: MapFloor[];
 }
 
 /** `src/data/instances.json`. */

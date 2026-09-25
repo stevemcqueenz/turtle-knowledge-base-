@@ -375,3 +375,64 @@ next_patch_announced:
   - '[[d:paladin#1488856415010291794]]'
   items: []
   note: Not a patch; nothing in this file assumes it.
+play_loop:
+  guide_section: guide/classes/paladin/pvp.md#how-to-play
+  opener:
+  - 6k+ health; pick melee harassment (Crusader Strike resets off Holy Shock) or ranged healing
+  single_target:
+  - priority: 1
+    action: Holy Shock
+    condition: instant spot heal under pressure (20 s, 20 yd)
+  - priority: 2
+    action: Judgement -> 1.5 s Holy Light
+    condition: Holy Judgement talent; e.g. right after an enemy shaman's Shock
+  - priority: 3
+    action: Flash of Light
+    condition: cheap top-up (vanilla baseline)
+  heal:
+  - triage; you cannot heal through all burst, so prioritize the focused ally who can still be saved
+  - Cleanse poison and magic; Blind is physical, so use BoP on it
+  - Hand of Freedom on rooted/slowed allies
+  - mana is tight without gear, fine in T2; drink between fights (vanilla baseline)
+  cooldowns:
+  - name: Holy Shock
+    spell_id: 51786
+    use_when: instant heal or reset fishing; 20 s
+  - name: Divine Shield
+    spell_id: 1020
+    use_when: focused and about to die; you often die right after it drops
+  - name: Hand of Protection
+    spell_id: 10278
+    use_when: Blind or physical focus on an ally
+  - name: Lay on Hands
+    spell_id: 10310
+    use_when: emergency outside arena (disabled in arena)
+  defensive:
+  - kite melee; melee that cannot catch you do no damage
+  - Divine Shield halves healing while up
+  target_priority:
+  - focused ally who can still be saved > self-sustain > topping off
+  reset:
+  - drink between fights (vanilla baseline)
+  shockadin:
+  - sticky support, not a killer
+  - SoC autos until the target is low, then Holy Shock reset to finish; watch mana
+  - Blessing of Sanctuary vs rogues, cats, fury warriors
+  vs_class:
+    rogue: BoP on Blind; Cleanse poisons
+    shaman: expect Purge on Freedom
+    hunter: shield on and break line of sight
+  sources:
+  - '[[d:paladin#1481664712130166965]]'
+  - '[[d:paladin#1481664931005857886]]'
+  - '[[d:pvp-general#1427671149428342906]]'
+  - '[[d:paladin#1481664792728174644]]'
+  - '[[d:paladin#1427780079966224407]]'
+  - '[[d:paladin#1424408436044595280]]'
+  - '[[d:pvp-general#1432871223527997505]]'
+  - '[[d:pvp-general#1432871340951605418]]'
+  - '[[d:pvp-general#1427661560523784203]]'
+  - '[[d:paladin#1441426127284473877]]'
+  - '[[d:paladin#1488212884839469197]]'
+  - '[[d:paladin#1426119339089727588]]'
+  - '[[d:paladin#1490472253706604746]]'

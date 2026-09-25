@@ -527,3 +527,44 @@ stat_priority_note: 'Healing power first ("a great stat for everyone"; Holy Stri
   on the global cooldown, and hit is not needed for heals. mp5 and Spirit are a tie: no cited post ranks them against each
   other, so their order in the array above carries no ranking. Grouping them is this repository''s reading of the sources
   listed above.'
+play_loop:
+  opener:
+  - Seal of Wisdom, assigned blessing, Concentration Aura if meleeing [[d:paladin#1481036193402716170]]
+  - 'Melee or range: mirror the melee DPS [[d:paladin#1439619289194823963]]'
+  heal:
+  - priority: 1
+    action: Holy Shock
+    condition: target about to die [[d:paladin#1489753379583557704]]
+  - priority: 2
+    action: Holy Light (1.5 s with Holy Judgement buff)
+    condition: tank took a big hit
+  - priority: 3
+    action: Holy Strike
+    condition: in melee, 3+ injured within ~7.6 yd, none dying [[d:paladin#1399695295524110427]]
+  - priority: 4
+    action: Flash of Light
+    condition: default on the tank [[d:paladin#1489753323253923850]]
+  - priority: 5
+    action: Judgement + re-seal Wisdom
+    condition: after a fast Holy Light or when the debuff is about to drop [[d:paladin#1446997676200820840]]
+  - priority: 6
+    action: Crusader Strike
+    condition: only when moving and a Holy Shock reset is needed [[d:paladin#1488534279020482730]]
+  - priority: 7
+    action: Rank-1 Flash of Light on the tank
+    condition: trash downtime, fishing for Daybreak [[d:paladin#1432923730018832555]]
+  aoe:
+    targets_min: 3
+    loop:
+    - priority: 1
+      action: Holy Strike on cooldown
+    - priority: 2
+      action: Up to 3 Flash of Light between strikes
+  cooldowns:
+  - Lay on Hands on a dying tank
+  - Divine Shield through fear or lethal mechanics
+  - Blessing of Protection on a DPS with aggro
+  - Divine Intervention for planned strats (Maexxna)
+  - Cleanse (GCD) magic/poison/disease; pre-cast before known debuffs [[d:paladin#1461076668021211320]]
+  resource: Seal/Judgement of Wisdom, Holy Strike, Illumination, Major Mana Potion, Nordanaar tea [[d:paladin#1487359832318148680]];
+    never spam max-rank Holy Light [[d:paladin#1436013333919830126]]

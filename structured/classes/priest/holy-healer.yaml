@@ -651,3 +651,70 @@ stat_priority_note: 'Langorn''s order, agreed with in the replies: healing power
   — so the five-second rule is the thing to play around; endgame BiS sits at 350–400 Spirit. There is no healing cap; hit
   only matters for dispels and offensive spells. Power Word: Shield scales with healing power rather than spell power per
   player testing.'
+play_loop:
+  opener:
+  - 'Pre-pull: Renew (max) on tank; Fortitude/Divine Spirit/Shadow Protection up; Lightwell placed where raid stacks (bonus
+    only)'
+  - 'Power Word: Shield on non-rage tank or casters before the pull'
+  single_target:
+  - priority: 1
+    action: 'Power Word: Shield then heal'
+    condition: target about to die, no time to cast; not on warrior/bear tanks except pre-pull or true emergency
+    source: '[[d:priest#1426238485303394435]]'
+  - priority: 2
+    action: Flash Heal R7
+    condition: tank heavy damage or anyone near 50%
+    source: '[[d:priest#1493870884375629836]]'
+  - priority: 3
+    action: Greater Heal R1 pre-cast (cancel at ~2/3 if unneeded)
+    condition: known spike (tank buster, enrage)
+    source: '[[d:priest#1492115676935229451]], [[d:priest#1490473551717728317]]'
+  - priority: 4
+    action: Renew max rank
+    condition: tank missing Renew
+    source: '[[d:priest#1471865143410430062]]'
+  - priority: 5
+    action: Flash Heal R1
+    condition: small damage on anyone
+    source: '[[d:priest#1492115676935229451]]'
+  - priority: 6
+    action: Renew R1 (self if nobody needs it)
+    condition: between heals, so next heal is a different spell (Book of Prayer)
+    source: '[[d:priest#1492115676935229451]]'
+  - priority: 7
+    action: stop casting
+    condition: raiders at 80-90%; triage you > tanks > healers > DPS
+    source: '[[d:priest#1428691896514908271]]'
+  aoe:
+    targets_min: 3
+    loop:
+    - priority: 1
+      action: Prayer of Healing R2 on a member of the damaged party
+      condition: 3+ damaged in one party
+      source: '[[d:priest#1492115676935229451]]'
+    - priority: 2
+      action: Prayer of Healing R4 or Inner Focus + max rank
+      condition: party must be full fast
+    - priority: 3
+      action: Renew each + Flash Heal the lower
+      condition: 2 targets
+  cooldowns:
+  - name: Ascendance
+    spell_id: 52962
+    use_when: just before enrage / burst phase; also breaks CC
+  - name: Inner Focus
+    spell_id: 14751
+    use_when: free max-rank Prayer of Healing or Greater Heal
+  - name: Lightwell
+    spell_id: 724
+    use_when: before pull / burst phase
+  - name: Fade
+    use_when: on aggro
+  - name: Fear Ward
+    spell_id: 6346
+    use_when: tank before fears
+  heal:
+  - 'Mana: heal in bursts then stop casting (5-second rule); pre-cast and cancel on tanks; Major Mana Potion early; max ranks
+    at endgame, downrank only when short on mana'
+  - 'Dispels: Dispel Magic / Abolish Disease via Rinse-style addon; no blind dispel spam on Nefarian; only Renew and PW:S
+    during Nefarian priest call'

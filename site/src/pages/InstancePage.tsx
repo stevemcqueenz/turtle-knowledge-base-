@@ -4,6 +4,7 @@ import { href, useScrollReset, useSectionScroll } from '../lib/router';
 import { INSTANCE_KIND_LABEL, bossAnchor, getInstanceSummary, instanceNeighbours } from '../lib/instances';
 import { useInstancesData } from '../data';
 import { Markdown } from '../components/Markdown';
+import { InstanceMap } from '../components/InstanceMap';
 import { Loading, PageHero, Section, WithToc } from '../components/layout/Page';
 import type { TocItem } from '../components/layout/Toc';
 import { ChevronLeftIcon, ChevronRightIcon, HealIcon, ShieldIcon, SwordIcon } from '../components/Icons';
@@ -96,7 +97,7 @@ export function InstancePage({ slug }: { slug: string }) {
             </div>
   );
 
-  const toc: TocItem[] = page.sections.map((s: SectionData) => ({
+  const toc: TocItem[] = (page.map?.floors.length ? ([{ id: 'instance-map', label: 'Map' }] as TocItem[]) : []).concat(page.sections.map((s: SectionData) => ({
     id: s.id,
     label: s.heading.replace(/\s*\([^)]*\)\s*$/, ''),
     children: BOSS_SECTION.test(s.heading)
@@ -104,7 +105,7 @@ export function InstancePage({ slug }: { slug: string }) {
           .filter((c) => c.heading)
           .map((c) => ({ id: bossAnchor(c.heading!), label: plain(c.heading!).replace(/\s*\([^)]*\)\s*$/, '') }))
       : undefined,
-  }));
+  })));
 
   return (
     <div>
@@ -121,6 +122,11 @@ export function InstancePage({ slug }: { slug: string }) {
 
       <WithToc toc={toc}>
         <div ref={body} className="space-y-12" data-hl={role}>
+          {page.map?.floors.length ? (
+            <section id="instance-map" aria-label="Map" className="scroll-mt-28 lg:scroll-mt-20">
+              <InstanceMap slug={page.slug} title={page.title} map={page.map} />
+            </section>
+          ) : null}
           {page.sections.map((s) => {
             const bossy = BOSS_SECTION.test(s.heading) && /^###\s/m.test(s.markdown);
             return (

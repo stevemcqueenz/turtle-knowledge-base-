@@ -103,6 +103,126 @@ This is the wiki Fire FAQ path in its own order: Improved Fireball > Elemental P
 End state **10/38/3**, VALID. Codes: `talents.turtlecraft.gg/mage?points=TAAo-FAqYQKYDLQAoB-AY` · `talents.turtlecraft.gg/mage/F05-UWK1F39H6-0I`
 [Open in talent calculator](https://xian55.github.io/tortoise-db-viewer/?talents=mage&t=230005-50523201230313251-003)
 
+## Gameplay by level
+
+What to press, bracket by bracket, for the **Frost** leveling path above. Learn levels, mana costs, cooldowns and cast times come from the 1.18.1 game data. Talents follow the [Frost talent order](#talent-order-frost-10-60). The [Arcane](#arcane-path-differences-by-bracket) and [Fire](#fire-path-differences-by-bracket) paths are summarised after the Frost brackets. Mages cannot heal, and dungeon tanking is a novelty (see [Mage tanking](arcane.md#mage-tanking-twin-emperors-and-dungeons)), so there are no tank or heal lists here. In dungeons you are DPS and the group's water.
+
+Talent effects marked *(vanilla baseline)* are the classic tooltips. Check the in-game tooltip for Turtle's numbers.
+
+### Levels 1–9
+
+- **New now:** Fireball and Frost Armor rank 1 at level 1 *(vanilla baseline: starting spells)*. L1 Arcane Intellect. L4 Frostbolt R1 (25 mana, 1.5 s cast), Conjure Water R1. L6 Fireball R2 (45 mana, 2.0 s), Fire Blast R1 (instant, 8 s cooldown, 20 yd), Conjure Food R1. L8 Frostbolt R2 (1.8 s), Arcane Missiles R1, Polymorph R1.
+- **Single target:**
+  1. `Frostbolt` from max range to slow the mob. At these levels Frostbolt is the slow and Fireball is the damage [[d:mage#1489950541500121121]]. Fireball gets new ranks sooner than Frostbolt [[d:mage#1425113776557916230]].
+  2. `Fireball` until the mob reaches you [[d:mage#1462360248256954369]].
+  3. `Fire Blast` as it closes or to finish, then wand [[d:mage#1483131710269952153]]. At these levels a good wand can hit harder than your spells [[d:mage#1490061732918329505]].
+  4. Eat and drink together after every fight or two [[d:mage#1462783774893936671]], [[d:mage#1318254027087024209]].
+- **Multi-target:** avoid it. Early on a mage "lacks the tools to kite" [[d:mage#1490050503638515892]]. If two mobs come, `Polymorph` one and kill the other [[d:mage#1489979706982793366]].
+
+### Levels 10–19
+
+- **New now:** L10 Frost Nova R1 (55 mana, 25 s cooldown, 8 s root), Frost Armor R2, Conjure Water R2. L12 Fireball R3, Conjure Food R2. L14 Frostbolt R3 (2.2 s), Arcane Explosion R1 (75 mana), Fire Blast R2. L16 Flamestrike R1 (195 mana, 2.5 s), Arcane Missiles R2. L18 Fireball R4. Talents: Improved Frostbolt 10-14 (shorter Frostbolt cast, *vanilla baseline*), Frostbite 15-17 (chill effects can freeze, *vanilla baseline*), Permafrost from 18.
+- **Single target:** once Improved Frostbolt is in, Frostbolt becomes the main button.
+  1. `Frostbolt` from max range. Cast 1-2 more while the mob walks in [[d:mage#1483131710269952153]].
+  2. When it reaches melee range: `Frost Nova` (rank 1), walk back to max range and start casting again [[d:mage#1462783774893936671]]. Rank 1 is the only Nova you ever need [[d:mage#1402684017958195503]].
+  3. `Frostbolt` until it is low, then `Fire Blast` or wand to finish.
+  4. Taking a few hits is fine. You get the health back while you drink [[d:mage#1462783774893936671]].
+- **Multi-target (2 mobs):** `Polymorph` the second mob, then run the single-target loop. Arcane Explosion AoE is possible from 14 if you bring enough mana and health items, but it is hard before Cone of Cold [[d:mage#1341020543989710849]].
+
+### Levels 20–29
+
+- **New now:** L20 Frostbolt R4 (65 mana, 2.6 s), Blink (15 s cooldown), Evocation (8 min cooldown), Mana Shield R1, Frost Armor R3, Polymorph R2, Blizzard R1, Conjure Water R3, teleports. L22 Arcane Explosion R2 (120), Scorch R1, Fire Blast R3, Frost Ward, Conjure Food R3. L24 Counterspell (30 s), Flamestrike R2 (250), Fireball R5, Arcane Missiles R3. **L26 Cone of Cold R1** (210 mana, 10 s cooldown), Frost Nova R2, Frostbolt R5 (the game data already gives rank 5 a 3.0 s base cast). L28 Conjure Mana Agate (first mana gem), Blizzard R2, Mana Shield R2, Arcane Intellect R3. Talents: Permafrost 3/3 at 20, which with 3/3 Frostbite is the first big spike [[d:mage#1462784163781546026]]. Improved Frost Nova 21-22, Ice Shards 23-27, Shatter 28-29.
+- **Single target:**
+  1. `Frostbolt` ×1-2 from max range.
+  2. `Frost Nova` in melee range. From 28, with Shatter, follow it with a `Frostbolt` or `Fire Blast` into the frozen mob for the frozen-target crit bonus *(vanilla baseline mechanic)*. You can Shatter single mobs too [[d:mage#1410461457438474261]].
+  3. Walk to range and `Frostbolt`. If the mob breaks free and Nova is down, use `Cone of Cold` rank 1 as a cheap slow ([Mage Levelling FAQ (wiki)](https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ)).
+  4. Finish with `Fire Blast` or wand.
+  5. Emergency: `Blink` away. `Counterspell` a caster's heal or big spell.
+  6. Out of mana with a mob still up: `Evocation`, which restores mana over 8 s on its 8-minute cooldown.
+- **Multi-target (from 26):** start the [AoE loop](#aoe-farming-by-level) on 3+ mobs you can gather. Before 26, keep pulls to 1-2 mobs. With Blizzard alone, "mobs just close the distance too fast" [[d:mage#1455966023823130825]], and Blizzard-kiting is dead [[d:mage#1436705656941056132]].
+
+### Levels 30–39
+
+- **New now:** L30 **Ice Block** (talent), Ice Armor R1, Arcane Explosion R3 (185), Fire Blast R4, Fireball R6, Conjure Water R4. L31 **Cold Snap** (talent, 10 min cooldown). L32 Frostbolt R6, Flamestrike R3 (360), Arcane Surge R1 (usable for a few seconds after one of your spells is resisted), Frost Ward R2, Conjure Food R4. L34 Cone of Cold R2, Mage Armor R1, Scorch R3. L36 Blizzard R3, Mana Shield R3. L38 Frostbolt R7, Arcane Explosion R4 (250), Fire Blast R5, Conjure Mana Jade. Talents: Shatter 3-5 at 32-34, Frost Channeling 35-37, Elemental Precision 38-39.
+- **Single target:** same as 20-29, plus:
+  - Armor: `Ice Armor` by default, `Mage Armor` against casters [[d:mage#1206031573359665242]].
+  - If a fight goes bad: `Blink` → `Ice Block` → `Cold Snap` to reset Nova and Block (from 31).
+- **Multi-target:** AoE farming is fully online now. Dabyrie's Farmstead (Arathi) is the usual 30-36 spot [[d:mage#1360736615097434225]]. Pull only what one Nova plus Cone of Cold cycle can control. Keep Ice Block and Cold Snap for the pull that goes wrong.
+
+### Levels 40–49
+
+- **New now:** L40 **Ice Barrier** (talent, 30 s cooldown), Frost Nova R3 (keep rank 1 on your bar), Flamestrike R4 (470), Ice Armor R2, Polymorph R3, Conjure Water R5, portals. L42 Cone of Cold R3 (380), Fireball R8, Arcane Intellect R4, Conjure Food R5. L44 Frostbolt R8, Blizzard R4. L46 Arcane Explosion R5 (315), Ice Barrier R2, Mage Armor R2, Fire Blast R6. L48 Flamestrike R5 (580), Conjure Mana Citrine. Talents: Elemental Precision 3/3 at 41, Arctic Reach 42-43, Piercing Ice 44-46, Improved Cone of Cold 47-49.
+- **Single target:**
+  1. `Ice Barrier` before the pull, and again whenever it is off cooldown. Against mobs that will not break it (ranged mobs), rank 1 saves mana and still gives the damage bonus [[d:mage#1331269400455811154]].
+  2. `Frostbolt` ×1-2 → `Frost Nova` (rank 1) → Shatter `Frostbolt` → walk → `Frostbolt` → `Cone of Cold` if it breaks free → `Fire Blast` or wand to finish.
+  3. Do not use Icicles while leveling. Its self-root is dangerous, and it is only good on freeze-immune targets ([Mage Frost FAQ (wiki)](https://turtle-wow.fandom.com/wiki/Mage_Frost_FAQ)), [[d:mage#1337113807276740619]].
+- **Multi-target:** the AoE loop with bigger pulls. Cast Ice Barrier before you gather.
+
+### Levels 50–60
+
+- **New now:** L50 Cone of Cold R4 (465), Frostbolt R9, Ice Armor R3, Conjure Water R6. L52 Ice Barrier R3, Blizzard R5, Mana Shield R5, Conjure Food R6. L54 Arcane Explosion R6 (390), Frost Nova R4, Fire Blast R7, Fireball R10. L56 Frostbolt R10, Flamestrike R6 (680), Arcane Intellect R5, Arcane Brilliance (tome). L58 Cone of Cold R5 (555), Ice Barrier R4, Mage Armor R3, Conjure Mana Ruby. L60 Conjure Water R7 (quest), Ritual of Refreshment (tome), Frostbolt R11 and Fireball R12 (tomes). Talents: Arcane Subtlety 50-51, Magic Absorption 52-54, Arcane Concentration 55-59 (Clearcasting procs make the next spell free, *vanilla baseline*).
+- **Single target:** same as 40-49. Spend Clearcasting procs on your most expensive spell (a max-rank Frostbolt, or Cone of Cold in AoE) *(vanilla baseline)*.
+- **Multi-target:** Dire Maul East lashers from about 54 (see [the lasher farm](#aoe-farming)). At 60, respec for raids ([Arcane](arcane.md), [Fire](fire.md)).
+
+### AoE farming by level
+
+The loop itself is in [AoE farming](#aoe-farming): `Frost Nova` → `Flamestrike` → `Cone of Cold` → kite in a circle with `Arcane Explosion` → repeat. The table gives the ranks to use and the mana for one cycle, totalled from the game data.
+
+| Level | Loop | Ranks (mana) | One cycle (Nova + Flamestrike + Cone + 4 Explosions) |
+|---|---|---|---|
+| 14-25 | 1-3 mobs only: `Frost Nova` → `Arcane Explosion` ×2-3 → walk away → repeat when Nova is back. Possible but hard before Cone of Cold [[d:mage#1341020543989710849]] | Nova R1 (55), Explosion R1-R2 (75/120); Flamestrike R1-R2 (195/250) from 16 | about 300-400 (Nova + 3 Explosions) |
+| 26-33 | The full loop. `Frost Nova` rank 1 → `Flamestrike` timed to land just before Nova breaks → `Cone of Cold` as they break free → circle-kite with Explosion → Cone again on cooldown [[d:mage#1310764519487963177]], [[d:mage#1335432181543342091]] | Nova R1 (55), Flamestrike R2 (250), Cone R1 (210), Explosion R2-R3 (120/185) | about 1,000 |
+| 34-41 | Same. Use the highest Flamestrike rank your mana allows [[d:mage#1491249152842010624]] | Nova R1, Flamestrike R3 (360), Cone R2 (290), Explosion R3-R4 (185/250) | about 1,450-1,700 |
+| 42-49 | Same, with bigger pulls. Ice Barrier before you gather | Nova R1, Flamestrike R4 (470), Cone R3 (380), Explosion R4-R5 (250/315) | about 1,900-2,150 |
+| 50-60 | Same. Pure-Frost variant: `Cone of Cold` → `Arcane Explosion` ×5 (×6 with good spacing) → `Cone of Cold`, saving Nova for emergencies [[d:mage#1336777512046301216]], [[d:mage#1436463662087929896]] | Nova R1, Flamestrike R5-R6 (580/680), Cone R4-R5 (465/555), Explosion R5-R6 (315/390) | about 2,350-2,850 |
+
+Mana rules for AoE:
+
+- **Always use rank 1 Frost Nova** [[d:mage#1402684017958195503]].
+- **Use max-rank Arcane Explosion** for damage. Drop a rank only when mana is short, or in a group with a weak tank [[d:mage#1488097566582378546]].
+- **Flamestrike:** use the highest rank that still leaves mana for the Cone of Cold and Explosions of the same cycle [[d:mage#1491249152842010624]].
+- **Before the pull,** check that your mana covers at least one full cycle from the table. If you run low mid-pull, stop nuking and kite in slows: permanent chill lets you kite until Nova is back [[d:mage#1335432181543342091]].
+- **Clearcasting** (from 55): spend it on Cone of Cold or a max-rank Explosion *(vanilla baseline)*.
+
+### Conjuring and drinking
+
+| Level | Conjure | Note |
+|---|---|---|
+| 4 / 10 / 20 / 30 / 40 / 50 | Conjure Water R1-R6 | Recast each time you train a rank. New ranks come every 10 levels but drink tiers every 5, so at 15-19 vendor water can beat yours [[d:mage#1120633018856525824]], [[d:mage#1120633362965610557]] |
+| 60 | Conjure Water R7 (quest) | The max rank [[d:mage#1426213242006671410]]. The quest chain starts in Dire Maul [[d:mage#1310717436890189904]] |
+| 6 / 12 / 22 / 32 / 42 / 52 / 60 | Conjure Food R1-R7 (R7 from a tome) | Eat while you drink |
+| 28 / 38 / 48 / 58 | Mana Agate / Jade / Citrine / Ruby | Use a gem in a long fight instead of drinking afterwards |
+| 60 | Ritual of Refreshment (tome, 5 min cooldown, 10 s cast) | A table of Conjured Mana Oranges (3% health and mana per second) [[d:mage#1290361542642237441]] |
+
+- **Drink after almost every fight early on.** "Expect to drink after each mob or two" [[d:mage#1318254027087024209]]. With some gear, players report drinking every 5-8 mobs as Fire at 37 [[d:mage#1394603763695620147]] and every 5-10 as Arcane in the 40s [[d:mage#1393861037320699946]].
+- **Water is free,** so drink freely, and gear Intellect for more fights per drink [[d:mage#1463949167608070258]]. Skilled players sip on each 2-second regen tick and keep moving between sips [[d:mage#1306038032633303100]], [[d:mage#1290852392341999648]].
+- **Evocation** (from 20, 8 s channel, 8 min cooldown) replaces one full drink. Start it just before a server tick [[d:mage#1452736983209083033]].
+- **In dungeons,** conjure a stack for the group before the first pull.
+
+### Arcane path (differences by bracket)
+
+Use this with the [Arcane talent order](#talent-order-arcane-10-60-ends-in-the-raid-build). Most players level Frost or Fire first and switch at 24-35 [[d:mage#1473113689132630157]], [[d:mage#1429898668089151528]].
+
+| Levels | New now | Single target | Multi-target |
+|---|---|---|---|
+| 10-19 | Improved Arcane Missiles 10-14 (removes pushback, per the wiki), Arcane Concentration 15-19; Arcane Missiles R2 at 16 | `Frostbolt` to slow → `Arcane Missiles` → `Fire Blast` to execute [[d:mage#1206031573359665242]]. Missiles on Clearcasting. Mana-hungry: drink often | `Polymorph` the second mob |
+| 20-29 | Arcane Rupture at 20 (talent, 80 mana, 2.5 s cast, 15 s cooldown), R2 at 28. **Arcane Missiles R3 at 24** does twice the damage of R2 (280 vs 144) [[d:mage#1484552827874578533]] | `Frostbolt` → `Arcane Rupture` only on high-HP mobs (it costs a lot) → `Arcane Missiles` → `Fire Blast` ([Mage Levelling FAQ (wiki)](https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ)). `Frost Nova` and walk when a mob reaches you | From 26: `Arcane Explosion`, `Cone of Cold`, `Frost Nova`, `Fire Blast` ([Toaomb (player), 2024-07-02](https://forum.turtlecraft.gg/viewtopic.php?p=98355#p98355)) |
+| 30-39 | Accelerated Arcana at 30 (5% haste, shorter Rupture/Evocation cooldown) [[d:mage#1462477308878393611]]; Arcane Surge R1 at 32; Arcane Instability, Arcane Potency; Resonance Cascade from 36 [[d:mage#1474520947926241343]] | Add `Arcane Surge` when it lights up after a resist | Same. Cone of Cold + Arcane Explosion kiting works without Frost talents [[d:mage#1436463662087929896]] |
+| 40-49 | Presence of Mind at 41 (instant Rupture) [[d:mage#1460643726241042527]]; Rupture R4 at 44; Missiles R6 at 48 | An "Arcane Missiles turret" up to the 50s [[d:mage#1495738138251890708]]. `Presence of Mind` → `Arcane Rupture` on a tough mob | Same |
+| 50-60 | Arcane Power only at 60, and **do not use it while leveling** [[d:mage#1490985845094613123]], [[d:mage#1425887461287923763]] | Same as 40-49. In 35-60 dungeons the small mana pool hurts; Frost or Fire is preferred there [[d:mage#1466569768885813513]] | Dire Maul lashers: wand or Counterspell pull → `Cone of Cold` → `Arcane Explosion` spam → `Frost Nova` if crowded [[d:mage#1388310993066791023]] |
+
+### Fire path (differences by bracket)
+
+Use this with the [Fire talent order](#talent-order-fire-10-60-ends-in-the-fire-raid-build). Fire is crit-starved early and feels weaker than Frost until you have gear [[d:mage#1456753314074202133]].
+
+| Levels | New now | Single target | Multi-target |
+|---|---|---|---|
+| 10-19 | Improved Fireball 10-14 (shorter Fireball cast, *vanilla baseline*), Ignite 15-19; Fireball R3 at 12, R4 at 18 | `Fireball` spam → `Fire Blast` while moving or to finish → `Frost Nova` and walk if the mob reaches you ([Mage Levelling FAQ (wiki)](https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ)) | `Polymorph` the second mob |
+| 20-29 | Pyroblast at 20 (talent, 6 s cast), R2 at 24; Scorch at 22; Burning Soul 21-22 | Same. Open with `Pyroblast` from max range only on a high-HP mob *(vanilla baseline)*. `Scorch` to finish ([Mage Levelling FAQ (wiki)](https://turtle-wow.fandom.com/wiki/Mage_Levelling_FAQ)) | Keep pulls small. If you die too much, Frost is the safer path [[d:mage#1453915381151436801]] |
+| 30-39 | Arcane Concentration 31-35; Incinerate 36-37; Master of Elements from 38 | About 3 Fireballs + Fire Blast / Scorch / wand per mob, ~10 s each [[d:mage#1394607163569209385]]. Drink every 5-8 mobs [[d:mage#1394603763695620147]] | `Frost Nova` → `Flamestrike` → `Arcane Explosion` on small packs |
+| 40-49 | Fire Vulnerability 41-43; **Blast Wave at 44** (talent, 30 s cooldown); Critical Mass 45-47; Hot Streak 48-49 | Same. From 48: `Pyroblast` at 5 Hot Streak stacks | Add `Blast Wave` when the pack reaches you |
+| 50-60 | Fire Power 50-54; Combustion at 55; Improved Fire Blast 56-58 | From 58: `Fire Blast` every time it is off cooldown (about every 2 Fireballs); see [Fire](fire.md#single-target-rotation) | Normal-sized dungeon pulls suit Fire [[d:mage#1466570131382468834]] |
+
 ## Respecs
 
 - Respecs cost at most **5 g** on Turtle, so experimenting is cheap [[d:mage#1489458239912411217]].
@@ -111,7 +231,7 @@ End state **10/38/3**, VALID. Codes: `talents.turtlecraft.gg/mage?points=TAAo-FA
 
 ## Abilities and ranks
 
-- **Train every school.** Fireball before Frostbolt at very low levels, because you unlock higher Fireball ranks sooner [[d:mage#1425113776557916230]]. Frostbolt's cast time grows with rank (1.5 → 1.8 → 2.2 → 2.6 s, capped at 3.0 s from rank 6); this is intended [[d:mage#1485075344477393067]]. Spell coefficients are poor below level 20 [[d:mage#1461543828996489329]].
+- **Train every school.** Fireball before Frostbolt at very low levels, because you unlock higher Fireball ranks sooner [[d:mage#1425113776557916230]]. Frostbolt's cast time grows with rank (1.5 → 1.8 → 2.2 → 2.6 s, capped at 3.0 s from rank 5); this is intended [[d:mage#1485075344477393067]]. Spell coefficients are poor below level 20 [[d:mage#1461543828996489329]].
 - **Key unlocks:** Arcane Missiles rank 3 at 24 [[d:mage#1484552827874578533]]; Cone of Cold at 26 [[d:mage#1421201196810633308]], [[d:mage#1431344728032411668]]; Arcane Explosion from 14 [[d:mage#1341020543989710849]]. Arcane Surge ranks come at 32/40/48/56 ([Dragunovi (staff), 2024-10-12](https://forum.turtlecraft.gg/viewtopic.php?p=102968#p102968)).
 - **Keep rank 1 on your bars:** Frostbolt (cheap slow), Frost Nova, Arcane Explosion (threat-safe, trinket pre-procs) [[d:mage#1479603921264836630]], Blizzard (Flash Freeze fishing at 60) [[d:mage#1430636501141553164]], and two Flamestrike ranks (both DoTs tick) [[d:mage#1479770070598291608]].
 - **Arcane Power:** do not use it while leveling. "It will kill u if u cast it when on low man[a]" [[d:mage#1490985845094613123]].

@@ -448,3 +448,87 @@ gaps:
 - No endorsed post-1.18.1 feral PvP point list
 - 'No Hunter matchup tactic found (gap in both #druid and #pvp-general)'
 - No working feral counterplay vs Shaman/Paladin
+play_loop:
+  guide_section: guide/classes/druid/pvp.md#how-to-play
+  opener:
+  - Prowl
+  - Pounce
+  - Rake
+  - Rip (bleeds ignore armor)
+  - 'vs mage: do not open with Pounce'
+  single_target:
+  - priority: 1
+    action: Rake + Rip
+    condition: during the Pounce stun; get target past 50% before it ends
+  - priority: 2
+    action: Bear Form to finish, or Bash then back to Cat and Shred 5 s
+    condition: stun ended
+  - priority: 3
+    action: stay in Bear
+    condition: target trinketed the stun
+  - priority: 4
+    action: Cat Form + Berserk
+    condition: target did not trinket (single source)
+  - priority: 5
+    action: Ferocious Bite
+    condition: 5 combo points, target low (vanilla baseline)
+  - priority: 6
+    action: Bash -> Omen Regrowth -> Rejuvenation
+    condition: need sustain
+  control:
+  - Bash is the only post-opener stun (60 s cd); Bash from Cat costs 2 GCDs
+  - Feral Charge = gap-closer/interrupt (8-25 yd)
+  - no interrupt in Cat Form
+  - do not break your own bleeds with Roots/Hibernate (vanilla baseline)
+  cooldowns:
+  - name: Bash
+    spell_id: 8983
+    use_when: stun chain / interrupt; 60 s cd
+  - name: Feral Charge
+    spell_id: 16979
+    use_when: close gap or interrupt a cast; 15 s cd
+  - name: Berserk
+    spell_id: 45708
+    use_when: kill window after the stun if target did not trinket; 360 s cd
+  - name: Frenzied Regeneration
+    spell_id: 22896
+    use_when: Bear Form emergency; 300 s cd
+  - name: Barkskin (Feral)
+    spell_id: 51452
+    use_when: defensive; not castable while stunned; 600 s cd
+  - name: Dash
+    spell_id: 9821
+    use_when: chase or escape in Cat; 300 s cd
+  defensive:
+  - fight any melee in Bear Form
+  - shift / Reshift to break roots and slows
+  - save PvP trinket for Kidney Shot
+  - Nature's Grasp not castable in Bear
+  - heal only in lulls or when shifting out anyway (e.g. Frost Nova)
+  target_priority:
+  - 'BG: peel for / heal flag carriers, defend nodes (guide Battleground role)'
+  - no druid-specific kill order sourced; kill a healer you can lock out, else the lowest-armor dps (vanilla baseline)
+  reset:
+  - Travel Form out to reset ("going cheetah and running away") [[d:druid#1427344507007012975]]
+  - drink out of combat; re-Prowl before re-engaging (vanilla baseline)
+  vs_class:
+    warrior: root, kite, shift out of Hamstring, Travel Form to reset
+    rogue: be in Bear when the opener lands; trinket Kidney Shot, not the first stun
+    shaman: 'hardest matchup: Purge strips HoTs, Enhancement burst kills Cat'
+    paladin: 'losing for Feral: HoJ/Repentance lock you out of heals'
+    mage: no Pounce opener (Blink + trinket saved for Bash); Balance out-ranges Arcane
+    warlock: kill the pet, avoid Death Coil -> fear -> silence; Feral nearly always lands the opener
+    priest: dispels all DoTs/HoTs in one GCD
+    hunter: full ranged pressure even with the pet slept/rooted
+  sources:
+  - '[[d:druid#1428755592671137895]]'
+  - '[[d:druid#1473021901327827187]]'
+  - '[[d:druid#1413608701654339707]]'
+  - '[[d:druid#1333510143786352701]]'
+  - '[[d:druid#1428742043164872824]]'
+  - '[[d:druid#1459797275575587023]]'
+  - '[[d:druid#1485784482966667445]]'
+  - '[[d:druid#1486429431126819027]]'
+  - '[[d:druid#1248739088060907644]]'
+  - '[[d:pvp-general#1380875640907235431]]'
+  - '[[d:pvp-general#1427357294449922222]]'

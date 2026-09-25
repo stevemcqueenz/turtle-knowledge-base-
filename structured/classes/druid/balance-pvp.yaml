@@ -330,3 +330,65 @@ stat_priority_note: 'Stamina is the only stat the PvP sources rank, and they ran
   because you lose survivability against melee foes and never reach the dmg output of other casters ... Moonkins play best
   if they stack stam and certain set bonuses for attrition fights" [Turboman p=160309]. No numeric weight for anything else
   is given.'
+play_loop:
+  guide_section: guide/classes/druid/pvp.md#how-to-play
+  opener:
+  - Moonfire
+  - Insect Swarm
+  - 'optional: Starfire started from invisibility-trinket stealth'
+  single_target:
+  - priority: 1
+    action: Moonfire + Insect Swarm
+    condition: missing on target
+  - priority: 2
+    action: Entangling Roots
+    condition: melee on you; breaks within ~3 s of damage
+  - priority: 3
+    action: Starfire
+    condition: Nature's Grace proc and safe to cast
+  - priority: 4
+    action: Wrath
+    condition: safe to cast
+  - priority: 5
+    action: Rejuvenation / Regrowth
+    condition: between DoTs
+  control:
+  - Entangling Roots on melee, then kite
+  - Nature's Grasp (~35% proc) and Starfire stun (~15%) are not reliable
+  cooldowns:
+  - name: Nature's Swiftness
+    spell_id: 17116
+    use_when: clutch instant Healing Touch (two presses); 180 s cd
+  - name: Nature's Grasp
+    spell_id: 17329
+    use_when: before melee reaches you; not in Bear; 60 s cd
+  - name: Barkskin
+    spell_id: 22812
+    use_when: caster form before shifting; 60 s cd
+  defensive:
+  - tank hits in Bear Form when caught
+  - Moonkin Form can be Sapped
+  - priests dispel all DoTs in one GCD (no dispel protection)
+  target_priority:
+  - 'BG: peel for / heal flag carriers, defend nodes (guide Battleground role)'
+  - no druid-specific kill order sourced; kill a healer you can lock out, else the lowest-armor dps (vanilla baseline)
+  reset:
+  - Travel Form out to reset ("going cheetah and running away") [[d:druid#1427344507007012975]]
+  - drink out of combat; re-Prowl before re-engaging (vanilla baseline)
+  vs_class:
+    warrior: root, kite, shift out of Hamstring, Travel Form to reset
+    rogue: be in Bear when the opener lands; trinket Kidney Shot, not the first stun
+    shaman: 'hardest matchup: Purge strips HoTs, Enhancement burst kills Cat'
+    paladin: 'losing for Feral: HoJ/Repentance lock you out of heals'
+    mage: no Pounce opener (Blink + trinket saved for Bash); Balance out-ranges Arcane
+    warlock: kill the pet, avoid Death Coil -> fear -> silence; Feral nearly always lands the opener
+    priest: dispels all DoTs/HoTs in one GCD
+    hunter: full ranged pressure even with the pet slept/rooted
+  sources:
+  - '[[d:druid#1485047430956454019]]'
+  - '[[d:druid#1425436220485533788]]'
+  - '[[d:druid#1492151406159859824]]'
+  - '[[d:druid#1494235468852887553]]'
+  - '[[d:druid#1451522054921781351]]'
+  - '[[d:druid#1308975414366175232]]'
+  - '[[d:druid#1427685519596458005]]'

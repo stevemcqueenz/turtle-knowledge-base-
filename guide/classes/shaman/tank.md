@@ -10,6 +10,19 @@
 | Strengths | Best-in-class snap and AoE threat, strong vs casters (Grounding, resistance totems, Elemental Warding), totem utility, cheap respec to Enhancement DPS (90% shared talents [[d:shaman#1481298646464069643]]) |
 | Weaknesses | No defensive cooldown ("we are not getting a defensive cd anytime soon" [[d:shaman#1467188910021935339]]); thin mail tank itemization [[d:shaman#1493350835206226122]]; Earthen Bulwark resets at pull and after stuns; taunt can be resisted with no backup [[d:shaman#1481752700486942720]] |
 
+## How to play
+
+The level-60 tank loop with the [15/36/0 build](#standard-15360-recommended). Details: [Single target](#single-target-rotation), [AoE tanking](#aoe-tanking), [Totems](#totems-for-tanks), [Earthen Bulwark](#how-the-1181-tank-kit-works).
+
+1. **Setup:** Rockbiter Weapon on a slow one-hander, highest-armor shield, Lightning Shield up. Ask for Power Word: Shield before the pull: the bulwark starts at zero [[d:shaman#1472958174960029842]].
+2. **Pull:** Chain Lightning [[d:shaman#1486562928877633637]], or Molten Blast into Chain Lightning for more opening threat [[d:shaman#1438950665572450448]].
+3. **First GCDs:** Earth Shock the kill target, Stormstrike, Lightning Strike, auto-attack; on a pack drop Stoneclaw Totem as they arrive.
+4. **Steady threat loop:** **Earth Shock > Stormstrike > Lightning Strike** on cooldown, never stop auto-attacking (autos build the bulwark). Swap Lightning Shield to Water Shield at about two thirds mana [[d:shaman#1457483435806294106]].
+5. **Multi-mob threat:** Stoneclaw Totem + Totem of the Tides with Water Shield up, tab Earth Shock across the pack; add Fire Nova when the party AoEs; Magma after Nova only as a last resort [[d:shaman#1492243908304830534]], [[d:shaman#1492243972607705210]].
+6. **Taunt / threat recovery:** Earthshaker Slam (5 yd, 10 s cooldown, off the global cooldown), then Earth Shock. If the taunt is resisted, say so at once [[d:shaman#1481752700486942720]]. Emergency snap on a whole pack: Fire Nova + Stoneclaw (+ Goblin Sapper Charge).
+7. **Defensive rules:** you have no defensive cooldown. Use healthstones, teas and Stoneshield potions [[d:shaman#1480080749754450022]]; tea + mana potion on cooldown for mana [[d:shaman#1471201338535711015]].
+8. **Avoid:** hard-casting while being hit (it drops dodge, parry and block to zero) [[d:shaman#1445658999881207950]]; rank 1 Earth Shock for threat (it is only for cheap interrupts); Magma on every pull; Stoneskin Totem on bosses; Stoneclaw without Totemic Alignment.
+
 ## How the 1.18.1 tank kit works
 
 **Rockbiter Weapon** is your tank stance. It adds **+35% threat** to everything (since 1.18 a percentage, which is why slow weapons are now best) [[d:shaman#1424460395892048006]], [[d:shaman#1444609987270938768]].

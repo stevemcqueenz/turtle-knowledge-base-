@@ -106,16 +106,19 @@ Oils and sharpening stones can't be applied while an imbue is on the weapon [[d:
 | Race | Racials that matter | Best for |
 |---|---|---|
 | **Orc** | **Blood Fury** gives 120 AP and 60 SP, which "double dips" for shamans because shocks scale with both [[d:shaman#1439185343772360704]], [[d:shaman#1493992793268424784]]; +3 axe skill makes 315 weapon skill easy [[d:shaman#1486861889248952521]]; Feral Spirit wolves (Orc-only, "not terribly good outside of causing pushback in PvP") [[d:shaman#1468375480175693947]]; the stun-resist racial became a duration reduction ("much worse") [[d:shaman#1484654858681192479]] | Enhancement DPS, Elemental, spell tanks [[d:shaman#1467152418734211093]] |
-| **Tauren** | +5% max HP ("could be nerfed to 2.5% and nobody would drop the race") [[d:shaman#1478444318074212402]]; **War Stomp**; **Plainsrunning** (instant mount-speed run, works with Water Walking, loses a stack when hit) [[d:shaman#1467174179705978933]]; Totemic Slam (weak: "you prevent half an auto attack's worth of damage every 90 seconds") [[d:shaman#1463536890362855597]]; racial available from level 1 | Tank ("pretty unambiguously better") [[d:shaman#1485717674263711864]], PvP, leveling |
+| **Tauren** | +5% max HP ("could be nerfed to 2.5% and nobody would drop the race") [[d:shaman#1478444318074212402]]; **War Stomp**; **Plainsrunning** (instant mount-speed run, works with Water Walking, loses a stack when hit) [[d:shaman#1467174179705978933]]; Totemic Slam (weak: "you prevent half an auto attack's worth of damage every 90 seconds") [[d:shaman#1463536890362855597]]; quest chain startable from level 1, spell granted at 40 per the kit | Tank ("pretty unambiguously better") [[d:shaman#1485717674263711864]], PvP, leveling |
 | **Troll** | Berserking (haste), **Hex** (5-min CC, PvP) [[d:shaman#1440249261311787029]]; regeneration is "gimmick-tier" for shamans [[d:shaman#1460352228719329340]] | "Troll for resto" by a slight margin [[d:shaman#1460373099932422247]]; **Contested:** "I don't think troll is bis for literally any shaman spec" [[d:shaman#1488649460211777686]] |
 
-The differences are small: Orc vs Troll is about 1-2% damage at most [[d:shaman#1493994411917578240]]. Hex (Troll) and Feral Spirit (Orc) come from level-40 class quests in Orgrimmar; Tauren get Totemic Slam at level 1 [[d:shaman#1404899057154916432]].
+The differences are small: Orc vs Troll is about 1-2% damage at most [[d:shaman#1493994411917578240]]. Hex (Troll) and Feral Spirit (Orc) come from level-40 class quests in Orgrimmar; the Tauren Totemic Slam quest chain can be started at level 1, but the kit shows the spell itself is also granted at 40 [[d:shaman#1404899057154916432]].
 
 ## Professions
 
-- **Engineering + anything** for any spec: "engineering is the only one that increases dps" (sappers, AoE threat, Force Reactive Disk) [[d:shaman#1473598065050128439]], [[d:shaman#1475212516761276660]]; it also gives teleporters that, with Astral Recall, give near-mage mobility [[d:shaman#1444613431872454716]].
-- **Herbalism** for gold: lasher farming in Dire Maul East is the classic shaman farm, ~100 g+/hour on a busy server [[d:shaman#1433512536392601681]], [[d:shaman#1425738262923972720]]. Farming red and black Dragonscales is an alternative [[d:shaman#1426246866986602538]].
-- **Alchemy** has no shaman-specific perks [[d:shaman#1471890802677514324]]; **Leatherworking** "is kinda ass" unless you refuse to trade [[d:shaman#1462159463711506595]]; **Blacksmithing** makes the Fiery Chain fire-resistance mail set for tanks [[d:shaman#1476041815240216626]], [[d:shaman#1474856625297690705]].
+- **Level with two gatherers** (Herbalism + Mining or Skinning). At 60, end on **Engineering + Herbalism** [[d:shaman#1389424395415715890]]. Engineering is "the only one that increases dps" for any spec (Sappers, AoE threat, Force Reactive Disk) [[d:shaman#1473598065050128439]], [[d:shaman#1475212516761276660]]. Its teleporters plus Astral Recall give near-mage mobility [[d:shaman#1444613431872454716]].
+- **Herbalism** pays through the Dire Maul East lasher farm, ~100 g+/hour on a busy server [[d:shaman#1433512536392601681]], [[d:shaman#1425738262923972720]]. Farming red and black Dragonscales with Skinning is the alternative [[d:shaman#1426246866986602538]].
+- **Tanks:** Engineering + Jewelcrafting (BoP spell-damage items) [[d:shaman#1406797526492909569]]. Blacksmithing makes the Fiery Chain fire-resistance set [[d:shaman#1476041815240216626]], [[d:shaman#1474856625297690705]].
+- **Skip for their own sake:** Alchemy has no shaman-specific perks [[d:shaman#1471890802677514324]]. Leatherworking "is kinda ass" unless you refuse to trade [[d:shaman#1462159463711506595]].
+
+Full guide: [Professions](professions.md)
 
 ## Raid placement and utility
 

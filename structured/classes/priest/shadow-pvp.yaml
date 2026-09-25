@@ -596,3 +596,71 @@ mistakes_to_avoid:
 - Expecting Light of An'she in Shadowform (it is a Holy spell) [[d:priest#1484898033597546539]]
 - Mind Blast crits on warriors [[d:priest#1485369919938887893]]
 - Ignoring Shadow Reflector on rogues (hard counter) [[d:priest#1485553306876252212]]
+play_loop:
+  guide_section: guide/classes/priest/pvp.md#how-to-play
+  opener:
+  - 'Power Word: Shield (self) -> Vampiric Embrace -> Shadow Word: Pain'
+  single_target:
+  - priority: 1
+    action: Mind Blast
+    condition: skip on warriors unless it kills
+  - priority: 2
+    action: Mind Flay (20 yd)
+  - priority: 3
+    action: Pain Spike
+    condition: finisher
+  - priority: 4
+    action: Psychic Scream
+    condition: melee reaches you
+  - priority: 5
+    action: Silence
+    condition: aggressive caster
+  aoe:
+    targets_min: 2
+    loop:
+    - priority: 1
+      action: 'Shadow Word: Pain on each target (hard to dispel with Shadow Weaving)'
+  cooldowns:
+  - name: Psychic Scream
+    spell_id: 10890
+    use_when: melee in range
+  - name: Silence
+    spell_id: 15487
+    use_when: enemy caster casting
+  heal:
+  - VE sustain; drop form for emergency Flash Heal
+  control:
+  - Psychic Scream (spell 10890, cd 30 s) when melee reaches you; expect trinket/WotF/Fear Ward
+  - Silence (spell 15487, cd 45 s, 20 yd) on casters
+  - 'vs Fury warrior: Fear first to bait Berserker Rage, then Net'
+  defensive:
+  - 'Power Word: Shield on self before engaging'
+  - stay at range with VE sustain; stick to your group
+  - drop form for an emergency Flash Heal
+  target_priority:
+  - healers and squishy casters first
+  - Mana Burn (3 s cast) only on mana-hungry healers (resto shaman), never paladins
+  - 'keep Shadow Word: Pain on the enemy flag carrier'
+  reset:
+  - 'out of combat: drink to full, re-buff Inner Fire / Fortitude / shield (vanilla baseline)'
+  - 'while waiting vs rogues: spam rank-1 Holy Nova to avoid being opened on'
+  vs_class:
+    warrior: shield; no Mind Blast crits (rage); Fear after Berserker Rage is used, then Net
+    rogue: Fear and DoT to stop re-stealth; save trinket for the stun chain; worst matchup
+    mage: consumables vs Polymorph; Silence
+    warlock: kill or line-of-sight the pet
+    hunter: kill or line-of-sight the pet
+    druid: outlast with VE; watch cat burst
+    paladin: burst before the bubble; Dispel Magic Blessing of Freedom
+    shaman: expect Purge on shield/Fortitude and a trinket on Fear
+    priest: dispel and Silence war
+  sources:
+  - '[[d:priest#1485255007283581048]]'
+  - '[[d:priest#1485369919938887893]]'
+  - '[[d:priest#1386358252157140992]]'
+  - '[[d:pvp-general#1360941242695028736]]'
+  - '[[d:pvp-general#1432168724714229770]]'
+  - '[[d:priest#1426927342332280923]]'
+  - '[[d:priest#1465782188216942645]]'
+  - '[[d:priest#1485287934339977258]]'
+  - https://forum.turtlecraft.gg/viewtopic.php?p=143823#p143823

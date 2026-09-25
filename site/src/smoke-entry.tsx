@@ -96,6 +96,8 @@ for (const route of routes) {
     if (route === '#/instances') {
       expect('Dungeons &amp; Raids');
       for (const g of instances?.groups ?? []) expect(`id="${g.id}"`);
+      // index cards carry the map thumbnails
+      for (const p of instancePages) if (p.map) expect(`src="${escapeText(p.map.thumb.file)}"`);
       // every index row links to its page
       for (const p of instancePages) expect(`href="#/instances/${p.slug}"`);
       expectNot('.md"');
@@ -107,6 +109,14 @@ for (const route of routes) {
       for (const s of inst.sections)
         if (/boss|encounter|wing|floor|event/i.test(s.heading))
           for (const m of s.markdown.matchAll(/^###\s+(.+)$/gm)) expect(`id="${bossAnchor(m[1].trim())}"`);
+      if (inst.map) {
+        // the map: first floor's image, a tab per floor, its markers, the provenance line
+        expect('id="instance-map"');
+        expect(`src="${escapeText(inst.map.floors[0].file)}"`);
+        if (inst.map.floors.length > 1) for (const f of inst.map.floors) expect(`>${escapeText(f.label)}`);
+        for (const m of inst.map.floors[0].markers) expect(`?s=${encodeURIComponent(m.anchor)}`);
+        expect(inst.map.provenance.minimap ? 'client minimap textures' : 'server navmesh');
+      }
       expectNot('.md"');
     }
     if (guideRoutes.has(route)) {

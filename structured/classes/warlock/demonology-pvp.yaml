@@ -236,3 +236,74 @@ stat_priority_note: 'Stamina first, alongside Demonic Embrace: Soul Link splits 
   from your own through Fel Stamina (10–50%), and players aim for the demon to carry roughly 30% of the warlock''s stamina.
   Shadow spell damage next. No fuller ordering exists; the PvP epic set is reported to have lost 10% Soul Link and to have
   low armor (single source).'
+play_loop:
+  guide_section: guide/classes/warlock/pvp.md#how-to-play
+  opener:
+  - 'duel/arena: Voidwalker Sacrifice for the shield, then summon the greater demon (countered by experienced players)'
+  - Corruption + a curse (Tongues vs casters) from max range
+  single_target:
+  - priority: 1
+    action: Inferno / Demon Gate
+    condition: arena or Blood Ring, where the cooldowns reset each match
+  - priority: 2
+    action: keep the Felguard on top of yourself
+    condition: melee target
+  - priority: 3
+    action: Corruption, Curse of Agony, Drain Life
+    condition: sustain while the demon fights
+  - priority: 4
+    action: Fear / Death Coil
+    condition: melee on you
+  control:
+  - Seduction shares diminishing returns with Fear
+  - do not open Fear on an Undead player before Will of the Forsaken (3 s immunity)
+  - Death Coil as the last peel (2-min cooldown)
+  cooldowns:
+  - name: Inferno
+    spell_id: 1122
+    use_when: arena/duel only (10-min cooldown resets per match)
+  - name: Soul Link
+    spell_id: 19028
+    use_when: always on (20% since 1.18.1)
+  - name: Power Overwhelming
+    spell_id: 51714
+    use_when: burst window (14 s cooldown)
+  - name: Death Coil
+    spell_id: 17926
+    use_when: melee on you
+  - name: Fel Domination
+    spell_id: 18708
+    use_when: fast 1.5 s re-summon after the pet dies
+  defensive:
+  - Voidwalker Sacrifice shield / LIP deny a warrior rage
+  - trinket stun openers, then Death Coil
+  - Spellstone clears magic silences (shares the Healthstone cooldown)
+  target_priority:
+  - Felhunter Spell Lock on the enemy healer
+  - vs hunter kill the pet first
+  - do not bring a greater demon into battlegrounds (one Fear/Banish/Hamstring wastes it)
+  reset:
+  - Healthstone or Spellstone
+  - Fel Domination re-summon
+  - Life Tap then drink out of combat (vanilla baseline)
+  vs_class:
+    warrior: Felguard on top of you; Voidwalker shield / LIP deny rage
+    rogue: trinket -> Death Coil -> Fear; Succubus Seduce on the jump
+    feral_druid: near-unwinnable; Thorn's Pod
+    hunter: kill the pet first
+    priest: Spell Lock or Seduce + Curse of Tongues
+    paladin: Felhunter eats Hammer of Justice and Repentance; bubble after Death Coil pushes Fear into DR
+    shaman: Tremor and Grounding make Fear unreliable
+    mage: Spell Lock the first Arcane Missiles, Death Coil the second
+    warlock: kill their Succubus first
+  sources:
+  - '[[d:warlock#1465083424107790549]]'
+  - '[[d:warlock#1436498300542128168]]'
+  - '[[d:warlock#1424132713518071920]]'
+  - '[[d:warlock#1469459298722775227]]'
+  - '[[d:warlock#1424132365671993464]]'
+  - '[[d:warlock#1424135596372263005]]'
+  - '[[d:warlock#1476314060005048532]]'
+  - '[[d:warlock#1479969109692125224]]'
+  - '[[d:warlock#1454095765600473179]]'
+  - '[[d:pvp-general#1425009815138340914]]'

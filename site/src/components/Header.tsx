@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { href } from '../lib/router';
 import { classes } from '../lib/site';
 import { prefetchClass } from '../data';
-import { BookIcon, ChevronDownIcon, CloseIcon, MenuIcon, SearchIcon, TurtleIcon } from './Icons';
+import { BookIcon, ChevronDownIcon, CloseIcon, MenuIcon, SearchIcon, TurtleLogo } from './Icons';
 import { ThemeToggle } from './ThemeToggle';
 import { ClassMark } from './ui/ClassMark';
 
@@ -88,8 +88,8 @@ export function Header({ onOpenSearch, onOpenGlossary, active }: HeaderProps) {
     <header className="sticky top-0 z-40 border-b bg-bg/90 backdrop-blur-md supports-[backdrop-filter]:bg-bg/75">
       <div className="mx-auto flex h-14 max-w-7xl items-center gap-2 px-4 sm:px-6">
         <a href={href.home()} className="group mr-2 flex min-w-0 items-center gap-2.5 rounded-xl py-1" aria-label="Turtle WoW Field Manual, home">
-          <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-accent/15 text-accent ring-1 ring-accent/30">
-            <TurtleIcon className="h-5 w-5" />
+          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-accent/10 ring-1 ring-accent/25 transition-transform group-hover:-rotate-6">
+            <TurtleLogo className="h-7 w-7" />
           </span>
           <span className="min-w-0 leading-tight">
             <span className="block truncate font-serif text-[1.02rem] font-semibold tracking-tight">Turtle WoW Field Manual</span>

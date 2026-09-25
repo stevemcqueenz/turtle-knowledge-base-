@@ -10,6 +10,26 @@
 | Strengths | Garbage-disposal gearing: almost any Strength, spell power, crit or hit item works [[d:paladin#1479274925867929791]]; fun and very powerful while leveling [[d:paladin#1445893651409403924]]; SoR adds real AoE through Consecration [[d:paladin#1465407836824797339]] |
 | Weaknesses | Slow ramp (Zeal, Holy Might, Vengeance) that hurts on short fights [[d:paladin#1489508110749139024]]; heavy Windfury Totem dependence [[d:paladin#1445184143351877854]]; expensive consumables [[d:paladin#1445184716788732005]]; low health (about 3.2k for a near-BiS Ret) [[d:paladin#1452756099026653298]] |
 
+## How to play
+
+The level-60 loop to keep in your head. The details are in [Single-target rotation](#single-target-rotation), [AoE rotation](#aoe-rotation), [Mana and resources](#mana-and-resources) and [Cooldowns](#cooldowns).
+
+1. **Before the pull:** blessings, Sanctity Aura (Retribution Aura without the talent), your seal (SoR or SoC), `/startattack`. Use a swing timer.
+2. **Opener:** Exorcism at 30 yd (Undead/Demon) → Repentance at 20 yd → Judgement at 10 yd. Judge Crusader only if you are the Crusader judge, then re-seal. Holy Strike is your first strike [[d:paladin#1431384317849894992]], [[d:paladin#1483567863577968650]]. See [Opener](#opener-boss).
+3. **Single-target loop:** every auto-attack must land with a seal on [[d:paladin#1428143137552994406]].
+    1. Re-seal if the seal is missing and a swing is coming.
+    2. Strike on the shared 6 s cooldown: **Crusader Strike** while Zeal is below 3 stacks or about to expire, **Holy Strike** when Holy Might has ≤ 6 s left, otherwise whichever hits harder on this target [[d:paladin#1483566674870534344]], [[d:paladin#1495912090865504497]].
+    3. **Judgement** right after an auto lands and not just before a strike comes off cooldown, then re-seal.
+    4. Exorcism on Undead and Demons. Hammer of Wrath below 20% is optional.
+    5. Repentance on cooldown on bosses immune to its stun.
+    6. Consecration only with spare mana.
+    
+    Never let a strike sit off cooldown for long [[d:paladin#1483022433265913865]].
+4. **Cooldowns:** trinkets, Juju Flurry and haste potions two or three GCDs in, once Zeal and Vengeance are up [[d:paladin#1455493072661250152]].
+5. **AoE switch:** at **4+ targets**, Consecration on cooldown (rank 1 when mana is short), then the single-target loop on the longest-lived mob. With 2–3 targets, add Consecration only if mana allows. Stay on your Judgement of Wisdom target [[d:paladin#1485702321647124602]].
+6. **Mana:** Judgement of Wisdom is the engine. When you run short, fix it in this order and stop at the step that works: teas and potions → rank-1 Consecration → Holy Strike instead of Crusader Strike → no Judgement of Righteousness → no Consecration [[d:paladin#1489847158504165416]]. On the last trash mob, a few swings with Seal of Wisdom refill you.
+7. **Situational:** swap your seal only between swings. Divine Shield is for threat or death only. Hand of Freedom or Protection goes on raid members when it does not cost a strike.
+
 ## What changed for Retribution in 1.18.1
 
 1.18.1 went live on 2026-03-20. The class notes were announced on 2026-01-23 ([Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)) and quoted in-channel [[d:paladin#1465008595815891047]].

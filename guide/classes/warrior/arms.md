@@ -17,10 +17,36 @@ If you have the crit for Flurry, [2H Fury or Lawnmower](fury.md) does more real 
 
 **Contested: is Arms competitive?** Some players' logs say yes. One Ambershire DW Fury player saw "a large DPS increase" in MC after switching to 31/20 Arms [[d:warrior#1474286981042405529]], and VeganCourage's Arms raidmate "routinely out dps" his 2H Fury on Patchwerk, Thaddius and Loatheb [[d:warrior#1474416275252969701]]. Both reports predate 1.18.1. Since the patch, the consensus is that 2H Fury and Lawnmower are ahead ("Lawnmower and 2h fury are still better than arms") [[d:warrior#1484690162494603314]], [[d:warrior#1485299170024620223]]. At AQ40+ gear, MS Arms and 2H Fury give "very similar results depending on fight length" [[d:warrior#1492942371879391282]].
 
+## How to play
+
+A decision loop for a level-60 Arms warrior. The details are in [MS Arms](#ms-arms), [Deathcute](#deathcute), [AoE / cleave](#aoe--cleave) and [Cooldowns](#cooldowns).
+
+1. **Opener:** Charge → Sunder Armor on the first GCD → Bloodrage (Enrage) [[d:warrior#1487841821928198335]].
+2. **Single-target loop (MS Arms):**
+   1. Mortal Strike on cooldown.
+   2. Slam right after each auto with a slow two-hander: "auto -> slam -> something" [[d:warrior#1485948346420953218]].
+   3. Whirlwind on cooldown.
+   4. Overpower when it procs, if the swap won't throw away rage.
+   5. Hamstring as a cheap filler.
+   6. Heroic Strike only at the rage cap.
+   - **Deathcute:** Slam is the filler until 20%.
+3. **Execute phase:** bank rage before 20% and Execute from 20% to 0 [[d:warrior#1494705955731013692]]. Precision Cut turns extra rage into damage. Deathcute: Death Wish + Bloodrage, then spam Execute.
+4. **Cooldowns:**
+   - **Recklessness** in the Execute phase; it shares a 30-minute cooldown with Shield Wall and Retaliation [[d:warrior#1462506610068029502]].
+   - **Bloodrage** on the pull, and again into Execute on fights of 1:15 or longer.
+   - **Death Wish** (Deathcute) for the Execute phase.
+5. **AoE switch (2+ targets):**
+   1. Sweeping Strikes first, in Battle Stance.
+   2. Then Mortal Strike, Whirlwind and Cleave.
+   3. Don't spend Sweeping Strikes on low-damage buttons.
+6. **Resource rule:**
+   - A stance swap to Overpower costs 50+ rage about 80–90% of the time [[d:warrior#1486211683738456225]], so only swap with little rage banked.
+   - The Heroic Strike swing makes no rage.
+
 ## What changed in 1.18.1
 
 - **Precision Cut** now raises the damage per extra rage point spent on Execute by 25/50/75%. It swapped tree positions with Boundless Anger, so Precision Cut now requires 3/3 Boundless Anger [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071), [[d:warrior#1487614924757799136]]. Result: "You drop MoA for enrage now, precision cut got big buffed" [[d:warrior#1484972916595757106]], and "arms got actually good executes back" [[d:warrior#1481504953888542905]].
-- **Execute** costs 10 rage instead of 15, and the freed rage becomes damage [[d:warrior#1467491606910472306]]. It scales with Attack Power, armor penetration and rage spent, not with weapon damage [[d:warrior#1484660616991080541]], [[d:warrior#1485080360978092143]].
+- **Execute:** **Contested:** spell data still lists all ranks at 15 rage, but players report the cost dropped to 10, with the freed rage becoming damage [[d:warrior#1467491606910472306]]. It scales with Attack Power, armor penetration and rage spent, not with weapon damage [[d:warrior#1484660616991080541]], [[d:warrior#1485080360978092143]].
 - **Sweeping Strikes** (January hotfix) no longer double-dips damage modifiers. It hits for 20% of the damage and cannot crit [[d:warrior#1463776864144199833]], [[d:warrior#1485394033395105993]].
 - **Hamstring** has no cooldown again [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071).
 - The **T1 3-piece** and **T3 4-piece** (+4% ability crit damage) changes apply to Arms as well [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071).

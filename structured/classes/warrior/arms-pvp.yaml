@@ -743,3 +743,114 @@ discord:
 stat_priority_note: 'Weapon top-end damage is not a character stat and so is not in the list, but it ranks second here: "your
   base damage on weapon like BRE/MoM/DEI/severance should be more than enough" [Springboards p=162626]; "you need an endgame
   weapon" [Terrydavis p=171279].'
+play_loop:
+  guide_section: guide/classes/warrior/pvp.md#how-to-play
+  opener:
+  - pick a low-armor target
+  - 'Arms/2H: Charge -> auto -> Slam + Mortal Strike'
+  - 'DW Fury: Charge -> Hamstring -> Bloodthirst/Whirlwind (vanilla baseline)'
+  - keep Bloodrage through a stance swap for Intercept
+  - '2H Fury: start in Berserker Stance only while Berserker Rage is ready, else stay in Battle Stance'
+  single_target:
+  - Hamstring up (no cooldown)
+  - Mortal Strike / Bloodthirst on cooldown
+  - Whirlwind
+  - Rend on plate (bleeds ignore armor)
+  - no Sunder stacking
+  - 'target < 20%: Bloodrage + Death Wish -> Execute'
+  aoe:
+    targets_min: 2
+    loop:
+    - Piercing Howl on groups
+    - Whirlwind
+    - Sweeping Strikes if specced
+  control:
+  - no Charge -> Intercept within 5 s (shared stun DR)
+  - Intercept shares its cooldown with Intervene
+  - Pummel and Shield Bash share a cooldown; Pummel casters and healers
+  - Disarm melee (60 s); Weapon Chain makes a target immune
+  - Piercing Howl on groups
+  - Deep Wounds ticks break your own Intimidating Shout
+  cooldowns:
+  - name: Death Wish
+    spell_id: 12328
+    cd_s: 180
+    use_when: target < 20% for the Execute kill; also pushes through Fear
+  - name: Berserker Rage
+    spell_id: 18499
+    cd_s: 30
+    use_when: break fear; with Improved Berserker Rage also roots (save vs mages)
+  - name: Intercept
+    spell_id: 20617
+    cd_s: 30
+    use_when: gap close, not within 5 s of Charge
+  - name: Disarm
+    spell_id: 676
+    cd_s: 60
+    use_when: melee without Weapon Chain; with Intercept vs hunters
+  - name: Intimidating Shout
+    spell_id: 5246
+    cd_s: 180
+    use_when: 'reset: Fear + bandage'
+  - name: Retaliation
+    spell_id: 20230
+    cd_s: 1800
+    use_when: melee on you (procs off dodges too)
+  - name: Shield Wall
+    spell_id: 871
+    cd_s: 1800
+    use_when: shield equipped only; shares cooldown with Recklessness
+  - name: Intervene
+    spell_id: 45595
+    cd_s: 30
+    use_when: healer under pressure
+  defensive:
+  - Berserker Rage breaks fear (vanilla baseline); Improved Berserker Rage breaks roots
+  - 'Arms has no root break: Free Action Potions'
+  - reflector trinkets + Zanza vs casters; expect LIP when you Charge
+  - Shield Wall only with a shield
+  target_priority:
+  - low-armor targets first; ignore bears and plate
+  - hunt rogues; kamikaze pushes on healers while the team works
+  - Intervene / peel your healer; with a healer stay in melee
+  reset:
+  - 'out of cooldowns: Intimidating Shout (Fear) + bandage, then kite'
+  - do not facetank a melee specialist (Enhancement)
+  vs_class:
+    shaman: weakest matchup; Disarm Enhancement, stamina, Fear + bandage, kite
+    paladin: weakest matchup; Berserker Rage breaks Repentance
+    rogue: stunlocks beat you; Arms Overpower helps
+    hunter: Intercept + Disarm together, Piercing Howl; reflect the opener Explosive Trap
+    priest: they bait Berserker Rage with Fear then Net; Death Wish through Fear
+    mage: save the Improved Berserker Rage root break
+    warlock: strongest matchup
+  sources:
+  - '[[d:warrior#1489648607278661744]]'
+  - '[[d:warrior#1494704075055567070]]'
+  - '[[d:warrior#1496077451577528390]]'
+  - '[[d:warrior#1461331450237423836]]'
+  - '[[d:warrior#1489647195371077812]]'
+  - '[[d:warrior#1490662215882375268]]'
+  - '[[d:warrior#1465395209444524246]]'
+  - '[[d:warrior#1454776559570518109]]'
+  - '[[d:warrior#1485893615937916949]]'
+  - '[[d:warrior#1460700183967957192]]'
+  - '[[d:warrior#1465395113869049946]]'
+  - '[[d:warrior#1321684935077265508]]'
+  - '[[d:warrior#1446923546918916287]]'
+  - '[[d:warrior#1465796531096518920]]'
+  - '[[d:warrior#1494705065603371009]]'
+  - '[[d:warrior#1462506610068029502]]'
+  - '[[d:warrior#1489649742718697623]]'
+  - '[[d:warrior#1449212320315084953]]'
+  - '[[d:warrior#1455234542141968621]]'
+  - '[[d:warrior#1435065004071194836]]'
+  - '[[d:pvp-general#1431777899517710387]]'
+  - '[[d:pvp-general#1432169367419883642]]'
+  - '[[d:pvp-general#1433037585055485973]]'
+  - '[[d:pvp-general#1432945315501183097]]'
+  - '[[d:pvp-general#1429595291362918493]]'
+  - '[[d:pvp-general#1433888687392817154]]'
+  - '[[d:pvp-general#1429582078873440357]]'
+  - '[[d:pvp-general#1429583147233968230]]'
+  - '[[d:pvp-general#1432168724714229770]]'

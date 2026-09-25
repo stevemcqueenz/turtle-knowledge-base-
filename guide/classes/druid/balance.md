@@ -10,6 +10,17 @@
 | Strengths | Loatheb, Rupturan, Four Horsemen and Gothik; competitive on Kruul, Echo and KT [[d:druid#1446118474593341470]], [[d:druid#1474319874485653514]]. Hurricane with the T3.5 3-piece is strong AoE [[d:druid#1444720489019867177]]. Mobile solo farmer and a real dungeon healer. |
 | Weaknesses | RNG: "Moonkin is a slot machine simulator" [[d:druid#1442255156631568575]]; long Starfire casts after 1.18.1 [[d:druid#1484673452152721519]]; no burst cooldown; thin hit on tier gear; Scythe of Elune is close to mandatory [[d:druid#1468228242426040433]] |
 
+## How to play
+
+The level-60 loop; details and sources in the sections linked. For leveling, see [Gameplay by level](leveling.md#gameplay-by-level).
+
+1. **Opener:** pre-cast **Starfire** on the kill target as the tank pulls. If it grants Nature Eclipse, go straight to Wrath; otherwise apply the DoTs. With a fresh tank, open with **Insect Swarm** instead ([rotation](#single-target-rotation)).
+2. **Single-target loop:** **Moonfire** if missing → **Insect Swarm** if missing → Arcane Eclipse: **Starfire** (reapply Moonfire when less time is left than one Starfire) → Nature Eclipse: **Wrath** (refresh Insect Swarm only in the last GCD) → no Eclipse: alternate Starfire and Wrath to fish. Let a cast finish when an Eclipse procs mid-cast.
+3. **Cooldowns:** there is no burst cooldown. Use on-use trinkets on the first crit of a burn window; Innervate yourself when low ([cooldowns](#cooldowns-mana-and-utility)).
+4. **AoE switch:** fast-dying trash: Moonfire only. 2-3 mobs: DoT the ones that will live. **3-4+ mobs:** pre-cast Starfire for a Nature Eclipse, then **Hurricane**. Do not DoT more than 2-3 mobs first ([AoE](#aoe)).
+5. **Resource rule:** Nordanaar Herbal Tea and Major Mana Potion on cooldown, plus Mageblood. Skip Faerie Fire on short trash ([mana](#cooldowns-mana-and-utility)).
+6. **Movement and situational:** Moonfire while moving and to finish a mob at ~1%. One Balance druid keeps Faerie Fire up; keep Emerald Blessing active; decurse. Shift out of Moonkin Form for Rebirth and Tranquility.
+
 ## What 1.18.1 changed
 
 | Change | Detail | Effect |

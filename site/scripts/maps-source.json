@@ -1,0 +1,5293 @@
+{
+ "generated": "tools/maps/extract_maps.py",
+ "provenance": {
+  "minimap": "Turtle WoW 1.18.1 client minimap textures",
+  "floorplan": "server navmesh (walkable area)"
+ },
+ "pages": {
+  "ahnqiraj-temple": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Interior",
+     "file": "maps/ahnqiraj-temple/f1.webp",
+     "width": 1529,
+     "height": 1600,
+     "kind": "minimap",
+     "mapId": 531,
+     "map": "Ahn'Qiraj Temple",
+     "transform": {
+      "xmax": -7856.569,
+      "ymax": 2239.258,
+      "s": 1.064184
+     },
+     "bytes": 189874,
+     "pois": [
+      {
+       "name": "Obsidian Eradicator",
+       "entry": 15262,
+       "rank": 1,
+       "x": 0.1193,
+       "y": 0.3452
+      },
+      {
+       "name": "Emperor Vek'lor",
+       "entry": 15276,
+       "rank": 3,
+       "x": 0.72,
+       "y": 0.6767
+      },
+      {
+       "name": "Emperor Vek'nilash",
+       "entry": 15275,
+       "rank": 3,
+       "x": 0.7372,
+       "y": 0.7732
+      },
+      {
+       "name": "The Prophet Skeram",
+       "entry": 15263,
+       "rank": 3,
+       "x": 0.1087,
+       "y": 0.3237
+      },
+      {
+       "name": "The Master's Eye",
+       "entry": 15963,
+       "rank": 3,
+       "x": 0.6987,
+       "y": 0.7291
+      },
+      {
+       "name": "Princess Huhuran",
+       "entry": 15509,
+       "rank": 3,
+       "x": 0.3777,
+       "y": 0.4493
+      },
+      {
+       "name": "Viscidus",
+       "entry": 15299,
+       "rank": 3,
+       "x": 0.9138,
+       "y": 0.0914
+      },
+      {
+       "name": "Fankriss the Unyielding",
+       "entry": 15510,
+       "rank": 3,
+       "x": 0.7256,
+       "y": 0.1522
+      },
+      {
+       "name": "Sartura's Royal Guard",
+       "entry": 15984,
+       "rank": 1,
+       "x": 0.4152,
+       "y": 0.3183
+      },
+      {
+       "name": "Battleguard Sartura",
+       "entry": 15516,
+       "rank": 3,
+       "x": 0.4107,
+       "y": 0.3186
+      },
+      {
+       "name": "Lord Kri",
+       "entry": 15511,
+       "rank": 3,
+       "x": 0.0448,
+       "y": 0.4719
+      },
+      {
+       "name": "Princess Yauj",
+       "entry": 15543,
+       "rank": 3,
+       "x": 0.0447,
+       "y": 0.4859
+      },
+      {
+       "name": "Arygos",
+       "entry": 15380,
+       "rank": 3,
+       "x": 0.1457,
+       "y": 0.5366
+      },
+      {
+       "name": "Caelestrasz",
+       "entry": 15379,
+       "rank": 3,
+       "x": 0.1509,
+       "y": 0.5348
+      },
+      {
+       "name": "Merithra of the Dream",
+       "entry": 15378,
+       "rank": 3,
+       "x": 0.152,
+       "y": 0.5292
+      },
+      {
+       "name": "C'Thun",
+       "entry": 15727,
+       "rank": 3,
+       "x": 0.1756,
+       "y": 0.4793
+      },
+      {
+       "name": "Kandrostrasz",
+       "entry": 15503,
+       "rank": 1,
+       "x": 0.2098,
+       "y": 0.4282
+      },
+      {
+       "name": "Vethsera",
+       "entry": 15504,
+       "rank": 1,
+       "x": 0.2131,
+       "y": 0.4278
+      },
+      {
+       "name": "Andorgos",
+       "entry": 15502,
+       "rank": 1,
+       "x": 0.2136,
+       "y": 0.4253
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/ahnqiraj-temple/thumb.webp",
+   "thumbWidth": 210,
+   "thumbHeight": 220
+  },
+  "black-morass": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Outside",
+     "file": "maps/black-morass/f1.webp",
+     "width": 1600,
+     "height": 1446,
+     "kind": "minimap",
+     "mapId": 269,
+     "map": "Caverns of Time",
+     "transform": {
+      "xmax": -1487.54,
+      "ymax": 7532.95,
+      "s": 1.95003
+     },
+     "bytes": 128410,
+     "pois": [
+      {
+       "name": "Rotmaw",
+       "entry": 65122,
+       "rank": 1,
+       "x": 0.149,
+       "y": 0.8197
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "Interior",
+     "file": "maps/black-morass/f2.webp",
+     "width": 1004,
+     "height": 1600,
+     "kind": "minimap",
+     "mapId": 269,
+     "map": "Caverns of Time",
+     "transform": {
+      "xmax": -1232.022,
+      "ymax": 7176.104,
+      "s": 1.124385
+     },
+     "bytes": 60868,
+     "pois": [
+      {
+       "name": "Bronze Defender",
+       "entry": 65126,
+       "rank": 1,
+       "x": 0.5546,
+       "y": 0.4268
+      },
+      {
+       "name": "Medivh",
+       "entry": 50105,
+       "rank": 3,
+       "x": 0.0594,
+       "y": 0.5864
+      },
+      {
+       "name": "Injured Bronze Defender",
+       "entry": 65128,
+       "rank": 1,
+       "x": 0.5591,
+       "y": 0.444
+      },
+      {
+       "name": "Infinite Rift-Lord",
+       "entry": 65105,
+       "rank": 1,
+       "x": 0.3253,
+       "y": 0.1977
+      },
+      {
+       "name": "Time-Lord Epochronos",
+       "entry": 65116,
+       "rank": 1,
+       "x": 0.215,
+       "y": 0.1473
+      },
+      {
+       "name": "Chronar",
+       "entry": 65113,
+       "rank": 1,
+       "x": 0.2202,
+       "y": 0.1509
+      },
+      {
+       "name": "Drifting Avatar of Sand",
+       "entry": 61316,
+       "rank": 1,
+       "x": 0.2849,
+       "y": 0.0758
+      },
+      {
+       "name": "Antnormi",
+       "entry": 65125,
+       "rank": 3,
+       "x": 0.0609,
+       "y": 0.5586
+      },
+      {
+       "name": "Mossheart",
+       "entry": 65124,
+       "rank": 1,
+       "x": 0.3047,
+       "y": 0.4556
+      },
+      {
+       "name": "Epidamu",
+       "entry": 61575,
+       "rank": 1,
+       "x": 0.1924,
+       "y": 0.1218
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/black-morass/thumb.webp",
+   "thumbWidth": 244,
+   "thumbHeight": 220
+  },
+  "blackfathom-deeps": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Map",
+     "file": "maps/blackfathom-deeps/f1.webp",
+     "width": 1600,
+     "height": 1418,
+     "kind": "minimap",
+     "mapId": 48,
+     "map": "Blackfathom Deeps",
+     "transform": {
+      "xmax": -70.846,
+      "ymax": 429.996,
+      "s": 1.721356
+     },
+     "bytes": 80140,
+     "pois": [
+      {
+       "name": "Barbed Crustacean",
+       "entry": 4823,
+       "rank": 1,
+       "x": 0.5877,
+       "y": 0.8949
+      },
+      {
+       "name": "Gelihast",
+       "entry": 6243,
+       "rank": 1,
+       "x": 0.4197,
+       "y": 0.4161
+      },
+      {
+       "name": "Old Serra'kis",
+       "entry": 4830,
+       "rank": 1,
+       "x": 0.6449,
+       "y": 0.8205
+      },
+      {
+       "name": "Lorgus Jett",
+       "entry": 12902,
+       "rank": 1,
+       "x": 0.5056,
+       "y": 0.4675
+      },
+      {
+       "name": "Lady Sarevess",
+       "entry": 4831,
+       "rank": 1,
+       "x": 0.0221,
+       "y": 0.2849
+      },
+      {
+       "name": "Ghamoo-ra",
+       "entry": 4887,
+       "rank": 1,
+       "x": 0.2347,
+       "y": 0.4511
+      },
+      {
+       "name": "Twilight Lord Kelris",
+       "entry": 4832,
+       "rank": 1,
+       "x": 0.63,
+       "y": 0.908
+      },
+      {
+       "name": "Aku'mai",
+       "entry": 4829,
+       "rank": 1,
+       "x": 0.9509,
+       "y": 0.944
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/blackfathom-deeps/thumb.webp",
+   "thumbWidth": 248,
+   "thumbHeight": 220
+  },
+  "blackrock-depths": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Lower level",
+     "file": "maps/blackrock-depths/f1.webp",
+     "width": 1452,
+     "height": 1600,
+     "kind": "minimap",
+     "mapId": 230,
+     "map": "Blackrock Depths",
+     "transform": {
+      "xmax": 1492.677,
+      "ymax": 271.286,
+      "s": 1.290323
+     },
+     "bytes": 151672,
+     "pois": [
+      {
+       "name": "Tobias Seecher",
+       "entry": 9679,
+       "rank": 1,
+       "x": 0.4999,
+       "y": 0.7622
+      },
+      {
+       "name": "Marshal Windsor",
+       "entry": 9023,
+       "rank": 1,
+       "x": 0.4415,
+       "y": 0.9487
+      },
+      {
+       "name": "Emperor Dagran Thaurissan",
+       "entry": 9019,
+       "rank": 1,
+       "x": 0.9801,
+       "y": 0.0907
+      },
+      {
+       "name": "Anvilrage Captain",
+       "entry": 8903,
+       "rank": 1,
+       "x": 0.9078,
+       "y": 0.112
+      },
+      {
+       "name": "Crest Killer",
+       "entry": 9680,
+       "rank": 1,
+       "x": 0.4501,
+       "y": 0.7488
+      },
+      {
+       "name": "Dughal Stormwing",
+       "entry": 9022,
+       "rank": 1,
+       "x": 0.313,
+       "y": 0.9817
+      },
+      {
+       "name": "Shill Dinger",
+       "entry": 9678,
+       "rank": 1,
+       "x": 0.3871,
+       "y": 0.7014
+      },
+      {
+       "name": "Kharan Mighthammer",
+       "entry": 9021,
+       "rank": 1,
+       "x": 0.428,
+       "y": 0.8666
+      },
+      {
+       "name": "Ograbisi",
+       "entry": 9677,
+       "rank": 1,
+       "x": 0.3767,
+       "y": 0.7337
+      },
+      {
+       "name": "Magmus",
+       "entry": 9938,
+       "rank": 1,
+       "x": 0.827,
+       "y": 0.0903
+      },
+      {
+       "name": "High Interrogator Gerstahn",
+       "entry": 9018,
+       "rank": 1,
+       "x": 0.371,
+       "y": 0.9533
+      },
+      {
+       "name": "Princess Moira Bronzebeard",
+       "entry": 8929,
+       "rank": 1,
+       "x": 0.98,
+       "y": 0.0871
+      },
+      {
+       "name": "Ribbly Screwspigot",
+       "entry": 9543,
+       "rank": 1,
+       "x": 0.3957,
+       "y": 0.5045
+      },
+      {
+       "name": "Ribbly's Crony",
+       "entry": 10043,
+       "rank": 1,
+       "x": 0.3936,
+       "y": 0.504
+      },
+      {
+       "name": "Phalanx",
+       "entry": 9502,
+       "rank": 1,
+       "x": 0.4455,
+       "y": 0.52
+      },
+      {
+       "name": "Mistress Nagmara",
+       "entry": 9500,
+       "rank": 1,
+       "x": 0.42,
+       "y": 0.5045
+      },
+      {
+       "name": "Houndmaster Grebmar",
+       "entry": 9319,
+       "rank": 1,
+       "x": 0.3964,
+       "y": 0.7137
+      },
+      {
+       "name": "General Angerforge",
+       "entry": 9033,
+       "rank": 1,
+       "x": 0.2221,
+       "y": 0.6777
+      },
+      {
+       "name": "Wrath Hammer Construct",
+       "entry": 8907,
+       "rank": 1,
+       "x": 0.2236,
+       "y": 0.5166
+      },
+      {
+       "name": "Golem Lord Argelmach",
+       "entry": 8983,
+       "rank": 1,
+       "x": 0.2266,
+       "y": 0.5209
+      },
+      {
+       "name": "Fineous Darkvire",
+       "entry": 9056,
+       "rank": 1,
+       "x": 0.5465,
+       "y": 0.4269
+      },
+      {
+       "name": "Commander Gor'shak",
+       "entry": 9020,
+       "rank": 1,
+       "x": 0.3995,
+       "y": 0.9036
+      },
+      {
+       "name": "Bael'Gar",
+       "entry": 9016,
+       "rank": 1,
+       "x": 0.0772,
+       "y": 0.6373
+      },
+      {
+       "name": "Plugger Spazzring",
+       "entry": 9499,
+       "rank": 1,
+       "x": 0.3992,
+       "y": 0.4873
+      },
+      {
+       "name": "Lord Incendius",
+       "entry": 9017,
+       "rank": 1,
+       "x": 0.4784,
+       "y": 0.4832
+      },
+      {
+       "name": "Ambassador Flamelash",
+       "entry": 9156,
+       "rank": 1,
+       "x": 0.4535,
+       "y": 0.3895
+      },
+      {
+       "name": "Doom'rel",
+       "entry": 9039,
+       "rank": 1,
+       "x": 0.4918,
+       "y": 0.1706
+      },
+      {
+       "name": "Hate'rel",
+       "entry": 9034,
+       "rank": 1,
+       "x": 0.4099,
+       "y": 0.1988
+      },
+      {
+       "name": "Gloom'rel",
+       "entry": 9037,
+       "rank": 1,
+       "x": 0.4598,
+       "y": 0.2145
+      },
+      {
+       "name": "Dope'rel",
+       "entry": 9040,
+       "rank": 1,
+       "x": 0.5002,
+       "y": 0.2066
+      },
+      {
+       "name": "Vile'rel",
+       "entry": 9036,
+       "rank": 1,
+       "x": 0.4186,
+       "y": 0.1777
+      },
+      {
+       "name": "Anger'rel",
+       "entry": 9035,
+       "rank": 1,
+       "x": 0.4372,
+       "y": 0.2239
+      },
+      {
+       "name": "Seeth'rel",
+       "entry": 9038,
+       "rank": 1,
+       "x": 0.4662,
+       "y": 0.1662
+      },
+      {
+       "name": "Panzor the Invincible",
+       "entry": 8923,
+       "rank": 2,
+       "x": 0.3859,
+       "y": 0.2881
+      },
+      {
+       "name": "Warder Stilgiss",
+       "entry": 9041,
+       "rank": 2,
+       "x": 0.5452,
+       "y": 0.5398
+      },
+      {
+       "name": "Verek",
+       "entry": 9042,
+       "rank": 2,
+       "x": 0.5436,
+       "y": 0.5411
+      },
+      {
+       "name": "Lord Roccor",
+       "entry": 9025,
+       "rank": 2,
+       "x": 0.4787,
+       "y": 0.7074
+      },
+      {
+       "name": "Pyromancer Loregrain",
+       "entry": 9024,
+       "rank": 2,
+       "x": 0.4578,
+       "y": 0.7762
+      },
+      {
+       "name": "Darneg Darkbeard",
+       "entry": 61139,
+       "rank": 1,
+       "x": 0.5217,
+       "y": 0.574
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "Upper level",
+     "file": "maps/blackrock-depths/f2.webp",
+     "width": 1162,
+     "height": 1096,
+     "kind": "minimap",
+     "mapId": 230,
+     "map": "Blackrock Depths",
+     "transform": {
+      "xmax": 1108.741,
+      "ymax": 34.909,
+      "s": 2.0
+     },
+     "bytes": 68186,
+     "pois": []
+    }
+   ],
+   "thumb": "maps/blackrock-depths/thumb.webp",
+   "thumbWidth": 200,
+   "thumbHeight": 220
+  },
+  "blackwing-lair": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Lower level",
+     "file": "maps/blackwing-lair/f1.webp",
+     "width": 1347,
+     "height": 1098,
+     "kind": "minimap",
+     "mapId": 469,
+     "map": "Blackwing Lair",
+     "transform": {
+      "xmax": -7296.66,
+      "ymax": -676.735,
+      "s": 2.0
+     },
+     "bytes": 70208,
+     "pois": [
+      {
+       "name": "Lord Victor Nefarius",
+       "entry": 10162,
+       "rank": 3,
+       "x": 0.8689,
+       "y": 0.5312
+      },
+      {
+       "name": "Broodlord Lashlayer",
+       "entry": 12017,
+       "rank": 3,
+       "x": 0.5323,
+       "y": 0.505
+      },
+      {
+       "name": "Razorgore the Untamed",
+       "entry": 12435,
+       "rank": 3,
+       "x": 0.611,
+       "y": 0.501
+      },
+      {
+       "name": "Grethok the Controller",
+       "entry": 12557,
+       "rank": 1,
+       "x": 0.5142,
+       "y": 0.5835
+      },
+      {
+       "name": "Blackwing Guardsman",
+       "entry": 14456,
+       "rank": 1,
+       "x": 0.5128,
+       "y": 0.5946
+      },
+      {
+       "name": "Firemaw",
+       "entry": 11983,
+       "rank": 3,
+       "x": 0.5033,
+       "y": 0.382
+      },
+      {
+       "name": "Master Elemental Shaper Krixix",
+       "entry": 14401,
+       "rank": 1,
+       "x": 0.4311,
+       "y": 0.1854
+      },
+      {
+       "name": "Ebonroc",
+       "entry": 14601,
+       "rank": 3,
+       "x": 0.4715,
+       "y": 0.1121
+      },
+      {
+       "name": "Flamegor",
+       "entry": 11981,
+       "rank": 3,
+       "x": 0.5261,
+       "y": 0.2027
+      },
+      {
+       "name": "Chromaggus",
+       "entry": 14020,
+       "rank": 3,
+       "x": 0.524,
+       "y": 0.3983
+      },
+      {
+       "name": "Vaelastrasz the Corrupt",
+       "entry": 13020,
+       "rank": 3,
+       "x": 0.5057,
+       "y": 0.3381
+      },
+      {
+       "name": "Tortured Drake",
+       "entry": 13976,
+       "rank": 1,
+       "x": 0.4169,
+       "y": 0.0834
+      },
+      {
+       "name": "Death Talon Captain",
+       "entry": 12467,
+       "rank": 1,
+       "x": 0.3762,
+       "y": 0.5349
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "Upper level",
+     "file": "maps/blackwing-lair/f2.webp",
+     "width": 965,
+     "height": 777,
+     "kind": "minimap",
+     "mapId": 469,
+     "map": "Blackwing Lair",
+     "transform": {
+      "xmax": -7349.114,
+      "ymax": -687.811,
+      "s": 2.0
+     },
+     "bytes": 46306,
+     "pois": []
+    }
+   ],
+   "thumb": "maps/blackwing-lair/thumb.webp",
+   "thumbWidth": 270,
+   "thumbHeight": 220
+  },
+  "crescent-grove": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Map",
+     "file": "maps/crescent-grove/f1.webp",
+     "width": 950,
+     "height": 1600,
+     "kind": "minimap",
+     "mapId": 802,
+     "map": "Crescent Grove",
+     "transform": {
+      "xmax": 631.364,
+      "ymax": 375.241,
+      "s": 1.123201
+     },
+     "bytes": 103654,
+     "pois": [
+      {
+       "name": "Grovetender Engryss",
+       "entry": 92107,
+       "rank": 1,
+       "x": 0.6189,
+       "y": 0.2596
+      },
+      {
+       "name": "Elder 'One Eye'",
+       "entry": 92105,
+       "rank": 1,
+       "x": 0.6309,
+       "y": 0.2563
+      },
+      {
+       "name": "Elder Blackmaw",
+       "entry": 92106,
+       "rank": 1,
+       "x": 0.606,
+       "y": 0.2588
+      },
+      {
+       "name": "Keeper Ranathos",
+       "entry": 92109,
+       "rank": 1,
+       "x": 0.3634,
+       "y": 0.3572
+      },
+      {
+       "name": "High Priestess A'lathea",
+       "entry": 92108,
+       "rank": 1,
+       "x": 0.8075,
+       "y": 0.6601
+      },
+      {
+       "name": "Speaker Gnarr",
+       "entry": 92130,
+       "rank": 1,
+       "x": 0.5426,
+       "y": 0.1856
+      },
+      {
+       "name": "Warden Liferoot",
+       "entry": 92128,
+       "rank": 1,
+       "x": 0.5571,
+       "y": 0.4475
+      },
+      {
+       "name": "Warden Treeshade",
+       "entry": 92129,
+       "rank": 1,
+       "x": 0.4114,
+       "y": 0.4788
+      },
+      {
+       "name": "Fenektis the Deceiver",
+       "entry": 92111,
+       "rank": 1,
+       "x": 0.37,
+       "y": 0.8013
+      },
+      {
+       "name": "Master Raxxieth",
+       "entry": 92110,
+       "rank": 1,
+       "x": 0.9054,
+       "y": 0.906
+      },
+      {
+       "name": "Inuvias Brightlance",
+       "entry": 92133,
+       "rank": 1,
+       "x": 0.9172,
+       "y": 0.8105
+      },
+      {
+       "name": "Swordsman Daelus",
+       "entry": 92132,
+       "rank": 1,
+       "x": 0.9124,
+       "y": 0.812
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/crescent-grove/thumb.webp",
+   "thumbWidth": 130,
+   "thumbHeight": 220
+  },
+  "deadmines": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Interior",
+     "file": "maps/deadmines/f1.webp",
+     "width": 1001,
+     "height": 699,
+     "kind": "minimap",
+     "mapId": 36,
+     "map": "Deadmines",
+     "transform": {
+      "xmax": 25.184,
+      "ymax": -336.618,
+      "s": 2.0
+     },
+     "bytes": 32456,
+     "pois": [
+      {
+       "name": "Defias Watchman",
+       "entry": 1725,
+       "rank": 1,
+       "x": 0.2266,
+       "y": 0.5978
+      },
+      {
+       "name": "Rhahk'Zor",
+       "entry": 644,
+       "rank": 1,
+       "x": 0.223,
+       "y": 0.624
+      },
+      {
+       "name": "Gilnid",
+       "entry": 1763,
+       "rank": 1,
+       "x": 0.4752,
+       "y": 0.5795
+      },
+      {
+       "name": "Sneed's Shredder",
+       "entry": 642,
+       "rank": 1,
+       "x": 0.3524,
+       "y": 0.9002
+      },
+      {
+       "name": "Defias Wizard",
+       "entry": 4418,
+       "rank": 1,
+       "x": 0.4926,
+       "y": 0.8513
+      },
+      {
+       "name": "Edwin VanCleef",
+       "entry": 639,
+       "rank": 1,
+       "x": 0.9656,
+       "y": 0.322
+      },
+      {
+       "name": "Mr. Smite",
+       "entry": 646,
+       "rank": 1,
+       "x": 0.9204,
+       "y": 0.1374
+      },
+      {
+       "name": "Miner Johnson",
+       "entry": 3586,
+       "rank": 1,
+       "x": 0.3906,
+       "y": 0.5084
+      },
+      {
+       "name": "Captain Greenskin",
+       "entry": 647,
+       "rank": 1,
+       "x": 0.9418,
+       "y": 0.2694
+      },
+      {
+       "name": "Defias Chemist",
+       "entry": 61959,
+       "rank": 1,
+       "x": 0.3206,
+       "y": 0.3613
+      },
+      {
+       "name": "Masterpiece Harvester",
+       "entry": 61963,
+       "rank": 1,
+       "x": 0.4664,
+       "y": 0.2635
+      },
+      {
+       "name": "Jared Voss",
+       "entry": 61961,
+       "rank": 1,
+       "x": 0.3781,
+       "y": 0.3154
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "Outside",
+     "file": "maps/deadmines/f2.webp",
+     "width": 796,
+     "height": 698,
+     "kind": "minimap",
+     "mapId": 36,
+     "map": "Deadmines",
+     "transform": {
+      "xmax": 80.077,
+      "ymax": -601.324,
+      "s": 2.0
+     },
+     "bytes": 27744,
+     "pois": [
+      {
+       "name": "Cookie",
+       "entry": 645,
+       "rank": 1,
+       "x": 0.6342,
+       "y": 0.4231
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/deadmines/thumb.webp",
+   "thumbWidth": 315,
+   "thumbHeight": 220
+  },
+  "dire-maul": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Lower level",
+     "file": "maps/dire-maul/f1.webp",
+     "width": 1600,
+     "height": 1140,
+     "kind": "minimap",
+     "mapId": 429,
+     "map": "Dire Maul",
+     "transform": {
+      "xmax": 934.758,
+      "ymax": 986.447,
+      "s": 0.858369
+     },
+     "bytes": 144536,
+     "pois": [
+      {
+       "name": "Zevrim Thornhoof",
+       "entry": 11490,
+       "rank": 1,
+       "x": 0.7696,
+       "y": 0.7302
+      },
+      {
+       "name": "Captain Kromcrush",
+       "entry": 14325,
+       "rank": 1,
+       "x": 0.2708,
+       "y": 0.2313
+      },
+      {
+       "name": "Cho'Rush the Observer",
+       "entry": 14324,
+       "rank": 1,
+       "x": 0.2675,
+       "y": 0.0748
+      },
+      {
+       "name": "Lorekeeper Kildrath",
+       "entry": 14383,
+       "rank": 1,
+       "x": 0.2912,
+       "y": 0.6064
+      },
+      {
+       "name": "Lorekeeper Lydros",
+       "entry": 14368,
+       "rank": 1,
+       "x": 0.2489,
+       "y": 0.5801
+      },
+      {
+       "name": "Lorekeeper Javon",
+       "entry": 14381,
+       "rank": 1,
+       "x": 0.2445,
+       "y": 0.557
+      },
+      {
+       "name": "Lorekeeper Mykos",
+       "entry": 14382,
+       "rank": 1,
+       "x": 0.2827,
+       "y": 0.56
+      },
+      {
+       "name": "Prince Tortheldrin",
+       "entry": 11486,
+       "rank": 1,
+       "x": 0.1934,
+       "y": 0.604
+      },
+      {
+       "name": "Tsu'zee",
+       "entry": 11467,
+       "rank": 2,
+       "x": 0.2278,
+       "y": 0.607
+      },
+      {
+       "name": "Shen'dralar Provisioner",
+       "entry": 14371,
+       "rank": 1,
+       "x": 0.2894,
+       "y": 0.6174
+      },
+      {
+       "name": "Immol'thar",
+       "entry": 11496,
+       "rank": 1,
+       "x": 0.094,
+       "y": 0.7343
+      },
+      {
+       "name": "Pusillin",
+       "entry": 14354,
+       "rank": 1,
+       "x": 0.6357,
+       "y": 0.641
+      },
+      {
+       "name": "Hydrospawn",
+       "entry": 13280,
+       "rank": 1,
+       "x": 0.7586,
+       "y": 0.7164
+      },
+      {
+       "name": "Guard Slip'kik",
+       "entry": 14323,
+       "rank": 1,
+       "x": 0.2345,
+       "y": 0.2828
+      },
+      {
+       "name": "King Gordok",
+       "entry": 11501,
+       "rank": 1,
+       "x": 0.271,
+       "y": 0.0791
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "Upper level",
+     "file": "maps/dire-maul/f2.webp",
+     "width": 1600,
+     "height": 910,
+     "kind": "minimap",
+     "mapId": 429,
+     "map": "Dire Maul",
+     "transform": {
+      "xmax": 526.348,
+      "ymax": 608.005,
+      "s": 1.172591
+     },
+     "bytes": 159106,
+     "pois": [
+      {
+       "name": "Lethtendris",
+       "entry": 14327,
+       "rank": 1,
+       "x": 0.7708,
+       "y": 0.6882
+      },
+      {
+       "name": "Old Ironbark",
+       "entry": 11491,
+       "rank": 1,
+       "x": 0.6428,
+       "y": 0.7512
+      },
+      {
+       "name": "Tendris Warpwood",
+       "entry": 11489,
+       "rank": 1,
+       "x": 0.0951,
+       "y": 0.6608
+      },
+      {
+       "name": "Shen'dralar Ancient",
+       "entry": 14358,
+       "rank": 1,
+       "x": 0.1558,
+       "y": 0.6601
+      },
+      {
+       "name": "Guard Mol'dar",
+       "entry": 14326,
+       "rank": 1,
+       "x": 0.4519,
+       "y": 0.1674
+      },
+      {
+       "name": "Alzzin the Wildshaper",
+       "entry": 11492,
+       "rank": 1,
+       "x": 0.7657,
+       "y": 0.342
+      },
+      {
+       "name": "Guard Fengus",
+       "entry": 14321,
+       "rank": 1,
+       "x": 0.1955,
+       "y": 0.1826
+      },
+      {
+       "name": "Stomper Kreeg",
+       "entry": 14322,
+       "rank": 1,
+       "x": 0.3725,
+       "y": 0.0414
+      },
+      {
+       "name": "Illyanna Ravenoak",
+       "entry": 11488,
+       "rank": 1,
+       "x": 0.0483,
+       "y": 0.6971
+      },
+      {
+       "name": "Isalien",
+       "entry": 16097,
+       "rank": 1,
+       "x": 0.7699,
+       "y": 0.3394
+      },
+      {
+       "name": "Ferra",
+       "entry": 14308,
+       "rank": 1,
+       "x": 0.0467,
+       "y": 0.6933
+      },
+      {
+       "name": "Warpwood Tangler",
+       "entry": 11464,
+       "rank": 1,
+       "x": 0.7022,
+       "y": 0.6002
+      },
+      {
+       "name": "Pimgib",
+       "entry": 14349,
+       "rank": 1,
+       "x": 0.7711,
+       "y": 0.6925
+      },
+      {
+       "name": "Revanchion",
+       "entry": 14690,
+       "rank": 1,
+       "x": 0.0446,
+       "y": 0.6399
+      },
+      {
+       "name": "Magister Kalendris",
+       "entry": 11487,
+       "rank": 1,
+       "x": 0.0221,
+       "y": 0.6248
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/dire-maul/thumb.webp",
+   "thumbWidth": 309,
+   "thumbHeight": 220
+  },
+  "dragonmaw-retreat": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Map",
+     "file": "maps/dragonmaw-retreat/f1.webp",
+     "width": 1600,
+     "height": 1466,
+     "kind": "minimap",
+     "mapId": 816,
+     "map": "Dragonmaw Retreat",
+     "transform": {
+      "xmax": -5563.584,
+      "ymax": -3456.055,
+      "s": 1.366937
+     },
+     "bytes": 129116,
+     "pois": []
+    }
+   ],
+   "thumb": "maps/dragonmaw-retreat/thumb.webp",
+   "thumbWidth": 240,
+   "thumbHeight": 220
+  },
+  "emerald-sanctum": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Map",
+     "file": "maps/emerald-sanctum/f1.webp",
+     "width": 893,
+     "height": 1465,
+     "kind": "minimap",
+     "mapId": 807,
+     "map": "Emerald Sanctum",
+     "transform": {
+      "xmax": 3400.08,
+      "ymax": 3313.58,
+      "s": 2.0
+     },
+     "bytes": 79338,
+     "pois": [
+      {
+       "name": "Solnius",
+       "entry": 60748,
+       "rank": 3,
+       "x": 0.6076,
+       "y": 0.1092
+      },
+      {
+       "name": "Sanctum Supressor",
+       "entry": 61212,
+       "rank": 1,
+       "x": 0.3254,
+       "y": 0.4618
+      },
+      {
+       "name": "Sanctum Wyrm",
+       "entry": 60744,
+       "rank": 1,
+       "x": 0.6149,
+       "y": 0.755
+      },
+      {
+       "name": "Erennius",
+       "entry": 60747,
+       "rank": 3,
+       "x": 0.4111,
+       "y": 0.1456
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/emerald-sanctum/thumb.webp",
+   "thumbWidth": 134,
+   "thumbHeight": 220
+  },
+  "frostmane-hollow": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Map",
+     "file": "maps/frostmane-hollow/f1.webp",
+     "width": 851,
+     "height": 1180,
+     "kind": "minimap",
+     "mapId": 822,
+     "map": "Frostmane Hollow",
+     "transform": {
+      "xmax": -7478.802,
+      "ymax": -3285.937,
+      "s": 2.0
+     },
+     "bytes": 50004,
+     "pois": []
+    }
+   ],
+   "thumb": "maps/frostmane-hollow/thumb.webp",
+   "thumbWidth": 158,
+   "thumbHeight": 220
+  },
+  "gilneas-city": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Outside",
+     "file": "maps/gilneas-city/f1.webp",
+     "width": 1600,
+     "height": 1282,
+     "kind": "minimap",
+     "mapId": 815,
+     "map": "Gilneas City",
+     "transform": {
+      "xmax": -809.138,
+      "ymax": 3064.47,
+      "s": 1.721356
+     },
+     "bytes": 109956,
+     "pois": [
+      {
+       "name": "Matthias Holtz",
+       "entry": 61419,
+       "rank": 1,
+       "x": 0.7873,
+       "y": 0.391
+      },
+      {
+       "name": "Packmaster Ragetooth",
+       "entry": 61420,
+       "rank": 1,
+       "x": 0.9069,
+       "y": 0.6432
+      },
+      {
+       "name": "Judge Sutherland",
+       "entry": 61421,
+       "rank": 1,
+       "x": 0.7992,
+       "y": 0.8944
+      },
+      {
+       "name": "Dustivan Blackcowl",
+       "entry": 61422,
+       "rank": 1,
+       "x": 0.5351,
+       "y": 0.8614
+      },
+      {
+       "name": "Marshal Magnus Greystone",
+       "entry": 61423,
+       "rank": 1,
+       "x": 0.2787,
+       "y": 0.3392
+      },
+      {
+       "name": "Genn Greymane",
+       "entry": 61418,
+       "rank": 1,
+       "x": 0.1031,
+       "y": 0.1795
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "Lower level",
+     "file": "maps/gilneas-city/f2.webp",
+     "width": 700,
+     "height": 643,
+     "kind": "minimap",
+     "mapId": 815,
+     "map": "Gilneas City",
+     "transform": {
+      "xmax": -911.493,
+      "ymax": 2997.501,
+      "s": 8.187135
+     },
+     "bytes": 27932,
+     "pois": [
+      {
+       "name": "Regent-Lady Celia Harlow",
+       "entry": 61263,
+       "rank": 1,
+       "x": 0.5625,
+       "y": 0.6469
+      },
+      {
+       "name": "Regent-Lord Mortimer Harlow",
+       "entry": 61264,
+       "rank": 1,
+       "x": 0.4712,
+       "y": 0.5719
+      },
+      {
+       "name": "Gilneas Stable Horse",
+       "entry": 61604,
+       "rank": 1,
+       "x": 0.5697,
+       "y": 0.3691
+      },
+      {
+       "name": "Horsemaster Levvin",
+       "entry": 61605,
+       "rank": 1,
+       "x": 0.8228,
+       "y": 0.4579
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/gilneas-city/thumb.webp",
+   "thumbWidth": 275,
+   "thumbHeight": 220
+  },
+  "hateforge-quarry": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Outside",
+     "file": "maps/hateforge-quarry/f1.webp",
+     "width": 982,
+     "height": 917,
+     "kind": "minimap",
+     "mapId": 808,
+     "map": "Hateforge Quarry",
+     "transform": {
+      "xmax": -7966.43,
+      "ymax": -3097.68,
+      "s": 2.0
+     },
+     "bytes": 52104,
+     "pois": [
+      {
+       "name": "Engineer Figgles",
+       "entry": 60736,
+       "rank": 1,
+       "x": 0.743,
+       "y": 0.334
+      },
+      {
+       "name": "'Broody'",
+       "entry": 60715,
+       "rank": 1,
+       "x": 0.7356,
+       "y": 0.3332
+      },
+      {
+       "name": "High Foreman Bargul Blackhammer",
+       "entry": 60735,
+       "rank": 1,
+       "x": 0.7018,
+       "y": 0.7382
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "Interior",
+     "file": "maps/hateforge-quarry/f2.webp",
+     "width": 680,
+     "height": 815,
+     "kind": "minimap",
+     "mapId": 808,
+     "map": "Hateforge Quarry",
+     "transform": {
+      "xmax": -7915.175,
+      "ymax": -3419.254,
+      "s": 2.0
+     },
+     "bytes": 28106,
+     "pois": [
+      {
+       "name": "Har'gesh Doomcaller",
+       "entry": 60737,
+       "rank": 1,
+       "x": 0.9478,
+       "y": 0.9624
+      },
+      {
+       "name": "Hatereaver Annihilator",
+       "entry": 60734,
+       "rank": 1,
+       "x": 0.4779,
+       "y": 0.1851
+      },
+      {
+       "name": "Corrosis",
+       "entry": 60829,
+       "rank": 1,
+       "x": 0.4501,
+       "y": 0.8179
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/hateforge-quarry/thumb.webp",
+   "thumbWidth": 236,
+   "thumbHeight": 220
+  },
+  "karazhan-crypt": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Level 1",
+     "file": "maps/karazhan-crypt/f1.webp",
+     "width": 932,
+     "height": 609,
+     "kind": "minimap",
+     "mapId": 800,
+     "map": "Karazhan Crypt",
+     "transform": {
+      "xmax": -10972.325,
+      "ymax": -1376.616,
+      "s": 2.0
+     },
+     "bytes": 38186,
+     "pois": [
+      {
+       "name": "Corpsemuncher",
+       "entry": 91917,
+       "rank": 3,
+       "x": 0.0643,
+       "y": 0.8249
+      },
+      {
+       "name": "Hivaxxis",
+       "entry": 91929,
+       "rank": 3,
+       "x": 0.7895,
+       "y": 0.9283
+      },
+      {
+       "name": "Commander Andreon",
+       "entry": 91919,
+       "rank": 1,
+       "x": 0.3541,
+       "y": 0.3021
+      },
+      {
+       "name": "Forlorn Shrieker",
+       "entry": 91913,
+       "rank": 1,
+       "x": 0.327,
+       "y": 0.4078
+      },
+      {
+       "name": "Shadowblade Spectre",
+       "entry": 91918,
+       "rank": 1,
+       "x": 0.5055,
+       "y": 0.2958
+      },
+      {
+       "name": "Crypt Watcher",
+       "entry": 91931,
+       "rank": 3,
+       "x": 0.8548,
+       "y": 0.3792
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "Level 2",
+     "file": "maps/karazhan-crypt/f2.webp",
+     "width": 749,
+     "height": 507,
+     "kind": "minimap",
+     "mapId": 800,
+     "map": "Karazhan Crypt",
+     "transform": {
+      "xmax": -11020.234,
+      "ymax": -1463.61,
+      "s": 2.0
+     },
+     "bytes": 18936,
+     "pois": [
+      {
+       "name": "Marrowspike",
+       "entry": 91920,
+       "rank": 3,
+       "x": 0.8986,
+       "y": 0.7667
+      },
+      {
+       "name": "Archlich Enkhraz",
+       "entry": 91916,
+       "rank": 3,
+       "x": 0.8757,
+       "y": 0.6626
+      },
+      {
+       "name": "Midnight",
+       "entry": 91927,
+       "rank": 1,
+       "x": 0.8894,
+       "y": 0.6511
+      },
+      {
+       "name": "Guard Captain Gort",
+       "entry": 92935,
+       "rank": 1,
+       "x": 0.6226,
+       "y": 0.7762
+      }
+     ]
+    },
+    {
+     "floor": "f3",
+     "label": "Level 3",
+     "file": "maps/karazhan-crypt/f3.webp",
+     "width": 556,
+     "height": 700,
+     "kind": "minimap",
+     "mapId": 800,
+     "map": "Karazhan Crypt",
+     "transform": {
+      "xmax": -11063.276,
+      "ymax": -1563.629,
+      "s": 3.381643
+     },
+     "bytes": 27524,
+     "pois": [
+      {
+       "name": "Crypt Fearfeaster",
+       "entry": 91922,
+       "rank": 1,
+       "x": 0.5414,
+       "y": 0.5064
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/karazhan-crypt/thumb.webp",
+   "thumbWidth": 336,
+   "thumbHeight": 220
+  },
+  "lower-blackrock-spire": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Level 1",
+     "file": "maps/lower-blackrock-spire/f1.webp",
+     "width": 1458,
+     "height": 1147,
+     "kind": "minimap",
+     "mapId": 229,
+     "map": "Blackrock Spire",
+     "transform": {
+      "xmax": 340.398,
+      "ymax": 131.921,
+      "s": 2.0
+     },
+     "bytes": 99208,
+     "pois": [
+      {
+       "name": "Pyroguard Emberseer",
+       "entry": 9816,
+       "rank": 3,
+       "x": 0.5349,
+       "y": 0.3417
+      },
+      {
+       "name": "Halycon",
+       "entry": 10220,
+       "rank": 1,
+       "x": 0.6448,
+       "y": 0.9317
+      },
+      {
+       "name": "War Master Voone",
+       "entry": 9237,
+       "rank": 1,
+       "x": 0.8108,
+       "y": 0.6231
+      },
+      {
+       "name": "Quartermaster Zigris",
+       "entry": 9736,
+       "rank": 1,
+       "x": 0.8105,
+       "y": 0.9406
+      },
+      {
+       "name": "Mother Smolderweb",
+       "entry": 10596,
+       "rank": 1,
+       "x": 0.9572,
+       "y": 0.8298
+      },
+      {
+       "name": "Spirestone Butcher",
+       "entry": 9219,
+       "rank": 2,
+       "x": 0.85,
+       "y": 0.6578
+      },
+      {
+       "name": "Shadow Hunter Vosh'gajin",
+       "entry": 9236,
+       "rank": 3,
+       "x": 0.8424,
+       "y": 0.8049
+      },
+      {
+       "name": "Spirestone Lord Magus",
+       "entry": 9217,
+       "rank": 2,
+       "x": 0.6767,
+       "y": 0.6474
+      },
+      {
+       "name": "Highlord Omokk",
+       "entry": 9196,
+       "rank": 1,
+       "x": 0.5921,
+       "y": 0.633
+      },
+      {
+       "name": "Spirestone Reaver",
+       "entry": 9200,
+       "rank": 1,
+       "x": 0.6019,
+       "y": 0.6849
+      },
+      {
+       "name": "Spirestone Mystic",
+       "entry": 9198,
+       "rank": 1,
+       "x": 0.598,
+       "y": 0.6402
+      },
+      {
+       "name": "The Beast",
+       "entry": 10430,
+       "rank": 3,
+       "x": 0.963,
+       "y": 0.3756
+      },
+      {
+       "name": "Warchief Rend Blackhand",
+       "entry": 10429,
+       "rank": 3,
+       "x": 0.7895,
+       "y": 0.3158
+      },
+      {
+       "name": "Goraluk Anvilcrack",
+       "entry": 10899,
+       "rank": 2,
+       "x": 0.5151,
+       "y": 0.3479
+      },
+      {
+       "name": "Lord Victor Nefarius",
+       "entry": 10162,
+       "rank": 3,
+       "x": 0.7902,
+       "y": 0.309
+      },
+      {
+       "name": "Lord Valthalak",
+       "entry": 16042,
+       "rank": 3,
+       "x": 0.9152,
+       "y": 0.5017
+      },
+      {
+       "name": "Mor Grayhoof",
+       "entry": 16080,
+       "rank": 1,
+       "x": 0.8055,
+       "y": 0.6213
+      },
+      {
+       "name": "Spirestone Battle Lord",
+       "entry": 9218,
+       "rank": 2,
+       "x": 0.6288,
+       "y": 0.6827
+      },
+      {
+       "name": "Jed Runewatcher",
+       "entry": 10509,
+       "rank": 2,
+       "x": 0.5346,
+       "y": 0.326
+      },
+      {
+       "name": "Bijou",
+       "entry": 10257,
+       "rank": 1,
+       "x": 0.9338,
+       "y": 0.6086
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "Level 2",
+     "file": "maps/lower-blackrock-spire/f2.webp",
+     "width": 828,
+     "height": 822,
+     "kind": "minimap",
+     "mapId": 229,
+     "map": "Blackrock Spire",
+     "transform": {
+      "xmax": 235.325,
+      "ymax": -183.853,
+      "s": 2.0
+     },
+     "bytes": 37192,
+     "pois": [
+      {
+       "name": "Crystal Fang",
+       "entry": 10376,
+       "rank": 2,
+       "x": 0.6888,
+       "y": 0.9091
+      },
+      {
+       "name": "Ghok Bashguud",
+       "entry": 9718,
+       "rank": 2,
+       "x": 0.2595,
+       "y": 0.7915
+      }
+     ]
+    },
+    {
+     "floor": "f3",
+     "label": "Level 3",
+     "file": "maps/lower-blackrock-spire/f3.webp",
+     "width": 700,
+     "height": 612,
+     "kind": "minimap",
+     "mapId": 229,
+     "map": "Blackrock Spire",
+     "transform": {
+      "xmax": 138.154,
+      "ymax": -211.636,
+      "s": 2.005731
+     },
+     "bytes": 46976,
+     "pois": [
+      {
+       "name": "Blackhand Thug",
+       "entry": 10762,
+       "rank": 1,
+       "x": 0.6027,
+       "y": 0.2228
+      },
+      {
+       "name": "General Drakkisath",
+       "entry": 10363,
+       "rank": 3,
+       "x": 0.2111,
+       "y": 0.3389
+      },
+      {
+       "name": "Overlord Wyrmthalak",
+       "entry": 9568,
+       "rank": 3,
+       "x": 0.7867,
+       "y": 0.527
+      },
+      {
+       "name": "Scarshield Infiltrator",
+       "entry": 10299,
+       "rank": 1,
+       "x": 0.5383,
+       "y": 0.2665
+      },
+      {
+       "name": "Awbee",
+       "entry": 10740,
+       "rank": 1,
+       "x": 0.5983,
+       "y": 0.2216
+      },
+      {
+       "name": "Chromatic Elite Guard",
+       "entry": 10814,
+       "rank": 1,
+       "x": 0.2368,
+       "y": 0.3538
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/lower-blackrock-spire/thumb.webp",
+   "thumbWidth": 280,
+   "thumbHeight": 220
+  },
+  "lower-karazhan-halls": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Level 1",
+     "file": "maps/lower-karazhan-halls/f1.webp",
+     "width": 1389,
+     "height": 1031,
+     "kind": "minimap",
+     "mapId": 532,
+     "map": "Lower Karazhan Halls",
+     "transform": {
+      "xmax": -10772.484,
+      "ymax": -1489.687,
+      "s": 2.0
+     },
+     "bytes": 108682,
+     "pois": [
+      {
+       "name": "Dark Rider Champion",
+       "entry": 61204,
+       "rank": 1,
+       "x": 0.5955,
+       "y": 0.7302
+      },
+      {
+       "name": "Clawlord Howlfang",
+       "entry": 61223,
+       "rank": 3,
+       "x": 0.6929,
+       "y": 0.4834
+      },
+      {
+       "name": "Brood Queen Araxxna",
+       "entry": 61221,
+       "rank": 3,
+       "x": 0.8521,
+       "y": 0.2462
+      },
+      {
+       "name": "Grizikil",
+       "entry": 61224,
+       "rank": 3,
+       "x": 0.8845,
+       "y": 0.337
+      },
+      {
+       "name": "Master Blacksmith Rolfen",
+       "entry": 61319,
+       "rank": 1,
+       "x": 0.6432,
+       "y": 0.684
+      },
+      {
+       "name": "Shadowbane Alpha",
+       "entry": 61191,
+       "rank": 1,
+       "x": 0.6031,
+       "y": 0.4747
+      },
+      {
+       "name": "Lord Ebonlocke",
+       "entry": 61255,
+       "rank": 1,
+       "x": 0.5694,
+       "y": 0.4093
+      },
+      {
+       "name": "Moroes",
+       "entry": 61225,
+       "rank": 3,
+       "x": 0.4552,
+       "y": 0.2431
+      },
+      {
+       "name": "\"Legalbrow\"",
+       "entry": 61254,
+       "rank": 1,
+       "x": 0.4249,
+       "y": 0.2918
+      },
+      {
+       "name": "Judge Freelan Carlisle",
+       "entry": 61321,
+       "rank": 1,
+       "x": 0.4639,
+       "y": 0.3145
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "Level 2",
+     "file": "maps/lower-karazhan-halls/f2.webp",
+     "width": 1392,
+     "height": 1266,
+     "kind": "minimap",
+     "mapId": 532,
+     "map": "Lower Karazhan Halls",
+     "transform": {
+      "xmax": -10917.803,
+      "ymax": -1465.779,
+      "s": 2.0
+     },
+     "bytes": 72850,
+     "pois": [
+      {
+       "name": "Blue Drakonid",
+       "entry": 14261,
+       "rank": 1,
+       "x": 0.4554,
+       "y": 0.6562
+      }
+     ]
+    },
+    {
+     "floor": "f3",
+     "label": "Level 3",
+     "file": "maps/lower-karazhan-halls/f3.webp",
+     "width": 1421,
+     "height": 1600,
+     "kind": "minimap",
+     "mapId": 532,
+     "map": "Lower Karazhan Halls",
+     "transform": {
+      "xmax": -10292.942,
+      "ymax": -1665.113,
+      "s": 1.440144
+     },
+     "bytes": 136016,
+     "pois": []
+    }
+   ],
+   "thumb": "maps/lower-karazhan-halls/thumb.webp",
+   "thumbWidth": 296,
+   "thumbHeight": 220
+  },
+  "maraudon": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Map",
+     "file": "maps/maraudon/f1.webp",
+     "width": 1331,
+     "height": 1600,
+     "kind": "minimap",
+     "mapId": 349,
+     "map": "Maraudon",
+     "transform": {
+      "xmax": 1174.871,
+      "ymax": 299.36,
+      "s": 1.191806
+     },
+     "bytes": 177874,
+     "pois": [
+      {
+       "name": "Landslide",
+       "entry": 12203,
+       "rank": 1,
+       "x": 0.4341,
+       "y": 0.6095
+      },
+      {
+       "name": "Rotgrip",
+       "entry": 13596,
+       "rank": 1,
+       "x": 0.3271,
+       "y": 0.8438
+      },
+      {
+       "name": "Tinkerer Gizlock",
+       "entry": 13601,
+       "rank": 1,
+       "x": 0.549,
+       "y": 0.7747
+      },
+      {
+       "name": "Princess Theradras",
+       "entry": 12201,
+       "rank": 1,
+       "x": 0.1936,
+       "y": 0.8544
+      },
+      {
+       "name": "Celebras the Cursed",
+       "entry": 12225,
+       "rank": 1,
+       "x": 0.1982,
+       "y": 0.3343
+      },
+      {
+       "name": "Spewed Larva",
+       "entry": 13533,
+       "rank": 1,
+       "x": 0.6044,
+       "y": 0.1796
+      },
+      {
+       "name": "Celebras the Redeemed",
+       "entry": 13716,
+       "rank": 1,
+       "x": 0.1982,
+       "y": 0.3343
+      },
+      {
+       "name": "Spirit of Maraudos",
+       "entry": 12242,
+       "rank": 1,
+       "x": 0.7162,
+       "y": 0.2863
+      },
+      {
+       "name": "Cavern Shambler",
+       "entry": 12224,
+       "rank": 1,
+       "x": 0.3014,
+       "y": 0.2698
+      },
+      {
+       "name": "Lord Vyletongue",
+       "entry": 12236,
+       "rank": 1,
+       "x": 0.4647,
+       "y": 0.3173
+      },
+      {
+       "name": "Razorlash",
+       "entry": 12258,
+       "rank": 1,
+       "x": 0.2771,
+       "y": 0.146
+      },
+      {
+       "name": "Noxxion",
+       "entry": 13282,
+       "rank": 1,
+       "x": 0.4394,
+       "y": 0.0331
+      },
+      {
+       "name": "Spirit of Veng",
+       "entry": 12243,
+       "rank": 1,
+       "x": 0.6473,
+       "y": 0.0891
+      },
+      {
+       "name": "Meshlok the Harvester",
+       "entry": 12237,
+       "rank": 2,
+       "x": 0.337,
+       "y": 0.3306
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/maraudon/thumb.webp",
+   "thumbWidth": 183,
+   "thumbHeight": 220
+  },
+  "molten-core": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Map",
+     "file": "maps/molten-core/f1.webp",
+     "width": 1600,
+     "height": 1316,
+     "kind": "minimap",
+     "mapId": 409,
+     "map": "Molten Core",
+     "transform": {
+      "xmax": 1423.707,
+      "ymax": -270.36,
+      "s": 1.407212
+     },
+     "bytes": 158432,
+     "pois": [
+      {
+       "name": "Sulfuron Harbinger",
+       "entry": 12098,
+       "rank": 3,
+       "x": 0.7993,
+       "y": 0.8796
+      },
+      {
+       "name": "Baron Geddon",
+       "entry": 12056,
+       "rank": 3,
+       "x": 0.4713,
+       "y": 0.8658
+      },
+      {
+       "name": "Garr",
+       "entry": 12057,
+       "rank": 3,
+       "x": 0.2006,
+       "y": 0.7835
+      },
+      {
+       "name": "Shazzrah",
+       "entry": 12264,
+       "rank": 3,
+       "x": 0.4656,
+       "y": 0.8985
+      },
+      {
+       "name": "Flamewaker Protector",
+       "entry": 12119,
+       "rank": 1,
+       "x": 0.6146,
+       "y": 0.4278
+      },
+      {
+       "name": "Lucifron",
+       "entry": 12118,
+       "rank": 3,
+       "x": 0.6182,
+       "y": 0.427
+      },
+      {
+       "name": "Magmadar",
+       "entry": 11982,
+       "rank": 3,
+       "x": 0.6564,
+       "y": 0.3
+      },
+      {
+       "name": "Golemagg the Incinerator",
+       "entry": 11988,
+       "rank": 3,
+       "x": 0.6402,
+       "y": 0.6742
+      },
+      {
+       "name": "Core Rager",
+       "entry": 11672,
+       "rank": 1,
+       "x": 0.6191,
+       "y": 0.6824
+      },
+      {
+       "name": "Gehennas",
+       "entry": 12259,
+       "rank": 3,
+       "x": 0.2423,
+       "y": 0.5621
+      },
+      {
+       "name": "Flamewaker",
+       "entry": 11661,
+       "rank": 1,
+       "x": 0.2393,
+       "y": 0.5539
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/molten-core/thumb.webp",
+   "thumbWidth": 267,
+   "thumbHeight": 220
+  },
+  "naxxramas": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Necropolis",
+     "file": "maps/naxxramas/f1.webp",
+     "width": 1600,
+     "height": 1500,
+     "kind": "minimap",
+     "mapId": 533,
+     "map": "Naxxramas",
+     "transform": {
+      "xmax": 3570.158,
+      "ymax": -2852.254,
+      "s": 1.310938
+     },
+     "bytes": 248620,
+     "pois": [
+      {
+       "name": "Gothik the Harvester",
+       "entry": 16060,
+       "rank": 3,
+       "x": 0.4393,
+       "y": 0.811
+      },
+      {
+       "name": "Thaddius",
+       "entry": 15928,
+       "rank": 3,
+       "x": 0.0609,
+       "y": 0.0492
+      },
+      {
+       "name": "Maexxna",
+       "entry": 15952,
+       "rank": 3,
+       "x": 0.8742,
+       "y": 0.0587
+      },
+      {
+       "name": "Grand Widow Faerlina",
+       "entry": 15953,
+       "rank": 3,
+       "x": 0.6296,
+       "y": 0.1896
+      },
+      {
+       "name": "Death Lord",
+       "entry": 16861,
+       "rank": 1,
+       "x": 0.275,
+       "y": 0.5576
+      },
+      {
+       "name": "Crypt Reaver",
+       "entry": 15978,
+       "rank": 1,
+       "x": 0.6097,
+       "y": 0.3156
+      },
+      {
+       "name": "Sludge Belcher",
+       "entry": 16029,
+       "rank": 1,
+       "x": 0.3684,
+       "y": 0.3482
+      },
+      {
+       "name": "Thane Korth'azz",
+       "entry": 16064,
+       "rank": 3,
+       "x": 0.0842,
+       "y": 0.9235
+      },
+      {
+       "name": "Lady Blaumeux",
+       "entry": 16065,
+       "rank": 3,
+       "x": 0.0814,
+       "y": 0.9211
+      },
+      {
+       "name": "Sir Zeliek",
+       "entry": 16063,
+       "rank": 3,
+       "x": 0.0758,
+       "y": 0.9139
+      },
+      {
+       "name": "Highlord Mograine",
+       "entry": 16062,
+       "rank": 3,
+       "x": 0.078,
+       "y": 0.9178
+      },
+      {
+       "name": "Master Craftsman Omarion",
+       "entry": 16365,
+       "rank": 1,
+       "x": 0.3273,
+       "y": 0.6263
+      },
+      {
+       "name": "Tomb Horror",
+       "entry": 15979,
+       "rank": 1,
+       "x": 0.759,
+       "y": 0.3772
+      },
+      {
+       "name": "Instructor Razuvious",
+       "entry": 16061,
+       "rank": 3,
+       "x": 0.2014,
+       "y": 0.7119
+      },
+      {
+       "name": "Doom Touched Warrior",
+       "entry": 16157,
+       "rank": 1,
+       "x": 0.2836,
+       "y": 0.6033
+      },
+      {
+       "name": "Unholy Swords",
+       "entry": 16216,
+       "rank": 1,
+       "x": 0.2642,
+       "y": 0.7534
+      },
+      {
+       "name": "Unholy Staff",
+       "entry": 16215,
+       "rank": 1,
+       "x": 0.2605,
+       "y": 0.7914
+      },
+      {
+       "name": "Venom Stalker",
+       "entry": 15976,
+       "rank": 1,
+       "x": 0.5112,
+       "y": 0.328
+      },
+      {
+       "name": "Anub'Rekhan",
+       "entry": 15956,
+       "rank": 3,
+       "x": 0.5112,
+       "y": 0.2217
+      },
+      {
+       "name": "Gluth",
+       "entry": 15932,
+       "rank": 3,
+       "x": 0.2497,
+       "y": 0.2509
+      },
+      {
+       "name": "Grobbulus",
+       "entry": 15931,
+       "rank": 3,
+       "x": 0.4012,
+       "y": 0.3187
+      },
+      {
+       "name": "Patchwerk",
+       "entry": 16028,
+       "rank": 3,
+       "x": 0.3112,
+       "y": 0.2287
+      },
+      {
+       "name": "Loatheb",
+       "entry": 16011,
+       "rank": 3,
+       "x": 0.9399,
+       "y": 0.5774
+      },
+      {
+       "name": "Heigan the Unclean",
+       "entry": 15936,
+       "rank": 3,
+       "x": 0.7006,
+       "y": 0.6785
+      },
+      {
+       "name": "Noth the Plaguebringer",
+       "entry": 15954,
+       "rank": 3,
+       "x": 0.5235,
+       "y": 0.7819
+      },
+      {
+       "name": "Archmage Tarsis Kir-Moldir",
+       "entry": 16381,
+       "rank": 1,
+       "x": 0.52,
+       "y": 0.4933
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "Frostwyrm Lair",
+     "file": "maps/naxxramas/f2.webp",
+     "width": 870,
+     "height": 921,
+     "kind": "minimap",
+     "mapId": 533,
+     "map": "Naxxramas",
+     "transform": {
+      "xmax": 3824.858,
+      "ymax": -4985.78,
+      "s": 2.0
+     },
+     "bytes": 59840,
+     "pois": [
+      {
+       "name": "Sapphiron",
+       "entry": 15989,
+       "rank": 3,
+       "x": 0.5788,
+       "y": 0.6592
+      },
+      {
+       "name": "Kel'Thuzad",
+       "entry": 15990,
+       "rank": 3,
+       "x": 0.2933,
+       "y": 0.1704
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/naxxramas/thumb.webp",
+   "thumbWidth": 234,
+   "thumbHeight": 220
+  },
+  "onyxias-lair": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Map",
+     "file": "maps/onyxias-lair/f1.webp",
+     "width": 639,
+     "height": 700,
+     "kind": "minimap",
+     "mapId": 249,
+     "map": "Onyxia's Lair",
+     "transform": {
+      "xmax": 65.718,
+      "ymax": 7.258,
+      "s": 2.130898
+     },
+     "bytes": 46194,
+     "pois": [
+      {
+       "name": "Onyxia",
+       "entry": 10184,
+       "rank": 3,
+       "x": 0.7311,
+       "y": 0.1979
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/onyxias-lair/thumb.webp",
+   "thumbWidth": 201,
+   "thumbHeight": 220
+  },
+  "razorfen-downs": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Interior",
+     "file": "maps/razorfen-downs/f1.webp",
+     "width": 1107,
+     "height": 1103,
+     "kind": "minimap",
+     "mapId": 129,
+     "map": "Razorfen Downs",
+     "transform": {
+      "xmax": 2643.149,
+      "ymax": 1158.216,
+      "s": 2.0
+     },
+     "bytes": 71816,
+     "pois": [
+      {
+       "name": "Mordresh Fire Eye",
+       "entry": 7357,
+       "rank": 1,
+       "x": 0.8794,
+       "y": 0.3201
+      },
+      {
+       "name": "Splinterbone Captain",
+       "entry": 7345,
+       "rank": 1,
+       "x": 0.4139,
+       "y": 0.46
+      },
+      {
+       "name": "Amnennar the Coldbringer",
+       "entry": 7358,
+       "rank": 1,
+       "x": 0.3564,
+       "y": 0.4348
+      },
+      {
+       "name": "Glutton",
+       "entry": 8567,
+       "rank": 1,
+       "x": 0.2735,
+       "y": 0.3163
+      },
+      {
+       "name": "Ragglesnout",
+       "entry": 7354,
+       "rank": 2,
+       "x": 0.2391,
+       "y": 0.4172
+      },
+      {
+       "name": "Lady Falther'ess",
+       "entry": 14686,
+       "rank": 1,
+       "x": 0.8355,
+       "y": 0.1097
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/razorfen-downs/thumb.webp",
+   "thumbWidth": 221,
+   "thumbHeight": 220
+  },
+  "razorfen-kraul": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Interior",
+     "file": "maps/razorfen-kraul/f1.webp",
+     "width": 1367,
+     "height": 684,
+     "kind": "minimap",
+     "mapId": 47,
+     "map": "Razorfen Kraul",
+     "transform": {
+      "xmax": 2255.874,
+      "ymax": 2041.683,
+      "s": 2.0
+     },
+     "bytes": 83632,
+     "pois": [
+      {
+       "name": "Razorfen Handler",
+       "entry": 4530,
+       "rank": 1,
+       "x": 0.6862,
+       "y": 0.7434
+      },
+      {
+       "name": "Razorfen Warrior",
+       "entry": 4435,
+       "rank": 1,
+       "x": 0.7185,
+       "y": 0.7011
+      },
+      {
+       "name": "Rotting Agam'ar",
+       "entry": 4512,
+       "rank": 1,
+       "x": 0.5578,
+       "y": 0.549
+      },
+      {
+       "name": "Razorfen Beastmaster",
+       "entry": 4532,
+       "rank": 1,
+       "x": 0.6246,
+       "y": 0.3212
+      },
+      {
+       "name": "Roogug",
+       "entry": 6168,
+       "rank": 1,
+       "x": 0.6732,
+       "y": 0.3301
+      },
+      {
+       "name": "Aggem Thorncurse",
+       "entry": 4424,
+       "rank": 1,
+       "x": 0.8459,
+       "y": 0.5075
+      },
+      {
+       "name": "Razorfen Beast Trainer",
+       "entry": 4531,
+       "rank": 1,
+       "x": 0.8372,
+       "y": 0.4432
+      },
+      {
+       "name": "Razorfen Dustweaver",
+       "entry": 4522,
+       "rank": 1,
+       "x": 0.8137,
+       "y": 0.3908
+      },
+      {
+       "name": "Death's Head Acolyte",
+       "entry": 4515,
+       "rank": 1,
+       "x": 0.7945,
+       "y": 0.1872
+      },
+      {
+       "name": "Overlord Ramtusk",
+       "entry": 4420,
+       "rank": 1,
+       "x": 0.5876,
+       "y": 0.1542
+      },
+      {
+       "name": "Razorfen Spearhide",
+       "entry": 4438,
+       "rank": 2,
+       "x": 0.5807,
+       "y": 0.1459
+      },
+      {
+       "name": "Earthcaller Halmgar",
+       "entry": 4842,
+       "rank": 2,
+       "x": 0.5067,
+       "y": 0.4014
+      },
+      {
+       "name": "Death Speaker Jargba",
+       "entry": 4428,
+       "rank": 1,
+       "x": 0.9224,
+       "y": 0.32
+      },
+      {
+       "name": "Willix the Importer",
+       "entry": 4508,
+       "rank": 1,
+       "x": 0.3773,
+       "y": 0.1718
+      },
+      {
+       "name": "Ward Guardian",
+       "entry": 4427,
+       "rank": 1,
+       "x": 0.0619,
+       "y": 0.5515
+      },
+      {
+       "name": "Blind Hunter",
+       "entry": 4425,
+       "rank": 2,
+       "x": 0.0929,
+       "y": 0.1612
+      },
+      {
+       "name": "Agathelos the Raging",
+       "entry": 4422,
+       "rank": 1,
+       "x": 0.0955,
+       "y": 0.7645
+      },
+      {
+       "name": "Charlga Razorflank",
+       "entry": 4421,
+       "rank": 1,
+       "x": 0.265,
+       "y": 0.1952
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/razorfen-kraul/thumb.webp",
+   "thumbWidth": 360,
+   "thumbHeight": 180
+  },
+  "ruins-of-ahnqiraj": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Map",
+     "file": "maps/ruins-of-ahnqiraj/f1.webp",
+     "width": 1399,
+     "height": 1600,
+     "kind": "minimap",
+     "mapId": 509,
+     "map": "Ruins of Ahn'Qiraj",
+     "transform": {
+      "xmax": -8446.47,
+      "ymax": 2314.83,
+      "s": 1.165331
+     },
+     "bytes": 227714,
+     "pois": [
+      {
+       "name": "Kurinnaxx",
+       "entry": 15348,
+       "rank": 3,
+       "x": 0.5754,
+       "y": 0.2888
+      },
+      {
+       "name": "Moam",
+       "entry": 15340,
+       "rank": 3,
+       "x": 0.0429,
+       "y": 0.2948
+      },
+      {
+       "name": "Ossirian the Unscarred",
+       "entry": 15339,
+       "rank": 3,
+       "x": 0.237,
+       "y": 0.7627
+      },
+      {
+       "name": "Ayamiss the Hunter",
+       "entry": 15369,
+       "rank": 3,
+       "x": 0.6491,
+       "y": 0.9118
+      },
+      {
+       "name": "Buru the Gorger",
+       "entry": 15370,
+       "rank": 3,
+       "x": 0.9033,
+       "y": 0.5785
+      },
+      {
+       "name": "General Rajaxx",
+       "entry": 15341,
+       "rank": 3,
+       "x": 0.5961,
+       "y": 0.5
+      },
+      {
+       "name": "Major Pakkon",
+       "entry": 15388,
+       "rank": 1,
+       "x": 0.6303,
+       "y": 0.4959
+      },
+      {
+       "name": "Major Yeggeth",
+       "entry": 15386,
+       "rank": 1,
+       "x": 0.5764,
+       "y": 0.4645
+      },
+      {
+       "name": "Captain Xurrem",
+       "entry": 15390,
+       "rank": 1,
+       "x": 0.6521,
+       "y": 0.4651
+      },
+      {
+       "name": "Colonel Zerran",
+       "entry": 15385,
+       "rank": 1,
+       "x": 0.6074,
+       "y": 0.4829
+      },
+      {
+       "name": "Captain Tuubid",
+       "entry": 15392,
+       "rank": 1,
+       "x": 0.6665,
+       "y": 0.4314
+      },
+      {
+       "name": "Captain Qeez",
+       "entry": 15391,
+       "rank": 1,
+       "x": 0.6324,
+       "y": 0.4142
+      },
+      {
+       "name": "Captain Drenn",
+       "entry": 15389,
+       "rank": 1,
+       "x": 0.5976,
+       "y": 0.4266
+      },
+      {
+       "name": "Lieutenant General Andorov",
+       "entry": 15471,
+       "rank": 1,
+       "x": 0.6898,
+       "y": 0.14
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/ruins-of-ahnqiraj/thumb.webp",
+   "thumbWidth": 192,
+   "thumbHeight": 220
+  },
+  "scarlet-monastery": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Graveyard",
+     "file": "maps/scarlet-monastery/f1.webp",
+     "width": 1149,
+     "height": 850,
+     "kind": "minimap",
+     "mapId": 189,
+     "map": "Scarlet Monastery",
+     "transform": {
+      "xmax": 2036.148,
+      "ymax": 1544.543,
+      "s": 2.0
+     },
+     "bytes": 42282,
+     "pois": [
+      {
+       "name": "Bloodmage Thalnos",
+       "entry": 4543,
+       "rank": 1,
+       "x": 0.2225,
+       "y": 0.5078
+      },
+      {
+       "name": "Interrogator Vishas",
+       "entry": 3983,
+       "rank": 1,
+       "x": 0.7312,
+       "y": 0.5873
+      },
+      {
+       "name": "Scorn",
+       "entry": 14693,
+       "rank": 1,
+       "x": 0.4114,
+       "y": 0.5623
+      },
+      {
+       "name": "Duke Dreadmoore",
+       "entry": 61972,
+       "rank": 1,
+       "x": 0.796,
+       "y": 0.3631
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "Library",
+     "file": "maps/scarlet-monastery/f2.webp",
+     "width": 700,
+     "height": 403,
+     "kind": "minimap",
+     "mapId": 189,
+     "map": "Scarlet Monastery",
+     "transform": {
+      "xmax": 295.851,
+      "ymax": -126.3,
+      "s": 2.114804
+     },
+     "bytes": 28888,
+     "pois": [
+      {
+       "name": "Arcanist Doan",
+       "entry": 6487,
+       "rank": 1,
+       "x": 0.9136,
+       "y": 0.7742
+      },
+      {
+       "name": "Houndmaster Loksey",
+       "entry": 3974,
+       "rank": 1,
+       "x": 0.4066,
+       "y": 0.9231
+      },
+      {
+       "name": "Brother Wystan",
+       "entry": 61983,
+       "rank": 1,
+       "x": 0.8318,
+       "y": 0.4532
+      }
+     ]
+    },
+    {
+     "floor": "f3",
+     "label": "Armory",
+     "file": "maps/scarlet-monastery/f3.webp",
+     "width": 424,
+     "height": 973,
+     "kind": "minimap",
+     "mapId": 189,
+     "map": "Scarlet Monastery",
+     "transform": {
+      "xmax": 1998.226,
+      "ymax": -247.891,
+      "s": 2.0
+     },
+     "bytes": 20392,
+     "pois": [
+      {
+       "name": "Scarlet Conjuror",
+       "entry": 4297,
+       "rank": 1,
+       "x": 0.636,
+       "y": 0.7264
+      },
+      {
+       "name": "Herod",
+       "entry": 3975,
+       "rank": 1,
+       "x": 0.8666,
+       "y": 0.0681
+      },
+      {
+       "name": "Armory Quartermaster Daghelm",
+       "entry": 61982,
+       "rank": 1,
+       "x": 0.2392,
+       "y": 0.3041
+      }
+     ]
+    },
+    {
+     "floor": "f4",
+     "label": "Cathedral: Lower level",
+     "file": "maps/scarlet-monastery/f4.webp",
+     "width": 533,
+     "height": 935,
+     "kind": "minimap",
+     "mapId": 189,
+     "map": "Scarlet Monastery",
+     "transform": {
+      "xmax": 1223.794,
+      "ymax": 1513.549,
+      "s": 2.0
+     },
+     "bytes": 32684,
+     "pois": [
+      {
+       "name": "Scarlet Commander Mograine",
+       "entry": 3976,
+       "rank": 1,
+       "x": 0.4321,
+       "y": 0.1496
+      },
+      {
+       "name": "High Inquisitor Whitemane",
+       "entry": 3977,
+       "rank": 1,
+       "x": 0.4296,
+       "y": 0.0463
+      },
+      {
+       "name": "High Inquisitor Fairbanks",
+       "entry": 4542,
+       "rank": 1,
+       "x": 0.5977,
+       "y": 0.1389
+      }
+     ]
+    },
+    {
+     "floor": "f5",
+     "label": "Cathedral: Upper level",
+     "file": "maps/scarlet-monastery/f5.webp",
+     "width": 510,
+     "height": 929,
+     "kind": "minimap",
+     "mapId": 189,
+     "map": "Scarlet Monastery",
+     "transform": {
+      "xmax": 1225.344,
+      "ymax": 1524.071,
+      "s": 2.0
+     },
+     "bytes": 26124,
+     "pois": []
+    }
+   ],
+   "thumb": "maps/scarlet-monastery/thumb.webp",
+   "thumbWidth": 297,
+   "thumbHeight": 220
+  },
+  "scholomance": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Lower level",
+     "file": "maps/scholomance/f1.webp",
+     "width": 635,
+     "height": 795,
+     "kind": "minimap",
+     "mapId": 289,
+     "map": "Scholomance",
+     "transform": {
+      "xmax": 332.215,
+      "ymax": 210.934,
+      "s": 2.0
+     },
+     "bytes": 29352,
+     "pois": [
+      {
+       "name": "Spectral Teacher",
+       "entry": 10500,
+       "rank": 1,
+       "x": 0.2557,
+       "y": 0.7462
+      },
+      {
+       "name": "Instructor Malicia",
+       "entry": 10505,
+       "rank": 1,
+       "x": 0.6705,
+       "y": 0.6177
+      },
+      {
+       "name": "Risen Warrior",
+       "entry": 10486,
+       "rank": 1,
+       "x": 0.8468,
+       "y": 0.3913
+      },
+      {
+       "name": "Lord Alexei Barov",
+       "entry": 10504,
+       "rank": 1,
+       "x": 0.951,
+       "y": 0.3861
+      },
+      {
+       "name": "Lady Illucia Barov",
+       "entry": 10502,
+       "rank": 1,
+       "x": 0.6615,
+       "y": 0.1667
+      },
+      {
+       "name": "The Ravenian",
+       "entry": 10507,
+       "rank": 1,
+       "x": 0.6696,
+       "y": 0.5759
+      },
+      {
+       "name": "Ras Frostwhisper",
+       "entry": 10508,
+       "rank": 1,
+       "x": 0.2194,
+       "y": 0.8989
+      },
+      {
+       "name": "Jandice Barov",
+       "entry": 10503,
+       "rank": 1,
+       "x": 0.4324,
+       "y": 0.161
+      },
+      {
+       "name": "Marduk Blackpool",
+       "entry": 10433,
+       "rank": 1,
+       "x": 0.2983,
+       "y": 0.4575
+      },
+      {
+       "name": "Vectus",
+       "entry": 10432,
+       "rank": 1,
+       "x": 0.3522,
+       "y": 0.4748
+      },
+      {
+       "name": "Doctor Theolen Krastinov",
+       "entry": 11261,
+       "rank": 1,
+       "x": 0.9649,
+       "y": 0.3773
+      },
+      {
+       "name": "Lorekeeper Polkelt",
+       "entry": 10901,
+       "rank": 1,
+       "x": 0.6602,
+       "y": 0.1442
+      },
+      {
+       "name": "Kormok",
+       "entry": 16118,
+       "rank": 1,
+       "x": 0.2195,
+       "y": 0.8984
+      },
+      {
+       "name": "Lord Blackwood",
+       "entry": 14695,
+       "rank": 1,
+       "x": 0.1863,
+       "y": 0.3319
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "Upper level",
+     "file": "maps/scholomance/f2.webp",
+     "width": 700,
+     "height": 611,
+     "kind": "minimap",
+     "mapId": 289,
+     "map": "Scholomance",
+     "transform": {
+      "xmax": 310.506,
+      "ymax": 211.107,
+      "s": 2.197802
+     },
+     "bytes": 35356,
+     "pois": [
+      {
+       "name": "Rattlegore",
+       "entry": 11622,
+       "rank": 1,
+       "x": 0.1238,
+       "y": 0.6236
+      },
+      {
+       "name": "Blood Steward of Kirtonos",
+       "entry": 14861,
+       "rank": 1,
+       "x": 0.6664,
+       "y": 0.5238
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/scholomance/thumb.webp",
+   "thumbWidth": 175,
+   "thumbHeight": 220
+  },
+  "shadowfang-keep": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Lower level",
+     "file": "maps/shadowfang-keep/f1.webp",
+     "width": 700,
+     "height": 516,
+     "kind": "minimap",
+     "mapId": 33,
+     "map": "Shadowfang Keep",
+     "transform": {
+      "xmax": -72.203,
+      "ymax": 2415.915,
+      "s": 2.118003
+     },
+     "bytes": 35380,
+     "pois": [
+      {
+       "name": "Sorcerer Ashcrombe",
+       "entry": 3850,
+       "rank": 1,
+       "x": 0.8876,
+       "y": 0.6925
+      },
+      {
+       "name": "Deathstalker Adamant",
+       "entry": 3849,
+       "rank": 1,
+       "x": 0.9144,
+       "y": 0.704
+      },
+      {
+       "name": "Vile Bat",
+       "entry": 3866,
+       "rank": 1,
+       "x": 0.8744,
+       "y": 0.7018
+      },
+      {
+       "name": "Blood Seeker",
+       "entry": 3868,
+       "rank": 1,
+       "x": 0.8867,
+       "y": 0.7248
+      },
+      {
+       "name": "Odo the Blindwatcher",
+       "entry": 4279,
+       "rank": 1,
+       "x": 0.8164,
+       "y": 0.6752
+      },
+      {
+       "name": "Baron Silverlaine",
+       "entry": 3887,
+       "rank": 1,
+       "x": 0.3587,
+       "y": 0.8338
+      },
+      {
+       "name": "Razorclaw the Butcher",
+       "entry": 3886,
+       "rank": 1,
+       "x": 0.4779,
+       "y": 0.5352
+      },
+      {
+       "name": "Shadow Charger",
+       "entry": 3865,
+       "rank": 1,
+       "x": 0.5436,
+       "y": 0.6647
+      },
+      {
+       "name": "Rethilgore",
+       "entry": 3914,
+       "rank": 1,
+       "x": 0.8859,
+       "y": 0.7384
+      },
+      {
+       "name": "Fel Steed",
+       "entry": 3864,
+       "rank": 1,
+       "x": 0.5436,
+       "y": 0.6647
+      },
+      {
+       "name": "Fenrus the Devourer",
+       "entry": 4274,
+       "rank": 1,
+       "x": 0.7481,
+       "y": 0.2603
+      },
+      {
+       "name": "Arugal",
+       "entry": 10000,
+       "rank": 1,
+       "x": 0.8063,
+       "y": 0.6156
+      },
+      {
+       "name": "Deathsworn Captain",
+       "entry": 3872,
+       "rank": 1,
+       "x": 0.8816,
+       "y": 0.4918
+      },
+      {
+       "name": "Sever",
+       "entry": 14682,
+       "rank": 1,
+       "x": 0.3404,
+       "y": 0.6276
+      },
+      {
+       "name": "Prelate Ironmane",
+       "entry": 61969,
+       "rank": 1,
+       "x": 0.0761,
+       "y": 0.6264
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "Upper level",
+     "file": "maps/shadowfang-keep/f2.webp",
+     "width": 700,
+     "height": 654,
+     "kind": "minimap",
+     "mapId": 33,
+     "map": "Shadowfang Keep",
+     "transform": {
+      "xmax": -59.286,
+      "ymax": 2357.434,
+      "s": 2.61194
+     },
+     "bytes": 43056,
+     "pois": [
+      {
+       "name": "Commander Springvale",
+       "entry": 4278,
+       "rank": 1,
+       "x": 0.3656,
+       "y": 0.6522
+      },
+      {
+       "name": "Archmage Arugal",
+       "entry": 4275,
+       "rank": 1,
+       "x": 0.765,
+       "y": 0.0698
+      },
+      {
+       "name": "Wolf Master Nandos",
+       "entry": 3927,
+       "rank": 1,
+       "x": 0.7291,
+       "y": 0.2454
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/shadowfang-keep/thumb.webp",
+   "thumbWidth": 299,
+   "thumbHeight": 220
+  },
+  "stormwind-vault": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Lower level",
+     "file": "maps/stormwind-vault/f1.webp",
+     "width": 700,
+     "height": 659,
+     "kind": "minimap",
+     "mapId": 35,
+     "map": "Stormwind Vault",
+     "transform": {
+      "xmax": 83.281,
+      "ymax": 201.517,
+      "s": 2.922756
+     },
+     "bytes": 42208,
+     "pois": [
+      {
+       "name": "Aszosh Grimflame",
+       "entry": 80853,
+       "rank": 1,
+       "x": 0.0434,
+       "y": 0.3754
+      },
+      {
+       "name": "Tham'Grarr",
+       "entry": 80852,
+       "rank": 1,
+       "x": 0.5436,
+       "y": 0.9518
+      },
+      {
+       "name": "Black Bride",
+       "entry": 80850,
+       "rank": 1,
+       "x": 0.3563,
+       "y": 0.0455
+      },
+      {
+       "name": "Volkan Cruelblade",
+       "entry": 80851,
+       "rank": 1,
+       "x": 0.6237,
+       "y": 0.4254
+      },
+      {
+       "name": "Damian",
+       "entry": 80854,
+       "rank": 1,
+       "x": 0.2144,
+       "y": 0.4257
+      },
+      {
+       "name": "Arc'tiras",
+       "entry": 93107,
+       "rank": 1,
+       "x": 0.213,
+       "y": 0.8134
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "Upper level",
+     "file": "maps/stormwind-vault/f2.webp",
+     "width": 700,
+     "height": 399,
+     "kind": "minimap",
+     "mapId": 35,
+     "map": "Stormwind Vault",
+     "transform": {
+      "xmax": 41.658,
+      "ymax": 186.971,
+      "s": 3.664921
+     },
+     "bytes": 21348,
+     "pois": []
+    }
+   ],
+   "thumb": "maps/stormwind-vault/thumb.webp",
+   "thumbWidth": 233,
+   "thumbHeight": 220
+  },
+  "stormwrought-ruins": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Map",
+     "file": "maps/stormwrought-ruins/f1.webp",
+     "width": 1107,
+     "height": 1600,
+     "kind": "minimap",
+     "mapId": 818,
+     "map": "Stormwrought Ruins",
+     "transform": {
+      "xmax": -5455.767,
+      "ymax": -3495.193,
+      "s": 1.198951
+     },
+     "bytes": 98434,
+     "pois": []
+    }
+   ],
+   "thumb": "maps/stormwrought-ruins/thumb.webp",
+   "thumbWidth": 152,
+   "thumbHeight": 220
+  },
+  "stratholme": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Interior",
+     "file": "maps/stratholme/f1.webp",
+     "width": 1600,
+     "height": 1435,
+     "kind": "minimap",
+     "mapId": 329,
+     "map": "Stratholme",
+     "transform": {
+      "xmax": 4164.452,
+      "ymax": -2922.278,
+      "s": 1.80791
+     },
+     "bytes": 229844,
+     "pois": [
+      {
+       "name": "Stratholme Courier",
+       "entry": 11082,
+       "rank": 1,
+       "x": 0.4192,
+       "y": 0.8679
+      },
+      {
+       "name": "Grand Crusader Dathrohan",
+       "entry": 10812,
+       "rank": 1,
+       "x": 0.1353,
+       "y": 0.9459
+      },
+      {
+       "name": "Archivist Galford",
+       "entry": 10811,
+       "rank": 1,
+       "x": 0.2047,
+       "y": 0.8926
+      },
+      {
+       "name": "Crimson Monk",
+       "entry": 11043,
+       "rank": 1,
+       "x": 0.1892,
+       "y": 0.8642
+      },
+      {
+       "name": "Malor the Zealous",
+       "entry": 11032,
+       "rank": 1,
+       "x": 0.2311,
+       "y": 0.6846
+      },
+      {
+       "name": "Patchwork Horror",
+       "entry": 10414,
+       "rank": 1,
+       "x": 0.4447,
+       "y": 0.8194
+      },
+      {
+       "name": "Ash'ari Crystal",
+       "entry": 10415,
+       "rank": 1,
+       "x": 0.9335,
+       "y": 0.3992
+      },
+      {
+       "name": "Crimson Sorcerer",
+       "entry": 10422,
+       "rank": 1,
+       "x": 0.0851,
+       "y": 0.7421
+      },
+      {
+       "name": "Crimson Inquisitor",
+       "entry": 10426,
+       "rank": 1,
+       "x": 0.1789,
+       "y": 0.7845
+      },
+      {
+       "name": "Magistrate Barthilas",
+       "entry": 10435,
+       "rank": 1,
+       "x": 0.7874,
+       "y": 0.6315
+      },
+      {
+       "name": "Baroness Anastari",
+       "entry": 10436,
+       "rank": 1,
+       "x": 0.8966,
+       "y": 0.3894
+      },
+      {
+       "name": "Nerub'enkan",
+       "entry": 10437,
+       "rank": 1,
+       "x": 0.6854,
+       "y": 0.3899
+      },
+      {
+       "name": "Maleki the Pallid",
+       "entry": 10438,
+       "rank": 1,
+       "x": 0.8198,
+       "y": 0.1621
+      },
+      {
+       "name": "Baron Rivendare",
+       "entry": 10440,
+       "rank": 1,
+       "x": 0.4641,
+       "y": 0.1659
+      },
+      {
+       "name": "Cannon Master Willey",
+       "entry": 10997,
+       "rank": 1,
+       "x": 0.017,
+       "y": 0.7444
+      },
+      {
+       "name": "Sothos",
+       "entry": 16102,
+       "rank": 1,
+       "x": 0.1501,
+       "y": 0.9325
+      },
+      {
+       "name": "Jarien",
+       "entry": 16101,
+       "rank": 1,
+       "x": 0.1517,
+       "y": 0.9343
+      },
+      {
+       "name": "Skul",
+       "entry": 10393,
+       "rank": 2,
+       "x": 0.445,
+       "y": 0.825
+      },
+      {
+       "name": "Balzaphon",
+       "entry": 14684,
+       "rank": 1,
+       "x": 0.4423,
+       "y": 0.8322
+      },
+      {
+       "name": "Rockwing Screecher",
+       "entry": 10409,
+       "rank": 1,
+       "x": 0.6871,
+       "y": 0.133
+      },
+      {
+       "name": "Stonespine",
+       "entry": 10809,
+       "rank": 2,
+       "x": 0.6871,
+       "y": 0.133
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/stratholme/thumb.webp",
+   "thumbWidth": 246,
+   "thumbHeight": 220
+  },
+  "sunken-temple": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Level 1",
+     "file": "maps/sunken-temple/f1.webp",
+     "width": 940,
+     "height": 914,
+     "kind": "minimap",
+     "mapId": 109,
+     "map": "Sunken Temple",
+     "transform": {
+      "xmax": -257.838,
+      "ymax": 330.096,
+      "s": 2.0
+     },
+     "bytes": 48102,
+     "pois": [
+      {
+       "name": "Hazzas",
+       "entry": 5722,
+       "rank": 1,
+       "x": 0.5562,
+       "y": 0.9022
+      },
+      {
+       "name": "Morphaz",
+       "entry": 5719,
+       "rank": 1,
+       "x": 0.5464,
+       "y": 0.9055
+      },
+      {
+       "name": "Spawn of Hakkar",
+       "entry": 5708,
+       "rank": 1,
+       "x": 0.5203,
+       "y": 0.245
+      },
+      {
+       "name": "Shade of Eranikus",
+       "entry": 5709,
+       "rank": 1,
+       "x": 0.7784,
+       "y": 0.8765
+      },
+      {
+       "name": "Atal'ai Priest",
+       "entry": 5269,
+       "rank": 1,
+       "x": 0.8971,
+       "y": 0.417
+      },
+      {
+       "name": "Atal'ai High Priest",
+       "entry": 5273,
+       "rank": 1,
+       "x": 0.904,
+       "y": 0.4566
+      },
+      {
+       "name": "Jammal'an the Prophet",
+       "entry": 5710,
+       "rank": 1,
+       "x": 0.8848,
+       "y": 0.3695
+      },
+      {
+       "name": "Ogom the Wretched",
+       "entry": 5711,
+       "rank": 1,
+       "x": 0.8945,
+       "y": 0.36
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "Level 2",
+     "file": "maps/sunken-temple/f2.webp",
+     "width": 671,
+     "height": 814,
+     "kind": "minimap",
+     "mapId": 109,
+     "map": "Sunken Temple",
+     "transform": {
+      "xmax": -239.166,
+      "ymax": 262.744,
+      "s": 2.0
+     },
+     "bytes": 35926,
+     "pois": [
+      {
+       "name": "Dreamscythe",
+       "entry": 5721,
+       "rank": 1,
+       "x": 0.5295,
+       "y": 0.6626
+      },
+      {
+       "name": "Atal'alarion",
+       "entry": 8580,
+       "rank": 1,
+       "x": 0.4954,
+       "y": 0.575
+      },
+      {
+       "name": "Weaver",
+       "entry": 5720,
+       "rank": 1,
+       "x": 0.4679,
+       "y": 0.4569
+      }
+     ]
+    },
+    {
+     "floor": "f3",
+     "label": "Level 3",
+     "file": "maps/sunken-temple/f3.webp",
+     "width": 511,
+     "height": 753,
+     "kind": "minimap",
+     "mapId": 109,
+     "map": "Sunken Temple",
+     "transform": {
+      "xmax": -257.168,
+      "ymax": 223.046,
+      "s": 2.0
+     },
+     "bytes": 20440,
+     "pois": []
+    },
+    {
+     "floor": "f4",
+     "label": "Level 4",
+     "file": "maps/sunken-temple/f4.webp",
+     "width": 511,
+     "height": 700,
+     "kind": "minimap",
+     "mapId": 109,
+     "map": "Sunken Temple",
+     "transform": {
+      "xmax": -288.331,
+      "ymax": 206.875,
+      "s": 2.28013
+     },
+     "bytes": 44496,
+     "pois": [
+      {
+       "name": "Mijan",
+       "entry": 5717,
+       "rank": 1,
+       "x": 0.3383,
+       "y": 0.3839
+      },
+      {
+       "name": "Hukku",
+       "entry": 5715,
+       "rank": 1,
+       "x": 0.6533,
+       "y": 0.3817
+      },
+      {
+       "name": "Loro",
+       "entry": 5714,
+       "rank": 1,
+       "x": 0.8057,
+       "y": 0.5826
+      },
+      {
+       "name": "Gasher",
+       "entry": 5713,
+       "rank": 1,
+       "x": 0.6578,
+       "y": 0.7806
+      },
+      {
+       "name": "Zolo",
+       "entry": 5712,
+       "rank": 1,
+       "x": 0.3423,
+       "y": 0.7828
+      },
+      {
+       "name": "Zul'Lor",
+       "entry": 5716,
+       "rank": 1,
+       "x": 0.1824,
+       "y": 0.5833
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/sunken-temple/thumb.webp",
+   "thumbWidth": 226,
+   "thumbHeight": 220
+  },
+  "timbermaw-hold": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Map",
+     "file": "maps/timbermaw-hold/f1.webp",
+     "width": 1600,
+     "height": 1533,
+     "kind": "minimap",
+     "mapId": 819,
+     "map": "Timbermaw Hold",
+     "transform": {
+      "xmax": -7230.892,
+      "ymax": -2986.068,
+      "s": 1.620253
+     },
+     "bytes": 128676,
+     "pois": []
+    }
+   ],
+   "thumb": "maps/timbermaw-hold/thumb.webp",
+   "thumbWidth": 229,
+   "thumbHeight": 220
+  },
+  "tower-of-karazhan": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Level 1",
+     "file": "maps/tower-of-karazhan/f1.webp",
+     "width": 1389,
+     "height": 1031,
+     "kind": "minimap",
+     "mapId": 814,
+     "map": "Tower of Karazhan",
+     "transform": {
+      "xmax": -10772.484,
+      "ymax": -1489.687,
+      "s": 2.0
+     },
+     "bytes": 108676,
+     "pois": [
+      {
+       "name": "Duskfang Creeper",
+       "entry": 61935,
+       "rank": 1,
+       "x": 0.6977,
+       "y": 0.5762
+      },
+      {
+       "name": "Keeper Gnarlmoon",
+       "entry": 61939,
+       "rank": 3,
+       "x": 0.5755,
+       "y": 0.723
+      },
+      {
+       "name": "Echo of Medivh",
+       "entry": 61958,
+       "rank": 3,
+       "x": 0.1617,
+       "y": 0.6485
+      },
+      {
+       "name": "Vampiric Gloomwing",
+       "entry": 61932,
+       "rank": 1,
+       "x": 0.5999,
+       "y": 0.4448
+      },
+      {
+       "name": "King",
+       "entry": 59967,
+       "rank": 1,
+       "x": 0.5941,
+       "y": 0.5577
+      },
+      {
+       "name": "Bishop",
+       "entry": 59971,
+       "rank": 1,
+       "x": 0.5938,
+       "y": 0.5647
+      },
+      {
+       "name": "Rook",
+       "entry": 59970,
+       "rank": 1,
+       "x": 0.5888,
+       "y": 0.5564
+      },
+      {
+       "name": "Knight",
+       "entry": 59968,
+       "rank": 1,
+       "x": 0.5916,
+       "y": 0.5603
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "Level 2",
+     "file": "maps/tower-of-karazhan/f2.webp",
+     "width": 1392,
+     "height": 1266,
+     "kind": "minimap",
+     "mapId": 814,
+     "map": "Tower of Karazhan",
+     "transform": {
+      "xmax": -10917.803,
+      "ymax": -1465.779,
+      "s": 2.0
+     },
+     "bytes": 72818,
+     "pois": [
+      {
+       "name": "Anomalus",
+       "entry": 61951,
+       "rank": 3,
+       "x": 0.6212,
+       "y": 0.6333
+      },
+      {
+       "name": "Ley-Watcher Incantagos",
+       "entry": 61946,
+       "rank": 3,
+       "x": 0.4552,
+       "y": 0.6578
+      },
+      {
+       "name": "Manascale Overseer",
+       "entry": 61945,
+       "rank": 1,
+       "x": 0.3854,
+       "y": 0.5907
+      },
+      {
+       "name": "Manascale Drake",
+       "entry": 61940,
+       "rank": 1,
+       "x": 0.4714,
+       "y": 0.4972
+      },
+      {
+       "name": "Arcane Anomaly",
+       "entry": 61950,
+       "rank": 1,
+       "x": 0.6433,
+       "y": 0.5144
+      },
+      {
+       "name": "Disrupted Arcane Elemental",
+       "entry": 61949,
+       "rank": 1,
+       "x": 0.6978,
+       "y": 0.5817
+      },
+      {
+       "name": "Lingering Magus",
+       "entry": 61954,
+       "rank": 1,
+       "x": 0.3299,
+       "y": 0.484
+      },
+      {
+       "name": "Lingering Astrologist",
+       "entry": 61956,
+       "rank": 1,
+       "x": 0.3334,
+       "y": 0.4889
+      },
+      {
+       "name": "Lingering Arcanist",
+       "entry": 61955,
+       "rank": 1,
+       "x": 0.3393,
+       "y": 0.4972
+      },
+      {
+       "name": "Lingering Enchanter",
+       "entry": 61957,
+       "rank": 1,
+       "x": 0.3463,
+       "y": 0.5069
+      }
+     ]
+    },
+    {
+     "floor": "f3",
+     "label": "Level 3",
+     "file": "maps/tower-of-karazhan/f3.webp",
+     "width": 1421,
+     "height": 1600,
+     "kind": "minimap",
+     "mapId": 814,
+     "map": "Tower of Karazhan",
+     "transform": {
+      "xmax": -10292.942,
+      "ymax": -1665.113,
+      "s": 1.440144
+     },
+     "bytes": 136020,
+     "pois": [
+      {
+       "name": "Vampiric Gloomwing",
+       "entry": 61932,
+       "rank": 1,
+       "x": 0.2872,
+       "y": 0.6932
+      }
+     ]
+    },
+    {
+     "floor": "f4",
+     "label": "Outside",
+     "file": "maps/tower-of-karazhan/f4.webp",
+     "width": 801,
+     "height": 1600,
+     "kind": "minimap",
+     "mapId": 814,
+     "map": "Tower of Karazhan",
+     "transform": {
+      "xmax": -5984.66,
+      "ymax": -2314.94,
+      "s": 1.244652
+     },
+     "bytes": 94878,
+     "pois": [
+      {
+       "name": "Sanv Tas'dal",
+       "entry": 59981,
+       "rank": 3,
+       "x": 0.6469,
+       "y": 0.3635
+      },
+      {
+       "name": "Draenei Truthseeker",
+       "entry": 59980,
+       "rank": 1,
+       "x": 0.6363,
+       "y": 0.3621
+      },
+      {
+       "name": "Rupturan The Broken",
+       "entry": 59961,
+       "rank": 4,
+       "x": 0.853,
+       "y": 0.2052
+      },
+      {
+       "name": "Kruul",
+       "entry": 59991,
+       "rank": 3,
+       "x": 0.8753,
+       "y": 0.9375
+      },
+      {
+       "name": "Na'va D'at",
+       "entry": 62027,
+       "rank": 1,
+       "x": 0.5145,
+       "y": 0.2143
+      },
+      {
+       "name": "Draenei Waterseeker",
+       "entry": 62025,
+       "rank": 1,
+       "x": 0.6155,
+       "y": 0.1413
+      },
+      {
+       "name": "Outcast Souleater",
+       "entry": 62020,
+       "rank": 1,
+       "x": 0.2879,
+       "y": 0.0899
+      },
+      {
+       "name": "Draenei Worshipper",
+       "entry": 62022,
+       "rank": 1,
+       "x": 0.1243,
+       "y": 0.0622
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/tower-of-karazhan/thumb.webp",
+   "thumbWidth": 296,
+   "thumbHeight": 220
+  },
+  "upper-blackrock-spire": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Level 1",
+     "file": "maps/upper-blackrock-spire/f1.webp",
+     "width": 1458,
+     "height": 1147,
+     "kind": "minimap",
+     "mapId": 229,
+     "map": "Blackrock Spire",
+     "transform": {
+      "xmax": 340.398,
+      "ymax": 131.921,
+      "s": 2.0
+     },
+     "bytes": 99208,
+     "pois": [
+      {
+       "name": "Pyroguard Emberseer",
+       "entry": 9816,
+       "rank": 3,
+       "x": 0.5349,
+       "y": 0.3417
+      },
+      {
+       "name": "Halycon",
+       "entry": 10220,
+       "rank": 1,
+       "x": 0.6448,
+       "y": 0.9317
+      },
+      {
+       "name": "War Master Voone",
+       "entry": 9237,
+       "rank": 1,
+       "x": 0.8108,
+       "y": 0.6231
+      },
+      {
+       "name": "Quartermaster Zigris",
+       "entry": 9736,
+       "rank": 1,
+       "x": 0.8105,
+       "y": 0.9406
+      },
+      {
+       "name": "Mother Smolderweb",
+       "entry": 10596,
+       "rank": 1,
+       "x": 0.9572,
+       "y": 0.8298
+      },
+      {
+       "name": "Spirestone Butcher",
+       "entry": 9219,
+       "rank": 2,
+       "x": 0.85,
+       "y": 0.6578
+      },
+      {
+       "name": "Shadow Hunter Vosh'gajin",
+       "entry": 9236,
+       "rank": 3,
+       "x": 0.8424,
+       "y": 0.8049
+      },
+      {
+       "name": "Spirestone Lord Magus",
+       "entry": 9217,
+       "rank": 2,
+       "x": 0.6767,
+       "y": 0.6474
+      },
+      {
+       "name": "Highlord Omokk",
+       "entry": 9196,
+       "rank": 1,
+       "x": 0.5921,
+       "y": 0.633
+      },
+      {
+       "name": "Spirestone Reaver",
+       "entry": 9200,
+       "rank": 1,
+       "x": 0.6019,
+       "y": 0.6849
+      },
+      {
+       "name": "Spirestone Mystic",
+       "entry": 9198,
+       "rank": 1,
+       "x": 0.598,
+       "y": 0.6402
+      },
+      {
+       "name": "The Beast",
+       "entry": 10430,
+       "rank": 3,
+       "x": 0.963,
+       "y": 0.3756
+      },
+      {
+       "name": "Warchief Rend Blackhand",
+       "entry": 10429,
+       "rank": 3,
+       "x": 0.7895,
+       "y": 0.3158
+      },
+      {
+       "name": "Goraluk Anvilcrack",
+       "entry": 10899,
+       "rank": 2,
+       "x": 0.5151,
+       "y": 0.3479
+      },
+      {
+       "name": "Lord Victor Nefarius",
+       "entry": 10162,
+       "rank": 3,
+       "x": 0.7902,
+       "y": 0.309
+      },
+      {
+       "name": "Lord Valthalak",
+       "entry": 16042,
+       "rank": 3,
+       "x": 0.9152,
+       "y": 0.5017
+      },
+      {
+       "name": "Mor Grayhoof",
+       "entry": 16080,
+       "rank": 1,
+       "x": 0.8055,
+       "y": 0.6213
+      },
+      {
+       "name": "Spirestone Battle Lord",
+       "entry": 9218,
+       "rank": 2,
+       "x": 0.6288,
+       "y": 0.6827
+      },
+      {
+       "name": "Jed Runewatcher",
+       "entry": 10509,
+       "rank": 2,
+       "x": 0.5346,
+       "y": 0.326
+      },
+      {
+       "name": "Bijou",
+       "entry": 10257,
+       "rank": 1,
+       "x": 0.9338,
+       "y": 0.6086
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "Level 2",
+     "file": "maps/upper-blackrock-spire/f2.webp",
+     "width": 828,
+     "height": 822,
+     "kind": "minimap",
+     "mapId": 229,
+     "map": "Blackrock Spire",
+     "transform": {
+      "xmax": 235.325,
+      "ymax": -183.853,
+      "s": 2.0
+     },
+     "bytes": 37192,
+     "pois": [
+      {
+       "name": "Crystal Fang",
+       "entry": 10376,
+       "rank": 2,
+       "x": 0.6888,
+       "y": 0.9091
+      },
+      {
+       "name": "Ghok Bashguud",
+       "entry": 9718,
+       "rank": 2,
+       "x": 0.2595,
+       "y": 0.7915
+      }
+     ]
+    },
+    {
+     "floor": "f3",
+     "label": "Level 3",
+     "file": "maps/upper-blackrock-spire/f3.webp",
+     "width": 700,
+     "height": 612,
+     "kind": "minimap",
+     "mapId": 229,
+     "map": "Blackrock Spire",
+     "transform": {
+      "xmax": 138.154,
+      "ymax": -211.636,
+      "s": 2.005731
+     },
+     "bytes": 46976,
+     "pois": [
+      {
+       "name": "Blackhand Thug",
+       "entry": 10762,
+       "rank": 1,
+       "x": 0.6027,
+       "y": 0.2228
+      },
+      {
+       "name": "General Drakkisath",
+       "entry": 10363,
+       "rank": 3,
+       "x": 0.2111,
+       "y": 0.3389
+      },
+      {
+       "name": "Overlord Wyrmthalak",
+       "entry": 9568,
+       "rank": 3,
+       "x": 0.7867,
+       "y": 0.527
+      },
+      {
+       "name": "Scarshield Infiltrator",
+       "entry": 10299,
+       "rank": 1,
+       "x": 0.5383,
+       "y": 0.2665
+      },
+      {
+       "name": "Awbee",
+       "entry": 10740,
+       "rank": 1,
+       "x": 0.5983,
+       "y": 0.2216
+      },
+      {
+       "name": "Chromatic Elite Guard",
+       "entry": 10814,
+       "rank": 1,
+       "x": 0.2368,
+       "y": 0.3538
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/upper-blackrock-spire/thumb.webp",
+   "thumbWidth": 280,
+   "thumbHeight": 220
+  },
+  "vanilla-dungeons": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Ragefire Chasm",
+     "file": "maps/vanilla-dungeons/f1.webp",
+     "width": 792,
+     "height": 1063,
+     "kind": "minimap",
+     "mapId": 389,
+     "map": "Ragefire Chasm",
+     "transform": {
+      "xmax": 108.956,
+      "ymax": 281.379,
+      "s": 2.0
+     },
+     "bytes": 59272,
+     "pois": [
+      {
+       "name": "Taragaman the Hungerer",
+       "entry": 11520,
+       "rank": 1,
+       "x": 0.3316,
+       "y": 0.6655
+      },
+      {
+       "name": "Oggleflint",
+       "entry": 11517,
+       "rank": 1,
+       "x": 0.6128,
+       "y": 0.4826
+      },
+      {
+       "name": "Jergosh the Invoker",
+       "entry": 11518,
+       "rank": 1,
+       "x": 0.1822,
+       "y": 0.914
+      },
+      {
+       "name": "Bazzalan",
+       "entry": 11519,
+       "rank": 1,
+       "x": 0.3418,
+       "y": 0.9291
+      }
+     ]
+    },
+    {
+     "floor": "f2",
+     "label": "The Stockade",
+     "file": "maps/vanilla-dungeons/f2.webp",
+     "width": 700,
+     "height": 485,
+     "kind": "minimap",
+     "mapId": 34,
+     "map": "Stormwind Stockade",
+     "transform": {
+      "xmax": 203.299,
+      "ymax": 157.821,
+      "s": 2.229299
+     },
+     "bytes": 31280,
+     "pois": [
+      {
+       "name": "Kam Deepfury",
+       "entry": 1666,
+       "rank": 1,
+       "x": 0.7314,
+       "y": 0.2788
+      },
+      {
+       "name": "Bruegal Ironknuckle",
+       "entry": 1720,
+       "rank": 2,
+       "x": 0.357,
+       "y": 0.1988
+      },
+      {
+       "name": "Hamhock",
+       "entry": 1717,
+       "rank": 1,
+       "x": 0.8395,
+       "y": 0.4494
+      },
+      {
+       "name": "Dextren Ward",
+       "entry": 1663,
+       "rank": 1,
+       "x": 0.0734,
+       "y": 0.1678
+      },
+      {
+       "name": "Bazil Thredd",
+       "entry": 1716,
+       "rank": 1,
+       "x": 0.9387,
+       "y": 0.5228
+      },
+      {
+       "name": "Targorr the Dread",
+       "entry": 1696,
+       "rank": 1,
+       "x": 0.4986,
+       "y": 0.2009
+      }
+     ]
+    },
+    {
+     "floor": "f3",
+     "label": "Gnomeregan: Lower level",
+     "file": "maps/vanilla-dungeons/f3.webp",
+     "width": 1600,
+     "height": 1273,
+     "kind": "minimap",
+     "mapId": 90,
+     "map": "Gnomeregan",
+     "transform": {
+      "xmax": -194.888,
+      "ymax": 762.161,
+      "s": 1.757276
+     },
+     "bytes": 155628,
+     "pois": [
+      {
+       "name": "Holdout Technician",
+       "entry": 6407,
+       "rank": 1,
+       "x": 0.6196,
+       "y": 0.4093
+      },
+      {
+       "name": "Mekgineer Thermaplugg",
+       "entry": 7800,
+       "rank": 1,
+       "x": 0.101,
+       "y": 0.4644
+      },
+      {
+       "name": "Viscous Fallout",
+       "entry": 7079,
+       "rank": 1,
+       "x": 0.7904,
+       "y": 0.3248
+      },
+      {
+       "name": "Blastmaster Emi Shortfuse",
+       "entry": 7998,
+       "rank": 1,
+       "x": 0.9892,
+       "y": 0.4418
+      },
+      {
+       "name": "Crowd Pummeler 9-60",
+       "entry": 6229,
+       "rank": 1,
+       "x": 0.4407,
+       "y": 0.9608
+      },
+      {
+       "name": "Dark Iron Ambassador",
+       "entry": 6228,
+       "rank": 1,
+       "x": 0.2163,
+       "y": 0.7223
+      }
+     ]
+    },
+    {
+     "floor": "f4",
+     "label": "Gnomeregan: Upper level",
+     "file": "maps/vanilla-dungeons/f4.webp",
+     "width": 1268,
+     "height": 1167,
+     "kind": "minimap",
+     "mapId": 90,
+     "map": "Gnomeregan",
+     "transform": {
+      "xmax": -336.671,
+      "ymax": 621.843,
+      "s": 2.0
+     },
+     "bytes": 66744,
+     "pois": [
+      {
+       "name": "Holdout Technician",
+       "entry": 6407,
+       "rank": 1,
+       "x": 0.6895,
+       "y": 0.3915
+      },
+      {
+       "name": "Electrocutioner 6000",
+       "entry": 6235,
+       "rank": 1,
+       "x": 0.1876,
+       "y": 0.3691
+      }
+     ]
+    },
+    {
+     "floor": "f5",
+     "label": "Uldaman",
+     "file": "maps/vanilla-dungeons/f5.webp",
+     "width": 1097,
+     "height": 1136,
+     "kind": "minimap",
+     "mapId": 70,
+     "map": "Uldaman",
+     "transform": {
+      "xmax": 190.306,
+      "ymax": 472.334,
+      "s": 2.0
+     },
+     "bytes": 107314,
+     "pois": [
+      {
+       "name": "Ancient Stone Keeper",
+       "entry": 7206,
+       "rank": 1,
+       "x": 0.4578,
+       "y": 0.4027
+      },
+      {
+       "name": "Revelosh",
+       "entry": 6910,
+       "rank": 1,
+       "x": 0.5672,
+       "y": 0.7322
+      },
+      {
+       "name": "Grimlok",
+       "entry": 4854,
+       "rank": 1,
+       "x": 0.0311,
+       "y": 0.2352
+      },
+      {
+       "name": "Shadowforge Geologist",
+       "entry": 7030,
+       "rank": 1,
+       "x": 0.0985,
+       "y": 0.3498
+      },
+      {
+       "name": "Galgann Firehammer",
+       "entry": 7291,
+       "rank": 1,
+       "x": 0.1051,
+       "y": 0.3533
+      },
+      {
+       "name": "Shadowforge Sharpshooter",
+       "entry": 7290,
+       "rank": 1,
+       "x": 0.1506,
+       "y": 0.3438
+      },
+      {
+       "name": "Shadowforge Darkcaster",
+       "entry": 4848,
+       "rank": 1,
+       "x": 0.1359,
+       "y": 0.31
+      },
+      {
+       "name": "Shadowforge Archaeologist",
+       "entry": 4849,
+       "rank": 1,
+       "x": 0.1286,
+       "y": 0.3085
+      },
+      {
+       "name": "Olaf",
+       "entry": 6908,
+       "rank": 1,
+       "x": 0.6203,
+       "y": 0.9635
+      },
+      {
+       "name": "Eric \"The Swift\"",
+       "entry": 6907,
+       "rank": 1,
+       "x": 0.6443,
+       "y": 0.9659
+      },
+      {
+       "name": "Baelog",
+       "entry": 6906,
+       "rank": 1,
+       "x": 0.6475,
+       "y": 0.9565
+      },
+      {
+       "name": "Obsidian Sentinel",
+       "entry": 7023,
+       "rank": 1,
+       "x": 0.1538,
+       "y": 0.6234
+      },
+      {
+       "name": "World Trigger",
+       "entry": 15384,
+       "rank": 1,
+       "x": 0.3026,
+       "y": 0.0704
+      },
+      {
+       "name": "Archaedas",
+       "entry": 2748,
+       "rank": 1,
+       "x": 0.3647,
+       "y": 0.1514
+      },
+      {
+       "name": "Ironaya",
+       "entry": 7228,
+       "rank": 1,
+       "x": 0.2966,
+       "y": 0.75
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/vanilla-dungeons/thumb.webp",
+   "thumbWidth": 164,
+   "thumbHeight": 220
+  },
+  "wailing-caverns": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Map",
+     "file": "maps/wailing-caverns/f1.webp",
+     "width": 1600,
+     "height": 1347,
+     "kind": "minimap",
+     "mapId": 43,
+     "map": "Wailing Caverns",
+     "transform": {
+      "xmax": 208.028,
+      "ymax": 543.851,
+      "s": 1.73913
+     },
+     "bytes": 148300,
+     "pois": [
+      {
+       "name": "Verdan the Everliving",
+       "entry": 5775,
+       "rank": 1,
+       "x": 0.5561,
+       "y": 0.3743
+      },
+      {
+       "name": "Lord Cobrahn",
+       "entry": 3669,
+       "rank": 1,
+       "x": 0.1407,
+       "y": 0.4637
+      },
+      {
+       "name": "Kresh",
+       "entry": 3653,
+       "rank": 1,
+       "x": 0.2443,
+       "y": 0.3517
+      },
+      {
+       "name": "Deviate Faerie Dragon",
+       "entry": 5912,
+       "rank": 4,
+       "x": 0.6645,
+       "y": 0.265
+      },
+      {
+       "name": "Disciple of Naralex",
+       "entry": 3678,
+       "rank": 1,
+       "x": 0.4548,
+       "y": 0.4428
+      },
+      {
+       "name": "Lord Serpentis",
+       "entry": 3673,
+       "rank": 1,
+       "x": 0.6179,
+       "y": 0.4237
+      },
+      {
+       "name": "Lord Pythas",
+       "entry": 3670,
+       "rank": 1,
+       "x": 0.8532,
+       "y": 0.2211
+      },
+      {
+       "name": "Skum",
+       "entry": 3674,
+       "rank": 1,
+       "x": 0.9321,
+       "y": 0.6374
+      },
+      {
+       "name": "Deviate Lurker",
+       "entry": 3641,
+       "rank": 1,
+       "x": 0.7207,
+       "y": 0.9385
+      },
+      {
+       "name": "Vangros",
+       "entry": 61965,
+       "rank": 1,
+       "x": 0.8281,
+       "y": 0.8103
+      },
+      {
+       "name": "Zandara Windhoof",
+       "entry": 61968,
+       "rank": 1,
+       "x": 0.5618,
+       "y": 0.1629
+      },
+      {
+       "name": "Deviate Coiler Hatchling",
+       "entry": 61218,
+       "rank": 1,
+       "x": 0.8262,
+       "y": 0.7757
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/wailing-caverns/thumb.webp",
+   "thumbWidth": 262,
+   "thumbHeight": 220
+  },
+  "windhorn-canyon": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Outside",
+     "file": "maps/windhorn-canyon/f1.webp",
+     "width": 721,
+     "height": 1600,
+     "kind": "minimap",
+     "mapId": 820,
+     "map": "Windhorn Canyon",
+     "transform": {
+      "xmax": -7074.391,
+      "ymax": -3355.6,
+      "s": 1.528176
+     },
+     "bytes": 58224,
+     "pois": []
+    },
+    {
+     "floor": "f2",
+     "label": "Lower level",
+     "file": "maps/windhorn-canyon/f2.webp",
+     "width": 826,
+     "height": 1600,
+     "kind": "minimap",
+     "mapId": 820,
+     "map": "Windhorn Canyon",
+     "transform": {
+      "xmax": -7226.899,
+      "ymax": -3376.804,
+      "s": 1.840138
+     },
+     "bytes": 32734,
+     "pois": []
+    },
+    {
+     "floor": "f3",
+     "label": "Upper level",
+     "file": "maps/windhorn-canyon/f3.webp",
+     "width": 695,
+     "height": 700,
+     "kind": "minimap",
+     "mapId": 820,
+     "map": "Windhorn Canyon",
+     "transform": {
+      "xmax": -7564.243,
+      "ymax": -3577.012,
+      "s": 4.560261
+     },
+     "bytes": 33742,
+     "pois": []
+    }
+   ],
+   "thumb": "maps/windhorn-canyon/thumb.webp",
+   "thumbWidth": 99,
+   "thumbHeight": 220
+  },
+  "zulfarrak": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Map",
+     "file": "maps/zulfarrak/f1.webp",
+     "width": 1542,
+     "height": 1600,
+     "kind": "minimap",
+     "mapId": 209,
+     "map": "Zul'Farrak",
+     "transform": {
+      "xmax": 2000.28,
+      "ymax": 1379.11,
+      "s": 1.954795
+     },
+     "bytes": 196090,
+     "pois": [
+      {
+       "name": "Sul'lithuz Abomination",
+       "entry": 8120,
+       "rank": 1,
+       "x": 0.4259,
+       "y": 0.2826
+      },
+      {
+       "name": "Witch Doctor Zum'rah",
+       "entry": 7271,
+       "rank": 1,
+       "x": 0.4602,
+       "y": 0.1076
+      },
+      {
+       "name": "Sul'lithuz Hatchling",
+       "entry": 8130,
+       "rank": 1,
+       "x": 0.8884,
+       "y": 0.2232
+      },
+      {
+       "name": "Antu'sul",
+       "entry": 8127,
+       "rank": 1,
+       "x": 0.8984,
+       "y": 0.2253
+      },
+      {
+       "name": "Hydromancer Velratha",
+       "entry": 7795,
+       "rank": 1,
+       "x": 0.2134,
+       "y": 0.369
+      },
+      {
+       "name": "Raven",
+       "entry": 7605,
+       "rank": 1,
+       "x": 0.1014,
+       "y": 0.1388
+      },
+      {
+       "name": "Murta Grimgut",
+       "entry": 7608,
+       "rank": 1,
+       "x": 0.1069,
+       "y": 0.1334
+      },
+      {
+       "name": "Sergeant Bly",
+       "entry": 7604,
+       "rank": 1,
+       "x": 0.1012,
+       "y": 0.1434
+      },
+      {
+       "name": "Sandfury Executioner",
+       "entry": 7274,
+       "rank": 1,
+       "x": 0.1171,
+       "y": 0.1387
+      },
+      {
+       "name": "Zerillis",
+       "entry": 10082,
+       "rank": 2,
+       "x": 0.6309,
+       "y": 0.3572
+      },
+      {
+       "name": "Theka the Martyr",
+       "entry": 7272,
+       "rank": 1,
+       "x": 0.6585,
+       "y": 0.2716
+      },
+      {
+       "name": "Ruuzlu",
+       "entry": 7797,
+       "rank": 1,
+       "x": 0.4614,
+       "y": 0.3299
+      },
+      {
+       "name": "Oro Eyegouge",
+       "entry": 7606,
+       "rank": 1,
+       "x": 0.1028,
+       "y": 0.1352
+      },
+      {
+       "name": "Weegli Blastfuse",
+       "entry": 7607,
+       "rank": 1,
+       "x": 0.1036,
+       "y": 0.1457
+      },
+      {
+       "name": "Chief Ukorz Sandscalp",
+       "entry": 7267,
+       "rank": 1,
+       "x": 0.4586,
+       "y": 0.3333
+      },
+      {
+       "name": "Sandarr Dunereaver",
+       "entry": 10080,
+       "rank": 2,
+       "x": 0.6068,
+       "y": 0.4139
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/zulfarrak/thumb.webp",
+   "thumbWidth": 212,
+   "thumbHeight": 220
+  },
+  "zulgurub": {
+   "floors": [
+    {
+     "floor": "f1",
+     "label": "Map",
+     "file": "maps/zulgurub/f1.webp",
+     "width": 1347,
+     "height": 1600,
+     "kind": "minimap",
+     "mapId": 309,
+     "map": "Zul'Gurub",
+     "transform": {
+      "xmax": -11376.2,
+      "ymax": -1148.4,
+      "s": 1.456532
+     },
+     "bytes": 226024,
+     "pois": [
+      {
+       "name": "Skullsplitter Speaker",
+       "entry": 11390,
+       "rank": 1,
+       "x": 0.5656,
+       "y": 0.377
+      },
+      {
+       "name": "Bloodscalp Speaker",
+       "entry": 11389,
+       "rank": 1,
+       "x": 0.5652,
+       "y": 0.3708
+      },
+      {
+       "name": "Jin'do the Hexxer",
+       "entry": 11380,
+       "rank": 3,
+       "x": 0.1374,
+       "y": 0.1271
+      },
+      {
+       "name": "Zealot Lor'Khan",
+       "entry": 11347,
+       "rank": 1,
+       "x": 0.9129,
+       "y": 0.2971
+      },
+      {
+       "name": "Zealot Zath",
+       "entry": 11348,
+       "rank": 1,
+       "x": 0.9128,
+       "y": 0.2941
+      },
+      {
+       "name": "High Priest Thekal",
+       "entry": 14599,
+       "rank": 3,
+       "x": 0.9197,
+       "y": 0.2955
+      },
+      {
+       "name": "Vilebranch Speaker",
+       "entry": 11391,
+       "rank": 1,
+       "x": 0.865,
+       "y": 0.7466
+      },
+      {
+       "name": "Bloodlord Mandokir",
+       "entry": 11382,
+       "rank": 3,
+       "x": 0.8422,
+       "y": 0.7206
+      },
+      {
+       "name": "High Priestess Mar'li",
+       "entry": 14510,
+       "rank": 3,
+       "x": 0.4636,
+       "y": 0.8651
+      },
+      {
+       "name": "Witherbark Speaker",
+       "entry": 11388,
+       "rank": 1,
+       "x": 0.4735,
+       "y": 0.865
+      },
+      {
+       "name": "High Priestess Jeklik",
+       "entry": 14517,
+       "rank": 3,
+       "x": 0.2528,
+       "y": 0.8316
+      },
+      {
+       "name": "High Priest Venoxis",
+       "entry": 14507,
+       "rank": 3,
+       "x": 0.605,
+       "y": 0.595
+      },
+      {
+       "name": "Zanza the Restless",
+       "entry": 15042,
+       "rank": 1,
+       "x": 0.711,
+       "y": 0.5797
+      },
+      {
+       "name": "Hakkar",
+       "entry": 14834,
+       "rank": 3,
+       "x": 0.5417,
+       "y": 0.3743
+      },
+      {
+       "name": "Sandfury Speaker",
+       "entry": 11387,
+       "rank": 1,
+       "x": 0.6024,
+       "y": 0.5507
+      },
+      {
+       "name": "Zulian Stalker",
+       "entry": 15067,
+       "rank": 1,
+       "x": 0.5432,
+       "y": 0.0799
+      },
+      {
+       "name": "Gahz'ranka",
+       "entry": 15114,
+       "rank": 3,
+       "x": 0.6249,
+       "y": 0.2705
+      }
+     ]
+    }
+   ],
+   "thumb": "maps/zulgurub/thumb.webp",
+   "thumbWidth": 185,
+   "thumbHeight": 220
+  }
+ }
+}

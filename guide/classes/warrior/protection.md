@@ -16,6 +16,46 @@ Warrior is the single-target "cooldown tank". It trails bear and paladin overall
 | Strengths | "Warrior is the cooldown tank. Best defensive and offensive cds" [[d:warrior#1489291426532556983]]; best Vael tank [[d:warrior#1489291318084767774]]; best Incantagos tank thanks to flat threat [[d:warrior#1480289819648069712]], [[d:warrior#1471934174830137375]] |
 | Weaknesses | AoE threat ("we are the single target tank class") [[d:warrior#1488666852841357532]]; openers depend on Shield Slam landing [[d:warrior#1485223080249917522]]; mitigation costs rage and therefore threat [[d:warrior#1454683570093428828]] |
 
+## How to play
+
+A decision loop for a level-60 warrior tank. The details are in [Single-target rotation](#single-target-rotation), [AoE threat](#aoe-threat) and [Cooldowns](#cooldowns).
+
+1. **Pull setup:** Battle Shout and Bloodrage about a minute before the pull, and a Mighty Rage Potion on the pull [[d:warrior#1429243795848953866]], [[d:warrior#1447700245839478945]]. Ask DPS to hold 2–3 GCDs [[d:warrior#1441269697512472678]]. Stance and weapon by build:
+   - **DefTac:** shield and a fast one-hander, in **Battle Stance** [[d:warrior#1488520429432864768]].
+   - **FuryProt:** dual wield, in **Defensive Stance** with as much rage as possible. Use Death Wish just before running in [[d:warrior#1475249694681600101]].
+   - **Revenge deep prot** (fresh 60, dungeons): shield, in Defensive Stance.
+2. **First 3–5 GCDs:** threat skills only. Don't open a single target with Thunder Clap or Demoralizing Shout [[d:warrior#1475256639379734619]].
+   - **DefTac:** Shield Slam (or Concussion Blow; within variance [[d:warrior#1483588317709598801]]) → Sunder Armor → Overpower or Sunder → Shield Slam again at 6 s. Queue Heroic Strike on every swing you can afford.
+   - **FuryProt:** Bloodrage → Bloodthirst + Heroic Strike on the first GCD [[d:warrior#1475249627337986211]] → Revenge / Sunder → Bloodthirst.
+3. **Steady threat loop:**
+   - **DefTac:** Shield Slam on cooldown > Overpower on a dodge > Concussion Blow on cooldown > Sunder Armor filler. Heroic Strike is the rage dump and your main threat with Shield Slam ([DefTac](#deftac-bot-ready)).
+   - **FuryProt:** Bloodthirst > Revenge > Sunder Armor when rage-capped. Heroic Strike keeps rage at about 50–60 ([FuryProt](#furyprot)).
+   - **Revenge deep prot:** Shield Slam > Revenge > Sunder Armor > Heroic Strike dump ([Revenge/Reprisal](#revengereprisal-deep-prot-fresh-60-dungeons)).
+4. **Multi-mob:**
+   - Mark skull > cross > square [[d:warrior#1469884937959243838]].
+   - Spam Demoralizing Shout [[d:warrior#1485307725683495074]]. Tab-Cleave on autos [[d:warrior#1484622368537186324]].
+   - Thunder Clap hits at most 4 targets.
+   - Make a short Berserker swap for "tclap whirlwind tclap" [[d:warrior#1473484685412794591]].
+   - For hard pulls, use Thunderfury, Sappers or dynamite. Don't try to AoE-tank like a paladin.
+5. **Taunt / threat recovery:**
+   - **Taunt** needs Defensive Stance and 5 yd, has a 10 s cooldown, and can be resisted. It fails on a crowd-controlled mob [[d:warrior#1430903627610062879]].
+   - **Mocking Blow** (Battle Stance, 120 s) is the backup; **Challenging Shout** (10 min) is the AoE emergency.
+   - Where the threat value must transfer (Four Horsemen), only Taunt copies it [[d:warrior#1379003122881658973]].
+6. **Defensive cooldown rules:**
+   - Sequence Shield Slam's block buff and Shield Block for crit safety; they overwrite each other [[d:warrior#1476093703821983804]].
+   - Once your threat lead is safe on a dangerous boss, block-dance in Defensive Stance [[d:warrior#1488520746740224050]].
+   - When low: Last Stand, healthstone, tea.
+   - **Shield Wall** needs a shield and shares a 30-minute cooldown with Recklessness and Retaliation [[d:warrior#1462506610068029502]].
+   - Improved Berserker Rage breaks roots.
+7. **Avoid:**
+   - Revenge talents in a DefTac build.
+   - DefTac in Defensive Stance all fight.
+   - A slow weapon.
+   - Taunting a crowd-controlled mob.
+   - FuryProt with a shield or in fresh gear.
+
+See also [Common mistakes](#common-mistakes).
+
 ## What changed in 1.18.1
 
 - **Defiance:** +4/8/12/15/20% threat in Defensive Stance (the last rank went from 15% to 20%). **Shield Slam:** Attack Power scaling 15% → 20% and its extra threat modifier 50% → 75%. The developers called these "targeted improvements" and promised "a more comprehensive review of the Protection talent tree" later [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071), [[d:warrior#1481378107037323354]].
@@ -130,7 +170,7 @@ What this means in play:
 - **Shield Slam and Heroic Strike are your threat.** Heroic Strike is "your main threat in a raid environment (or roughly equal to shield slam)", which is why you need a fast weapon [[d:warrior#1484648702718251058]]. Shield Slam "overshadows any other active ability; even as revenge prot, you could press only shield slam and heroic strike and do the majority of your threat" [[d:warrior#1492031644574683297]].
 - **Your opener hinges on Shield Slam landing.** Its combined miss + dodge + parry chance against a boss is about 19% at 315 weapon skill [[d:warrior#1487115607617962087]]. "If you miss 2 shield slams in a row on opener youre doomed" [[d:warrior#1485223080249917522]]. FuryProt is "so much better at chasing a bad opener than dtac" [[d:warrior#1453065132341989568]].
 - **Ask DPS to hold 2-3 GCDs on the pull** to cover parry/dodge streaks [[d:warrior#1441269697512472678]]. The opener matters far more than average TPS [[d:warrior#1441278946753904641]].
-- **Taunt** copies the target's aggro only when the debuff lands, and can fail on a crowd-controlled or target-less mob [[d:warrior#1430903507375882241]], [[d:warrior#1430903627610062879]]. It has a 9 s cooldown, can be resisted (about 1 in 6), requires Defensive Stance [[d:warrior#1466112021677478022]], [[d:warrior#1487489449251049632]], and has only 5 yards of range [[d:warrior#1459932834553794713]].
+- **Taunt** copies the target's aggro only when the debuff lands, and can fail on a crowd-controlled or target-less mob [[d:warrior#1430903507375882241]], [[d:warrior#1430903627610062879]]. **Contested:** spell data gives Taunt a 10 s cooldown, but players report 9 s [[d:warrior#1466112021677478022]]; it can be resisted (about 1 in 6), requires Defensive Stance [[d:warrior#1487489449251049632]], and has only 5 yards of range [[d:warrior#1459932834553794713]].
 
 ## Stats and caps
 

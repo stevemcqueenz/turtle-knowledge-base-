@@ -10,6 +10,21 @@
 | Strengths | Chain Heal throughput on stacked raids, totems (Windfury, Strength of Earth, Mana Spring, Tremor, cleansing, resistances), Spirit Link, tank healing is "pretty solid" [[d:shaman#1485057691465547987]] |
 | Weaknesses | Chain Heal doesn't prioritize the most wounded (see below); one-button gameplay; weak set bonuses; mail healing gear is scarce |
 
+## How to play
+
+The level-60 healing loop with the [0/8/43 build](#raid-0843-recommended). Details: [Raid rotation](#healing-rotation-raid), [Dungeons](#dungeons), [Cooldowns](#spirit-link-and-cooldowns), [Totems](#totems-for-healers).
+
+1. **Keep up:** Water Shield, mana oil on the weapon, the group totem set (Windfury or Grace of Air, Strength of Earth, Mana Spring, a fire totem); drop totems, heal the pack, recall and move [[d:shaman#1446474284166811672]].
+2. **Default heal by damage pattern:**
+   - Raid-wide or stacked group damage → **Chain Heal rank 1**; rank 3 only under heavy raid damage [[d:shaman#1489717659921813667]].
+   - Steady tank damage → **Healing Wave rank 3–4**; rank 6+ once your healing power is good [[d:shaman#1464792806097682655]].
+   - Spike on one target → **max-rank Lesser Healing Wave** ("an absolute mana demolisher") [[d:shaman#1458535191810408539]].
+   - 5-man → Healing Wave far more than Chain Heal unless everyone is stacked [[d:shaman#1470095666398363749]].
+3. **Triage:** tank near death → Ancestral Swiftness + max-rank Healing Wave, else Lesser Healing Wave; then clumps (aim Chain Heal at the clump: it does not pick the most wounded); then top-ups.
+4. **Mana plan:** tea and mana potion on cooldown; with Undertow a Healing Wave below 3 Water Shield charges restores one, at 3 it turns one into mana [[d:shaman#1481145443302772757]]; Fruitcakes for fast downtime mana [[d:shaman#1424166931971309638]].
+5. **Cooldowns:** Ancestral Swiftness (3 min) for the instant emergency heal; Spirit Link (10 min) in burn or enrage phases when a tank is about to die.
+6. **Dispels / utility:** Cure Poison and Cure Disease, Poison/Disease Cleansing Totems, Tremor Totem on fear fights, Purge enemy buffs, Earth Shock to interrupt (vanilla baseline).
+
 ## What 1.18.1 changed for Restoration
 
 | Change | Effect | Source |

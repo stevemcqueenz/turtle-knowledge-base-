@@ -929,3 +929,519 @@ stat_priority_note: Consensus order. Weapon skill has a hard cap of 315 on Turtl
   scales with talents and buffs) beats Agility (~1.13 AP, plus 1% crit and 1% dodge per 20). Stamina outranks Intellect, Spirit
   and mp5 — "Pretend mp5 doesnt exist" [Atreidon p=147011] — except for levelers, where Lightning Strike's mana cost still
   bites.
+
+leveling_gameplay:
+- levels: 1-9
+  spec: Enhancement
+  new_abilities:
+  - level: 1
+    name: Rockbiter Weapon Rank 1
+    spell_id: 8017
+  - level: 4
+    name: Earth Shock Rank 1
+    spell_id: 8042
+  - level: 6
+    name: Earthbind Totem
+    spell_id: 2484
+  - level: 6
+    name: Healing Wave Rank 2
+    spell_id: 332
+  - level: 8
+    name: Lightning Shield Rank 1
+    spell_id: 324
+  - level: 8
+    name: Stoneclaw Totem Rank 1
+    spell_id: 5730
+  single_target:
+  - priority: 1
+    action: Rockbiter Weapon on weapon; Lightning Shield (from 8)
+    condition: buff missing
+  - priority: 2
+    action: Walk in or Lightning Bolt a caster, then auto-attack
+    condition: pull
+  - priority: 3
+    action: Earth Shock
+    condition: only to interrupt a cast or finish a fleeing mob
+  - priority: 4
+    action: Healing Wave self / drink
+    condition: 'out of combat: health < 50% or mana < 40% (vanilla baseline)'
+  multi_target:
+  - priority: 1
+    action: Stoneclaw Totem, kill one mob at a time
+    condition: 2 mobs; never pull more
+  - priority: 2
+    action: Earthbind Totem and leave
+    condition: losing the fight
+- levels: 10-19
+  spec: Enhancement
+  new_abilities:
+  - level: 10
+    name: Flametongue Weapon Rank 1
+    spell_id: 8024
+  - level: 10
+    name: Earthshaker Slam
+    spell_id: 51365
+  - level: 10
+    name: Strength of Earth Totem Rank 1
+    spell_id: 8075
+  - level: 10
+    name: Searing Totem Rank 2
+    spell_id: 6363
+  - level: 10
+    name: Totemic Recall
+    spell_id: 45513
+  - level: 12
+    name: Fire Nova Totem Rank 1
+    spell_id: 1535
+  - level: 12
+    name: Healing Wave Rank 3
+    spell_id: 547
+  - level: 12
+    name: Purge Rank 1
+    spell_id: 370
+  - level: 14
+    name: Cure Disease
+    spell_id: 2870
+  - level: 16
+    name: Cure Poison
+    spell_id: 526
+  - level: 18
+    name: Healing Wave Rank 4
+    spell_id: 913
+  - level: 18
+    name: Tremor Totem
+    spell_id: 8143
+  single_target:
+  - priority: 1
+    action: Rockbiter or Flametongue Weapon; Lightning Shield
+    condition: either imbue performs about the same 10-20 [[d:shaman#1483998607655964712]]
+  - priority: 2
+    action: Auto-attack
+    condition: always
+  - priority: 3
+    action: Searing Totem
+    condition: only when fighting several mobs in one spot
+  - priority: 4
+    action: Earth Shock
+    condition: interrupt or kill only; do not buy Flame Shock [[d:shaman#1436338711972548660]]
+  - priority: 5
+    action: Heal / drink between mobs
+    condition: out of combat
+  multi_target:
+  - priority: 1
+    action: Stoneclaw Totem
+    condition: 2+ mobs
+  - priority: 2
+    action: Fire Nova Totem
+    condition: 3+ stacked mobs only (expensive)
+  - priority: 3
+    action: Earthbind Totem
+    condition: escape
+  tank:
+  - priority: 1
+    action: Rockbiter on 1H + shield; better to DPS until 26
+    condition: 17-19 is very squishy [[d:shaman#1477631643857457153]]
+  - priority: 2
+    action: Mark skull, pull with rank 1 Lightning Bolt + line of sight
+    condition: pull
+  - priority: 3
+    action: Tab Earth Shock (lower rank) + auto-attack across mobs
+    condition: steady; no fire totems before Totemic Alignment [[d:shaman#1426100807572389968]]
+  - priority: 4
+    action: Earthshaker Slam then Earth Shock
+    condition: mob not on you [[d:shaman#1409016131339157565]]
+  - priority: 5
+    action: Stoneclaw Totem as a distraction
+    condition: pack; without Totemic Alignment the totem keeps the aggro [[d:shaman#1455604717332992041]]
+  heal:
+  - priority: 1
+    action: Healing Wave Rank 3 on tank
+    condition: default
+  - priority: 2
+    action: Healing Wave Rank 4
+    condition: big hits
+  - priority: 3
+    action: Healing Wave Rank 2
+    condition: small top-ups
+  - priority: 4
+    action: Cure Poison / Cure Disease
+    condition: tank afflicted
+  - priority: 5
+    action: Stop casting between pulls to regen
+    condition: 5-second rule (vanilla baseline)
+- levels: 20-29
+  spec: Enhancement
+  new_abilities:
+  - level: 20
+    name: Lightning Strike (talent)
+    spell_id: 51387
+  - level: 20
+    name: Frost Shock Rank 1
+    spell_id: 8056
+  - level: 20
+    name: Frostbrand Weapon Rank 1
+    spell_id: 8033
+  - level: 20
+    name: Lesser Healing Wave Rank 1
+    spell_id: 8004
+  - level: 20
+    name: Healing Stream Totem Rank 3
+    spell_id: 6377
+  - level: 22
+    name: Molten Blast Rank 1
+    spell_id: 36916
+  - level: 22
+    name: Poison Cleansing Totem
+    spell_id: 8166
+  - level: 24
+    name: Healing Wave Rank 5
+    spell_id: 939
+  - level: 26
+    name: Water Shield Rank 1
+    spell_id: 45527
+  - level: 26
+    name: Mana Spring Totem Rank 1
+    spell_id: 5675
+  - level: 26
+    name: Magma Totem Rank 1
+    spell_id: 8190
+  - level: 28
+    name: Lesser Healing Wave Rank 2
+    spell_id: 8008
+  - level: 28
+    name: Flametongue Totem Rank 1
+    spell_id: 8227
+  single_target:
+  - priority: 1
+    action: Rockbiter Weapon + Lightning Shield
+    condition: always 20-30 [[d:shaman#1446973252227432749]]
+  - priority: 2
+    action: Lightning Strike
+    condition: on cooldown
+  - priority: 3
+    action: Auto-attack
+    condition: always; no shocks for damage
+  - priority: 4
+    action: Water Shield instead of Lightning Shield
+    condition: from 26, when mana is low [[d:shaman#1456015634986041386]]
+  - priority: 5
+    action: Heal self between mobs
+    condition: spare mana
+  multi_target:
+  - priority: 1
+    action: Stoneclaw Totem
+    condition: 2+ mobs
+  - priority: 2
+    action: Searing Totem
+    condition: fighting in place
+  - priority: 3
+    action: Fire Nova Totem (never Magma)
+    condition: 3+ mobs [[d:shaman#1436341682109943878]]
+  tank:
+  - priority: 1
+    action: Rockbiter on slow 1H + best shield, Lightning Shield
+    condition: setup; start tanking at 26 in SFK [[d:shaman#1448921578992832714]]
+  - priority: 2
+    action: Rank 1 Lightning Bolt with line of sight; Molten Blast as they run in
+    condition: pull (Molten Blast from 22) [[d:shaman#1411592161732067429]]
+  - priority: 3
+    action: Lightning Strike skull, Earth Shock second mob, auto-attack, tab Earth Shock
+    condition: first GCDs
+  - priority: 4
+    action: Stoneclaw Totem every pack; from 29 Stoneclaw + Fire Nova then Earth Shock / Lightning Strike
+    condition: pack; Totemic Alignment at 29 [[d:shaman#1436372753165848626]]
+  - priority: 5
+    action: Earthshaker Slam then Earth Shock
+    condition: mob loose
+  - priority: 6
+    action: Earthbind Totem
+    condition: emergency, lets the healer catch up
+  - priority: 7
+    action: Water Shield + Mana Spring Totem, downranked Earth Shock
+    condition: mana, from 26 [[d:shaman#1488873898115203122]]
+  heal:
+  - priority: 1
+    action: Healing Wave Rank 3 on tank
+    condition: default [[d:shaman#1423689120575651962]]
+  - priority: 2
+    action: Healing Wave Rank 5
+    condition: heavy tank damage
+  - priority: 3
+    action: Lesser Healing Wave (newest rank)
+    condition: tank dropping fast; mana-expensive
+  - priority: 4
+    action: Healing Stream Totem, Mana Spring (26), Poison Cleansing Totem, Strength of Earth
+    condition: totems [[d:shaman#1429871523447050396]]
+  - priority: 5
+    action: Water Shield
+    condition: from 26
+  - priority: 6
+    action: Purge / Cure Poison / Cure Disease
+    condition: as needed
+- levels: 30-39
+  spec: Enhancement
+  new_abilities:
+  - level: 30
+    name: Windfury Weapon Rank 1
+    spell_id: 8232
+  - level: 30
+    name: Grounding Totem
+    spell_id: 8177
+  - level: 31
+    name: Stormstrike (talent)
+    spell_id: 17364
+  - level: 32
+    name: Chain Lightning Rank 1
+    spell_id: 421
+  - level: 32
+    name: Windfury Totem
+    spell_id: 8512
+  - level: 32
+    name: Healing Wave Rank 6
+    spell_id: 959
+  - level: 34
+    name: Water Shield Rank 2
+    spell_id: 51533
+  - level: 36
+    name: Earth Shock Rank 5
+    spell_id: 10412
+  - level: 36
+    name: Lesser Healing Wave Rank 3
+    spell_id: 8010
+  - level: 38
+    name: Lightning Strike Rank 2
+    spell_id: 52420
+  - level: 38
+    name: Disease Cleansing Totem
+    spell_id: 8170
+  single_target:
+  - priority: 1
+    action: Windfury + Water Shield, or Rockbiter + Lightning Shield
+    condition: 'setup [[d:shaman#1485784578789474374]]; contested: Windfury is a gamble on weak mobs [[d:shaman#1476755747424436235]]'
+  - priority: 2
+    action: Stormstrike
+    condition: on cooldown
+  - priority: 3
+    action: Lightning Strike
+    condition: on cooldown
+  - priority: 4
+    action: Earth Shock (after Stormstrike)
+    condition: mob about to die or spare mana
+  - priority: 5
+    action: Auto-attack
+    condition: always
+  multi_target:
+  - priority: 1
+    action: Chain Lightning pull
+    condition: 3 mobs
+  - priority: 2
+    action: Cycle Stormstrike, Lightning Strike, Earth Shock across targets; Water Shield
+    condition: '[[d:shaman#1393882527638487080]]'
+  - priority: 3
+    action: Stoneclaw Totem
+    condition: bigger pulls
+  tank:
+  - priority: 1
+    action: Rank 1 Lightning Bolt + Chain Lightning (or Molten Blast into Chain Lightning)
+    condition: pull [[d:shaman#1438950665572450448]]
+  - priority: 2
+    action: Stormstrike target 1, Earth Shock target 2, Lightning Strike target 3
+    condition: running in; Frost Shock on Nature-resistant mobs [[d:shaman#1411592161732067429]]
+  - priority: 3
+    action: Earth Shock > Stormstrike > Lightning Strike > auto-attack
+    condition: steady loop; Earth Shock ~40% of threat [[d:shaman#1453500008375521330]]
+  - priority: 4
+    action: Stoneclaw + Fire Nova; Magma only if mobs live long
+    condition: 4+ mobs
+  - priority: 5
+    action: Keep auto-attacking, never hard-cast while hit
+    condition: from 33 Earthen Bulwark builds only from white swings [[d:shaman#1493309560428171430]]
+  - priority: 6
+    action: Stay on Water Shield
+    condition: with Totem of the Tides (33+) [[d:shaman#1488873898115203122]]
+  - priority: 7
+    action: Windfury Totem
+    condition: 2+ melee DPS in group
+  heal:
+  - priority: 1
+    action: Healing Wave Rank 3-4
+    condition: default
+  - priority: 2
+    action: Healing Wave Rank 6
+    condition: heavy tank damage
+  - priority: 3
+    action: Lesser Healing Wave Rank 3
+    condition: emergency
+  - priority: 4
+    action: Mana Spring, Healing Stream, Windfury or Strength of Earth, Disease Cleansing Totem
+    condition: totems
+- levels: 40-49
+  spec: Enhancement
+  new_abilities:
+  - level: 40
+    name: Chain Heal Rank 1
+    spell_id: 1064
+  - level: 40
+    name: Earth Shield Rank 1
+    spell_id: 45525
+  - level: 40
+    name: Healing Wave Rank 7
+    spell_id: 8005
+  - level: 42
+    name: Grace of Air Totem Rank 1
+    spell_id: 8835
+  - level: 44
+    name: Lesser Healing Wave Rank 4
+    spell_id: 10466
+  - level: 46
+    name: Chain Heal Rank 2
+    spell_id: 10622
+  - level: 46
+    name: Frost Shock Rank 3
+    spell_id: 10472
+  - level: 48
+    name: Frostbrand Weapon Rank 4
+    spell_id: 16355
+  - level: 48
+    name: Earth Shock Rank 6
+    spell_id: 10413
+  - level: 48
+    name: Healing Wave Rank 8
+    spell_id: 10395
+  single_target:
+  - priority: 1
+    action: Frostbrand Weapon + Water Shield
+    condition: from 44 (Elemental Focus) [[d:shaman#1487775668908589147]]; 40-43 as 30-39
+  - priority: 2
+    action: Frost Shock (rank 1 is enough)
+    condition: opener and whenever the debuff drops [[d:shaman#1437946685006282873]]
+  - priority: 3
+    action: Stormstrike
+    condition: on cooldown
+  - priority: 4
+    action: Lightning Strike
+    condition: on cooldown
+  - priority: 5
+    action: Auto-attack
+    condition: always
+  multi_target:
+  - priority: 1
+    action: Frost Shock each mob or Chain Lightning pull
+    condition: pack
+  - priority: 2
+    action: Fire Nova Totem
+    condition: 3+ mobs
+  tank:
+  - priority: 1
+    action: Swap back to Rockbiter
+    condition: before every tank pull
+  - priority: 2
+    action: Same loop as 30-39
+    condition: '[[d:shaman#1459182669022887979]]'
+  - priority: 3
+    action: Lightning Shield for the pull, Water Shield halfway, Lightning Shield again on Clearcasting
+    condition: shield swap [[d:shaman#1411592161732067429]]
+  - priority: 4
+    action: Frost Shock instead of Earth Shock
+    condition: Nature-resistant mobs (Sunken Temple, Maraudon)
+  heal:
+  - priority: 1
+    action: Healing Wave Rank 3-4
+    condition: default
+  - priority: 2
+    action: Healing Wave Rank 7-8
+    condition: heavy tank damage
+  - priority: 3
+    action: Lesser Healing Wave Rank 4
+    condition: emergency
+  - priority: 4
+    action: Chain Heal Rank 1
+    condition: group stacked and taking cleave [[d:shaman#1470095666398363749]]
+  - priority: 5
+    action: Windfury if 2 damage dealers benefit, else Grace of Air; Mana Spring
+    condition: totems [[d:shaman#1486730676978843719]]
+  - priority: 6
+    action: Respec Resto
+    condition: from Zul'Farrak damage ramps [[d:shaman#1437274154872344696]]
+- levels: 50-60
+  spec: Enhancement
+  new_abilities:
+  - level: 50
+    name: Tranquil Air Totem
+    spell_id: 25908
+  - level: 54
+    name: Chain Heal Rank 3
+    spell_id: 10623
+  - level: 56
+    name: Bloodlust (talent)
+    spell_id: 45509
+  - level: 56
+    name: Lightning Strike Rank 3
+    spell_id: 52422
+  - level: 56
+    name: Healing Wave Rank 9
+    spell_id: 10396
+  - level: 58
+    name: Frostbrand Weapon Rank 5
+    spell_id: 16356
+  - level: 60
+    name: Lesser Healing Wave Rank 6
+    spell_id: 10468
+  - level: 60
+    name: Windfury Weapon Rank 4
+    spell_id: 16362
+  single_target:
+  - priority: 1
+    action: Same as 44+
+    condition: solo
+  - priority: 2
+    action: Bloodlust
+    condition: elites / hard pulls
+  - priority: 3
+    action: Macros call Lightning Strike(Rank 3)
+    condition: from 56 [[d:shaman#1484940392347734207]]
+  multi_target:
+  - priority: 1
+    action: Fire Nova then Magma per pack
+    condition: 52+ with good gear [[d:shaman#1452333229045452871]]
+  tank:
+  - priority: 1
+    action: Same loop as 44+; Bloodlust for burst threat
+    condition: see tank play_loop
+  heal:
+  - priority: 1
+    action: Max-rank Lesser Healing Wave, Healing Wave, Chain Heal
+    condition: 60 dungeons [[d:shaman#1470096881924313335]]
+  - priority: 2
+    action: Healing Wave Rank 3 for most of the run
+    condition: mana [[d:shaman#1487132001134838074]]
+  - priority: 3
+    action: Go full Resto
+    condition: safe from 52 [[d:shaman#1444438508100915261]]
+play_loop:
+  opener:
+  - Windfury Weapon, Lightning Shield, totems Strength of Earth / Windfury / Flametongue / Mana Spring
+  - Wait for tank lead
+  - First white swing lands, then Stormstrike
+  - Flame Shock if target lives > 9 s and not fire-immune
+  single_target:
+  - Stormstrike if ready
+  - Lightning Strike (Rank 3) if ready
+  - 'Shock if ready: Flame Shock -> Earth Shock -> Earth Shock, Stormstrike before Earth Shock'
+  - Auto-attack
+  - Lightning Shield (Water Shield when mana short or on trash)
+  aoe:
+    targets_min: 3
+    loop:
+    - Fire Nova Totem
+    - Chain Lightning on Clearcasting
+    - Fire Nova again while Chain Lightning is on cooldown
+    - Magma Totem only if mana allows
+    - Single-target loop on the kill target in between
+  cooldowns:
+  - Bloodlust at fight start once Stormstrike and a shock are rolling, with Blood Fury / Berserking, haste potions, on-use
+    trinkets
+  threat:
+  - Calming Winds 3/3
+  - Salvation + Tranquil Air Totem
+  - 'Near threat ceiling: Frost Shock or Flame Shock instead of Earth Shock'

@@ -558,3 +558,48 @@ stat_priority_note: 'Order as the playbook''s sourced bullets run: hit to the ca
   are explicitly not stats to gear for. Whether AP enchants or haste win is contested and gear-dependent. Attack power and
   agility are a tie: no cited post ranks them against each other, so their order in the array above carries no ranking. Grouping
   them is this repository''s reading of the sources listed above.'
+play_loop:
+  opener:
+  - send pet as the tank hits
+  - Hunter's Mark
+  - Auto Shot
+  - Steady Shot as the Auto fires, Arcane queued behind [[d:hunter#1489708299913003218]]
+  - Rapid Fire + trinkets
+  single_target:
+  - priority: 1
+    action: never clip Auto Shot
+    condition: ''
+  - priority: 2
+    action: Aimed Shot
+    condition: Lock and Load up
+  - priority: 3
+    action: Aimed Shot
+    condition: off cooldown
+  - priority: 4
+    action: Arcane Shot
+    condition: Enchanted Ammunition up AND Aimed Shot has landed
+  - priority: 5
+    action: Steady Shot
+    condition: filler after each Auto
+  - priority: 6
+    action: Arcane Shot
+    condition: after Steady when it fits
+  - priority: 7
+    action: Serpent Sting
+    condition: only if the raid wants the Nature Ammunition debuff
+  aoe:
+    targets_min: 2
+    loop:
+    - Multi-Shot when it fits (2)
+    - Volley opener (3+)
+    - Multi-Shot
+    - Lock and Load Aimed Shot down a line
+  cooldowns:
+  - name: Rapid Fire
+    spell_id: 3045
+    use: on pull or with Bloodlust
+  - name: Feign Death
+    spell_id: 5384
+    use: whenever threat is close
+  resource: Hawk until low mana, then Viper to the end [[d:hunter#1478128745838674021]]
+  movement: Arcane Shot while moving [[d:hunter#1494752221303279848]]; Volley needs standing still

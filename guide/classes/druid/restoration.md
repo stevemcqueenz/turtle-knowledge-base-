@@ -10,6 +10,20 @@
 | Strengths | Regrowth has the best healing-power scaling in the game [[d:druid#1469614655952388199]]; Tranquility; proactive HoTs; the Spirit aura; mana efficiency; can DPS or tank in other forms |
 | Weaknesses | HoTs from two restos overwrite each other; buff-cap problems in 40-man raids; can't heal other parties the way Prayer of Healing can [[d:druid#1492254315786666024]]; no strong direct heal in Tree Form |
 
+## How to play
+
+The level-60 healing loop; details and sources in the sections linked. For dungeon healing while leveling, see [Gameplay by level](leveling.md#gameplay-by-level).
+
+1. **Default heal by damage pattern:**
+   - **Tank:** pre-HoT Rejuvenation then Regrowth (Rank 9) before the pull, and keep both rolling ([rotation](#healing-rotation)).
+   - **Spot damage:** max-rank Rejuvenation for steady chip damage; Regrowth for spikes (Rank 4 on casters, healers and pets).
+   - **Raid-wide:** Rejuvenation on the damaged players; **Tranquility** (out of Tree Form, 30-minute cooldown) when the whole raid is low.
+2. **Triage:** tank below ~30%: **Nature's Swiftness → max-rank Healing Touch**, or **Swiftmend** → Swiftmend a HoT that is about to expire → Rejuvenation, then Regrowth (Preservation) → never HoT full-health targets.
+3. **Keep up:** your HoTs on the tanks and Tree of Life Form for the group aura. With a second resto druid, split duties (one Rejuvenation, one Regrowth).
+4. **Mana plan:** lower ranks on trash, higher on bosses. **Innervate** yourself (swap in a Spirit weapon first). Use Tea and Mana Potions ([mana](#mana-and-cooldowns), [consumables](#consumables)).
+5. **Cooldowns:** Nature's Swiftness for the emergency Healing Touch; Tranquility once or twice per raid; Innervate.
+6. **Dispels and utility:** **Abolish Poison** over Cure Poison; Remove Curse; Rebirth (out of form).
+
 ## Talent build
 
 ### Raid Tree of Life 18/0/33 (recommended)

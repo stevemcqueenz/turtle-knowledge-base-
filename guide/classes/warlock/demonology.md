@@ -12,6 +12,29 @@
 
 Before 1.18.1, Unleashed Potential only procced from crits, and Demonology was a niche short-fight spec [[d:warlock#1432717115730694276]]. The release made Unleashed Potential proc from any direct damage [[d:warlock#1465390962552340582]], and Demonology rose to the top.
 
+## How to play
+
+The decision loop for a level-60 raid boss with the 0/34/17 build. The reasons and sources are in [Single-target rotation](#single-target-rotation), [AoE and trash](#aoe-and-trash), [Greater demons](#greater-demons) and [Cooldowns, resources and threat](#cooldowns-resources-and-threat).
+
+1. **Before the pull:** summon this boss's greater demon ([which one](#which-demon-and-which-spec-per-boss)). Set its autocasts: Felguard Cleave on, Felstorm manual; Doomguard Infernal Blade on. Keep the pet on passive or defensive. On short fights, pre-stack Unleashed Potential on the last trash pack.
+2. **Opener:** pet attack → curse (Recklessness if you are free to choose) → Shadow Bolt until Unleashed Potential has 3 stacks. Then on-use trinket → Power Overwhelming → Felstorm.
+3. **Single-target loop (top wins):**
+    1. Pet not attacking → pet attack.
+    2. Power Overwhelming ready, and the demon can afford 40% of its base health → Power Overwhelming (no GCD).
+    3. Unleashed Potential about to fall off → any direct-damage spell, or one tick of rank-1 Health Funnel or Mana Funnel.
+    4. Curse missing → curse.
+    5. Corruption only if it will run its full duration.
+    6. Shadow Bolt as the filler. On short fights, use Searing Pain and Shadowburn.
+    7. Demon below ~50%, with no AoE coming → Health Funnel.
+    8. Life Tap when low on mana.
+4. **Cooldowns:** a greater demon stays under your control for 3 minutes. Finish it with Power Overwhelming before it breaks free. Use Fel Domination for an instant resummon when a lesser demon dies ([Cooldowns](#cooldowns-resources-and-threat)).
+5. **AoE switch:**
+    - 1-2 targets: the single-target loop.
+    - 3+ stacked targets that live more than a few seconds: Felstorm, then Hellfire if the tank holds threat. Let the tank AoE-taunt before Felstorm.
+    - Fast trash: curse and Shadow Bolt only.
+6. **Resources and threat:** this spec has the worst mana of the three. Use Life Tap and mana potions, and skip Potion of Quickness. Greater demons cannot receive Salvation. If one out-threats the tank, pull it back or let it die.
+7. **Movement:** use Shadowburn while you move. Re-issue pet attack after every Take Position.
+
 ## Talent build
 
 ### Raid 0/34/17 (recommended)

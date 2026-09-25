@@ -15,6 +15,25 @@
 !!! warning "Fake patch news"
     The 2026-04-01 "next patch" post was an April Fools joke, not a real change. It said Holy Strike becomes a next-swing attack, Crusader Strike loses its cooldown and spellstrikes stop proccing [[d:paladin#1488852869212798987]], [[d:paladin#1488794904246091876]]. Nothing in this guide assumes it.
 
+## How to play
+
+The level-60 tank loop. The details are in [Single-target rotation](#single-target-rotation-priority-list), [AoE tanking](#aoe-tanking), [Cooldowns](#cooldowns) and [Mana](#mana).
+
+1. **Before the pull:** Righteous Fury (re-apply it after every death), Sanctity Aura (Retribution Aura if another paladin has Sanctity), your blessing, Seal of Righteousness. Mark the skull [[d:paladin#1487898897144877108]], [[d:paladin#1469723489400262698]].
+2. **Pull and first GCDs:** pre-cast Holy Shield → run in (pre-cast Consecration where 3+ mobs will meet you) → active spell-power trinket → **Judgement of Righteousness** → **Holy Strike** → re-seal Righteousness [[d:paladin#1479624488675971323]], [[d:paladin#1474054737547497583]], [[d:paladin#1484776924046692372]]. The first Holy Strike is the most important GCD of the fight [[d:paladin#1457409928510701750]].
+3. **Steady threat loop:**
+    1. **Holy Strike** the moment it is ready.
+    2. **Judgement** about 2 s later, then re-seal Righteousness.
+    3. **Holy Shield** when mana permits.
+    4. Filler: **Consecration** (rank 5 early, then rank 1), then **Exorcism** on Undead and Demons.
+    
+    Never press Crusader Strike for threat [[d:paladin#1487459563707044021]].
+4. **Multiple mobs:** with 2 mobs, no Consecration: Holy Strike the skull, Judgement on the other, tab between them. With **3+**, Consecration first, then the loop on the skull, and tab Judgement, Holy Strike or taunt onto the others. On big pulls, lock mobs one at a time and cast rank-5 Consecration at most 1–2 times per pack [[d:paladin#1485641256586444910]], [[d:paladin#1469946685776990285]], [[d:paladin#1469947262431133819]]. For adds that must stick instantly, spam Greater Blessings [[d:paladin#1464060242735399034]].
+5. **Taunt and recovery:** Hand of Reckoning on a mob that leaves you, then Holy Strike it. There is no AoE taunt, so pick up loose mobs with Holy Strike and Judgement.
+6. **Defensive cooldowns:** Holy Shield up for every big hit (your crit/crush cap depends on it). Save Bulwark of the Righteous and Greater Stoneshield for known burst. Divine Shield drops your threat, so use it only for mechanics or to avoid dying. Use Blessing of Protection on the other tank or on a DPS with aggro. See [Cooldowns](#cooldowns).
+7. **Mana:** boss tanking is near-infinite. On trash, Seal of Wisdom costs about 30% of your threat. Below about 30% mana, use rank-1 Consecration until you are back at 50% [[d:paladin#1485641549508251782]], [[d:paladin#1470119581581312222]].
+8. **Avoid:** Consecration on a single target, delaying Holy Strike, swapping off Righteousness on a boss, and forgetting Righteous Fury [[d:paladin#1475773657925161033]].
+
 ## What 1.18.1 changed for Protection
 
 | Change | Effect on you | Source |

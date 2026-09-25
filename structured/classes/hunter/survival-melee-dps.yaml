@@ -739,3 +739,152 @@ stat_priority:
 stat_priority_note: Agility first because Lightning Reflexes converts 100% of agility into melee attack power on top of the
   baseline; melee AP also scales the fire traps through Untamed Trapper. Hit matters but the exact 2H and dual-wield melee
   caps on Turtle are not stated by any Turtle source (the tree gives Surefooted 3%, +3% more for dual wield since 1.18.1).
+leveling_gameplay:
+- levels: 40-49
+  spec: Survival
+  note: respec at 40 (guide/classes/hunter/leveling.md#survival-path-respec-at-40); melee, you tank 90% of the time [[d:hunter#1431196318478630952]]
+  new_abilities:
+  - level: 40
+    name: Carve Rank 1
+    spell_id: 51575
+    note: talent, taken at the 40 respec
+  - level: 40
+    name: Carve Rank 2
+    spell_id: 52415
+    note: trainer rank (learnable from 38); buy after the respec
+  - level: 40
+    name: Lacerate
+    spell_id: 48049
+    note: talent, taken at the 40 respec; 10 s cooldown
+  - level: 40
+    name: Deterrence
+    spell_id: 19263
+    note: talent, taken at the 40 respec; 300 s cooldown
+  - level: 40
+    name: Raptor Strike Rank 6
+    spell_id: 14264
+  - level: 44
+    name: Mongoose Bite Rank 3
+    spell_id: 14270
+  - level: 44
+    name: Explosive Trap Rank 2
+    spell_id: 14316
+  - level: 46
+    name: Immolation Trap Rank 4
+    spell_id: 14304
+  - level: 40
+    name: Untamed Trapper
+    spell_id: null
+    note: 'talent (passive): traps in combat'
+  single_target:
+  - priority: 1
+    action: pull with pet or Steady Shot
+    condition: mob comes to you
+  - priority: 2
+    action: Raptor Strike
+    condition: on cooldown
+  - priority: 3
+    action: Immolation Trap
+    condition: on cooldown; not on a dying mob [[d:hunter#1451997607705444677]]
+  - priority: 4
+    action: Mongoose Bite
+    condition: on cooldown
+  - priority: 5
+    action: Lacerate
+    condition: from the side
+  - priority: 6
+    action: Carve
+    condition: on cooldown
+  - priority: 7
+    action: Wing Clip
+    condition: nothing else ready
+  multi_target:
+  - priority: 1
+    action: Explosive Trap
+    condition: 2+ mobs [[d:hunter#1429126143629328394]]
+  - priority: 2
+    action: Carve
+    condition: ''
+  - priority: 3
+    action: Raptor Strike / Mongoose Bite / Lacerate
+    condition: ''
+  - priority: 4
+    action: Frost Trap gather and kite, Explosive on cooldown
+    condition: big pulls [[d:hunter#1463674674289447045]]
+  - priority: 5
+    action: Deterrence
+    condition: pull going wrong
+- levels: 50-60
+  spec: Survival
+  new_abilities:
+  - level: 54
+    name: Explosive Trap Rank 3
+    spell_id: 14317
+  - level: 56
+    name: Carve Rank 3
+    spell_id: 52416
+  - level: 56
+    name: Immolation Trap Rank 5
+    spell_id: 14305
+  - level: 56
+    name: Raptor Strike Rank 8
+    spell_id: 14266
+  - level: 58
+    name: Mongoose Bite Rank 4
+    spell_id: 14271
+  single_target:
+  - priority: 1
+    action: same as 40-49
+    condition: ''
+  multi_target:
+  - priority: 1
+    action: 'DME lashers: Frost Trap before the pull, pet takes initial aggro'
+    condition: '[[d:hunter#1303915313490034688]]'
+  - priority: 2
+    action: Explosive Trap + Carve on cooldown, kite in a big circle
+    condition: '[[d:hunter#1486750495560306771]]'
+play_loop:
+  opener:
+  - send pet as the tank hits [[d:hunter#1484689822005067816]]
+  - Rapid Fire + trinkets + Blood Fury
+  - auto-attack
+  single_target:
+  - priority: 1
+    action: Raptor Strike
+    condition: on cooldown
+  - priority: 2
+    action: Immolation Trap
+    condition: not fire-immune, not dying
+  - priority: 3
+    action: Mongoose Bite
+    condition: on cooldown
+  - priority: 4
+    action: Lacerate
+    condition: from the flank
+  - priority: 5
+    action: Carve
+    condition: on cooldown
+  - priority: 6
+    action: Wing Clip
+    condition: nothing else ready
+  aoe:
+    targets_min: 2
+    loop:
+    - Explosive Trap (2+)
+    - Carve
+    - Raptor Strike
+    - Mongoose Bite
+    - Lacerate
+    - Wing Clip
+  cooldowns:
+  - name: Rapid Fire
+    spell_id: 3045
+    use: on pull
+  - name: Deterrence
+    spell_id: 19263
+    use: defensive, just in case
+  - name: Feign Death
+    spell_id: 5384
+    use: early; melee pulls aggro at 110%
+  resource: Aspect of the Viper on trash/farming only [[d:hunter#1464367550312874156]]
+  movement: Steady Shot at range [[d:hunter#1466006006126477313]]; no fire traps on fire-immune bosses
