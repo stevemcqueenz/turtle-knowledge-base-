@@ -36,7 +36,7 @@ What the sources do not settle:
 1. **Feral stat weights.** Nobody produced Turtle-correct numbers; haste and Strength-vs-Agility stay contested [[d:druid#1443940954225770580]], [[d:druid#1494727817563345027]].
 2. **Bleed-immune bosses in MC and Naxx.** Counts disagree (3 of 12 vs "half" of MC; "all Naxx bleeds" vs KT/Sapphiron/Golems immune) [[d:druid#1487167793089478656]], [[d:druid#1461732289061978378]], [[d:druid#1465110727303106711]].
 3. **Bear vs paladin/warrior after 1.18.1.** No log aggregation; field reports range from "barely noticed" to "the first 10 seconds are a nightmare" [[d:druid#1485296567123710134]], [[d:druid#1485730370954592399]].
-4. **Balance post-patch rotation.** Pure Wrath spam vs Starfire-in-Arcane was not settled by logs [[d:druid#1484673452152721519]], [[d:druid#1494376129799127061]].
+4. **Balance post-patch rotation.** Pure Wrath spam vs Starfire-in-Arcane was not settled by logs [[d:druid#1484673452152721519]], [[d:druid#1489717763252425008]].
 5. **Efflorescence.** Whether the HoT-overwrite heal still needs Tree Form [[d:druid#1490124547343515648]], [[d:druid#1467257280880971900]].
 6. **Arcane resistance for Anomalus.** 100 to 225+ are all reported [[d:druid#1489295796863242362]], [[d:druid#1492106894800719942]].
 7. **No full pre-raid BiS list** for Balance or Restoration in text form; the channel points to external sheets (Angrycat, Krokat, Bapi's guide) [[d:druid#1412860092692299806]].

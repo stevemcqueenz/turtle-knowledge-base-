@@ -29,7 +29,7 @@ The level-60 loop with the [34/3/14 build](#raid-34314-recommended). Details: [S
 | Change | What it means | Source |
 |---|---|---|
 | Elemental Weapons' Flametongue bonus (+10/20/30% fire totem/spell damage) now lasts 5 s **after a melee hit** | Kills the ranged Molten Blast spec; use a weapon oil instead of Flametongue as a caster | [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071), [[d:shaman#1470506986113077521]] |
-| Fire spec "reworked into being part of nature elemental" | Rotation: refresh Flame Shock with Molten Blast, keep Chain Lightning and Earthquake on cooldown, Lightning Bolt filler | [[d:shaman#1485240088047652894]] |
+| Fire spec "reworked into being part of nature elemental" | Rotation: refresh Flame Shock with Molten Blast, keep Chain Lightning and Earthquake on cooldown, Lightning Bolt filler | [[d:shaman#1484852644785950720]] |
 | **Contested:** was fire fixed or destroyed? | "They've completely destroyed fire shaman instead of fixing it" [[d:shaman#1484852644785950720]]; the fire build was "the best spec" before [[d:shaman#1457192547360313404]] and needed a nerf for decision density, not raw output [[d:shaman#1438197573369466981]] | |
 | Earthquake: +15% base damage, cooldown 18 s; "fixed multiple issues" | Players measured it hitting the main target twice [[d:shaman#1485050548070650020]] and its AoE portion ignoring Elemental Fury; "the fixes they were talking about were actually just damage nerfs" [[d:shaman#1484880940814565536]], [[d:shaman#1485050713309577367]]; cooldown showed 16 s in game [[d:shaman#1484574799656390738]]. A 2026-03-31 hotfix made Aftershock benefit from Elemental Fury ([Torta (staff), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490)); on 04-06 players still reported that a non-critting main hit stops the AoE from critting [[d:shaman#1490739300546121890]] | [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071) |
 | **Call of Earth** (replaces Eye of the Storm): Earth Shield +1/2 charges and +35/70% chance to avoid interruption | Final version: 80% pushback resistance total, but Earth Shield now "replenishes itself so you don't have to flush GCDs" on every offensive Nature spell | [[d:shaman#1484419750355533894]], [[d:shaman#1484390528328925235]] |
@@ -149,7 +149,7 @@ Raid support checklist (Dwi) [[d:shaman#1475607369789607957]], [[d:shaman#147560
 |---|---|---|
 | Pre-raid | **Tier 0.5** set (6 of 8 pieces; skip the 8-piece), strong enough to go straight into BWL/AQ40; ~200-500 g for the quest chain | [[d:shaman#1445133060516610280]], [[d:shaman#1445190976154107965]] |
 | Pre-raid | Timbermaw Hold "0.5" set: "cash money on ele", around T1 level for its set bonuses | [[d:shaman#1467932056347738243]], [[d:shaman#1467925617717805322]] |
-| MC path | T0.5 waist/legs/feet for hit; Valthalak ring and Jarien & Sothos off-hand; Spellweaver's Turban or Crown of Shattering ([Karazhan Crypt](../../instances/karazhan-crypt.md)); tested at 11% hit / 16% crit as top DPS in a pug MC [[d:shaman#1439943845264490556]] | [[d:shaman#1439942417624207372]], [[d:shaman#1439944652601167873]] |
+| MC path | T0.5 waist/legs/feet for hit; Valthalak ring and Jarien & Sothos off-hand; Spellweaver's Turban or Crown of Shattering ([Karazhan Crypt](../../instances/karazhan-crypt.md)); tested at 11% hit / 16% crit as top DPS in a pug MC [[d:shaman#1439943845264490556]] | [[d:shaman#1439942417624207372]], [[d:shaman#1439943097810288750]], [[d:shaman#1439943513633718302]], [[d:shaman#1439944652601167873]] |
 | Bracers | Soul Harvester's Bindings → Wildthorn Bracers ([Emerald Sanctum](../../instances/emerald-sanctum.md) trash) → Bracers of Arcane Accuracy (BWL) | [[d:shaman#1444847392301252639]], [[d:shaman#1444850286219886813]] |
 | AQ weapons | Blessed Qiraji Acolyte Staff vs Hammer of the Gathering Storm + Scepter of Vek'lor vs Lok'amir + Scepter | [[d:shaman#1444836265781498122]] |
 | Trash weapon | Blade of Eternal Darkness, for mana on trash | [[d:shaman#1476818706427412551]], [[d:shaman#1476819628108939307]] |
@@ -173,6 +173,11 @@ The 1.18.1 multi-school caster set was released as leather, not mail [[d:shaman#
 - Concoction of the Arcane Giant, Concoction of the Emerald Mongoose, Elixir of Greater Firepower, Elixir of Greater Nature Power and Flask of Supreme Power all stack [[d:shaman#1456029276452421683]].
 - The new Timbermaw nature-crit potion is not worth its cost (~2% nature crit) [[d:shaman#1487428953726783590]].
 
+## Macros and addons
+
+- **Flame Shock timer:** pfUI shows 12 s instead of 15 s and doesn't pick up the Molten Blast refresh [[d:shaman#1426143905006751766]], [[d:shaman#1457965706745348262]]. Track it with **Cursive**, which needs SuperWoW [[d:shaman#1460722339024076820]], [[d:shaman#1476283276292526241]]. DoiteAuras should also update the timer on a Molten Blast refresh (its author, 2026-04) [[d:shaman#1492507446005202964]].
+- General client and addon setup: [Client setup](../../client-setup.md).
+
 ## Raid notes
 
 - **Fire-immune bosses:** MC has Baron Geddon and Ragnaros fully immune and the rest heavily fire-resistant [[d:shaman#1427106847072063520]], [[d:shaman#1433554298909884488]]; in BWL all but Razorgore, Broodlord and Chromaggus are immune [[d:shaman#1444777299286425631]]. Drop Flame Shock/Molten Blast there.
@@ -182,7 +187,7 @@ The 1.18.1 multi-school caster set was released as leather, not mail [[d:shaman#
 
 ## Common mistakes
 
-1. Playing the old Molten Blast spam spec [[d:shaman#1485240088047652894]].
+1. Playing the old Molten Blast spam spec [[d:shaman#1479993364781727755]].
 2. Using Flametongue Weapon as a caster [[d:shaman#1470506986113077521]].
 3. Chasing 16% hit in MC/BWL gear at the cost of spell power and crit [[d:shaman#1452149363148062811]].
 4. Shock spam as filler [[d:shaman#1459503774186999850]].

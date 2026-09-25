@@ -118,9 +118,9 @@ Priority (bot-ready):
 | 3-4+ | **Hurricane** (Breaddy: 3+; Yoshi on trash: 4+). Pre-cast Starfire to fish a Nature Eclipse, then channel [[d:druid#1456765270025834648]], [[d:druid#1493633929742123009]], [[d:druid#1490106129429303368]] |
 
 - Do not DoT more than 2-3 mobs before pressing Hurricane [[d:druid#1490102607778287646]].
-- **T3.5 3-piece:** a second Hurricane cloud at +50% that keeps ticking after you stop channeling. It counts only Hurricane's base damage without talents (~40% of what the tooltip suggests instead of 50%), ruled working as intended [[d:druid#1487511320126427146]], [[d:druid#1486337529870286989]]. With 2+ targets and spare mana, one Hurricane tick to start the free cloud can beat a Wrath [[d:druid#1490107846971363529]]. Without the set, boomkin AoE is "average at best" [[d:druid#1491444529490956330]].
+- **T3.5 3-piece:** a second Hurricane cloud at +50% that keeps ticking after you stop channeling. It counts only Hurricane's base damage without talents (~40% of what the tooltip suggests instead of 50%), ruled working as intended [[d:druid#1487511320126427146]], [[d:druid#1486337529870286989]]. With 2+ targets and spare mana, one Hurricane tick to start the free cloud can beat a Wrath [[d:druid#1490106683073105950]]. Without the set, boomkin AoE is "average at best" [[d:druid#1491444529490956330]].
 - An interrupted or cancelled Hurricane still goes on its 10 s cooldown, which hurts on Emerald Sanctum's sleep-and-dispel trash [[d:druid#1482975539810533446]], [[d:druid#1481829573137141878]].
-- Barkskin before Hurricane only adds survivability; it does not change the channel [[d:druid#1441150267222659123]].
+- Barkskin before Hurricane only adds survivability; it does not change the channel [[d:druid#1441150267222659123]], [[d:druid#1441150119243157665]].
 
 ## Cooldowns, mana and utility
 
@@ -151,7 +151,7 @@ Priority (bot-ready):
 
 - **Scythe of Elune** (legendary): +40 spell power, 4% stats, a damage proc with a ~5-8% vulnerability debuff and a summon, "300%+ better than the second runner up" [[d:druid#1467953501370978476]]. It takes a Father Lycan world-boss kill with a 2% drop plus a rare recipe, and it can take a boomkin from 12th to 4th in a raid [[d:druid#1467953612117381304]], [[d:druid#1447641968682209373]].
 - Otherwise: **Talisman of Ephemeral Power** and **Zandalarian Hero Charm** [[d:druid#1487158968160616540]]; **Neltharion's Tear** for hit unless you have Scythe [[d:druid#1470086019675062347]]; Eye of Diminution when threat is tight; the Sapphiron trinket on long fights; undead/demon trinkets against those types [[d:druid#1470109163978887271]]. **Contested:** whether ToEP and ZHC share a cooldown [[d:druid#1493627753394606171]].
-- Heart of Decay is weak single-target but procs twice per Hurricane on 6-7 mobs; static spell-power trinkets beat it [[d:druid#1493823950516654120]], [[d:druid#1493986656921976903]].
+- Heart of Decay is weak single-target but procs twice per Hurricane on 6-7 mobs; static spell-power trinkets beat it [[d:druid#1493983309431046336]], [[d:druid#1493984589620711424]].
 
 ### Idols
 

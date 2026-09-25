@@ -10,7 +10,10 @@ For every [[d:<channel>#<id>]] in the given Markdown files:
   3. if relation != supports (or low confidence): a second request selects the best supporting
      message among the cited message's neighbours (select-instead-of-generate), or "none".
 
-usage: jev_audit.py [--sample N] [--seed S] [--workers W] [--out report.jsonl] <md files or dirs>
+With --joint, each sentence / table cell is judged once against ALL its citations together (fewer false
+alarms on multi-citation claims); --only <jsonl> restricts to units containing one of its (file, id) pairs.
+
+usage: jev_audit.py [--joint] [--only flags.jsonl] [--sample N] [--seed S] [--workers W] [--out report.jsonl] <md files or dirs>
 Needs TYPESAFE_API_KEY (or ~/keys/typesafe.txt) and the raw export norm/<channel>/messages.jsonl.
 """
 import argparse, glob, json, os, random, re, sys, time, urllib.error, urllib.request
@@ -86,6 +89,44 @@ def claims_from(path):
                         last = m.end()
 
 
+def units_from(path):
+    """Yield (claim_text, [(channel, id), ...], heading): one sentence or table cell with all its citations."""
+    text = open(path, encoding="utf-8").read()
+    heading, header = "", []
+    for line in text.split("\n"):
+        hm = re.match(r"^#{2,4}\s+(.*)", line)
+        if hm:
+            heading = CITE.sub("", hm.group(1)).strip()
+        is_row = line.lstrip().startswith("|")
+        if is_row and "[[d:" not in line and not re.match(r"^\s*\|[\s:|-]+\|\s*$", line):
+            header = [c.strip() for c in line.split("|")]
+        if "[[d:" not in line:
+            continue
+        cells = line.split("|") if is_row else [line]
+        label = cells[1].strip() if is_row and len(cells) > 2 else ""
+        for ci, cell in enumerate(cells):
+            parts = re.split(r"(?<=[.!?])\s+(?=[A-Z*(])", cell)
+            # glue citations that follow sentence punctuation back onto the previous sentence
+            sents, cur = [], ""
+            for part in parts:
+                lead = re.match(r"^((?:\[\[d:[a-z-]+#\d+\]\][,;]?\s*)+)", part)
+                if lead and sents:
+                    sents[-1] += " " + lead.group(1); part = part[lead.end():]
+                if part:
+                    sents.append(part)
+            for sent in sents:
+                refs = [(m.group(1), m.group(2)) for m in CITE.finditer(sent)]
+                if not refs:
+                    continue
+                claim = re.sub(r"\s+([,.;:])", r"\1", re.sub(r"\s+", " ", CITE.sub("", sent)))
+                claim = re.sub(r"[,;](?=[,.;])", "", claim).strip(" ,;:")
+                if is_row:
+                    col = header[ci] if ci < len(header) else ""
+                    claim = f"[{label}{' / ' + col if col and ci != 1 else ''}] {claim}"
+                if len(claim) > 8:
+                    yield claim[:1200], refs, heading
+
+
 # ---------- archive ----------
 _CH = {}
 
@@ -108,7 +149,7 @@ def context(ch, mid):
     msgs, idx = channel(ch)
     i = idx.get(mid)
     if i is None:
-        return None, [], []
+        return None, [], [], None
     cited = msgs[i]
     after = [m for m in msgs[i + 1:i + 12] if m["author"] == cited["author"]][:3]
     around = msgs[max(0, i - NEIGHBOURS):i + NEIGHBOURS + 1]
@@ -177,6 +218,53 @@ def audit(item):
     return rec
 
 
+QJ = {
+    "relation": {
+        "type": "choice",
+        "instructions": ("A guide sentence (`claim`, under the heading `guide_section`; table cells are prefixed with "
+                         "[row / column]) cites one or more Discord messages (`sources`) from a World of Warcraft "
+                         "(Turtle WoW) community. Read the sources TOGETHER (short answers with their `replying_to`) "
+                         "and judge whether they jointly back what the claim states. A claim under a heading such as "
+                         "'Common mistakes' describes something to avoid. Game slang and abbreviations are normal."),
+        "criteria": {
+            "supports": "Together the sources state or clearly imply every substantive part of the claim.",
+            "partly": "The sources back some of the claim, but a specific fact, number or recommendation in it is not "
+                      "backed by any source.",
+            "contradicts": "A source states the opposite of the claim, or its author retracts or corrects it.",
+            "says_nothing": "None of the sources addresses the claim.",
+        },
+    },
+    "unserious": {
+        "type": "noul",
+        "instructions": ("Is the claim resting on a source that is a joke, sarcasm, meme, pure speculation, or "
+                         "retracted by its author in `author_next_messages`, with no sincere source backing it?"),
+        "criteria": {"true": "The support is only a joke, speculation or a retracted statement.",
+                     "false": "At least one sincere source backs the claim."},
+    },
+}
+
+
+def audit_joint(item):
+    claim, refs, src, heading = item
+    rec = {"file": src, "claim": claim, "section": heading, "refs": [f"{c}#{i}" for c, i in refs]}
+    sources = []
+    for ch, mid in refs[:6]:
+        cited, after, around, parent = context(ch, mid)
+        if not cited:
+            rec["error"] = f"{ch}#{mid} not in archive"
+            return rec
+        sources.append({"ref": f"{ch}#{mid}", "author": cited["author"], "date": cited["date"],
+                        "text": cited["text"][:2500],
+                        "replying_to": ({"author": parent["author"], "text": parent["text"][:600]} if parent else None),
+                        "author_next_messages": [m["text"][:300] for m in after]})
+    r = call({"guide_section": heading, "claim": claim, "sources": sources}, QJ)
+    a = r["answers"]
+    rec.update(relation=a["relation"]["choice"], relation_conf=round(a["relation"]["confidence"], 3),
+               relation_probs={k: round(v, 3) for k, v in a["relation"]["probabilities"].items()},
+               unserious=round(a["unserious"]["noul"], 3), usage=r.get("usage"))
+    return rec
+
+
 def main():
     global KEY
     ap = argparse.ArgumentParser()
@@ -185,12 +273,20 @@ def main():
     ap.add_argument("--seed", type=int, default=7)
     ap.add_argument("--workers", type=int, default=8)
     ap.add_argument("--out", default="jev_audit.jsonl")
+    ap.add_argument("--joint", action="store_true")
+    ap.add_argument("--only")
     a = ap.parse_args()
     KEY = api_key()
     files = []
     for p in a.paths:
         files += sorted(glob.glob(os.path.join(p, "**/*.md"), recursive=True)) if os.path.isdir(p) else [p]
-    items = [(c, ch, i, os.path.relpath(f), h) for f in files for c, ch, i, h in claims_from(f)]
+    if a.joint:
+        items = [(c, refs, os.path.relpath(f), h) for f in files for c, refs, h in units_from(f)]
+        if a.only:
+            want = {(j["file"], j["id"]) for j in map(json.loads, open(a.only))}
+            items = [it for it in items if any((it[2], i) in want for _, i in it[1])]
+    else:
+        items = [(c, ch, i, os.path.relpath(f), h) for f in files for c, ch, i, h in claims_from(f)]
     if a.sample:
         random.Random(a.seed).shuffle(items)
         items = items[:a.sample]
@@ -214,9 +310,9 @@ def main():
 
 def _safe(it):
     try:
-        return audit(it)
+        return audit_joint(it) if len(it) == 4 else audit(it)
     except Exception as e:  # keep going; report the failure
-        return {"file": it[3], "channel": it[1], "id": it[2], "claim": it[0], "section": it[4], "error": str(e)[:300]}
+        return {"file": it[-2], "claim": it[0], "error": str(e)[:300]}
 
 
 if __name__ == "__main__":

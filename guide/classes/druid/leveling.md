@@ -118,7 +118,7 @@ The Bear Form quest mob hits hard: root it and hit it from range [[d:druid#14682
 
 1. Pull from range with **`Moonfire`** (or **`Faerie Fire`** from 18), then shift to **Bear Form** before the mob arrives [[d:druid#1427911420602876027]].
 2. **`Enrage`** if you start with no rage (60 s cooldown). "Dont be scared to use rage cooldown" [[d:druid#1394955453666037823]].
-3. **`Maul`** whenever you have the rage; it replaces your next swing and does not use the GCD [[d:druid#1436445990809899018]].
+3. **`Maul`** whenever you have the rage; it replaces your next swing and does not use the GCD [[d:druid#1101211322496069752]].
 4. **`Bash`** to stop a caster's cast or a fleeing mob. Feral has no reliable snare [[d:druid#1442171109985357835]].
 5. After the kill, shift out, **`Rejuvenation`** or **`Regrowth`** yourself, then shift back [[d:druid#1491814814404710541]].
 
@@ -360,7 +360,7 @@ Questline (dev-posted, 2025-01) [[d:druid#1325097793362071574]], with difficulty
 ## Common mistakes
 
 1. Leveling as Restoration [[d:druid#1412860092692299806]].
-2. Skipping Omen of Clarity because vanilla guides say it is not worth it while leveling: on Turtle it is [[d:druid#1441203667486380052]].
+2. Skipping Omen of Clarity because vanilla guides say it is not worth it while leveling: on Turtle it is [[d:druid#1441203667486380052]], [[d:druid#1441278912335450282]].
 3. Keeping Feral Swiftness at 30 instead of respeccing into Omen [[d:druid#1413144334336790652]].
 4. Buying every spell rank before 20-30 [[d:druid#1466139115409113213]].
 5. Farming the Manual Crowd Pummeler for its effect, or judging weapons by DPS [[d:druid#1462513205434650823]], [[d:druid#1424255168232423565]].

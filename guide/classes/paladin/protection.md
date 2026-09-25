@@ -38,7 +38,7 @@ The level-60 tank loop. The details are in [Single-target rotation](#single-targ
 
 | Change | Effect on you | Source |
 |---|---|---|
-| **Holy Strike** now deals 40% of normalized weapon damage + 129–146 Holy damage (rank 8). Spell power coefficient raised from 43% to 71%. All of it is Holy damage, so Righteous Fury and Sanctity Aura boost the whole hit | About 10–20% more Holy Strike damage normally and 40–50% at peak buffs for BiS tanks. Fresh-60 tanks with no gear lose a little; with any gear or buffs you roughly break even | [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071), [[d:paladin#1465385495558361280]], [[d:paladin#1484380776333316167]], [[d:paladin#1484390780394143784]] |
+| **Holy Strike** now deals 40% of normalized weapon damage as Physical damage, plus 129–146 Holy damage (rank 8). Spell power coefficient raised from 43% to 71%. Only the Holy portion is boosted by Righteous Fury and Sanctity Aura now | About 10–20% more Holy Strike damage normally and 40–50% at peak buffs for BiS tanks. Fresh-60 tanks with no gear lose a little; with any gear or buffs you roughly break even | [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071), [[d:paladin#1465008595815891047]], [[d:paladin#1465385495558361280]], [[d:paladin#1484380776333316167]], [[d:paladin#1484390780394143784]] |
 | **Righteous Strikes:** +5..25% Holy Strike damage and threat. Crusader Strike now grants **Zealous Defence**: the next *blocked* attack deals 6..30% less damage | Crusader Strike becomes a defensive button, not a threat button | [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071), [[d:paladin#1465833695175901347]] |
 | **Holy Shield** threat modifier 30% → 50% | More sustained threat when you are being hit | [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071) |
 | **Consecration** front-loaded: ticks go 156% → 140% → … → 44% of the old base. The front-load starts when **each mob enters** the Consecration, not when you cast it | About 600 threat on the first tick and 475 on the second. You can pre-place it safely | [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071), [[d:paladin#1484776924046692372]], [[d:paladin#1485368911712092332]] |
@@ -50,6 +50,14 @@ Launch bugs, all fixed or harmless now:
 - **Improved Righteous Fury seemed to do nothing.** Righteous Fury snapshots your talents when you cast it. After any respec, toggle it off and on [[d:paladin#1485055210605772800]], [[d:paladin#1485066092085907519]].
 - **Block value was inverted on auto-attacks for a few days** (you took your block value and blocked the rest). It was caused by Zealous Defence and is fixed [[d:paladin#1485390532489511123]], [[d:paladin#1485647701126152293]].
 - **Threat meters under-reported Righteous Strikes** until TWThreat updated [[d:paladin#1484797114025513022]].
+
+Mechanics that fail silently (not fixed as of the last reports):
+
+- **Improved Devotion Aura and Improved Retribution Aura** do nothing until you recast the aura after taking the talent, like the Righteous Fury snapshot above (2026-01) [[d:paladin#1465965614307872901]].
+- **Blessing of Sanctuary's absorb is applied before armor,** so the more armor you wear, the less damage it actually saves you (2025-12) [[d:paladin#1446640677877186560]], [[d:paladin#1446640835637547038]].
+- **Holy Shield can't block spell-damage auto-attacks,** so it does little against elementals that melee with spells (2025-10, pre-1.18.1) [[d:paladin#1431195992870621244]].
+- **Greater Blessings:** only Greater Blessing of Salvation costs a percentage of *base* mana; the others are a flat 250/260/270 mana, according to Grey [[d:paladin#1462766939356139600]], [[d:paladin#1462766648921423945]].
+- **Judgements last 10 s** unless a paladin keeps hitting the target [[d:paladin#1440588180956119142]]. **Contested:** who refreshes what. Some say any paladin attack, autos included, refreshes every Judgement on the target [[d:paladin#1442110011399606313]], [[d:paladin#1442110056769523833]]; others say strikes refresh every Judgement but your auto-attacks refresh only your own [[d:paladin#1442110246821826662]], [[d:paladin#1442110114634010704]].
 
 ## Talent build
 
@@ -129,7 +137,7 @@ How to gear, in order [[d:paladin#1490383795298504806]], [[d:paladin#14918751207
 |---|---|
 | Melee hit | **8% at 300 weapon skill, 7% at 305–308.** Precision gives 3%, so you need 4% from gear after the weapon-skill book quest [[d:paladin#1471632460998770943]]. A main tank should be hit-capped, because a miss is 0 threat from Holy Strike or Judgement [[d:paladin#1450132467347623956]]. Off-tanks and dungeon tanks can be 1–2% under, and many run 6–7% [[d:paladin#1450132383419338932]], [[d:paladin#1470239672809553970]]. Do not drop a big spell-power item to fix hit [[d:paladin#1490385793791955155]] |
 | Spell hit | Not needed. Take what comes on spell-power gear. It only matters for taunt, Consecration, Exorcism and procs [[d:paladin#1488770847803052143]], [[d:paladin#1484203112762708129]] |
-| **Avoidance (crush and crit cap)** | **102.4% combined dodge + parry + block + miss with Holy Shield up** against level-63 bosses [[d:paladin#1491228429847363704]], [[d:paladin#1490380415968608357]]. Being around 90% "is basically the same" for most purposes [[d:paladin#1488125629583851582]]. It only matters from AQ40 onward [[d:paladin#1477378940875047116]]. BWL does not need it [[d:paladin#1448971232912478208]] |
+| **Avoidance (crush and crit cap)** | **102.4% combined dodge + parry + block + miss with Holy Shield up** against level-63 bosses [[d:paladin#1491228429847363704]], [[d:paladin#1490380415968608357]]. Being around 90% "is basically the same" for most purposes [[d:paladin#1488125629583851582]]. It only matters from AQ40 onward [[d:paladin#1477378940875047116]] |
 | AQ40 Twin Emperors | Unbalancing Strike removes 100 Defense, so you need **118.4%** to stay crush- and crit-immune against the melee twin [[d:paladin#1465416367967572164]], [[d:paladin#1448971232912478208]] |
 | Kara40 | **Knight and Rupturan require crush immunity**; Rook and Mephistroth "very strongly encourage it" [[d:paladin#1465172802326761748]] |
 

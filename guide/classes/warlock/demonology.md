@@ -10,7 +10,7 @@
 | Strengths | Highest boss damage; Felguard's Felstorm is "potentially the strongest AoE in the game" [[d:warlock#1474540725000470660]]; hit and crit feed both you and the demon; least gear-dependent spec for a fresh 60 [[d:warlock#1464610780526673920]] |
 | Weaknesses | "The cooldown spec" [[d:warlock#1464559519077241029]]: at best about 24 minutes of greater-demon uptime per hour [[d:warlock#1464562452476723223]]. No way to reduce pet threat [[d:warlock#1485689509197774958]]. Greater demons died on most Kara40 bosses before the cleave fix [[d:warlock#1464983131282083900]]. Greater-demon pathing stayed broken from January 2026 to the server's end [[d:warlock#1495335572145836152]]. |
 
-Before 1.18.1, Unleashed Potential only procced from crits, and Demonology was a niche short-fight spec [[d:warlock#1432717115730694276]]. The release made Unleashed Potential proc from any direct damage [[d:warlock#1468626637829574799]], and Demonology rose to the top.
+Before 1.18.1, Unleashed Potential only procced from crits ("not enough uptime without a crit focused build"), and Demonology was a niche short-fight spec [[d:warlock#1432718341860229140]]. The release made Unleashed Potential proc from any direct damage [[d:warlock#1468626637829574799]], and Demonology rose to the top.
 
 ## How to play
 
@@ -125,7 +125,7 @@ Afraido's values at ~1,000 SP: 1% hit ≈ 18 SP, 1% crit ≈ 13 SP for your own 
 
 ## AoE and trash
 
-- **Felguard is your AoE.** Felstorm plus Hellfire topped a dev's AoE parse: Hellfire 32%, pet melee 15%, Felstorm 12% of the damage [[d:warlock#1464960947918733333]]. Felstorm has no threat reduction; let the tank AoE-taunt first or the Felguard dies [[d:warlock#1474540725000470660]].
+- **Felguard is your AoE.** Felstorm plus Hellfire are your top AoE tools; Felstorm is "surprisingly strong" even as pure single-target DPS, and locks have topped Kara40 trash/Chess Storm parses with this combo [[d:warlock#1464961089182892112]], [[d:warlock#1464960947918733333]]. Felstorm has no threat reduction; let the tank AoE-taunt first or the Felguard dies [[d:warlock#1474540725000470660]].
 - On trash: deploy the demon, keep a greater demon alive, Curse of Recklessness, then Shadow Bolt. Add Immolate/Corruption only on mobs that live over ~18 s [[d:warlock#1483907298123448390]].
 - Infernal plus Power Overwhelming plus 3-stack Unleashed Potential plus Hellfire does top AoE on stacked trash [Momohomo, 2026-04-06](https://forum.turtlecraft.gg/viewtopic.php?p=174180#p174180).
 - **Thresholds:** 1-2 targets: single-target rotation. 3+ stacked targets that live more than a few seconds: Felstorm, then Hellfire if the tank holds threat. Fast trash: curse and Shadow Bolt only.

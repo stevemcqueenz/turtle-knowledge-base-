@@ -76,7 +76,7 @@ Why:
 
 1. **Healing power** is king [[d:druid#1437429730700820692]]. If you mostly spam Rejuvenation, more healing power beats crit and haste, which do nothing for HoTs [[d:druid#1471588934378066002]].
 2. **Spirit:** worth about 0.2 healing power for yourself, or about 1 healing power if your aura buffs 5 healers in your group [[d:druid#1480623914840359156]]. It also regenerates mana: druid MP2 = Spirit/5 + 15 [[d:druid#1450410384627601429]].
-3. **MP5**: better than Spirit for non-Tree Nature's Grace builds [[d:druid#1437429730700820692]].
+3. **MP5:** Spirit matters more for Tree builds; non-Tree Nature's Grace builds lean on crit and haste instead, and value Intellect a bit more than Tree does [[d:druid#1437429730700820692]].
 4. **Intellect:** about half a healing power; the weakest healing stat [[d:druid#1480623914840359156]].
 
 Scaling (with talents): Regrowth ≈ 20% on the direct heal + ≈ 112% on the HoT (≈ 132% total); Rejuvenation ≈ 101%; Healing Touch ≈ 110% [[d:druid#1469614655952388199]], [[d:druid#1469610624022483035]]. Only direct heals crit; HoTs never do, and haste does not speed up HoT ticks [[d:druid#1442857322341863544]].
@@ -200,4 +200,4 @@ Both builds heal every 5-man; the Healing Touch build stays viable there [[d:dru
 5. Expecting Tranquil Spirit to make Rejuvenation cheaper [[d:druid#1489735161674469550]].
 6. Taking Intellect over healing power; Intellect is the weakest healing stat [[d:druid#1437429730700820692]].
 7. Keeping the T3.5 5-piece for Blooming Bud after the nerf [[d:druid#1484581881180848279]].
-8. Skipping Brilliant Wizard Oil because the character sheet does not show it as healing [[d:druid#1491497781368717581]].
+8. Skipping Brilliant Wizard Oil (or using Mana Oil instead) because the tooltip shows it as spell damage, not healing [[d:druid#1475242637052350715]].

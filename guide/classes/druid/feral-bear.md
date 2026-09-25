@@ -164,7 +164,7 @@ Black Morass is the fresh-60 gear check: "if you can survive pulls in there, you
 - **Weapon:** Blessed Qiraji War Hammer (AQ40) is BiS even against Kara40 weapons, except for pure-mitigation setups [[d:druid#1432998166176989215]]. Herald of Woe (mace) takes Iron Counterweight [[d:druid#1469260607684350132]]. **Atiesh** now takes Counterweight too (staves were allowed in 1.18.1) [[d:druid#1484615359334973663]]. Forgotten Raven's Mallet is the best Kara40 threat/mitigation weapon without Atiesh [[d:druid#1362819924690604032]].
 - **Chest / belt:** T2 chest and belt are "meh"; take the T2.5 chest and the C'Thun belt, with the Dragonhide belt as a stepping stone [[d:druid#1472364814096662731]]. The T2.5 2-piece is strong [[d:druid#1458768233460142122]].
 - **AQ40:** Gloves of the Hidden Temple, Ring of Emperor Vek'lor; AQ40 hits harder physically than BWL [[d:druid#1433383761432678400]], [[d:druid#1433385110178103380]].
-- **T3:** a mitigation set; 8-piece gives about 8% damage reduction, mainly worth it on high-damage fights like Patchwerk or Loatheb. It does not make you crit-immune, unlike a paladin tank [[d:druid#1492164894408052736]], [[d:druid#1492173100714954823]]. The T3 6-piece bonus is weak [[d:druid#1471344095631900837]]. Swap in stamina off-pieces (Four Horsemen legs, C'Thun belt) for the hardest fights [[d:druid#1445014335733633076]].
+- **T3:** a mitigation set; 8-piece gives about 8% damage reduction, mainly worth it on high-damage fights like Patchwerk or Loatheb. It does not make you crit-immune, unlike a paladin tank [[d:druid#1492164894408052736]], [[d:druid#1492173100714954823]]. The T3 6-piece bonus is weak [[d:druid#1471344095631900837]]. Swap in stamina off-pieces (Four Horsemen legs, C'Thun belt) for the hardest fights [[d:druid#1445017422582124554]].
 - **Kara40:** Forgotten Hide Helm ("best threat AND mitigation helm in the game"), Tunic of Demonic Deception (threat), Felforged Nathrezim Veil, Branch of Resolute Defense, Handwraps of Dead Winds (best threat gloves), Loop of Hardened Slate (best mitigation ring) [[d:druid#1362819924690604032]].
 - **PvP shoulders:** Veteran's Dragonhide Epaulets out-stat the T2.5 shoulders for threat and need only 6 pieces for the set bonus (85k honor + 3.5k conquest for the set) [[d:druid#1487935338197291078]].
 - **Timbermaw Hold:** its 3-piece bonus is "broken" for a threat set [[d:druid#1487247519087071262]].
@@ -227,7 +227,7 @@ Never use dodge enchants or armor kits: kits are not multiplied by Thick Hide or
 - A spammable Dire Bear Form that never shifts you out: `/cast [nomybuff:Dire_Bear_Form] Dire Bear Form` [[d:druid#1486092465084563636]].
 - Sagesse's set: Maul that casts Savage Bite at 25+ rage, Swipe with retarget, mouseover Growl, "LIP + Challenging Roar", FF + Roar, a bear Tiger's Fury, one-button Barkskin [[d:druid#1411769744175923270]].
 - **Threatplates/Tankplates** (SuperWoW) color nameplates by your aggro [[d:druid#1432722863256899674]]. **LazyPig** auto-removes Salvation in Bear Form [[d:druid#1440252395442671706]].
-- A Brainwashing Device respec wipes character-specific macros from your bars; ActionBarProfile fixes that [[d:druid#1486036612348645467]].
+- A Brainwashing Device respec wipes character-specific macros from your bars; ActionBarProfile fixes that [[d:druid#1486024130611515555]], [[d:druid#1486026671348908044]].
 
 ## Dungeon and raid notes
 

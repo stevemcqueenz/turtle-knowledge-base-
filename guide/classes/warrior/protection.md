@@ -248,8 +248,8 @@ Warrior has **no dedicated AoE threat tool**, and 1.18.1 did not add one ("we're
 - For a warrior tank, Thunderfury is close to mandatory. It is the main AoE threat source, and in DefTac sims it adds about 100-150 TPS over THC [[d:warrior#1458918335252140327]], [[d:warrior#1458916342249029684]].
 - Velanir's DefTac threat-BiS sim ranks **Thunderfury > THC > Rockslicer/Crul'shorukh**, and "Thunderfall is explicitly... bad for tanking" [[d:warrior#1473343368170836203]].
 - Thunderfury in the main hand beat THC in the main hand in a dummy test [[d:warrior#1483875658093559889]]. FuryProt BiS is Thunderfury + Riftcarver; for consistency, "tf/riftcarver > tf/thc >> tf/thunderfall" [[d:warrior#1465473090828894380]], [[d:warrior#1462175511248769107]].
-- The proc does not re-hit targets that already carry its debuff, so it is safe around crowd-controlled mobs, but take it off for Twins-style split fights [[d:warrior#1483878012880424980]]. Other things it won't pull include Kel'Thuzad's lightning adds and the Twins scarabs; for those, swap to a fast 60+ DPS weapon [[d:warrior#1463048796408905824]].
-- It is weak in AQ40 because most trash resists Nature [[d:warrior#1469092264889290844]].
+- The proc does not re-hit targets that already carry its debuff, so it is safe around crowd-controlled mobs, but take it off for Twins-style split fights [[d:warrior#1483878012880424980]]. Other things it won't pull include Kel'Thuzad's lightning adds and the Twins scarabs [[d:warrior#1463048427305832606]], [[d:warrior#1463049469892366441]]; for those, swap to a fast 60+ DPS weapon [[d:warrior#1463048704415236156]], [[d:warrior#1463048796408905824]].
+- **Contested: how weak is it in AQ40?** One player claims AQ40 is "the only raid with nature resist" [[d:warrior#1469092127110594789]]; another corrects that "AQ40 doesn't have high NR... only the final bosses have high resists, and they have high ALL resists" [[d:warrior#1469092547405021418]], [[d:warrior#1469092584612823254]] (same dispute exists for shaman Elemental).
 - **Contested:** Lipibidy calls Thunderfury being "the solution to warrior tanking... the next worst design in WoW" [[d:warrior#1490170869027180544]]; Velanir says "TF got massive competetion" [[d:warrior#1490332316680065196]].
 
 ## Gear
@@ -288,7 +288,7 @@ Keep **three sets**: full threat, beefy threat, full mitigation [[d:warrior#1430
 - **TwThreat** reads real server threat; KTM only estimates [[d:warrior#1491114833934811187]].
 - **Mouseover taunt:** `/cast [@mouseover]Taunt;Taunt` [[d:warrior#1436136743966605323]].
 - Don't stack "Revenge if available else Sunder" into one macro; use separate binds [[d:warrior#1466485691566260569]].
-- **Tankalyze** tracks taunts and removes Salvation clutter [[d:warrior#1482225857857847348]]. **ShaguPlates** has threat nameplates (needs SuperWoW) [[d:warrior#1459547336375144470]]. **AdvancedLogger** counts wasted Sunders per player [[d:warrior#1460773366779613376]].
+- **Tankalyze** tracks taunts and removes Salvation clutter [[d:warrior#1482225857857847348]]. **ShaguPlates** has threat nameplates (needs SuperWoW) [[d:warrior#1459546959063810079]]. **AdvancedLogger** counts wasted Sunders per player [[d:warrior#1460773366779613376]].
 - **Weapon swaps** each cost a GCD and reset the swing timer [[d:warrior#1457332538035933209]], and they misbehave in combat on the Turtle client [[d:warrior#1481726614898213019]].
 
 ## Raid notes

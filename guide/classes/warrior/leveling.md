@@ -85,7 +85,7 @@ Notes on this route:
 
 ## Gameplay by level
 
-What to press in each bracket, for the recommended **DW Fury** route and the **Arms (no respec)** route, plus how to **tank dungeons** at that level. Learn levels, rage costs and cooldowns are from the 1.18.1 game data. Talent unlocks follow the two talent-order tables above. Stances: **Battle** has Charge, Overpower, Mocking Blow, Retaliation and Sweeping Strikes. **Defensive** has Taunt, Revenge, Shield Block, Disarm, Shield Wall and Intervene. **Berserker** has Whirlwind, Intercept, Berserker Rage and Recklessness. Sunder Armor, Shield Slam, Bloodthirst, Mortal Strike, Demoralizing Shout and the shouts work in any stance, and Thunder Clap works in Battle or Defensive [[d:warrior#1451088832236748943]].
+What to press in each bracket, for the recommended **DW Fury** route and the **Arms (no respec)** route, plus how to **tank dungeons** at that level. Learn levels, rage costs and cooldowns are from the 1.18.1 game data. Talent unlocks follow the two talent-order tables above. Stances: **Battle** has Charge, Overpower, Mocking Blow, Retaliation and Sweeping Strikes. **Defensive** has Taunt, Revenge, Shield Block, Disarm, Shield Wall and Intervene. **Berserker** has Whirlwind, Intercept, Berserker Rage and Recklessness. Sunder Armor, Shield Slam, Bloodthirst, Mortal Strike, Demoralizing Shout and the shouts work in any stance (vanilla baseline), and on Turtle, unlike vanilla, Thunder Clap also works in Defensive as well as Battle [[d:warrior#1451088832236748943]].
 
 **Rage through a stance swap:** without Tactical Mastery a swap costs you your rage (vanilla baseline). With 5/5 you keep up to 25 [[d:warrior#1471914865512943708]]. The Arms route has 5/5 by 24; the Fury route only gets it at 44–48. Until then, Fury should pick one stance per pull.
 
@@ -268,7 +268,7 @@ What to press in each bracket, for the recommended **DW Fury** route and the **A
 
 - **Pick by DPS**, not speed or racial weapon skill. Racial weapon skill is negligible while leveling [[d:warrior#1432394705580195890]], [[d:warrior#1455598281550991506]]. For Blood Drinker, two fast weapons are fine [[d:warrior#1485271037305425920]], [[d:warrior#1487094970018959520]].
 - **Enchants:** Fiery Weapon is strong on cheap leveling weapons; Crusader once you can afford it [[d:warrior#1432894256057548913]], [[d:warrior#1470050193360683090]].
-- Don't over-optimize leveling gear, and take higher-DPS weapons even if you replace them at 60 [[d:warrior#1456321030640635967]]. Keep mail over leather unless the stats are clearly better [[d:warrior#1434985769222668339]].
+- Don't over-optimize leveling gear, and take higher-DPS weapons even if you replace them at 60 [[d:warrior#1456321030640635967]]. Keep mail over leather unless the stats are clearly better [[d:warrior#1434973541354180700]], [[d:warrior#1434985769222668339]].
 - Keep the **Brutal Armor** quest line unfinished; it gives a free Westfall portal (ZG and Stormwind Vault) [[d:warrior#1476526356396507256]].
 
 ## Dungeons
@@ -304,7 +304,7 @@ On Turtle, dungeon mobs hit harder and dungeons are slow experience. Quest inste
 - **Professions:**
   - Mining + Engineering while leveling; drop Mining for a money profession once Engineering is maxed [[d:warrior#1451247090532356166]].
   - Alchemy gives durable leveling value [[d:warrior#1444330106830061751]].
-  - Blacksmithing becomes recipe-gated and expensive past 50 [[d:warrior#1477042373648191651]].
+  - Blacksmithing becomes recipe-gated and expensive past 50 [[d:warrior#1477033957517168756]]; buy the mats rather than farming them on a first character [[d:warrior#1477042373648191651]].
 - **Battlegrounds** are a fast alternative to questing, at the cost of gold. Arathi Basin gives roughly 4% of a level per capture tick [[d:warrior#1474790113673216010]].
 
 ## Common mistakes

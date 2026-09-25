@@ -55,7 +55,7 @@ Why:
 
 - **Bloodlust** was always the raid capstone: "the norm was to go bloodlust before 1.18" [[d:shaman#1485708017784852786]]. It is a 30-second self-haste window whose melee crits also give your party a short haste buff ([Dragunovi (staff), 2024-10-12](https://forum.turtlecraft.gg/viewtopic.php?p=102972#p102972), [Torta (staff), 2025-03-30](https://forum.turtlecraft.gg/viewtopic.php?p=124504#p124504)).
 - **Enhancing Totems 2/2** over more fire talents: the Strength of Earth / Grace of Air boost is worth more to a melee group than faster Fire Nova; take Improved Fire Totems for 5-mans instead [[d:shaman#1428788267469246527]], [[d:shaman#1435009884142964746]].
-- **Calming Winds 3/3**: you need the threat reduction in raids (see [Threat](#threat)). Tank-spec players who DPS miss only this and Enhancing Totems [[d:shaman#1481298646464069643]].
+- **Calming Winds 3/3**: you need the threat reduction in raids (see [Threat](#threat)). Tank-spec players who DPS miss only this and Enhancing Totems [[d:shaman#1481298646464069643]], [[d:shaman#1481298832879915139]].
 - **Elemental Focus** (Clearcasting) plus Convection keeps your shocks cheap; Reverberation shortens the shock cooldown.
 - **Call of Flame 2** is the flex spot: Not Normal's raid alternative moves those 2 points to Improved Fire Totems, "arguable in terms of where they can go" [[d:shaman#1449124148411498560]].
 
@@ -64,7 +64,7 @@ Why:
 | Variant | What changes | Code (VALID) | Source |
 |---|---|---|---|
 | **Dungeon / cleave** | Call of Flame 2 → Improved Fire Totems 2 (faster Fire Nova) | `DoAYLAQ-FAFYYIFATIAoB-` | [[d:shaman#1449124148411498560]] |
-| **Spellhance 22/29** | Flametongue build: Elemental Fury 2, Call of Flame 3, Improved Fire Totems 2, Improved Molten Blast 1; drops Bloodlust, Enhancing Totems and 1 Calming Winds / 1 Element's Grace. See [Spellhance](#spellhance-vs-classic-strength-enhancement) | `CoAYLBQDAC-FAFYQIFADIAg-` | Not Normal's own build [[d:shaman#1485045691481985095]], [[d:shaman#1491553502286053496]] |
+| **Spellhance 22/29** | Flametongue build: Elemental Fury 2, Call of Flame 3, Improved Fire Totems 2, Improved Molten Blast 1; drops Bloodlust, Enhancing Totems and 1 Calming Winds / 1 Element's Grace. See [Spellhance](#spellhance-vs-classic-strength-enhancement) | `CoAYLBQDAC-FAFYQIFADIAg-` | Not Normal's own build [[d:shaman#1485045691481985095]] |
 | **Tank-capable** | The 15/36 [Tank](tank.md) build: about 95% of the DPS talents, minus Calming Winds and Enhancing Totems [[d:shaman#1428990330245746808]], [[d:shaman#1481298646464069643]] | `FADYL-FAVYALFQDIAoB-` | [[d:shaman#1487037910577451029]] |
 
 During the first week of 1.18.1 some players respecced to 22/29 Elemental Fury (no Elemental Weapons, no Bloodlust) because Flurry was bugged [[d:shaman#1486750489164124210]]; others called that an overcorrection [[d:shaman#1486751029985935531]]. The Flurry and Rushing Winds bugs were fixed by 2026-03-28 [[d:shaman#1487213216886161629]], so use Bloodlust again.
@@ -193,7 +193,7 @@ Post-1.18.1 ranking (Not Normal): **Hand of Ragnaros (Sulfuras) > Drake Talon Cl
 | BWL | **Elementium Reaper** (new) | "significantly far ahead every other option on Ambershire, only beat by Sulfuras" [[d:shaman#1494337592064213102]] |
 | BWL | Drake Talon Cleaver | Relevant mostly if you chase 8/8 T2 [[d:shaman#1486865011379802204]] |
 | Any | **Sulfuras** | Proc worth 60-70 DPS vs 15-25 for a normal weapon proc [[d:shaman#1486863236434366646]]; stays good into AQ40 [[d:shaman#1486867177448411197]] |
-| Naxx / Kara40 | Might of Menethil, Severance, Maul of the Redeemed Crusader, Shar'tateth | [[d:shaman#1485084222338367518]], [[d:shaman#1427634749186244649]] |
+| Naxx / Kara40 | Might of Menethil, Severance, Maul of the Redeemed Crusader, Shar'tateth | [[d:shaman#1485084222338367518]], [[d:shaman#1427633461812006973]], [[d:shaman#1427634749186244649]] |
 
 In BWL the dragons, Vaelastrasz and Nefarian are fire-immune, so Sulfuras's proc is dead there [[d:shaman#1438306231260545075]].
 

@@ -2,6 +2,8 @@
 
 **Recommendation:** in battlegrounds play **Feral** (11/35/5 with Feral Charge, Feral Swiftness and Open Wounds) and fight with your **whole kit**: Cat for openers and bleeds, **Bear** the moment you are stunned or focused, caster form for HoTs and roots, Travel Form to reset. Druids are not a burst class; you win by outlasting ("rotting players down over time") and by carrying objectives [[d:druid#1491929130952954148]]. Balance is fun in team fights but weak 1v1; Restoration is the weakest PvP healer, so play a hybrid if you want to heal.
 
+Server-wide PvP rules (honor as a currency, rank, the 1.18.1 PvP sets, Conquest, battlegrounds, Warmode, dampening and resilience) are on [PvP systems](../../pvp.md).
+
 | Spec | PvP | Why |
 |---|---|---|
 | **Feral** | **B** | The best WSG flag carrier and AB defender; "a menace" when played with every form [[d:druid#1473021122361692334]]. Weak into rogues, shamans and paladins [[d:druid#1491916435977666621]] |
@@ -128,10 +130,10 @@ Ecly lists the two common hybrid shapes as **30/0/21 (Nature's Swiftness)** or *
 ## Stats and gear
 
 - **Every stat has some use**, because you use every form [[d:druid#1436291397396205639]]. The general PvP rule is Stamina > crit > main stat [[d:pvp-general#1424924907820552212]].
-- **Balance:** stack Stamina and armor; do not go full spell power [[d:druid#1433561904009183338]] ([Turboman, 2025-11-22](https://forum.turtlecraft.gg/viewtopic.php?p=160309#p160309)).
+- **Balance:** stack Stamina and armor; do not go full spell power ([Turboman, 2025-11-22](https://forum.turtlecraft.gg/viewtopic.php?p=160309#p160309)).
 - **Hit:** spell hit cap in PvP is 3% [[d:druid#1482736105634791637]]. The melee PvP hit cap was asked but never answered [[d:druid#1431333626154455193]].
-- **Resilience** is bugged: it reduces only the crit portion of a crit, about half as effective as expected (bug 17804) [[d:pvp-general#1428416707600449596]].
-- **PvP sets:** the 4-piece gives +15% movement speed in Bear, Cat and Travel Form outdoors, multiplicatively with other speed bonuses; ferals rarely give it up [[d:druid#1354063077158682704]]. The blue and purple sets count as different sets, so 2 + 4 pieces stack both bonuses [[d:druid#1487238825141993564]]. Each tier costs about 30k honor (~9 weeks) and you must own the previous tier [[d:druid#1487252633189355702]]. **Contested:** the druid set has the least Stamina of any class's PvP set (98 vs 147-154) [[d:druid#1485773514278703134]], [[d:druid#1485778490925125751]].
+- **Resilience** reduces critical damage and damage-over-time taken; stacked, it "basically turns crits into normal hits" [[d:shaman#1492727874082570391]]. Since December 2025 it reduces the whole critical hit, not just the bonus part, so the older bug report #17804 ("only the crit portion", about half as effective) no longer applies ([Torta (staff), 2025-12-02](https://forum.turtlecraft.gg/viewtopic.php?p=161356#p161356), [[d:paladin#1484443837576249404]]). Details: [PvP systems → Dampening and resilience](../../pvp.md#dampening-and-resilience).
+- **PvP sets:** the 4-piece gives +15% movement speed in Bear, Cat and Travel Form outdoors, multiplicatively with other speed bonuses; ferals rarely give it up [[d:druid#1354063077158682704]]. The blue and purple sets count as different sets, so 2 + 4 pieces stack both bonuses [[d:druid#1487238825141993564]]. Each tier needs the previous one; one druid put each at about 30k honor (~9 weeks) [[d:druid#1487252633189355702]]. **Contested:** Thirtyseven's totals are 24,000 honor for Tier 1 and 144,000 for Tier 2 [[d:warrior#1492266218629890271]] (see [PvP systems → The 1.18.1 PvP sets](../../pvp.md#the-1181-pvp-sets)). **Contested:** the druid set has the least Stamina of any class's PvP set (98 vs 147-154) [[d:druid#1485773514278703134]], [[d:druid#1485778490925125751]].
 - **Weapons:** the upgraded "Veteran" PvP weapons sit slightly below Naxx level [[d:druid#1487408630406975539]]. The 4-piece bonus of the Balance and Resto PvP sets was called as useless as any class has [[d:druid#1487560812422762609]]; it has since been changed to 15% dispel protection [[d:druid#1488249013403648121]].
 - **Professions:** Blacksmithing has a fear-immunity trinket for feral PvP [[d:druid#1487503178571321416]]. Engineering is strong in PvP generally, but grenades and sappers need you out of Cat/Bear Form [[d:druid#1480873418554347611]].
 - **Consumables:** flasks and elixirs stay until you die, even in battlegrounds [[d:druid#1485377497330614374]]. Limited Invulnerability Potion (6 s physical immunity, ~2-minute cooldown) is everywhere against melee [[d:pvp-general#1432945315501183097]].
@@ -197,4 +199,8 @@ Keep Moonfire and Insect Swarm up while you out-heal the damage; a standard PvE 
 
 ## Honor
 
-Your rank never drops below the highest rank reached; only progress within the rank decays [[d:druid#1450602824592523398]], [[d:pvp-general#1424868588879347713]]. The weekly reset is on Wednesday [[d:pvp-general#1433172440866881567]].
+- **Since 1.18.1 honor is a currency:** it is credited immediately and spent at vendors, and the weekly standings race is gone ([Jamey (staff), 2026-03-02](https://forum.turtlecraft.gg/viewtopic.php?p=169701#p169701)). The weekly cap is **20,000 honor** [[d:warrior#1487436235617075222]], [[d:paladin#1487444569942655006]].
+- **Rank:** Rank Points decay each week, but your rank doesn't drop [[d:paladin#1487370299837255681]], [[d:druid#1450602824592523398]]. **Contested:** some players reported being de-ranked after 1.18.1 (see the PvP systems page).
+- **Weekly reset:** the night from Tuesday to Wednesday, EU time [[d:pvp-general#1431662006233989313]], [[d:pvp-general#1433172440866881567]].
+
+Full rules (what gives honor, Rank Points, the PvP sets, Conquest, battlegrounds, Warmode): [PvP systems](../../pvp.md).

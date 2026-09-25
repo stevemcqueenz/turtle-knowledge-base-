@@ -93,7 +93,7 @@ Stealth attacks have no hidden crit bonus [[d:rogue#1468488816460435607]].
 | 10 | **Slice and Dice at any number of combo points**, and keep it up. Spam Sinister Strike and refresh Slice and Dice when it runs low [[d:rogue#1478390151750357075]], [[d:rogue#1479922062515503124]] |
 | 17 (Ruthlessness 3/3) | On Turtle, Ruthlessness refunds a combo point after every finisher, 100% of the time [[d:rogue#1451736486822154462]]. From here: **1-point Slice and Dice, then 1-point Eviscerate spam** [[d:rogue#1447473413311565887]] |
 | 30 | Add **1-point Envenom** to the loop [[d:rogue#1434530443642015945]]. **Kidney Shot** (20 energy, 20 s cooldown) is the stun finisher for dangerous mobs [[d:rogue#1474363294687957103]] |
-| 40 (Noxious Assault) | **Stop the 1-point Eviscerate spam** [[d:rogue#1437830369255620728]]. Keep 1-point Envenom and Slice and Dice up, build with Noxious Assault, and finish with Eviscerate. A 4-5 point Rupture is only worth it with Taste for Blood [[d:rogue#1434530633606107248]] |
+| 40 (Noxious Assault) | **Stop the 1-point Eviscerate spam** [[d:rogue#1437830369255620728]]. Keep 1-point Envenom and Slice and Dice up, build with Noxious Assault, and finish with Eviscerate. A 4-5 point Rupture is only worth it with Taste for Blood [[d:rogue#1474363294687957103]] |
 | 42 | **Flourish** (20 energy, 40 s cooldown), a parry finisher. Use it when mobs turn to attack you or use Whirlwind-style attacks [[d:rogue#1260222269108785162]] |
 | any | Rupture is worse than Eviscerate until you have Taste for Blood. Expose Armor is situational [[d:rogue#1479922062515503124]], [[d:rogue#1474363294687957103]]. Don't double-press finishers: a 1-point cast can overwrite a 5-point one [[d:rogue#1479064018260856862]] |
 

@@ -2,6 +2,8 @@
 
 **Recommendation:** warrior is widely rated the **weakest PvP class on Turtle** in 1.18.1, unless you have top Kara40 gear or a healer [[d:warrior#1488839076193894411]], [[d:warrior#1489647548716290068]]. Pick a spec by how you queue:
 
+Server-wide PvP rules (honor as a currency, rank, the 1.18.1 PvP sets, Conquest, battlegrounds, Warmode, dampening and resilience) are on [PvP systems](../../pvp.md).
+
 - **Solo and unorganized battlegrounds: Dual Wield Fury with Blood Drinker.** It "gobble[s] a lot of free 1v1s in unorganized play off of blood drinkers back" [[d:warrior#1490164939531489300]], and Blood Drinker heals from Thunderfury, trinket and ring procs too [[d:warrior#1475823376387018784]].
 - **Mobility-focused: 2H Fury with Improved Berserker Rage.** A root break every 30 s "makes Fury the best pvp spec atm... especially vs mages" [[d:warrior#1485893615937916949]].
 - **Organized premades: Arms (Mortal Strike),** "only better vs a team that demands mortal strike" [[d:warrior#1492893464516362280]].
@@ -142,7 +144,7 @@ Arms' problem in solo play: "ALL it has is mortal strike... no root break, no re
 - **Health:** a warrior "needs 6.5k+ hp to be useful in a bg" [[d:warrior#1465396531766231042]]. Warrior avoidance tops out around 30% [[d:warrior#1474211144322256947]].
 - **Armor:** you deal about 40% less damage even to a cloth wearer, more against plate [[d:warrior#1474111243932405951]]. Bleeds ignore armor, so Rend is worth putting on tanks [[d:warrior#1461331450237423836]].
 - **Gear sets:** "BiS pvp warr uses 3 set t3.5, 3 set marshal and 3 set dps t3" [[d:warrior#1473136160690933832]]. One full list: T3.5 helm/shoulder/chest/legs, Marshal gloves and boots, T3 tank bracers and ring, Sadist Collar, Cloak of the Scourge, T3 DPS ring, Raka'Sishi, Slayer's/Sliver, Insignia [[d:warrior#1461139932415398042]].
-- **PvP honor gear costs** in 1.18.1: T1 24,000 honor, T2 144,000, T3 520,000 plus 21,000 Conquest, with a 20k-per-week cap ("8+ months") [[d:warrior#1492266218629890271]]. The PvP cloak has more stamina than any other cloak [[d:warrior#1492258038697164983]]. The PvP set 3-piece shortens Intercept's cooldown by 5 s [[d:warrior#1478070822735188182]]. Ranks do not decay; R13 takes about 2 months [[d:warrior#1457440772902354954]].
+- **PvP honor gear costs** in 1.18.1: T1 24,000 honor, T2 144,000, T3 520,000 plus 21,000 Conquest, with a 20k-per-week cap ("8+ months") [[d:warrior#1492266218629890271]]. The PvP cloak has more stamina than any other cloak [[d:warrior#1492258038697164983]]. The PvP set 3-piece shortens Intercept's cooldown by 5 s [[d:warrior#1478070822735188182]]. Ranks do not decay. Under the pre-1.18.1 system R13 took about 2 months (2026-01) [[d:warrior#1457440772902354954]]; for the 1.18.1 currency honor and its 20k weekly cap see [PvP systems](../../pvp.md#honor-rank-and-pvp-gear).
 - **Weapons:**
   - **Raka'Sishi** is "the current PvP 2h bis wep" [[d:warrior#1464618631370637426]].
   - Kyrsie's pick is Thunderfall + Thunderfury for DW [[d:warrior#1464620080246689850]].

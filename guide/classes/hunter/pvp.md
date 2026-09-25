@@ -2,6 +2,8 @@
 
 **Recommendation:** for battlegrounds, play **Marksmanship 0/34/17**: MM down to Lock and Load, Survival down to Survivalist, no Barrage. The **Aimed Shot → Arcane Shot** burst hits armored targets for 2,000+. You also keep full damage when your pet is crowd-controlled. **Beast Mastery** is the easy-mode alternative while pets take no PvP dampening. Survival is strong against warriors and rogues, and weak against casters, paladins and warlocks.
 
+Server-wide PvP rules (honor as a currency, rank, the 1.18.1 PvP sets, Conquest, battlegrounds, Warmode, dampening and resilience) are on [PvP systems](../../pvp.md).
+
 **Contested:** is MM or BM the better PvP spec?
 
 - **MM:** "MM is way better for pvp rn" [[d:hunter#1494177202508402711]], [[d:hunter#1494186047612129440]]. BM becomes "a bit of a deadweight" without Bestial Wrath once a mage or druid CCs the pet, while MM has "more constant damage, waaay more survivability/crowdcontrol" [[d:hunter#1494186537129218099]].
@@ -133,7 +135,7 @@ Neiol's rule (pre): play MM into cloth-heavy battlegrounds and Survival into arm
 - **Defend and control.** Traps (and Shadowmeld for Night Elves) hold defensive positions; Viper Sting the healers [[d:pvp-general#1427354322395463682]]. Entrapment locks chokepoints in AV [[d:hunter#1489619404449779883]].
 - **Deny movement.** "For WSG though, the #1 best thing a pet can do is keep someone from having freedom of movement. A still player is a dead one" [[d:hunter#1485768500294320150]].
 - **Counterplay against you:** enemies focus your pet. A dead pet is quickly resummoned [[d:hunter#1492849347954741308]].
-- **PvP pets:** Wind Serpent (damage), Spider (root), Boar (Charge root), Bat (blocks line of sight, AP debuff), Moth (heal + attack-speed debuff) [[d:hunter#1485767924273778748]], [[d:hunter#1485768101940432957]]. A fast pet interrupts casts more often [[d:hunter#1494666708793950338]]. Details: [Pets](pets.md).
+- **PvP pets:** Wind Serpent (damage), Spider (root), Boar (Charge root), Bat (blocks line of sight, AP debuff), Moth (heal + attack-speed debuff) [[d:hunter#1485767924273778748]], [[d:hunter#1485768101940432957]]. A fast pet interrupts casts more often [[d:hunter#1121566335726518272]]. Details: [Pets](pets.md).
 
 ## Races
 

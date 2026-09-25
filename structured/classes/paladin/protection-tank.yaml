@@ -123,7 +123,7 @@ agreement: consensus
 patch_validity:
   written_for: 1.18.1 (live 2026-03-20), post-release state through 2026-04-21
   valid_for_1181: true
-  notes: '1.18.1: Holy Strike = 40% normalized weapon damage + 129-146 Holy, SP 43% -> 71%, all Holy school; Righteous Strikes
+  notes: '1.18.1: Holy Strike = 40% normalized weapon damage as Physical + 129-146 Holy, SP 43% -> 71%, only the Holy part is boosted by Righteous Fury and Sanctity Aura; Righteous Strikes
     +25% HS dmg/threat and CS -> Zealous Defence (next blocked hit -6..30%); Holy Shield threat 30% -> 50%; Consecration front-loaded
     per mob entry; T2.5 3p -> +15% JoR; T3.5 3p = +40% Holy Shield threat, 5p = DR while Holy Shield up (3% live). Launch
     bugs fixed: Improved RF snapshot (toggle RF after respec), inverted block value on autos. The 2026-04-01 ''next patch''

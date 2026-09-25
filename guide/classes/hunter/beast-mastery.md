@@ -105,7 +105,7 @@ Opener: call and send the pet as the tank hits [[d:hunter#1484689822005067816]].
 
 Priority (bot-ready):
 
-1. **Kill Command** when usable. It has no GCD and can be cast during the Auto Shot wind-up [[d:hunter#1490812124006711457]]. It **cannot** be cast while Steady Shot is casting; that resets the wind-up [[d:hunter#1492650379727605830]], [[d:hunter#1492656625318887515]]. It stays usable for 4 s even while on cooldown, so near-100% uptime needs about one crit every 4 s [[d:hunter#1490812124006711457]], [[d:hunter#1489057648715501738]]. Only cast it if the pet is in melee range: out of range it does nothing and still triggers its cooldown (bug 20736) [[d:hunter#1484783149413171350]], [[d:hunter#1494307598269288591]].
+1. **Kill Command** when usable. It has no GCD and can be cast during the Auto Shot wind-up [[d:hunter#1465449712155889716]]. It **cannot** be cast while Steady Shot is casting; that resets the wind-up [[d:hunter#1492650379727605830]], [[d:hunter#1492656625318887515]]. It stays usable for 4 s even while on cooldown, so near-100% uptime needs about one crit every 4 s [[d:hunter#1490812124006711457]], [[d:hunter#1489057648715501738]]. Only cast it if the pet is in melee range: out of range it does nothing and still triggers its cooldown (bug 20736) [[d:hunter#1484783149413171350]], [[d:hunter#1494307598269288591]].
 2. **Bestial Wrath** on cooldown, lined up with trinkets and Rapid Fire.
 3. **Steady Shot** after each Auto Shot, without clipping.
 4. **Arcane Shot** after Steady when it fits (it scales 45% with spell power for BM) [[d:hunter#1485051440576860331]]. On 2+ targets, use **Multi-Shot** instead [[d:hunter#1493031293343236346]].
@@ -140,7 +140,7 @@ Pet abilities: see [Pets](pets.md#which-abilities-to-autocast). In short: Raptor
 - **Pet resistances by raid** (training points): BWL fire and shadow; AQ nature; Naxx frost and shadow. Add stamina after resistances [[d:hunter#1485902382322683904]], [[d:hunter#1485902429374644265]].
 - **Per-boss pet swaps** (Kaslux, one raid week): Wind Serpent for most bosses until Vek'nilash, then Raptor, then a Scorpid for Ouro and C'Thun [[d:hunter#1485818622780637266]]. On C'Thun, park a snapshotted Scorpid on the boss and kill tentacles yourself [[d:hunter#1492164599313596578]]. You cannot swap pets in combat, and there is a 1-minute lockout between swaps [[d:hunter#1474254128778711090]].
 - Kara40 is the hard tier for pets ("Nx is eazy to survive, K40 is not") [[d:hunter#1485925913244864676]]. Kruul's cleave takes about half the pet's HP [[d:hunter#1444749426152444146]].
-- No talent reduces pet threat, and pets cannot Feign Death [[d:hunter#1492156387860545667]]. Coordinated Assault threat goes to you [[d:hunter#1491312346742915184]].
+- No talent reduces pet threat, and pets cannot Feign Death [[d:hunter#1491029265410691233]]. Coordinated Assault threat goes to you [[d:hunter#1491312346742915184]].
 - Healers rarely heal pets unless asked [[d:hunter#1454829088924762234]], [[d:hunter#1454831910835716302]].
 - Reviving mid-fight is usually not worth it with under ~30 s left [[d:hunter#1481941619614814320]], [[d:hunter#1481941762640449638]].
 
@@ -164,7 +164,7 @@ Full pet guide: [Pets](pets.md).
 ## Consumables
 
 - **Self:** the MM kit ([Marksmanship](marksmanship.md#consumables-raid-kit)).
-- **On the pet:** Juju Power, Juju Might, Scroll of Strength and Scroll of Agility [[d:hunter#1491073655382212830]]. Fully buffed pets reach 7–9k Kill Command crits [[d:hunter#1490806608312406098]]. **Contested:** on non-BM specs this is worth only ~0.1% DPS [[d:hunter#1481673841292869652]].
+- **On the pet:** Juju Power, Juju Might, Scroll of Strength and Scroll of Agility [[d:hunter#1491073655382212830]]. Fully buffed pets reach 7–9k Kill Command crits [[d:hunter#1490806608312406098]]. **Contested:** on non-BM specs this is worth only ~1% DPS [[d:hunter#1481673841292869652]].
 
 ## Raid notes
 

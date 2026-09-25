@@ -165,7 +165,7 @@ Rules for every bracket:
 2. Lesser Healing Wave (R1 L20, R2 L28) only when the tank drops fast: it is the fastest heal and the least mana-efficient [[d:shaman#1458535191810408539]].
 3. Rule of thumb: newest Healing Wave + newest Lesser Healing Wave + a Healing Wave two ranks lower [[d:shaman#1411592161732067429]].
 4. Totems: Healing Stream (20) for chip damage [[d:shaman#1429871523447050396]], Mana Spring (26), Poison Cleansing (22) where poisons land, Strength of Earth for melee.
-5. Water Shield from 26; Purge enemy buffs, Cure Poison/Disease.
+5. Water Shield from 26; Cure Poison/Disease. Don't Purge mobs while leveling: most Turtle mobs recast the buff the moment it's removed, so you waste mana and a GCD (2025-08, pre-1.18.1) [[d:shaman#1405509160073953321]], [[d:shaman#1405908822429794374]].
 
 ### Levels 30–39
 
@@ -333,3 +333,4 @@ Tauren is the comfiest leveler (+5% health, War Stomp, and Plainsrunning, which 
 6. Tanking Wailing Caverns before your armor talents; start at 26 in Shadowfang Keep [[d:shaman#1448921578992832714]].
 7. Staying on Frostbrand at 60 for raids [[d:shaman#1473068658103423186]].
 8. Expecting to dual wield (shamans can't) [[d:shaman#1318157235016171553]].
+9. Purging mobs that just recast their buff (see Levels 20–29 above) [[d:shaman#1405509160073953321]].

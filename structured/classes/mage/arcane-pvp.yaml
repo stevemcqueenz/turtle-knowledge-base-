@@ -196,7 +196,7 @@ stat_weights:
   - '[[d:mage#1446911998725193920]]'
 caps:
   spell_hit_vs_players: ~3% [[d:mage#1446911998725193920]]
-  resilience: reduces spell crit damage; bugged to reduce only the crit portion [[d:mage#1491486174777184346]], [[d:pvp-general#1428416707600449596]]
+  resilience: reduces spell crit damage; since 2025-12 it reduces the whole crit (the old crit-portion-only bug #17804 is fixed) [[d:mage#1491486174777184346]], [[d:paladin#1484443837576249404]]
   dampening: class/spec-dependent in 1.18.1, numbers unpublished
 rotation_single:
 - priority: 1

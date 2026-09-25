@@ -30,7 +30,7 @@ The sources have no player tactics for these bosses beyond the solo notes.
 
 ## Loot and leveling value
 
-- **Engryss's two-hand mace** (Thornroot Maul): "better than Ravager" [[d:shaman#1434652294925783061]], "absolutely goated" [[d:druid#1478392342237941780]]. Good for leveling druids [[d:druid#1462516907558047929]]. For shamans around 40, Herod's Shoulder, Scarlet Leggings and the SM helm matter more than the rest of the Grove loot. "You basically go there solely for the mace" [[d:shaman#1434685255977140386]].
+- **Engryss's two-hand mace** (Thornroot Maul): "better than Ravager" [[d:shaman#1434652294925783061]], "absolutely goated" [[d:druid#1478392342237941780]]. Good for leveling druids [[d:druid#1462512064479101094]], [[d:druid#1462516907558047929]]. For shamans around 40, Herod's Shoulder, Scarlet Leggings and the SM helm matter more than the rest of the Grove loot. "You basically go there solely for the mace" [[d:shaman#1434685255977140386]].
 - **Horn of Engryss** (trinket): once "incredibly good for AoE tanking/farming" [[d:shaman#1434652294925783061]]. Its on-use Thorns was removed in 2025-10 ([Torta (staff), 2025-10-14](https://forum.turtlecraft.gg/viewtopic.php?p=155594#p155594)).
 - **The Betrayer** (dagger, about level 33) for rogues [[d:rogue#1324107314747408587]]. **Bow of the Grove** (mid-30s hunter bow) [[d:hunter#1311230041606062111]]. **Blackflame Wand** for casters [[d:warlock#1376742821112971275]].
 - **Farm:** the Grove respawns fresh herbs, and boss weapons sell well to repair vendors. One fresh-60 shaman farmed it this way (single source, exploratory) [[d:shaman#1390728925814063326]].

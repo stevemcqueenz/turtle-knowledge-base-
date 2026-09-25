@@ -53,7 +53,7 @@ From one raiding tank's list [[d:warrior#1465807734892138659]], [[d:warrior#1465
 ### Composition
 
 - **Healers:** 7-9 on farm [[d:warrior#1454295977300070692]], [[d:warrior#1454420992926416951]]; 10-12 in progression [[d:warrior#1454295471433584710]]. Raid damage per second: Anomalus ~9k, Kruul ~7.5k (vs. Sapphiron ~7k, Patchwerk ~3.5k) [[d:warrior#1454296556474994833]].
-- **Casters of every school** for Incantagos, and off-specs (Elemental, Balance, Shadow) are hard to find [[d:paladin#1438452487966294207]].
+- **Casters of every school** for Incantagos, and off-specs (Elemental, Balance, Shadow) are hard to find [[d:paladin#1384281853225205901]].
 - **A Shadow Resistance tank** (warlock or shadow priest, the same player who tanks Twin Emperors) for the Chess Bishop, plus 3-4 other tanks [[d:warrior#1454295471433584710]].
 - Paladins: up to 7 in a working raid (typically 3 Prot, 3 Holy) [[d:paladin#1426156614750306395]]. Druids: 1 feral per melee group, 1-4 ferals and 1-3 boomkins [[d:druid#1472319490942570587]].
 
@@ -164,7 +164,7 @@ Phase 1 is DPS plus a taunt rotation; below ~25% he enrages and it becomes a DPS
 | Healers | Melee-healing holy paladins need ~7-8.5k HP [[d:paladin#1426287505073770496]]. Holy Reach helps because healers watch the Infernal kiter [[d:priest#1484311518580310107]] |
 | DPS | **Soak:** 10+ melee, shamans, paladins or resto druids on each of the two sides in front of him [[d:warrior#1454295471433584710]]; his melee (~30k) is split across everyone in front [[d:warrior#1469149459454886015]]. Arcane Bombs in the enrage; target dummies to soak if a Limited Invulnerability Potion chain fails; everyone carries LIPs [[d:warrior#1466626649130012875]], [[d:warrior#1466637489178677436]] |
 | Class jobs | Heavy decursing all fight; during the Infernal phase melee (Ret, Enhancement, Survival) usually handle curses [[d:paladin#1432237398632435733]], [[d:mage#1459267767692820635]]. Hunters move the pet away before the phase-2 knockback; his cleave takes half a BM pet's HP [[d:hunter#1397202595583492096]], [[d:hunter#1444749426152444146]]. Demo pets glance chasing him as he turns [[d:warlock#1435300266822996021]]. Feral cat's best Kara40 boss, still not top-3 [[d:druid#1484857708950851677]] |
-| Watch out | A mana-bomb mechanic punishes mana-using melee such as paladins [[d:paladin#1445222573431328768]]. **Wings of Oblivion** always knocks back and cannot be resisted (1.18.1); all his spells ignore line of sight ([Torta (staff), 2025-10-03](https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168), [Torta (staff), 2025-06-24](https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891)). He parries from behind [[d:rogue#1458835839550357545]] |
+| Watch out | A mana-bomb mechanic punishes mana-using melee such as paladins [[d:paladin#1445222573431328768]]. **Wings of Oblivion** always knocks back and cannot be resisted (1.18.1); all his spells ignore line of sight ([Torta (staff), 2025-10-03](https://forum.turtlecraft.gg/viewtopic.php?p=154168#p154168), [Torta (staff), 2025-06-24](https://forum.turtlecraft.gg/viewtopic.php?p=136891#p136891)). He parries from behind [[d:rogue#1458835839550357545]], [[d:rogue#1458835987487522908]], [[d:rogue#1458836112201224456]] |
 
 ### 9. Mephistroth (nathrezim, final boss)
 

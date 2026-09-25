@@ -2,6 +2,8 @@
 
 **Recommendation:** shamans are one of the strongest PvP classes because every spec can borrow Enhancement's armor talents and still burst. For battlegrounds play **Restoration 13/17/21** (healer with Enhancement armor talents) or an **Enhancement/Elemental hybrid with 30+ Enhancement points**; **spellhance** (Flametongue, spell power) is the strongest damage style, and "PvE-style" two-hand Windfury Enhancement is weak outside a raid's buffs. Stack **Stamina**, get **5% melee / 3% spell hit**, wear mail and a shield against physical classes, and carry free-action and invulnerability potions.
 
+Server-wide PvP rules (honor as a currency, rank, the 1.18.1 PvP sets, Conquest, battlegrounds, Warmode, dampening and resilience) are on [PvP systems](../../pvp.md).
+
 PvP sources are thinner than PvE and mostly predate 1.18.1 (2026-03-20); post-patch items are marked.
 
 ## Where the class stands
@@ -34,7 +36,7 @@ The level-60 PvP decision loop. The details are in [Burst and control sequences]
 3. **Triage:** expect to be focused first [[d:shaman#1470853367684141166]]. Keep yourself alive, then the target being trained (vanilla baseline).
 4. **Emergency:** Ancestral Swiftness (3-min cooldown) is your one instant heal; every other heal is a hard cast, so a team that tunnels you can lock you out [[d:shaman#1494663845619437609]].
 5. **Utility:** Earth Shock the enemy healer's casts; Grounding Totem against CC; Purge enemy buffs; Poison Cleansing Totem no longer removes Blind [[d:shaman#1440024319504683029]].
-6. **Mana:** in a big fight, heal until oom from a safe spot [[d:shaman#1470853945797640234]]. Drink between fights (vanilla baseline).
+6. **Mana:** in a big fight, heal until oom from a safe spot; drink between fights (vanilla baseline).
 
 **Vs class** (full table in [Matchups](#matchups)):
 

@@ -137,8 +137,7 @@ Setup: send the pet as the tank hits [[d:hunter#1484689822005067816]]. For a Rap
 | Targets | Do |
 |---|---|
 | 1 | Single-target macro |
-| 2 | Add Explosive Trap to the single-target macro [[d:hunter#1448541614208192602]] |
-| 3+ | **Explosive Trap → Carve → Raptor Strike → Mongoose Bite → Lacerate → Wing Clip** [[d:hunter#1485147064102031453]] |
+| 2+ | **Explosive Trap → Carve → Raptor Strike → Mongoose Bite → Lacerate → Wing Clip** [[d:hunter#1485147064102031453]] |
 
 - Most of Survival's AoE damage comes from Explosive Trap, not Carve [[d:hunter#1466765084671082496]]. Carve hits up to 5 targets [[d:hunter#1308700408952131634]].
 - Carve uses only your main-hand weapon, so a two-hander hits harder in AoE [[d:hunter#1426288674412167249]], [[d:hunter#1460280510730469490]].

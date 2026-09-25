@@ -80,9 +80,9 @@ Validated with `talent_tool.py level` (VALID). Final 41/10/0 code: `talents.turt
 
 Notes:
 
-- **Coordinated Assault** adds damage, but its threat lands on you, not the pet, which makes pulls "clunkier". It is still commonly taken [[d:hunter#1491784533551353896]], [[d:hunter#1491784691357843567]].
+- **Coordinated Assault** adds damage, but its threat lands on you, not the pet, which makes pulls "clunkier" [[d:hunter#1491784533551353896]], [[d:hunter#1491784691357843567]]. It is still commonly taken [[d:hunter#1491784374960787568]], [[d:hunter#1491784433454420120]].
 - **At 60** respec to the raid build of your choice: [BM 34/17/0](beast-mastery.md), [MM 12/37/2](marksmanship.md), or [Survival 16/0/35](survival.md).
-- Do **not** take Aimed Shot as a BM leveler ("useless" for BM) [[d:hunter#1486066194099339374]]. Hit does not matter while leveling [[d:hunter#1486068038028759122]].
+- Do **not** take Aimed Shot as a BM leveler ("useless" for BM) [[d:hunter#1486066194099339374]]. Hit does not matter while leveling [[d:hunter#1486066384113766462]].
 
 ### Survival path: respec at 40
 
@@ -284,7 +284,7 @@ Keep Steady Shot for pulls and for mobs you cannot reach in melee [[d:hunter#146
 | 20 | **Steady Shot** (baseline since 1.18.1) | Your main shot; using only Steady "is a big time saver" because you drink less [[d:hunter#1476280176533966899]] |
 | 6, then every ~6-8 levels | Arcane Shot | Learned at 6 per the kit; it now scales with ranged weapon damage, so keep training it [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071); from 20 it doubles as a cheap Coordinated Assault trigger [[d:hunter#1474824792220631130]] |
 | any | Serpent Sting / Scorpid Sting | Skip on normal mobs: "drains a lot of mana and it's inefficient". Use Serpent Sting only as a boss opener in dungeons [[d:hunter#1478329003201921158]], [[d:hunter#1478335392234082396]] |
-| 40 | Trueshot Aura (baseline, rank 1 only), Volley | Trueshot is now a single-rank baseline aura [[d:hunter#1484759204865773678]] |
+| 40 | Trueshot Aura (baseline, rank 1 only), Volley | Trueshot is now a single-rank baseline aura [[d:hunter#1481179340233248870]] |
 | 56 | Aspect of the Viper | "a bit too late for any convenience" [[d:hunter#1484535169519063110]], [[d:hunter#1484626351158984839]] |
 | pet 30 | Dash (pet) | Needs pet level 30 [[d:hunter#1490806796825137273]] |
 | every 10 | Growl ranks | Learned from the pet trainer [[d:hunter#1428016626455937097]] |

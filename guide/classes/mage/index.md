@@ -56,6 +56,10 @@ Race "barely matters" below the very top parses; pick what you like [[d:mage#147
 
 Full guide: [Professions](professions.md)
 
+Shared pages: [Professions overview](../../professions.md) · [PvP systems](../../pvp.md) (honor, battlegrounds, Warmode) · [Game mechanics](../../server-mechanics.md) (buff and consumable stacking, enchant sources) · [Client setup](../../client-setup.md) (launcher, SuperWoW, addons).
+
+Tier sets: to swap a tier piece to another spec's version, see [Tier sets: spec exchange](../../server-mechanics.md#tier-sets-spec-exchange-and-drop-bugs).
+
 ## Gold
 
 - **Dire Maul East lashers** are the classic mage farm from level 54 up [[d:mage#1447768105819439347]], [[d:mage#1428327478342058077]]. One raider counts it as one of only two well-known gold farms in the game [[d:mage#1433513741743296602]], [[d:mage#1433513769304068147]].

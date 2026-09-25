@@ -2,6 +2,8 @@
 
 **Recommendation:** play **Affliction 35/5/11** with a **Felhunter** or **Succubus**. Put Curse of Exhaustion on melee, DoT everyone from 36 yards, and Drain while they chase you. Save Death Coil for the moment a rogue or warrior reaches you. Destruction (Fire burst) and Soul Link Demonology are the alternatives: Destruction for burst when your group peels for you, Soul Link or greater demons for duels and arenas.
 
+Server-wide PvP rules (honor as a currency, rank, the 1.18.1 PvP sets, Conquest, battlegrounds, Warmode, dampening and resilience) are on [PvP systems](../../pvp.md).
+
 | Spec | PvP standing (1.18.1) | Why | Sources |
 |---|---|---|---|
 | **Affliction** | **Best** ("S") | Curse of Exhaustion: 40% slow, 36 yd, instant, no cooldown. Everything you cast has 36 yd range. Dark Harvest "hits like a truck" once geared | [[d:warlock#1489224572174602251]], [[d:warlock#1491191968494256168]], [[d:warlock#1491179322055196702]], [[d:warlock#1453625732390453450]] |

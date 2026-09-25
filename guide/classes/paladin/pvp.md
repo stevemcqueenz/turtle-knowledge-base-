@@ -2,6 +2,8 @@
 
 **Recommendation:** for battlegrounds and arenas, **Holy** is the safest and most valued Paladin PvP spec: "Rets are ass, hpally is where paladin pvp is at" [[d:paladin#1443973737056698448]], and for the Rank 14 grind "the answer is holy" [[d:paladin#1448556717636980866]]. **Deep Protection with a good weapon** is the surprise of 1.18.1: one tank topped the leaderboard "9/10 matches with 0 consumes and no dedicated PvP gear" [[d:paladin#1490469775988494518]]. **Retribution** works only as **Seal of Command** (AP) Ret, and it plays as utility with burst windows, not as a main damage dealer: "you gonna be ultility class on pvp, not main character dps" [[d:paladin#1467835072450134098]]. 1.18.1 made SoC Ret feel much better: "Went from feeling like a noodle to actually competing in skirmishes" [[d:paladin#1485054342716461077]].
 
+Server-wide PvP rules (honor as a currency, rank, the 1.18.1 PvP sets, Conquest, battlegrounds, Warmode, dampening and resilience) are on [PvP systems](../../pvp.md).
+
 | Spec | PvP rating | Why |
 |---|---|---|
 | **Holy** | A | Hard to kill, instant Holy Shock heals, 1.5 s Holy Lights; the default BG and arena pick [[d:paladin#1481664712130166965]], [[d:paladin#1448556717636980866]] |
@@ -23,7 +25,7 @@ The level-60 PvP decision loop for each spec. The details are in [Burst and cont
 3. **Burst:** in the stun, Judgement of Command for double damage, with Seal of Command up for the autos [[d:paladin#1435043535899590837]], [[d:paladin#1465012850329391263]].
 4. **Against a healer or caster:** Seal of Justice is your only extra "interrupt" [[d:paladin#1426723808445989067]]. Swap to SoC, judge, and go back to SoJ while its stun lasts [[d:paladin#1426723987551031336]]. The SoJ stun reportedly "doesnt DR with itself iirc" [[d:paladin#1426726513239392336]].
 5. **Control chain:** Repentance breaks on damage, so do not hit a repented target [[d:paladin#1426800158305419428]]. Save Repentance for a cast or for a rogue opener or Vanish [[d:paladin#1465252136186155038]]. Berserker Rage breaks it, and it does nothing to a Free Action-potioned target [[d:pvp-general#1433888687392817154]], [[d:paladin#1430425762976235651]].
-6. **Defence and escape:** use Divine Shield to disengage or to eat a Kidney Shot and save your trinket [[d:paladin#1429823453028155465]]. It halves your healing while it is up [[d:paladin#1467173434726547698]], so use the 12 s to reset. BoP stops Blind [[d:paladin#1424408436044595280]]. Hand of Freedom is weaker on Turtle (a longer cooldown and shorter duration), and Hand of Sacrifice no longer breaks crowd control [[d:paladin#1441767886023692468]]. Freedom, seals and stuns are all purgeable [[d:paladin#1441760867635953716]].
+6. **Defence and escape:** use Divine Shield to disengage or to eat a Kidney Shot and save your trinket [[d:paladin#1429823453028155465]]. It halves your healing while it is up [[d:paladin#1467173434726547698]], so use the 12 s to reset. BoP stops Blind [[d:paladin#1424408436044595280]]. Hand of Freedom is weaker on Turtle (a longer cooldown and shorter duration), and Hand of Sacrifice no longer breaks crowd control [[d:paladin#1441767886023692468]], [[d:paladin#1487223373317542039]]. Freedom, seals and stuns are all purgeable [[d:paladin#1441760867635953716]].
 7. **Target priority:** you are support first: "heal cleanse freedom your friends use bop smart" [[d:paladin#1481664216443392121]]. A well-placed Hand beats your damage [[d:paladin#1441525705086079238]]. Keep up pressure: fish for a Seal of Justice stun on a priest or shaman, or judge Justice on a rogue or druid [[d:paladin#1467846413848412315]].
 8. **Reset:** break line of sight and heal, then re-engage. Drink out of combat (vanilla baseline).
 
@@ -36,7 +38,7 @@ The level-60 PvP decision loop for each spec. The details are in [Burst and cont
 5. **Mana:** Holy is mana-starved without good gear and comfortable in T2 [[d:pvp-general#1432871223527997505]], [[d:pvp-general#1432871340951605418]]. Drink between fights (vanilla baseline).
 6. **Survive:** Divine Shield buys time, but you often die right after it [[d:pvp-general#1427661560523784203]]. Lay on Hands is disabled in arena [[d:paladin#1441426127284473877]].
 
-**Shockadin (Holy with Precision):** play it as sticky support, not a killer [[d:paladin#1488212884839469197]]. Burst the target with SoC autos until it is low, then finish with a Holy Shock reset. The risk is running out of mana [[d:paladin#1426119339089727588]]. Blessing of Sanctuary counters rogues, cats and fury warriors [[d:paladin#1490472253706604746]].
+**Shockadin (Holy with Precision):** play it as sticky support, not a killer [[d:paladin#1488212884839469197]]. Burst the target with SoC autos until it is low, then finish with a Holy Shock reset. The risk is running out of mana [[d:paladin#1426119235922563196]]. Blessing of Sanctuary counters rogues, cats and fury warriors [[d:paladin#1490472253706604746]].
 
 **Protection (deep Prot):**
 
@@ -222,10 +224,12 @@ Split **11/33/7**, validated (VALID). [Open in talent calculator](https://xian55
 | **Warrior** | Favourable | 2H Warrior out-damages 2H Ret [[d:paladin#1467839220105347072]]. Against dual-wield Fury with Bloodrinker lifesteal, Jesse Potter uses one-hander + shield, Judgement of Light and SoR to out-sustain [[d:paladin#1439841216589070369]], [[d:paladin#1477091325848322263]]. Berserker Rage breaks Repentance [[d:pvp-general#1433888687392817154]]; wear disarm-immune gloves [[d:paladin#1438848574770380861]] |
 | **Rogue** | Hard since Dissolvent | "Rogues also have like 50% base dodge" [[d:paladin#1423730871537504488]]; if they resist or trinket your HoJ and Repentance, "you have 15s of just fuckin roll over and die" [[d:paladin#1424397329435328674]]. Dissolvent ignores Block [[d:paladin#1435717695189422100]]. Counters: BoP for Blind [[d:paladin#1424408436044595280]], Lost-set wolves to stop stealth [[d:paladin#1440228045406605444]], Blessing of Sanctuary [[d:paladin#1490472253706604746]] |
 | **Mage** | **Contested** | "Ret against mage might be a good match ... if you happen to get into melee before they notice you" [[d:paladin#1441764012780945488]], [[d:paladin#1441764115252252827]]; "a mage kited 3 rets for 2 mins" [[d:paladin#1441764762571640945]]; "paladins are easy, sheep and ignore" [[d:pvp-general#1423692207071952996]] |
-| **Warlock** | Kill the pet | Paladin "is a Supreme killers of Warlock pets, and Warlocks are nothing without pets" [[d:paladin#1484645314639171688]], [[d:paladin#1484645865141436488]]. You cannot fear the demon, and a stunned or repented Voidwalker can still be sacrificed [[d:pvp-general#1430550221477122200]] |
+| **Warlock** | Kill the pet | Paladin "is a Supreme killers of Warlock pets, and Warlocks are nothing without pets" [[d:paladin#1484645314639171688]], [[d:paladin#1484645865141436488]]. You cannot fear the demon, and a stunned or repented Voidwalker can still be sacrificed [[d:pvp-general#1430550221477122200]]. **Bug:** Succubus Seduction lands through Divine Shield (bug report 3424, open for "almost 2 years" in 2025-11) [[d:paladin#1441782806823833712]] |
 | **Shaman** | Unfavourable | Purge strips seals and Freedom [[d:pvp-general#1424861028696723568]], [[d:paladin#1319672073685172315]]; Ret gets deleted in 2-3 hits by Shaman burst [[d:paladin#1472659024351592731]] |
 | **Hunter** | Manageable | "put a shield on and run away to LoS" [[d:paladin#1477997240814534807]]; Swiftness Potion [[d:paladin#1478005878736294043]]; Frost Oil to keep them slowed [[d:paladin#1478007043435663440]]. Holy Shield no longer blocks ranged attacks [[d:paladin#1428745621673738280]] |
 | Priest, Druid, Paladin | No current data | The sources do not settle these (see [Sources](sources.md#gaps)) |
+
+- **Sweet 'N Crunchy Fruit Bread** (a food sold on the AH) puts a 30-second, very low-damage DoT on the eater that breaks "lite" CC, Repentance included. Jesse Potter met a druid using it to break Repentance [[d:paladin#1459828695375024179]], [[d:paladin#1425308650574057603]].
 
 ## Battleground roles
 

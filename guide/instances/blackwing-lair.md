@@ -41,7 +41,7 @@
   - Rogues: bring Thieves' Tools, disable devices, stay stealthed, use distracts [[d:rogue#1483608695249174679]], [[d:rogue#1483613324850495608]]. Stun/interrupt the Spellbinders [[d:rogue#1312541242441076866]]; kite Spellbinders so melee do not kick them too early, and cleanse the poison ticks [[d:mage#1494004230653214802]], [[d:mage#1494002099879415969]].
   - Paladins handle the AoE packs more comfortably than warriors (**Contested**) [[d:warrior#1490391630102925584]], [[d:warrior#1489591327745245304]].
   - A sprint-capable hunter pet (raptor, cat) speeds up pulling the room after Broodlord [[d:hunter#1484476817845780540]], [[d:hunter#1484477028957945928]].
-  - Warlocks: channels break if the camera forces keyboard-turning (known bug) [[d:warlock#1425581946326487142]].
+  - Warlocks: channels break if the camera forces keyboard-turning (known bug) [[d:warlock#1425557797764071424]], [[d:warlock#1425565657717542933]].
 - **Drakonid / dragon trash** can "global" a tank through Thrash stacking [[d:paladin#1449028341397979281]].
 - **Blackwing Alchemists** (Ezzel's lab trash) had respawn fixes ([Torta (staff), 2026-03-21](https://forum.turtlecraft.gg/viewtopic.php?p=171608#p171608)).
 
@@ -124,7 +124,7 @@ A goblin alchemist riding the ogre **Ton'Raka** in "his employer's laboratory" (
 
 1. Firemaw: void zones and Flame Buffet stacks in undergeared raids [[d:rogue#1484688013253542018]].
 2. Vaelastrasz: threat and a tank "globaled" [[d:paladin#1449027850652090429]].
-3. Chromaggus enrage without Tranquilizing Shot or Shield Wall [[d:warrior#1489427165937402028]].
+3. Chromaggus has an enrage that must be survived; roll Shield Block through it [[d:warrior#1489427165937402028]].
 4. Nefarian: forgotten Onyxia cloaks or bad class calls [[d:paladin#1451276466301177976]].
 
 ## Gaps

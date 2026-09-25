@@ -54,7 +54,7 @@ Professions matter less for a rogue than for many classes. The whole Engineering
 
 - **Contested and niche.** The blacksmith belt buckle is the belt enchant [[d:rogue#1484232312236544171]]. The Blacksmithing anti-fear trinket is the one reason a player kept the profession over LW [[d:rogue#1447106369147768947]]. A Sword rogue aims for the Swordsmith runed epic blade [[d:rogue#1484550833512382627]].
 - **1.18.1 crafted-weapon upgrades:** BWL drops upgrade items for crafted gear, and you need the matching specialisation to use the result ([Dragunovi (staff), 2026-02-15](https://forum.turtlecraft.gg/viewtopic.php?p=168272#p168272)). One player speculates that on a fresh server Blacksmithing "might become bis profession for this phase" [[d:rogue#1485567993671847989]] **(single source, speculative)**.
-- **Ornate Bloodstone Dagger (OBD, crafted):** the recipe is rare, and crafting fees ran 200-700 g [[d:rogue#1459386611132530748]]. In 1.18.1 **rogue poisons and melee can no longer proc it**. Before the patch it carried the Assassination build [[d:rogue#1479961666312470711]], [[d:rogue#1497981748527628390]]. Some still use it as a 1.3-speed dagger [[d:rogue#1486378986090139869]]. Don't spend on one for its proc.
+- **Ornate Bloodstone Dagger (OBD, crafted):** the recipe is rare, and crafting fees ran 200-700 g [[d:rogue#1459386611132530748]]. In 1.18.1 **rogue poisons and melee can no longer proc it**. Before the patch it was eating up 8-10% of a rogue's damage [[d:rogue#1479961666312470711]], [[d:rogue#1497981748527628390]], [[d:rogue#1497982046125953146]]. Some still use it as a 1.3-speed dagger [[d:rogue#1486378986090139869]]. Don't spend on one for its proc.
 
 ### Herbalism + Alchemy
 
@@ -71,6 +71,10 @@ Professions matter less for a rogue than for many classes. The whole Engineering
 ### Lockpicking, Pickpocket, Fishing, Cooking
 
 - **Lockpicking** is needed for class quest chains, and it "will make you money as long as you use it" [[d:rogue#1458678446006861885]]. Fastest route: Hillsbrad → Badlands → Tanaris → Eastern Plaguelands/BRD [[d:rogue#1465593498286817362]]. Horde can spam the poison-quest box to about 170 [[d:rogue#1465532927189188710]].
+- **Pickpocket: stand still.** Pickpocketing while moving can play the loot sound and chat message without putting anything in your bags [[d:rogue#1476276159917588511]], [[d:rogue#1477651156959367251]], [[d:rogue#1328021378854813750]].
+- **Autoloot:** if two addons (for example SuperWoW and another) both have autoloot on, neither loots. Turn it off in one of them [[d:rogue#1476277178340610331]].
+- **Pocket resets (contested):** one rogue says dungeon mobs only get new pockets when they die or the instance resets [[d:rogue#1442021488449556571]]; another saw BRD pockets refill after 15-20 minutes AFK [[d:rogue#1442109241069408328]].
+- **Drop odds:** about 7-8% of pickpocketed mobs give a Heavy Junkbox, and BoE epics such as Alcor's Sunrazor come from about 0.125% of boxes, so about 800 boxes per epic on average [[d:rogue#1476992018839502951]], [[d:rogue#1476992441956565155]]. Every Heavy Junkbox now also holds a Precise Lock Cylinder (see [Ravenholdt](#ravenholdt-reputation)).
 - **Fishing:** Stonescale Eels earned one player 50-70 g/h [[d:rogue#1440517107346444418]]. Fish Oily Blackmouth pools as you pass for Free Action Potions [[d:rogue#1470540414133076091]].
 
 ## When to pick up and swap
@@ -90,7 +94,33 @@ Professions matter less for a rogue than for many classes. The whole Engineering
 - **Best:** naked Mining in ZG ("best gold farm for rogues and easiest to do") [[d:rogue#1489623080711094384]], [[d:rogue#1494691538389958868]]; Disenchanting on the side [[d:rogue#1440513896049016936]].
 - Skinning is called "probably the worst" gathering profession for gold [[d:rogue#1494692871163478087]], though Rugged Hide now sells for a gold or two each [[d:rogue#1456744094867919022]]. **Contested:** another player calls Mining "a really bad gold maker" [[d:rogue#1476934750731112661]].
 - Realistic target: "any farm yielding 40g+ an hour is a decent farm" [[d:rogue#1476988625773396225]]. Soloing the HFQ last bosses with a vampirism setup, plus vendoring and disenchanting, yields about 40-60 g/h and Fashion Coins [[d:rogue#1489491333029822575]].
-- Pickpocketing BRD for raw gold is "terrible" per/hour [[d:rogue#1440475227720126636]], [[d:rogue#1440512329543454752]]. It is worth doing for Heavy Junkboxes and BoE epics (see [Leveling](leveling.md)).
+- Pickpocketing BRD for raw gold is "terrible" per/hour [[d:rogue#1440475227720126636]], [[d:rogue#1440512329543454752]]. It is worth doing for Heavy Junkboxes and BoE epics (see [Pickpocket](#lockpicking-pickpocket-fishing-cooking)).
+
+## Reputation and quest chains
+
+### Ravenholdt reputation
+
+| Step | How | Sources |
+|---|---|---|
+| Neutral → Friendly | Pickpocket **Syndicate Emblems** from Syndicate humans in Alterac and Hillsbrad and turn them in | [[d:rogue#1482560599085940878]] |
+| Killing Syndicate | Gives no Ravenholdt rep on Turtle | [[d:rogue#1482703816540422194]], [[d:rogue#1471620131003306148]] |
+| Friendly → Exalted | Turn in **Precise Lock Cylinders**, 10 rep each: about 3,800-3,900 cylinders in total. The turn-in quest needs level 50 | [[d:rogue#1481735559109148754]], [[d:rogue#1482561236284608662]], [[d:rogue#1483180319463969010]] |
+
+- **Where cylinders come from:** every Heavy Junkbox now holds one. They stack to 20 and can be bought and sold on the AH. Only rogues can farm them, but anyone can turn them in [[d:rogue#1482561495752769546]], [[d:rogue#1482561787953021151]], [[d:rogue#1483179818752282834]].
+- **Cost:** buying your way to exalted was about 600 g in 2026-02 [[d:rogue#1471626146486685858]]; one rogue spent close to 3k gold on cylinders in 2026-03 [[d:rogue#1481719479070359582]].
+- **Rewards:** players still called the rep "essentially useless" in 2026-02 [[d:rogue#1474693288551256246]]. The 2026-02-18 changelog moved the Dusksteel Throwing Blade to John Smith in Ravenholdt Manor [[d:rogue#1474694780922495088]]. The class-weapon chain below does not need Ravenholdt rep [[d:rogue#1488700628141216015]], [[d:rogue#1491517634154467581]].
+
+### Class-weapon questline (1.18.1)
+
+The reward is a matched pair of one-handed swords [[d:rogue#1484634204078870679]]. The starting quest is 42029 on the database [[d:rogue#1489170904809472082]].
+1. **Start:** the item drops from the secret last boss of [Timbermaw Hold](../../instances/timbermaw-hold.md), about a 50% drop. One raid member must be Timbermaw exalted and do a quest chain to summon it [[d:rogue#1491874344563900659]], [[d:rogue#1488712161130713108]], [[d:rogue#1491482271553683538]].
+2. **Steps players listed:** talk to an NPC in Ravenholdt Manor; sneak into Undercity or Stormwind to pickpocket someone (both NPCs are in throne rooms); kill a few elites; sneak into BRD with a Dark Iron dwarf disguise; kill the new BWL boss and an MC boss; bring 10 Elementium Ore [[d:rogue#1488698671527624869]], [[d:rogue#1488703428283858944]], [[d:rogue#1491874344563900659]], [[d:rogue#1491874449639866469]], [[d:rogue#1488708328094826648]], [[d:rogue#1488708349707944068]].
+3. **Bug:** don't kill the MC boss with the MC weekly quest in your log. For one rogue the quest item then didn't drop, and he had to wait a week [[d:rogue#1489082025993306254]].
+
+### Tier 0.5 (Darkmantle) chain
+
+- **Cost:** about 500 g [[d:rogue#1450543564831588476]] to 600-700 g on Nordanaar [[d:rogue#1465773917783195894]]; one player guessed 1-2k [[d:rogue#1465765517158514941]].
+- **Lost amulet pieces:** don't delete "Left Piece of Lord Valthalak's Amulet" after its quest; the next step needs it. In 2026-02 this soft-locked a rogue's chain and GMs couldn't help [[d:rogue#1473602687751946253]]. A patch a week later let **Bodley** restore Lord Valthalak's Amulet or its pieces [[d:rogue#1476010269548347492]].
 
 ## Gaps
 

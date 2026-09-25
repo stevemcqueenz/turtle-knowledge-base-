@@ -138,7 +138,7 @@ Cat has **no AoE and no cleave**, which the class designer confirmed as intent: 
 | Targets | Action |
 |---|---|
 | 1-2 | Normal rotation on the kill target |
-| 3+ | Keep single-targeting. If the tank needs help, shift to **Bear** and **Swipe** (3-target cap) [[d:druid#1460831352915103879]]. Leaving form to **Hurricane** is only worth it with a spell-power set or Atiesh [[d:druid#1470733797904617472]] |
+| 3+ | Keep single-targeting. If the tank needs help, shift to **Bear** and **Swipe** (3-target cap) [[d:druid#1460865829380952271]]. Leaving form to **Hurricane** is only worth it with a spell-power set or Atiesh [[d:druid#1470733797904617472]] |
 
 ## Cooldowns and utility
 
@@ -215,7 +215,7 @@ Skip the Devilsaur set; better pieces replace it quickly [[d:druid#1418651437164
 
 Idol enchants (Hyjal, Bright Dream Shards + Timbermaw materials) add 1% crit, hit, haste, spell crit or spell hit [[d:druid#1461409266320670812]]. Chance-on-hit enchants (Crusader, Fiery, lifesteal) do not work in form [[d:druid#1428828946916577391]].
 
-**Weapon stones:** Consecrated Sharpening Stone (Undead) > Elemental Sharpening Stone [[d:druid#1461753276017152021]]. The "+damage" sharpening stones do nothing in form; the crit stones work [[d:druid#1464013524178309190]], [[d:druid#1478268941716422788]].
+**Weapon stones:** Consecrated Sharpening Stone (Undead) > Elemental Sharpening Stone [[d:druid#1461753276017152021]]. The "+damage" sharpening stones do nothing in form; the crit stones work [[d:druid#1464011230518972621]], [[d:druid#1464014078006661222]].
 
 ## Consumables
 

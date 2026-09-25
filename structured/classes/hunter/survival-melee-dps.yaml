@@ -518,13 +518,9 @@ rotation_single:
 rotation_aoe:
 - targets_min: 2
   priority: 1
-  action: add Explosive Trap to the single-target macro
-  condition: 2 targets [[d:hunter#1448541614208192602]]
-- targets_min: 3
-  priority: 1
   action: Explosive Trap > Carve > Raptor Strike > Mongoose Bite > Lacerate > Wing Clip
-  condition: 3+ targets; skip traps on fire-immune or nearly dead packs [[d:hunter#1485147064102031453]]
-aoe_threshold: 3
+  condition: 2+ targets; skip traps on fire-immune or nearly dead packs [[d:hunter#1485147064102031453]]
+aoe_threshold: 2
 cooldowns:
 - name: Rapid Fire / on-use trinkets / Blood Fury
   use_when: on pull; Blood Fury does not stack with Molten Emberstone [[d:hunter#1456621926540644466]]

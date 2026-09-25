@@ -83,3 +83,7 @@ At the highest parse level "all races are within 1% of each other", so pick what
 - **Dual spec** costs 350g at level 50 [[d:warrior#1406228381384572998]]. It is worth getting for DPS/tank or PvE/PvP swaps.
 
 Full guide: [Professions](professions.md). Leveling notes: [Leveling](leveling.md#races-and-professions-for-leveling).
+
+Shared pages: [Professions overview](../../professions.md) · [PvP systems](../../pvp.md) (honor, battlegrounds, Warmode) · [Game mechanics](../../server-mechanics.md) (buff and consumable stacking, enchant sources) · [Client setup](../../client-setup.md) (launcher, SuperWoW, addons).
+
+Tier sets: to swap a tier piece to another spec's version, see [Tier sets: spec exchange](../../server-mechanics.md#tier-sets-spec-exchange-and-drop-bugs).

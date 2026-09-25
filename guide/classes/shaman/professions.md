@@ -60,7 +60,7 @@
 ### Blacksmithing
 
 - Blacksmithing makes the **Fiery Chain** fire-resistance mail set for tanks [[d:shaman#1474856625297690705]], [[d:shaman#1476041815240216626]]. One Fiery Chain piece plus FR enchants reaches ~300 FR [[d:shaman#1425351478540767233]].
-- **Towerforge** (crafted, Kara10 tier) head and shoulders are Enhancement pre-raid pieces with a two-hand weapon-skill set bonus. They are expensive (about 600 g for two pieces), and two of the four need AQ20 Small Obsidian Shards. Buy them rather than taking Blacksmithing [[d:shaman#1442295545300390038]], [[d:shaman#1442296203349065899]], [[d:shaman#1442296420022489089]].
+- **Towerforge** (crafted, Kara10 tier) head and shoulders are Enhancement pre-raid pieces with a two-hand weapon-skill set bonus. They are expensive (about 600 g for two pieces), and two of the four need AQ20 Small Obsidian Shards. Buy them rather than taking Blacksmithing: they are BoE [[d:shaman#1286028745311780998]], [[d:shaman#1442295545300390038]], [[d:shaman#1442296203349065899]], [[d:shaman#1442296420022489089]].
 - Otherwise Blacksmithing is weak for a shaman ("only has weapons") [[d:shaman#1396759152088453172]]. **Contested:** "Blacksmithing really doesnt have anything" you can't get elsewhere, apart from raid resistance sets [[d:shaman#1360456924096892938]].
 
 ### Tailoring

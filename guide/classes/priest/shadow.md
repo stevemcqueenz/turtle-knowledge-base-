@@ -15,7 +15,7 @@
 The level-60 Shadow loop. For the details, see the linked sections.
 
 1. **Pre-pull:** `Shadowform`, Inner Fire, and `Power Word: Shield` if you expect pushback.
-2. **Opener:** `Shadow Word: Pain` → `Mind Blast` → `Mind Flay` ×2. Cast `Vampiric Embrace` first only if the fight needs mana or healing [[d:priest#1430465373366648873]]. Against a fresh tank, delay Mind Blast ([threat](#resources-threat-and-1181-mechanics)).
+2. **Opener:** `Shadow Word: Pain` → `Mind Blast` → `Mind Flay` ×2. Cast `Vampiric Embrace` first only if the fight needs mana or healing [[d:priest#1491659277474074716]]. Against a fresh tank, delay Mind Blast ([threat](#resources-threat-and-1181-mechanics)).
 3. **Single-target loop:** keep SW:P up without clipping it, on targets that live 3+ ticks → `Mind Blast` on cooldown → 2 × `Mind Flay` per Mind Blast cooldown, clipped by hand after the last tick you want. Never stop a Flay by moving [[d:priest#1494662933056327902]]. `Pain Spike` as the finisher ([Single-target rotation](#single-target-rotation)).
 4. **Cooldowns:** pop trinkets from the passive one first, and snapshot SW:P under them (Zandalarian Hero Charm) [[d:priest#1456726981210275870]]. With the T3.5 3-piece, `Fade` → SW:P refresh [[d:priest#1444088076384338121]].
 5. **AoE switch:** at 2–4 targets, single-target the kill target and SW:P extras only if they live 3+ ticks. At **5+**, spam `Holy Nova` until mana runs low (about 9–10 casts) ([AoE](#aoe)).

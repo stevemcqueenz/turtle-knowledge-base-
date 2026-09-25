@@ -80,6 +80,10 @@ Only Night Elves and Tauren can be druids; High Elf druids exist only as a playe
 
 Full guide: [Professions](professions.md)
 
+Shared pages: [Professions overview](../../professions.md) · [PvP systems](../../pvp.md) (honor, battlegrounds, Warmode) · [Game mechanics](../../server-mechanics.md) (buff and consumable stacking, enchant sources) · [Client setup](../../client-setup.md) (launcher, SuperWoW, addons).
+
+Tier sets: to swap a tier piece to another spec's version, see [Tier sets: spec exchange](../../server-mechanics.md#tier-sets-spec-exchange-and-drop-bugs).
+
 ## Raid order
 
 Community difficulty order: Kara10 = ZG = AQ20 > Onyxia > MC > BWL > Emerald Sanctum > AQ40 > Timbermaw Hold > Naxx > Kara40 [[d:druid#1491822859398418473]]. Run [Lower Karazhan Halls](../../instances/lower-karazhan-halls.md) alongside [Molten Core](../../instances/molten-core.md); some Kara10 gear beats early MC gear [[d:druid#1490927470176632862]]. The [Emerald Sanctum](../../instances/emerald-sanctum.md) unlocks the Emerald Blessing raid buff and the Swift Travel Form quest [[d:druid#1491495730790142162]].

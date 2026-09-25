@@ -31,7 +31,7 @@ The level-60 healing loop with the [0/8/43 build](#raid-0843-recommended). Detai
 |---|---|---|
 | **T1 8-piece reworked** to "Your Healing Wave and Lesser Healing Wave have a 25% chance to surround the target with an earth wall, absorbing 250 damage. Lasts 6 sec." | Ends the T1 Healing-Wave-spam build (its mana-return procs fired up to 3 times per cast); Resto's only 1.18.1 change | [[d:shaman#1464377036415172758]], [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071) |
 | **Chain Heal targeting**: no longer jumps to Guardians or Totems | It still does not prefer the lowest-health target: "chain heal has never had most wounded prio on this server" (staff); bug reports were answered as intended "for class balance" | [[d:shaman#1476010066816536607]], [[d:shaman#1485252771279143012]], [[d:shaman#1488865232578150430]] |
-| Rockbiter's old flat damage reduction removed (Earthen Bulwark) | Aimed at Restoration PvP tankiness | [[d:shaman#1472960871213826213]] |
+| Rockbiter's old flat damage reduction removed (Earthen Bulwark) | Aimed at Restoration PvP tankiness | [[d:shaman#1472957128930099252]], [[d:shaman#1472960871213826213]] |
 | Holy Priest buffs (other class) | Priests now dominate AoE healing | [[d:shaman#1484828080185937971]], [[d:shaman#1489717659921813667]] |
 
 A 1.18.1 example of the loss: with 8/8 T1 and 800 healing a rank-10 Healing Wave "for 4000" could jump twice and regenerate mana; with T3 and 1100 healing the same player now runs out of mana on Sapphiron [[d:shaman#1485771848426852413]].
@@ -103,7 +103,7 @@ Low spell ranks scale poorly with healing power (scaling depends on cast time), 
 
 Spell ranks to buy (peter_hammer): Chain Heal ranks 1 and 3, Healing Wave ranks 4/5 and 10 [[d:shaman#1472590831775912169]].
 
-**Chain Heal's targeting:** it lands on your target, then jumps to nearby injured players, preferring your party, but not the most wounded [[d:shaman#1438669998405976155]], [[d:shaman#1485252771279143012]]. Aim it at clumps (melee, tank stacks) where the jumps can't be wasted.
+**Chain Heal's targeting:** it lands on your target, then jumps to nearby injured players, preferring your party, but not the most wounded [[d:shaman#1438669998405976155]], [[d:shaman#1485252771279143012]]. Aim it at clumps (melee, tank stacks) where the jumps can't be wasted. Stack tighter than you would elsewhere: a beta tester measured the jump range at about 7.6 yd instead of the expected 9.8-10 yd and added it to bug report 18234 (2025-11, pre-1.18.1; no later measurement) [[d:shaman#1436372724275609612]], [[d:shaman#1434598303961583698]].
 
 **Bot-ready loop:** `if totems missing → drop group totem set` · `if Water Shield missing → Water Shield` · `if target HP < 35% and Ancestral Swiftness ready → Ancestral Swiftness + Healing Wave (max)` · `elif target HP < 35% → Lesser Healing Wave (max)` · `elif ≥3 injured in a clump → Chain Heal (rank 1; rank 3 if raid damage high)` · `elif one injured → Healing Wave rank 4` · `mana < 40% → tea / potion`.
 

@@ -26,7 +26,7 @@ The level-60 healing loop. The details are in [Single-target healing](#single-ta
     - **Group/raid-wide damage at range:** Flash of Light spam. You have no other AoE heal.
 3. **Triage order:** someone about to die → **Holy Shock**. Tank took a big hit and you have the Holy Judgement buff → **Holy Light**. 3+ hurt near you → **Holy Strike**. Everyone else → **Flash of Light** [[d:paladin#1489753379583557704]].
 4. **Keep up:** Seal of Wisdom, and Judgement of Wisdom on a long-lived target. Spend a GCD on Judgement + re-seal after a fast Holy Light or when the debuff is about to drop [[d:paladin#1446997676200820840]]. On trash downtime, a rank-1 Flash of Light on the tank can crit and leave a Daybreak [[d:paladin#1432923730018832555]].
-5. **Mana plan:** Seal/Judgement of Wisdom, Holy Strike, Illumination, Major Mana Potions and Nordanaar tea [[d:paladin#1487359832318148680]]. Do not spam max-rank Holy Light [[d:paladin#1436013333919830126]]. Use Crusader Strike only when moving and you need a Holy Shock reset [[d:paladin#1488534279020482730]].
+5. **Mana plan:** Seal/Judgement of Wisdom, Holy Strike, Illumination, Major Mana Potions and Nordanaar tea [[d:paladin#1487359832318148680]]. Do not spam max-rank Holy Light [[d:paladin#1436013333919830126]]. Use Crusader Strike only when moving and you need a Holy Shock reset [[d:paladin#1488534322569936957]].
 6. **Cooldowns:** Lay on Hands on a dying tank. Divine Shield keeps you healing through fear or lethal mechanics. Blessing of Protection saves a DPS who has aggro. Divine Intervention is for planned strats such as Maexxna, and for wipe recovery (vanilla baseline).
 7. **Dispels and utility:** Cleanse removes magic, poison and disease, but it costs a GCD, so pre-cast it before known debuffs. Blessings follow the raid assignment [[d:paladin#1461076668021211320]], [[d:paladin#1468968922354286808]].
 
@@ -175,7 +175,7 @@ Holy Strike is a damage dampener, not a save: do not count on it to rescue someo
 |---|---|
 | **Lay on Hands** | Tank emergency. With Improved Lay on Hands it also gives the target +30% item armor; on Maexxna, cast it on the tank just before Web Wrap, for 30% armor through the Web/Enrage window [[d:paladin#1466097719415410709]] |
 | **Divine Intervention** | Maexxna "DI strat": pre-DI a healer, who comes back to heal the MT during Web Wrap. Assign a paladin to DI the same healer before each wrap [[d:paladin#1466097683629342991]] |
-| **Divine Shield** | Heals keep working inside the bubble. Use it against Nefarian's fear, or you get breathed and die [[d:paladin#1465429349154160784]]. It does not remove Vaelastrasz's Adrenaline [[d:paladin#1465429349154160784]]. It is better than Divine Protection for a healer, because Divine Protection disables melee but costs less mana [[d:paladin#1434634554920140982]] |
+| **Divine Shield** | Heals keep working inside the bubble. Use it against Nefarian's fear, or you get breathed and die [[d:paladin#1465429349154160784]]. It does not remove Vaelastrasz's Adrenaline [[d:paladin#1465429349154160784]]. It is better than Divine Protection for a healer, because Divine Protection disables melee but costs less mana [[d:paladin#1434634554920140982]], [[d:paladin#1434634880045682799]] |
 | **Blessing of Protection** | Save a DPS who pulled aggro, or bubble casters during AoE damage [[d:paladin#1484938782292840551]] |
 | **Cleanse** | One GCD removes magic, poison and disease. Pre-cast it before the Naxx spider-wing poisons [[d:paladin#1461076668021211320]] |
 | **Blessings** | With 4 paladins: Improved Might, Improved Wisdom, Kings, Salvation [[d:paladin#1468968922354286808]]. **Blessing of Light** helps only Holy paladins. Skip it unless you have spare paladins [[d:paladin#1490560751939620984]], [[d:paladin#1490561064562196530]]. If you are the only paladin: Wisdom on yourself, Salvation on everyone else [[d:paladin#1440296346706776165]] |
@@ -197,7 +197,7 @@ Paladin healing threat is very low. Heals have a -50% modifier, and Holy Light a
 ### Pre-raid
 
 - **Holy is the easiest healer to gear:** about 80% of pre-raid BiS is on the auction house, and half of it is "more than ready for MC" [[d:paladin#1452769613103366375]], [[d:paladin#1452769875859603549]].
-- **Red Dragonscale set** (Leatherworking): lots of healing power, no Intellect. A good starter set to buy, not mandatory [[d:paladin#1492191563324067942]]. Its 4-piece HoT proc can be triggered by Daybreak [[d:paladin#1433073573383114863]].
+- **Red Dragonscale set** (Leatherworking): lots of healing power, no Intellect. A good starter set to buy, not mandatory [[d:paladin#1492191563324067942]]. Its 4-piece HoT proc can be triggered by Holy Strike's healing [[d:paladin#1433073573383114863]].
 - **Dzonathan's budget list** (mostly from the auction house) [[d:paladin#1363105974654865590]]:
 
 | Slot | Item |

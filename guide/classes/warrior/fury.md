@@ -243,8 +243,8 @@ There is no endorsed static BiS list. The item pool is large and custom, so sim 
 | Raid entry | Blackthorn's Blackjack + Mirah's Song | [[d:warrior#1463208588125143050]] |
 | MC-BWL | **Ironfoe + Modrag'zan** ("mace set"): top tier through Naxx and 315 skill on any race, but roughly a 1% drop (plan on hundreds of MC runs) | [[d:warrior#1483075345904304158]], [[d:warrior#1483856629832220834]], [[d:warrior#1483024861398827049]] |
 | MC-BWL (no mace set) | MH: Deathbringer > Viskag > Modrag'zan > Brutality Blade > Blackjack; OH: Tempest's Rage, Anasterian's Legacy, Ironfoe | [[d:warrior#1477691231667621980]], [[d:warrior#1477691596052103361]] |
-| Sword track | Chromatically Tempered Sword/Ripper + Maladath/Crystal Sword of the Blossom → Gressil + Thunderfury/Iblis | [[d:warrior#1449866244571402395]] |
-| Fist track | Remnants of an Old God + Silithid Claw → + Frostwyrm Claw (315 fist skill on any race) | [[d:warrior#1449866868633374870]] |
+| Sword track | Chromatically Tempered Sword/Ripper + Maladath/Crystal Sword of the Blossom → Gressil + Thunderfury/Iblis | [[d:warrior#1449870132628422746]], [[d:warrior#1449866244571402395]] |
+| Fist track | Remnants of an Old God + Silithid Claw → + Frostwyrm Claw (315 fist skill on any race) | [[d:warrior#1449870132628422746]], [[d:warrior#1449866868633374870]] |
 
 **Contested:** mace set vs Gressil + THC. Some sims put the mace set ahead, others have Gressil + THC ahead "by a decent margin" on cleave. The mace set lives on procs, and sims may not model proc-fishing well [[d:warrior#1475948954914127933]], [[d:warrior#1484516336490250270]].
 
@@ -278,7 +278,7 @@ Weapon speed for DW: default to a slow main hand and a fast off hand. A much hig
 | Gloves | +15 Agility (DW); 2H/Arms often +9 Strength once past ~34% crit | [[d:warrior#1424896868311367800]], [[d:warrior#1467622383731867730]] |
 | Belt | Obsidian Belt Buckle (+10 Strength) | [[d:warrior#1463102882458107978]] |
 | Boots | +15 Stamina over +7 Agility; Minor Speed does not stack with Emerald Blessing | [[d:warrior#1483604132718706718]], [[d:warrior#1450784642172190752]] |
-| Rings | +3 all stats (Jewelcrafting) | +6 Strength is possible for DW near the crit cap (**contested**: "crit cap isnt real") [[d:warrior#1440985379653161041]], [[d:warrior#1460206930504061013]] |
+| Rings | +3 all stats (Jewelcrafting) [[d:warrior#1440985379653161041]] | +6 Strength is possible for DW near the crit cap [[d:warrior#1460205381564367013]] (**contested**: "crit cap isnt real" [[d:warrior#1460206930504061013]]) |
 | Weapon | **Crusader** ("best through all phases"); new Grand Crusader is a 2H version with more Strength | [[d:warrior#1435226925462458389]], [[d:warrior#1487636606071345314]] |
 
 ## Weapon stones and oils

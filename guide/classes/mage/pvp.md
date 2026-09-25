@@ -2,6 +2,8 @@
 
 **Recommendation:** in 1.18.1 play **Arcane with Ice Block ("PoM Block", 30/0/21)** for burst, or the **17/0/34 Frost/Arcane hybrid** for control and survival. Gear **Stamina** first, then **crit > spell power > haste**. Do not play a "Frostbolt turret". The 1.18.1 dampening and resilience changes cut mage burst, so mage wins with **CC**: Polymorph, Frost Nova, Cone of Cold, Improved Counterspell, Blink and Ice Block, with burst windows in between. Mage beats melee, struggles against hunters and shamans, and is even with warlocks.
 
+Server-wide PvP rules (honor as a currency, rank, the 1.18.1 PvP sets, Conquest, battlegrounds, Warmode, dampening and resilience) are on [PvP systems](../../pvp.md).
+
 | | |
 |---|---|
 | Standing (1.18.1) | **Contested.** One player says "mage is one of the best pvpers rn if u play arcane frost" [[d:mage#1491497129112240228]]; another calls it mid-level in BGs, "not the strongest in 1v1 but obviously very strong cc and high skill cap opportunities for outplays" [[d:mage#1491118484514672835]]. Against that: "you need atleast 13-15 frostbolts to kill the average pvp geared melee class" [[d:mage#1491110087388037304]], and Cone of Cold hit for 71 at 700 SP [[d:mage#1485311972139335833]]. "Mage has shifted from a burst class to more of a control class" [[d:mage#1491118432945573978]] |
@@ -43,7 +45,7 @@ The level-60 PvP decision loop. Details are in [Burst and control sequences](#bu
 ## What 1.18.1 changed for PvP
 
 - **Dampening** became class- and spec-dependent, and the numbers were never published ([Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071)). Many players "wanted to get away from the burst meta" [[d:mage#1491133264046588186]].
-- **Resilience** on the new PvP gear reduces spell crit damage too, not only melee [[d:mage#1491486174777184346]]. **Bug:** it reduces only the crit portion of a hit, so it is about half as effective as expected (bug #17804) [[d:pvp-general#1428416707600449596]].
+- **Resilience** on the new PvP gear reduces spell crit damage too, not only melee [[d:mage#1491486174777184346]]. Since December 2025 it reduces the whole critical hit, not just the bonus part, so the older bug report #17804 ("only the crit portion", about half as effective) no longer applies ([Torta (staff), 2025-12-02](https://forum.turtlecraft.gg/viewtopic.php?p=161356#p161356), [[d:paladin#1484443837576249404]]). Details: [PvP systems → Dampening and resilience](../../pvp.md#dampening-and-resilience).
 - **The PvP gear and points system was overhauled.** The new top set is "insane", though old rank 13/14 grinders felt shortchanged [[d:mage#1487434696777273404]], [[d:mage#1487460403125424229]]. Before this, even R14 players wore PvE T3/T3.5 in BGs [[d:mage#1455144927947391067]].
 - **Earlier nerfs that still shape Frost:** the Shatter nerf, and Flash Freeze no longer procs off Free Action Potion or Freedom ("you could just delete people") [[d:mage#1446952283760885957]], [[d:mage#1486095084108779655]].
 
@@ -125,7 +127,7 @@ Variant: Gees takes the Frost Warding talent instead of hard-cast Frostbolt tale
 
 ## Races for PvP
 
-- **Undead:** Will of the Forsaken, plus a flat 2% damage against Undead and Humans [[d:mage#1493740921232031906]]. **Gnome:** Escape Artist [[d:mage#1043563538557448302]]. **Orc/Troll** for damage [[d:mage#1447253910875017238]]. **Human:** Perception now shares the GCD, which weakens it [[d:mage#1435318769214820452]]. See [the overview](index.md#races) for PvE.
+- **Undead:** Will of the Forsaken, plus a flat 2% damage against Undead and Humans [[d:mage#1493740921232031906]]. **Gnome:** Escape Artist [[d:mage#1043563538557448302]]. **Orc/Troll** are the top PvE-damage picks, but the same source favors **Gnome/Dwarf**'s defensive racials for PvP [[d:mage#1447253910875017238]]. **Human:** Perception now shares the GCD, which weakens it [[d:mage#1435318769214820452]]. See [the overview](index.md#races) for PvE.
 
 ## Macros
 

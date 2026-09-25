@@ -36,7 +36,7 @@ The level-60 decision loop. The details, with sources, are in the sections below
 
 ### Raid 10/38/3 (recommended)
 
-Supermongo posted this exact build [[d:mage#1417820555004088411]]. A month later he posted it again with the last 3 points left open: "Improved Fire blast (Single target) or Improved Flamestrike (AoE)" [[d:mage#1429800402307518584]]. After 1.18.1, Improved Fire Blast is the rotation-defining talent, so it is the default [[d:mage#1489284725381271743]].
+Supermongo posted this exact build [[d:mage#1417820555004088411]]. A month later he posted it again with the last 3 points left open: "Improved Fire blast (Single target) or Improved Flamestrike (AoE)" [[d:mage#1429800402307518584]]. After 1.18.1, Improved Fire Blast is the rotation-defining talent, so it is the default [[d:mage#1489284725381271743]], [[d:mage#1489282720386514984]].
 
 | Tree | Talent | Points |
 |---|---|---|

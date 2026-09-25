@@ -250,7 +250,7 @@ For the level-60 raid version, see [Holy: How to play](holy.md#how-to-play).
 
 - **Must train** (Aykhanchik's list): Smite, Holy Fire, Shadow Word: Pain, Power Word: Fortitude, Power Word: Shield, Inner Fire, Flash Heal, Renew, Mind Control, Prayer of Healing, Cure Disease, Dispel Magic, Psychic Scream, Fade [Aykhanchik, 2022-01-07](https://forum.turtlecraft.gg/viewtopic.php?p=15484#p15484). Add Mind Blast; max rank is your last-hit tool for Spirit Tap [[d:priest#1489729086015279258]].
 - **Turtle additions:** Fear Ward is baseline for every race [[d:priest#1447464110588428309]]. Also Divine Spirit (30), Pain Spike, and Lightwell (one rank in 1.18.1) [Jamey, 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071).
-- **Optional:** Heal, Mind Soothe, Shackle Undead, Mind Vision, Mana Burn [Aykhanchik, 2022-01-07](https://forum.turtlecraft.gg/viewtopic.php?p=15484#p15484). Mind Vision rank 2 has ~300 yd range against ~100 yd for rank 1 [[d:priest#1428455114288664702]].
+- **Optional:** Heal, Mind Soothe, Shackle Undead, Mind Vision, Mana Burn [Aykhanchik, 2022-01-07](https://forum.turtlecraft.gg/viewtopic.php?p=15484#p15484). Use rank 2: rank 1 is only about 100 yd, and rank 2 goes much further [[d:priest#1428455114288664702]], [[d:priest#1428461271782785146]].
 - **Healing ranks:** for dungeon healing at 31, use Renew and Heal and skip Lesser Heal. Keep Flash Heal for emergencies [[d:priest#1490472852506542100]]. Heal rank 1 carries a low-level penalty. Before 1.18.1, Heal rank 4, Flash Heal rank 3 and Renew rank 5 were inefficient ranks to skip [[d:priest#1346965636810805339]], [[d:priest#1471314520969576534]]. 1.18.1 raised the base values of Heal rank 4 and Flash Heal ranks 3-7 [Jamey, 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071). Whether Renew rank 5 was fixed is not stated (gap).
 
 ## Pull and kill loop (bot-ready)
@@ -345,5 +345,5 @@ Wanding beats casting early on. At 13, Greater Magic Wand + 2/2 Wand Specializat
 - Not buying and upgrading wands [[d:priest#1484713006725071071]].
 - Dotting every mob after 30 [[d:priest#1450846541362499627]].
 - Starting Disc from the top instead of taking the Holy damage talents first [[d:priest#1331378617153753258]].
-- Downranking heals in leveling dungeons [[d:priest#1494888479052533902]].
+- Downranking heals before you have enough healing power for it to be worth anything [[d:priest#1494888479052533902]].
 - Respeccing Shadow at exactly 40 and losing Wand Specialization [[d:priest#1331378617153753258]].

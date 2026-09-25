@@ -343,3 +343,4 @@ Pick two of Herbalism, Mining and Skinning while leveling [[d:paladin#1436709623
 7. **Pulling casters or mobs above your level** as an AoE Prot [[d:paladin#1463259492408889355]].
 8. **Using Nature-damage gear (FRD, thorns) on Lashers** [[d:paladin#1426580107476336682]].
 9. **AoE farming on Hardcore** [[d:paladin#1486432542772039881]].
+10. **Not recasting your aura after taking Improved Devotion Aura or Improved Retribution Aura.** The talent does nothing until you do [[d:paladin#1465965614307872901]]. Righteous Fury has the same snapshot issue after a respec (see [Protection](protection.md#what-1181-changed-for-protection)).

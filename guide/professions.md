@@ -16,7 +16,7 @@ Turtle keeps the vanilla primary professions and adds one new primary profession
 | **Shaman** | Herbalism + Mining or Skinning [[d:shaman#1389424395415715890]] | Engineering + Herbalism ("the bis dps prof") [[d:shaman#1363065820569272431]]. Tank: Engineering + Jewelcrafting [[d:shaman#1406797526492909569]] | Engineering: grenades give a class with no CC its stuns [[d:shaman#1406779021345423465]] | Herbalism + Alchemy or Enchanting | [Shaman](classes/shaman/professions.md) |
 | **Mage** | Two gatherers, Herbalism first | Engineering + any (Sapper + Arcane Explosion). **Contested** for Arcane, whose trinket slots are crowded [[d:mage#1438550709686501427]], [[d:mage#1438549793709228255]]. Tailoring mainly for Robe of the Archmage [[d:mage#1434898636461969418]] | Engineering | Herbalism + Alchemy [[d:mage#1451246474187771915]] | [Mage](classes/mage/professions.md) |
 | **Priest** | Herbalism + Mining or Skinning. Dungeon healers: Tailoring + Enchanting [[d:priest#1464014152988233738]], [[d:priest#1477162914807939163]] | Shadow: Engineering + Alchemy [[d:priest#1484601941563539657]]. Holy: Engineering matters less (rarely in Sapper range) [[d:priest#1464011266040397948]] | Engineering + Mining | Herbalism + Alchemy (lashers) [[d:priest#1420896033189396512]] | [Priest](classes/priest/professions.md) |
-| **Warlock** | Mining + Skinning, or Herbalism + Alchemy [[d:warlock#1369943361254850593]] | Engineering + Alchemy (all specs incl. tank-lock) [[d:warlock#1459945410754777183]], [[d:warlock#1410823324090503289]] | Engineering + any | Herbalism (lashers) + Alchemy alt [[d:warlock#1490731148475896000]] | [Warlock](classes/warlock/professions.md) |
+| **Warlock** | Mining + Skinning, or Herbalism + Alchemy [[d:warlock#1369943361254850593]] | Engineering + Alchemy (all specs incl. tank-lock) [[d:warlock#1459945410754777183]], [[d:warlock#1459733829911711796]] | Engineering + any | Herbalism (lashers) + Alchemy alt [[d:warlock#1490731148475896000]] | [Warlock](classes/warlock/professions.md) |
 
 How much Engineering matters is **contested** everywhere. Rogue, paladin and shaman players argue it is overrated for raiding: "useful for exactly 1 raid" [[d:rogue#1465493047415537766]], "not required unless you're planning to be even semi serious in raids" [[d:paladin#1429188657431969863]], and Sappers were about 1% of a top shaman's damage in a fast Kara40 run [[d:shaman#1439364997342953692]]. The other side: "for most dps … you want engineering" [[d:rogue#1465506882163835030]].
 
@@ -121,7 +121,7 @@ How much Engineering matters is **contested** everywhere. Rogue, paladin and sha
 - **Leveling 1-300:**
   - The one full route is the Speedz1337 guide. It needs a Whittle and a Woodcutting Axe from a Survival Supplier, and states a vendor cost of about 6g 62s. Everything else is gathered by Woodcutting or bought on the AH. The route and wood tiers per zone are in `synthesis/content/professions-and-recipes.md` §1.5a.
   - Torches now grey out at skill 15 [[d:turtle-wiki#1485506514327441489]]. Cutting trees gives no Survival skill [[d:paladin#1488086033387098225]], and trees are gated by Survival skill [[d:hunter#1484976773220401243]].
-  - Leveling it is "worse than it was before" [[d:druid#1488636882920411228]]. Skinning helps with costly materials [[d:mage#1489907806365683712]].
+  - Leveling it is "worse than it was before": some materials are very costly while leveling [[d:druid#1488636882920411228]], [[d:mage#1489907806365683712]].
 - **What it gives:**
   - **Simple Slingshot:** a 20-yard ranged pull for melee, learned early [[d:paladin#1484571592011940002]], [[d:paladin#1485538065132032080]]. Paladins love it: "The Slingshot is so good" [[d:paladin#1486707812800270429]].
   - **Arrows and ammo:** the easy tier is about 17.5 DPS [[d:hunter#1484621720001319113]]. It can make "2nd bis arrows", which you can also buy on the AH [[d:hunter#1491810301924868136]], [[d:hunter#1491810332295958778]].
@@ -157,7 +157,7 @@ How much Engineering matters is **contested** everywhere. Rogue, paladin and sha
 
 - Cheap raid food: Power Mushrooms [[d:warrior#1457451144509919446]], [[d:paladin#1429923597664784405]] and Sour Mountain Berries (+10 Agility, tradeable) for rogues [[d:rogue#1471992248861327554]].
 - Crops are also Survival reagents, which makes them pricey: the skill-225 quest uses them [[d:priest#1491897021928571091]].
-- Semi-AFK income [[d:paladin#1466088149959577856]]. Lashers pay more (pre-1.18.1) [[d:priest#1400599971669217431]].
+- Semi-AFK income [[d:paladin#1466088149959577856]]. Lashers pay more (pre-1.18.1), but that farming isn't AFK [[d:priest#1400602839461400637]].
 - Before 1.18.1, the quest's Shovel was a strong level-20 one-hander for shamans [[d:shaman#1390708702201253969]].
 - **Risk:** planters despawn on a server crash, and GMs don't restore them [[d:turtle-wiki#1490573491806801920]].
 
@@ -180,7 +180,7 @@ How much Engineering matters is **contested** everywhere. Rogue, paladin and sha
 - **Dire Maul East lashers** (with Herbalism) are the standard gold farm for mages, paladins, shamans, warlocks and priests from about level 52 [[d:mage#1433513769304068147]], [[d:shaman#1425738262923972720]]. Druids farm them poorly because lashers are Nature-immune [[d:druid#1487294040054431765]].
 - **Zul'Gurub** kite and mining farms suit hunters and rogues [[d:hunter#1483746983536492575]], [[d:rogue#1494691538389958868]].
 - **Cooldown alts:** transmutes and Mooncloth earn about 200-300g a week (single source) [[d:warlock#1434730417017327709]].
-- Warriors are "extremely poor at making money" solo [[d:warrior#1440432464240840795]].
+- Warriors struggle to farm gold solo; the usual workaround is grouping up (tank dungeons, PvP, or auto-follow a friend for scraps) [[d:warrior#1440432464240840795]].
 
 ## Gaps
 

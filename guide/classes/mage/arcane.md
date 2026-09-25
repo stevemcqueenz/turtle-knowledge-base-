@@ -173,7 +173,7 @@ Shared's fresh-60 path [[d:mage#1490969006855688223]]:
 
 - Crafted **Spellwoven Nobility Drape** (Tailoring). Its on-crit proc (~50% uptime, +1.25% crit and 11 SP while up) makes it Arcane's cloak until Naxx [[d:mage#1490791627307090022]]. Once you have the Sapphiron cloak it loses on bosses, but it stays AoE BiS forever [[d:mage#1466813574784483431]], [[d:mage#1470023660973592617]]. Wearing it during Arcane Power is a small death risk, because the Intellect proc raises your max mana [[d:mage#1430718345619046401]].
 - **Gloves of Spell Mastery** (Tailoring: 10 Mooncloth + 6 Golden Pearl) replace Gloves of Unwinding Mystery. The latter's 22 → 9 SP nerf eventually applied [[d:mage#1484607250906747043]], [[d:mage#1431234432450433135]].
-- Stormwind Vault quest ring (1% hit + SP, Alliance) [[d:mage#1430916081140109383]]. The LBRS/UBRS attunement trinket (2% crit). The Karazhan Crypt key-quest trinket. The **Black Morass** reputation grind for early gear and a 20-slot bag [[d:mage#1490969006855688223]].
+- Stormwind Vault quest ring (1% hit + SP, Alliance) [[d:mage#1430916081140109383]]. The LBRS/UBRS attunement trinket (2% crit). The Karazhan Crypt key-quest trinket. The **Black Morass** reputation grind for early gear and a 20-slot bag [[d:mage#1490970201758634065]].
 - **Belt is the most important slot:** **Overcharged Belt** (Black Morass drop, BoE, +1 s Arcane Missiles) until the Tier 2/3 Arcane belt [[d:mage#1425439884348493937]], [[d:mage#1439017488699363379]].
 - Offhand from the Hyjal questline (also a teleport item) [[d:mage#1425428764132638780]]. **Ring of Blackrock** now has 1% haste instead of 9 MP5 [[d:mage#1472664725212102891]].
 - **Robe of the Archmage** (Tailoring) is BiS until BWL [[d:mage#1434898636461969418]].
@@ -226,7 +226,7 @@ Set notes:
 | Weapon | +30 Spell Damage | [[d:mage#1443591709966729426]] |
 | Ring / neck | +6 Arcane SP (Jewelcrafting; ~15 Rough Stone + 15 Silk Cloth). A +9 Arcane "Crystallized Topaz" recipe exists, but its source is unknown | [[d:mage#1466718604044144652]], [[d:mage#1466727423239524463]], [[d:mage#1484573170458558534]], [[d:mage#1490456423170183369]] |
 
-Skip spell-penetration head/leg enchants in PvE [[d:mage#1445153386206068898]].
+Skip spell-penetration head/leg enchants against bosses (a warlock curse usually strips arcane resist anyway); on trash, the extra 5 spell pen from Jewelcrafting on top of the 10 from talents can be worth it [[d:mage#1445153386206068898]].
 
 ## Consumables
 
@@ -258,7 +258,7 @@ Skip spell-penetration head/leg enchants in PvE [[d:mage#1445153386206068898]].
 - **Naxx:** Razuvious's shout is physical; a Limited Invulnerability Potion or BoP skips it [[d:mage#1438184920962043904]], [[d:mage#1438207808469209088]]. On **Faerlina**, pre-pop Greater Fire Protection Potion and Fire Ward. On **Maexxna** and **Gluth**, AoE the adds for parse [[d:mage#1438174915672150056]]. On **Four Horsemen** (long fight), REoS can be used twice [[d:mage#1459939111707349266]]. In speed clears, a mage combo of LIP + ZG gem + Arcane Explosion + Sapper can do about 100k in one global [[d:mage#1475630831304445984]]. Pre-Anomalus-style bomb debuffs: dispel Unstabilized Mana and Mana Buildup, but **not** Unstable Mana [[d:mage#1475612903473414368]], [[d:mage#1475624746149482586]].
 - **AQ20:** bosses resist a lot (115-155 resistance), so Moam partially resists nearly everything [[d:mage#1450488624125837452]].
 - **[Molten Core](../../instances/molten-core.md):** Shazzrah's Counterspell hits you even when he faces away [[d:mage#1461719788773572820]].
-- **[Blackwing Lair](../../instances/blackwing-lair.md):** Firemaw wants some fire resistance mixed with spell damage [[d:mage#1461470297008898151]]. On Nefarian, Ice Block while he casts the class call, not after; Blink does not break the shackle [[d:mage#1494656562172526847]]. Detect Magic shows dragon vulnerabilities [[d:mage#1488164422840221836]]. Blink was reported broken in the new BWL boss room [[d:mage#1490038152881115247]].
+- **[Blackwing Lair](../../instances/blackwing-lair.md):** Firemaw wants some fire resistance mixed with spell damage [[d:mage#1461470297008898151]], [[d:mage#1461470558871883868]]. On Nefarian, Ice Block while he casts the class call, not after; Blink does not break the shackle [[d:mage#1494656562172526847]]. Detect Magic shows dragon vulnerabilities [[d:mage#1488164422840221836]]. Blink was reported broken in the new BWL boss room [[d:mage#1490038152881115247]].
 - **[Lower Karazhan Halls](../../instances/lower-karazhan-halls.md):** Scythe of Elune source (~2% drop). A trash mob drops the Theramore portal tome [[d:mage#1433553311067537408]], [[d:mage#1430206372452241549]].
 
 ## Mage tanking (Twin Emperors and dungeons)
@@ -273,7 +273,7 @@ Mage "tanking" is a Turtle niche, never a raid-boss role except for one case: **
 
 ## Common mistakes
 
-1. Using Arcane Power below full mana or while Mana Shield drains you. You die at 10% mana [[d:mage#1439011377133129900]].
+1. Using Arcane Power below full mana or while Mana Shield drains you. You die at 10% mana [[d:mage#1298308147768987689]].
 2. Pressing Arcane Surge or PoM during Arcane Power/MQG, or at all above the haste cutoff [[d:mage#1432389709166018630]], [[d:mage#1486024900563959981]].
 3. Re-pressing Missiles mid-channel, or cancelling mid-tick. Use Nampower or the stop-next-tick macro [[d:mage#1486010713355849778]].
 4. Recasting Rupture while its debuff is still up. Refresh it only when it drops [[d:mage#1448429040108044340]].

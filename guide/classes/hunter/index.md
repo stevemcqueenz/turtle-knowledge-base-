@@ -79,6 +79,28 @@ Race matters little next to gear. Pick one you enjoy looking at for hundreds of 
 | **Undead, Gnome, Dwarf** | Will of the Forsaken, Escape Artist, gun skill | Undead and Gnome are strong PvP picks [[d:hunter#1456421765013049395]], [[d:hunter#1456327236729835611]] |
 | **Goblin** | — | No hunter-specific data in the sources |
 
+## Macro basics
+
+General macro and addon setup (SuperWoW, Nampower, CleveRoid, launcher problems) is on [Client setup](../../client-setup.md). Hunter-specific points:
+- **Pet attack:** `/petattack` doesn't work; use `/script PetAttack(target)` [[d:hunter#1455307187214614609]].
+- **Auto Shot without toggling it off:** `/run for i=1,120 do if IsAutoRepeatAction(i) then return end end CastSpellByName("Auto Shot")` [[d:hunter#1430180070982553631]].
+- **Quiver won't open (`/qq` or `/quiver` does nothing):** download the zip from the GitHub releases page and rename the extracted folder (for example `Quiver-3.1.1` or `Quiver-main`) to exactly `Quiver` [[d:hunter#1475856397873840249]], [[d:hunter#1475861457941037187]], [[d:hunter#1442761980858339379]].
+- **Quiver no-clip Steady Shot** (fires Steady Shot unless it would delay an Auto Shot; tune the -0.25 cutoff for your latency) [[d:hunter#1465862318200979478]], [[d:hunter#1480599535406284884]]:
+
+```
+/run local a, b = Quiver.GetSecondsRemainingShoot(); local c = a and b < -0.25; local f = c and CastSpellByName or Quiver.CastNoClip; f("Steady Shot")
+```
+
+  With Nampower's spell queue on, the macro can still clip; turn queuing off in the Nampower settings addon for that character [[d:hunter#1469980748290457703]], [[d:hunter#1469982555330576384]].
+- **Quiver trap macro** (Quiver's Turtle workaround) [[d:hunter#1413178111545184326]], [[d:hunter#1435586898465656902]]. One hunter still found it unreliable in 2026-03 [[d:hunter#1487579399153778779]]:
+
+```
+/run --CastSpellByName("Freezing Trap")
+/run Quiver.FdPrepareTrap(); CastSpellByName("Freezing Trap")
+```
+
+For Quiver's cast bar after 1.18.1, see [Marksmanship → Macros and addons](marksmanship.md#macros-and-addons). Stable and pet bugs are on [Pets](pets.md#bugs-to-know-1181).
+
 ## Professions
 
 - **Engineering + Mining** is the standard pair and the best-in-slot choice. You get the +2% crit Facetted Crystal Scope, Enchanted Thorium Shells, gadgets and sappers, and Mining funds your consumables [[d:hunter#1486157633780973589]], [[d:hunter#1484564082014289983]], [[d:hunter#1486798560052904010]].
@@ -87,3 +109,7 @@ Race matters little next to gear. Pick one you enjoy looking at for hundreds of 
 - Gold farms: DME lashers (from level 45) and the ZG kite farm, the best gold once mastered [[d:hunter#1470681473496383508]], [[d:hunter#1483746983536492575]].
 
 Full guide: [Professions](professions.md)
+
+Shared pages: [Professions overview](../../professions.md) · [PvP systems](../../pvp.md) (honor, battlegrounds, Warmode) · [Game mechanics](../../server-mechanics.md) (buff and consumable stacking, enchant sources) · [Client setup](../../client-setup.md) (launcher, SuperWoW, addons).
+
+Tier sets: to swap a tier piece to another spec's version, see [Tier sets: spec exchange](../../server-mechanics.md#tier-sets-spec-exchange-and-drop-bugs).

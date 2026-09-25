@@ -119,7 +119,8 @@ Pets hold at most 4 active abilities, Growl included [[d:hunter#1435109203156009
     - Dash needs pet level 30 [[d:hunter#1490806796825137273]].
 5. Taming ZG raptors: they are immune to Freezing Trap but not to Fear. Isolate one [[d:hunter#1489906331166052382]], [[d:hunter#1454348119092498534]].
 6. The MC Magmalash scorpid has several fixed spawn points in a cleared MC. Only one is up at a time [[d:hunter#1494106342732861533]], [[d:hunter#1494113708224417842]].
-7. Leveling a pet: it gets XP only from kills that give *you* XP (not from quests or PvP) [[d:hunter#1492091816692940902]], [[d:hunter#1491157779950604449]]. Leveling a pet far below you is a big time sink [[d:hunter#1451187541930807449]]. At 60, room-pulling lashers levels a pet in a few hours [[d:hunter#1492653830301814867]].
+7. **"Invalid Target" when taming:** check the mob's exact name. The level-10 quest wants "Surf Crawler", not "Pygmy Surf Crawler" [[d:hunter#1446959787786109103]], [[d:hunter#1446965863654621285]]. A pfUI self-cast modifier (for example Alt) can also make you target yourself [[d:hunter#1476016297971286078]].
+8. Leveling a pet: it gets XP only from kills that give *you* XP (not from quests or PvP) [[d:hunter#1492091816692940902]], [[d:hunter#1491157779950604449]]. Leveling a pet far below you is a big time sink [[d:hunter#1451187541930807449]]. At 60, room-pulling lashers levels a pet in a few hours [[d:hunter#1492653830301814867]].
 
 ## Training points and loyalty
 
@@ -145,7 +146,7 @@ Pets hold at most 4 active abilities, Growl included [[d:hunter#1435109203156009
 - Pets get no baseline scaling from you. **Spirit Bond** (BM) converts your RAP into pet AP and pet spell power [[d:hunter#1491781102560350259]]. Pet spell power comes only from Spirit Bond, never from your spell-power gear [[d:hunter#1491781067378524362]], [[d:hunter#1438910045877178520]].
 - Pet crit is capped around 20% [[d:hunter#1491956069902192641]]. About 17 Agility on you gives the pet 1% crit [[d:hunter#1471713498643042359]].
 - Pet share of damage: ~11% for MM without Coordinated Assault [[d:hunter#1484549579847499990]]; 10–15% for Survival [[d:hunter#1477437644941164667]]; about half for BM [[d:hunter#1486419920332787763]].
-- **Threat:** a pet "will never hold threat against any player" in a raid [[d:hunter#1482126003500220510]]. Only a BM pet tanks anything useful [[d:hunter#1482130880620265534]]. No talent lowers pet threat [[d:hunter#1492156387860545667]]. While leveling as BM, the pet can tank 2–4 mobs [[d:hunter#1492991635598868482]].
+- **Threat:** a pet "will never hold threat against any player" in a raid [[d:hunter#1482126003500220510]]. Only a BM pet tanks anything useful [[d:hunter#1482130880620265534]]. No talent lowers pet threat [[d:hunter#1491029265410691233]]. While leveling as BM, the pet can tank 2–4 mobs [[d:hunter#1492991635598868482]].
 - Out of combat, pets regenerate to full in about 2 s [[d:hunter#1465718908936786165]].
 
 ## Positioning in raids
@@ -165,6 +166,10 @@ Pets hold at most 4 active abilities, Growl included [[d:hunter#1435109203156009
 | Boar Charge's +35% AP rarely applies | none | [[d:hunter#1491455047429783602]] |
 | Ferra's Collar cancels other pet-damage bonuses | Do not combine it with Unseen Path / Beastmaster's Boots | [[d:hunter#1492494095661138141]] |
 | Pets stop autocasting | Toggle autocast | [[d:hunter#1494439863271948410]] |
+| Stable slots won't release a pet (you can't take a pet out with none active, or slot 3+ isn't clickable) | Have a pet out and drag it onto the stabled pet to swap them. If all pets are stabled, swap the first slot out, then swap again for the one you want | [[d:hunter#1447637898332737600]], [[d:hunter#1474134455118725473]], [[d:hunter#1440315321386012755]] |
+| A stabled pet whose beast was later made untameable leaves its slot bugged for good | none | [[d:hunter#1446927689930768384]] |
+| Abandon Pet can't be clicked on the pet frame | `/script PetAbandon()` (no confirmation prompt) | [[d:hunter#1484613203177636032]], [[d:hunter#1484613394341564547]] |
+| A pet vanishes with no message ("You have no Pet") | GMs reportedly can't restore a lost pet | [[d:hunter#1445466727768129599]], [[d:hunter#1465027017870278907]] |
 
 ## Addons and data
 

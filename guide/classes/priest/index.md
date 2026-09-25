@@ -31,7 +31,7 @@ Priests on Turtle WoW 1.18.1 have three distinct jobs:
 
 ## What changed for priests in 1.18.1
 
-1.18.1 ("Nightmares of Ursol") released 2026-03-20 [[d:priest#1484217772614615302]], [Jamey, 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071).
+1.18.1 ("Nightmares of Ursol") released 2026-03-20 [Jamey, 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071).
 
 | Area | Change | What it means in play |
 |---|---|---|
@@ -77,3 +77,7 @@ Priests can use wands, one-handed maces, daggers and staves; Night Elves can als
 - **Gold:** Dire Maul East lashers with Holy Nova; Herbalism adds about 20% [[d:priest#1420896033189396512]].
 
 Full guide: [Professions](professions.md)
+
+Shared pages: [Professions overview](../../professions.md) · [PvP systems](../../pvp.md) (honor, battlegrounds, Warmode) · [Game mechanics](../../server-mechanics.md) (buff and consumable stacking, enchant sources) · [Client setup](../../client-setup.md) (launcher, SuperWoW, addons).
+
+Tier sets: to swap a tier piece to another spec's version, see [Tier sets: spec exchange](../../server-mechanics.md#tier-sets-spec-exchange-and-drop-bugs).

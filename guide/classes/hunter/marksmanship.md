@@ -95,7 +95,7 @@ Why these points:
 
 ## Stat priority and caps
 
-1. **Ranged hit to 8%** ("8% never miss") [[d:hunter#1489060054354366524]]. You need 9% without weapon skill, or 8% with a +5 ranged weapon skill item [[d:hunter#1486358400244777121]]. Every 5 points of weapon skill is 1% hit [[d:hunter#1485763124253425858]]. A +3 racial is only 0.6% hit, so get a +5 source [[d:hunter#1491594913136115732]]. Ranged attacks never glance, so weapon skill does nothing else for them [[d:hunter#1468349640616444056]]. Do not overcap: a common cause of low Naxx parses was 12% ranged hit [[d:hunter#1478175832966041633]].
+1. **Ranged hit to 8%** ("8% never miss") [[d:hunter#1489060054354366524]]. You need 9% without weapon skill, or 8% with a +5 ranged weapon skill item [[d:hunter#1486358400244777121]]. Every 5 points of weapon skill is 1% hit [[d:hunter#1485763124253425858]]. A +3 racial is only 0.6% hit, so get a +5 source [[d:hunter#1491594913136115732]]. Ranged attacks never glance, so weapon skill does nothing else for them [[d:hunter#1260683286636925070]]. Do not overcap: a common cause of low Naxx parses was 12% ranged hit [[d:hunter#1478175832966041633]].
 2. **Agility.** 1 Agility ≈ 3.1 AP [[d:hunter#1494819577165516931]]; about 52–53 Agility = 1% crit [[d:hunter#1491741421059833897]], [[d:hunter#1488074387918688336]].
 3. **Crit.** It is now "hunter's highest value stat", with no "too much crit" point [[d:hunter#1489269339789201459]], [[d:hunter#1485067966650519572]]. Lock and Load raised crit's value to "50 territory" in effective AP [[d:hunter#1486705272167858227]], [[d:hunter#1486658244486365204]]. Before 1.18.1 it was 30–40.
 4. **Ranged AP**, then **haste**. **Contested:** most players call haste weak or even harmful for MM, because it does not shorten the GCD and makes you clip more [[d:hunter#1491111488214007951]], [[d:hunter#1490408532057526615]]. Focus argues haste is worth ~1% DPS per 10% [[d:hunter#1490408079089471508]].
@@ -217,7 +217,7 @@ Contested: Devilsaur Eye loses to other trinkets once you raid, since about 30 s
 | Chest | +3 stats (+4 only once BiS) [[d:hunter#1467703640436248779]] | |
 | Bracers | +7 Agility (Magram) — the best Agility bracer enchant [[d:hunter#1461748119606792446]] | |
 | Gloves | +15 Agility (not the 1% haste enchant, unless you deliberately stack haste) [[d:hunter#1480805447006162955]] | |
-| Boots | Agility [[d:hunter#1467696283010732295]] | |
+| Boots | Agility [[d:hunter#1381253885414473829]] | |
 | Melee weapons | +15 Agility on each stat stick | [[d:hunter#1489313388919128154]] |
 
 Weapon imbues: **Consecrated Sharpening Stone** is the only stone that works on ranged attacks (undead targets) [[d:hunter#1430224126307598486]], [[d:hunter#1494644137402564749]]. Elemental Sharpening Stones do not add ranged crit [[d:hunter#1490506896967471245]]. Put **Brilliant Mana Oil** on melee weapons for mana [[d:hunter#1486033434416513034]]. Brilliant Wizard Oil adds only a little to Arcane Shot [[d:hunter#1485770711787372657]].
@@ -240,7 +240,7 @@ Stacking traps:
 - **Firewater gives melee AP only**; Danonzo's is the ranged AP food [[d:hunter#1494293768617332827]].
 - Juju Power does not stack with Elixir of the Giants [[d:hunter#1486561195228926154]].
 - Concoction of the Emerald Mongoose's AP part is melee-only [[d:hunter#1486557461317030018]].
-- Agility scrolls do not stack with Mongoose. Use them on the pet [[d:hunter#1471637818047729799]], [[d:hunter#1471647575697395732]].
+- Agility scrolls do not stack with Mongoose. Use them on the pet [[d:hunter#1471637818047729799]], [[d:hunter#1471647575697395732]], [[d:hunter#1471633009735110872]].
 - Squid Eel Skewer and Chimera Chops were changed to stack with other buffs [[d:hunter#1494296665740283934]].
 - Sour Mountain Berry (+10 Agility) stacks [[d:hunter#1488735368239910924]].
 
@@ -278,7 +278,7 @@ A Raptor is the standard MM raid pet (Savage Rend, high family modifier) [[d:hun
 - **Chromaggus:** Arcane Vulnerability plus Arcane Ammunition produced a 9,300 Arcane Shot crit [[d:hunter#1485060756004147466]].
 - **Onyxia:** a piercing Aimed Shot crit can make a whelp "stick" to you [[d:hunter#1484990820791877804]].
 - **C'Thun:** Feign Death does not work (a Turtle anti-exploit change) [[d:hunter#1483578888251637981]].
-- **Nefarian:** the hunter class call now breaks **all** equipped weapons, melee and ranged. Bring a repair bot or swap weapons with ItemRack [[d:hunter#1485015413837398179]], [[d:hunter#1487930456031625327]].
+- **Nefarian:** the hunter class call now breaks **all** equipped weapons, melee and ranged. Bring a repair bot or swap weapons with ItemRack [[d:hunter#1485015855619379362]], [[d:hunter#1485015263551422676]].
 - Instance pages: [Molten Core](../../instances/molten-core.md), [Blackwing Lair](../../instances/blackwing-lair.md), [Onyxia's Lair](../../instances/onyxias-lair.md), [Tower of Karazhan](../../instances/tower-of-karazhan.md).
 
 ## Common mistakes

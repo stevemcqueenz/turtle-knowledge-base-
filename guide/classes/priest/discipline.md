@@ -20,7 +20,7 @@ The level-60 Smite loop. For the details, see the linked sections.
 4. **Cooldowns:** `Chastise` every 40 s on a friendly arcane mage or affliction warlock, never on yourself in raids. `Inner Focus` goes on the Holy Fire opener [[d:priest#1465500759394353345]], [[d:priest#1490792756803797113]].
 5. **AoE switch:** at **4+** targets with tank aggro established, spam `Holy Nova`. On long packs or when low on mana, alternate rank-1 Holy Nova with instant Smites. At 1–3 targets, keep the single-target loop ([AoE](#aoe)).
 6. **Resources:** below 10% haste, the loop needs two Searing Light procs, so hit the haste breakpoint first ([Stats](#stat-priority-and-caps)). Use Major Mana Potion and tea on cooldown. When low, cast rank-1 Holy Fire ([Cooldowns, mana and threat](#cooldowns-mana-and-threat)).
-7. **Threat:** Holy Nova makes threat. Let the tank establish first, and Fade near the top of the threat meter [[d:priest#1497082351803437148]].
+7. **Threat:** Holy Nova makes threat. Let the tank establish first (vanilla baseline).
 8. **Movement:** `Shadow Word: Pain` only while moving. `Pain Spike` as a trash finisher when the mob has under about 2 s to live [[d:priest#1504912888022831298]].
 9. **Emergencies:** `Power Word: Shield` and `Flash Heal` on yourself or others. Dedicated healing belongs to [Holy](holy.md) ([Discipline healing?](#discipline-healing)).
 
@@ -136,7 +136,7 @@ A deep-shield Disc healer is not viable at 60. Mana runs out, and the heals are 
 
 ### Tier sets (new for Smite in 1.18.1)
 
-Every tier (T1, T2, T2.5, T3, T3.5) got a Smite set in 1.18.1 [[d:priest#1486851994512523354]]. You convert the equivalent Holy or Shadow pieces at an NPC near the Ratchet bank (T2.5 and others) or at the ghosts by the tomb in Blackrock Mountain (T1/T2) [[d:priest#1485930350491467866]], [[d:priest#1485949852096663582]]. Smite gear carries Holy damage only, no general spell power [[d:priest#1484564440207855657]].
+Every tier (T1, T2, T2.5, T3, T3.5) got a Smite set in 1.18.1 [[d:priest#1486851994512523354]]. You convert the equivalent Holy or Shadow pieces at an NPC near the Ratchet bank (T2.5 and others) or at the ghosts by the tomb in Blackrock Mountain (T1/T2) [[d:priest#1485930350491467866]], [[d:priest#1485949852096663582]]. Smite gear carries Holy damage only, no general spell power [[d:priest#1484565459503284335]].
 
 | Set | Notes |
 |---|---|

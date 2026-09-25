@@ -2,6 +2,8 @@
 
 **Recommendation:** play **Assassination (Noxious Assault)** to kill plate and burst in arenas and duels, and **Subtlety (Hemorrhage/Preparation)** for control and outplay. Run **Instant Poison on both weapons**; since 1.18.1 Dissolvent and Corrosive do not work on players, who are Humanoid [[d:rogue#1488217700206641192]]. Keep an off-hand swap with Crippling Poison. Hit cap for abilities is **5%**. Expect a harder time than before: dampening cuts damage and the patch's effect on PvP viability is itself disputed (**contested**, see State below).
 
+Server-wide PvP rules (honor as a currency, rank, the 1.18.1 PvP sets, Conquest, battlegrounds, Warmode, dampening and resilience) are on [PvP systems](../../pvp.md).
+
 | | |
 |---|---|
 | State (1.18.1) | **Contested.** "Rogue is not really playable in pvp right now" [[d:rogue#1494436247249354773]] vs "it was far from nerfed to ground" [[d:rogue#1491733446861787237]]. Nandieb calls the patch's effect on the Noxious PvP build "quite negligible" [[d:rogue#1490686616086384782]] |

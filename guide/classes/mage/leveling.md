@@ -355,7 +355,7 @@ A pure-Frost variant skips Nova and Flamestrike: Cone of Cold + Arcane Explosion
 ## Professions while leveling
 
 - Double up on gathering (Mining/Herbalism/Skinning) for gold and pick production later [[d:mage#1465738429038858382]], [[d:mage#1465738295186034851]]. Herbalism + Alchemy is the best long-run pair for a first character [[d:mage#1451246474187771915]].
-- Engineering matters mainly at 60 (Sappers) [[d:mage#1468324299499897119]].
+- Engineering matters mainly at 60 (Sappers) [[d:mage#1468324299499897119]], [[d:mage#1416885957147230300]].
 
 ## Common mistakes
 

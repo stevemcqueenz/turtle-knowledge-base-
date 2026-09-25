@@ -106,7 +106,7 @@ Oils and sharpening stones can't be applied while an imbue is on the weapon [[d:
 | Race | Racials that matter | Best for |
 |---|---|---|
 | **Orc** | **Blood Fury** gives 120 AP and 60 SP, which "double dips" for shamans because shocks scale with both [[d:shaman#1439185343772360704]], [[d:shaman#1493992793268424784]]; +3 axe skill makes 315 weapon skill easy [[d:shaman#1486861889248952521]]; Feral Spirit wolves (Orc-only, "not terribly good outside of causing pushback in PvP") [[d:shaman#1468375480175693947]]; the stun-resist racial became a duration reduction ("much worse") [[d:shaman#1484654858681192479]] | Enhancement DPS, Elemental, spell tanks [[d:shaman#1467152418734211093]] |
-| **Tauren** | +5% max HP ("could be nerfed to 2.5% and nobody would drop the race") [[d:shaman#1478444318074212402]]; **War Stomp**; **Plainsrunning** (instant mount-speed run, works with Water Walking, loses a stack when hit) [[d:shaman#1467174179705978933]]; Totemic Slam (weak: "you prevent half an auto attack's worth of damage every 90 seconds") [[d:shaman#1463536890362855597]]; quest chain startable from level 1, spell granted at 40 per the kit | Tank ("pretty unambiguously better") [[d:shaman#1485717674263711864]], PvP, leveling |
+| **Tauren** | +5% max HP ("could be nerfed to 2.5% and nobody would drop the race") [[d:shaman#1478444318074212402]]; **War Stomp**; **Plainsrunning** (instant mount-speed run, works with Water Walking, loses a stack when hit) [[d:shaman#1467174179705978933]]; Totemic Slam (weak: "you prevent half an auto attack's worth of damage every 90 seconds") [[d:shaman#1463536890362855597]]; quest chain startable from level 1, spell granted at 40 per the kit. **Reach quirk:** Tauren auto-attacks reach farther than Stormstrike and Lightning Strike, so at the edge of melee range your autos land but the strikes don't; step in a little. Reported as a bug in 2025-08 and still there in 2026-02 [[d:shaman#1476520679347327170]], [[d:shaman#1476521833586233447]] | Tank ("pretty unambiguously better") [[d:shaman#1485717674263711864]], PvP, leveling |
 | **Troll** | Berserking (haste), **Hex** (5-min CC, PvP) [[d:shaman#1440249261311787029]]; regeneration is "gimmick-tier" for shamans [[d:shaman#1460352228719329340]] | "Troll for resto" by a slight margin [[d:shaman#1460373099932422247]]; **Contested:** "I don't think troll is bis for literally any shaman spec" [[d:shaman#1488649460211777686]] |
 
 The differences are small: Orc vs Troll is about 1-2% damage at most [[d:shaman#1493994411917578240]]. Hex (Troll) and Feral Spirit (Orc) come from level-40 class quests in Orgrimmar; the Tauren Totemic Slam quest chain can be started at level 1, but the kit shows the spell itself is also granted at 40 [[d:shaman#1404899057154916432]].
@@ -119,6 +119,10 @@ The differences are small: Orc vs Troll is about 1-2% damage at most [[d:shaman#
 - **Skip for their own sake:** Alchemy has no shaman-specific perks [[d:shaman#1471890562008481905]]. Leatherworking "is kinda ass" unless you refuse to trade [[d:shaman#1462159463711506595]].
 
 Full guide: [Professions](professions.md)
+
+Shared pages: [Professions overview](../../professions.md) · [PvP systems](../../pvp.md) (honor, battlegrounds, Warmode) · [Game mechanics](../../server-mechanics.md) (buff and consumable stacking, enchant sources) · [Client setup](../../client-setup.md) (launcher, SuperWoW, addons).
+
+Tier sets: to swap a tier piece to another spec's version, see [Tier sets: spec exchange](../../server-mechanics.md#tier-sets-spec-exchange-and-drop-bugs). Ragnaros could drop shaman and paladin Tier 2 legs only once per kill; the reply to a bug report confirmed it as a bug to be fixed "with the next update" (2026-03-13), and on 2026-03-24 players were still asking if the fix was live [[d:paladin#1481966240942526635]], [[d:shaman#1485991171950903316]].
 
 ## Raid placement and utility
 

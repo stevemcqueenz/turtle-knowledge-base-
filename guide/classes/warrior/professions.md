@@ -91,7 +91,7 @@ No skill thresholds are sourced beyond these.
 
 ## Gold
 
-- Warriors are "extremely poor at making money" solo. Estimates are about 20-30 g/h solo farming, against 100 g+/h for a hunter on the ZG farm [[d:warrior#1440432464240840795]], [[d:warrior#1480961813423194142]]. That makes gathering professions and the AH more important than on other classes [[d:warrior#1486993519842164797]].
+- Warriors are "extremely poor at making money" solo. Estimates are about 20-30 g/h solo farming, against 100 g+/h for a hunter on the ZG farm [[d:warrior#1440432464240840795]], [[d:warrior#1480961813423194142]]. That makes gathering professions and the AH more important than on other classes: "play any other class" for solo farming, "just oldschool mining and herb, auction flipping etc" instead [[d:warrior#1486993284369748059]] — e.g. buying and reselling Bijous [[d:warrior#1486993519842164797]].
 - **Gathering:** mining while fresh [[d:warrior#1424042782267543584]]; Skinning + Herbalism to 60 "made plenty of gold for skills and riding" [[d:warrior#1482203596945621054]]; a tank + healer dungeon duo where the healer has Herbalism/Enchanting is "easy money" [[d:warrior#1471224216149033104]].
 - **Crafting:** Goblin engineers can "make sapper charges for yourself and sell the extra" [[d:warrior#1472657347024388247]]. Alchemy converts cheap raw materials into sellable consumables [[d:warrior#1490715082332835841]].
 - **Big gold sinks:** the weapon-skill quests (250 g per weapon type) are "the single most impactful 250 (or 500) you can or will spend" [[d:warrior#1463827253531119761]], [[d:warrior#1434575792700129301]]. Dual spec costs 350 g at level 50 [[d:warrior#1406228381384572998]].

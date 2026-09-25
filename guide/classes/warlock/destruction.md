@@ -70,7 +70,7 @@ Split **0/11/40**, validated with `talent_tool.py` (VALID). Calculator codes:
 
 Why these points:
 
-- **The 11-point dip** is the cheapest way to Demonic Sacrifice: Imp sacrifice for +4% spell damage, plus Soul Entrapment's +6% with no demon out [Jamey (staff), 2025-07-25](https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159). Demonic Aegis replaces the old Improved Healthstone points, which became Sinister Pursuit (pet speed) in 1.18.1 [[d:warlock#1484606428130967623]].
+- **The 11-point dip** is the cheapest way to Demonic Sacrifice: Imp sacrifice for +4% spell damage, plus Soul Entrapment's +6% with no demon out [Jamey (staff), 2025-07-25](https://forum.turtlecraft.gg/viewtopic.php?p=141159#p141159). Demonic Aegis replaces the old Improved Healthstone points, which became Sinister Pursuit (pet speed) in 1.18.1 [[d:warlock#1484606088291553392]], [[d:warlock#1484606812547453018]].
 - **Bane 5/5** brings Searing Pain from 2.0 s to 1.5 s [Jamey (staff), 2026-01-23](https://forum.turtlecraft.gg/viewtopic.php?p=166071#p166071).
 - **Improved Soul Fire 2/2:** Soul Fire's buff increases your fire damage and refunds the shard; it now applies on cast, so it cannot be lost to a miss [Jamey (staff), 2024-12-20](https://forum.turtlecraft.gg/viewtopic.php?p=113460#p113460).
 - **Conflagrate** consumes 3 s of Immolate for damage instead of removing it [Dragunovi (staff), 2024-10-12](https://forum.turtlecraft.gg/viewtopic.php?p=102973#p102973).

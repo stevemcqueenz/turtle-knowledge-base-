@@ -77,3 +77,7 @@ Only **Human, Dwarf and High Elf** can be paladins [[d:paladin#14869067291104420
 - **Retribution:** Blacksmithing (Swordsmith) makes the Tempered Runeblade, a pre-raid Spellret weapon ("gives bis sword for 2 phases of a server") [[d:paladin#1428433981707124838]]. Otherwise Blacksmithing is only a leveling-gear profession [[d:paladin#1456908911972974754]].
 
 Full guide: [Professions](professions.md)
+
+Shared pages: [Professions overview](../../professions.md) · [PvP systems](../../pvp.md) (honor, battlegrounds, Warmode) · [Game mechanics](../../server-mechanics.md) (buff and consumable stacking, enchant sources) · [Client setup](../../client-setup.md) (launcher, SuperWoW, addons).
+
+Tier sets: to swap a tier piece to another spec's version, see [Tier sets: spec exchange](../../server-mechanics.md#tier-sets-spec-exchange-and-drop-bugs). Two paladin loot bugs: Tier 1 shoulders drop at about 8%, against about 33% for other classes, and were still at 8% in April 2026 [[d:paladin#1481987026428629157]], [[d:paladin#1493006159693611080]]. Ragnaros could drop paladin and shaman Tier 2 legs only once per kill; the reply to a bug report confirmed it as a bug to be fixed "with the next update" (2026-03-13) [[d:paladin#1481966240942526635]].

@@ -91,7 +91,7 @@ Mage advice for a fresh 60: "do your attunes, then spam black morass" [[d:mage#1
 ## Common wipes
 
 1. The sand-caster stun on the tank in the pre-bridge packs [[d:paladin#1448464751389577439]].
-2. No CC on a 4-dragon pack [[d:paladin#1472702745638211737]].
+2. No CC on a 4-dragon pack [[d:paladin#1472702745638211737]], [[d:paladin#1472703161687998494]].
 3. Antnormi's enrage at 20% on an undergeared tank [[d:paladin#1423668765588983910]], [[d:paladin#1463501091973890131]].
 
 ## Gaps

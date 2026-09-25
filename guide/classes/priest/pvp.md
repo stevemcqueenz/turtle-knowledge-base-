@@ -2,6 +2,8 @@
 
 **Recommendation:** for solo and small-group PvP, play **Discipline (Smite)** for burst and shields, or **Shadow** for sustained pressure and near-undispellable DoTs. Pick by matchup: "both are viable imo. Play what suits you better" [[d:priest#1487776350658891838]]. Do not solo-queue as Holy: "you spend 50% of your time looking at a black & white screen" [[d:priest#1487505164675059807]]. Gear for **stamina**, cap at **3% hit**, and expect a burst meta.
 
+Server-wide PvP rules (honor as a currency, rank, the 1.18.1 PvP sets, Conquest, battlegrounds, Warmode, dampening and resilience) are on [PvP systems](../../pvp.md).
+
 ## Spec overview
 
 | Spec | PvP standing | Strengths | Weaknesses |

@@ -37,7 +37,7 @@ The balance pass was posted on 2026-01-23 and revised on 2026-03-19; 1.18.1 went
 - **Ornate Bloodstone Dagger** no longer procs from non-physical, no-cast effects, which ended the OBD/spellstrike build [[d:rogue#1472655388741472319]]. **Fang of Venoxis** and **Dragonfang Blade** were buffed [[d:rogue#1481403236773527602]], [[d:rogue#1472687870828613775]].
 - **Net effect:** Assassination lost roughly 10% and Combat Envenom about 5% of damage, which put Combat Envenom about 5% ahead [[d:rogue#1485568535215476746]]. The new sim rule of thumb is to **never run Rupture and Taste for Blood in an Envenom build** [[d:rogue#1486815192690987191]], [[d:rogue#1488627102281498785]].
 - **Hotfixes:** Deadly Poison did double damage for 2-3 days after launch, then was fixed [[d:rogue#1487593806906785873]], [Torta (staff), 2026-03-24](https://forum.turtlecraft.gg/viewtopic.php?p=172139#p172139). The Blade Flurry buff-cap bug was fixed in April [[d:rogue#1495130453802352766]].
-- **New:** the **Fortune** stat (proc chance on items; capes, necks and trinkets only) [[d:rogue#1474793529476645117]], and a rogue class-weapon questline (a matched pair of one-handed swords) starting in Timbermaw Hold [[d:rogue#1472672496007512127]], [[d:rogue#1484634204078870679]], [[d:rogue#1491482271553683538]].
+- **New:** the **Fortune** stat (proc chance on items; capes, necks and trinkets only) [[d:rogue#1474793529476645117]], and a rogue class-weapon questline (a matched pair of one-handed swords) starting in Timbermaw Hold [[d:rogue#1472672496007512127]], [[d:rogue#1484634204078870679]], [[d:rogue#1491482271553683538]]. Steps and a known bug: [Professions → Class-weapon questline](professions.md#class-weapon-questline-1181).
 
 Before 1.18.1, guides told you to run double Dissolvent everywhere, keep a 5-point Rupture up for Taste for Blood, and use the OBD as your main hand. None of that applies now.
 
@@ -64,6 +64,10 @@ Racial differences are small: "whatever you like to look at is bis" [[d:rogue#14
 - **Poisons** are their own rogue-only skill, and Alchemy does not help with them [[d:rogue#1487509381837754471]]. **Lockpicking** is needed for the class quest chains and pays through box opening.
 
 Full guide: [Professions](professions.md)
+
+Shared pages: [Professions overview](../../professions.md) · [PvP systems](../../pvp.md) (honor, battlegrounds, Warmode) · [Game mechanics](../../server-mechanics.md) (buff and consumable stacking, enchant sources) · [Client setup](../../client-setup.md) (launcher, SuperWoW, addons).
+
+Tier sets: to swap a tier piece to another spec's version, see [Tier sets: spec exchange](../../server-mechanics.md#tier-sets-spec-exchange-and-drop-bugs).
 
 ## Poisons at a glance
 
