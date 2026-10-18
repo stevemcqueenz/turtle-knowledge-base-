@@ -12,11 +12,21 @@ Short notes for vanilla dungeons where the Turtle sources say little: Ragefire C
 
 - At 60 you can clear it in 3 pulls in under 8 minutes in "crap gear", with an Argent Dawn shield and a Thorium Spike enchant [[d:paladin#1490656952915591281]]. It gives wool and silk for alts, "closer to 5g a run". Not worth your dungeon-per-hour limit, but it is close by [[d:paladin#1490659960747458570]].
 - Pulling everything and facing backward so every Rend lands can overflow 16+ debuffs into your buff bar (a display bug) [[d:paladin#1490665553956704306]].
+- **Route:** Dextren Ward → Targorr the Dread → Kam Deepfury → Hamhock → Bazil Thredd (final), with Bruegal Ironknuckle as an optional rare. One long cell block: the group clears the side rooms first and then works down the block. Five required bosses, no gates — the instance has no script, no door and no lever in the data. [measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]
+- **Level:** 23-31 in our clears' band (LFT minimum 15). [measured]
+- **Trash:** the Defias prison population — Defias Inmate (the most common), Defias Captive, Defias Prisoner, Defias Convict, Defias Insurgent, with Bruegal Ironknuckle as the one rare. [measured]
+- **Gaps:** loot, quests and any Turtle changes still need a source pass; a clear-time benchmark, and whether the block's packs pull as one group or split.
 
 ## Gnomeregan
 
 - **Manual Crowd Pummeler** (about 28) for leveling ferals: only its stats matter now, since its effect no longer works in form [[d:druid#1484464772115206204]], [[d:druid#1462513205434650823]], [[d:druid#1462513287345209394]].
 - **Toxic Revenger** (dagger) [[d:rogue#1324107314747408587]] and an early-30s gun [[d:hunter#1311230041606062111]].
+- **Route:** Viscous Fallout → Electrocutioner 6000 → Crowd Pummeler 9-60 → (Dark Iron Ambassador, optional) → Mekgineer Thermaplugg (final, behind the Final Chamber). Four required bosses. [measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]
+- **Two gates, not one.** The **Final Chamber** is Thermaplugg's door (a skill lock, no key); the route also passes the **Workshop Door**, which needs the **Workshop Key** — dropped **100% by the Electrocutioner 6000**, the second boss. Kill him before the door or the route stops there. [measured]
+- **Grubbis is not on the route.** He (with Chomper) has no spawn row in our realm's data: he comes from the Blastmaster Emi Shortfuse event, which the route leaves out because no door or boss depends on it. [measured]
+- **Trash:** four families, and they are the reason the walk is slow — the **Leprous** gnomes (Leprous Assistant is the most common mob in the dungeon, with Machinesmith, Technician and Defender), the **Caverndeep** troggs (Burrower, Reaver), the **Mechanical** mobs (Mechanized Sentry, Mechanized Guardian, Arcane Nullifier X-21, Mechano-Flamewalker and -Frostwalker) and the **Dark Iron** (Agent, and the Ambassador as the optional boss). [measured]
+- **Viscous Fallout is frost-immune** — frost damage does nothing to him; bring fire or physical. [measured]
+- **Gaps:** loot, quests and Turtle changes still need a source pass; a clear-time benchmark, and whether the alarm/back-door mechanics (vanilla) exist on Turtle.
 
 ## Uldaman
 
