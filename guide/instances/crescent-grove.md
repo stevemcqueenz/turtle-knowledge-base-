@@ -35,6 +35,35 @@ The sources have no player tactics for these bosses beyond the solo notes.
 - **The Betrayer** (dagger, about level 33) for rogues [[d:rogue#1324107314747408587]]. **Bow of the Grove** (mid-30s hunter bow) [[d:hunter#1311230041606062111]]. **Blackflame Wand** for casters [[d:warlock#1376742821112971275]].
 - **Farm:** the Grove respawns fresh herbs, and boss weapons sell well to repair vendors. One fresh-60 shaman farmed it this way (single source, exploratory) [[d:shaman#1390728925814063326]].
 
+## Route
+
+The page's boss table has no order. This is the one our clears run (measured, all nine kills including the two
+Elders):
+
+**Elder 'One Eye'** *(optional)* → **Grovetender Engryss** → **Elder Blackmaw** *(optional)* → **Keeper Ranathos**
+→ **Warden Treeshade** → **Warden Liferoot** → **High Priestess A'lathea** → **Fenektis the Deceiver** →
+**Master Raxxieth** (final).
+
+- The last three (A'lathea, Fenektis, Raxxieth) are the **Vilethorn Scar** stretch the page mentions — our order
+  matches that shape.
+- The two Elders are optional: one comes **before Engryss** and one **after** him in the route.
+
+[measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]
+
+## Notes that answer the page's gap
+
+- **The grove's rule is that packs pull together** (the page's staff note) — our clears fight every pack as a whole,
+  which matches the page's own warning that the **entrance packs before the first boss hit harder than the boss**.
+  [measured]
+- **Warden Treeshade and Warden Liferoot** are two separate kills with their own Twisted Ancients (the page's table
+  groups them); our order takes Treeshade first. [measured]
+- **Master Raxxieth's 50% stun** (the page's own table, citing Torta/staff) is the fight's one dangerous moment — a
+  group should not be mid-pull on adds when it lands.
+- The **reworked 1.18.0 bosses** are what our runs fight; our data has the current kits, and the fights are
+  normal tank-and-spanks with the mechanics the page's table lists. [measured]
+
 ## Gaps
 
-- Tactics for the reworked bosses, and whether health changed in 1.18.0.
+- Whether the 1.18.0 rework changed the bosses' health (the other half of the page's gap) — our data has the current
+  kits, not the deltas.
+- Player tactics for the two Elders (optional) beyond the route line.

@@ -15,6 +15,47 @@ Vanilla level ~17-24 Barrens dungeon. Turtle added two optional areas, The Overg
 | **Vangros** (lvl 22, The Overgrowth) | **Crush Armor**, **Knock Away** | He ignored threat until a 2025-01-14 fix ([Reynolds (staff), 2025-01-14](https://forum.turtlecraft.gg/viewtopic.php?p=116739#p116739)). Drops **Idol of the Apex Predator** (the -2 rage Roar idol), which players call the "crocodile boss" drop [[d:druid#1439092821196931123]], plus Band of the Claw |
 | **Zandara Windhoof** (lvl 23, centaur, Kolkar Falls) | **Chain Lightning**, Gust of Wind | Totem of Static Charge (shaman relic); quest *Against the Kolkar Dream* ([wiki](https://turtle-wow.fandom.com/wiki/Zandara_Windhoof)) |
 
+## Route
+
+| # | Stop | Note |
+|---|---|---|
+| 1-2 | **Lady Anacondra, Lord Cobrahn** | the first two Fanglords, each in their own cave |
+| 3 | **Kresh** | the rare turtle, on the way between the caves |
+| 4 | **Lord Pythas** | the third Fanglord |
+| 5 | **Skum** | the second named mob on the way |
+| 6 | **Lord Serpentis** | the fourth Fanglord |
+| 7 | **Verdan the Everliving** | the big druid in the central chamber |
+| 8 | *(optional)* **Vangros** (The Overgrowth), **Zandara Windhoof** (Kolkar Falls), the **Deviate Faerie Dragon** | all off the main route; the two Turtle bosses are side areas |
+| 9 | **the Disciple of Naralex escort → Mutanus the Devourer** (final) | see below — this is the clear |
+
+Our clears are the four Fanglords → Verdan → the escort. [measured on bot runs, private 1.18.1-based realm]
+
+## The last boss is a summon, not a boss in the cave
+
+This is the page's biggest gap, and the reason players ask "where is the last boss?":
+
+- **Mutanus has no body in the cave.** In our realm's data he has **zero spawn points** — the only Wailing Caverns
+  boss that does not stand anywhere. He is summoned by the **Disciple of Naralex** at the end of its escort.
+  [measured]
+- **The escort only unlocks when the four Fanglords are dead** (Anacondra, Cobrahn, Pythas, Serpentis). Until then
+  the Disciple has nothing to say. [measured]
+- **How to start it:** talk to the **Disciple of Naralex** (the sleeping druid's attendant) and take the dialogue
+  option; the Disciple then walks the channel down toward Naralex, and the group has to walk with it and fight what
+  wakes up along the way. [measured]
+- **A group that kills Verdan and leaves has not cleared the dungeon.** Mutanus is the final boss and the only
+  "run clear" trigger on the page's route. [measured]
+- **Walk with the Disciple, not ahead of him.** The channel's packs wake as he passes; the escort is a walk the
+  group protects, not a race to the end. [measured]
+
+## Packs and patrols worth a warning
+
+- **The ledges before Pythas** carry the druid-of-the-fang packs — do not fight on the narrow ledge edges, and pull
+  the packs to the open floor. [measured]
+- **The channel raptor packs** sit in the water the escort walks through; clear the ones ahead of the escort, not
+  behind it. [measured]
+- The **Deviate Adder on the ledge never comes down** — do not stand and wait for it, walk on. [measured]
+- The cave's **water is shallow and part of the route**; the run goes through the channel, not around it. [measured]
+
 ## Tanking and leveling notes
 
 - **Druid tanks:** wait for Swipe at level 20 before tanking here [[d:druid#1442259854059245718]].

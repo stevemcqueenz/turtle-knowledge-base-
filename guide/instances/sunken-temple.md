@@ -27,6 +27,40 @@ Vanilla level ~50-56 dungeon in the Swamp of Sorrows. On Turtle it is mostly run
 - **Mage:** kite him as Frost, since he is not slow-immune, or duo-box it [[d:mage#1458540137913782433]]. The old jump-back-and-forth safe spot does not work; Cone of Cold kiting does [[d:mage#1489776668569501786]] (the thread mixes ZF and ST).
 - **Warlock:** "should be plenty doable as demo, just be mindful and keep your pet alive" [[d:warlock#1460856844548313369]] (untested).
 
+## Route
+
+The page has no boss order, and this is the one our clears run (measured, 13 kills):
+
+**the six channelling trolls on the upper floor** — **Gasher → Loro → Hukku → Mijan → Zul'Lor → Zolo** (killing each
+stops a channel; the order above is the order our runs take them) — **then down: Jammal'an the Prophet → Ogom the
+Wretched → the four dragons (Dreamscythe → Weaver → Morphaz → Hazzas) → Shade of Eranikus** (final).
+
+- **Atal'alarion** (the statue guardian) is optional and our clears skip it.
+- The **Avatar of Hakkar** is an optional event at the statue — the page's own section covers it.
+
+[measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]
+
+## The upper-floor rings are the dangerous part
+
+- Each channelling troll sits in its ring's mobs, and **a pull that starts on the wrong side of a ring wakes the
+  next one** — that is the dungeon's one wipe shape. What works: clear each ring **from its outer edge**, kill the
+  **channeller first**, and never pull two rings at once. [measured]
+- The **lower floor's big green dragonkin packs** are the other danger (the page has this line; keep it) — pull them
+  back up the walkway rather than fighting in the open. [measured]
+- The **spur packs below the lower walkway are unreachable** — leave them; a group that keeps trying to clear them
+  wastes the run's time. [measured]
+
+## Boss notes we have measured
+
+- **Jammal'an and Ogom** are a two-stop leg: Jammal'an is a caster with adds, Ogom is the fight right after him;
+  our runs kill them in that order. [measured]
+- **The four dragons** are a normal chain of tank-and-spanks; the order (Dreamscythe, Weaver, Morphaz, Hazzas) is
+  the one our runs use. [measured]
+- **Eranikus:** his **sleep cannot be removed by Divine Shield**, and the Emerald Sanctum's anti-sleep shield does
+  not stop it — the page has this and it is the line to keep; a group should plan to lose a member for the sleep's
+  duration.
+
 ## Gaps
 
-- Group tactics for the Hakkar event, Jammal'an and Eranikus on Turtle.
+- Group tactics for the **Avatar of Hakkar** event: the page's own section covers the summon rules, and the fight
+  itself still has no cited tactics.

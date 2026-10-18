@@ -49,7 +49,36 @@ A "tower" boss is an easy solo that drops a crest and a blue to disenchant [[d:r
 - **Druid:** Hatereaver Annihilator is soloable specced Resto in half-resto/half-feral gear. The risks are going OOM or being stunned outside Bear Form [[d:druid#1426274369683984487]]. For feral farming, mitigation gear beats vampirism [[d:druid#1443995658745807061]], [[d:druid#1443997113951326319]].
 - **Warrior:** a Stamina-stacked fury-prot vampirism build solos HFQ [[d:warrior#1449927074566639691]]. A tank set with Force Reactive Disk, vampirism and Dream's Herald can AoE-farm it [[d:warrior#1471949214274556088]] (single source).
 
+## Route
+
+The page says the order is not documented. This is it (our clears):
+
+**High Foreman Bargul Blackhammer → Engineer Figgles →** ('Broody', the optional named mob, on the way) **→
+Hatereaver Annihilator → Corrosis → Har'gesh Doomcaller** (final).
+
+Note that the page's table lists Corrosis first (wiki level order); in our route he is the **fifth stop**, after the
+Hatereaver hall. [measured on bot runs, private 1.18.1-based realm]
+
+## Boss notes we have measured
+
+- **Hatereaver Annihilator — the stun question is answered: it cannot be avoided.** His script is exactly three
+  abilities: a **Knockback** on his current target, **Cleave**, and **War Stomp** (the stun). The stomp is a normal
+  cast, so there is nothing to kick — the group heals through it and does not stand in it; the knockback is what
+  breaks a group's position, so fight him with room behind you. Both of our round-149 wipes were on him. [measured]
+- **Har'gesh Doomcaller — the add phase is the fight.** Two **Faceless Terrors** arrive and the boss stays inactive
+  until they die (the page has this, and it is correct); they are shadow-immune, so shadow damage does nothing.
+  Our first clean kill was **72 seconds with zero deaths**, and the phase still cost real health: during the immune
+  window a caster fell to **38%** and the tank's floor was **64%**. Burst the Terrors, keep the group topped, then
+  the boss is a normal burn. [measured]
+- **Corrosis — the page's "no abilities recorded" is wrong: he has two poison casts.** Our data gives him **Poison
+  Bolt** (single target, every ~10 s) and **Poison Bolt Volley** (a hit on everyone in range, at the pull and every
+  2 minutes). No stomp, no knockback, no summon — but bring poison mitigation and expect the volley on a timer. The
+  hit trinket is still the reason to fight him. [measured]
+- **High Foreman Bargul Blackhammer** — the Overseer patrol the page warns about is real; his slope's packs are
+  2-4 with walkers, so clear the patrol before the Foreman pull. [measured]
+
 ## Gaps
 
-- Boss order, and abilities for Corrosis, Bargul and Har'gesh beyond the adds.
-- Whether the Hatereaver stun can be interrupted or avoided.
+- Corrosis's loot table and the tuning of his two casts (we have the abilities, not the numbers).
+- Har'gesh's abilities outside the add phase (the page's table lists the adds; our runs have not measured anything
+  else worth a line).

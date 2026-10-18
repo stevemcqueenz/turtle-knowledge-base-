@@ -14,6 +14,41 @@ Vanilla level ~22-30 Silverpine dungeon. Turtle added the optional church with *
 - He and his Spectral Clerics have counted as **Undead** since 2025-03-04, so Shackle Undead, Exorcism and Turn Undead work on them ([Torta (staff), 2025-03-04](https://forum.turtlecraft.gg/viewtopic.php?p=121678#p121678)).
 - Loot: Mitre of the First Light, Prelate's Sigil, Hilt of Radiance, Signet of Faded Sermons. Quest *Too Late to Prelate* (Horde).
 
+## Route
+
+The page has no boss order. This is the one our clears run (measured; the numbers are the order our runs kill them
+in, which is the keep's climb):
+
+| # | Stop | Note |
+|---|---|---|
+| 1 | **Rethilgore** | the courtyard; the worg pack around him is the first real pull |
+| 2 | **Razorclaw the Butcher** | the second stop on the climb |
+| 3 | **Baron Silverlaine** | the third |
+| 4 | **Sever** *(optional)* | our clears skip it |
+| 5 | **Prelate Ironmane** *(optional, Turtle)* | the church — see the page's section; our clears skip it |
+| 6 | **Commander Springvale** | the corridor |
+| 7 | **Odo the Blindwatcher** | the corridor's end |
+| 8 | **Deathsworn Captain** *(optional rare)* | taken when the route passes him |
+| 9 | **Fenrus the Devourer** | the ramp |
+| 10 | **Wolf Master Nandos** | past the **Sorcerer's Gate** |
+| 11 | **Archmage Arugal** (final) | the top |
+
+The keep is **vertical**: the run climbs from the courtyard to Arugal, and the stairs are the route. Two doors are
+part of it: the **Courtyard Door** and the **Sorcerer's Gate** (the one before Nandos). [measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]
+
+## Packs and patrols worth a warning
+
+- **The courtyard worg pack** is the first fight, and patrols join it; clear it before the first boss, not during.
+  [measured]
+- **The corridor patrols between Springvale and Odo** walk the length of the corridor; pull the pack back to the
+  corner you came from. [measured]
+- **The Fenrus ramp:** pull the ramp pack **down**, not up — fighting on the ramp is how a group eats the next
+  pack. [measured]
+- **The cell-door event** (the two prisoners) is optional and needs a dialogue; skip it unless someone has the
+  quest. [measured]
+- The keep's **Undead** (Prelate Ironmane and his Spectral Clerics) can be shackled, exorcised and turned — the
+  page's staff note is the one to keep. [classic]
+
 ## Leveling notes
 
 - **Shaman tanks:** "level normally until 26 then start out tanking in Shadowfang" [[d:shaman#1448921578992832714]].

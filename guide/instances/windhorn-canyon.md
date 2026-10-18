@@ -16,7 +16,7 @@ Turtle-custom level 26-30 5-man in Thousand Needles, added in 1.18.1. The Grimto
 
 ## Bosses
 
-Abilities come from the wiki boss pages. The order below is by level, not a documented route. The sources have no player tactics.
+Abilities come from the wiki boss pages. The route is documented below. The sources have no player tactics.
 
 | Boss | Lvl | Abilities | Notable loot |
 |---|---|---|---|
@@ -33,6 +33,49 @@ Abilities come from the wiki boss pages. The order below is by level, not a docu
 - **Sacred Windhorn** set: one piece from each of six bosses ([wiki](https://turtle-wow.fandom.com/wiki/Windhorn_Canyon)). Players discuss it as a healer set for the 20s [[d:priest#1504772174337146920]].
 - "A couple of decent trinkets" for level-29 twinks [[d:twinking#1484633260394025110]].
 
+## Route
+
+The page says the order is by level and the route is undocumented. This is the route (our clears; the human run we
+read covers six of the seven bosses and starts with Pathun instead):
+
+**Walgan Bloodcaller → Ahgk'tos the Pure → Pathun Duskhide → Ambassador Vortalus → Bonespeaker Narlgom →
+Prophet Stormhoof → Chieftain Shalk Blackwind** (final). [measured on bot runs, private 1.18.1-based realm]
+
+**The clock is the trash, not the bosses.** Every leg is roughly **9-13 minutes of packs and patrols**, the fights
+themselves are under a minute, and the final Blackwind leg is the longest (about 17 minutes). A group that plans
+for seven quick boss fights will be surprised by the walk. [human run]
+
+## Dangerous packs (and what worked)
+
+- **The Walgan knot is the dungeon's first and worst wall.** Walgan stands with **two Blackwind Bloodguards** and
+  **five Blackwind Warriors in two knots** 15-20 yards away from him and from each other, and walkers cross the
+  knots. The Bloodguards each cast **Bloodguard Ritual** at 50% health: **+50% damage for two minutes** — kill each
+  guard from 50% **one at a time**, never both. What works: take the two warrior knots **separately, each fought
+  back down the route** (36-53 yards from Walgan), then Walgan's own three. Four of our six early wipes were on
+  this pack, all of them pulls that woke more than the puller expected. [measured]
+- **The opener is stealth work.** The **Blackwind Trappers** are taken alone before the camp is touched; walking
+  into the camp with them alive is how the first pull doubles. [human run]
+- **The elemental pulls summon adds.** The **Storm Elementals** and the **Deathtotem Bonespeakers** bring summoned
+  help (**Storm Residues**, **Skeletal Servants**) — the group spends as much time on the summons as on the camp,
+  so plan the pull around them. [human run]
+- **Narlgom's Rain of Fire:** move the **group**, not the boss — the packs around him are what make his room
+  expensive. [measured]
+- **Shalk summons at 50%:** a **Blackwind Bloodguard** joins the fight and goes after a random member — kill the
+  add first, then finish the chief. [measured]
+
+## Boss notes the page's ability table does not say
+
+- **Pathun Duskhide:** **Kodo Stomp** and **Hooked Net** are his control pair (both in our data) — the net on the
+  healer or the tank is what turns the fight; keep the group spread so a net does not catch two people. [measured]
+- **Ambassador Vortalus:** his **Chain Lightning** is the threat, not his melee — interrupt or out-range it.
+  [measured]
+- **Bonespeaker Narlgom:** he **summons Spirit of Champion Rotag** mid-fight (the page has this); kill the summon
+  before it stacks on the healer.
+- **Prophet Stormhoof:** **Wail of Souls** is the hit to heal through; his curses are the second cost. [measured]
+
 ## Gaps
 
-- The boss route, tactics, and which packs have the knockbacks and summons.
+- Boss tactics beyond the ability list — the sources still have none; the notes above are what our runs and one
+  human log measured.
+- A per-pack census of which trash packs carry the knockbacks and summons (the page's original ask) — the route and
+  the named packs above cover the ones that end runs, not every pack.

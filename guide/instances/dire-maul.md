@@ -25,6 +25,32 @@ Vanilla level ~55-60 three-wing dungeon in Feralas: East (DME), West (DMW) and N
 - **Alzzin the Wildshaper (last boss):** he burns mana on hit, so a duo prefers a druid tank + shaman healer over a shaman tank. You can also kite him on the ledge [[d:shaman#1429747984081489921]], [[d:shaman#1429760269650759741]].
 - **Full "jump run" order:** lashers → elemental boss → satyr boss upstairs → last boss [[d:paladin#1427716354978484377]]. Thorium nodes after the last boss are "a slog to farm" [[d:paladin#1437837613749768224]].
 
+### The full-clear route (not the jump run)
+
+The page's "jump run" is the **farm** route (lashers → Hydrospawn → Zevrim → Alzzin). A **full clear** adds the two
+bosses before the ramp, and our clears run them in this order (measured):
+
+**Lethtendris** (with **Pimgib**) **→ Zevrim Thornhoof → Hydrospawn → Alzzin the Wildshaper** (final).
+
+- **Pusillin** (the imp) is optional in our route and our clears skip him; a group that wants him chases him to the
+  door first.
+- **Isalien** is the plan's other optional stop; skipped in our clears.
+- Note the difference from the page's jump run: our full clear takes **Zevrim before Hydrospawn** (the measured
+  order). Both orders reach Alzzin.
+
+[measured on bot runs, private 1.18.1-based realm]
+
+### Packs and patrols worth a warning
+
+- **The satyr packs on the top floor are the danger.** The page's rule stands — **do not enslave the imp in the
+  pack**, because it pulls the whole floor; a satyr also patrols into the lasher room near the back wall. What works:
+  clear the satyr packs **from the ramp**, never from the middle of the floor. [measured]
+- **Zevrim's guards** should be pulled back to the ramp; fighting his room in place is how the patrol joins.
+  [measured]
+- **Hydrospawn** is a kite/ledge fight (the page's pillar advice is right) and **Alzzin burns mana on hit and kites
+  on the ledge** — the page has both. [classic]
+- **Pimgib** fights with Lethtendris; treat them as one pull, not two. [measured]
+
 ### Lasher farm: rules that apply to everyone
 
 - **Lashers are Nature-immune.** Force Reactive Disk (nature damage) and Crest of Retribution procs do nothing to them [[d:shaman#1430997994865557658]], [[d:paladin#1467897490769576071]], [[d:paladin#1456566778313572528]].

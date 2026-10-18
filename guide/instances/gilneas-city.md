@@ -41,7 +41,51 @@ The sources contain no player tactics for any of these bosses.
 - **Wolfblood** for hunters [[d:hunter#1432359990273904680]]; Ring of Electrical Binding [[d:paladin#1392754455791014010]]; spell-hit shoulders for boomkins [[d:druid#1367619573259698308]]; a tank shield [[d:paladin#1395409005022547968]].
 - **Mage:** the Tome of Teleportation: Theramore quest chain sends you here for its item [[d:mage#1327193424788590592]], [[d:mage#1486467684559355985]].
 
+## Route (the human street, one pass)
+
+The page says the route is not documented. This is it (our clears):
+
+**Matthias Holtz → Packmaster Ragetooth → Judge Sutherland → Dustivan Blackcowl → Marshal Magnus Greystone →
+(Horsemaster Levvin, optional) → Regent-Lady Celia and Regent-Lord Mortimer Harlow → Genn Greymane** (final).
+
+Our best passes take **66-85 minutes** (the good half of a 55-clear window that runs 66-186); the spread is the
+street, not the bosses. [measured on bot runs, private 1.18.1-based realm]
+
+## Trash and the street — what our runs measured
+
+- **The Greymane Elites are the street's top killers**: they accounted for **49 of our 174 death lines** in one
+  round. They are the mobs to pull in small numbers and CC, not to body-pull.
+- **The Greymane Cleric is the only trash healer in the dungeon** (Smite + Greater Heal). Kick, disarm or
+  **polymorph it first, every time** — it is the one CC that changes the fight.
+- **The gate pack just inside is the first test.** Take it as **one small pull with the Cleric polymorphed**, not as
+  a street sweep — the elites there are what the page's group notes warn about.
+- **Blackcowl spawns stealthed** and walks a long loop; he starts the pull on his own terms — expect it.
+- **The street to Greystone is the run-ender.** He walks a **241-yard loop** and joined our fights **12 times in one
+  round**, 52-113 yards from his post; parties that pull packs while he is walking get him on top of the pull.
+  What works: clear the packs, **wait for him to come to you**, and pull him back to the gates.
+- **Bosses are immune to charm, disorient, fear, stun, polymorph, daze and sap** — no CC lands on a boss. All the
+  CC goes on the trash (the Cleric first).
+
+[measured]
+
+## Boss notes we have measured
+
+- **Genn Greymane:** **Mortal Strike** is in his spell list and is the one the healer must plan for (it is a healing
+  debuff, so a big heal timed into the strike is wasted). **Fear is real too** — it is not in his spell table but it
+  is in his scripted AI: **once, on a random player, at 50% health, for 6 seconds**. Bring the fear answer; the
+  page's table is right to list it. [measured]
+- **The Regent-Lords are one encounter with two targets** (about 10 yards apart) — pick one and burn it, and spread
+  out of the Consecration/Blast Wave. The page's open question about the "two mini-bosses" is still open: the
+  Regent-Lords being two NPCs is exactly what makes the staff count and the wiki count differ. [measured]
+- **Judge Sutherland** is a caster boss — interrupt the Fireball and Blast Wave school.
+- **Dustivan Blackcowl** uses **Evasion at 55%** — that is the burn window; do not blow cooldowns before it.
+- **Matthias Holtz** opens with a **Hooked Net** (root) on the tank; his pack is the fight, not him.
+- **Packmaster Ragetooth** has **Howl of Terror** — the second fear source after the Darkpelt Alphas.
+
+[measured]
+
 ## Gaps
 
-- The boss route, and tactics for the Regent-Lords and Genn.
-- Which two bosses are the "mini-bosses".
+- Which two bosses the staff's "two mini-bosses" means (the Regent-Lords are one two-target encounter, so the counts
+  differ).
+- Genn's Fear is settled (scripted AI, once at 50%, 6 s) — the page's table already lists it and can now say when.

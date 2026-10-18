@@ -8,6 +8,8 @@ Checks
   - every Discord citation (https://discord.com/channels/<guild>/<channel>/<message> or discord://<channel-slug>/<message>)
     resolves to a message in structured/discord/messages/*.jsonl (checked only when that directory exists)
   - every [[d:<channel>#<message_id>]] Discord citation resolves to a record in structured/discord/evidence-<channel>.jsonl
+  - every "[measured on bot runs, private 1.18.1-based realm]" tier citation is recognised (it carries no URL, so it
+    is checked by form); the "[measured]" shorthand is only valid in a file that also carries the full label
   - every .yaml/.yml parses with PyYAML; every .jsonl parses line by line; every .json parses
   - playbooks contain the mandatory headings
 Exit code 1 if anything fails; prints a summary.
@@ -20,6 +22,10 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DISCORD_CITE = re.compile(r"\[\[d:([A-Za-z0-9_.-]+)#(\d+)\]\]")
+# Private-realm measured tier: no URL, so it is validated by its exact wording. An optional provenance
+# suffix is allowed inside the same brackets (e.g. "[measured on bot runs, private 1.18.1-based realm — round 154]").
+MEASURED_CITE = re.compile(r"\[measured on bot runs, private 1\.18\.1-based realm(?:[^\]]*)\]")
+MEASURED_SHORT = re.compile(r"\[measured\]")
 PLAYBOOK_HEADINGS = ["Overview", "Talent build", "Stat priority", "Single-target rotation", "Multi-target", "Cooldowns", "Role strategy", "Gear", "Common mistakes", "Sources"]
 
 
@@ -79,12 +85,15 @@ def main():
             files.append(p)
     bad = 0
     n_cites = 0
+    n_measured = 0
     unresolved = {}
     for f in sorted(files):
         rel = os.path.relpath(f, ROOT)
         # Evidence corpora are citation targets, not citation sources: links quoted inside a
         # post or a Discord message are user content and often point outside the archive.
-        if ("structured/forum/posts" in rel or "structured/discord/messages" in rel or "structured/discord/evidence-" in rel
+        # Patch/diff files are the same: they quote the text they change, including other files' citations.
+        if (rel.endswith((".patch", ".diff"))
+                or "structured/forum/posts" in rel or "structured/discord/messages" in rel or "structured/discord/evidence-" in rel
                 or "extracted/discord" in rel
                 or rel.endswith("_aliases.json") or rel.endswith("coverage-report.md")):
             continue
@@ -144,6 +153,19 @@ def main():
                 n_cites += 1
                 if (m.group(1), m.group(2)) not in discord and m.group(2) not in discord:
                     unresolved.setdefault(rel, set()).add("discord://%s/%s" % (m.group(1), m.group(2)))
+        # Private-realm measured tier (no URL): count it, and keep its wording canonical. The "[measured]"
+        # shorthand is only valid in a file that also carries the full label, so a page cannot lose the tier
+        # definition between revisions.
+        measured_full = MEASURED_CITE.findall(text)
+        measured_short = MEASURED_SHORT.findall(text)
+        n_cites += len(measured_full) + len(measured_short)
+        n_measured += len(measured_full) + len(measured_short)
+        if measured_short and not measured_full:
+            print("MEASURED shorthand without the full tier label", rel)
+            bad += 1
+        elif "measured on bot runs" in text and not measured_full:
+            print("MEASURED tier label not canonical", rel)
+            bad += 1
         mrole = re.search(r"synthesis/classes/[a-z]+/[a-z]+-(tank|healer|melee-dps|ranged-dps|pvp)\.md$", rel)
         if mrole:
             role = mrole.group(1)
@@ -159,7 +181,7 @@ def main():
     for rel, ids in sorted(unresolved.items()):
         print("UNRESOLVED", rel, sorted(ids)[:15], "(+%d)" % (len(ids) - 15) if len(ids) > 15 else "")
     tot_unres = sum(len(v) for v in unresolved.values())
-    print("files=%d citations=%d unresolved=%d other_failures=%d" % (len(files), n_cites, tot_unres, bad))
+    print("files=%d citations=%d measured=%d unresolved=%d other_failures=%d" % (len(files), n_cites, n_measured, tot_unres, bad))
     sys.exit(1 if (bad or tot_unres) else 0)
 
 

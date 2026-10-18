@@ -17,6 +17,37 @@ The turtlecraft.gg "Classic Dungeons Update" page uses stale draft names (Brothe
 | Library (Sanctum of the Fist) | **Brother Wystan** (lvl 36) | Snap Kick, **Uppercut**, Fireball | Libram of Radiance, Wystan's Steel Fist ([wiki](https://turtle-wow.fandom.com/wiki/Brother_Wystan)) |
 | Armory (Warehouse) | **Armory Quartermaster Daghelm** (lvl 38) | Armor of Faith, Thunderclap, **Sunder Armor** | Cuffs of Evocation, Balanced Razor Shivs; *Journal of Basil Frye* ([wiki](https://turtle-wow.fandom.com/wiki/Armory_Quartermaster_Daghelm)) |
 
+## Routes (the four wings, one each)
+
+The page lists the bosses but not where the Turtle bosses sit in each wing, or the wing routes. These are our
+clears' routes (measured; "opt" marks the stops our clears skip):
+
+| Wing | Route | Turtle boss in it |
+|---|---|---|
+| **Graveyard** | **Interrogator Vishas → Bloodmage Thalnos**, with **Duke Dreadmoore** and the rare **Scorn** as optional stops between them | Duke Dreadmoore sits between Vishas and Thalnos (opt) |
+| **Library** | **Houndmaster Loksey → Brother Wystan → Arcanist Doan** | Brother Wystan is on the way to Doan, not in a side room — and he is **required in our plan** (all three of Loksey, Wystan and Doan are required rows) |
+| **Armory** | **Armory Quartermaster Daghelm** (opt, before the door) **→ Herod** | Daghelm is before Herod's door |
+| **Cathedral** | **High Inquisitor Fairbanks → Scarlet Commander Mograine → High Inquisitor Whitemane** | — (the wing is the rescripted Mograine/Whitemane event) |
+
+[measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]
+
+## Wing notes worth a line each
+
+- **Graveyard:** the wing's undead **respawn every 15 minutes** (the page has this) — it is the reason a slow group
+  can fight the same crypt twice.
+- **Library:** the corridor patrols are the wing's risk, not the bosses; Loksey, Wystan and Doan are all required
+  rows in our plan. [measured]
+- **Armory:** **Herod's whirlwind is the wing's one mechanic** — move out of it, do not heal through it. [classic]
+- **Cathedral:** the last fight is a **two-phase event** — Mograine falls, Whitemane revives him, and the pair
+  fights on; plan cooldowns for the second phase, not the first. The page's own Holy Strike warning (big pulls onto
+  Mograine) is the other half of it and should stay. [classic]
+
+## Gaps
+
+- Whether Duke Dreadmoore can be skipped without breaking the Graveyard's clear (he is optional in our plan);
+  **Brother Wystan is required** in the Library plan, so the page should not call him optional.
+- The Cathedral event's exact phases on Turtle (the page notes the 2024 rescript, not the shape).
+
 ## Cathedral: big pulls are dangerous
 
 - **Scarlet Champions' Holy Strike** hits for 460-500+ holy damage, which ignores armor. It is what kills players trying to pull the whole Cathedral onto Mograine [[d:paladin#1443006788311056487]], [[d:paladin#1443008096246173769]].

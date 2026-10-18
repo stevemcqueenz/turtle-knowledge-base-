@@ -13,6 +13,83 @@ Vanilla level-60 dungeon in Eastern Plaguelands, with a Live (Scarlet) side and 
 - **Undead dungeons in general:** bring Blessed Wizard Oil and the Argent Dawn trinket "and you're going to cut through packs like butter" [[d:paladin#1436060738140635238]].
 - **Magistrate Barthilas:** if you log out mid-run and come back about an hour later, for example after a server reset, he has respawned at the front and you can fight him there [[d:paladin#1432896000124522619]].
 
+## Route — Live side (main gate)
+
+Our clears run the Live side in this order (the boss order is measured, not the level order the wiki gives):
+
+| # | Boss | Note |
+|---|---|---|
+| 1 | **The Unforgiven** | the first courtyard boss; her four Vengeful Phantoms slow the tank, so they die first [classic] |
+| 2 | **Timmy the Cruel** | he looks like ordinary trash ghouls — the group walks past him without an anchor; Thrash, a self-heal on his claw, and Enrage at 50% [classic] |
+| 3 | **Malor the Zealous** | a caster paladin alone in a side room: Ground Smash (AoE stun), Holy Light on an ally, and Lay on Hands at low health — burst or kick past it [classic] |
+| 4 | **Cannon Master Willey** | the fight is his reinforcements: Riflemen keep arriving until the cannons beside him are loaded and fired with the ammo piles next to him — our plan's data carries the cannon fire [measured] |
+| 5 | **Archivist Galford** | last corridor of the Bastion: pull him out of the corridor so Fire Nova and Burning Winds are not on the stack [classic] |
+| 6 | **Grand Crusader Dathrohan → Balnazzar** (final) | the scripted reveal: "Dathrohan" is Balnazzar. Our clears register Balnazzar as the final kill [measured on bot runs, private 1.18.1-based realm] |
+
+**Optionals on this side:** Balzaphon, Skul (rare) and the Jarien/Sothos pair. A clean Live clear is **six bosses**
+in our runs; the round's Live clears run **55 to 109 minutes** (fastest 55.2 min with 0 wipes, slowest 109.2 min).
+[measured]
+
+## Route — Undead side (service entrance)
+
+| # | Boss | Note |
+|---|---|---|
+| 1 | **Magistrate Barthilas** | the first boss of the side, and the one that matters for the gates: he drops the **Key to the City** [measured] |
+| 2 | **Baroness Anastari** | Possess: a party member is mind-controlled and must be brought to **50% health by their own group** to break it; Silence and Banshee Curse [classic] |
+| 3 | **Nerub'enkan** | Encasing Webs on the tank and adds; tank at the top of the ramp, in line of sight of the healer [classic] |
+| 4 | **Maleki the Pallid** | frost caster; interrupt and decurse [classic] |
+| 5 | **Ramstein the Gorger** | enters when the last abomination dies. **Knockout** (in our plan's data) drops his target's threat and switches him to the second-highest — have a taunt ready [classic] |
+| 6 | **Baron Rivendare** (final) | **Mortal Strike** (healing debuff on the tank — in our plan's data) and **Unholy Aura** (a **~27-yard** shadow aura that hits ranged and healers, not just melee) — keep the group spread [classic] |
+
+The **Black Guard Sentries** are the gauntlet's trash around Ramstein, not a boss stop of their own (our clears kill
+six bosses on this side). [measured]
+
+**Optional:** Stonespine (rare) patrols between the ziggurats. Our best Undead pass took **68 minutes**. [measured]
+
+**All three ziggurat bosses must die before the gauntlet and Slaughter Square open**, and each ziggurat also has
+interior **Thuzadin Acolytes** worth clearing; the order *among* the three is not fixed. Our clears take
+**Anastari → Nerub'enkan → Maleki**, after Barthilas. [classic] / [measured] *Note for the owner:* the page's
+"Undead side, tanks" line about the **banshee AoE silence** stays — it is still the wing's most useful one-liner.
+
+## Keys and gates
+
+| Gate | Key | Where the key comes from |
+|---|---|---|
+| **Bastion Door**, **Hoard Door**, **Hall of the High Command** (Live side, three doors) | **The Scarlet Key** | our realm's data has it as a **0.02% drop** from Scarlet Diviner, Scarlet Chaplain and Scarlet Monk (all Live-side) — our parties carry it rather than farm it; check the live drop rate before planning around it [measured] |
+| **Gauntlet Gate (west)** and **Gauntlet Gate (east)** (Undead side) | **Key to the City** | drops from **Magistrate Barthilas** (the Undead side's first boss) [measured] |
+
+The Live side is therefore a **key gate chain**: without the Scarlet Key a group can do the street and Willey but
+not the last three doors; the Undead side's own key is on its first boss, so that side is self-contained. [measured]
+
+**The Baron's Ultimatum** (a 45-minute timer on the Undead side) is real [classic] but it only matters for the
+Tier 0.5 quest chain; a full-clear group can ignore it.
+
+## Dangerous packs (and what worked for us)
+
+- **The Live side is not all humanoid.** The outer zones (King's Square, Market Row) are undead-heavy — Shackle
+  Undead and Turn Undead land, Polymorph does not; the **Bastion is Scarlet humanoid** — Polymorph lands, Shackle
+  does not. A group wants **both kinds of CC**. [classic]
+- **Casters first.** Crimson Conjurors summon Water Elementals, and the Bastion's Sorcerers, Inquisitors and Monks
+  are the pack's damage. Kill the Conjurors and Sorcerers first and the fight halves. [classic]
+- **Pull back into the doorway.** Both sides are wide streets; fight packs in the corridor you came from, never in
+  the open, or the next pack walks in. [classic]
+- **Our first Live runs died at the entrance packs** (three parties, 07:54:25-07:55:01Z, 121-158 yards from the
+  entrance, before any boss) — the street in front of the first boss is the side's real gear check, not the bosses.
+  [measured]
+- **The Undead side's danger is the trash:** the crypt corridors are pack-heavy and full of walkers; pull the packs
+  back to the stair landings and keep priority targets controlled — the page's banshee AoE silence is the line to
+  keep in mind. [classic]
+- **The abomination gauntlet** is slow but harmless if the tank keeps them turned away from the group; Ramstein is
+  the only dangerous part of it. [measured]
+
+## Two things the page's boss table needs
+
+- **The route is not the level order.** The wiki's per-boss order hides that the Live side's last three bosses are
+  gated behind the Scarlet Key, and that the Undead side's first boss is the one that hands you its gate key.
+  [measured]
+- **The run's final kill on the Live side is Balnazzar**, not Dathrohan — the reveal is a scripted event, and the
+  page should say so before someone blows cooldowns on the "crusader". [measured]
+
 ## Notable loot
 
 - **Idol of Brutality** (bear) from Strat UD, farmed off the Magistrate [[d:druid#1061406487739641946]], [[d:druid#1316144339851677799]].

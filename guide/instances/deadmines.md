@@ -18,6 +18,29 @@ Vanilla level ~17-26 Westfall dungeon. Turtle added an optional Zanzil laborator
 
 Jared Voss's kit is all poison, so a poison cleanse helps. That follows from the ability list; the sources give no tactics.
 
+## Route
+
+The page covers the two Turtle bosses and the loot but has **no route**. This is the one our clears run (measured):
+
+**Rhahk'Zor → Sneed's Shredder → Sneed → Gilnid → Mr. Smite → Captain Greenskin → Edwin VanCleef** (final), with
+**Miner Johnson**, **Jared Voss** (the Zanzil laboratory), **Masterpiece Harvester** (the foundry) and **Cookie**
+as optional stops. Our clears take the required bosses and skip the optionals; a group that wants Jared Voss or
+Cookie adds them where the route passes.
+
+**The Defias Cannon is the gate to the ship**: it needs the **Defias Gunpowder**, which is a **chest/object in the
+mine**, not a mob drop (our realm's data has no creature carrying it). Without it a group can clear the mine but not
+reach Smite, Greenskin and VanCleef. [measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]
+
+## Packs and patrols worth a warning
+
+- **The mine's goblin packs** are the first real fights; pull them short — the mine's rooms are close together, and
+  a body-pull brings the next room. [measured]
+- **The ship's deck** is the run's last third: Smite, Greenskin and VanCleef are all on it, and the deck's packs are
+  what join a boss fight if the group fights where the ramp meets the deck. [measured]
+- **Mr. Smite** switches weapons mid-fight (the switch, not his damage, is the fight's cost) — treat it as the
+  moment to use cooldowns. [classic]
+- **VanCleef** is a normal final with adds; the fight's cost is the pull before it, not the boss. [measured]
+
 ## Leveling value
 
 - **Healers:** you can enter at level 10. A fully enchanted level-10 twink can heal it [[d:druid#1459162799421784136]].
