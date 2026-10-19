@@ -8,6 +8,24 @@ Vanilla level ~40-52 dungeon in Desolace. On Turtle it matters mostly as a **lev
 | Location | Desolace (vanilla) |
 | Turtle notes | Princess behaves differently from classic guides (see below). The Scepter run is harder solo because of pathing changes [[d:mage#1461047618963505183]]. Turtle added anti-farm mechanics to some farm dungeons; one player was unsure whether Maraudon is one of them [[d:paladin#1426765897082867922]] |
 
+## Boss order
+
+The order our route runs, and the numbers are the map markers. Our best run so far is **partial**: it reached
+Princess Theradras and stopped, so Rotgrip and Tinkerer Gizlock (both required) were never fought — by the
+full-clear rule that run is 6 of 8. [measured on bot runs, private 1.18.1-based realm — round 154]
+
+| Boss | # | Note |
+|---|---|---|
+| **Noxxion** | 1 | the orange side's first boss |
+| **Razorlash** | 2 | the orange side |
+| **Lord Vyletongue** | 3 | the purple side's first boss |
+| **Meshlok the Harvester** | 4 | optional rare, the pool |
+| **Celebras the Cursed** | 5 | the purple side's last boss |
+| **Landslide** | 6 | the waterfall jump, then the caves |
+| **Princess Theradras** | 7 | see the fight notes above |
+| **Rotgrip** | 8 | the crocolisk boss in the pond — the tail our runs have not reached |
+| **Tinkerer Gizlock** (final) | 9 | the last stop of our route |
+
 ## Group notes
 
 - **Nature-immune mobs** make it awkward for nature-damage tanks such as Enhancement shamans. There is a workaround [[d:shaman#1453209759099392022]].

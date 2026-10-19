@@ -10,6 +10,7 @@ Turtle-custom level 58-60 5-man under Karazhan in Deadwind Pass. Players call it
 | Entry | **Karazhan Crypt Key** (7-step quest chain: *The Mystery of Karazhan* for Alliance, *The Depths of Karazhan* for Horde), **or** a rogue with Lockpicking 300. Only one group member needs it ([wiki](https://turtle-wow.fandom.com/wiki/Karazhan_Crypt), [Torta (staff), 2025-02-22](https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615)) |
 | Bosses | 7 ([wiki](https://turtle-wow.fandom.com/wiki/Custom_Turtle_WoW_content)). Final boss Alarus |
 | Official clear time | 1-1.5 h, "Dire Maul+" ([turtlecraft.gg](https://turtlecraft.gg/raids-and-dungeons)) |
+| **Guard Captain Gort** | the skeletal guard captain of the upper level; no tactics recorded | — |
 
 **Do the key chain even if someone else opens the door.** Its trinket is "very op for its level" [[d:priest#1425163744375345263]]. Druids prefer it over the Chromie trinket [[d:druid#1439701323921625269]]. One version gives 14 spell power, +1% hit and +1% haste [[d:priest#1469080796454326384]]. The Alliance and Horde versions differ, and players report the Horde one as worse ([GR3ddy (player), 2025-02-13](https://forum.turtlecraft.gg/viewtopic.php?p=119888#p119888)). The item IDs are linked in [[d:druid#1454629479719899293]].
 
@@ -32,10 +33,11 @@ Seven bosses; the sources name six. Order is only partly known.
 | Boss | What to know | Notable loot |
 |---|---|---|
 | **Marrowspike** (first boss) | No tactics recorded. | 6-item table ([Lanimil (player), 2022-12-26](https://forum.turtlecraft.gg/viewtopic.php?p=31595#p31595)) |
+| **Archlich Enkhraz** (the "lich boss") | Hunters have soloed it [[d:hunter#1449180593228353668]]. | — |
+| **Guard Captain Gort** | the skeletal guard captain of the upper level; no tactics recorded | — |
 | **Corpsemuncher** (the "worm boss", after the water) | **It comes out of its hole to reach players** outside the expected range. The poster was unsure whether this is a bug [[d:warlock#1379816702786801864]]. | Rotworn Grips gloves and a spear, both with 1% hit [[d:druid#1334227082695278632]], [[d:druid#1381630368611958915]], [[d:hunter#1388950972910276661]]; an armor/Stamina tank item used for off-tank duty [[d:druid#1360551930576764929]] |
 | **Hivaxxis** (spider boss) | **Bleed-immune** [[d:druid#1366780027542437909]]. | A helmet [[d:druid#1435988238895419412]] |
 | **Commander Andreon** | Promoted to a full boss with 6 drops in 2023 ([Torta (staff), 2023-01-29](https://forum.turtlecraft.gg/viewtopic.php?p=33498#p33498)). | — |
-| **Archlich Enkhraz** (the "lich boss") | Hunters have soloed it [[d:hunter#1449180593228353668]]. | — |
 | **Alarus** (final boss) | Does not respawn after being killed ([Torta (staff), 2025-05-20](https://forum.turtlecraft.gg/viewtopic.php?p=132195#p132195)). No tactics recorded. | **Staff of Alarus** (+18 Int, +25 Spi, +26 healing) [[d:druid#1425745554226544731]] |
 
 ## Loot highlights

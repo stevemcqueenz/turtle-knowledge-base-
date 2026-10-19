@@ -8,6 +8,22 @@ Vanilla level-60 Blackrock Spire dungeon, up to 10 players. Its main purpose is 
 | Entry | The Seal of Ascension door. **Rogues cannot lockpick it**, since the door has no lock; the lockable door players remember is in BRD [[d:rogue#1479442063035727984]], [[d:rogue#1479485073236562010]] |
 | Turtle changes | The stadium event now starts when the Seal of Ascension is used to summon Vaelastrasz (2023-09-24) ([Torta (staff), 2023-09-24](https://forum.turtlecraft.gg/viewtopic.php?p=66741#p66741)). Rend Blackhand was made harder in 1.18.0 (per the KB timeline) |
 
+## Boss order
+
+The order our route runs (authored, not proven optimal); the numbers are the map markers. UBRS is the 10-player step
+after LBRS and the first thing the raid-scale module has to run. [measured on bot runs, private 1.18.1-based realm
+— verified against our plan files, not a run log]
+
+| Boss | # | Note |
+|---|---|---|
+| **Pyroguard Emberseer** | 1 | the first boss, behind the stadium's rune |
+| **Goraluk Anvilcrack** *(optional)* | 2 | the Blacksmith; the crafting boss |
+| **Jed Runewatcher** *(optional rare)* | 3 | patrols the halls |
+| **Warchief Rend Blackhand** | 4 | the stadium event; the Turtle trigger is the Seal of Ascension summon |
+| **The Beast** | 5 | the arena below |
+| **Lord Valthalak** *(optional)* | 6 | the side event |
+| **General Drakkisath** (final) | 7 | see the notes below |
+
 ## Tank notes
 
 "Ubrs is a nice entry to managing semi dangerous trash. Mark shit, communicate to other tank and ez" [[d:paladin#1441115195643789375]].

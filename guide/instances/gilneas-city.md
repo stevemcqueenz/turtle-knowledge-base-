@@ -28,9 +28,9 @@ Level order from the wiki. The actual route is not documented.
 | Packmaster Ragetooth (worgen) | 44 | **Howl of Terror**, Shadow Bolt | Orb of Aka'thar |
 | Judge Sutherland | 46 | Smite, Fireball, Mind Blast | Gavel of Gilnean Justice |
 | Dustivan Blackcowl | 46 | **Rupture**, **Gouge** | Hookblade Cleaver; quest items |
-| Horsemaster Levvin | 47 | none listed | **Greymane Charger** mount |
 | Marshal Magnus Greystone | 47 | Holy Fire, Slam | Greymane Tabard, Marshal's Blocker |
-| Regent-Lords (Celia + Mortimer Harlow, two targets) | 47 | Celia: Immolate, Corruption. Mortimer: Holy Strike, **Consecration**, **Blast Wave** | Two bosses at once; the source gives no kill order |
+| Horsemaster Levvin | 47 | none listed | **Greymane Charger** mount |
+| **Regent-Lady Celia Harlow** + **Regent-Lord Mortimer Harlow** | 47 | two bosses at once (the wiki counts them as two): Celia — Immolate, Corruption; Mortimer — Holy Strike, **Consecration**, **Blast Wave** | the source gives no kill order |
 | **Genn Greymane** (final) | 49 | Drain Life, **Mortal Strike**, Curse of Agony, **Fear** | Wolfblood, Mark of the Worgen, Greymane Shoulders, *Formula: Enchant Bracer - Vampirism*; rarely a Gilnean Raven pet [[d:hunter#1472410061652492411]] |
 
 The sources contain no player tactics for any of these bosses.

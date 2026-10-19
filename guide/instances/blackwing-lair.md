@@ -100,7 +100,7 @@
 | DPS | Hunters **Tranquilizing Shot** the enrage, or Incinerate hits ~7.2k; keep the tank above ~7-8k HP [[d:paladin#1451157117145972746]], [[d:paladin#1451159037453533257]]. Rogues swap to Deadly/Instant for the Nature vulnerability [[d:rogue#1430566011270074378]], [[d:rogue#1475511937227030724]]. Arcane Vulnerability + a hunter's Arcane ammo proc gives ~9,300 crits [[d:hunter#1484998974283976725]]. Warriors can Death Wish twice [[d:warrior#1431726255010480278]] |
 | Class jobs | A hunter's Kill Command frees the pet from the bronze stun [[d:hunter#1448755403591782420]]; a fully-buffed BM scorpid's poison can be most of a hunter's damage here [[d:hunter#1444523783108165695]] |
 
-### 8. Nefarian
+### 8. Nefarian (Lord Victor Nefarius)
 
 | Role | Job |
 |---|---|

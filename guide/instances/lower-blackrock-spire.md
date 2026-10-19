@@ -17,13 +17,26 @@ Vanilla level ~55-60 orc/troll/dragonkin dungeon in Blackrock Spire. It is unlov
 ## Route
 
 The page has no boss order at all; this is the one our clears run (measured, and it follows the geometry of the
-halls):
+halls). The numbers are the map markers, so the walk below and the numbered map agree.
 
-**Highlord Omokk → Shadow Hunter Vosh'gajin → War Master Voone → Mother Smolderweb → Quartermaster Zigris →
-Halycon** (and **Gizrul the Slavener**, who arrives on her death) **→ Overlord Wyrmthalak** (final).
+| Boss | # | Note |
+|---|---|---|
+| **Highlord Omokk** | 1 | the halls before him are the leg's clock; his own fight is a tank-and-spank |
+| **Spirestone Lord Magus** | 2 | optional, on the way to Omokk |
+| **Spirestone Battle Lord** | 3 | optional, on the way |
+| **Ghok Bashguud** | 4 | optional, up the ramp after Omokk |
+| **Shadow Hunter Vosh'gajin** | 5 | the dais; the two shadow pairs wake each other |
+| **War Master Voone** | 6 | clear the room's rim first, or fight on the floor |
+| **Mother Smolderweb** | 7 | the hall all links within about 15 yards — fight it in small bites from the mouth |
+| **Crystal Fang** | 8 | optional, in the Smolderweb hall |
+| **Quartermaster Zigris** | 9 | the spiderling stretch and the corridors |
+| **Halycon** | 10 | the wolf; **Gizrul the Slavener** arrives on her death — hold the group where the fight ends |
+| **Gizrul the Slavener** | 11 | he comes to Halycon's spot, so this is the same fight |
+| **Mor Grayhoof** | 12 | optional, on the Wyrmthalak leg |
+| **Spirestone Butcher** | 13 | optional, on the Wyrmthalak leg |
+| **Overlord Wyrmthalak** (final) | 14 | 11 packs, then the boss |
 
-The optional named mobs — **Spirestone Lord Magus, Spirestone Battle Lord, Ghok Bashguud, Crystal Fang, Mor
-Grayhoof, Spirestone Butcher** — are picked up where the route passes them; they are not detours.
+The optional named mobs are picked up where the route passes them; they are not detours. [measured on bot runs, private 1.18.1-based realm]
 
 | Leg | Minutes (the round-154 125.1-min clear) | What it is |
 |---|---|---|

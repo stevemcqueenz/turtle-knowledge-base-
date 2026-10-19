@@ -10,6 +10,7 @@ Turtle-custom 5-man for levels 52-60 in the Burning Steppes. Official difficulty
 | Entry | None found |
 | Bosses | 5. Final boss Har'gesh Doomcaller |
 | Official clear time | 1 hour |
+| **'Broody'** (mechanical chicken) | a mechanical chicken on the way; our route kills it, the sources do not name it | — |
 
 **Leveling value:** level 52 is "as soon as you can safely go to Hateforge Quarry and early Blackrock Depths" [[d:shaman#1444438508100915261]]. The dungeon drops six Blacksmithing plans for the **Hateforge Armor** set: 6-piece bonus +20 AP, +100 armor penetration, +2% haste ([Torta (staff), 2022-07-24](https://forum.turtlecraft.gg/viewtopic.php?p=20251#p20251)).
 
@@ -25,15 +26,16 @@ The order is not documented. The table uses wiki level order.
 
 | Boss | What to know | Notable loot |
 |---|---|---|
-| **Corrosis** (lvl 52 water elemental, "green boss") | No abilities recorded. | Corrosive Core (hit trinket) [[d:druid#1418979557569990917]]; Toxic Ripper, Venomsight Mask ([wiki](https://turtle-wow.fandom.com/wiki/Corrosis)) |
-| **Engineer Figgles** (lvl 54 gnome + mechanical dragon) | **Corrosive Poison:** 657-843 Nature every 5 s and -5000 armor for 30 s ([wiki](https://turtle-wow.fandom.com/wiki/Engineer_Figgles)). **Blind the mech dragon**, then burst the gnome [[d:rogue#1489952020185223349]], [[d:rogue#1489953451075965039]]. No longer disarm-immune ([Torta (staff), 2025-06-10](https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177)). | Fluorescent Green Mechanostrider (mount), Techrifle X-TREME 5200 ([wiki](https://turtle-wow.fandom.com/wiki/Engineer_Figgles)) |
 | **High Foreman Bargul Blackhammer** (lvl 54) | Kill the patrolling Overseer first (see above). Soloers time Evasion to cover his hardest-hitting window [[d:rogue#1439093395338301471]]. | Manual: Intervene, Visor of Command ([wiki](https://turtle-wow.fandom.com/wiki/High_Foreman_Bargul_Blackhammer)) |
+| **Engineer Figgles** (lvl 54 gnome + mechanical dragon) | **Corrosive Poison:** 657-843 Nature every 5 s and -5000 armor for 30 s ([wiki](https://turtle-wow.fandom.com/wiki/Engineer_Figgles)). **Blind the mech dragon**, then burst the gnome [[d:rogue#1489952020185223349]], [[d:rogue#1489953451075965039]]. No longer disarm-immune ([Torta (staff), 2025-06-10](https://forum.turtlecraft.gg/viewtopic.php?p=135177#p135177)). | Fluorescent Green Mechanostrider (mount), Techrifle X-TREME 5200 ([wiki](https://turtle-wow.fandom.com/wiki/Engineer_Figgles)) |
+| **'Broody'** (mechanical chicken) | a mechanical chicken on the way; our route kills it, the sources do not name it | — |
 | **Hatereaver Annihilator** (lvl 55 golem) | **Stun stomp.** Heal up right after it [[d:druid#1426274369683984487]]. "The golem slaps hard and stuns" [[d:rogue#1476963943900647514]]. Optional: soloers often skip it [[d:rogue#1487903576704684123]]. | **Hatereaver Cog** (tank armor trinket) [[d:druid#1426274369683984487]], [[d:druid#1430548566132133989]] |
+| **Corrosis** (lvl 52 water elemental, "green boss") | No abilities recorded. | Corrosive Core (hit trinket) [[d:druid#1418979557569990917]]; Toxic Ripper, Venomsight Mask ([wiki](https://turtle-wow.fandom.com/wiki/Corrosis)) |
 | **Har'gesh Doomcaller** (lvl 57, final) | See below. | Shadowruned Girdle (cat/bear belt) [[d:druid#1418979557569990917]]; Toxic Talisman, Doomcaller Staff, Band of Calamity ([wiki](https://turtle-wow.fandom.com/wiki/Har%27gesh_Doomcaller)) |
 
 A "tower" boss is an easy solo that drops a crest and a blue to disenchant [[d:rogue#1476961364600684624]]. The source does not name it.
 
-### Har'gesh Doomcaller (final boss)
+**Har'gesh Doomcaller (final boss)**
 
 | Role | Job |
 |---|---|

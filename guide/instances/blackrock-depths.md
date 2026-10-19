@@ -8,6 +8,32 @@ Vanilla level ~52-60 Dark Iron city under Blackrock Mountain. It is the backbone
 | Location | Blackrock Mountain (vanilla) |
 | Turtle notes | The "arena jump" skip from classic is nerfed [[d:hunter#1462947828316901406]]. *Lock Blueprints: Sorcerer-Thane Thaurissan* was reclassified as a raid quest (2026-04-07) ([Torta (staff), 2026-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367)) |
 
+## Boss order
+
+The order our route runs (authored, not proven optimal); the numbers are the map markers. "Optional" marks the stops
+a full clear does not owe. [measured on bot runs, private 1.18.1-based realm — verified against our plan files, not
+a run log]
+
+| Boss | # | Note |
+|---|---|---|
+| **High Interrogator Gerstahn** | 1 | the prison; the first boss of the route |
+| **Pyromancer Loregrain** *(optional)* | 2 | the Shadowforge halls |
+| **Lord Roccor** *(optional)* | 3 | the halls |
+| **Houndmaster Grebmar** | 4 | the kennel |
+| **General Angerforge** | 5 | the Ring of Law's neighbour; the arena is optional |
+| **Bael'Gar** | 6 | the lava pit |
+| **Golem Lord Argelmach** | 7 | the bar |
+| **Darneg Darkbeard** *(optional)* | 8 | |
+| **Verek** *(optional)* | 9 | |
+| **Warder Stilgiss** *(optional)* | 10 | the vault |
+| **Lord Incendius** | 11 | the vault's bridge |
+| **Fineous Darkvire** | 12 | the Dark Iron highway |
+| **Ambassador Flamelash** | 13 | the Chamber of Enchantment |
+| **Panzor the Invincible** *(optional rare)* | 14 | |
+| **Magmus** | 15 | the Imperial Seat's guard |
+| **Princess Moira Bronzebeard** | 16 | next to the Emperor; our route takes her first |
+| **Emperor Dagran Thaurissan** (final) | 17 | |
+
 ## Group and leveling notes
 
 - **From 52** you can "safely go to Hateforge Quarry and early Blackrock Depths" [[d:shaman#1444438508100915261]].

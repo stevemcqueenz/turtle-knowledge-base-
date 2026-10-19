@@ -25,17 +25,21 @@ the way, and the order below is the one our clears run (authored, not proven opt
 
 | # | Stop | Note |
 |---|---|---|
-| 1 | **Farraki Arena** — Kath'zen the Brutal, Juthza the Cunning, Champion Razjal the Quick | the gauntlet at the entrance; the champion's Hellfire is the one burst |
-| 2 | **Antu'sul** | his Sul'lithuz adds come first; the hatchlings next to him cannot be damaged at all — do not waste a pull on them [measured on bot runs, private 1.18.1-based realm] |
-| 3 | **Theka the Martyr** | patrols the temple ring |
-| 4 | Zerillis, Sandarr Dunereater, Witch Doctor Zum'rah | optional named mobs on the ring |
-| 5 | **Sandfury Executioner** | on the way to the tombs — and **he carries the key the stair event needs** (below) |
-| 6 | **Zel'jeb the Ancient** (Farraki Tombs) | optional and off our route; the page's fire mechanic (the Flame of Farrak from Ukorz's brazier) is the group's fire source — the item's on-use is an **instant fire hit on a 10-minute cooldown**, not a buff to carry, and our data does not confirm the wiki's "fire breaks the embalming" [measured] |
-| 7 | **Hydromancer Velratha** | the temple; pull her pack toward the stairs, not from the water's edge [measured] |
-| 8 | **Gahz'rilla** | ring the **Gong of Zul'Farrak** at the pool to summon him: the gong is a **keyed use — one member carries the Mallet of Zul'Farrak** — so treat the gong as part of the route, not a detour [measured] |
-| 9 | **the stair event** — see below | the dungeon's clear gate |
-| 10 | **Ruuzlu** | on the pyramid, immediately before the king |
-| 11 | **Chief Ukorz Sandscalp** (final) | adds-then-boss with a big AoE; stack, kill adds, move out [measured] |
+| Boss | # | Note |
+|---|---|---|
+| **Farraki Arena** — Kath'zen the Brutal, Juthza the Cunning, Champion Razjal the Quick | 1 | the gauntlet at the entrance; the champion's Hellfire is the one burst |
+| **Antu'sul** | 2 | his Sul'lithuz adds come first; the hatchlings next to him cannot be damaged at all — do not waste a pull on them [measured on bot runs, private 1.18.1-based realm] |
+| **Theka the Martyr** | 3 | patrols the temple ring |
+| **Zerillis** | 4 | optional named mob on the temple ring |
+| **Sandarr Dunereaver** | 5 | optional named mob on the temple ring |
+| **Witch Doctor Zum'rah** | 6 | optional named mob, on the ring's far side |
+| **Sandfury Executioner** | 7 | on the way to the tombs — and **he carries the key the stair event needs** (below) |
+| **Zel'jeb the Ancient** (Farraki Tombs) | — | optional and off our route, and he gets no marker: the tombs lie outside the mapped floor. The page's fire mechanic (the Flame of Farrak from Ukorz's brazier) is the group's fire source — the item's on-use is an **instant fire hit on a 10-minute cooldown**, not a buff to carry, and our data does not confirm the wiki's "fire breaks the embalming" [measured] |
+| **Hydromancer Velratha** | 8 | the temple; pull her pack toward the stairs, not from the water's edge [measured] |
+| **Gahz'rilla** | 9 | ring the **Gong of Zul'Farrak** at the pool to summon him: the gong is a **keyed use — one member carries the Mallet of Zul'Farrak** — so treat the gong as part of the route, not a detour [measured] |
+| **the stair event** — **Shadowpriest Sezz'ziz** and **Nekrum Gutchewer** | 10 | the dungeon's clear gate; both die at the stair base (below) |
+| **Ruuzlu** | 11 | on the pyramid, immediately before the king |
+| **Chief Ukorz Sandscalp** (final) | 12 | adds-then-boss with a big AoE; stack, kill adds, move out [measured] |
 
 Our round-154 clear kills **nine bosses** (the plan's five required, plus Gahz'rilla, the Sandfury Executioner and
 the two stair-event bosses) in about **58 minutes** with 0 wipes; the arena trio and Zel'jeb are where the time goes

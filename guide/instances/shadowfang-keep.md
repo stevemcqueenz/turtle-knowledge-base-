@@ -19,19 +19,19 @@ Vanilla level ~22-30 Silverpine dungeon. Turtle added the optional church with *
 The page has no boss order. This is the one our clears run (measured; the numbers are the order our runs kill them
 in, which is the keep's climb):
 
-| # | Stop | Note |
+| Boss | # | Note |
 |---|---|---|
-| 1 | **Rethilgore** | the courtyard; the worg pack around him is the first real pull |
-| 2 | **Razorclaw the Butcher** | the second stop on the climb |
-| 3 | **Baron Silverlaine** | the third |
-| 4 | **Sever** *(optional)* | our clears skip it |
-| 5 | **Prelate Ironmane** *(optional, Turtle)* | the church — see the page's section; our clears skip it |
-| 6 | **Commander Springvale** | the corridor |
-| 7 | **Odo the Blindwatcher** | the corridor's end |
-| 8 | **Deathsworn Captain** *(optional rare)* | taken when the route passes him |
-| 9 | **Fenrus the Devourer** | the ramp |
-| 10 | **Wolf Master Nandos** | past the **Sorcerer's Gate** |
-| 11 | **Archmage Arugal** (final) | the top |
+| **Rethilgore** | 1 | the courtyard; the worg pack around him is the first real pull |
+| **Razorclaw the Butcher** | 2 | the second stop on the climb |
+| **Baron Silverlaine** | 3 | the third |
+| **Sever** *(optional)* | 4 | our clears skip it |
+| **Prelate Ironmane** *(optional, Turtle)* | 5 | the church — see the page's section; our clears skip it |
+| **Commander Springvale** | 6 | the corridor |
+| **Odo the Blindwatcher** | 7 | the corridor's end |
+| **Deathsworn Captain** *(optional rare)* | 8 | taken when the route passes him |
+| **Fenrus the Devourer** | 9 | the ramp |
+| **Wolf Master Nandos** | 10 | past the **Sorcerer's Gate** |
+| **Archmage Arugal** (final) | 11 | the top |
 
 The keep is **vertical**: the run climbs from the courtyard to Arugal, and the stairs are the route. Two doors are
 part of it: the **Courtyard Door** and the **Sorcerer's Gate** (the one before Nandos). [measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]

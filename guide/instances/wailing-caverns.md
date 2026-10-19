@@ -8,27 +8,29 @@ Vanilla level ~17-24 Barrens dungeon. Turtle added two optional areas, The Overg
 | Location | Northern Barrens (vanilla) |
 | Turtle changes | Vangros and Zandara Windhoof added; Serpent's Shoulders now Rare; mob pathing improved (2024-11-19) |
 
+## Route
+
+| Boss | # | Note |
+|---|---|---|
+| **Lady Anacondra** + **Lord Cobrahn** | 1 | the first two Fanglords, each in their own cave |
+| **Kresh** | 2 | the rare turtle, on the way between the caves |
+| **Lord Pythas** | 3 | the third Fanglord |
+| **Skum** | 4 | the second named mob on the way |
+| **Lord Serpentis** | 5 | the fourth Fanglord |
+| **Verdan the Everliving** | 6 | the big druid in the central chamber |
+| **Vangros** *(optional)* | 7 | The Overgrowth (Turtle); off the main route |
+| **Zandara Windhoof** *(optional)* | 8 | Kolkar Falls (Turtle); off the main route |
+| **Deviate Faerie Dragon** *(optional)* | 9 | the rare, off the main route |
+| **the Disciple of Naralex escort → Mutanus the Devourer** (final) | 10 | see below — this is the clear |
+
+Our clears are the four Fanglords → Verdan → the escort. [measured on bot runs, private 1.18.1-based realm]
+
 ## New bosses
 
 | Boss | Abilities ([wiki](https://turtle-wow.fandom.com/wiki/Vangros)) | Notes / loot |
 |---|---|---|
 | **Vangros** (lvl 22, The Overgrowth) | **Crush Armor**, **Knock Away** | He ignored threat until a 2025-01-14 fix ([Reynolds (staff), 2025-01-14](https://forum.turtlecraft.gg/viewtopic.php?p=116739#p116739)). Drops **Idol of the Apex Predator** (the -2 rage Roar idol), which players call the "crocodile boss" drop [[d:druid#1439092821196931123]], plus Band of the Claw |
 | **Zandara Windhoof** (lvl 23, centaur, Kolkar Falls) | **Chain Lightning**, Gust of Wind | Totem of Static Charge (shaman relic); quest *Against the Kolkar Dream* ([wiki](https://turtle-wow.fandom.com/wiki/Zandara_Windhoof)) |
-
-## Route
-
-| # | Stop | Note |
-|---|---|---|
-| 1-2 | **Lady Anacondra, Lord Cobrahn** | the first two Fanglords, each in their own cave |
-| 3 | **Kresh** | the rare turtle, on the way between the caves |
-| 4 | **Lord Pythas** | the third Fanglord |
-| 5 | **Skum** | the second named mob on the way |
-| 6 | **Lord Serpentis** | the fourth Fanglord |
-| 7 | **Verdan the Everliving** | the big druid in the central chamber |
-| 8 | *(optional)* **Vangros** (The Overgrowth), **Zandara Windhoof** (Kolkar Falls), the **Deviate Faerie Dragon** | all off the main route; the two Turtle bosses are side areas |
-| 9 | **the Disciple of Naralex escort → Mutanus the Devourer** (final) | see below — this is the clear |
-
-Our clears are the four Fanglords → Verdan → the escort. [measured on bot runs, private 1.18.1-based realm]
 
 ## The last boss is a summon, not a boss in the cave
 

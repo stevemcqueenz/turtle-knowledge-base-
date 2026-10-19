@@ -15,16 +15,20 @@ Vanilla level-60 dungeon in Eastern Plaguelands, with a Live (Scarlet) side and 
 
 ## Route — Live side (main gate)
 
-Our clears run the Live side in this order (the boss order is measured, not the level order the wiki gives):
+Our clears run the Live side in this order (the six required bosses are measured, not the level order the wiki
+gives); the numbers are the map markers and run on into the Undead table below.
 
-| # | Boss | Note |
+| Boss | # | Note |
 |---|---|---|
-| 1 | **The Unforgiven** | the first courtyard boss; her four Vengeful Phantoms slow the tank, so they die first [classic] |
-| 2 | **Timmy the Cruel** | he looks like ordinary trash ghouls — the group walks past him without an anchor; Thrash, a self-heal on his claw, and Enrage at 50% [classic] |
-| 3 | **Malor the Zealous** | a caster paladin alone in a side room: Ground Smash (AoE stun), Holy Light on an ally, and Lay on Hands at low health — burst or kick past it [classic] |
-| 4 | **Cannon Master Willey** | the fight is his reinforcements: Riflemen keep arriving until the cannons beside him are loaded and fired with the ammo piles next to him — our plan's data carries the cannon fire [measured] |
-| 5 | **Archivist Galford** | last corridor of the Bastion: pull him out of the corridor so Fire Nova and Burning Winds are not on the stack [classic] |
-| 6 | **Grand Crusader Dathrohan → Balnazzar** (final) | the scripted reveal: "Dathrohan" is Balnazzar. Our clears register Balnazzar as the final kill [measured on bot runs, private 1.18.1-based realm] |
+| **Balzaphon** *(optional)* | 1 | the crypt west of the entrance; our clears skip him |
+| **Skul** *(optional rare)* | 2 | the same crypt as Balzaphon |
+| **The Unforgiven** | 3 | the first courtyard boss; her four Vengeful Phantoms slow the tank, so they die first [classic] |
+| **Timmy the Cruel** | 4 | he looks like ordinary trash ghouls — the group walks past him without an anchor; Thrash, a self-heal on his claw, and Enrage at 50% [classic] |
+| **Malor the Zealous** | 5 | a caster paladin alone in a side room: Ground Smash (AoE stun), Holy Light on an ally, and Lay on Hands at low health — burst or kick past it [classic] |
+| **Jarien** + **Sothos** *(optional)* | 6 | the ghost pair in the crypt; our clears skip them |
+| **Cannon Master Willey** | 7 | the fight is his reinforcements: Riflemen keep arriving until the cannons beside him are loaded and fired with the ammo piles next to him — our plan's data carries the cannon fire [measured] |
+| **Archivist Galford** | 8 | last corridor of the Bastion: pull him out of the corridor so Fire Nova and Burning Winds are not on the stack [classic] |
+| **Grand Crusader Dathrohan → Balnazzar** (final) | 9 | the scripted reveal: "Dathrohan" is Balnazzar. Our clears register Balnazzar as the final kill [measured on bot runs, private 1.18.1-based realm] |
 
 **Optionals on this side:** Balzaphon, Skul (rare) and the Jarien/Sothos pair. A clean Live clear is **six bosses**
 in our runs; the round's Live clears run **55 to 109 minutes** (fastest 55.2 min with 0 wipes, slowest 109.2 min).
@@ -32,14 +36,16 @@ in our runs; the round's Live clears run **55 to 109 minutes** (fastest 55.2 min
 
 ## Route — Undead side (service entrance)
 
-| # | Boss | Note |
+| Boss | # | Note |
 |---|---|---|
-| 1 | **Magistrate Barthilas** | the first boss of the side, and the one that matters for the gates: he drops the **Key to the City** [measured] |
-| 2 | **Baroness Anastari** | Possess: a party member is mind-controlled and must be brought to **50% health by their own group** to break it; Silence and Banshee Curse [classic] |
-| 3 | **Nerub'enkan** | Encasing Webs on the tank and adds; tank at the top of the ramp, in line of sight of the healer [classic] |
-| 4 | **Maleki the Pallid** | frost caster; interrupt and decurse [classic] |
-| 5 | **Ramstein the Gorger** | enters when the last abomination dies. **Knockout** (in our plan's data) drops his target's threat and switches him to the second-highest — have a taunt ready [classic] |
-| 6 | **Baron Rivendare** (final) | **Mortal Strike** (healing debuff on the tank — in our plan's data) and **Unholy Aura** (a **~27-yard** shadow aura that hits ranged and healers, not just melee) — keep the group spread [classic] |
+| **Magistrate Barthilas** | 10 | the first boss of the side, and the one that matters for the gates: he drops the **Key to the City** [measured] |
+| **Baroness Anastari** | 11 | Possess: a party member is mind-controlled and must be brought to **50% health by their own group** to break it; Silence and Banshee Curse [classic] |
+| **Nerub'enkan** | 12 | Encasing Webs on the tank and adds; tank at the top of the ramp, in line of sight of the healer [classic] |
+| **Stonespine** *(optional rare)* | 13 | patrols between the ziggurats; our clears take it when it walks into them |
+| **Maleki the Pallid** | 14 | frost caster; interrupt and decurse [classic] |
+| **Ramstein the Gorger** | 15 | enters when the last abomination dies. **Knockout** (in our plan's data) drops his target's threat and switches him to the second-highest — have a taunt ready [classic] |
+| **Black Guard Sentry** | 16 | the gauntlet's sentry, summoned with Ramstein's event: the plan owes it as a boss, the route line below counts it as gauntlet trash [measured] |
+| **Baron Rivendare** (final) | 17 | **Mortal Strike** (healing debuff on the tank — in our plan's data) and **Unholy Aura** (a **~27-yard** shadow aura that hits ranged and healers, not just melee) — keep the group spread [classic] |
 
 The **Black Guard Sentries** are the gauntlet's trash around Ramstein, not a boss stop of their own (our clears kill
 six bosses on this side). [measured]

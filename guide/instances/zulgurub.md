@@ -11,6 +11,23 @@
 | Scaling | Scaled 20→12 before 2026-04 [[d:paladin#1485271199163355399]]; from 2026-04-21 down to 8 ([Torta (staff), 2026-04-21](https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101)) |
 | Lockout | Not stated in the sources |
 
+## Boss order
+
+The vanilla roster in the order a run takes it (the five high priests can be taken in any order); the numbers are the
+map markers. [classic]
+
+| Boss | # | Note |
+|---|---|---|
+| **High Priestess Jeklik** | 1 | a priest boss; the hard-mode Hakkar leaves the priests alive |
+| **High Priest Venoxis** | 2 | a priest boss |
+| **High Priestess Mar'li** | 3 | a priest boss |
+| **High Priest Thekal** | 4 | a priest boss |
+| **High Priestess Arlokk** | — | a priest boss, and the one with no spawn row in our data, so she gets no marker |
+| **Bloodlord Mandokir** | 5 | after the priests |
+| **Gahz'ranka** *(optional)* | 6 | summoned by fishing in Pagle's Pointe |
+| **Jin'do the Hexxer** | 7 | see the troll packs above |
+| **Hakkar** (final) | 8 | leave the priests alive for the hard mode |
+
 ## Raid-wide notes
 
 - **Nature:** ZG has essentially no nature-immune bosses per a vanilla-based list [[d:hunter#1407146893892386966]].

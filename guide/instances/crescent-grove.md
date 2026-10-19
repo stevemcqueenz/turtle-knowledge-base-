@@ -10,6 +10,8 @@ Turtle-custom 5-man for levels 32-38 above Mystral Lake in Ashenvale. Official d
 | Entry | None found |
 | Bosses | 7. The last three are in the demonic Vilethorn Scar |
 
+| **Elder 'One Eye'** *(optional)* | 34 | — | the furbolg elder before Engryss; the route's first stop |
+| **Elder Blackmaw** *(optional)* | 34 | — | the second furbolg elder, right after Engryss |
 ## Group notes
 
 - **Every pack pulls together.** "All creature packs in Crescent Grove now pull together when one of them is attacked" ([Torta (staff), 2025-05-06](https://forum.turtlecraft.gg/viewtopic.php?p=129934#p129934)). Plan pulls as full packs.
@@ -19,7 +21,9 @@ Turtle-custom 5-man for levels 32-38 above Mystral Lake in Ashenvale. Official d
 
 | Boss | Lvl | Mechanics ([Torta (staff), 2025-02-22](https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615), [wiki](https://turtle-wow.fandom.com/wiki/Crescent_Grove)) | Player notes |
 |---|---|---|---|
+| **Elder 'One Eye'** *(optional)* | 34 | — | the furbolg elder before Engryss; the route's first stop |
 | **Grovetender Engryss** (furbolg) | 34 | none listed | Easy solo at ~40-42 for his two-hand mace [[d:shaman#1434627465166458993]], [[d:druid#1478392342237941780]]. |
+| **Elder Blackmaw** *(optional)* | 34 | — | the second furbolg elder, right after Engryss |
 | **Keeper Ranathos** | 35 | Wrath; calls **Deranged Ancients** as he loses health | Soloable at about 35 by hunters for the bow [[d:hunter#1409768881899311114]]. |
 | **Warden Liferoot** + **Warden Treeshade** | 35 | Wrath, Entangling Roots; each comes with two **Twisted Ancients** | — |
 | **High Priestess A'lathea** | 36 | Stronger, more frequent **Starfire**; **Moonfire hits all players** | — |

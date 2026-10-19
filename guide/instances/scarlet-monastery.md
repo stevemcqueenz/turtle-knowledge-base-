@@ -9,6 +9,27 @@ Vanilla four-wing dungeon in Tirisfal Glades. Players run it at about 26 (Gravey
 
 The turtlecraft.gg "Classic Dungeons Update" page uses stale draft names (Brother Steelfist, The Nameless Experiment, Master Smith Johana). The live bosses are below.
 
+## Boss order
+
+The four wings in the order our clears run them, wing by wing; the numbers are the map markers and run across all
+four wings (the Graveyard first). "Optional" marks the stops our clears skip. [measured on bot runs, private
+1.18.1-based realm — verified against our plan files, not a run log]
+
+| Boss | # | Note |
+|---|---|---|
+| **Interrogator Vishas** | 1 | Graveyard |
+| **Duke Dreadmoore** *(optional, Turtle)* | 2 | Graveyard, between Vishas and Thalnos |
+| **Scorn** *(optional rare)* | 3 | Graveyard |
+| **Bloodmage Thalnos** | 4 | Graveyard |
+| **Houndmaster Loksey** | 5 | Library |
+| **Brother Wystan** | 6 | Library; required in our plan |
+| **Arcanist Doan** | 7 | Library |
+| **Armory Quartermaster Daghelm** *(optional, Turtle)* | 8 | Armory, before Herod's door |
+| **Herod** | 9 | Armory |
+| **High Inquisitor Fairbanks** | 10 | Cathedral |
+| **Scarlet Commander Mograine** | 11 | Cathedral |
+| **High Inquisitor Whitemane** (final) | 12 | Cathedral |
+
 ## New bosses
 
 | Wing | Boss | Abilities (wiki) | Loot |

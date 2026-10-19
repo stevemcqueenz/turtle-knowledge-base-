@@ -35,6 +35,10 @@ These packs are the main wipe risk. They are the "3/4 Dragon pack pulls leading 
 
 The rework has 7 bosses ([Torta (staff), 2023-01-21](https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868)). The sources name 7: **Chronar**, **Drifting Avatar of Time**, **Epidamu**, **Rotmaw** (crocolisk), **Mossheart** (bog beast), **Epochronos** and **Antnormi** (final boss) [[d:turtle-wiki#1354099759538765966]]. Only Chronar (first) and Antnormi (last) have a known position.
 
+Our clears' order is **Chronar → Epidamu → Drifting Avatar of Sand → Time-Lord Epochronos → Mossheart →
+Antnormi**, with **Rotmaw** (the crocolisk) as an optional stop on the way; the numbers are the map markers.
+[measured on bot runs, private 1.18.1-based realm]
+
 ### Chronar (first boss)
 
 - "Chronar's first boss, just gotta get passed a few hard packs" [[d:paladin#1342601089265963121]]. The Black Morass polearm quest sends you to kill him. It rewards the Halberd of the Bronze Defender [[d:paladin#1342600863541100576]], [[d:hunter#1313650537874329662]].
@@ -42,11 +46,19 @@ The rework has 7 bosses ([Torta (staff), 2023-01-21](https://forum.turtlecraft.g
 - **Spell reflect.** The tell is a sparkle animation on the boss, not a yell. He also casts an AoE slowing shout that can leave a Felhunter out of range, so keep the pet close [[d:warlock#1443748499341443125]]. Warlocks use the Felhunter here [[d:warlock#1352334585371037738]].
 - Loot: Monolith Headguard (a tank helm) [[d:paladin#1327978668156518503]].
 
-### The first big dragon boss, phase 2
+### Epidamu
+
+- See the shared notes below (drops Totem of the Flowing Timeways and Fabric of Time).
+
+### Drifting Avatar of Sand
+
+- See the shared notes below (cannot be stunned or frozen; drops Pauldrons of the Timeless).
+
+### Time-Lord Epochronos (the sources' "first big dragon boss")
 
 - In phase 2 of "the first big dragon boss", it summons an add (an echo of a past figure, e.g. "the Lich King") that casts Mortal Coil and a fire AoE. **Hex it** while it is still weak. When the Hex wears off it is almost dead [[d:shaman#1318354711631499295]] (single source, 2024-12). The source does not say which boss this is.
 
-### Rotmaw, Mossheart, Epidamu, Drifting Avatar of Time
+### Mossheart
 
 - **Rotmaw** (the crocolisk boss) "consumes" the tank, and threat has to be retaken afterwards. That makes it rough for a tank with no taunt, such as a warlock tank [[d:warlock#1379816702786801864]] (single source). He drops the Idol of Savagery (the cat bleed idol) and Wraps of the Transmogrified ([Torta (staff), 2023-01-21](https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868)), [[d:druid#1366528673066520636]], plus Rotmaw's Tooth, a common tanking dagger [[d:warrior#1189357215107252224]].
 - **Mossheart** drops Mossheart's Heart, a tank trinket (145 armor, 8 HP5, nature thorns) [[d:paladin#1449287120295428278]].
@@ -67,6 +79,10 @@ The dragon everyone wipes on. "The end dragon is ridiculously overscaled. It has
 
 - Loot: the epic **Eye of the Abyss** at about 1% ([Torta (staff), 2023-01-21](https://forum.turtlecraft.gg/viewtopic.php?p=32868#p32868)), and the Spear of the Endless Hunt polearm [[d:hunter#1401939608027271311]], [[d:hunter#1360041386963112138]].
 - A tank benchmark: "if you can tank the last boss of Black Morass you can probably tank Rag" [[d:shaman#1489072008456310895]].
+
+### Rotmaw (optional, the crocolisk)
+
+- He "consumes" the tank and threat has to be retaken afterwards; rough for a tank with no taunt [[d:warlock#1379816702786801864]] (single source). Drops the Idol of Savagery, Wraps of the Transmogrified and Rotmaw's Tooth.
 
 ## Loot and reputation
 

@@ -2,6 +2,22 @@
 
 Vanilla level ~25-35 quilboar dungeon in the southern Barrens. In 1.18.0 Turtle added **The Brambled Grotto**, with a new boss, **Rotthorn** ([Torta (staff), 2025-02-22](https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615)). Scripting fixes to various mobs followed in 2025-07 ([Torta (staff), 2025-07-22](https://forum.turtlecraft.gg/viewtopic.php?p=140939#p140939)).
 
+## Boss order
+
+The order our clears run and the numbers are the map markers. [measured on bot runs, private 1.18.1-based realm]
+
+| Boss | # | Note |
+|---|---|---|
+| **Death Speaker Jargba** | 1 | required |
+| **Aggem Thorncurse** | 2 | required |
+| **Roogug** | 3 | required |
+| **Overlord Ramtusk** | 4 | required; his adds come first |
+| **Earthcaller Halmgar** | 5 | optional rare; taken when he spawns |
+| **Rotthorn** | 6 | optional, The Brambled Grotto (Turtle, 1.18.0) |
+| **Charlga Razorflank** (final) | 7 | required |
+| **Agathelos the Raging** | 8 | optional; our clears skip him |
+| **Blind Hunter** | 9 | optional; our clears skip him |
+
 ## Rotthorn (lvl 32, bog beast)
 
 - No abilities are listed. Drops Bramblethorn Girdle, Thornlash Branch, Seed of Writhing Growth, **Idol of the Thorned Grove** (druid), and the *Tainted Brambleheart* quest item ([wiki](https://turtle-wow.fandom.com/wiki/Rotthorn)).

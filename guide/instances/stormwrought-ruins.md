@@ -24,17 +24,17 @@ Abilities come from the wiki ([Stormwrought Ruins](https://turtle-wow.fandom.com
 
 | Boss | Lvl | Abilities / notes |
 |---|---|---|
+| Dagar the Glutton | 34 | **Tendon Rip** (-58% movement speed), Consume Flesh, Infected Bite |
+| Oronok Torn-Heart | 34 | Death and Decay, Death Coil, Shadow Burst, Shadow Bolt |
 | Librarian Theodorus | 35 | Blizzard, Cone of Cold, Frostbolt; **summons an Enraged Sea Elemental** |
 | Duke Balor the IV | 36 | Mind Flay, Wailing Dead, Curse of Impotence, **Psychic Scream**, Dark Strike |
 | **Chieftain Stormsong** | 36 | Enrage, **Lightning Strike**, **Stun Bomb**, Forked Lightning. The "shaman" boss is in the mushroom room right before a locked gate [[d:shaman#1406278234651365537]]. His Lightning Strike can take a big chunk of HP when unlucky [[d:shaman#1445513951189139587]]. Drops **Totem of the Tides**, at roughly 20% or worse over 4-5 runs [[d:shaman#1406280976111239168]] |
-| Dagar the Glutton | 34 | **Tendon Rip** (-58% movement speed), Consume Flesh, Infected Bite |
-| Oronok Torn-Heart | 34 | Death and Decay, Death Coil, Shadow Burst, Shadow Bolt |
+| Subjugator Halthas Shadecrest | 37 | **Fear**, Flamestrike |
+| Deathlord Tidebane | 38 | Bone Armor, Drowning Death, Dark Plague, Wail of Souls, Rain of Fire |
 | Mycellakos (bog beast) | 36 | Decaying Mold |
 | Eldermaw the Primordial (crocolisk) | 37 | Tail Slap |
-| Subjugator Halthas Shadecrest | 37 | **Fear**, Flamestrike |
-| Remains of the Innocent (ooze) | 38 | Diseased Slime, Noxious Cloud |
 | Lady Drazare (succubus) | 38 | Drazare's Embrace, **Dark Seduction** |
-| Deathlord Tidebane | 38 | Bone Armor, Drowning Death, Dark Plague, Wail of Souls, Rain of Fire |
+| Remains of the Innocent (ooze) | 38 | Diseased Slime, Noxious Cloud |
 | **Ighal'for → Mergothid** (final, 38/40) | | Ighal'for summons the beholder Mergothid, who has Flamestrike, Immolate, Curse of Agony, Death Coil, Bloodstone Ritual, **Spawn Rifttorn Nether Imps**, Curse and Binding of Mergothid ([wiki](https://turtle-wow.fandom.com/wiki/Mergothid)). A reset bug after wipes was fixed 2025-08-26 ([Torta (staff), 2025-08-26](https://forum.turtlecraft.gg/viewtopic.php?p=148454#p148454)) |
 
 ## Loot and leveling value

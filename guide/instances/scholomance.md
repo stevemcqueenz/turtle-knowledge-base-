@@ -7,6 +7,29 @@ Vanilla level-60 necromancer academy in Western Plaguelands. Capped at 5 players
 | Size | 5 (capped) |
 | Turtle changes | 5 of the 6 final-chamber bosses now always drop loot (was 30%) ([Jamey (staff), 2023-04-26](https://forum.turtlecraft.gg/viewtopic.php?p=43089#p43089)) |
 
+## Boss order
+
+The order our route runs (authored, not proven optimal) and the numbers are the map markers. No round has cleared
+Scholomance yet: the runs so far die at the entrance. [measured on bot runs, private 1.18.1-based realm]
+
+| Boss | # | Note |
+|---|---|---|
+| **Lord Blackwood** | 1 | optional, the first hall |
+| **Rattlegore** | 2 | see the solo notes below |
+| **Ras Frostwhisper** | 3 | optional, patrols |
+| **Kormok** | 4 | optional |
+| **Instructor Malicia** | 5 | the first required boss |
+| **The Ravenian** | 6 | the hall after Malicia |
+| **Vectus** | 7 | optional, the alchemy lab |
+| **Marduk Blackpool** | 8 | optional; see the weapon-skill note below |
+| **Jandice Barov** | 9 | optional, the viewing room |
+| **Kirtonos the Herald** | 10 | optional and summoned (the blood of the covenant) |
+| **Lorekeeper Polkelt** | 11 | the library |
+| **Lady Illucia Barov** | 12 | the Barov wing |
+| **Doctor Theolen Krastinov** | 13 | the Barov wing |
+| **Lord Alexei Barov** | 14 | the Barov wing |
+| **Darkmaster Gandling** (final) | 15 | the final chamber; five of its six bosses always drop loot |
+
 ## Group notes
 
 - **Ranged-pull everything.** "Scholo is where you want a ranged pull everywhere due to density" [[d:paladin#1435893064710492170]].

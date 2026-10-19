@@ -33,7 +33,7 @@
 
 Mind Control plus teleports and big character models make target swapping confusing — "if they removed the mind control from him it would be 10 times better" [[d:shaman#1473203024657780736]], [[d:shaman#1473203189536002283]]. A shaman can be the third tank [[d:shaman#1429612004775170120]].
 
-### Bug Trio (Silithid Royalty)
+### Bug Trio — Lord Kri, Princess Yauj and Vem (Silithid Royalty)
 
 Lots of add wrangling for tanks [[d:warrior#1431446441515286559]]. Some room for AoE [[d:shaman#1450906775879421962]]. A shaman can third-tank it [[d:shaman#1429612004775170120]].
 
@@ -65,7 +65,7 @@ AoE value is mostly "fluff" [[d:shaman#1450906775879421962]]. Drops the Cloak of
 - Shamans' Spirit Link helps the tank in the last 30% [[d:shaman#1443098135030136852]], [[d:shaman#1443098263833284640]].
 - Huhuran's Stinger is a key Combat rogue item [[d:rogue#1464217579429298351]].
 
-### Twin Emperors (Vek'lor and Vek'nilash)
+### Twin Emperors — Emperor Vek'lor and Emperor Vek'nilash
 
 **Vek'lor** (caster) is physical-immune; **Vek'nilash** (melee) is magic-immune [[d:priest#1359078422080389252]], [[d:shaman#1377887436532748308]]. They teleport-swap; tanks pick them up on each side.
 

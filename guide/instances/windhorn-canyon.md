@@ -20,10 +20,10 @@ Abilities come from the wiki boss pages. The route is documented below. The sour
 
 | Boss | Lvl | Abilities | Notable loot |
 |---|---|---|---|
+| Walgan Bloodcaller | 27 | Cleave, War Stomp | Bloodcaller's Decapitator |
 | Ahgk'tos the Pure (wind serpent) | 24 | Lightning Cloud, Wing Flap | Windserpent Hauberk, Coilscale Ring |
 | Pathun Duskhide | 25 | **Hooked Net**, Demoralizing Shout, Kodo Stomp | *Plans: Kodoheart Necklace* |
 | Ambassador Vortalus (air elemental) | 26 | Gust of Wind, Chain Lightning, **Engulfing Vortex** ([Torta (staff), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490)) | Thunderstrike Pike, Knuckles of Vortalus; the new gun-axe [[d:hunter#1485018350412239010]] |
-| Walgan Bloodcaller | 27 | Cleave, War Stomp | Bloodcaller's Decapitator |
 | Bonespeaker Narlgom | 27 | Rain of Fire; summons Spirit of Champion Rotag mid-fight | Bonespeaker Cane |
 | Prophet Stormhoof | 28 | Corruption, Curse of Agony, Wail of Souls | Deathtotem Relic, *Plans: Ceremonial Belt Buckle* |
 | **Chieftain Shalk Blackwind** (final) | 29 | **Berserker Charge**, Flame of Shalk; calls a **Blackwind Bloodguard** at 50% | Ar'pora, the Chieftain's Judgement; Heart of Windhorn; *Pattern: Grimtotem Bracers* |

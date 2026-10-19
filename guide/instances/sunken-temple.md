@@ -29,14 +29,27 @@ Vanilla level ~50-56 dungeon in the Swamp of Sorrows. On Turtle it is mostly run
 
 ## Route
 
-The page has no boss order, and this is the one our clears run (measured, 13 kills):
+The page has no boss order, and this is the one our clears run (measured, 13 kills); the numbers are the map
+markers.
 
-**the six channelling trolls on the upper floor** — **Gasher → Loro → Hukku → Mijan → Zul'Lor → Zolo** (killing each
-stops a channel; the order above is the order our runs take them) — **then down: Jammal'an the Prophet → Ogom the
-Wretched → the four dragons (Dreamscythe → Weaver → Morphaz → Hazzas) → Shade of Eranikus** (final).
+| Boss | # | Note |
+|---|---|---|
+| **Atal'alarion** *(optional)* | 1 | the statue guardian; our clears skip it |
+| **Gasher** | 2 | the first channelling troll on the upper floor |
+| **Loro** | 3 | the second channelling troll |
+| **Hukku** | 4 | the third channelling troll |
+| **Mijan** | 5 | the fourth channelling troll |
+| **Zul'Lor** | 6 | the fifth channelling troll |
+| **Zolo** | 7 | the sixth channelling troll — killing each stops a channel |
+| **Jammal'an the Prophet** | 8 | downstairs |
+| **Ogom the Wretched** | 9 | the altar room |
+| **Dreamscythe** | 10 | the four dragons, in this order |
+| **Weaver** | 11 | |
+| **Morphaz** | 12 | |
+| **Hazzas** | 13 | |
+| **Shade of Eranikus** (final) | 14 | |
 
-- **Atal'alarion** (the statue guardian) is optional and our clears skip it.
-- The **Avatar of Hakkar** is an optional event at the statue — the page's own section covers it.
+The **Avatar of Hakkar** is an optional event at the statue — the page's own section covers it.
 
 [measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]
 

@@ -2,6 +2,18 @@
 
 Vanilla level ~35-45 quilboar/Scourge dungeon in the southern Barrens. In 1.18.0 Turtle added the **Temple of Agamaggan**, with **Death Prophet Rakameg** ([Torta (staff), 2025-02-22](https://forum.turtlecraft.gg/viewtopic.php?p=120615#p120615)).
 
+## Boss order
+
+The order our clears run and the numbers are the map markers. [measured on bot runs, private 1.18.1-based realm]
+
+| Boss | # | Note |
+|---|---|---|
+| **Mordresh Fire Eye** | 1 | required; the pack in front of him is the pull that matters |
+| **Death Prophet Rakameg** | 2 | optional, the Temple of Agamaggan (Turtle) |
+| **Glutton** | 3 | optional stop on the way |
+| **Ragglesnout** | 4 | optional stop on the way |
+| **Amnennar the Coldbringer** (final) | 5 | closes the spiral |
+
 ## Death Prophet Rakameg (lvl 39)
 
 - Abilities: **Shadow Burst**, **Consuming Shadows**. Loot: Thornspine, Thorngorged Fleshgloves, **Totem of the Rotten Roots** (shaman), Blood-etched Fetish ([wiki](https://turtle-wow.fandom.com/wiki/Death_Prophet_Rakameg)).

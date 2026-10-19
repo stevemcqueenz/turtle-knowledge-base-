@@ -17,6 +17,19 @@ Vanilla level ~55-60 three-wing dungeon in Feralas: East (DME), West (DMW) and N
 
 ## East (DME): lashers and the jump run
 
+| Boss | # | Note |
+|---|---|---|
+| **Pusillin** *(optional)* | 1 | the imp; our clears skip him — chasing him opens the door |
+| **Lethtendris** | 2 | with **Pimgib**, before the ramp |
+| **Pimgib** | 3 | the imp that comes with Lethtendris |
+| **Zevrim Thornhoof** | 4 | the satyr; he sacrifices a player |
+| **Hydrospawn** | 5 | the water elemental of the lasher area |
+| **Alzzin the Wildshaper** (final) | 6 | the last boss; he burns mana on hit |
+| **Isalien** *(optional)* | 7 | the plan's other optional stop; skipped in our clears |
+
+The numbers run across the whole page (East, then West, then North). [measured on bot runs, private 1.18.1-based
+realm — verified against our plan files, not a run log]
+
 ### Bosses on the farm route
 
 - **Hydrospawn** (water elemental, same area as the lashers): soloable by geared priests, paladins and others. Kite him around a pillar with Frost Aura up, or pull him to a wall and burn him [[d:priest#1432728366296858786]], [[d:paladin#1427716920815386837]], [[d:paladin#1427717080249270454]]. He drops a blue to disenchant and a chance at a book. An invisible demon add sometimes drops Felcloth [[d:paladin#1454183269468999691]].
@@ -70,11 +83,31 @@ bosses before the ramp, and our clears run them in this order (measured):
 
 ## West (DMW)
 
+| Boss | # | Note |
+|---|---|---|
+| **Tendris Warpwood** | 8 | the first boss of the west wing |
+| **Illyanna Ravenoak** | 9 | the hunter boss with her bear |
+| **Ferra** *(optional)* | 10 | the satyr's hound |
+| **Magister Kalendris** | 11 | |
+| **Tsu'zee** *(optional rare)* | 12 | |
+| **Immol'thar** | 13 | the eye |
+| **Prince Tortheldrin** (final) | 14 | the west wing's last boss |
+
 - **Illyanna Ravenoak** (the hunter boss with a bear) drops a blue 19-DPS arrow recipe (BoP, low drop rate) [[d:hunter#1486414327211884574]], [[d:hunter#1486862338882670725]]. **Hunter solo:** hide behind the statue so she comes to you, give the pet a couple of seconds' lead, and Feign Death to pass aggro back to the pet [[d:hunter#1490152762330189914]], [[d:hunter#1490152898267582524]].
 - **Shen'dralar reputation solo:** either the East route (lashers + Hydrospawn + demon) or repeatedly killing West's first boss. About 300-400 rep and 2 book drops per run, 3-4 runs per hour. The class dagger and cloak are worth the grind [[d:hunter#1438125601927204885]], [[d:hunter#1438126491958509578]], [[d:hunter#1438126767620755577]].
 - The Libram of Focus spell-power head/leg enchant is turned in to the Shen'dralar [[d:paladin#1439161598857183304]].
 
 ## North (DMN) and the Tribute run
+
+| Boss | # | Note |
+|---|---|---|
+| **Guard Mol'dar** | 15 | the first of the Gordok guards |
+| **Stomper Kreeg** | 16 | the drunk ogre; the Darkmantle beads |
+| **Guard Fengus** | 17 | |
+| **Guard Slip'kik** | 18 | |
+| **Captain Kromcrush** | 19 | adds first |
+| **Cho'Rush the Observer** | 20 | the priest ogre; he shields himself |
+| **King Gordok** (final) | 21 | he charges — that is intended |
 
 - **King Gordok charges.** That is intended, and it happened on official servers too. Hunters: do not have Serpent Sting on him when you Feign Death, since the tick pulls him back. Feign Death early [[d:hunter#1424676020530843740]].
 - **The priest ogre** Power Word: Shields itself and does not take aggro from damage until the shield is broken. Use Distracting Shot on it [[d:hunter#1471519978598564012]].

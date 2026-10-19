@@ -26,14 +26,14 @@ The order is not documented. The table lists bosses in wiki subzone order.
 
 | Boss | What to know |
 |---|---|
+| **Aszosh Grimflame** (warlock) | Wiki quotes suggest he raises skeletons, drains, and uses a mind effect ([wiki](https://turtle-wow.fandom.com/wiki/Aszosh_Grimflame)). |
+| **Black Bride** (banshee) | No abilities recorded. |
 | **Volkan Cruelblade** (orc, Interrogation Cells) | Drops Amulet of Warding and Guard-Captain's Chestplate (tank) [[d:paladin#1327978668156518503]]. No tactics recorded. |
 | **Damian the Ripper** (Interrogation Cells) | **Vanishes and Ambushes.** His old instakill on the top-threat player was removed ([Torta (staff), 2024-12-03](https://forum.turtlecraft.gg/viewtopic.php?p=111130#p111130)). Keep your back to a wall when he stealths so he cannot Ambush you [[d:rogue#1442034294725017610]]. If two Ambushes land back to back, that is the usual death [[d:rogue#1423801691656159366]]. A pet that picks up the Ambush damage right away makes him easy [[d:hunter#1483818031451996242]]. Drops **The Ripper** [[d:rogue#1442034294725017610]] and Pauldrons of the Elite Guard [[d:paladin#1327978668156518503]]. |
-| **Black Bride** (banshee) | No abilities recorded. |
-| **Aszosh Grimflame** (warlock) | Wiki quotes suggest he raises skeletons, drains, and uses a mind effect ([wiki](https://turtle-wow.fandom.com/wiki/Aszosh_Grimflame)). |
 | **Tham'Grarr** (two-headed ogre mage) | Ice Block, and a scripted 50% point ([wiki](https://turtle-wow.fandom.com/wiki/Tham%27Grarr)). |
 | **Arc'tiras** (final boss, crystal) | See below. |
 
-### Arc'tiras (final boss)
+**Arc'tiras (final boss)**
 
 | Role | Job |
 |---|---|

@@ -11,6 +11,19 @@
 | Scaling | Scaled 20→12 before 2026-04 [[d:paladin#1485271199163355399]]; from 2026-04-21 20-player raids scale down to 8 ([Torta (staff), 2026-04-21](https://forum.turtlecraft.gg/viewtopic.php?p=176101#p176101)) |
 | Lockout | Not stated in the sources |
 
+## Boss order
+
+The vanilla roster in the order a run takes it; the numbers are the map markers. [classic]
+
+| Boss | # | Note |
+|---|---|---|
+| **Kurinnaxx** | 1 | the first boss |
+| **General Rajaxx** | 2 | the event in the hall; the captains are part of it |
+| **Moam** | 3 | mana-burn fight; the highest-resistance boss in the raid |
+| **Buru the Gorger** | 4 | |
+| **Ayamiss the Hunter** | 5 | |
+| **Ossirian the Unscarred** (final) | 6 | the crystal shadow weakness |
+
 ## Raid-wide preparation
 
 - **Spell resistance:** each boss has +115, +135 or +155 to all schools; Moam partially resists almost every spell (155 Shadow Resistance base) [[d:mage#1450488624125837452]], [[d:mage#1450522068750962769]], [[d:priest#1341566757709676545]]. One player summed it up as "every mob has 150 all res" [[d:priest#1341568975720419460]]. Bring spell-penetration gear (much of it drops here).

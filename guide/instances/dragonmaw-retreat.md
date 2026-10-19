@@ -10,6 +10,7 @@ Turtle-custom 5-man for roughly levels 25-35 in the eastern Wetlands, added in 1
 | Entry | Optional **Lower Reserve Key** (quest 41774). It opens shortcuts and more bosses ([Speedz1337 (guide writer), 2025-02-22](https://forum.turtlecraft.gg/viewtopic.php?p=120619#p120619)) |
 | Bosses | 13 (10 named). Final boss Zuluhed the Whacked |
 
+| Bogpaw Truthsay | 26 | a gnoll shaman of the retreat; no abilities recorded |
 ## Group notes
 
 - **Tank level:** tankable at about 30 with a decent shield, with "only a few sketchy moments with zuluhed" [[d:shaman#1449019965184413788]]. Do RFK first for the Marbled Buckler [[d:shaman#1449020532153385052]]. Another player warns that leveling tanks get rolled unless they go in at about 32 [[d:paladin#1459859989924417686]].
@@ -22,12 +23,13 @@ Abilities come from the wiki ([Dragonmaw Retreat](https://turtle-wow.fandom.com/
 
 | Boss | Lvl | Abilities |
 |---|---|---|
-| Cavernweb Broodmother (spider) | 27 | none listed |
 | Gowlfang (gnoll; also a quest giver inside) | 28 | none listed |
+| Bogpaw Truthsay | 26 | a gnoll shaman of the retreat; no abilities recorded |
+| Cavernweb Broodmother (spider) | 27 | none listed |
 | Web Master Torkon | 29 | Poison Cloud, Venom Sting, **Web Spray** |
-| Slagfist Destroyer (golem) | 30 | Skin of Rock, Strength of Stone, **Ground Smash**, **Enrage** |
 | Garlok Flamekeeper | 31 | Flame Buffet, Flame Spike, Flame Lash |
 | Halgan Redbrand (dwarf ghost) | 31 | Drain Life, Curse of Agony, Mind Flay |
+| Slagfist Destroyer (golem) | 30 | Skin of Rock, Strength of Stone, **Ground Smash**, **Enrage** |
 | Overlord Blackheart | 31 | none listed |
 | Elder Hollowblood (shaman) | 32 | Lightning Bolt, Chain Lightning, **Scorching / Lava Spot / Earthbind Totems** |
 | Searistrasz (red dragon) | 32 | Enchanting Flames, Fireball, **Flame Breath**, **Wing Flap** |

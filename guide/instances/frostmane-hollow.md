@@ -17,8 +17,8 @@ Abilities come from the wiki. The sources have no player tactics.
 | Boss | Abilities | Notable loot |
 |---|---|---|
 | Handler Oboka + Tan'sha the Sleek (snow leopard) | none listed. Oboka commands Tan'sha, so they are probably one paired encounter (the wiki does not say so) | Oboka's Axe, Frigid Cloak, *Flawless Leopard Pelt* (quest *The Finest Pelt*) |
-| Battlemaster Ubukaz | none listed | Snowchilled Crest; objective of *Chieftain Ubukaz* |
 | Kan'za the Seer | Blizzard | Frost Seet Dirk |
+| Battlemaster Ubukaz | none listed | Snowchilled Crest; objective of *Chieftain Ubukaz* |
 | **Hailar the Frigid** (ice elemental, final) | Frostbolt; a scripted 50% line | Rak'uhz the Coldbinder, Band of Hailar |
 
 ## Notes
