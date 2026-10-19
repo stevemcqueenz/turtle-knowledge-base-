@@ -1,5 +1,7 @@
 # Retribution Paladin (melee DPS)
 
+What our bots run for this spec: [Retribution Paladin — bot rotation](./retribution-bots.md)
+
 **Recommendation:** play the **11/8/32** Retribution build and pick your seal by your gear. With spell power gear and a proc weapon, run **Seal of Righteousness ("spellret", SoR)**. With Strength gear and a slow, hard-hitting two-hander, run **Seal of Command (SoC)**. The talents differ by only a few points. "Seal of crusader is exclusively judged for the 130sp bonus. If you stack spellpower gear, you run seal of righteousness; if you stack strength, you run seal of command" [[d:paladin#1486727985540104303]]. After 1.18.1 both are real raid specs: "all 3 specs of pally are fully raid viable, ret is an actual dps spec now" [[d:paladin#1486906522863927467]]. SoR is still slightly ahead at the top: "Top 4/5 in K40 is SoR, 3rd being SoC since patch" [[d:paladin#1493184429906989217]]. **Necrodin** (double Tier 2 3-piece plus the Lost set) is a third, niche build for long single-target fights.
 
 | | |

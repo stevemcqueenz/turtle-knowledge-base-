@@ -1,5 +1,7 @@
 # Arms Warrior (melee DPS)
 
+What our bots run for this spec: [Arms Warrior — bot rotation](./arms-bots.md)
+
 **Recommendation:** Arms is the **fresh-60 and progression DPS spec**. It needs no Flurry uptime, so it works in low-crit gear, and it is the better choice until you reach about 23% unbuffed crit [[d:warrior#1469008830225580132]], [[d:warrior#1469009070210941099]]. In endgame raids it trails 2H Fury on most fights, except long fights and cleave fights [[d:warrior#1489363464605663365]], [[d:warrior#1492942371879391282]]. It comes in two builds:
 
 - **MS Arms (35/16/0):** Mortal Strike, Master of Arms and Precision Cut, with Slam as filler. This is the consistent build.

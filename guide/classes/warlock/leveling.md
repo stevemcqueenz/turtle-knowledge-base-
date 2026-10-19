@@ -1,5 +1,7 @@
 # Warlock leveling (1-60)
 
+What our bots run for this class: [Warlock — bot leveling](./leveling-bots.md)
+
 **Recommendation:** level as **Affliction** with the **Voidwalker** tanking. Open with Curse of Agony and Corruption, add Siphon Life on mobs that live long enough, then drain or wand. Juggle 2-3 mobs at once (Voidwalker on one, Fear on one, you on one). Pick **Demonology** instead if this is your first warlock or a Hardcore character. Pick **Fire** only if you mostly run dungeons and can buy spell-power gear. The Affliction talent order below ends exactly on the raid build, so you need no respec at 60.
 
 "Aff for speed, demo for safety" [[d:warlock#1467629269302775993]], [[d:warlock#1470954483730219049]]. Warlocks level so well that you can reach 60 with points spent almost at random, or none at all [[d:warlock#1482484924572368937]], [[d:warlock#1465202788857548871]].

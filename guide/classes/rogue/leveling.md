@@ -1,5 +1,7 @@
 # Rogue leveling
 
+What our bots run for this class: [Rogue — bot leveling](./leveling-bots.md)
+
 **Recommendation:** level **Assassination**. It is still the standard 1-60 spec after 1.18.1 [[d:rogue#1490094810277613608]], and the patch "didnt affect leveling too much" [[d:rogue#1490095328584794182]]. You get power spikes at **30 (Envenom)** and **40 (Noxious Assault)** [[d:rogue#1479248496262647858]]. Until Envenom, use a slow sword, axe or mace with Sinister Strike and 1-point Slice and Dice / Eviscerate. From 40, switch to the **two fastest daggers or fist weapons** you can find (1.3-1.4 speed; quality barely matters) [[d:rogue#1483097293434654720]]. The common alternative is Combat with parry and Riposte to 40, then a respec. "You cannot mess up a rogue leveling" build [[d:rogue#1478495114144911590]]; respecs cost at most 5 g [[d:rogue#1473626828609687573]].
 
 Expect the class to feel weak until the mid-20s [[d:rogue#1424766664993542154]] and not change much until about 30 [[d:rogue#1464220405416857673]]. Then at 40: "everything absolutely fucking melts" [[d:rogue#1437552964347625512]]. At level 40 with identical gear, one test measured Combat at 95 average DPS and Assassination at 166 [[d:rogue#1408409761396822088]].

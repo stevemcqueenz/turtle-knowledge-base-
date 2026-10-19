@@ -1,5 +1,7 @@
 # Leveling a druid (1-60)
 
+What our bots run for this class: [Druid — bot leveling](./leveling-bots.md)
+
 **Recommendation:** level as **Feral**. Take **Feral Swiftness** first for cat movement speed, then at **level 30** (Travel Form) **respec into Omen of Clarity** and continue down the Feral tree; take Furor last. "You can tank every leveling dungeon in this spec. If you equip int/spirit gear you can also heal them just fine" (the pinned, dev-endorsed advice) [[d:druid#1413144334336790652]], [[d:druid#1477056404576665650]]. Balance is a viable, slower alternative. Do not level as Restoration: "Leveling as resto sucks" [[d:druid#1412860092692299806]].
 
 | Spec | Leveling | Why |

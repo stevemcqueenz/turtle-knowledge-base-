@@ -1,5 +1,7 @@
 # Subtlety Rogue (raid support)
 
+What our bots run for this spec: [Subtlety Rogue — bot rotation](./subtlety-bots.md)
+
 **Recommendation:** bring **one** Subtlety rogue per raid. Its job, in this order: keep a **5-point Improved Expose Armor** on the boss 100% of the time, spam **Hemorrhage** (a raid-wide physical-damage debuff), keep **Tricks of the Trade** rolling on your party with 5-point finishers, and fire **Mark for Death** into a **Shadow of Death** in burst windows (twice per fight with Preparation). Play the **17/0/34** build with a slow, hard-hitting **non-dagger** main hand, and stack Attack Power. Put the Sub rogue in a melee group, ideally with two Shamans.
 
 | | |

@@ -1,5 +1,7 @@
 # Holy Priest (healer)
 
+What our bots run for this spec: [Holy Priest — bot rotation](./holy-bots.md)
+
 **Recommendation:** play the post-1.18.1 **14/37/0** raid build, keep **Renew** rolling on tanks, use **Flash Heal** (rank 7 for big damage, rank 1 to top up) as your main single-target heal, and put **Prayer of Healing** on whichever party is hurt. Weave a rank-1 Renew between other heals so **Book of Prayer** refunds mana. Save **Ascendance** for enrage and burst windows.
 
 | | |

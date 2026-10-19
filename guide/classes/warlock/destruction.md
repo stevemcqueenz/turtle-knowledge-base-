@@ -1,5 +1,7 @@
 # Destruction Warlock (Fire "Firelock" and Shadow SM/Ruin)
 
+What our bots run for this spec: [Destruction Warlock — bot rotation](./destruction-bots.md)
+
 **Recommendation:** play **Fire 0/11/40** once you are past the fire-immune raids and have about 16% hit from gear. Open Soul Fire → Immolate → Conflagrate, keep Immolate up, press Soul Fire, Conflagrate and Shadowburn on cooldown, and spam **Searing Pain** in between. Sacrifice your Imp. For Molten Core, Blackwing Lair and Onyxia, play Affliction or Demonology instead. **SM/Ruin** (30/0/21, Shadow Bolt) still works, but it is behind Affliction at every gear level people have tested.
 
 | | |

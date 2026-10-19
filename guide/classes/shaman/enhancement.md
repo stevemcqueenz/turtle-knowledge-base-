@@ -1,5 +1,7 @@
 # Enhancement (melee DPS)
 
+What our bots run for this spec: [Enhancement — bot rotation](./enhancement-bots.md)
+
 **Recommendation:** play the **17/34/0 two-hander build** with **Windfury Weapon** on the slowest good two-hander you can get. Press **Stormstrike > Lightning Strike > shock** (Flame Shock, then Earth Shock, Earth Shock), keep Lightning Shield up and drop your four group totems. Cap **8% melee hit** (4% from gear after talents and the weapon-skill book), push weapon skill toward 315, then stack **Strength** (worth about twice Agility). "Spellhance" (Flametongue, spell power, 22/29) is a niche AoE variant for theorycrafters, covered below.
 
 | | |

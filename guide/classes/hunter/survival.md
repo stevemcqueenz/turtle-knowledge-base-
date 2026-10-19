@@ -1,5 +1,7 @@
 # Survival Hunter (melee DPS)
 
+What our bots run for this spec: [Survival Hunter — bot rotation](./survival-bots.md)
+
 **Recommendation:** play the melee **16/0/35** build (through Untamed Trapper, plus Coordinated Assault in BM). Dual-wield two good weapons for single-target bosses and switch to a slow two-hander for trash and cleave. Put your abilities on one spam macro: **Raptor Strike, Immolation Trap, Mongoose Bite, Lacerate, Carve**, with Wing Clip as the last filler. On packs, **Explosive Trap and Carve** come first. Stack Agility. Get melee hit to 8%, or more when dual-wielding, and weapon skill toward 315.
 
 | | |

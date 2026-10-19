@@ -1,5 +1,7 @@
 # Combat Rogue (melee DPS)
 
+What our bots run for this spec: [Combat Rogue — bot rotation](./combat-bots.md)
+
 **Recommendation:** play **Combat Envenom, 24/27/0**. Build combo points with **Backstab** (daggers) or **Sinister Strike** (swords). Keep **1-point Slice and Dice and 1-point Envenom** up, cast Envenom first, and put every other combo point into a **5-point Eviscerate**. Do not use Rupture or Taste for Blood. Stack Agility (Blade Rush speeds up your energy ticks), take a slow, strong main hand and the fastest off hand you can get, and toggle **Blade Flurry** on only while two or more enemies are in reach. Poison both weapons with **Instant Poison** and keep a Dissolvent set for elementals. The 20/31/0 **Adrenaline Rush** build remains an option for short and cleave fights.
 
 | | |

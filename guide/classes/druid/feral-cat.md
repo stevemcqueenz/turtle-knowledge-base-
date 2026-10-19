@@ -1,5 +1,7 @@
 # Feral Cat (melee DPS)
 
+What our bots run for this spec: [Feral Cat — bot rotation](./feral-cat-bots.md)
+
 **Recommendation:** play the **11/35/5 bleed/Claw build**. On any target that can bleed, keep **Rake** and **Rip** up, keep **Tiger's Fury** up, spam **Claw**, and spend 5 combo points on **Ferocious Bite** (Carnage refreshes both bleeds). On bleed-immune targets, drop the bleeds and switch to **Shred + Ferocious Bite + Reshift** (powershifting). Get **8% hit** (5% from gear), then stack Strength, Agility and Attack Power. Your weapon is a stat stick: only its stats and "Equip:" effects count in Cat Form.
 
 | | |

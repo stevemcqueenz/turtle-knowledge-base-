@@ -1,5 +1,7 @@
 # Balance (Moonkin, ranged DPS)
 
+What our bots run for this spec: [Balance — bot rotation](./balance-bots.md)
+
 **Recommendation:** play **37/0/14** (Balance of All Things 3/3, Eclipse, Guidance of the Dream 3/3, Genesis 3/3). Aim for **16% spell hit** (12-14% is the realistic pre-Kara40 target), then spell power and crit. Keep **Moonfire** and **Insect Swarm** on your target, cast **Starfire** in Arcane Eclipse and **Wrath** in Nature Eclipse, and fish for the next Eclipse in between. Use **Hurricane** on 3-4+ mobs, and on trash only once you have the T3.5 3-piece. Expect bottom-tier damage and bring the utility.
 
 | | |

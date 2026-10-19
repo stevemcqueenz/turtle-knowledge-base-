@@ -1,5 +1,7 @@
 # Assassination Rogue (poison melee DPS)
 
+What our bots run for this spec: [Assassination Rogue — bot rotation](./assassination-bots.md)
+
 **Recommendation:** play deep Assassination (**Noxious Assault, 41/10/0**) while leveling from 40, as a fresh 60, until you have full Darkmantle, and for solo farming and PvP. After that, switch to [Combat Envenom](combat.md). Use the **two fastest weapons** you can find; their damage barely matters. Build combo points with **Noxious Assault**, keep **1-point Envenom and Slice and Dice** up, and dump into **5-point Eviscerate**. Since 1.18.1 you no longer run Rupture or Taste for Blood. **Instant Poison** is your default. Carry a second pair of daggers with **Dissolvent** for the four creature types it still hits.
 
 | | |

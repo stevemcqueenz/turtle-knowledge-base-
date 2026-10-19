@@ -1,5 +1,7 @@
 # Affliction Warlock (DoT / drain DPS)
 
+What our bots run for this spec: [Affliction Warlock — bot rotation](./affliction-bots.md)
+
 **Recommendation:** play the pinned post-1.18.1 **35/11/5** build and sacrifice your demon. Keep your assigned curse, Curse of Agony, Corruption and Siphon Life on the boss. Fill every free GCD with **Drain Soul**, and break it for **Nightfall** procs. Cast **Dark Harvest** only when Shadow Vulnerability is up and every DoT has about 10 seconds left, or to finish a dying target. Gear for 6% hit, then spell power and haste. Ignore crit.
 
 | | |

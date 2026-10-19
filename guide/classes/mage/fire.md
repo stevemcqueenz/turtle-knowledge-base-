@@ -1,5 +1,7 @@
 # Fire Mage (ranged DPS)
 
+What our bots run for this spec: [Fire Mage — bot rotation](./fire-bots.md)
+
 **Recommendation:** Fire is the **second raid spec, from AQ40 onward**. Molten Core and BWL are largely fire-immune, so play Arcane there. Play **10/38/3** with **Improved Fire Blast 3/3**. Get **16% spell hit** (6% comes from Elemental Precision), then stack **crit**, worth about 25 SP per 1% in Kara40 gear. Weave **Fire Blast every 2 Fireballs**, fire **Pyroblast at 5 Hot Streak stacks**, and keep **Fire Vulnerability** at 5 stacks. Fire is strongest with **2 (sometimes 3) Fire mages** feeding one Ignite.
 
 | | |

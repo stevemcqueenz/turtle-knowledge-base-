@@ -1,5 +1,7 @@
 # Priest Leveling (1-60)
 
+What our bots run for this class: [Priest — bot leveling](./leveling-bots.md)
+
 **Recommendation:** level as a **wand + Smite** priest. Take 2/2 Wand Specialization, then 5/5 Spirit Tap, then go down the Holy tree to 5/5 Spiritual Guidance, then into Discipline. Stack Spirit and wand everything until your early 30s, then chain Holy Fire → Smite ×3. Do **not** level Shadow before 40. If you want Shadow, respec at 42-44 and it becomes very strong from there [[d:priest#1331378617153753258]], [[d:priest#1488200396366286889]], [[d:priest#1489371416963842209]].
 
 ## Which spec to level

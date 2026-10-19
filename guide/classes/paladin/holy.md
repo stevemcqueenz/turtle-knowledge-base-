@@ -1,5 +1,7 @@
 # Holy Paladin (healer)
 
+What our bots run for this spec: [Holy Paladin — bot rotation](./holy-bots.md)
+
 **Recommendation:** play the **38/0/13** raid build. Make **Flash of Light** your main heal. Stand with the melee when the fight allows it, and press **Holy Strike** on cooldown: it heals up to five injured people near you for no net mana. Use **Holy Shock** when someone is about to die, and cast a 1.5-second **Holy Light** after each Judgement for big tank hits. Keep Seal of Wisdom up and judge Wisdom, and you will not run out of mana.
 
 | | |

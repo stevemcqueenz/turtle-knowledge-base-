@@ -1,5 +1,7 @@
 # Restoration (healer)
 
+What our bots run for this spec: [Restoration — bot rotation](./restoration-bots.md)
+
 **Recommendation:** play the **0/8/43** build. In raids your job is **totems + rank 1 Chain Heal**, with a low-rank Healing Wave for single-target top-ups and max-rank Lesser Healing Wave or an Ancestral Swiftness Healing Wave for emergencies. Stack **healing power and haste**; mp5 and crit are secondary, Spirit does nothing. Use a **mana oil**, not a weapon imbue.
 
 | | |

@@ -1,5 +1,7 @@
 # Feral Bear (tank)
 
+What our bots run for this spec: [Feral Bear — bot rotation](./feral-bear-bots.md)
+
 **Recommendation:** play the **11/35/5 tank build** (Feral Instinct, Thick Hide, Feral Charge, Carnage, Improved Shred, Furor). Get **8% hit**, then gear two sets: a **threat** set (haste, Strength, crit) and a **mitigation** set (Stamina, armor). Open every boss the same way: **Cat Form → Tiger's Fury → Bear Form → Mighty Rage Potion → Maul + Savage Bite**, then **Maul on every swing**, **Savage Bite** on Clearcasting or high rage, **Swipe** on 2+ mobs or at full rage. Bear is still the strongest sustained single-target threat tank, but since 1.18.1 it is weaker in the first seconds of a pull, and it takes more damage than warriors or paladins.
 
 | | |

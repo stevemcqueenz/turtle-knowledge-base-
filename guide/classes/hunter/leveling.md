@@ -1,5 +1,7 @@
 # Hunter leveling (1–60)
 
+What our bots run for this class: [Hunter — bot leveling](./leveling-bots.md)
+
 **Recommendation:** level as **Beast Mastery** with a pet that tanks: a boar early, a Screech bird or a Raptor later. Use a slow ranged weapon (2.6+ speed) and spam **Steady Shot** (baseline from level 20) between Auto Shots. If you want to raid as Survival, level BM to **40**, then respec into Survival for in-combat traps. Respecs cost at most 5g on Turtle [[d:hunter#1493367329101320192]]. From level 45 on, the fastest route to 60 is soloing the Dire Maul East lasher rooms.
 
 | Spec | Leveling rating | Why |

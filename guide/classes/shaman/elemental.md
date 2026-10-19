@@ -1,5 +1,7 @@
 # Elemental (ranged caster DPS)
 
+What our bots run for this spec: [Elemental — bot rotation](./elemental-bots.md)
+
 **Recommendation:** play **Nature Elemental** with the post-1.18.1 **34/3/14** build. Keep **Flame Shock** up and refresh it with **Molten Blast**, fill with **Lightning Bolt**, and cast **Chain Lightning** on Clearcasting (on cooldown once you are well geared); on packs add **Earthquake** and Chain Lightning. Get **12% spell hit from gear** (16% total), then crit, which is also your mana. Elemental needs gear to come online: new raiders are usually advised to start as Enhancement and switch around AQ40.
 
 The pre-1.18.1 **"fire ele" (Molten Blast spam) spec is gone**: 1.18.1 made Flametongue's fire bonus require melee hits, and the channel describes fire as "folded into" Nature Elemental. Older guides that tell you to spam Molten Blast are outdated.

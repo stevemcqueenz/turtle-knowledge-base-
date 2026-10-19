@@ -1,5 +1,7 @@
 # Frost Mage (ranged DPS)
 
+What our bots run for this spec: [Frost Mage — bot rotation](./frost-bots.md)
+
 **Recommendation:** Frost is the **weakest raid spec** in 1.18.1. It is the best spec for **leveling, soloing and control**, and fine in early raids (MC/Onyxia/BWL). If you raid Frost, play **12/0/39**. Get **16% spell hit** (6% from Elemental Precision). Spam **Frostbolt**, cast **Icicles only when Flash Freeze procs**, **Frost Nova** freeze-immune bosses on cooldown from melee range to force procs, and recast **Ice Barrier** on cooldown for its damage buff. For raid DPS in later tiers, switch to [Arcane](arcane.md).
 
 | | |

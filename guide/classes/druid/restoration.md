@@ -1,5 +1,7 @@
 # Restoration (healer)
 
+What our bots run for this spec: [Restoration — bot rotation](./restoration-bots.md)
+
 **Recommendation:** play the **18/0/33 Tree of Life build** (Moonglow, Preservation, Swiftmend, Nature's Swiftness, Improved Tranquility). Stack **healing power**, then Spirit. Pre-HoT the tank, keep **Rejuvenation** and **Regrowth** rolling on whoever is taking damage (Rejuv first, so Preservation boosts the Regrowth), finish expiring HoTs with **Swiftmend**, and hold **Nature's Swiftness + Healing Touch** and **Tranquility** for emergencies. A raid wants **one resto druid, two at most**.
 
 | | |

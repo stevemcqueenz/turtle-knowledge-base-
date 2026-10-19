@@ -1,5 +1,7 @@
 # Marksmanship Hunter (ranged DPS)
 
+What our bots run for this spec: [Marksmanship Hunter — bot rotation](./marksmanship-bots.md)
+
 **Recommendation:** play the raid-tested **12/37/2** build. Keep Auto Shot running and never clip it. Cast **Aimed Shot** on cooldown and at once on every **Lock and Load** proc. Fill with **Steady Shot**, and weave **Arcane Shot** after Steady to fish for crits. Skip Multi-Shot and Serpent Sting on a single target. Open trash packs with **Volley**. Get ranged hit to 8% (7% with a +5 ranged weapon skill item or book), then stack Agility and crit. Crit is worth about 50 AP since 1.18.1.
 
 | | |

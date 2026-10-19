@@ -1,5 +1,7 @@
 # Protection Warrior (tank)
 
+What our bots run for this spec: [Protection Warrior — bot rotation](./protection-bots.md)
+
 **Recommendation:** in 1.18.1, main-tank as **Defensive Tactics ("DefTac", 17/3/31 or 0/20/31)**. That means a shield and a fast one-hander, tanking in **Battle Stance** for most of the pull, with **Shield Slam and Heroic Strike** as your threat. Swap to Defensive Stance to taunt or to block-dance through dangerous hits. The January patch raised Defiance to 20% and buffed Shield Slam, and that closed most of DefTac's threat gap to FuryProt: "going dtac is better in 99.9% of cases instead of 95% it was before" [[d:warrior#1485222514119671829]], [[d:warrior#1484900996613279845]].
 
 - **FuryProt (0/31/20)** stays the best **off-tank** spec and the answer when a raid "really need[s] that extra ~150 tps" [[d:warrior#1485222628016001024]], [[d:warrior#1466762952496644232]].

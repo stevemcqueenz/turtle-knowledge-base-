@@ -1,5 +1,7 @@
 # Beast Mastery Hunter (pet DPS)
 
+What our bots run for this spec: [Beast Mastery Hunter — bot rotation](./beast-mastery-bots.md)
+
 **Recommendation:** play the **34/17/0** build and a **Raptor** (Cat or Wind Serpent where bleeds fail). Spam **Steady Shot** between Auto Shots, weave **Arcane Shot** (or Multi-Shot on packs), and fire **Kill Command** the moment it lights up. It has no GCD, so put it in every shot macro. Use **Bestial Wrath** on cooldown. Do not take Aimed Shot, Mortal Shots or Serpent Sting. Gear for ranged AP and Agility: the pet scales on your RAP, not your crit.
 
 | | |

@@ -1,5 +1,7 @@
 # Demonology Warlock (pet / greater-demon DPS)
 
+What our bots run for this spec: [Demonology Warlock — bot rotation](./demonology-bots.md)
+
 **Recommendation:** in a raid that pulls on time and heals your pet, play the **0/34/17** build. Summon a greater demon before every pull: Felguard for burst and AoE, Infernal for fire-immune bosses and whenever it is off cooldown, Doomguard for single-target. Open with pet attack → curse (Recklessness if you are free to choose) → Shadow Bolt. Once Unleashed Potential reaches 3 stacks, press trinkets, Power Overwhelming and Felstorm. Keep your demon alive yourself with Health Funnel. Gear for about 6% hit, then crit and spell power. Haste does nothing for your demon.
 
 | | |

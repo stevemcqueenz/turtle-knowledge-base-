@@ -1,5 +1,7 @@
 # Protection Paladin (tank)
 
+What our bots run for this spec: [Protection Paladin — bot rotation](./protection-bots.md)
+
 **Recommendation:** play the **11/33/7** build with **Sanctity Aura** and **Righteous Fury** always on. Your threat is Holy damage scaled by spell power. Press **Holy Strike** on cooldown and never delay it. Use **Judgement of Righteousness** on cooldown and re-seal Righteousness. Add **Consecration** only when more than two mobs are on you, and **Holy Shield** when mana allows. Gear spell power first, then Stamina, then avoidance. Aim for about 7,500–8,000 HP for raid bosses and **102.4% combined avoidance with Holy Shield up** from AQ40 onward. Do not chase 440 Defense.
 
 | | |

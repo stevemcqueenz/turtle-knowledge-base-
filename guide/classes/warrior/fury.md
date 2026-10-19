@@ -1,5 +1,7 @@
 # Fury Warrior (melee DPS)
 
+What our bots run for this spec: [Fury Warrior — bot rotation](./fury-bots.md)
+
 **Recommendation:** Fury is the warrior raid DPS tree in 1.18.1, and it comes in three shapes. **2H Fury (20/31/0)** is the top overall-damage build once you have raid gear and roughly 30% crit: Bloodthirst and Whirlwind on cooldown, **Slam** woven between swings whenever Flurry is up. **Lawnmower (21/30/0)** is the same build with Sweeping Strikes instead of Bloodthirst, for trash- and cleave-heavy raids such as Kara40. **Dual Wield Fury (17/34/0)** has no cast bar, forgives mistakes, has the best Execute phase and holds server records. Its weakness is gear: it needs two good one-handers and weapon skill for both. None of the three is a fresh-60 spec. If you have under about 23% unbuffed crit, play [Arms](arms.md) first.
 
 | | |

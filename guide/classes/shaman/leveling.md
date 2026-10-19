@@ -1,5 +1,7 @@
 # Leveling
 
+What our bots run for this class: [Shaman — bot leveling](./leveling-bots.md)
+
 **Recommendation:** level as **Enhancement**. Take Enhancement talents down to **Elemental Weapons and Stormstrike** (levels 30-33), then dip **11 points into Elemental for Elemental Focus** (Clearcasting, level 44), then finish Enhancement. From level 44 play **Frostbrand Weapon + Frost Shock + Water Shield**: Elemental Weapons makes Frostbrand procs auto-crit on a Frost-Shocked target, every crit gives Clearcasting, and mana stops being a problem. Keep the armor talents: the same build tanks dungeons, so you get fast queues and can respec at 60 for 5 g.
 
 - "Enhancement is the only good spec for shaman leveling if you plan to do *any* solo content" [[d:shaman#1427654966088171600]]; "enh is faster all the way through 60, it's not even really close" [[d:shaman#1425585959390416976]].

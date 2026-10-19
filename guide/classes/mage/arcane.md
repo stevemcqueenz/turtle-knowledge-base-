@@ -1,5 +1,7 @@
 # Arcane Mage (ranged DPS)
 
+What our bots run for this spec: [Arcane Mage — bot rotation](./arcane-bots.md)
+
 **Recommendation:** Arcane is the mage raid spec in 1.18.1. Play **43/8/0**. Get **16% spell hit** (10% comes from Arcane Focus, so you only need about 6% from gear and buffs), then stack **spell power and haste** roughly equally, with crit behind them. Keep the **Arcane Rupture** debuff up, fill with **Arcane Missiles**, press **Arcane Surge** only while your total haste is low, and burn **Mind Quickening Gem → Arcane Power** together at full mana. On trash, spam **Arcane Explosion** with the same build.
 
 | | |

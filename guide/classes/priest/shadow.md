@@ -1,5 +1,7 @@
 # Shadow Priest (ranged DPS)
 
+What our bots run for this spec: [Shadow Priest — bot rotation](./shadow-bots.md)
+
 **Recommendation:** raids bring one Shadow priest for Shadow Weaving (+15% Shadow damage taken) and for Vampiric Embrace healing and mana. Play **0/20/31** (Spiritual Guidance secondary). Reach **16% spell hit**, then stack **shadow spell power**; ignore haste. Keep **SW:P** up, cast **Mind Blast** on cooldown, and fill with **2 Mind Flays**, clipped by hand. Use VE only when the group actually needs mana or healing.
 
 | | |

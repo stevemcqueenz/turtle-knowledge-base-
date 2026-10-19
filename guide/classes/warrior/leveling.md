@@ -1,5 +1,7 @@
 # Leveling a Warrior (1-60)
 
+What our bots run for this class: [Warrior — bot leveling](./leveling-bots.md)
+
 **Recommendation:** level **Fury**. Take Cruelty first and use a two-hander early. Pick up the off-hand hit talent and go **dual wield with Blood Drinker at level 35**; from there you rarely need to eat [[d:warrior#1484524982448160798]], [[d:warrior#1484524607267672074]], [[d:warrior#1493981873561407599]]. The same Fury build tanks leveling dungeons with a shield swapped in: "you will have a better time tanking while leveling as full fury" [[d:warrior#1484652940919701534]].
 
 If you mostly run dungeons as DPS, level **Arms with a slow two-hander** [[d:warrior#1485847747801256157]]. If you want to tank, take Tactical Mastery and Improved Thunder Clap early, and go **Protection only once Shield Slam is available at 30** [[d:warrior#1488808982368878733]], [[d:warrior#1485778015593037934]]. Warrior levels slowly before 30 in every spec [[d:warrior#1493939490828324904]].

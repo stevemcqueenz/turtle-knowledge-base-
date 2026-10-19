@@ -1,5 +1,7 @@
 # Leveling a Paladin (1-60)
 
+What our bots run for this class: [Paladin — bot leveling](./leveling-bots.md)
+
 **Recommendation:** level as **Retribution** if you want to quest and are new to the class; level as **Protection** if you want to tank dungeons all the way up or AoE-grind packs. After 1.18.1 the two are close: "ret probably has a slight edge, but it's not like prot is a crawl anymore" [[d:paladin#1486891618769571880]]; "if u aoe the kill quests, prot will be stronger, if u single target the kill quests, ret will be stronger" [[d:paladin#1451241349411246215]]. If you plan to tank at 60, level as Prot to learn the spec [[d:paladin#1486891905605435533]]. **Do not level as Holy** unless you have a permanent duo partner: "unless you have a buddy with you 24/7 going holy for leveling is bait" [[d:paladin#1455241625717706865]], [[d:paladin#1432380186573279335]].
 
 | Spec | Leveling rating | Why |

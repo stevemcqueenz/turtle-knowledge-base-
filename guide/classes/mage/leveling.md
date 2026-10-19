@@ -1,5 +1,7 @@
 # Mage Leveling (1-60)
 
+What our bots run for this class: [Mage — bot leveling](./leveling-bots.md)
+
 **Recommendation:** level as **Frost**. It is the safest spec (quick-cooldown CC, you can kite almost anything) and the default for Hardcore. At 60, respec to [Arcane](arcane.md) for raids. Train spells from **all three schools**, buy a **wand** early, and gear **Intellect, Stamina and spell power**. Ignore hit until you fight mobs 3 levels above you. Arcane becomes good at level **24** (Arcane Missiles rank 3) and is a fine choice for dungeon-heavy leveling from ~30. Blizzard AoE grinding no longer works on Turtle; AoE farming now means **Frost Nova → Flamestrike → Cone of Cold → Arcane Explosion** kiting.
 
 ## Which spec to level
