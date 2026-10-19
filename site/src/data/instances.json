@@ -80,10 +80,22 @@
           "markdown": "- Loot: \"a cool glaive like wep with frost dmg built in like shadowfang for lvl 13s. other than that the dungeon didnt have much\" <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-twinking.jsonl#L219\" title=\"darkraixqz, 2026-03-20, Discord #twinking: Frostmane Hollow drops a cool glaive like wep with frost dmg built in like shadowfang for lvl 13s . other than that the dungeon didnt have much lol\">darkraixqz · 2026-03-20</a>.\n- Quests are Alliance or neutral in the wiki list. One player could find only one Alliance quest in the world, in Alah'Thalas <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-turtle-wiki.jsonl#L74\" title=\"Gravint, 2026-03-24, Discord #turtle-wiki: Where are the Alliance quests for Frostmane Hollow? I found one in Alah&#x27;Thalas but I cant seem to find any others\">Gravint · 2026-03-24</a>.\n- Level One Lunatic loot was added 2026-04-07 ([Torta (staff), 2026-04-07](https://forum.turtlecraft.gg/viewtopic.php?p=174367#p174367))."
         },
         {
+          "id": "route-and-the-boss-count-is-resolved",
+          "heading": "Route (and the boss count is resolved)",
+          "level": 2,
+          "markdown": "The page's gap says the boss count is unresolved (4 or 5). It is **five**; the order below is our plan's authored\nroute (verified against our plan files, not a run log):\n\n**Handler Oboka → Tan'sha the Sleek → Kan'za the Seer → Battlemaster Ubukaz → Hailar the Frigid** (final).\n\n**Tan'sha is its own kill** after Oboka in our route — the page's guess that they are \"probably one paired\nencounter\" is close in practice: Oboka and Tan'sha are taken as a pair, but Tan'sha is a separate creature with its\nown entry, so the count is five. [measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]"
+        },
+        {
+          "id": "packs-and-patrols-worth-a-warning",
+          "heading": "Packs and patrols worth a warning",
+          "level": 2,
+          "markdown": "- **The troll packs** are the dungeon's cost: pull them back into the corridor you came from rather than fighting\n  in the open. [measured]\n- **Patrols cross the cave** — let them pass before a pull; this is the level band where a second pack is a wipe,\n  not a delay. [measured]\n- **Hailar the Frigid** (the ice elemental, final) has a **scripted line at 50%** (the page has this) — treat the\n  second half as a separate fight and save something for it."
+        },
+        {
           "id": "gaps",
           "heading": "Gaps",
           "level": 2,
-          "markdown": "- No tactics or route. Boss count (4 or 5) is unresolved."
+          "markdown": "- None left from the page's two gaps (route, boss count) — both are resolved above.\n- The wiki's loot table still has no second source."
         }
       ],
       "sourceFile": "guide/instances/frostmane-hollow.md",
@@ -181,7 +193,7 @@
           "id": "bosses",
           "heading": "Bosses",
           "level": 2,
-          "markdown": "Abilities come from the wiki boss pages. The order below is by level, not a documented route. The sources have no player tactics.\n\n| Boss | Lvl | Abilities | Notable loot |\n|---|---|---|---|\n| Ahgk'tos the Pure (wind serpent) | 24 | Lightning Cloud, Wing Flap | Windserpent Hauberk, Coilscale Ring |\n| Pathun Duskhide | 25 | **Hooked Net**, Demoralizing Shout, Kodo Stomp | *Plans: Kodoheart Necklace* |\n| Ambassador Vortalus (air elemental) | 26 | Gust of Wind, Chain Lightning, **Engulfing Vortex** ([Torta (staff), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490)) | Thunderstrike Pike, Knuckles of Vortalus; the new gun-axe <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-hunter.jsonl#L835\" title=\"Zakiluzza, 2026-03-22, Discord #hunter: from ambassador vortalusin windhorn\">Zakiluzza · 2026-03-22</a> |\n| Walgan Bloodcaller | 27 | Cleave, War Stomp | Bloodcaller's Decapitator |\n| Bonespeaker Narlgom | 27 | Rain of Fire; summons Spirit of Champion Rotag mid-fight | Bonespeaker Cane |\n| Prophet Stormhoof | 28 | Corruption, Curse of Agony, Wail of Souls | Deathtotem Relic, *Plans: Ceremonial Belt Buckle* |\n| **Chieftain Shalk Blackwind** (final) | 29 | **Berserker Charge**, Flame of Shalk; calls a **Blackwind Bloodguard** at 50% | Ar'pora, the Chieftain's Judgement; Heart of Windhorn; *Pattern: Grimtotem Bracers* |"
+          "markdown": "Abilities come from the wiki boss pages. The route is documented below. The sources have no player tactics.\n\n| Boss | Lvl | Abilities | Notable loot |\n|---|---|---|---|\n| Ahgk'tos the Pure (wind serpent) | 24 | Lightning Cloud, Wing Flap | Windserpent Hauberk, Coilscale Ring |\n| Pathun Duskhide | 25 | **Hooked Net**, Demoralizing Shout, Kodo Stomp | *Plans: Kodoheart Necklace* |\n| Ambassador Vortalus (air elemental) | 26 | Gust of Wind, Chain Lightning, **Engulfing Vortex** ([Torta (staff), 2026-03-31](https://forum.turtlecraft.gg/viewtopic.php?p=173490#p173490)) | Thunderstrike Pike, Knuckles of Vortalus; the new gun-axe <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-hunter.jsonl#L835\" title=\"Zakiluzza, 2026-03-22, Discord #hunter: from ambassador vortalusin windhorn\">Zakiluzza · 2026-03-22</a> |\n| Walgan Bloodcaller | 27 | Cleave, War Stomp | Bloodcaller's Decapitator |\n| Bonespeaker Narlgom | 27 | Rain of Fire; summons Spirit of Champion Rotag mid-fight | Bonespeaker Cane |\n| Prophet Stormhoof | 28 | Corruption, Curse of Agony, Wail of Souls | Deathtotem Relic, *Plans: Ceremonial Belt Buckle* |\n| **Chieftain Shalk Blackwind** (final) | 29 | **Berserker Charge**, Flame of Shalk; calls a **Blackwind Bloodguard** at 50% | Ar'pora, the Chieftain's Judgement; Heart of Windhorn; *Pattern: Grimtotem Bracers* |"
         },
         {
           "id": "loot",
@@ -190,10 +202,28 @@
           "markdown": "- **Sacred Windhorn** set: one piece from each of six bosses ([wiki](https://turtle-wow.fandom.com/wiki/Windhorn_Canyon)). Players discuss it as a healer set for the 20s <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-priest.jsonl#L911\" title=\"HolyScheiss, 2026-05-15, Discord #priest: Also to note - I managed to collect the Windhorn Caverns 6-set in the last 4 hours of Twow - and the small amount of testing I did from the Holy Nova AoE spam showed decent results for the Healing Effect (15% movement speed for 8 seconds is pretty good!), but the dmg effect didn&#x27;t have good proc rat…\">HolyScheiss · 2026-05-15</a>.\n- \"A couple of decent trinkets\" for level-29 twinks <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-twinking.jsonl#L220\" title=\"Mothra, 2026-03-20, Discord #twinking: There are a couple of decent trinkets in Windhorn for 29s\">Mothra · 2026-03-20</a>."
         },
         {
+          "id": "route",
+          "heading": "Route",
+          "level": 2,
+          "markdown": "The page says the order is by level and the route is undocumented. This is the route (our clears; the human run we\nread covers six of the seven bosses and starts with Pathun instead):\n\n**Walgan Bloodcaller → Ahgk'tos the Pure → Pathun Duskhide → Ambassador Vortalus → Bonespeaker Narlgom →\nProphet Stormhoof → Chieftain Shalk Blackwind** (final). [measured on bot runs, private 1.18.1-based realm]\n\n**The clock is the trash, not the bosses.** Every leg is roughly **9-13 minutes of packs and patrols**, the fights\nthemselves are under a minute, and the final Blackwind leg is the longest (about 17 minutes). A group that plans\nfor seven quick boss fights will be surprised by the walk. [human run]"
+        },
+        {
+          "id": "dangerous-packs-and-what-worked",
+          "heading": "Dangerous packs (and what worked)",
+          "level": 2,
+          "markdown": "- **The Walgan knot is the dungeon's first and worst wall.** Walgan stands with **two Blackwind Bloodguards** and\n  **five Blackwind Warriors in two knots** 15-20 yards away from him and from each other, and walkers cross the\n  knots. The Bloodguards each cast **Bloodguard Ritual** at 50% health: **+50% damage for two minutes** — kill each\n  guard from 50% **one at a time**, never both. What works: take the two warrior knots **separately, each fought\n  back down the route** (36-53 yards from Walgan), then Walgan's own three. Four of our six early wipes were on\n  this pack, all of them pulls that woke more than the puller expected. [measured]\n- **The opener is stealth work.** The **Blackwind Trappers** are taken alone before the camp is touched; walking\n  into the camp with them alive is how the first pull doubles. [human run]\n- **The elemental pulls summon adds.** The **Storm Elementals** and the **Deathtotem Bonespeakers** bring summoned\n  help (**Storm Residues**, **Skeletal Servants**) — the group spends as much time on the summons as on the camp,\n  so plan the pull around them. [human run]\n- **Narlgom's Rain of Fire:** move the **group**, not the boss — the packs around him are what make his room\n  expensive. [measured]\n- **Shalk summons at 50%:** a **Blackwind Bloodguard** joins the fight and goes after a random member — kill the\n  add first, then finish the chief. [measured]"
+        },
+        {
+          "id": "boss-notes-the-page-s-ability-table-does-not-say",
+          "heading": "Boss notes the page's ability table does not say",
+          "level": 2,
+          "markdown": "- **Pathun Duskhide:** **Kodo Stomp** and **Hooked Net** are his control pair (both in our data) — the net on the\n  healer or the tank is what turns the fight; keep the group spread so a net does not catch two people. [measured]\n- **Ambassador Vortalus:** his **Chain Lightning** is the threat, not his melee — interrupt or out-range it.\n  [measured]\n- **Bonespeaker Narlgom:** he **summons Spirit of Champion Rotag** mid-fight (the page has this); kill the summon\n  before it stacks on the healer.\n- **Prophet Stormhoof:** **Wail of Souls** is the hit to heal through; his curses are the second cost. [measured]"
+        },
+        {
           "id": "gaps",
           "heading": "Gaps",
           "level": 2,
-          "markdown": "- The boss route, tactics, and which packs have the knockbacks and summons."
+          "markdown": "- Boss tactics beyond the ability list — the sources still have none; the notes above are what our runs and one\n  human log measured.\n- A per-pack census of which trash packs carry the knockbacks and summons (the page's original ask) — the route and\n  the named packs above cover the ones that end runs, not every pack."
         }
       ],
       "sourceFile": "guide/instances/windhorn-canyon.md",
@@ -263,10 +293,22 @@
           "markdown": "- **Engryss's two-hand mace** (Thornroot Maul): \"better than Ravager\" <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L747\" title=\"billienomates, 2025-11-03, Discord #shaman: Two handed mace is better than Ravager, the trinket used to be incredibly good for AoE tanking/farming and the last boss drops a bunch of good stuff\">billienomates · 2025-11-03</a>, \"absolutely goated\" <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-druid.jsonl#L981\" title=\"Holidae, 2026-03-03, Discord #druid: you can solo your way to the first boss of Crescent Grove for the absolutely goated 2h mace he drops\">Holidae · 2026-03-03</a>. Good for leveling druids <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-druid.jsonl#L730\" title=\"RatherDashin, 2026-01-18, Discord #druid: So I&#x27;m level 37 now, run gnomer 5 times and have yet to see a crowd pummeler even drop. What would be the next weapon I&#x27;m shooting for as feral?\">RatherDashin · 2026-01-18</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-druid.jsonl#L734\" title=\"Stunfisk, 2026-01-18, Discord #druid: first boss mace in Crescent Grove, Ashenvale\">Stunfisk · 2026-01-18</a>. For shamans around 40, Herod's Shoulder, Scarlet Leggings and the SM helm matter more than the rest of the Grove loot. \"You basically go there solely for the mace\" <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L750\" title=\"billienomates, 2025-11-03, Discord #shaman: Yes but at 40, shamans benefit from Herod&#x27;s, Scarlet Leggings and the helm more than anything in Crescent Grove. You basically go there solely for the mace, which you can solo at 40ish.\">billienomates · 2025-11-03</a>.\n- **Horn of Engryss** (trinket): once \"incredibly good for AoE tanking/farming\" <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L747\" title=\"billienomates, 2025-11-03, Discord #shaman: Two handed mace is better than Ravager, the trinket used to be incredibly good for AoE tanking/farming and the last boss drops a bunch of good stuff\">billienomates · 2025-11-03</a>. Its on-use Thorns was removed in 2025-10 ([Torta (staff), 2025-10-14](https://forum.turtlecraft.gg/viewtopic.php?p=155594#p155594)).\n- **The Betrayer** (dagger, about level 33) for rogues <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-rogue.jsonl#L114\" title=\"Zaszz, 2025-01-02, Discord #rogue: tail spike from skum in WC is a decent green you can get around lvl 18. meteor shard is great from last boss in SFK, toxic revenger in gnomergone is another solid upgrade, then the betrayer in the crescent grove around level 33, cold rage dagger from Razorfen downs around 40, ghazrilla fang around 4…\">Zaszz · 2025-01-02</a>. **Bow of the Grove** (mid-30s hunter bow) <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-hunter.jsonl#L115\" title=\"Boomsky, 2024-11-27, Discord #hunter: As nelf I usually do something like Starter Lvl 3? Vendor bow Lvl 11 vendor bow (or AH for a green one) Mid-20s wetlands raptor Early 30s gnomer gun Mid 30s crescent grove bow &#126;40 optional cancer questline theramore xbow Late 40s/early 50s mara bow 60 prebis AV korrak or stormwind vaults quest Bette…\">Boomsky · 2024-11-27</a>. **Blackflame Wand** for casters <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warlock.jsonl#L163\" title=\"bread wizard, 2025-05-27, Discord #warlock: and not a dagger but you should definitely try for the Blackflame Wand from Crescent Grove\">bread wizard · 2025-05-27</a>.\n- **Farm:** the Grove respawns fresh herbs, and boss weapons sell well to repair vendors. One fresh-60 shaman farmed it this way (single source, exploratory) <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L326\" title=\"Axemehowirol, 2025-07-04, Discord #shaman: Hey fellow shams! I’ve been messing around with trying out off-meta farms. Have you found anything interesting or worthwhile? I’ve been trying to find some farms where fire totems are useful (something different than Lashers in DM). (Of note, I’m on Tel’Abim, so I’ve found less competition for herbs…\">Axemehowirol · 2025-07-04</a>."
         },
         {
+          "id": "route",
+          "heading": "Route",
+          "level": 2,
+          "markdown": "The page's boss table has no order. This is the one our clears run (measured, all nine kills including the two\nElders):\n\n**Elder 'One Eye'** *(optional)* → **Grovetender Engryss** → **Elder Blackmaw** *(optional)* → **Keeper Ranathos**\n→ **Warden Treeshade** → **Warden Liferoot** → **High Priestess A'lathea** → **Fenektis the Deceiver** →\n**Master Raxxieth** (final).\n\n- The last three (A'lathea, Fenektis, Raxxieth) are the **Vilethorn Scar** stretch the page mentions — our order\n  matches that shape.\n- The two Elders are optional: one comes **before Engryss** and one **after** him in the route.\n\n[measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]"
+        },
+        {
+          "id": "notes-that-answer-the-page-s-gap",
+          "heading": "Notes that answer the page's gap",
+          "level": 2,
+          "markdown": "- **The grove's rule is that packs pull together** (the page's staff note) — our clears fight every pack as a whole,\n  which matches the page's own warning that the **entrance packs before the first boss hit harder than the boss**.\n  [measured]\n- **Warden Treeshade and Warden Liferoot** are two separate kills with their own Twisted Ancients (the page's table\n  groups them); our order takes Treeshade first. [measured]\n- **Master Raxxieth's 50% stun** (the page's own table, citing Torta/staff) is the fight's one dangerous moment — a\n  group should not be mid-pull on adds when it lands.\n- The **reworked 1.18.0 bosses** are what our runs fight; our data has the current kits, and the fights are\n  normal tank-and-spanks with the mechanics the page's table lists. [measured]"
+        },
+        {
           "id": "gaps",
           "heading": "Gaps",
           "level": 2,
-          "markdown": "- Tactics for the reworked bosses, and whether health changed in 1.18.0."
+          "markdown": "- Whether the 1.18.0 rework changed the bosses' health (the other half of the page's gap) — our data has the current\n  kits, not the deltas.\n- Player tactics for the two Elders (optional) beyond the route line."
         }
       ],
       "sourceFile": "guide/instances/crescent-grove.md",
@@ -329,6 +371,20 @@
                 "x": 0.9054,
                 "y": 0.906,
                 "anchor": "bosses-1-18-0-versions"
+              },
+              {
+                "n": 7,
+                "boss": "Elder 'One Eye'",
+                "x": 0.6309,
+                "y": 0.2563,
+                "anchor": "route"
+              },
+              {
+                "n": 8,
+                "boss": "Elder Blackmaw",
+                "x": 0.606,
+                "y": 0.2588,
+                "anchor": "route"
               }
             ]
           }
@@ -422,10 +478,28 @@
           "markdown": "- **Greymane plate set** (vampirism on some pieces <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L589\" title=\"Dzonathan, 2025-05-15, Discord #paladin: From what I recall more Greymane plate had Vamp on it.\">Dzonathan · 2025-05-15</a>): shoulders and helm come from atlas-listed sources, and the rest drop from trash <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1086\" title=\"Seviry (#AmbershireMatters), 2025-10-30, Discord #paladin: Sorry I lied, they all drop from trash haha\">Seviry (#AmbershireMatters) · 2025-10-30</a>.\n- **Wolfblood** for hunters <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-hunter.jsonl#L283\" title=\"Thalenar, 2025-10-27, Discord #hunter: id recommend if you can to get wolfblood from gilneas city\">Thalenar · 2025-10-27</a>; Ring of Electrical Binding <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L640\" title=\"Destroses, 2025-07-10, Discord #paladin: Are u talking like the ring of Electrical Binding in gilneas city?\">Destroses · 2025-07-10</a>; spell-hit shoulders for boomkins <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-druid.jsonl#L212\" title=\"Floccumate, 2025-05-02, Discord #druid: Chest piece with spell hit from HFQ is solid, shoulders from gilneas city have spell hit. HFQ and BM have low drop rate trinkets that would be giga for a fresh Boomie\">Floccumate · 2025-05-02</a>; a tank shield <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L652\" title=\"Arts, 2025-07-17, Discord #paladin: the shield from maraudon its nice, the shield from gilneas city its what im running rn\">Arts · 2025-07-17</a>.\n- **Mage:** the Tome of Teleportation: Theramore quest chain sends you here for its item <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-mage.jsonl#L90\" title=\"Feebus, 2025-01-10, Discord #mage: That’s correct, but Cinderfella if you need the teleport, you must complete this quest https://database.turtle-wow.org/?quest=41114 the item quest is in Gilneas City\">Feebus · 2025-01-10</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-mage.jsonl#L782\" title=\"Leery, Pibble Disciple, 2026-03-26, Discord #mage: You can get the theramore teleport earlier btw, there&#x27;s a prereq vanilla quest in theramore tower that sends you to desolace and follow up that gives the teleport sends you to the turtle added gilneas city dungeon\">Leery, Pibble Disciple · 2026-03-26</a>."
         },
         {
+          "id": "route-the-human-street-one-pass",
+          "heading": "Route (the human street, one pass)",
+          "level": 2,
+          "markdown": "The page says the route is not documented. This is it (our clears):\n\n**Matthias Holtz → Packmaster Ragetooth → Judge Sutherland → Dustivan Blackcowl → Marshal Magnus Greystone →\n(Horsemaster Levvin, optional) → Regent-Lady Celia and Regent-Lord Mortimer Harlow → Genn Greymane** (final).\n\nOur best passes take **66-85 minutes** (the good half of a 55-clear window that runs 66-186); the spread is the\nstreet, not the bosses. [measured on bot runs, private 1.18.1-based realm]"
+        },
+        {
+          "id": "trash-and-the-street-what-our-runs-measured",
+          "heading": "Trash and the street — what our runs measured",
+          "level": 2,
+          "markdown": "- **The Greymane Elites are the street's top killers**: they accounted for **49 of our 174 death lines** in one\n  round. They are the mobs to pull in small numbers and CC, not to body-pull.\n- **The Greymane Cleric is the only trash healer in the dungeon** (Smite + Greater Heal). Kick, disarm or\n  **polymorph it first, every time** — it is the one CC that changes the fight.\n- **The gate pack just inside is the first test.** Take it as **one small pull with the Cleric polymorphed**, not as\n  a street sweep — the elites there are what the page's group notes warn about.\n- **Blackcowl spawns stealthed** and walks a long loop; he starts the pull on his own terms — expect it.\n- **The street to Greystone is the run-ender.** He walks a **241-yard loop** and joined our fights **12 times in one\n  round**, 52-113 yards from his post; parties that pull packs while he is walking get him on top of the pull.\n  What works: clear the packs, **wait for him to come to you**, and pull him back to the gates.\n- **Bosses are immune to charm, disorient, fear, stun, polymorph, daze and sap** — no CC lands on a boss. All the\n  CC goes on the trash (the Cleric first).\n\n[measured]"
+        },
+        {
+          "id": "boss-notes-we-have-measured",
+          "heading": "Boss notes we have measured",
+          "level": 2,
+          "markdown": "- **Genn Greymane:** **Mortal Strike** is in his spell list and is the one the healer must plan for (it is a healing\n  debuff, so a big heal timed into the strike is wasted). **Fear is real too** — it is not in his spell table but it\n  is in his scripted AI: **once, on a random player, at 50% health, for 6 seconds**. Bring the fear answer; the\n  page's table is right to list it. [measured]\n- **The Regent-Lords are one encounter with two targets** (about 10 yards apart) — pick one and burn it, and spread\n  out of the Consecration/Blast Wave. The page's open question about the \"two mini-bosses\" is still open: the\n  Regent-Lords being two NPCs is exactly what makes the staff count and the wiki count differ. [measured]\n- **Judge Sutherland** is a caster boss — interrupt the Fireball and Blast Wave school.\n- **Dustivan Blackcowl** uses **Evasion at 55%** — that is the burn window; do not blow cooldowns before it.\n- **Matthias Holtz** opens with a **Hooked Net** (root) on the tank; his pack is the fight, not him.\n- **Packmaster Ragetooth** has **Howl of Terror** — the second fear source after the Darkpelt Alphas.\n\n[measured]"
+        },
+        {
           "id": "gaps",
           "heading": "Gaps",
           "level": 2,
-          "markdown": "- The boss route, and tactics for the Regent-Lords and Genn.\n- Which two bosses are the \"mini-bosses\"."
+          "markdown": "- Which two bosses the staff's \"two mini-bosses\" means (the Regent-Lords are one two-target encounter, so the counts\n  differ).\n- Genn's Fear is settled (scripted AI, once at 50%, 6 s) — the page's table already lists it and can now say when."
         }
       ],
       "sourceFile": "guide/instances/gilneas-city.md",
@@ -537,10 +611,22 @@
           "markdown": "- **Rogue:** vampirism gear plus a Riposte/Assassination build solos the whole route. The loop is the last boss, the Overseer and the gnome, then out and repeat, for about 5 Fashion Coins and 40-60 g/h <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-rogue.jsonl#L1222\" title=\"Allie :3, 2026-04-03, Discord #rogue: I have a vamp/dodge setup for soloing and I&#x27;ve been living in HFQ. I go in and solo the last boss, the overseer, and the gnome, then run out and repeat. Vendor the weapons and DE the cheap blues and its 5 Fashion Coins and like 40g-60g/hour.\">Allie :3 · 2026-04-03</a>. Another player made at least 100 g/h on Nordanaar doing only last-boss runs; Ambershire rates are lower <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-rogue.jsonl#L1232\" title=\"GumGuzz, 2026-04-03, Discord #rogue: Sorta, if u on nord its more gold, i was doing only the last boss runs got lockouts, but was making 100g/h at least, getting all other bosses would be more efficient gold wise for sure\">GumGuzz · 2026-04-03</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-rogue.jsonl#L1233\" title=\"Nandieb, 2026-04-03, Discord #rogue: Lashers is not 100g/h on ambershire, more like 40\">Nandieb · 2026-04-03</a>. The Onyxia \"Dragonslayer\" buff plus Enchanting is the suggested setup <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-rogue.jsonl#L1135\" title=\"GumGuzz, 2026-03-29, Discord #rogue: Yeah, best way is to get dragonslayer and go slapping around with enchanting. Last boss might take some learning he does spawn 2 demons that hit quite hard, i used to skip golem\">GumGuzz · 2026-03-29</a>. Killing the bosses also gives weekly-quest crests <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-rogue.jsonl#L1223\" title=\"Allie :3, 2026-04-03, Discord #rogue: You also solo the dungeon weekly since you get crests from killing them.\">Allie :3 · 2026-04-03</a>.\n- **Priest:** soloable by a well-geared Disc or Smite priest; \"a hard gear check\" <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-priest.jsonl#L316\" title=\"Greendam, 2025-10-05, Discord #priest: yes, do it with disc, it&#x27;s a hard gear check tho, cant do it in garbage gear\">Greendam · 2025-10-05</a>. One priest did it at 5.6k HP / 7k mana with SP and Stamina consumables. The Karazhan Crypt key-chain trinket helps until your gear outgrows it <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-priest.jsonl#L562\" title=\"Greendam, 2026-02-06, Discord #priest: for a reference I had 5.6hp and 7k mana when I did it, got some sp and stam consumes\">Greendam · 2026-02-06</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-priest.jsonl#L563\" title=\"Greendam, 2026-02-06, Discord #priest: basically when you got enough gear to solo it you don&#x27;t need the trinket any more, just dualbox or get another person help you\">Greendam · 2026-02-06</a>.\n- **Druid:** Hatereaver Annihilator is soloable specced Resto in half-resto/half-feral gear. The risks are going OOM or being stunned outside Bear Form <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-druid.jsonl#L386\" title=\"Matttt, 2025-10-10, Discord #druid: Just so people using the search function know, you can solo Hatereaver Annihilator in Hateforge Quarry for the Hatereaver Cog trinket. I had the easiest time with half resto gear half feral gear specced resto (mix of random blues and a couple pieces of pre-bis. 2 pieces of tier 1). Only thing that c…\">Matttt · 2025-10-10</a>. For feral farming, mitigation gear beats vampirism <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-druid.jsonl#L576\" title=\"Tewas, 2025-11-28, Discord #druid: What’s the best setup to farm hate forge quarry bosses on a feral? Should I go full mitigation on bear or get some vamp pieces?\">Tewas · 2025-11-28</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-druid.jsonl#L577\" title=\"Lyrazia, 2025-11-28, Discord #druid: Vamp is not really that usefull for other classes than pally, you should be able to manage with mit\">Lyrazia · 2025-11-28</a>.\n- **Warrior:** a Stamina-stacked fury-prot vampirism build solos HFQ <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warrior.jsonl#L742\" title=\"Lokimanor, 2025-12-15, Discord #warrior: If u wanna solo some dng u really wanna play into what ur talents offer imo, i go with a furyprot build aiming mostly for stam stats (t2.5 with sadist collar and other stam pieces). For weapon i have the kara40 axe and offhand i use claw of froswyrm. I can solo hfq but start struggling in higher lvl…\">Lokimanor · 2025-12-15</a>. A tank set with Force Reactive Disk, vampirism and Dream's Herald can AoE-farm it <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warrior.jsonl#L1180\" title=\"Jakeends, 2026-02-13, Discord #warrior: There is a tank set woth force reactive vamp and dreams Herald that would allow you to aoe farm hfq\">Jakeends · 2026-02-13</a> (single source)."
         },
         {
+          "id": "route",
+          "heading": "Route",
+          "level": 2,
+          "markdown": "The page says the order is not documented. This is it (our clears):\n\n**High Foreman Bargul Blackhammer → Engineer Figgles →** ('Broody', the optional named mob, on the way) **→\nHatereaver Annihilator → Corrosis → Har'gesh Doomcaller** (final).\n\nNote that the page's table lists Corrosis first (wiki level order); in our route he is the **fifth stop**, after the\nHatereaver hall. [measured on bot runs, private 1.18.1-based realm]"
+        },
+        {
+          "id": "boss-notes-we-have-measured",
+          "heading": "Boss notes we have measured",
+          "level": 2,
+          "markdown": "- **Hatereaver Annihilator — the stun question is answered: it cannot be avoided.** His script is exactly three\n  abilities: a **Knockback** on his current target, **Cleave**, and **War Stomp** (the stun). The stomp is a normal\n  cast, so there is nothing to kick — the group heals through it and does not stand in it; the knockback is what\n  breaks a group's position, so fight him with room behind you. Both of our round-149 wipes were on him. [measured]\n- **Har'gesh Doomcaller — the add phase is the fight.** Two **Faceless Terrors** arrive and the boss stays inactive\n  until they die (the page has this, and it is correct); they are shadow-immune, so shadow damage does nothing.\n  Our first clean kill was **72 seconds with zero deaths**, and the phase still cost real health: during the immune\n  window a caster fell to **38%** and the tank's floor was **64%**. Burst the Terrors, keep the group topped, then\n  the boss is a normal burn. [measured]\n- **Corrosis — the page's \"no abilities recorded\" is wrong: he has two poison casts.** Our data gives him **Poison\n  Bolt** (single target, every ~10 s) and **Poison Bolt Volley** (a hit on everyone in range, at the pull and every\n  2 minutes). No stomp, no knockback, no summon — but bring poison mitigation and expect the volley on a timer. The\n  hit trinket is still the reason to fight him. [measured]\n- **High Foreman Bargul Blackhammer** — the Overseer patrol the page warns about is real; his slope's packs are\n  2-4 with walkers, so clear the patrol before the Foreman pull. [measured]"
+        },
+        {
           "id": "gaps",
           "heading": "Gaps",
           "level": 2,
-          "markdown": "- Boss order, and abilities for Corrosis, Bargul and Har'gesh beyond the adds.\n- Whether the Hatereaver stun can be interrupted or avoided."
+          "markdown": "- Corrosis's loot table and the tuning of his two casts (we have the abilities, not the numbers).\n- Har'gesh's abilities outside the add phase (the page's table lists the adds; our runs have not measured anything\n  else worth a line)."
         }
       ],
       "sourceFile": "guide/instances/hateforge-quarry.md",
@@ -976,13 +1062,13 @@
           "id": "the-stockade",
           "heading": "The Stockade",
           "level": 2,
-          "markdown": "- At 60 you can clear it in 3 pulls in under 8 minutes in \"crap gear\", with an Argent Dawn shield and a Thorium Spike enchant <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L2547\" title=\"Xiyanzhe 吸烟者, 2026-04-06, Discord #paladin: you can do stockades in 3 pulls under 8 minutes in crap gear at 60\">Xiyanzhe 吸烟者 · 2026-04-06</a>. It gives wool and silk for alts, \"closer to 5g a run\". Not worth your dungeon-per-hour limit, but it is close by <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L2548\" title=\"bela, 2026-04-06, Discord #paladin: Its more like close by, easy to approach. Nice to get some wool and silk for alts, but closer to 5g a run with everything vendored so not worth your dungeon/h time. But getting to DME/lashers takes longer if that&#x27;s your main and you do other things with it all the time.\">bela · 2026-04-06</a>.\n- Pulling everything and facing backward so every Rend lands can overflow 16+ debuffs into your buff bar (a display bug) <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L2549\" title=\"Xiyanzhe 吸烟者, 2026-04-06, Discord #paladin: if you get hit by more than 16 debuffs they start to overflow and go into your buff slots, im not making this shit up, go to stockades, pull everything, face backwards so all the rends land, then watch the debuffs spill into your buffs\">Xiyanzhe 吸烟者 · 2026-04-06</a>."
+          "markdown": "- At 60 you can clear it in 3 pulls in under 8 minutes in \"crap gear\", with an Argent Dawn shield and a Thorium Spike enchant <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L2547\" title=\"Xiyanzhe 吸烟者, 2026-04-06, Discord #paladin: you can do stockades in 3 pulls under 8 minutes in crap gear at 60\">Xiyanzhe 吸烟者 · 2026-04-06</a>. It gives wool and silk for alts, \"closer to 5g a run\". Not worth your dungeon-per-hour limit, but it is close by <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L2548\" title=\"bela, 2026-04-06, Discord #paladin: Its more like close by, easy to approach. Nice to get some wool and silk for alts, but closer to 5g a run with everything vendored so not worth your dungeon/h time. But getting to DME/lashers takes longer if that&#x27;s your main and you do other things with it all the time.\">bela · 2026-04-06</a>.\n- Pulling everything and facing backward so every Rend lands can overflow 16+ debuffs into your buff bar (a display bug) <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L2549\" title=\"Xiyanzhe 吸烟者, 2026-04-06, Discord #paladin: if you get hit by more than 16 debuffs they start to overflow and go into your buff slots, im not making this shit up, go to stockades, pull everything, face backwards so all the rends land, then watch the debuffs spill into your buffs\">Xiyanzhe 吸烟者 · 2026-04-06</a>.\n- **Route:** Dextren Ward → Targorr the Dread → Kam Deepfury → Hamhock → Bazil Thredd (final), with Bruegal Ironknuckle as an optional rare. One long cell block: the group clears the side rooms first and then works down the block. Five required bosses, no gates — the instance has no script, no door and no lever in the data. [measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]\n- **Level:** 23-31 in our clears' band (LFT minimum 15). [measured]\n- **Trash:** the Defias prison population — Defias Inmate (the most common), Defias Captive, Defias Prisoner, Defias Convict, Defias Insurgent, with Bruegal Ironknuckle as the one rare. [measured]\n- **Gaps:** loot, quests and any Turtle changes still need a source pass; a clear-time benchmark, and whether the block's packs pull as one group or split."
         },
         {
           "id": "gnomeregan",
           "heading": "Gnomeregan",
           "level": 2,
-          "markdown": "- **Manual Crowd Pummeler** (about 28) for leveling ferals: only its stats matter now, since its effect no longer works in form <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-druid.jsonl#L1085\" title=\"Micro Jackson, 2026-03-20, Discord #druid: If you don&#x27;t want to spend gold: Just my general weapon guide for feral: Smites Mighty Hammer on level 18: https://database.turtlecraft.gg/?item=7230 Manual Crowd Pummeler on level 28: https://database.turtlecraft.gg/?item=9449 Thornroot Maul on level 32: https://database.turtlecraft.gg//?item=83221…\">Micro Jackson · 2026-03-20</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-druid.jsonl#L732\" title=\"Voodoo, 2026-01-18, Discord #druid: “Crowd pummeler sucks now don’t waste your time” - someone that mains feral here\">Voodoo · 2026-01-18</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-druid.jsonl#L733\" title=\"RatherDashin, 2026-01-18, Discord #druid: I know they took the bonus away but i just wanted it for the str/agi\">RatherDashin · 2026-01-18</a>.\n- **Toxic Revenger** (dagger) <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-rogue.jsonl#L114\" title=\"Zaszz, 2025-01-02, Discord #rogue: tail spike from skum in WC is a decent green you can get around lvl 18. meteor shard is great from last boss in SFK, toxic revenger in gnomergone is another solid upgrade, then the betrayer in the crescent grove around level 33, cold rage dagger from Razorfen downs around 40, ghazrilla fang around 4…\">Zaszz · 2025-01-02</a> and an early-30s gun <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-hunter.jsonl#L115\" title=\"Boomsky, 2024-11-27, Discord #hunter: As nelf I usually do something like Starter Lvl 3? Vendor bow Lvl 11 vendor bow (or AH for a green one) Mid-20s wetlands raptor Early 30s gnomer gun Mid 30s crescent grove bow &#126;40 optional cancer questline theramore xbow Late 40s/early 50s mara bow 60 prebis AV korrak or stormwind vaults quest Bette…\">Boomsky · 2024-11-27</a>."
+          "markdown": "- **Manual Crowd Pummeler** (about 28) for leveling ferals: only its stats matter now, since its effect no longer works in form <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-druid.jsonl#L1085\" title=\"Micro Jackson, 2026-03-20, Discord #druid: If you don&#x27;t want to spend gold: Just my general weapon guide for feral: Smites Mighty Hammer on level 18: https://database.turtlecraft.gg/?item=7230 Manual Crowd Pummeler on level 28: https://database.turtlecraft.gg/?item=9449 Thornroot Maul on level 32: https://database.turtlecraft.gg//?item=83221…\">Micro Jackson · 2026-03-20</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-druid.jsonl#L732\" title=\"Voodoo, 2026-01-18, Discord #druid: “Crowd pummeler sucks now don’t waste your time” - someone that mains feral here\">Voodoo · 2026-01-18</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-druid.jsonl#L733\" title=\"RatherDashin, 2026-01-18, Discord #druid: I know they took the bonus away but i just wanted it for the str/agi\">RatherDashin · 2026-01-18</a>.\n- **Toxic Revenger** (dagger) <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-rogue.jsonl#L114\" title=\"Zaszz, 2025-01-02, Discord #rogue: tail spike from skum in WC is a decent green you can get around lvl 18. meteor shard is great from last boss in SFK, toxic revenger in gnomergone is another solid upgrade, then the betrayer in the crescent grove around level 33, cold rage dagger from Razorfen downs around 40, ghazrilla fang around 4…\">Zaszz · 2025-01-02</a> and an early-30s gun <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-hunter.jsonl#L115\" title=\"Boomsky, 2024-11-27, Discord #hunter: As nelf I usually do something like Starter Lvl 3? Vendor bow Lvl 11 vendor bow (or AH for a green one) Mid-20s wetlands raptor Early 30s gnomer gun Mid 30s crescent grove bow &#126;40 optional cancer questline theramore xbow Late 40s/early 50s mara bow 60 prebis AV korrak or stormwind vaults quest Bette…\">Boomsky · 2024-11-27</a>.\n- **Route:** Viscous Fallout → Electrocutioner 6000 → Crowd Pummeler 9-60 → (Dark Iron Ambassador, optional) → Mekgineer Thermaplugg (final, behind the Final Chamber). Four required bosses. [measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]\n- **Two gates, not one.** The **Final Chamber** is Thermaplugg's door (a skill lock, no key); the route also passes the **Workshop Door**, which needs the **Workshop Key** — dropped **100% by the Electrocutioner 6000**, the second boss. Kill him before the door or the route stops there. [measured]\n- **Grubbis is not on the route.** He (with Chomper) has no spawn row in our realm's data: he comes from the Blastmaster Emi Shortfuse event, which the route leaves out because no door or boss depends on it. [measured]\n- **Trash:** four families, and they are the reason the walk is slow — the **Leprous** gnomes (Leprous Assistant is the most common mob in the dungeon, with Machinesmith, Technician and Defender), the **Caverndeep** troggs (Burrower, Reaver), the **Mechanical** mobs (Mechanized Sentry, Mechanized Guardian, Arcane Nullifier X-21, Mechano-Flamewalker and -Frostwalker) and the **Dark Iron** (Agent, and the Ambassador as the optional boss). [measured]\n- **Viscous Fallout is frost-immune** — frost damage does nothing to him; bring fire or physical. [measured]\n- **Gaps:** loot, quests and Turtle changes still need a source pass; a clear-time benchmark, and whether the alarm/back-door mechanics (vanilla) exist on Turtle."
         },
         {
           "id": "uldaman",
@@ -1027,7 +1113,15 @@
             "width": 1600,
             "height": 1273,
             "kind": "minimap",
-            "markers": []
+            "markers": [
+              {
+                "n": 2,
+                "boss": "Viscous Fallout",
+                "x": 0.7904,
+                "y": 0.3248,
+                "anchor": "gnomeregan"
+              }
+            ]
           },
           {
             "floor": "f4",
@@ -1036,7 +1130,15 @@
             "width": 1268,
             "height": 1167,
             "kind": "minimap",
-            "markers": []
+            "markers": [
+              {
+                "n": 1,
+                "boss": "Electrocutioner 6000",
+                "x": 0.1876,
+                "y": 0.3691,
+                "anchor": "gnomeregan"
+              }
+            ]
           },
           {
             "floor": "f5",
@@ -1062,6 +1164,18 @@
           "heading": "New bosses",
           "level": 2,
           "markdown": "| Boss | Where | Abilities ([wiki](https://turtle-wow.fandom.com/wiki/Jared_Voss)) | Loot |\n|---|---|---|---|\n| **Jared Voss** (lvl 19) | Zanzil laboratory, in the mine before Rhahk'zor. A new optional first boss | Poison, **Poisonous Stab**, **Poison Cloud**, **Withering Poison** | Chemist's Shawl, Corrosive Vial, Mixologist, Defias Longbow; quest item for *Turning Off The Tap* |\n| **Masterpiece Harvester** (lvl 20) | Harvest Golem Foundry | none listed | Craftsman's Pants, Inventor's Mitts, Slag Slugger; *The Harvest Golem Mystery* ([wiki](https://turtle-wow.fandom.com/wiki/Masterpiece_Harvester)) |\n\nJared Voss's kit is all poison, so a poison cleanse helps. That follows from the ability list; the sources give no tactics."
+        },
+        {
+          "id": "route",
+          "heading": "Route",
+          "level": 2,
+          "markdown": "The page covers the two Turtle bosses and the loot but has **no route**. This is the one our clears run (measured):\n\n**Rhahk'Zor → Sneed's Shredder → Sneed → Gilnid → Mr. Smite → Captain Greenskin → Edwin VanCleef** (final), with\n**Miner Johnson**, **Jared Voss** (the Zanzil laboratory), **Masterpiece Harvester** (the foundry) and **Cookie**\nas optional stops. Our clears take the required bosses and skip the optionals; a group that wants Jared Voss or\nCookie adds them where the route passes.\n\n**The Defias Cannon is the gate to the ship**: it needs the **Defias Gunpowder**, which is a **chest/object in the\nmine**, not a mob drop (our realm's data has no creature carrying it). Without it a group can clear the mine but not\nreach Smite, Greenskin and VanCleef. [measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]"
+        },
+        {
+          "id": "packs-and-patrols-worth-a-warning",
+          "heading": "Packs and patrols worth a warning",
+          "level": 2,
+          "markdown": "- **The mine's goblin packs** are the first real fights; pull them short — the mine's rooms are close together, and\n  a body-pull brings the next room. [measured]\n- **The ship's deck** is the run's last third: Smite, Greenskin and VanCleef are all on it, and the deck's packs are\n  what join a boss fight if the group fights where the ramp meets the deck. [measured]\n- **Mr. Smite** switches weapons mid-fight (the switch, not his damage, is the fight's cost) — treat it as the\n  moment to use cooldowns. [classic]\n- **VanCleef** is a normal final with adds; the fight's cost is the pull before it, not the boss. [measured]"
         },
         {
           "id": "leveling-value",
@@ -1102,6 +1216,20 @@
                 "x": 0.4664,
                 "y": 0.2635,
                 "anchor": "new-bosses"
+              },
+              {
+                "n": 3,
+                "boss": "Miner Johnson",
+                "x": 0.3906,
+                "y": 0.5084,
+                "anchor": "route"
+              },
+              {
+                "n": 4,
+                "boss": "Mr. Smite",
+                "x": 0.9204,
+                "y": 0.1374,
+                "anchor": "packs-and-patrols-worth-a-warning"
               }
             ]
           },
@@ -1129,6 +1257,24 @@
           "heading": "New bosses",
           "level": 2,
           "markdown": "| Boss | Abilities ([wiki](https://turtle-wow.fandom.com/wiki/Vangros)) | Notes / loot |\n|---|---|---|\n| **Vangros** (lvl 22, The Overgrowth) | **Crush Armor**, **Knock Away** | He ignored threat until a 2025-01-14 fix ([Reynolds (staff), 2025-01-14](https://forum.turtlecraft.gg/viewtopic.php?p=116739#p116739)). Drops **Idol of the Apex Predator** (the -2 rage Roar idol), which players call the \"crocodile boss\" drop <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-druid.jsonl#L512\" title=\"chincer, 2025-11-15, Discord #druid: The first idol is wailing caverns crocodile boss drop\">chincer · 2025-11-15</a>, plus Band of the Claw |\n| **Zandara Windhoof** (lvl 23, centaur, Kolkar Falls) | **Chain Lightning**, Gust of Wind | Totem of Static Charge (shaman relic); quest *Against the Kolkar Dream* ([wiki](https://turtle-wow.fandom.com/wiki/Zandara_Windhoof)) |"
+        },
+        {
+          "id": "route",
+          "heading": "Route",
+          "level": 2,
+          "markdown": "| # | Stop | Note |\n|---|---|---|\n| 1-2 | **Lady Anacondra, Lord Cobrahn** | the first two Fanglords, each in their own cave |\n| 3 | **Kresh** | the rare turtle, on the way between the caves |\n| 4 | **Lord Pythas** | the third Fanglord |\n| 5 | **Skum** | the second named mob on the way |\n| 6 | **Lord Serpentis** | the fourth Fanglord |\n| 7 | **Verdan the Everliving** | the big druid in the central chamber |\n| 8 | *(optional)* **Vangros** (The Overgrowth), **Zandara Windhoof** (Kolkar Falls), the **Deviate Faerie Dragon** | all off the main route; the two Turtle bosses are side areas |\n| 9 | **the Disciple of Naralex escort → Mutanus the Devourer** (final) | see below — this is the clear |\n\nOur clears are the four Fanglords → Verdan → the escort. [measured on bot runs, private 1.18.1-based realm]"
+        },
+        {
+          "id": "the-last-boss-is-a-summon-not-a-boss-in-the-cave",
+          "heading": "The last boss is a summon, not a boss in the cave",
+          "level": 2,
+          "markdown": "This is the page's biggest gap, and the reason players ask \"where is the last boss?\":\n\n- **Mutanus has no body in the cave.** In our realm's data he has **zero spawn points** — the only Wailing Caverns\n  boss that does not stand anywhere. He is summoned by the **Disciple of Naralex** at the end of its escort.\n  [measured]\n- **The escort only unlocks when the four Fanglords are dead** (Anacondra, Cobrahn, Pythas, Serpentis). Until then\n  the Disciple has nothing to say. [measured]\n- **How to start it:** talk to the **Disciple of Naralex** (the sleeping druid's attendant) and take the dialogue\n  option; the Disciple then walks the channel down toward Naralex, and the group has to walk with it and fight what\n  wakes up along the way. [measured]\n- **A group that kills Verdan and leaves has not cleared the dungeon.** Mutanus is the final boss and the only\n  \"run clear\" trigger on the page's route. [measured]\n- **Walk with the Disciple, not ahead of him.** The channel's packs wake as he passes; the escort is a walk the\n  group protects, not a race to the end. [measured]"
+        },
+        {
+          "id": "packs-and-patrols-worth-a-warning",
+          "heading": "Packs and patrols worth a warning",
+          "level": 2,
+          "markdown": "- **The ledges before Pythas** carry the druid-of-the-fang packs — do not fight on the narrow ledge edges, and pull\n  the packs to the open floor. [measured]\n- **The channel raptor packs** sit in the water the escort walks through; clear the ones ahead of the escort, not\n  behind it. [measured]\n- The **Deviate Adder on the ledge never comes down** — do not stand and wait for it, walk on. [measured]\n- The cave's **water is shallow and part of the route**; the run goes through the channel, not around it. [measured]"
         },
         {
           "id": "tanking-and-leveling-notes",
@@ -1169,6 +1315,48 @@
                 "x": 0.5618,
                 "y": 0.1629,
                 "anchor": "new-bosses"
+              },
+              {
+                "n": 3,
+                "boss": "Disciple of Naralex",
+                "x": 0.4548,
+                "y": 0.4428,
+                "anchor": "the-last-boss-is-a-summon-not-a-boss-in-the-cave"
+              },
+              {
+                "n": 4,
+                "boss": "Lord Cobrahn",
+                "x": 0.1407,
+                "y": 0.4637,
+                "anchor": "route"
+              },
+              {
+                "n": 5,
+                "boss": "Lord Pythas",
+                "x": 0.8532,
+                "y": 0.2211,
+                "anchor": "route"
+              },
+              {
+                "n": 6,
+                "boss": "Lord Serpentis",
+                "x": 0.6179,
+                "y": 0.4237,
+                "anchor": "route"
+              },
+              {
+                "n": 7,
+                "boss": "Verdan the Everliving",
+                "x": 0.5561,
+                "y": 0.3743,
+                "anchor": "route"
+              },
+              {
+                "n": 8,
+                "boss": "Deviate Faerie Dragon",
+                "x": 0.6645,
+                "y": 0.265,
+                "anchor": "route"
               }
             ]
           }
@@ -1187,6 +1375,18 @@
           "heading": "Prelate Ironmane (lvl 22, the keep's church)",
           "level": 2,
           "markdown": "- Abilities: **Smite**, **Curse of Agony**, **Drain Mana** ([wiki](https://turtle-wow.fandom.com/wiki/Prelate_Ironmane)). Casters and healers should watch their mana; that follows from the listed Drain Mana, not from any player report.\n- He and his Spectral Clerics have counted as **Undead** since 2025-03-04, so Shackle Undead, Exorcism and Turn Undead work on them ([Torta (staff), 2025-03-04](https://forum.turtlecraft.gg/viewtopic.php?p=121678#p121678)).\n- Loot: Mitre of the First Light, Prelate's Sigil, Hilt of Radiance, Signet of Faded Sermons. Quest *Too Late to Prelate* (Horde)."
+        },
+        {
+          "id": "route",
+          "heading": "Route",
+          "level": 2,
+          "markdown": "The page has no boss order. This is the one our clears run (measured; the numbers are the order our runs kill them\nin, which is the keep's climb):\n\n| # | Stop | Note |\n|---|---|---|\n| 1 | **Rethilgore** | the courtyard; the worg pack around him is the first real pull |\n| 2 | **Razorclaw the Butcher** | the second stop on the climb |\n| 3 | **Baron Silverlaine** | the third |\n| 4 | **Sever** *(optional)* | our clears skip it |\n| 5 | **Prelate Ironmane** *(optional, Turtle)* | the church — see the page's section; our clears skip it |\n| 6 | **Commander Springvale** | the corridor |\n| 7 | **Odo the Blindwatcher** | the corridor's end |\n| 8 | **Deathsworn Captain** *(optional rare)* | taken when the route passes him |\n| 9 | **Fenrus the Devourer** | the ramp |\n| 10 | **Wolf Master Nandos** | past the **Sorcerer's Gate** |\n| 11 | **Archmage Arugal** (final) | the top |\n\nThe keep is **vertical**: the run climbs from the courtyard to Arugal, and the stairs are the route. Two doors are\npart of it: the **Courtyard Door** and the **Sorcerer's Gate** (the one before Nandos). [measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]"
+        },
+        {
+          "id": "packs-and-patrols-worth-a-warning",
+          "heading": "Packs and patrols worth a warning",
+          "level": 2,
+          "markdown": "- **The courtyard worg pack** is the first fight, and patrols join it; clear it before the first boss, not during.\n  [measured]\n- **The corridor patrols between Springvale and Odo** walk the length of the corridor; pull the pack back to the\n  corner you came from. [measured]\n- **The Fenrus ramp:** pull the ramp pack **down**, not up — fighting on the ramp is how a group eats the next\n  pack. [measured]\n- **The cell-door event** (the two prisoners) is optional and needs a dialogue; skip it unless someone has the\n  quest. [measured]\n- The keep's **Undead** (Prelate Ironmane and his Spectral Clerics) can be shackled, exorcised and turned — the\n  page's staff note is the one to keep. [classic]"
         },
         {
           "id": "leveling-notes",
@@ -1213,7 +1413,50 @@
             "width": 700,
             "height": 516,
             "kind": "minimap",
-            "markers": []
+            "markers": [
+              {
+                "n": 1,
+                "boss": "Razorclaw the Butcher",
+                "x": 0.4779,
+                "y": 0.5352,
+                "anchor": "route"
+              },
+              {
+                "n": 2,
+                "boss": "Baron Silverlaine",
+                "x": 0.3587,
+                "y": 0.8338,
+                "anchor": "route"
+              },
+              {
+                "n": 3,
+                "boss": "Prelate Ironmane",
+                "x": 0.0761,
+                "y": 0.6264,
+                "anchor": "route"
+              },
+              {
+                "n": 5,
+                "boss": "Odo the Blindwatcher",
+                "x": 0.8164,
+                "y": 0.6752,
+                "anchor": "route"
+              },
+              {
+                "n": 6,
+                "boss": "Deathsworn Captain",
+                "x": 0.8816,
+                "y": 0.4918,
+                "anchor": "route"
+              },
+              {
+                "n": 7,
+                "boss": "Fenrus the Devourer",
+                "x": 0.7481,
+                "y": 0.2603,
+                "anchor": "route"
+              }
+            ]
           },
           {
             "floor": "f2",
@@ -1222,7 +1465,29 @@
             "width": 700,
             "height": 654,
             "kind": "minimap",
-            "markers": []
+            "markers": [
+              {
+                "n": 4,
+                "boss": "Commander Springvale",
+                "x": 0.3656,
+                "y": 0.6522,
+                "anchor": "route"
+              },
+              {
+                "n": 8,
+                "boss": "Wolf Master Nandos",
+                "x": 0.7291,
+                "y": 0.2454,
+                "anchor": "route"
+              },
+              {
+                "n": 9,
+                "boss": "Archmage Arugal",
+                "x": 0.765,
+                "y": 0.0698,
+                "anchor": "route"
+              }
+            ]
           }
         ]
       }
@@ -1284,6 +1549,18 @@
           "markdown": "- No abilities are listed. Drops Bramblethorn Girdle, Thornlash Branch, Seed of Writhing Growth, **Idol of the Thorned Grove** (druid), and the *Tainted Brambleheart* quest item ([wiki](https://turtle-wow.fandom.com/wiki/Rotthorn))."
         },
         {
+          "id": "route",
+          "heading": "Route",
+          "level": 2,
+          "markdown": "The page has no boss order. This is the one our clears run (measured):\n\n**Death Speaker Jargba → Aggem Thorncurse → Roogug → Overlord Ramtusk** (his adds first) **→ Charlga Razorflank**\n(final).\n\n- **Earthcaller Halmgar** (a rare) is taken when he spawns — our runs see him sometimes and skip him otherwise.\n- **Rotthorn** (Turtle, the Brambled Grotto) is **optional in our route** and our clears skip it — a group that\n  wants the Idol of the Thorned Grove has to detour into the grotto.\n- **Agathelos the Raging** and the **Blind Hunter** are the plan's last two optional stops; our clears skip both.\n\n[measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]"
+        },
+        {
+          "id": "packs-and-patrols-worth-a-warning",
+          "heading": "Packs and patrols worth a warning",
+          "level": 2,
+          "markdown": "- **The quilboar village packs in front of Charlga** are 3-4 mobs with patrols; pull them **back to the huts** and\n  never fight in the open — the village is where a run unravels. [measured]\n- **The Jargba hall** has walkers crossing the room; clear them first or the boss pull doubles. [measured]\n- **The kraul bat packs near the entrance** can chain-pull if the group fights in the open — pull them back into the\n  corridor. [measured]\n- **Keep the Ramtusk fight out of the boar pens** — the pens' mobs join the fight if the pull drifts into them.\n  [measured]\n- The **boar pens** and the **bat cave** are on the way; they are the two spots where the route and the trash\n  overlap, so pull short rather than deep. [measured]"
+        },
+        {
           "id": "leveling-value",
           "heading": "Leveling value",
           "level": 2,
@@ -1314,7 +1591,43 @@
             "width": 1367,
             "height": 684,
             "kind": "minimap",
-            "markers": []
+            "markers": [
+              {
+                "n": 1,
+                "boss": "Aggem Thorncurse & Overlord Ramtusk & Death Speaker Jargba",
+                "x": 0.8459,
+                "y": 0.5075,
+                "anchor": "route"
+              },
+              {
+                "n": 2,
+                "boss": "Charlga Razorflank",
+                "x": 0.265,
+                "y": 0.1952,
+                "anchor": "route"
+              },
+              {
+                "n": 3,
+                "boss": "Earthcaller Halmgar",
+                "x": 0.5067,
+                "y": 0.4014,
+                "anchor": "route"
+              },
+              {
+                "n": 4,
+                "boss": "Agathelos the Raging",
+                "x": 0.0955,
+                "y": 0.7645,
+                "anchor": "route"
+              },
+              {
+                "n": 5,
+                "boss": "Blind Hunter",
+                "x": 0.0929,
+                "y": 0.1612,
+                "anchor": "route"
+              }
+            ]
           }
         ]
       }
@@ -1331,6 +1644,24 @@
           "heading": "New bosses",
           "level": 2,
           "markdown": "| Wing | Boss | Abilities (wiki) | Loot |\n|---|---|---|---|\n| Graveyard (Scarlet Prison) | **Duke Dreadmoore** (lvl 32) | Dark Strike, **Shadow Bolt Volley** | Introduction to the Dark Arts, Harbinger Girdle ([wiki](https://turtle-wow.fandom.com/wiki/Duke_Dreadmoore)) |\n| Library (Sanctum of the Fist) | **Brother Wystan** (lvl 36) | Snap Kick, **Uppercut**, Fireball | Libram of Radiance, Wystan's Steel Fist ([wiki](https://turtle-wow.fandom.com/wiki/Brother_Wystan)) |\n| Armory (Warehouse) | **Armory Quartermaster Daghelm** (lvl 38) | Armor of Faith, Thunderclap, **Sunder Armor** | Cuffs of Evocation, Balanced Razor Shivs; *Journal of Basil Frye* ([wiki](https://turtle-wow.fandom.com/wiki/Armory_Quartermaster_Daghelm)) |"
+        },
+        {
+          "id": "routes-the-four-wings-one-each",
+          "heading": "Routes (the four wings, one each)",
+          "level": 2,
+          "markdown": "The page lists the bosses but not where the Turtle bosses sit in each wing, or the wing routes. These are our\nclears' routes (measured; \"opt\" marks the stops our clears skip):\n\n| Wing | Route | Turtle boss in it |\n|---|---|---|\n| **Graveyard** | **Interrogator Vishas → Bloodmage Thalnos**, with **Duke Dreadmoore** and the rare **Scorn** as optional stops between them | Duke Dreadmoore sits between Vishas and Thalnos (opt) |\n| **Library** | **Houndmaster Loksey → Brother Wystan → Arcanist Doan** | Brother Wystan is on the way to Doan, not in a side room — and he is **required in our plan** (all three of Loksey, Wystan and Doan are required rows) |\n| **Armory** | **Armory Quartermaster Daghelm** (opt, before the door) **→ Herod** | Daghelm is before Herod's door |\n| **Cathedral** | **High Inquisitor Fairbanks → Scarlet Commander Mograine → High Inquisitor Whitemane** | — (the wing is the rescripted Mograine/Whitemane event) |\n\n[measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]"
+        },
+        {
+          "id": "wing-notes-worth-a-line-each",
+          "heading": "Wing notes worth a line each",
+          "level": 2,
+          "markdown": "- **Graveyard:** the wing's undead **respawn every 15 minutes** (the page has this) — it is the reason a slow group\n  can fight the same crypt twice.\n- **Library:** the corridor patrols are the wing's risk, not the bosses; Loksey, Wystan and Doan are all required\n  rows in our plan. [measured]\n- **Armory:** **Herod's whirlwind is the wing's one mechanic** — move out of it, do not heal through it. [classic]\n- **Cathedral:** the last fight is a **two-phase event** — Mograine falls, Whitemane revives him, and the pair\n  fights on; plan cooldowns for the second phase, not the first. The page's own Holy Strike warning (big pulls onto\n  Mograine) is the other half of it and should stay. [classic]"
+        },
+        {
+          "id": "gaps",
+          "heading": "Gaps",
+          "level": 2,
+          "markdown": "- Whether Duke Dreadmoore can be skipped without breaking the Graveyard's clear (he is optional in our plan);\n  **Brother Wystan is required** in the Library plan, so the page should not call him optional.\n- The Cathedral event's exact phases on Turtle (the page notes the 2024 rescript, not the shape)."
         },
         {
           "id": "cathedral-big-pulls-are-dangerous",
@@ -1370,6 +1701,13 @@
                 "x": 0.796,
                 "y": 0.3631,
                 "anchor": "new-bosses"
+              },
+              {
+                "n": 4,
+                "boss": "Bloodmage Thalnos & Interrogator Vishas",
+                "x": 0.2225,
+                "y": 0.5078,
+                "anchor": "routes-the-four-wings-one-each"
               }
             ]
           },
@@ -1387,6 +1725,13 @@
                 "x": 0.8318,
                 "y": 0.4532,
                 "anchor": "new-bosses"
+              },
+              {
+                "n": 5,
+                "boss": "Arcanist Doan & Houndmaster Loksey",
+                "x": 0.9136,
+                "y": 0.7742,
+                "anchor": "routes-the-four-wings-one-each"
               }
             ]
           },
@@ -1442,6 +1787,24 @@
           "markdown": "- Abilities: **Shadow Burst**, **Consuming Shadows**. Loot: Thornspine, Thorngorged Fleshgloves, **Totem of the Rotten Roots** (shaman), Blood-etched Fetish ([wiki](https://turtle-wow.fandom.com/wiki/Death_Prophet_Rakameg))."
         },
         {
+          "id": "route",
+          "heading": "Route",
+          "level": 2,
+          "markdown": "The page has no route; this is the one our clears run (measured):\n\n**Mordresh Fire Eye → Amnennar the Coldbringer** (final), with **Death Prophet Rakameg** (Turtle, the Temple of\nAgamaggan), **Glutton** and **Ragglesnout** as optional stops on the way.\n\n- Our clears take **Mordresh**, **Glutton** (when the route passes him) and **Amnennar**; **Rakameg** and\n  **Ragglesnout** were skipped in the runs we measured — a group that wants the Temple of Agamaggan detours for it.\n- **The spiral is the run's cost.** The dungeon is a long spiral down to Amnennar; the trash between the two\n  required bosses is most of the time, and the page's own skeleton-pack tanking tip (**Demoralizing Shout** for the\n  big packs) is the line to keep for it. [measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]"
+        },
+        {
+          "id": "boss-notes-we-have-measured",
+          "heading": "Boss notes we have measured",
+          "level": 2,
+          "markdown": "- **Mordresh Fire Eye** is the first required boss; the pull that matters is the pack in front of him, not his own\n  damage. [measured]\n- **Amnennar the Coldbringer** (final) closes the spiral; our clears kill him last, after Glutton when he is taken.\n  The page has no tactic line for him. [measured]\n- **Rakameg's** kit (Shadow Burst, Consuming Shadows) is on the page; our clears skip the fight, so there is no\n  measured tactic for it yet. [measured]"
+        },
+        {
+          "id": "gaps",
+          "heading": "Gaps",
+          "level": 2,
+          "markdown": "- A measured tactic line for Rakameg and for Amnennar's own fight (our clears' logs would need a dedicated pass).\n- Whether the spiral's trash respawns at all (unknown in our data)."
+        },
+        {
           "id": "notes",
           "heading": "Notes",
           "level": 2,
@@ -1466,7 +1829,22 @@
             "width": 1107,
             "height": 1103,
             "kind": "minimap",
-            "markers": []
+            "markers": [
+              {
+                "n": 1,
+                "boss": "Mordresh Fire Eye",
+                "x": 0.8794,
+                "y": 0.3201,
+                "anchor": "boss-notes-we-have-measured"
+              },
+              {
+                "n": 2,
+                "boss": "Amnennar the Coldbringer",
+                "x": 0.3564,
+                "y": 0.4348,
+                "anchor": "boss-notes-we-have-measured"
+              }
+            ]
           }
         ]
       }
@@ -1489,6 +1867,24 @@
           "heading": "Farraki Arena",
           "level": 2,
           "markdown": "A gauntlet: **Kath'zen the Brutal** and **Juthza the Cunning**, then **Champion Razjal the Quick**, who casts Scorpid Ritual and **Hellfire** ([wiki](https://turtle-wow.fandom.com/wiki/Farraki_Arena)). Loot: Champion's Sandhelm, Libram of the Farraki Zealot, Gilded Blade of Razjal. His loot-drop bug was fixed 2025-11-18 ([Torta (staff), 2025-11-18](https://forum.turtlecraft.gg/viewtopic.php?p=159994#p159994))."
+        },
+        {
+          "id": "route-the-whole-dungeon-our-clears",
+          "heading": "Route (the whole dungeon, our clears)",
+          "level": 2,
+          "markdown": "The boss order our full clears run. The three **Farraki Arena** fights, **Zerillis**, **Sandarr Dunereaver**,\n**Witch Doctor Zum'rah** and **Zel'jeb** are optional on the page but not on a full-clear route: they are passed on\nthe way, and the order below is the one our clears run (authored, not proven optimal).\n\n| # | Stop | Note |\n|---|---|---|\n| 1 | **Farraki Arena** — Kath'zen the Brutal, Juthza the Cunning, Champion Razjal the Quick | the gauntlet at the entrance; the champion's Hellfire is the one burst |\n| 2 | **Antu'sul** | his Sul'lithuz adds come first; the hatchlings next to him cannot be damaged at all — do not waste a pull on them [measured on bot runs, private 1.18.1-based realm] |\n| 3 | **Theka the Martyr** | patrols the temple ring |\n| 4 | Zerillis, Sandarr Dunereater, Witch Doctor Zum'rah | optional named mobs on the ring |\n| 5 | **Sandfury Executioner** | on the way to the tombs — and **he carries the key the stair event needs** (below) |\n| 6 | **Zel'jeb the Ancient** (Farraki Tombs) | optional and off our route; the page's fire mechanic (the Flame of Farrak from Ukorz's brazier) is the group's fire source — the item's on-use is an **instant fire hit on a 10-minute cooldown**, not a buff to carry, and our data does not confirm the wiki's \"fire breaks the embalming\" [measured] |\n| 7 | **Hydromancer Velratha** | the temple; pull her pack toward the stairs, not from the water's edge [measured] |\n| 8 | **Gahz'rilla** | ring the **Gong of Zul'Farrak** at the pool to summon him: the gong is a **keyed use — one member carries the Mallet of Zul'Farrak** — so treat the gong as part of the route, not a detour [measured] |\n| 9 | **the stair event** — see below | the dungeon's clear gate |\n| 10 | **Ruuzlu** | on the pyramid, immediately before the king |\n| 11 | **Chief Ukorz Sandscalp** (final) | adds-then-boss with a big AoE; stack, kill adds, move out [measured] |\n\nOur round-154 clear kills **nine bosses** (the plan's five required, plus Gahz'rilla, the Sandfury Executioner and\nthe two stair-event bosses) in about **58 minutes** with 0 wipes; the arena trio and Zel'jeb are where the time goes\nwhen they are taken. [measured]"
+        },
+        {
+          "id": "the-stair-event-the-clear-gate",
+          "heading": "The stair event — the clear gate",
+          "level": 2,
+          "markdown": "The page does not mention the event at all, and a run that skips it has not cleared Zul'Farrak.\n\n**How it starts.** One player uses a **Troll Cage** at the top of the pyramid; five freed trolls walk to the stair\ntop and start the waves. The cage is a **keyed use**: it needs the **Executioner's Key**, which the **Sandfury\nExecutioner** in front of the cages drops (100% — that is why the route kills him first). The event is triggered by\nthe cage, not by a boss kill, and on the route above the king is reached after it. [measured]\n\n**The three waves.**\n\n| Wave | What spawns | Where it is fought |\n|---|---|---|\n| 1 | **23 trolls** at the stair base, climbing up in groups of 2, 3, 4 … every 10 s | at the **top** — the party holds the stair head and kills them as they arrive single-file |\n| 2 | **24 trolls**, starting 10 s after the last wave-1 add dies | same, at the top |\n| 3 | **7 trolls at the base** — Shadowpriest Sezz'ziz, Nekrum Gutchewer and five trash | at the **base**: wave 3 never climbs, and the freed prisoners walk down with the group |\n\n[measured]\n\n**What to do.**\n\n- **Buff and eat before touching a cage** — the waves start as soon as the freed trolls reach the stair top.\n- **Hold the top** for waves 1 and 2 and kill the climbing stream where it arrives. Do not walk down to meet it.\n- **Use the 10-second gap.** The next wave starts only when the last add of the current wave dies (fleeing adds\n  count as alive), so the end of each wave is a free window to drink, top the tank and rebuff.\n- **Wave 3 is a normal fight at the base:** adds first, then **Sezz'ziz** (he fears — Psychic Scream — and heals his\n  minions, so interrupt and kill him), then **Nekrum** last. Both die within seconds of each other in our runs.\n  [measured]\n- **Keep the five freed trolls alive.** They fight for you; Weegli is also the only one who can blow open the End\n  Door after the event. [measured]\n- **There is no fail timer.** A wave stays open until every add is dead; a slow wave is not a wipe. [measured]\n\n**Why groups die here** (from a player run we read): pulling the stream into the healer instead of letting it come\nup the stairs; fighting wave 3 up top and getting caught between the two groups; and falling off the stair edge (the\nstairs are narrow, and a fall costs the whole climb back). [player video]"
+        },
+        {
+          "id": "packs-and-patrols-worth-a-warning",
+          "heading": "Packs and patrols worth a warning",
+          "level": 2,
+          "markdown": "- The amphitheatre and the temple ring are dense with **patrols that walk into a fight** (two or three per cluster);\n  clear the patrol first, or pull the pack back into the room you came from. [measured]\n- The **Sandfury packs near Velratha** draw extra mobs if pulled from the water's edge; pull them toward the stairs.\n  [measured]\n- The **arena gauntlet** is a separate fight each time; do not start it with the group still spread out."
         },
         {
           "id": "farming",
@@ -1521,7 +1917,50 @@
             "width": 1542,
             "height": 1600,
             "kind": "minimap",
-            "markers": []
+            "markers": [
+              {
+                "n": 1,
+                "boss": "Sandarr Dunereaver",
+                "x": 0.6068,
+                "y": 0.4139,
+                "anchor": "route-the-whole-dungeon-our-clears"
+              },
+              {
+                "n": 2,
+                "boss": "Witch Doctor Zum'rah",
+                "x": 0.4602,
+                "y": 0.1076,
+                "anchor": "route-the-whole-dungeon-our-clears"
+              },
+              {
+                "n": 3,
+                "boss": "Theka the Martyr",
+                "x": 0.6585,
+                "y": 0.2716,
+                "anchor": "route-the-whole-dungeon-our-clears"
+              },
+              {
+                "n": 4,
+                "boss": "Sandfury Executioner",
+                "x": 0.1171,
+                "y": 0.1387,
+                "anchor": "route-the-whole-dungeon-our-clears"
+              },
+              {
+                "n": 5,
+                "boss": "Hydromancer Velratha",
+                "x": 0.2134,
+                "y": 0.369,
+                "anchor": "route-the-whole-dungeon-our-clears"
+              },
+              {
+                "n": 6,
+                "boss": "Chief Ukorz Sandscalp",
+                "x": 0.4586,
+                "y": 0.3333,
+                "anchor": "route-the-whole-dungeon-our-clears"
+              }
+            ]
           }
         ]
       }
@@ -1595,10 +2034,28 @@
           "markdown": "- **Event:** only killing the \"sons of Hakkar\" during the event can give a 5th blood. Using the trigger item a second time can bug the next lockout's summon <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1810\" title=\"angels1m, 2026-02-08, Discord #paladin: No, sometimes u will be able to kill additional son of hakkar and get 5th blood from event\">angels1m · 2026-02-08</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1811\" title=\"angels1m, 2026-02-08, Discord #paladin: and if u use it once u summon hakkar on next lockout it should bug out\">angels1m · 2026-02-08</a>.\n- **Egg of Hakkar trick:** pick up the Egg of Hakkar chain (troll witch doctor, Steamwheedle Port). As long as you never turn it in, you can summon the Avatar on every run <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-mage.jsonl#L71\" title=\"RUTHINAS, 2024-11-13, Discord #mage: Coming back to this, if you farm Spirit gear in the Sunken Temple it is worthwhile to pick up the Egg of Hakkar questline starting from the troll witch doctor in Steamwheedle Port. You can use the egg to summon the Avatar of Hakkar on multiple runs as long as you never turn the quest in. The Avatar…\">RUTHINAS · 2024-11-13</a> (2024-11).\n- **Loot:** **Embrace of the Wind Serpent**, buffed on Turtle and \"actually kind of good for arcane\" (-400 armor, heals 300 over 10 s while active) <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-mage.jsonl#L488\" title=\"Lightemgee, 2026-01-07, Discord #mage: Not so much a build as additional raid utility. It&#x27;s a purple that drops in sunken temple from Avatar of Hakkar. It used to be a pile of garbage &quot;purple&quot; in classic, but turtle buffed it so it&#x27;s actually kind of good for arcane, and gives -400 armor and heals for 300 over 10 when it&#x27;s active\">Lightemgee · 2026-01-07</a>. Vestments of the Atal'ai Prophet, a high-Spirit mage chest <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-mage.jsonl#L71\" title=\"RUTHINAS, 2024-11-13, Discord #mage: Coming back to this, if you farm Spirit gear in the Sunken Temple it is worthwhile to pick up the Egg of Hakkar questline starting from the troll witch doctor in Steamwheedle Port. You can use the egg to summon the Avatar of Hakkar on multiple runs as long as you never turn the quest in. The Avatar…\">RUTHINAS · 2024-11-13</a>.\n\n### Solo farming the Avatar\n\n- **Paladin:** go straight to the Avatar. About 10-15 min per run, because the add spawns cannot be sped up <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L979\" title=\"Destroses, 2025-10-18, Discord #paladin: straight to avatar\">Destroses · 2025-10-18</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L980\" title=\"keungzhe, 2025-10-18, Discord #paladin: Yes its easy just the fight itself takes long and u can&#x27;t speed up the spawns. I think one run is around 10-15min\">keungzhe · 2025-10-18</a>. It works as deep Prot even with 0% vampirism <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1522\" title=\"Silverhand, 2026-01-03, Discord #paladin: that&#x27;s as deep prot with 0 vampirism and none of the cool aoe farming items\">Silverhand · 2026-01-03</a>.\n- **Mage:** kite him as Frost, since he is not slow-immune, or duo-box it <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-mage.jsonl#L490\" title=\"Pepopo, 2026-01-07, Discord #mage: kite as frost, not slow immune or box a character and duo it\">Pepopo · 2026-01-07</a>. The old jump-back-and-forth safe spot does not work; Cone of Cold kiting does <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-mage.jsonl#L851\" title=\"Leery, Pibble Disciple, 2026-04-04, Discord #mage: The jumping back and forth safe spot pretty sure doesn&#x27;t work in zf so just have to coc kite\">Leery, Pibble Disciple · 2026-04-04</a> (the thread mixes ZF and ST).\n- **Warlock:** \"should be plenty doable as demo, just be mindful and keep your pet alive\" <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warlock.jsonl#L773\" title=\"sailorVEVO, 2026-01-14, Discord #warlock: should be plenty doable as demo, just be mindful and keep your pet alive\">sailorVEVO · 2026-01-14</a> (untested)."
         },
         {
+          "id": "route",
+          "heading": "Route",
+          "level": 2,
+          "markdown": "The page has no boss order, and this is the one our clears run (measured, 13 kills):\n\n**the six channelling trolls on the upper floor** — **Gasher → Loro → Hukku → Mijan → Zul'Lor → Zolo** (killing each\nstops a channel; the order above is the order our runs take them) — **then down: Jammal'an the Prophet → Ogom the\nWretched → the four dragons (Dreamscythe → Weaver → Morphaz → Hazzas) → Shade of Eranikus** (final).\n\n- **Atal'alarion** (the statue guardian) is optional and our clears skip it.\n- The **Avatar of Hakkar** is an optional event at the statue — the page's own section covers it.\n\n[measured on bot runs, private 1.18.1-based realm — verified against our plan files, not a run log]"
+        },
+        {
+          "id": "the-upper-floor-rings-are-the-dangerous-part",
+          "heading": "The upper-floor rings are the dangerous part",
+          "level": 2,
+          "markdown": "- Each channelling troll sits in its ring's mobs, and **a pull that starts on the wrong side of a ring wakes the\n  next one** — that is the dungeon's one wipe shape. What works: clear each ring **from its outer edge**, kill the\n  **channeller first**, and never pull two rings at once. [measured]\n- The **lower floor's big green dragonkin packs** are the other danger (the page has this line; keep it) — pull them\n  back up the walkway rather than fighting in the open. [measured]\n- The **spur packs below the lower walkway are unreachable** — leave them; a group that keeps trying to clear them\n  wastes the run's time. [measured]"
+        },
+        {
+          "id": "boss-notes-we-have-measured",
+          "heading": "Boss notes we have measured",
+          "level": 2,
+          "markdown": "- **Jammal'an and Ogom** are a two-stop leg: Jammal'an is a caster with adds, Ogom is the fight right after him;\n  our runs kill them in that order. [measured]\n- **The four dragons** are a normal chain of tank-and-spanks; the order (Dreamscythe, Weaver, Morphaz, Hazzas) is\n  the one our runs use. [measured]\n- **Eranikus:** his **sleep cannot be removed by Divine Shield**, and the Emerald Sanctum's anti-sleep shield does\n  not stop it — the page has this and it is the line to keep; a group should plan to lose a member for the sleep's\n  duration."
+        },
+        {
           "id": "gaps",
           "heading": "Gaps",
           "level": 2,
-          "markdown": "- Group tactics for the Hakkar event, Jammal'an and Eranikus on Turtle."
+          "markdown": "- Group tactics for the **Avatar of Hakkar** event: the page's own section covers the summon rules, and the fight\n  itself still has no cited tactics."
         }
       ],
       "sourceFile": "guide/instances/sunken-temple.md",
@@ -1749,6 +2206,24 @@
           "heading": "Group notes",
           "level": 2,
           "markdown": "- **Orc packs before Smolderweb** are the only risky pulls for a prot paladin. Use a ranged pull there <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1125\" title=\"Dzonathan, 2025-11-06, Discord #paladin: LBRS is only dodgy with orcs right before smolderweb\">Dzonathan · 2025-11-06</a>.\n- **Priests save a lot of time:** \"skipping half the dungeon because you can use troll hex on almost every mob\" (Hex of Weakness / Mind Control) <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L775\" title=\"poto, 2025-11-06, Discord #shaman: funniest thing in lbrs is bringing a priest and skipping half the dungeon because you can use troll hex on almost every mob\">poto · 2025-11-06</a>.\n- **Warlock tanks** have trouble with spell interrupts here. Bait them out, and keep threat with a fire wand plus Immolate <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warlock.jsonl#L179\" title=\"Summonjutsu - GL &lt;Tremor Totems&gt;, 2025-06-04, Discord #warlock: You all good, I was asleep at the time. Social Inclusion already mentioned you don&#x27;t get wrathstone till 44 and they right, also prob should wait on soul link before trying as that is our plate armor pretty much. I&#x27;ve got a write up here for what we need but also what we can do for threat. https://f…\">Summonjutsu - GL &lt;Tremor Totems&gt; · 2025-06-04</a>.\n- **Fire damage is weak** across the Blackrock dungeons (fire resistances and immunities) <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L1034\" title=\"Bassilthorne/Achuak, 2026-01-04, Discord #shaman: I don&#x27;t know about DPS numbers. The gear requirements are a lil different due to needing/wanting more spell power and spell crit. Tanking feels more consistent with the increased magma totem damage and earth shock damage. In any of the blackrock dungeons(LBRS, UBRS, BRD, MC, BWL), except for the inc…\">Bassilthorne/Achuak · 2026-01-04</a>."
+        },
+        {
+          "id": "route",
+          "heading": "Route",
+          "level": 2,
+          "markdown": "The page has no boss order at all; this is the one our clears run (measured, and it follows the geometry of the\nhalls):\n\n**Highlord Omokk → Shadow Hunter Vosh'gajin → War Master Voone → Mother Smolderweb → Quartermaster Zigris →\nHalycon** (and **Gizrul the Slavener**, who arrives on her death) **→ Overlord Wyrmthalak** (final).\n\nThe optional named mobs — **Spirestone Lord Magus, Spirestone Battle Lord, Ghok Bashguud, Crystal Fang, Mor\nGrayhoof, Spirestone Butcher** — are picked up where the route passes them; they are not detours.\n\n| Leg | Minutes (the round-154 125.1-min clear) | What it is |\n|---|---|---|\n| Highlord Omokk | **35.7** | the longest leg; most of it is the halls before him, not the boss |\n| Shadow Hunter Vosh'gajin | 11.3 | the dais and the shadow pairs |\n| War Master Voone | 11.3 | the room and its rim |\n| Mother Smolderweb | **31.5** | the hall — the dungeon's wipe magnet |\n| Quartermaster Zigris | 15.2 | the spiderling stretch and the corridors |\n| Halycon + Gizrul | **3.6 + 0.8** | a two-for-one; the fastest leg |\n| Overlord Wyrmthalak | 15.7 | 11 packs, then the boss |\n\nBest clear: **125 minutes, 0 wipes**; the round's baseline was 130 minutes with 1 wipe. [measured on bot runs, private 1.18.1-based realm]"
+        },
+        {
+          "id": "the-packs-that-end-runs-and-what-worked",
+          "heading": "The packs that end runs (and what worked)",
+          "level": 2,
+          "markdown": "| Pack | What happens | What works |\n|---|---|---|\n| **The Acolyte room** (the big hall before Omokk) | a dozen casters and their friends; pulling it from the room brought **12** at once and killed the first party that tried | pull it **back to the arrival ramp** in two or three bites, never fight inside the room, kill the casters first |\n| **The Omokk hall** | two long ranks (18-19 mobs at the far ends) with walkers crossing; a pull from the middle dragged **22** | pull each rank from its **end**; let the walkers pass before the pull |\n| **The War Master's room** (Voone) | the biggest cluster in the dungeon; pulling the boss pack from the walkway pulled the room's west rim in — **11** arrived | clear the rim first, or fight on the room floor; patrols first |\n| **The Smolderweb hall** | the hall's rows **all link within about 15 yards** — touching one pulls the whole hall (16 of 17 came in our worst pull, plus walkers) | fight it in **small bites of 3-5** with your feet planted at the **hall mouth**, 20 yards back — never inside the hall. This is where one of our parties lost three wipes in one evening |\n| **The shadow pairs** (Vosh'gajin's dais) | the two shadow-priest pairs **wake each other** — a 14-mob fight if you take them together | take them as **two separate pulls from the dais edge**, each fought back in the previous hall |\n| **Spire Spiderling packs** (behind the Smolderweb leg) | seven squishy mobs that look like one easy pull and are not; in one of our runs they cost about nine minutes of standing around | fight them as their own pull, or leave them if you only want the bosses |\n| **The scorpion bowl** (on the Wyrmthalak leg) | ~30 Spire Scorpids, and a kill is **back in 25 seconds** — pack-by-pack is a treadmill | either burst the cluster in one fight, or stay on the **shelf above the bowl** and walk past it |\n\n[measured]\n\nThe draw counts in the table (12, 22, 11, 16 of 17, 14) are the arrivals counted from the round-154 log's join\nlines; the hall's \"links within about 15 yards\" is the plan's assist-plus-call radius over its own rows."
+        },
+        {
+          "id": "boss-notes-we-have-measured",
+          "heading": "Boss notes we have measured",
+          "level": 2,
+          "markdown": "- **Omokk** is not the danger — the halls before him are. His own fight is a tank-and-spank.\n- **Halycon and Gizrul** are a two-for-one in under five minutes; Gizrul arrives when Halycon dies, so hold the\n  group where the fight ends.\n- **Wyrmthalak** is a normal final boss; his leg is 11 packs and the packs are the clock.\n- The run's time sinks are **big-pull rests and corpse walks**, not boss damage: a group that pulls the halls in\n  small bites from the right direction is faster than one that pulls them whole and recovers. [measured]\n\n**The page's one route line is right and should stay:** the orc packs before Smolderweb are the risky pulls — take\nthem with a ranged pull. Everything above is the detail behind that sentence."
         },
         {
           "id": "key-gems",
@@ -1904,7 +2379,7 @@
           "id": "east-dme-lashers-and-the-jump-run",
           "heading": "East (DME): lashers and the jump run",
           "level": 2,
-          "markdown": "### Bosses on the farm route\n\n- **Hydrospawn** (water elemental, same area as the lashers): soloable by geared priests, paladins and others. Kite him around a pillar with Frost Aura up, or pull him to a wall and burn him <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-priest.jsonl#L369\" title=\"YN, 2025-10-28, Discord #priest: You can also solo the elemental boss when you got some gear.\">YN · 2025-10-28</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L943\" title=\"dusty (Make Shock Live Again), 2025-10-14, Discord #paladin: You really don&#x27;t. Just have him chase you around the pillar and poke him with Exo and Judge on CD\">dusty (Make Shock Live Again) · 2025-10-14</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L944\" title=\"dusty (Make Shock Live Again), 2025-10-14, Discord #paladin: Just pull him to the wall, turn on Frost aura, and burn him\">dusty (Make Shock Live Again) · 2025-10-14</a>. He drops a blue to disenchant and a chance at a book. An invisible demon add sometimes drops Felcloth <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1470\" title=\"Lazepally, 2025-12-26, Discord #paladin: You should do dme and also try to solo the hydro boss too. Can DE the blue and also a chance of a book drop. I was able to do 5 runs in an hour of lashers and hydro boss. The invis demon sometimes drops felcloth too. Even with herb prices being shit on amber it&#x27;s still pretty good from greens and gr…\">Lazepally · 2025-12-26</a>.\n- **Zevrim Thornhoof** (satyr) sacrifices a player. **Shaman:** re-drop Grounding Totem immediately after it is consumed, and pre-place it <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L757\" title=\"Zaaparou, 2025-11-04, Discord #shaman: Why did not you replace grounding after it got sacrificed? That’s all you gotta do and it’s a very easy solo kill with some gear\">Zaaparou · 2025-11-04</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L758\" title=\"Zaaparou, 2025-11-04, Discord #shaman: mby preplacing it helps as to make sure you can replace it as early as possible after first sacrifice\">Zaaparou · 2025-11-04</a>. **Rogue:** kick to interrupt his Sacrifice <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-rogue.jsonl#L1239\" title=\"Kananaios, 2026-04-04, Discord #rogue: You can also solo kill the satyr, just kick to interrupt his sacrifice\">Kananaios · 2026-04-04</a>. **Warlock:** go Demonology and use an enslaved rogue <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warlock.jsonl#L729\" title=\"biloen, 2025-12-31, Discord #warlock: but litterally just go demo and get a rogue enslave and u can still solo zevrim easily\">biloen · 2025-12-31</a>. The old pathing-glitch kite is fixed <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warlock.jsonl#L728\" title=\"biloen, 2025-12-31, Discord #warlock: pathing is fixed\">biloen · 2025-12-31</a>.\n- **The satyr boss upstairs:** pull him downstairs to the pillar. He cannot fit through the gap, so peek out, get one auto-attack plus Judgement, Exorcism or Crusader Strike, and step back into the gap <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L945\" title=\"Beldrin, 2025-10-14, Discord #paladin: he can&#x27;t fit in the gap, so if you peek left, he has to go around the small pillar\">Beldrin · 2025-10-14</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L946\" title=\"Beldrin, 2025-10-14, Discord #paladin: so you get one auto (2h preferrably) cast judgement, exo, cs, whatever is off cd and go into the gap again\">Beldrin · 2025-10-14</a>.\n- **Alzzin the Wildshaper (last boss):** he burns mana on hit, so a duo prefers a druid tank + shaman healer over a shaman tank. You can also kite him on the ledge <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L703\" title=\"Jorrick/Drath, 2025-10-20, Discord #shaman: Taht sounds a bit more complicated since the last boss removes mana so the shaman would be in a disadvantage right\">Jorrick/Drath · 2025-10-20</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L704\" title=\"Cariad, 2025-10-20, Discord #shaman: Yes, from memory he manaburns on hit (or he applies a disease that burns mana and ticks right away?) You can kite him using the ledge but having the druid tank and the shaman heal would be simplest, I used to duo these runs with a warrior tank and it was very straightforward.\">Cariad · 2025-10-20</a>.\n- **Full \"jump run\" order:** lashers → elemental boss → satyr boss upstairs → last boss <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L942\" title=\"Beldrin, 2025-10-14, Discord #paladin: lashers &gt; elemental boss &gt; satyr boss upstairs &gt; last boss\">Beldrin · 2025-10-14</a>. Thorium nodes after the last boss are \"a slog to farm\" <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1165\" title=\"Mithreon, 2025-11-11, Discord #paladin: There are also nodes in DME after the last boss in the tunnel, but it&#x27;s a slog to farm that\">Mithreon · 2025-11-11</a>.\n\n### Lasher farm: rules that apply to everyone\n\n- **Lashers are Nature-immune.** Force Reactive Disk (nature damage) and Crest of Retribution procs do nothing to them <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L718\" title=\"poto, 2025-10-23, Discord #shaman: force reactive does not work\">poto · 2025-10-23</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1757\" title=\"Jesse Potter, 2026-02-02, Discord #paladin: Alright good, cause them mfers are nature damage immune\">Jesse Potter · 2026-02-02</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1512\" title=\"Destroses, 2026-01-02, Discord #paladin: lashers are nature immune\">Destroses · 2026-01-02</a>.\n- **Level:** from about 52-54. Below 56 some packs cannot be reached without aggroing elites <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L788\" title=\"RyqenZ, 2025-09-16, Discord #paladin: I started lasher farming at 53 in full &lt;of the Eagle&gt; greens. You pull pack by pack, until level 56 2 or 3 packs will not be accessible at all (you WILL aggro the elites while below 56). You will die a few times before you got the pathing straight ig Also if starting that low without mitigation gear…\">RyqenZ · 2025-09-16</a>. A friend being power-levelled there must be 52+ or have innate invisibility so they do not pull <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1399\" title=\"Raugtreefell, 2025-12-16, Discord #paladin: If not, they have to be at least lvl 52 to not pull\">Raugtreefell · 2025-12-16</a>.\n- **Income** now comes from herbs rather than vendor greys, so it follows herb prices <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L338\" title=\"DemonBoyJr (Tel’Abim-Horde), 2025-07-18, Discord #shaman: not really nerfed just readjusted. before most of lashers gold came from vendoring a bunch of greys/whites. they’ve reduced those and now drop more herbs. so the value of each Lasher farm is tied to the economy of herbs. as long as herbs are doing well, then lasher farms are doing well. that being s…\">DemonBoyJr (Tel’Abim-Horde) · 2025-07-18</a>. Herbalism adds about 20% <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-priest.jsonl#L309\" title=\"Greendam, 2025-09-26, Discord #priest: Lasher is one of the best farms priest can do if you don&#x27;t have a farming alt like a mage or hunter. Herb adds about 20% extra income from lasher, not mandatory but def useful. For endgame Engi is the only prof gives you gameplay advantages, all other professions are just for making gold. Overall fo…\">Greendam · 2025-09-26</a>. Reported rates: about 100 g/h on Nordanaar <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L628\" title=\"Zamka, 2025-10-09, Discord #shaman: Lashers is 100g+ per hour on nord\">Zamka · 2025-10-09</a>; 80-100 g per lockout run for a geared paladin <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L880\" title=\"Mithreon, 2025-10-10, Discord #paladin: Dme is like 80-100 per lockout on a good day on Nord, make that 3x per hour if running with 3 geared alts\">Mithreon · 2025-10-10</a>. About 5 lockouts per hour is the cap <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L1648\" title=\"Diving Instructor Knife, 2026-03-30, Discord #shaman: usually most shams do 5lockouts in around 30? min, and then ur locked for another 30\">Diving Instructor Knife · 2026-03-30</a>.\n\n### Class methods\n\n| Class | How |\n|---|---|\n| **Paladin (Prot)** | Drop down in Bubble and sweep the 3 packs nearby, or use a speed potion for the 4th pack at the far column. Route \"3-2-3\" takes about 7 min <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L897\" title=\"Mithreon, 2025-10-11, Discord #paladin: You drop down in bubble, then just move sideways taking all 3 packs nearby, or using running potion and running to the further 4th one near the far column and then back\">Mithreon · 2025-10-11</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L898\" title=\"Mithreon, 2025-10-11, Discord #paladin: I run like this, 3pack first, then run across and take 2 and bring them to the tree NPC, then Judge the pillar pack nearby and chain into the last corner one for another 3pack. So 3 - 2 - 3, takes about 7min\">Mithreon · 2025-10-11</a>. Use Argent Defender (Scholomance quest), not Skullflame Shield <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1722\" title=\"Seviry (#AmbershireMatters), 2026-01-29, Discord #paladin: Lashers use ardent defender, strat/everything else use FRD\">Seviry (#AmbershireMatters) · 2026-01-29</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1287\" title=\"Ythor, 2025-11-28, Discord #paladin: neither, just get argent defender from scholomance quest.... it beats them both for lashers\">Ythor · 2025-11-28</a>. Stack spell power (a 30 SP weapon enchant) <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1513\" title=\"Grey, 2026-01-02, Discord #paladin: 30SP is my go-to\">Grey · 2026-01-02</a>; \"their damage output is negligable so just stack SP\" <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L2554\" title=\"Xiyanzhe 吸烟者, 2026-04-06, Discord #paladin: lasher you can really do them with any gear, their damage output is negligable so just stack SP\">Xiyanzhe 吸烟者 · 2026-04-06</a>. 370 Defense makes you immune to Daze <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1507\" title=\"Magik, 2026-01-01, Discord #paladin: if u do lashers then u might wanna get 370 def. that way ur inmune to being dazed (u still get shadow dmg backstabbed)\">Magik · 2026-01-01</a>. |\n| **Hunter (Survival)** | Pull the whole room with the pet, then kite it in a big circle through Frost Trap and drop Explosive Traps <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-hunter.jsonl#L1018\" title=\"Vellasta, 2026-03-26, Discord #hunter: But basically you gather the mobs with pet and then kite them in a big circle\">Vellasta · 2026-03-26</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-hunter.jsonl#L629\" title=\"Kalamity, 2026-03-04, Discord #hunter: yeah, main premise of doing lashers as a hunter is using a frost trap and kiting them around in a circle to avoid getting hit\">Kalamity · 2026-03-04</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-hunter.jsonl#L337\" title=\"Elmgren, 2025-11-20, Discord #hunter: does not matter. You just run around placing Explosive Traps. Pet is only used for pulling the room\">Elmgren · 2025-11-20</a>. Improved Aspect of the Cheetah at 52 makes it much easier <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-hunter.jsonl#L1017\" title=\"Vellasta, 2026-03-26, Discord #hunter: 52 is when you&#x27;ll be able to get imp cheetah which makes kiting them a lot easier\">Vellasta · 2026-03-26</a>. About 8 min per run <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-hunter.jsonl#L122\" title=\"immaculate&#95;capybara&#95;80667, 2025-01-10, Discord #hunter: When I got my inferno 60 I farmed gold by running dungeons for gear and maraudons solo. as HC gold is kinda useless but hunters can do lasher farming too. Doing respec to survival and placing 2 traps while pet is tanking. Runs take 8 minutes if you are familiar and grant 8-14g from drops. Pretty sur…\">immaculate&#95;capybara&#95;80667 · 2025-01-10</a>. |\n| **Priest (Disc)** | Power Word: Shield + rank-1 Holy Nova. Doable from level 50 <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-priest.jsonl#L368\" title=\"YN, 2025-10-28, Discord #priest: Very possible to do lasher farm. Disc can do it as lvl 50 even.\">YN · 2025-10-28</a>. Two packs at a time in basic gear, then Hydrospawn and reset <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-priest.jsonl#L632\" title=\"Snackz, 2026-02-26, Discord #priest: Very easily. I do it in my basic gear set 2 packs at a time. Then I kill water ele boss and reset. Even with that pace, I still hit the lockout timer.\">Snackz · 2026-02-26</a>. Holy Nova scales poorly with spell power, so HP, mana and crit are what matter <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-priest.jsonl#L564\" title=\"Zitronenhaze - BUFF SPRIEST, 2026-02-06, Discord #priest: nova has bad sp scaling, all that matters is hp,mana,crit\">Zitronenhaze - BUFF SPRIEST · 2026-02-06</a>. |\n| **Shaman** | Fire Nova → Magma → Fire Nova. With Totem of the Tides from [Stormwrought Ruins](#/instances/stormwrought-ruins), one Fire Nova + one Magma per pack <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L406\" title=\"Axemehowirol, 2025-08-16, Discord #shaman: I mean, even though the new totem doesn’t scale, it hits all nearby enemies, I’ve been using it for DME Lasher farming, it sped me up a nice bit. Before my rotation was: - Fire Nova Totem - Magma Totem - one more Nova Totem or refresh Magma Totem But with the new frost nova totem, I find I kill the…\">Axemehowirol · 2025-08-16</a>. Vampirism does not heal off totem damage, which limits pull size <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L681\" title=\"billienomates, 2025-10-16, Discord #shaman: Does Vampirism give you healing from totem damage? I&#x27;m assuming not\">billienomates · 2025-10-16</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L682\" title=\"Squid, 2025-10-16, Discord #shaman: This kinda fundamentally limits shamans from doing the 8 pull lasher runs\">Squid · 2025-10-16</a>. |\n| **Warlock** | Voidwalker (not an enslaved satyr) + Felstone + vampirism rings. Wand-pull, Torment, then Hellfire. Sacrifice the Voidwalker for the bubble mid-channel if needed <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warlock.jsonl#L399\" title=\"Summonjutsu - GL &lt;Tremor Totems&gt;, 2025-10-06, Discord #warlock: So lasher farming you don&#x27;t use a satyr. You use your void walker or as Gil said above you can use a greater demon. You want the felstone on and maybe a bit of extra vamp. (Pick up two of the vamp rings from the darkmoon faire) You drop down, wand pull the packs, torment aoe with the void siphon lif…\">Summonjutsu - GL &lt;Tremor Totems&gt; · 2025-10-06</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warlock.jsonl#L400\" title=\"Summonjutsu - GL &lt;Tremor Totems&gt;, 2025-10-06, Discord #warlock: For added safety, when they all agro to you, you can sacrifice the void for the bubble without interrupting the hellfire channel\">Summonjutsu - GL &lt;Tremor Totems&gt; · 2025-10-06</a>. Deep Demonology with Improved Stones and about 15% vampirism, gear farmed in Kara10 <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warlock.jsonl#L1159\" title=\"suddeNslow, 2026-04-03, Discord #warlock: farm kara10 and get most of the vamp items there respec into deep demo and make sure you have improved stones with items + felstone you should go for around 15% vamp you are ready to farm lashers\">suddeNslow · 2026-04-03</a>. \"Our best farm will always be Dire maul east\" <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warlock.jsonl#L535\" title=\"Ghost9626 &#124; Warlock Shift Lead, 2025-11-03, Discord #warlock: our best farm will always be Dire maul east\">Ghost9626 &#124; Warlock Shift Lead · 2025-11-03</a>. |\n| **Druid** | Bear, one pack at a time; a full clear takes about 8 min <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-druid.jsonl#L670\" title=\"Gabmoon, 2025-12-30, Discord #druid: Druids can do lasher, im doing on my druid and i dont have the rag trinket, it takes a bit long to do a full lasher clear, for me its 8 minutes. But you can do going into bear and pull 1 pack each time, if you want to make gold with lashers just lvl up a hunter and you can do a full clear in 4 minut…\">Gabmoon · 2025-12-30</a>. |"
+          "markdown": "### Bosses on the farm route\n\n- **Hydrospawn** (water elemental, same area as the lashers): soloable by geared priests, paladins and others. Kite him around a pillar with Frost Aura up, or pull him to a wall and burn him <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-priest.jsonl#L369\" title=\"YN, 2025-10-28, Discord #priest: You can also solo the elemental boss when you got some gear.\">YN · 2025-10-28</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L943\" title=\"dusty (Make Shock Live Again), 2025-10-14, Discord #paladin: You really don&#x27;t. Just have him chase you around the pillar and poke him with Exo and Judge on CD\">dusty (Make Shock Live Again) · 2025-10-14</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L944\" title=\"dusty (Make Shock Live Again), 2025-10-14, Discord #paladin: Just pull him to the wall, turn on Frost aura, and burn him\">dusty (Make Shock Live Again) · 2025-10-14</a>. He drops a blue to disenchant and a chance at a book. An invisible demon add sometimes drops Felcloth <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1470\" title=\"Lazepally, 2025-12-26, Discord #paladin: You should do dme and also try to solo the hydro boss too. Can DE the blue and also a chance of a book drop. I was able to do 5 runs in an hour of lashers and hydro boss. The invis demon sometimes drops felcloth too. Even with herb prices being shit on amber it&#x27;s still pretty good from greens and gr…\">Lazepally · 2025-12-26</a>.\n- **Zevrim Thornhoof** (satyr) sacrifices a player. **Shaman:** re-drop Grounding Totem immediately after it is consumed, and pre-place it <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L757\" title=\"Zaaparou, 2025-11-04, Discord #shaman: Why did not you replace grounding after it got sacrificed? That’s all you gotta do and it’s a very easy solo kill with some gear\">Zaaparou · 2025-11-04</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L758\" title=\"Zaaparou, 2025-11-04, Discord #shaman: mby preplacing it helps as to make sure you can replace it as early as possible after first sacrifice\">Zaaparou · 2025-11-04</a>. **Rogue:** kick to interrupt his Sacrifice <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-rogue.jsonl#L1239\" title=\"Kananaios, 2026-04-04, Discord #rogue: You can also solo kill the satyr, just kick to interrupt his sacrifice\">Kananaios · 2026-04-04</a>. **Warlock:** go Demonology and use an enslaved rogue <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warlock.jsonl#L729\" title=\"biloen, 2025-12-31, Discord #warlock: but litterally just go demo and get a rogue enslave and u can still solo zevrim easily\">biloen · 2025-12-31</a>. The old pathing-glitch kite is fixed <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warlock.jsonl#L728\" title=\"biloen, 2025-12-31, Discord #warlock: pathing is fixed\">biloen · 2025-12-31</a>.\n- **The satyr boss upstairs:** pull him downstairs to the pillar. He cannot fit through the gap, so peek out, get one auto-attack plus Judgement, Exorcism or Crusader Strike, and step back into the gap <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L945\" title=\"Beldrin, 2025-10-14, Discord #paladin: he can&#x27;t fit in the gap, so if you peek left, he has to go around the small pillar\">Beldrin · 2025-10-14</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L946\" title=\"Beldrin, 2025-10-14, Discord #paladin: so you get one auto (2h preferrably) cast judgement, exo, cs, whatever is off cd and go into the gap again\">Beldrin · 2025-10-14</a>.\n- **Alzzin the Wildshaper (last boss):** he burns mana on hit, so a duo prefers a druid tank + shaman healer over a shaman tank. You can also kite him on the ledge <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L703\" title=\"Jorrick/Drath, 2025-10-20, Discord #shaman: Taht sounds a bit more complicated since the last boss removes mana so the shaman would be in a disadvantage right\">Jorrick/Drath · 2025-10-20</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L704\" title=\"Cariad, 2025-10-20, Discord #shaman: Yes, from memory he manaburns on hit (or he applies a disease that burns mana and ticks right away?) You can kite him using the ledge but having the druid tank and the shaman heal would be simplest, I used to duo these runs with a warrior tank and it was very straightforward.\">Cariad · 2025-10-20</a>.\n- **Full \"jump run\" order:** lashers → elemental boss → satyr boss upstairs → last boss <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L942\" title=\"Beldrin, 2025-10-14, Discord #paladin: lashers &gt; elemental boss &gt; satyr boss upstairs &gt; last boss\">Beldrin · 2025-10-14</a>. Thorium nodes after the last boss are \"a slog to farm\" <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1165\" title=\"Mithreon, 2025-11-11, Discord #paladin: There are also nodes in DME after the last boss in the tunnel, but it&#x27;s a slog to farm that\">Mithreon · 2025-11-11</a>.\n\n### The full-clear route (not the jump run)\n\nThe page's \"jump run\" is the **farm** route (lashers → Hydrospawn → Zevrim → Alzzin). A **full clear** adds the two\nbosses before the ramp, and our clears run them in this order (measured):\n\n**Lethtendris** (with **Pimgib**) **→ Zevrim Thornhoof → Hydrospawn → Alzzin the Wildshaper** (final).\n\n- **Pusillin** (the imp) is optional in our route and our clears skip him; a group that wants him chases him to the\n  door first.\n- **Isalien** is the plan's other optional stop; skipped in our clears.\n- Note the difference from the page's jump run: our full clear takes **Zevrim before Hydrospawn** (the measured\n  order). Both orders reach Alzzin.\n\n[measured on bot runs, private 1.18.1-based realm]\n\n### Packs and patrols worth a warning\n\n- **The satyr packs on the top floor are the danger.** The page's rule stands — **do not enslave the imp in the\n  pack**, because it pulls the whole floor; a satyr also patrols into the lasher room near the back wall. What works:\n  clear the satyr packs **from the ramp**, never from the middle of the floor. [measured]\n- **Zevrim's guards** should be pulled back to the ramp; fighting his room in place is how the patrol joins.\n  [measured]\n- **Hydrospawn** is a kite/ledge fight (the page's pillar advice is right) and **Alzzin burns mana on hit and kites\n  on the ledge** — the page has both. [classic]\n- **Pimgib** fights with Lethtendris; treat them as one pull, not two. [measured]\n\n### Lasher farm: rules that apply to everyone\n\n- **Lashers are Nature-immune.** Force Reactive Disk (nature damage) and Crest of Retribution procs do nothing to them <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L718\" title=\"poto, 2025-10-23, Discord #shaman: force reactive does not work\">poto · 2025-10-23</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1757\" title=\"Jesse Potter, 2026-02-02, Discord #paladin: Alright good, cause them mfers are nature damage immune\">Jesse Potter · 2026-02-02</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1512\" title=\"Destroses, 2026-01-02, Discord #paladin: lashers are nature immune\">Destroses · 2026-01-02</a>.\n- **Level:** from about 52-54. Below 56 some packs cannot be reached without aggroing elites <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L788\" title=\"RyqenZ, 2025-09-16, Discord #paladin: I started lasher farming at 53 in full &lt;of the Eagle&gt; greens. You pull pack by pack, until level 56 2 or 3 packs will not be accessible at all (you WILL aggro the elites while below 56). You will die a few times before you got the pathing straight ig Also if starting that low without mitigation gear…\">RyqenZ · 2025-09-16</a>. A friend being power-levelled there must be 52+ or have innate invisibility so they do not pull <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1399\" title=\"Raugtreefell, 2025-12-16, Discord #paladin: If not, they have to be at least lvl 52 to not pull\">Raugtreefell · 2025-12-16</a>.\n- **Income** now comes from herbs rather than vendor greys, so it follows herb prices <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L338\" title=\"DemonBoyJr (Tel’Abim-Horde), 2025-07-18, Discord #shaman: not really nerfed just readjusted. before most of lashers gold came from vendoring a bunch of greys/whites. they’ve reduced those and now drop more herbs. so the value of each Lasher farm is tied to the economy of herbs. as long as herbs are doing well, then lasher farms are doing well. that being s…\">DemonBoyJr (Tel’Abim-Horde) · 2025-07-18</a>. Herbalism adds about 20% <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-priest.jsonl#L309\" title=\"Greendam, 2025-09-26, Discord #priest: Lasher is one of the best farms priest can do if you don&#x27;t have a farming alt like a mage or hunter. Herb adds about 20% extra income from lasher, not mandatory but def useful. For endgame Engi is the only prof gives you gameplay advantages, all other professions are just for making gold. Overall fo…\">Greendam · 2025-09-26</a>. Reported rates: about 100 g/h on Nordanaar <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L628\" title=\"Zamka, 2025-10-09, Discord #shaman: Lashers is 100g+ per hour on nord\">Zamka · 2025-10-09</a>; 80-100 g per lockout run for a geared paladin <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L880\" title=\"Mithreon, 2025-10-10, Discord #paladin: Dme is like 80-100 per lockout on a good day on Nord, make that 3x per hour if running with 3 geared alts\">Mithreon · 2025-10-10</a>. About 5 lockouts per hour is the cap <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L1648\" title=\"Diving Instructor Knife, 2026-03-30, Discord #shaman: usually most shams do 5lockouts in around 30? min, and then ur locked for another 30\">Diving Instructor Knife · 2026-03-30</a>.\n\n### Class methods\n\n| Class | How |\n|---|---|\n| **Paladin (Prot)** | Drop down in Bubble and sweep the 3 packs nearby, or use a speed potion for the 4th pack at the far column. Route \"3-2-3\" takes about 7 min <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L897\" title=\"Mithreon, 2025-10-11, Discord #paladin: You drop down in bubble, then just move sideways taking all 3 packs nearby, or using running potion and running to the further 4th one near the far column and then back\">Mithreon · 2025-10-11</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L898\" title=\"Mithreon, 2025-10-11, Discord #paladin: I run like this, 3pack first, then run across and take 2 and bring them to the tree NPC, then Judge the pillar pack nearby and chain into the last corner one for another 3pack. So 3 - 2 - 3, takes about 7min\">Mithreon · 2025-10-11</a>. Use Argent Defender (Scholomance quest), not Skullflame Shield <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1722\" title=\"Seviry (#AmbershireMatters), 2026-01-29, Discord #paladin: Lashers use ardent defender, strat/everything else use FRD\">Seviry (#AmbershireMatters) · 2026-01-29</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1287\" title=\"Ythor, 2025-11-28, Discord #paladin: neither, just get argent defender from scholomance quest.... it beats them both for lashers\">Ythor · 2025-11-28</a>. Stack spell power (a 30 SP weapon enchant) <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1513\" title=\"Grey, 2026-01-02, Discord #paladin: 30SP is my go-to\">Grey · 2026-01-02</a>; \"their damage output is negligable so just stack SP\" <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L2554\" title=\"Xiyanzhe 吸烟者, 2026-04-06, Discord #paladin: lasher you can really do them with any gear, their damage output is negligable so just stack SP\">Xiyanzhe 吸烟者 · 2026-04-06</a>. 370 Defense makes you immune to Daze <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1507\" title=\"Magik, 2026-01-01, Discord #paladin: if u do lashers then u might wanna get 370 def. that way ur inmune to being dazed (u still get shadow dmg backstabbed)\">Magik · 2026-01-01</a>. |\n| **Hunter (Survival)** | Pull the whole room with the pet, then kite it in a big circle through Frost Trap and drop Explosive Traps <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-hunter.jsonl#L1018\" title=\"Vellasta, 2026-03-26, Discord #hunter: But basically you gather the mobs with pet and then kite them in a big circle\">Vellasta · 2026-03-26</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-hunter.jsonl#L629\" title=\"Kalamity, 2026-03-04, Discord #hunter: yeah, main premise of doing lashers as a hunter is using a frost trap and kiting them around in a circle to avoid getting hit\">Kalamity · 2026-03-04</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-hunter.jsonl#L337\" title=\"Elmgren, 2025-11-20, Discord #hunter: does not matter. You just run around placing Explosive Traps. Pet is only used for pulling the room\">Elmgren · 2025-11-20</a>. Improved Aspect of the Cheetah at 52 makes it much easier <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-hunter.jsonl#L1017\" title=\"Vellasta, 2026-03-26, Discord #hunter: 52 is when you&#x27;ll be able to get imp cheetah which makes kiting them a lot easier\">Vellasta · 2026-03-26</a>. About 8 min per run <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-hunter.jsonl#L122\" title=\"immaculate&#95;capybara&#95;80667, 2025-01-10, Discord #hunter: When I got my inferno 60 I farmed gold by running dungeons for gear and maraudons solo. as HC gold is kinda useless but hunters can do lasher farming too. Doing respec to survival and placing 2 traps while pet is tanking. Runs take 8 minutes if you are familiar and grant 8-14g from drops. Pretty sur…\">immaculate&#95;capybara&#95;80667 · 2025-01-10</a>. |\n| **Priest (Disc)** | Power Word: Shield + rank-1 Holy Nova. Doable from level 50 <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-priest.jsonl#L368\" title=\"YN, 2025-10-28, Discord #priest: Very possible to do lasher farm. Disc can do it as lvl 50 even.\">YN · 2025-10-28</a>. Two packs at a time in basic gear, then Hydrospawn and reset <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-priest.jsonl#L632\" title=\"Snackz, 2026-02-26, Discord #priest: Very easily. I do it in my basic gear set 2 packs at a time. Then I kill water ele boss and reset. Even with that pace, I still hit the lockout timer.\">Snackz · 2026-02-26</a>. Holy Nova scales poorly with spell power, so HP, mana and crit are what matter <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-priest.jsonl#L564\" title=\"Zitronenhaze - BUFF SPRIEST, 2026-02-06, Discord #priest: nova has bad sp scaling, all that matters is hp,mana,crit\">Zitronenhaze - BUFF SPRIEST · 2026-02-06</a>. |\n| **Shaman** | Fire Nova → Magma → Fire Nova. With Totem of the Tides from [Stormwrought Ruins](#/instances/stormwrought-ruins), one Fire Nova + one Magma per pack <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L406\" title=\"Axemehowirol, 2025-08-16, Discord #shaman: I mean, even though the new totem doesn’t scale, it hits all nearby enemies, I’ve been using it for DME Lasher farming, it sped me up a nice bit. Before my rotation was: - Fire Nova Totem - Magma Totem - one more Nova Totem or refresh Magma Totem But with the new frost nova totem, I find I kill the…\">Axemehowirol · 2025-08-16</a>. Vampirism does not heal off totem damage, which limits pull size <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L681\" title=\"billienomates, 2025-10-16, Discord #shaman: Does Vampirism give you healing from totem damage? I&#x27;m assuming not\">billienomates · 2025-10-16</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-shaman.jsonl#L682\" title=\"Squid, 2025-10-16, Discord #shaman: This kinda fundamentally limits shamans from doing the 8 pull lasher runs\">Squid · 2025-10-16</a>. |\n| **Warlock** | Voidwalker (not an enslaved satyr) + Felstone + vampirism rings. Wand-pull, Torment, then Hellfire. Sacrifice the Voidwalker for the bubble mid-channel if needed <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warlock.jsonl#L399\" title=\"Summonjutsu - GL &lt;Tremor Totems&gt;, 2025-10-06, Discord #warlock: So lasher farming you don&#x27;t use a satyr. You use your void walker or as Gil said above you can use a greater demon. You want the felstone on and maybe a bit of extra vamp. (Pick up two of the vamp rings from the darkmoon faire) You drop down, wand pull the packs, torment aoe with the void siphon lif…\">Summonjutsu - GL &lt;Tremor Totems&gt; · 2025-10-06</a>, <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warlock.jsonl#L400\" title=\"Summonjutsu - GL &lt;Tremor Totems&gt;, 2025-10-06, Discord #warlock: For added safety, when they all agro to you, you can sacrifice the void for the bubble without interrupting the hellfire channel\">Summonjutsu - GL &lt;Tremor Totems&gt; · 2025-10-06</a>. Deep Demonology with Improved Stones and about 15% vampirism, gear farmed in Kara10 <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warlock.jsonl#L1159\" title=\"suddeNslow, 2026-04-03, Discord #warlock: farm kara10 and get most of the vamp items there respec into deep demo and make sure you have improved stones with items + felstone you should go for around 15% vamp you are ready to farm lashers\">suddeNslow · 2026-04-03</a>. \"Our best farm will always be Dire maul east\" <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warlock.jsonl#L535\" title=\"Ghost9626 &#124; Warlock Shift Lead, 2025-11-03, Discord #warlock: our best farm will always be Dire maul east\">Ghost9626 &#124; Warlock Shift Lead · 2025-11-03</a>. |\n| **Druid** | Bear, one pack at a time; a full clear takes about 8 min <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-druid.jsonl#L670\" title=\"Gabmoon, 2025-12-30, Discord #druid: Druids can do lasher, im doing on my druid and i dont have the rag trinket, it takes a bit long to do a full lasher clear, for me its 8 minutes. But you can do going into bear and pull 1 pack each time, if you want to make gold with lashers just lvl up a hunter and you can do a full clear in 4 minut…\">Gabmoon · 2025-12-30</a>. |"
         },
         {
           "id": "west-dmw",
@@ -2059,6 +2534,36 @@
           "markdown": "- **Undead side, tanks:** keep priority targets under control. The **banshees in Strat UD cast an AoE silence** <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warrior.jsonl#L632\" title=\"Aubreykun, 2025-11-23, Discord #warrior: Mark targets -&gt; DPS doesn&#x27;t focus fire? they have kit to deal with it (Nova, Vanish, FD, roots, etc) Keep aggro off healer. Keep prio targets from causing havoc (banshees in strat UD do AoE silence) Don&#x27;t expect to hold aggro on literally everything, especially in a big pack. Huge pack of mobs? The…\">Aubreykun · 2025-11-23</a>. Warrior tanks use Demoralizing Shout to put threat on the undead swarms <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-warrior.jsonl#L249\" title=\"Eboshii, 2025-05-04, Discord #warrior: it doesnt &quot;boost&quot; your threat, it generates an amount of threat on each mob&#x27;s threat table, which you can do by using abilities or attacking them obviously. but for example if youre pulling like the skeletons in rfd, or in stratholme where there are too many to be hit by your abilities (excluding ho…\">Eboshii · 2025-05-04</a>.\n- **Undead dungeons in general:** bring Blessed Wizard Oil and the Argent Dawn trinket \"and you're going to cut through packs like butter\" <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1128\" title=\"Silverhand, 2025-11-06, Discord #paladin: if you&#x27;re going for the undead dungeons, bring the blessed wizard oil and the argent dawn trinket and you&#x27;re going to cut through packs like butter 🤤\">Silverhand · 2025-11-06</a>.\n- **Magistrate Barthilas:** if you log out mid-run and come back about an hour later, for example after a server reset, he has respawned at the front and you can fight him there <a class=\"cite cite-discord\" href=\"https://github.com/stevemcqueenz/turtle-knowledge-base-/blob/main/structured/discord/evidence-paladin.jsonl#L1077\" title=\"Dodging, 2025-10-29, Discord #paladin: if you log out of an inprogress strat and come back maybe like an hour later (redbull run, server reset) barthilas will be respawned at the front and you can fight him there\">Dodging · 2025-10-29</a>."
         },
         {
+          "id": "route-live-side-main-gate",
+          "heading": "Route — Live side (main gate)",
+          "level": 2,
+          "markdown": "Our clears run the Live side in this order (the boss order is measured, not the level order the wiki gives):\n\n| # | Boss | Note |\n|---|---|---|\n| 1 | **The Unforgiven** | the first courtyard boss; her four Vengeful Phantoms slow the tank, so they die first [classic] |\n| 2 | **Timmy the Cruel** | he looks like ordinary trash ghouls — the group walks past him without an anchor; Thrash, a self-heal on his claw, and Enrage at 50% [classic] |\n| 3 | **Malor the Zealous** | a caster paladin alone in a side room: Ground Smash (AoE stun), Holy Light on an ally, and Lay on Hands at low health — burst or kick past it [classic] |\n| 4 | **Cannon Master Willey** | the fight is his reinforcements: Riflemen keep arriving until the cannons beside him are loaded and fired with the ammo piles next to him — our plan's data carries the cannon fire [measured] |\n| 5 | **Archivist Galford** | last corridor of the Bastion: pull him out of the corridor so Fire Nova and Burning Winds are not on the stack [classic] |\n| 6 | **Grand Crusader Dathrohan → Balnazzar** (final) | the scripted reveal: \"Dathrohan\" is Balnazzar. Our clears register Balnazzar as the final kill [measured on bot runs, private 1.18.1-based realm] |\n\n**Optionals on this side:** Balzaphon, Skul (rare) and the Jarien/Sothos pair. A clean Live clear is **six bosses**\nin our runs; the round's Live clears run **55 to 109 minutes** (fastest 55.2 min with 0 wipes, slowest 109.2 min).\n[measured]"
+        },
+        {
+          "id": "route-undead-side-service-entrance",
+          "heading": "Route — Undead side (service entrance)",
+          "level": 2,
+          "markdown": "| # | Boss | Note |\n|---|---|---|\n| 1 | **Magistrate Barthilas** | the first boss of the side, and the one that matters for the gates: he drops the **Key to the City** [measured] |\n| 2 | **Baroness Anastari** | Possess: a party member is mind-controlled and must be brought to **50% health by their own group** to break it; Silence and Banshee Curse [classic] |\n| 3 | **Nerub'enkan** | Encasing Webs on the tank and adds; tank at the top of the ramp, in line of sight of the healer [classic] |\n| 4 | **Maleki the Pallid** | frost caster; interrupt and decurse [classic] |\n| 5 | **Ramstein the Gorger** | enters when the last abomination dies. **Knockout** (in our plan's data) drops his target's threat and switches him to the second-highest — have a taunt ready [classic] |\n| 6 | **Baron Rivendare** (final) | **Mortal Strike** (healing debuff on the tank — in our plan's data) and **Unholy Aura** (a **~27-yard** shadow aura that hits ranged and healers, not just melee) — keep the group spread [classic] |\n\nThe **Black Guard Sentries** are the gauntlet's trash around Ramstein, not a boss stop of their own (our clears kill\nsix bosses on this side). [measured]\n\n**Optional:** Stonespine (rare) patrols between the ziggurats. Our best Undead pass took **68 minutes**. [measured]\n\n**All three ziggurat bosses must die before the gauntlet and Slaughter Square open**, and each ziggurat also has\ninterior **Thuzadin Acolytes** worth clearing; the order *among* the three is not fixed. Our clears take\n**Anastari → Nerub'enkan → Maleki**, after Barthilas. [classic] / [measured] *Note for the owner:* the page's\n\"Undead side, tanks\" line about the **banshee AoE silence** stays — it is still the wing's most useful one-liner."
+        },
+        {
+          "id": "keys-and-gates",
+          "heading": "Keys and gates",
+          "level": 2,
+          "markdown": "| Gate | Key | Where the key comes from |\n|---|---|---|\n| **Bastion Door**, **Hoard Door**, **Hall of the High Command** (Live side, three doors) | **The Scarlet Key** | our realm's data has it as a **0.02% drop** from Scarlet Diviner, Scarlet Chaplain and Scarlet Monk (all Live-side) — our parties carry it rather than farm it; check the live drop rate before planning around it [measured] |\n| **Gauntlet Gate (west)** and **Gauntlet Gate (east)** (Undead side) | **Key to the City** | drops from **Magistrate Barthilas** (the Undead side's first boss) [measured] |\n\nThe Live side is therefore a **key gate chain**: without the Scarlet Key a group can do the street and Willey but\nnot the last three doors; the Undead side's own key is on its first boss, so that side is self-contained. [measured]\n\n**The Baron's Ultimatum** (a 45-minute timer on the Undead side) is real [classic] but it only matters for the\nTier 0.5 quest chain; a full-clear group can ignore it."
+        },
+        {
+          "id": "dangerous-packs-and-what-worked-for-us",
+          "heading": "Dangerous packs (and what worked for us)",
+          "level": 2,
+          "markdown": "- **The Live side is not all humanoid.** The outer zones (King's Square, Market Row) are undead-heavy — Shackle\n  Undead and Turn Undead land, Polymorph does not; the **Bastion is Scarlet humanoid** — Polymorph lands, Shackle\n  does not. A group wants **both kinds of CC**. [classic]\n- **Casters first.** Crimson Conjurors summon Water Elementals, and the Bastion's Sorcerers, Inquisitors and Monks\n  are the pack's damage. Kill the Conjurors and Sorcerers first and the fight halves. [classic]\n- **Pull back into the doorway.** Both sides are wide streets; fight packs in the corridor you came from, never in\n  the open, or the next pack walks in. [classic]\n- **Our first Live runs died at the entrance packs** (three parties, 07:54:25-07:55:01Z, 121-158 yards from the\n  entrance, before any boss) — the street in front of the first boss is the side's real gear check, not the bosses.\n  [measured]\n- **The Undead side's danger is the trash:** the crypt corridors are pack-heavy and full of walkers; pull the packs\n  back to the stair landings and keep priority targets controlled — the page's banshee AoE silence is the line to\n  keep in mind. [classic]\n- **The abomination gauntlet** is slow but harmless if the tank keeps them turned away from the group; Ramstein is\n  the only dangerous part of it. [measured]"
+        },
+        {
+          "id": "two-things-the-page-s-boss-table-needs",
+          "heading": "Two things the page's boss table needs",
+          "level": 2,
+          "markdown": "- **The route is not the level order.** The wiki's per-boss order hides that the Live side's last three bosses are\n  gated behind the Scarlet Key, and that the Undead side's first boss is the one that hands you its gate key.\n  [measured]\n- **The run's final kill on the Live side is Balnazzar**, not Dathrohan — the reveal is a scripted event, and the\n  page should say so before someone blows cooldowns on the \"crusader\". [measured]"
+        },
+        {
           "id": "notable-loot",
           "heading": "Notable loot",
           "level": 2,
@@ -2108,6 +2613,55 @@
                 "x": 0.7874,
                 "y": 0.6315,
                 "anchor": "group-notes"
+              },
+              {
+                "n": 2,
+                "boss": "Malor the Zealous",
+                "x": 0.2311,
+                "y": 0.6846,
+                "anchor": "route-live-side-main-gate"
+              },
+              {
+                "n": 3,
+                "boss": "Cannon Master Willey",
+                "x": 0.017,
+                "y": 0.7444,
+                "anchor": "route-live-side-main-gate"
+              },
+              {
+                "n": 4,
+                "boss": "Archivist Galford",
+                "x": 0.2047,
+                "y": 0.8926,
+                "anchor": "route-live-side-main-gate"
+              },
+              {
+                "n": 5,
+                "boss": "Grand Crusader Dathrohan",
+                "x": 0.1353,
+                "y": 0.9459,
+                "anchor": "route-live-side-main-gate"
+              },
+              {
+                "n": 6,
+                "boss": "Baroness Anastari",
+                "x": 0.8966,
+                "y": 0.3894,
+                "anchor": "route-undead-side-service-entrance"
+              },
+              {
+                "n": 7,
+                "boss": "Maleki the Pallid",
+                "x": 0.8198,
+                "y": 0.1621,
+                "anchor": "route-undead-side-service-entrance"
+              },
+              {
+                "n": 8,
+                "boss": "Baron Rivendare",
+                "x": 0.4641,
+                "y": 0.1659,
+                "anchor": "route-undead-side-service-entrance"
               }
             ]
           }
